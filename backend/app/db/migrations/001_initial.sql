@@ -1,0 +1,3 @@
+-- Blamics initial migration
+-- Run manually: python -m app.db.migrations.migrate
+-- This file will be populated when the database schema is designed.

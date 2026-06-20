@@ -1,0 +1,1 @@
+"""Blamics Backend — FastAPI application."""
