@@ -1,8 +1,7 @@
 {
-  "last_updated": "2026-06-21T18:12:06.582310+00:00",
+  "last_updated": "2026-06-22T00:35:13.794715",
   "sources_scraped": [
     "investorgain",
-    "ipocentral",
     "chittorgarh"
   ],
   "ipo_count": 5,
@@ -12,7 +11,6 @@
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "",
-      "face_value": "",
       "lot_size": "",
       "issue_size": "₹170.00 Cr",
       "issue_open": "29-Jun",
@@ -22,14 +20,13 @@
       "gmp": "₹0",
       "gmp_percent": "0.00%",
       "detail_url": "https://www.investorgain.com/gmp/aastha-spintex-ipo/1593/",
-      "scraped_at": "2026-06-21T18:11:53.637048+00:00"
+      "scraped_at": "2026-06-22T00:35:04.082868"
     },
     {
       "issue_name": "CSM Technologies",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "113",
-      "face_value": "",
       "lot_size": "132",
       "issue_size": "₹145.78 Cr",
       "issue_open": "24-Jun",
@@ -39,14 +36,13 @@
       "gmp": "₹4",
       "gmp_percent": "3.54%",
       "detail_url": "https://www.investorgain.com/gmp/csm-technologies-ipo/1911/",
-      "scraped_at": "2026-06-21T18:11:53.637136+00:00"
+      "scraped_at": "2026-06-22T00:35:04.082952"
     },
     {
       "issue_name": "Waterways Leisure Tourism",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "808",
-      "face_value": "",
       "lot_size": "18",
       "issue_size": "₹585.00 Cr",
       "issue_open": "23-Jun",
@@ -56,14 +52,13 @@
       "gmp": "₹10",
       "gmp_percent": "1.24%",
       "detail_url": "https://www.investorgain.com/gmp/cordelia-cruises-ipo/1801/",
-      "scraped_at": "2026-06-21T18:11:53.637203+00:00"
+      "scraped_at": "2026-06-22T00:35:04.083020"
     },
     {
       "issue_name": "Advit Jewels",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "138",
-      "face_value": "",
       "lot_size": "100",
       "issue_size": "₹165.16 Cr",
       "issue_open": "23-Jun",
@@ -73,14 +68,13 @@
       "gmp": "₹64",
       "gmp_percent": "46.38%",
       "detail_url": "https://www.investorgain.com/gmp/advit-jewels-ipo/1949/",
-      "scraped_at": "2026-06-21T18:11:53.637260+00:00"
+      "scraped_at": "2026-06-22T00:35:04.083083"
     },
     {
       "issue_name": "Turtlemint Fintech Solutions",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "152",
-      "face_value": "",
       "lot_size": "98",
       "issue_size": "₹882.67 Cr",
       "issue_open": "19-Jun",
@@ -90,7 +84,7 @@
       "gmp": "₹2",
       "gmp_percent": "1.32%",
       "detail_url": "https://www.investorgain.com/gmp/turtlemint-fintech-solutions-ipo/1885/",
-      "scraped_at": "2026-06-21T18:11:53.637321+00:00"
+      "scraped_at": "2026-06-22T00:35:04.083162"
     }
   ]
 }

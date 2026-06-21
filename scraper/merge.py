@@ -117,19 +117,12 @@ def merge_ipo_data(
     return result
 
 
+import dataclasses
+
 def _fill_missing(target: IPOData, source: IPOData):
     """Fill empty fields in target from source. Never overwrite existing data."""
-    fields_to_fill = [
-        "price_band", "face_value", "lot_size", "issue_size",
-        "issue_open", "issue_close", "allotment_date", "listing_date",
-        "gmp", "gmp_percent",
-    ]
-    for field in fields_to_fill:
-        target_val = getattr(target, field, "")
-        source_val = getattr(source, field, "")
+    for field in dataclasses.fields(target):
+        target_val = getattr(target, field.name, "")
+        source_val = getattr(source, field.name, "")
         if not target_val and source_val:
-            setattr(target, field, source_val)
-
-    # Append detail URL if target doesn't have one
-    if not target.detail_url and source.detail_url:
-        target.detail_url = source.detail_url
+            setattr(target, field.name, source_val)

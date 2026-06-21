@@ -12,9 +12,6 @@ REQUEST_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-REQUEST_TIMEOUT = 30          # seconds
-DELAY_BETWEEN_REQUESTS = 1    # seconds — be respectful, but fast enough
-MAX_RETRIES = 3
 
 # ─── Output ───────────────────────────────────────────────────────────────────
 
