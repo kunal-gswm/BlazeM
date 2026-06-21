@@ -16,8 +16,8 @@ class InvestorGainScraper(BaseScraper):
         """Scrape the InvestorGain live GMP table for mainboard IPOs."""
         soup = self.fetch_html_js(
             INVESTORGAIN_GMP_URL,
-            wait_selector="table.table",
-            timeout_ms=20000,
+            wait_selector="table",
+            timeout_ms=10000,
         )
         if not soup:
             logger.error("Failed to fetch InvestorGain GMP page")
