@@ -14,7 +14,7 @@ from models import IPOData, ScrapeResult
 from scrapers.investorgain import InvestorGainScraper
 from scrapers.ipocentral import IPOCentralScraper
 from scrapers.chittorgarh import ChittorgarhScraper
-from merge import merge_ipo_data
+from merge import merge_ipo_data, filter_active_and_upcoming
 
 
 def setup_logging(verbose: bool = False):
@@ -59,6 +59,9 @@ def run_scraper(source: str | None = None) -> list[IPOData]:
         all_ipos = investorgain_ipos + ipocentral_ipos + chittorgarh_ipos
     else:
         all_ipos = merge_ipo_data(investorgain_ipos, ipocentral_ipos, chittorgarh_ipos)
+
+    # Filter for only Open and Upcoming
+    all_ipos = filter_active_and_upcoming(all_ipos)
 
     return all_ipos
 
