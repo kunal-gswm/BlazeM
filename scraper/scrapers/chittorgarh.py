@@ -4,6 +4,7 @@ import logging
 import re
 from scrapers.base import BaseScraper
 from models import IPOData
+from merge import normalize_name
 from config import (
     CHITTORGARH_CURRENT_IPOS_URL,
     CHITTORGARH_TIMETABLE_URL,
@@ -25,7 +26,7 @@ class ChittorgarhScraper(BaseScraper):
         # Scrape current IPOs
         current = self._scrape_page(CHITTORGARH_CURRENT_IPOS_URL, "current IPOs")
         for ipo in current:
-            norm = self._normalize_name(ipo.issue_name)
+            norm = normalize_name(ipo.issue_name)
             if norm not in seen_names:
                 seen_names.add(norm)
                 all_ipos.append(ipo)
@@ -33,7 +34,7 @@ class ChittorgarhScraper(BaseScraper):
         # Scrape timetable page (has lot size, dates)
         timetable = self._scrape_page(CHITTORGARH_TIMETABLE_URL, "timetable")
         for ipo in timetable:
-            norm = self._normalize_name(ipo.issue_name)
+            norm = normalize_name(ipo.issue_name)
             if norm not in seen_names:
                 seen_names.add(norm)
                 all_ipos.append(ipo)
@@ -41,7 +42,7 @@ class ChittorgarhScraper(BaseScraper):
         # Scrape upcoming IPOs
         upcoming = self._scrape_page(CHITTORGARH_UPCOMING_URL, "upcoming IPOs")
         for ipo in upcoming:
-            norm = self._normalize_name(ipo.issue_name)
+            norm = normalize_name(ipo.issue_name)
             if norm not in seen_names:
                 seen_names.add(norm)
                 all_ipos.append(ipo)
@@ -176,11 +177,3 @@ class ChittorgarhScraper(BaseScraper):
             listing_date=get_cell("listing"),
             detail_url=detail_url,
         )
-
-    @staticmethod
-    def _normalize_name(name: str) -> str:
-        """Normalize for dedup."""
-        name = name.lower().strip()
-        name = re.sub(r'\s*(ipo|limited|ltd|pvt)\.?\s*', ' ', name)
-        name = re.sub(r'[^a-z0-9\s]', '', name)
-        return " ".join(name.split())

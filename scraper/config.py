@@ -24,11 +24,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "ipo_data.json")
 
-# ─── IPO Central ──────────────────────────────────────────────────────────────
-
-IPOCENTRAL_GMP_URL = "https://ipocentral.in/ipo-discussion/"
-IPOCENTRAL_IPO_LIST_URL = "https://ipocentral.in/ipo-2026/"
-IPOCENTRAL_BASE_URL = "https://ipocentral.in"
 
 # ─── Chittorgarh ─────────────────────────────────────────────────────────────
 
