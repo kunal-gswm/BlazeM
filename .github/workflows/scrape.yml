@@ -2,47 +2,41 @@ name: Scrape IPO Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'    # Every 30 minutes
-  workflow_dispatch:           # Manual trigger
-
-permissions:
-  contents: write
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-          cache: 'pip'
-          cache-dependency-path: scraper/requirements.txt
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
-          playwright install chromium --with-deps
+          playwright install chromium
 
-      - name: Run scraper
-        run: python scraper/run.py
-        env:
-          PYTHONUNBUFFERED: '1'
-
-      - name: Commit & push updated data
+      - name: Run Scraper
         run: |
-          git config user.name "IPO Scraper Bot"
-          git config user.email "ipo-bot@users.noreply.github.com"
+          cd scraper
+          python run.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add scraper/data/ipo_data.json
-          # Only commit if there are actual changes
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "📊 Update IPO data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          fi
+          git commit -m "chore(data): auto-update IPO data" || echo "No changes to commit"
+          git push
