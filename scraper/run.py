@@ -12,7 +12,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import OUTPUT_DIR, OUTPUT_FILE
 from models import IPOData, ScrapeResult
 from scrapers.investorgain import InvestorGainScraper
-from scrapers.ipocentral import IPOCentralScraper
 from scrapers.chittorgarh import ChittorgarhScraper
 from merge import merge_ipo_data, filter_active_and_upcoming
 
@@ -24,14 +23,18 @@ def setup_logging(verbose: bool = False):
         format="%(asctime)s [%(levelname)s] %(message)s",
         datefmt="%H:%M:%S",
     )
+    # Suppress verbose third-party logs
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 def run_scraper(source: str | None = None) -> list[IPOData]:
-    """Run scrapers based on source selection."""
+    """Run all scrapers (or a specific one) and merge results."""
+    logging.info("🚀 IPO Scraper starting...")
+
     investorgain_ipos = []
-    ipocentral_ipos = []
     chittorgarh_ipos = []
 
+    # 1. InvestorGain
     if source is None or source == "investorgain":
         logging.info("─── Scraping InvestorGain ───")
         try:
@@ -39,13 +42,7 @@ def run_scraper(source: str | None = None) -> list[IPOData]:
         except Exception as e:
             logging.error(f"InvestorGain scraper failed: {e}")
 
-    if source is None or source == "ipocentral":
-        logging.info("─── Scraping IPO Central ───")
-        try:
-            ipocentral_ipos = IPOCentralScraper().scrape()
-        except Exception as e:
-            logging.error(f"IPO Central scraper failed: {e}")
-
+    # 2. Chittorgarh
     if source is None or source == "chittorgarh":
         logging.info("─── Scraping Chittorgarh ───")
         try:
@@ -56,9 +53,9 @@ def run_scraper(source: str | None = None) -> list[IPOData]:
     # Merge all sources
     if source:
         # Single source mode — no merge needed
-        all_ipos = investorgain_ipos + ipocentral_ipos + chittorgarh_ipos
+        all_ipos = investorgain_ipos + chittorgarh_ipos
     else:
-        all_ipos = merge_ipo_data(investorgain_ipos, ipocentral_ipos, chittorgarh_ipos)
+        all_ipos = merge_ipo_data(investorgain_ipos, chittorgarh_ipos)
 
     # Filter for only Open and Upcoming
     all_ipos = filter_active_and_upcoming(all_ipos)

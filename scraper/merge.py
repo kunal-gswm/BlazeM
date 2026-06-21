@@ -86,14 +86,12 @@ def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
 
 def merge_ipo_data(
     investorgain_ipos: list[IPOData],
-    ipocentral_ipos: list[IPOData],
     chittorgarh_ipos: list[IPOData],
 ) -> list[IPOData]:
     """Merge IPO data from all sources into a deduplicated list.
 
     Strategy:
     - Pass 1 & 2: Use InvestorGain and Chittorgarh to build the base list, as they are explicitly filtered for Mainboard IPOs.
-    - Pass 3: Use IPO Central purely to fill missing fields (GMP discussion page on IPO Central mixes SME and Mainboard, so we don't add new entries from it).
     """
     merged: dict[str, IPOData] = {}
 
@@ -113,15 +111,6 @@ def merge_ipo_data(
             _fill_missing(merged[key], ipo)
         else:
             merged[key] = ipo
-
-    # Pass 3: IPO Central — fill gaps ONLY. Do not add new IPOs to prevent SME leakage.
-    for ipo in ipocentral_ipos:
-        key = normalize_name(ipo.issue_name)
-        if not key:
-            continue
-
-        if key in merged:
-            _fill_missing(merged[key], ipo)
 
     result = list(merged.values())
     logger.info(f"Merged: {len(result)} unique IPOs")
