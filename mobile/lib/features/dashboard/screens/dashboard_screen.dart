@@ -51,11 +51,12 @@ class DashboardScreen extends ConsumerWidget {
           itemBuilder: (_, __) => ShimmerLoader.block(height: 120),
         ),
       DataError(:final message) => ErrorView(message: message),
-      DataFresh(:final data) || DataStale(:final data) => _buildDashboardContent(context, data),
+      DataFresh(:final data) => _buildDashboardContent(context, data, false),
+      DataStale(:final data) => _buildDashboardContent(context, data, true),
     };
   }
 
-  Widget _buildDashboardContent(BuildContext context, List<TimelineEvent> events) {
+  Widget _buildDashboardContent(BuildContext context, List<TimelineEvent> events, bool isStale) {
     final highPriorityEvents = events.where((e) => e.importanceScore >= 50).toList();
 
     if (highPriorityEvents.isEmpty) {
@@ -72,6 +73,24 @@ class DashboardScreen extends ConsumerWidget {
       child: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          if (isStale)
+            Container(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              margin: const EdgeInsets.only(bottom: 16),
+              decoration: BoxDecoration(
+                color: Colors.orange.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(color: Colors.orange.withOpacity(0.5)),
+              ),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.wifi_off, size: 16, color: Colors.orange),
+                  SizedBox(width: 8),
+                  Text('Offline • Showing cached data', style: TextStyle(color: Colors.orange)),
+                ],
+              ),
+            ),
           if (todayEvents.isNotEmpty) ...[
             Text(
               'TODAY',
