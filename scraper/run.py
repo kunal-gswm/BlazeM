@@ -6,6 +6,12 @@ import logging
 import os
 import sys
 
+# Force stdout to UTF-8 for Windows consoles to support the Rupee symbol (₹)
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 # Add scraper dir to path so imports work when run from any cwd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -63,8 +69,8 @@ def run_scraper(source: str | None = None) -> list[IPOData]:
     return all_ipos
 
 
-def save_output(ipos: list[IPOData], sources: list[str]):
-    """Save scraped data to JSON file."""
+def save_output(ipos: list[IPOData], sources: list[str]) -> str:
+    """Save scraped data to JSON file and return the JSON string."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     result = ScrapeResult.from_ipos(ipos, sources)
@@ -74,13 +80,14 @@ def save_output(ipos: list[IPOData], sources: list[str]):
         f.write(json_str)
 
     logging.info(f"✅ Saved {len(ipos)} IPOs to {OUTPUT_FILE}")
+    return json_str
 
 
 def main():
-    parser = argparse.ArgumentParser(description="IPO Data Scraper — IPO Central, Chittorgarh, InvestorGain")
+    parser = argparse.ArgumentParser(description="IPO Data Scraper — Chittorgarh, InvestorGain")
     parser.add_argument(
         "--source",
-        choices=["ipocentral", "chittorgarh", "investorgain"],
+        choices=["chittorgarh", "investorgain"],
         default=None,
         help="Scrape a single source (default: all)",
     )
@@ -98,36 +105,20 @@ def main():
     if args.source:
         sources = [args.source]
     else:
-        sources = ["investorgain", "ipocentral", "chittorgarh"]
+        sources = ["investorgain", "chittorgarh"]
 
     # Run
     ipos = run_scraper(args.source)
 
     if not ipos:
         logging.warning("⚠️  No IPOs scraped from any source")
-        # Still save empty result so the file always exists
-        save_output([], sources)
+        json_str = save_output([], sources)
+        print(json_str)
         return
 
-    # Save
-    save_output(ipos, sources)
-
-    # Print summary (ASCII-safe for Windows console)
-    try:
-        print(f"\n{'-' * 60}")
-        print(f"{'IPO Name':<35} {'GMP':>8} {'Price':>12}")
-        print(f"{'-' * 60}")
-        for ipo in ipos[:20]:  # Show top 20
-            name = ipo.issue_name[:34]
-            gmp = ipo.gmp[:8] if ipo.gmp else "-"
-            price = ipo.price_band[:12] if ipo.price_band else "-"
-            print(f"{name:<35} {gmp:>8} {price:>12}")
-        if len(ipos) > 20:
-            print(f"  ... and {len(ipos) - 20} more")
-        print(f"{'-' * 60}")
-    except UnicodeEncodeError:
-        # Fallback for consoles that can't handle certain chars
-        logging.info(f"Scraped {len(ipos)} IPOs (see JSON for details)")
+    # Save and output raw JSON API response
+    json_str = save_output(ipos, sources)
+    print(json_str)
 
 
 if __name__ == "__main__":
