@@ -3,7 +3,7 @@
 import logging
 import re
 from models import IPOData
-from merge import normalize_name
+from transform import normalize_name
 from config import (
     CHITTORGARH_CURRENT_IPOS_URL,
     CHITTORGARH_TIMETABLE_URL,

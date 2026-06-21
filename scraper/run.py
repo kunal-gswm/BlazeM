@@ -17,7 +17,7 @@ from config import OUTPUT_DIR, OUTPUT_FILE
 from models import IPOData, ScrapeResult
 from investorgain import scrape_investorgain
 from chittorgarh import scrape_chittorgarh
-from merge import merge_ipo_data, filter_active_and_upcoming
+from transform import merge_ipo_data, filter_active_and_upcoming
 
 def setup_logging():
     logging.basicConfig(
