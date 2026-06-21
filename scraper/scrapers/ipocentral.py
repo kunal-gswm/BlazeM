@@ -28,10 +28,19 @@ class IPOCentralScraper(BaseScraper):
         list_ipos = self._scrape_ipo_list()
 
         # Merge list data into GMP data where names match
-        gmp_names = {self._normalize_name(ipo.issue_name) for ipo in ipos}
+        gmp_dict = {self._normalize_name(ipo.issue_name): ipo for ipo in ipos}
         for ipo in list_ipos:
             norm = self._normalize_name(ipo.issue_name)
-            if norm not in gmp_names:
+            if norm in gmp_dict:
+                gmp_ipo = gmp_dict[norm]
+                # Copy dates and sizes into the GMP record
+                gmp_ipo.issue_open = gmp_ipo.issue_open or ipo.issue_open
+                gmp_ipo.issue_close = gmp_ipo.issue_close or ipo.issue_close
+                gmp_ipo.issue_size = gmp_ipo.issue_size or ipo.issue_size
+                gmp_ipo.lot_size = gmp_ipo.lot_size or ipo.lot_size
+                gmp_ipo.listing_date = gmp_ipo.listing_date or ipo.listing_date
+                gmp_ipo.allotment_date = gmp_ipo.allotment_date or ipo.allotment_date
+            else:
                 ipos.append(ipo)
 
         # Step 3: Enrich with detail pages (face value, lot size, etc.)

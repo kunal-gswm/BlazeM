@@ -13,7 +13,7 @@ REQUEST_HEADERS = {
 }
 
 REQUEST_TIMEOUT = 30          # seconds
-DELAY_BETWEEN_REQUESTS = 2    # seconds — be respectful
+DELAY_BETWEEN_REQUESTS = 1    # seconds — be respectful, but fast enough
 MAX_RETRIES = 3
 
 # ─── Output ───────────────────────────────────────────────────────────────────
