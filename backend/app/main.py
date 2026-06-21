@@ -37,13 +37,33 @@ def create_app() -> FastAPI:
         lifespan=lifespan,
     )
 
-    # CORS — allow mobile app
+    # CORS — restrict to local network and emulators
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=[
+            "http://localhost",
+            "http://127.0.0.1",
+            "http://10.0.2.2",
+            "http://10.0.3.2",
+            "http://localhost:8000",
+        ],
         allow_methods=["*"],
         allow_headers=["*"],
     )
+
+    @app.get("/health", tags=["system"])
+    async def health_check():
+        from app.db.pool import get_pool
+        db_ok = False
+        try:
+            pool = get_pool()
+            async with pool.acquire() as conn:
+                await conn.execute("SELECT 1")
+            db_ok = True
+        except Exception:
+            pass
+        
+        return {"status": "ok", "database": db_ok}
 
     # Register routers
     prefix = "/api"

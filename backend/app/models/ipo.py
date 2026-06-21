@@ -13,6 +13,7 @@ class IpoModel(BaseModel):
     lot_size: int | None = None
     issue_size: float | None = None
     retail_quota: float | None = None
+    latest_gmp: float | None = None
     status: EventStatus
     open_date: date | None = None
     close_date: date | None = None

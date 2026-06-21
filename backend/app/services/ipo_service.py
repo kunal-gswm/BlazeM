@@ -12,10 +12,18 @@ async def get_ipos(conn: asyncpg.Connection) -> list[IpoModel]:
             i.id, i.company_name, i.symbol, i.issue_price_min, i.issue_price_max,
             i.lot_size, i.issue_size, i.retail_quota, i.status,
             i.open_date, i.close_date, i.allotment_date, i.listing_date,
+            g.gmp as latest_gmp,
             s.id as source_id, s.priority as source_priority,
             i.created_at, i.fetched_at, i.updated_at
         FROM ipos i
         JOIN sources s ON i.source_id = s.id
+        LEFT JOIN LATERAL (
+            SELECT gmp 
+            FROM gmp_history 
+            WHERE ipo_id = i.id 
+            ORDER BY recorded_at DESC 
+            LIMIT 1
+        ) g ON true
         ORDER BY COALESCE(i.open_date, i.created_at::date) DESC
     """
     
@@ -40,6 +48,7 @@ async def get_ipos(conn: asyncpg.Connection) -> list[IpoModel]:
             lot_size=r["lot_size"],
             issue_size=r["issue_size"],
             retail_quota=r["retail_quota"],
+            latest_gmp=r["latest_gmp"],
             status=EventStatus(r["status"]),
             open_date=r["open_date"],
             close_date=r["close_date"],

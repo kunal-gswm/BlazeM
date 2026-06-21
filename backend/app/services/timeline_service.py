@@ -15,7 +15,7 @@ async def get_timeline_events(conn: asyncpg.Connection) -> list[TimelineEventMod
             t.created_at, t.fetched_at, t.updated_at
         FROM timeline_events t
         JOIN sources s ON t.source_id = s.id
-        ORDER BY t.date ASC
+        ORDER BY t.date ASC, t.importance_score DESC
     """
     
     records = await conn.fetch(query)
