@@ -1,2 +1,0 @@
--- Corporate actions queries
--- To be implemented.

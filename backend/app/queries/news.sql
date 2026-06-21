@@ -1,2 +1,0 @@
--- News queries
--- To be implemented.
