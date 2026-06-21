@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'route_names.dart';
+import '../features/dashboard/screens/dashboard_screen.dart';
+import '../features/ipo/screens/ipo_list_screen.dart';
+import '../features/ipo/screens/ipo_detail_screen.dart';
+import '../features/event_timeline/screens/event_timeline_screen.dart';
 
 // Placeholder screens — replaced as features are built.
 // Each import will point to the actual feature screen.
@@ -110,20 +114,18 @@ final appRouter = GoRouter(
         GoRoute(
           path: '/',
           name: RouteNames.dashboard,
-          builder: (context, state) =>
-              const _PlaceholderScreen('Dashboard'),
+          builder: (context, state) => const DashboardScreen(),
         ),
         GoRoute(
           path: '/ipo',
           name: RouteNames.ipoList,
-          builder: (context, state) =>
-              const _PlaceholderScreen('IPOs'),
+          builder: (context, state) => const IpoListScreen(),
           routes: [
             GoRoute(
               path: ':id',
               name: RouteNames.ipoDetail,
-              builder: (context, state) => _PlaceholderScreen(
-                'IPO ${state.pathParameters['id']}',
+              builder: (context, state) => IpoDetailScreen(
+                id: state.pathParameters['id']!,
               ),
               routes: [
                 GoRoute(
@@ -187,6 +189,11 @@ final appRouter = GoRouter(
           name: RouteNames.watchlist,
           builder: (context, state) =>
               const _PlaceholderScreen('Watchlist'),
+        ),
+        GoRoute(
+          path: '/timeline',
+          name: RouteNames.eventTimeline,
+          builder: (context, state) => const EventTimelineScreen(),
         ),
         GoRoute(
           path: '/search',

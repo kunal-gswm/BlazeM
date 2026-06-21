@@ -39,6 +39,18 @@ extension DateTimeExtensions on DateTime {
     return year == now.year && month == now.month && day == now.day;
   }
 
+  /// Relative string or formatted date.
+  String toRelativeOrDate() {
+    if (isToday) return 'Today';
+    if (isTomorrow) return 'Tomorrow';
+    final now = DateTime.now();
+    final diff = now.difference(this);
+    if (diff.abs().inDays < 7) {
+      return relative;
+    }
+    return formatted;
+  }
+
   /// Whether this date is tomorrow.
   bool get isTomorrow {
     final tomorrow = DateTime.now().add(const Duration(days: 1));

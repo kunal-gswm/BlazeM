@@ -8,16 +8,16 @@ class AppColors {
   const AppColors._();
 
   // ── Background ────────────────────────────────────────────────────
-  static const Color scaffoldDark = Color(0xFF0D0F13);
-  static const Color surfaceDark = Color(0xFF141720);
-  static const Color cardDark = Color(0xFF1A1E2B);
-  static const Color cardElevatedDark = Color(0xFF212637);
+  static const Color scaffoldDark = Color(0xFF090A0D);
+  static const Color surfaceDark = Color(0xFF13151B);
+  static const Color cardDark = Color(0xFF191C24);
+  static const Color cardElevatedDark = Color(0xFF232733);
 
   // ── Text ──────────────────────────────────────────────────────────
-  static const Color textPrimary = Color(0xFFE8EAED);
-  static const Color textSecondary = Color(0xFF9AA0AC);
-  static const Color textTertiary = Color(0xFF5F6572);
-  static const Color textDisabled = Color(0xFF3D4350);
+  static const Color textPrimary = Color(0xFFFFFFFF);
+  static const Color textSecondary = Color(0xFFC0C7D5);
+  static const Color textTertiary = Color(0xFF8F98A8);
+  static const Color textDisabled = Color(0xFF626B7B);
 
   // ── Accent ────────────────────────────────────────────────────────
   static const Color accentBlue = Color(0xFF4A90D9);
@@ -41,8 +41,8 @@ class AppColors {
   static const Color sourceUnofficial = Color(0xFFE5A93B);
 
   // ── Borders / Dividers ────────────────────────────────────────────
-  static const Color border = Color(0xFF262B38);
-  static const Color divider = Color(0xFF1E2330);
+  static const Color border = Color(0xFF32394A);
+  static const Color divider = Color(0xFF242A38);
 
   // ── Stale data indicator ──────────────────────────────────────────
   static const Color staleBannerBg = Color(0xFF1C2030);

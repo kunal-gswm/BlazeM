@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_typography.dart';
+import '../models/source_meta.dart';
 
 /// Source attribution badge.
 ///
@@ -9,24 +10,20 @@ import '../theme/app_typography.dart';
 class SourceBadge extends StatelessWidget {
   const SourceBadge({
     super.key,
-    required this.source,
-    required this.priority,
+    required this.meta,
     this.showLabel = false,
   });
 
-  final String source;
-
-  /// 1 = official, 2 = secondary, 3 = unofficial.
-  final int priority;
+  final SourceMeta meta;
 
   /// If true, shows "Official" / "Unofficial" label alongside source name.
   final bool showLabel;
 
   @override
   Widget build(BuildContext context) {
-    final color = switch (priority) {
-      1 => AppColors.sourceOfficial,
-      2 => AppColors.sourceSecondary,
+    final color = switch (meta.sourcePriority) {
+      'official' => AppColors.sourceOfficial,
+      'secondary' => AppColors.sourceSecondary,
       _ => AppColors.sourceUnofficial,
     };
 
@@ -43,10 +40,10 @@ class SourceBadge extends StatelessWidget {
         ),
         const SizedBox(width: 4),
         Text(
-          source,
+          meta.sourceId,
           style: AppTypography.labelSmall.copyWith(color: color),
         ),
-        if (showLabel && priority >= 3) ...[
+        if (showLabel && meta.isUnofficial) ...[
           const SizedBox(width: 4),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 1),

@@ -10,19 +10,20 @@ from enum import Enum
 from pydantic import BaseModel
 
 
-class SourcePriority(int, Enum):
+class SourcePriority(str, Enum):
     """Source priority levels."""
-    OFFICIAL = 1
-    SECONDARY = 2
-    UNOFFICIAL = 3
+    OFFICIAL = "official"
+    SECONDARY = "secondary"
+    UNOFFICIAL = "unofficial"
 
 
 class SourceMeta(BaseModel):
     """Provenance metadata attached to every response."""
-    source: str
-    source_priority: int = SourcePriority.SECONDARY
+    source_id: str
+    source_priority: SourcePriority = SourcePriority.SECONDARY
+    created_at: datetime
     fetched_at: datetime
-    updated_at: datetime
+    updated_at: datetime | None = None
 
 
 class PaginationMeta(BaseModel):
@@ -63,12 +64,18 @@ class EventType(str, Enum):
 class EntityType(str, Enum):
     """Entity types that generate events."""
     IPO = "ipo"
+    CORPORATE_ACTION = "corporate_action"
+    BOND = "bond"
+    NEWS = "news"
+    EVENT = "event"
+
+
+class ActionType(str, Enum):
+    """Types of corporate actions."""
     DIVIDEND = "dividend"
     BONUS = "bonus"
     SPLIT = "split"
     RIGHTS = "rights"
-    BOND = "bond"
-    NEWS = "news"
 
 
 class EventStatus(str, Enum):
@@ -77,6 +84,8 @@ class EventStatus(str, Enum):
     ACTIVE = "active"
     COMPLETED = "completed"
     CANCELLED = "cancelled"
+    WITHDRAWN = "withdrawn"
+    CHANGED = "changed"
 
 
 class EventImportance(str, Enum):
@@ -98,4 +107,5 @@ class TimelineEvent(BaseModel):
     date: datetime
     status: EventStatus
     importance: EventImportance
+    importance_score: int
     meta: SourceMeta

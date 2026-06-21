@@ -36,12 +36,10 @@ enum EventType {
 /// The entity that generated the event.
 enum EntityType {
   ipo,
-  dividend,
-  bonus,
-  split,
-  rights,
+  corporateAction,
   bond,
   news,
+  event,
 }
 
 /// Current status of an event.
@@ -50,6 +48,8 @@ enum EventStatus {
   active,
   completed,
   cancelled,
+  withdrawn,
+  changed,
 }
 
 /// Importance level for dashboard ranking.
@@ -89,6 +89,7 @@ class TimelineEvent {
     required this.date,
     required this.status,
     required this.importance,
+    required this.importanceScore,
     required this.meta,
     this.subtitle,
   });
@@ -102,6 +103,7 @@ class TimelineEvent {
   final DateTime date;
   final EventStatus status;
   final EventImportance importance;
+  final int importanceScore;
   final SourceMeta meta;
 
   factory TimelineEvent.fromJson(Map<String, dynamic> json) {
@@ -115,6 +117,7 @@ class TimelineEvent {
       date: DateTime.parse(json['date'] as String),
       status: EventStatus.values.byName(json['status'] as String),
       importance: EventImportance.values.byName(json['importance'] as String),
+      importanceScore: json['importance_score'] as int? ?? 0,
       meta: SourceMeta.fromJson(json['meta'] as Map<String, dynamic>),
     );
   }
@@ -130,6 +133,7 @@ class TimelineEvent {
       'date': date.toIso8601String(),
       'status': status.name,
       'importance': importance.name,
+      'importance_score': importanceScore,
       'meta': meta.toJson(),
     };
   }

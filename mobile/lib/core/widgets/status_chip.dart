@@ -19,6 +19,8 @@ class StatusChip extends StatelessWidget {
       EventStatus.active => (AppColors.statusActive, 'Active'),
       EventStatus.completed => (AppColors.statusCompleted, 'Completed'),
       EventStatus.cancelled => (AppColors.statusCancelled, 'Cancelled'),
+      EventStatus.withdrawn => (AppColors.statusCancelled, 'Withdrawn'),
+      EventStatus.changed => (AppColors.statusUpcoming, 'Changed'),
     };
 
     return Container(
