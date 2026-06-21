@@ -13,8 +13,12 @@ logger = logging.getLogger(__name__)
 def normalize_name(name: str) -> str:
     """Normalize company name for fuzzy matching across sources."""
     name = name.lower().strip()
+    
+    # Remove any trailing parenthetical info e.g. "(Coming soon)", "(24 - 29 Jun)"
+    name = re.sub(r'\([^)]*\)\s*$', '', name)
+    
     # Remove common suffixes
-    name = re.sub(r'\s*(ipo|limited|ltd|pvt|private|public)\.?\s*', ' ', name)
+    name = re.sub(r'\s*(ipo|limited|ltd|pvt|private|public|solutions|technologies|industries)\.?\s*', ' ', name)
     # Remove special chars
     name = re.sub(r'[^a-z0-9\s]', '', name)
     # Collapse whitespace

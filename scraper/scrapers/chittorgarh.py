@@ -140,7 +140,8 @@ class ChittorgarhScraper(BaseScraper):
             return None
 
         # Clean name
-        name = re.sub(r'\s*IPO\s*$', '', name, flags=re.IGNORECASE).strip()
+        name = re.sub(r'\s*IPO.*$', '', name, flags=re.IGNORECASE).strip()
+        name = re.sub(r'\([^)]*\)\s*$', '', name).strip()
         if not name:
             return None
 

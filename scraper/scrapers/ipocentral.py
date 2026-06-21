@@ -101,7 +101,9 @@ class IPOCentralScraper(BaseScraper):
                     continue
 
                 # Clean name
-                name = re.sub(r'\s*IPO\s*$', '', name, flags=re.IGNORECASE).strip()
+                # Clean name: remove "IPO" suffix and trailing parentheses (like dates)
+                name = re.sub(r'\s*IPO.*$', '', name, flags=re.IGNORECASE).strip()
+                name = re.sub(r'\([^)]*\)\s*$', '', name).strip()
 
                 # Get detail URL
                 detail_url = ""
@@ -183,7 +185,9 @@ class IPOCentralScraper(BaseScraper):
                     continue
 
                 name = self.clean_text(cells[name_idx].get_text())
-                name = re.sub(r'\s*IPO\s*$', '', name, flags=re.IGNORECASE).strip()
+                # Clean name: remove "IPO" suffix and trailing parentheses (like dates)
+                name = re.sub(r'\s*IPO.*$', '', name, flags=re.IGNORECASE).strip()
+                name = re.sub(r'\([^)]*\)\s*$', '', name).strip()
                 if not name:
                     continue
 
