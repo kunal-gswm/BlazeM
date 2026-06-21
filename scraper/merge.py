@@ -61,6 +61,10 @@ def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
         dt_close = _parse_date(ipo.issue_close)
         dt_open = _parse_date(ipo.issue_open)
 
+        # If no dates are given (e.g. "Coming soon"), discard.
+        if not dt_close and not dt_open:
+            continue
+
         # If we have a close date, and it's strictly in the past, it's CLOSED.
         if dt_close and dt_close < yesterday:
             continue
@@ -73,7 +77,7 @@ def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
         if dt_open and dt_open > one_month_ahead:
             continue
 
-        # If dates are missing, it's probably "Upcoming / Coming soon" - we keep it
+        # Keep open and properly dated upcoming IPOs
         filtered.append(ipo)
 
     logger.info(f"Filtered {len(ipos)} down to {len(filtered)} Open/Upcoming IPOs")
