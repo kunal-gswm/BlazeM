@@ -80,7 +80,7 @@ class MenuScreen extends StatelessWidget {
                 _StatusRow(label: 'FII / DII', status: 'Live'),
                 _StatusRow(label: 'Market Breadth', status: 'Live'),
                 _StatusRow(label: 'Global Indices', status: 'Live'),
-                _StatusRow(label: 'IPO Data', status: 'Unavailable'),
+                _StatusRow(label: 'IPO Data', status: 'Live'),
               ],
             ),
           ),

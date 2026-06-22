@@ -129,9 +129,9 @@ class _IpoRow extends StatelessWidget {
               children: [
                 if (ipo.gmp != null) ...[
                   Text(
-                    'GMP ₹${ipo.gmp?.toStringAsFixed(0)}',
+                    'GMP ₹${ipo.gmp?.toStringAsFixed(2)} (${ipo.calculatedGmpPercent})',
                     style: AppTypography.metadata.copyWith(
-                      color: AppColors.success,
+                      color: ipo.gmp! >= 0 ? AppColors.success : AppColors.danger,
                       fontWeight: FontWeight.w600,
                     ),
                   ),

@@ -43,4 +43,23 @@ class IpoModel {
       gmpPercent: json['gmp_percent']?.toString(),
     );
   }
+
+  String get calculatedGmpPercent {
+    if (gmpPercent != null && gmpPercent!.isNotEmpty) return gmpPercent!;
+    if (gmp == null || gmp == 0) return '0.00%';
+    
+    double? price;
+    if (priceBand.contains('-')) {
+      final parts = priceBand.split('-');
+      price = double.tryParse(parts.last.replaceAll(RegExp(r'[^0-9.]'), ''));
+    } else {
+      price = double.tryParse(priceBand.replaceAll(RegExp(r'[^0-9.]'), ''));
+    }
+    
+    if (price != null && price > 0) {
+      final pct = (gmp! / price) * 100;
+      return '${pct.toStringAsFixed(2)}%';
+    }
+    return 'N/A';
+  }
 }

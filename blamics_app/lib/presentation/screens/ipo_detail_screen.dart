@@ -75,13 +75,13 @@ class IpoDetailScreen extends StatelessWidget {
             children: [
               MetricRow(
                 label: 'Estimated GMP',
-                value: ipo.gmp != null ? '₹${ipo.gmp!.toStringAsFixed(0)}' : 'N/A',
-                valueColor: ipo.gmp != null ? AppColors.success : null,
+                value: ipo.gmp != null ? '₹${ipo.gmp!.toStringAsFixed(2)}' : 'N/A',
+                valueColor: ipo.gmp != null ? (ipo.gmp! >= 0 ? AppColors.success : AppColors.danger) : null,
               ),
               MetricRow(
-                label: 'GMP %',
-                value: ipo.gmpPercent ?? 'N/A',
-                valueColor: AppColors.success,
+                label: 'Est. Return',
+                value: ipo.calculatedGmpPercent,
+                valueColor: ipo.gmp != null ? (ipo.gmp! >= 0 ? AppColors.success : AppColors.danger) : null,
               ),
             ],
           ),
