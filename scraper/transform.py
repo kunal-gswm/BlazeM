@@ -5,24 +5,29 @@ Priority: InvestorGain (GMP) > IPO Central (face value, detail) > Chittorgarh (l
 
 import logging
 import re
-from models import IPOData
+from datetime import datetime, timedelta
+import dataclasses
+
+from scraper.models import IPOData
 
 logger = logging.getLogger(__name__)
 
 
-from datetime import datetime, timedelta
-
 def normalize_name(name: str) -> str:
     """Normalize company name for fuzzy matching across sources."""
     name = name.lower().strip()
-    
+
     # Remove any trailing parenthetical info e.g. "(Coming soon)", "(24 - 29 Jun)"
-    name = re.sub(r'\([^)]*\)\s*$', '', name)
-    
+    name = re.sub(r"\([^)]*\)\s*$", "", name)
+
     # Remove common suffixes
-    name = re.sub(r'\s*(ipo|limited|ltd|pvt|private|public|solutions|technologies|industries)\.?\s*', ' ', name)
+    name = re.sub(
+        r"\s*(ipo|limited|ltd|pvt|private|public|solutions|technologies|industries)\.?\s*",
+        " ",
+        name,
+    )
     # Remove special chars
-    name = re.sub(r'[^a-z0-9\s]', '', name)
+    name = re.sub(r"[^a-z0-9\s]", "", name)
     # Collapse whitespace
     return " ".join(name.split())
 
@@ -31,23 +36,24 @@ def _parse_date(date_str: str) -> datetime | None:
     """Extract datetime from strings like '6-Jul', '23 - 25 Jun', '08-May-2026'."""
     if not date_str:
         return None
-    
+
     # Extract something like '29', 'Jun' (or 'June')
-    m = re.search(r'(\d{1,2})[-\s]+([A-Za-z]{3,})', date_str)
+    m = re.search(r"(\d{1,2})[-\s]+([A-Za-z]{3,})", date_str)
     if not m:
         return None
-    
+
     day = int(m.group(1))
     month_str = m.group(2)[:3].capitalize()
-    
+
     # Try finding year
-    year_m = re.search(r'\b(202\d)\b', date_str)
+    year_m = re.search(r"\b(202\d)\b", date_str)
     year = int(year_m.group(1)) if year_m else datetime.now().year
-    
+
     try:
-        return datetime.strptime(f'{day} {month_str} {year}', '%d %b %Y')
+        return datetime.strptime(f"{day} {month_str} {year}", "%d %b %Y")
     except ValueError:
         return None
+
 
 def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
     """Filter to keep only Open and Upcoming IPOs (within 1 month)."""
@@ -68,7 +74,7 @@ def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
         # If we have a close date, and it's strictly in the past, it's CLOSED.
         if dt_close and dt_close < yesterday:
             continue
-            
+
         # If no close date, but open date is in the past, it's CLOSED.
         if not dt_close and dt_open and dt_open < yesterday:
             continue
@@ -116,8 +122,6 @@ def merge_ipo_data(
     logger.info(f"Merged: {len(result)} unique IPOs")
     return result
 
-
-import dataclasses
 
 def _fill_missing(target: IPOData, source: IPOData):
     """Fill empty fields in target from source. Never overwrite existing data."""

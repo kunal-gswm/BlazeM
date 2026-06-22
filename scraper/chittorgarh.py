@@ -2,15 +2,15 @@
 
 import logging
 import re
-from models import IPOData
-from transform import normalize_name
-from config import (
+from scraper.models import IPOData
+from scraper.transform import normalize_name
+from core.config import (
     CHITTORGARH_CURRENT_IPOS_URL,
     CHITTORGARH_TIMETABLE_URL,
     CHITTORGARH_UPCOMING_URL,
     CHITTORGARH_BASE_URL,
 )
-from utils import fetch_html_js, clean_text
+from core.utils import fetch_html_js, clean_text
 
 logger = logging.getLogger(__name__)
 
@@ -46,7 +46,9 @@ def scrape_chittorgarh() -> list[IPOData]:
 
 
 def _scrape_page(url: str, label: str) -> list[IPOData]:
-    soup = fetch_html_js(url, source_name="chittorgarh", wait_selector="table", timeout_ms=20000)
+    soup = fetch_html_js(
+        url, source_name="chittorgarh", wait_selector="table", timeout_ms=20000
+    )
     if not soup:
         logger.error(f"Failed to fetch Chittorgarh {label}")
         return []
@@ -67,7 +69,9 @@ def _scrape_page(url: str, label: str) -> list[IPOData]:
         if not headers or len(headers) < 3:
             continue
 
-        if not any(kw in " ".join(headers) for kw in ["ipo", "company", "issuer", "name"]):
+        if not any(
+            kw in " ".join(headers) for kw in ["ipo", "company", "issuer", "name"]
+        ):
             continue
 
         col_map = _map_columns(headers)
@@ -96,7 +100,10 @@ def _scrape_page(url: str, label: str) -> list[IPOData]:
 def _map_columns(headers: list[str]) -> dict:
     col_map = {}
     for i, h in enumerate(headers):
-        if any(kw in h for kw in ["ipo", "company", "issuer", "name"]) and "name" not in col_map:
+        if (
+            any(kw in h for kw in ["ipo", "company", "issuer", "name"])
+            and "name" not in col_map
+        ):
             col_map["name"] = i
         elif "open" in h and "open" not in col_map:
             col_map["open"] = i
@@ -128,8 +135,8 @@ def _parse_row(cells, col_map: dict) -> IPOData | None:
     if not name:
         return None
 
-    name = re.sub(r'\s*IPO.*$', '', name, flags=re.IGNORECASE).strip()
-    name = re.sub(r'\([^)]*\)\s*$', '', name).strip()
+    name = re.sub(r"\s*IPO.*$", "", name, flags=re.IGNORECASE).strip()
+    name = re.sub(r"\([^)]*\)\s*$", "", name).strip()
     if not name:
         return None
 

@@ -2,9 +2,9 @@
 
 import logging
 import re
-from models import IPOData
-from config import INVESTORGAIN_GMP_URL, INVESTORGAIN_BASE_URL
-from utils import fetch_html_js, clean_text
+from scraper.models import IPOData
+from core.config import INVESTORGAIN_GMP_URL, INVESTORGAIN_BASE_URL
+from core.utils import fetch_html_js, clean_text
 
 logger = logging.getLogger(__name__)
 
@@ -41,8 +41,7 @@ def scrape_investorgain() -> list[IPOData]:
 
         header_lower = [h.lower() for h in headers]
         has_ipo_col = any(
-            kw in " ".join(header_lower)
-            for kw in ["ipo", "company", "name", "issue"]
+            kw in " ".join(header_lower) for kw in ["ipo", "company", "name", "issue"]
         )
         if not has_ipo_col:
             continue
@@ -77,7 +76,12 @@ def _map_columns(headers: list[str]) -> dict:
         hl = h.lower()
         if any(kw in hl for kw in ["ipo", "company", "name"]) and "name" not in col_map:
             col_map["name"] = i
-        elif "price" in hl and "est" not in hl and "list" not in hl and "price" not in col_map:
+        elif (
+            "price" in hl
+            and "est" not in hl
+            and "list" not in hl
+            and "price" not in col_map
+        ):
             col_map["price"] = i
         elif "gmp" in hl and "%" not in hl and "gmp" not in col_map:
             col_map["gmp"] = i
@@ -111,9 +115,9 @@ def _parse_row(tds, col_map: dict) -> IPOData | None:
     if not name:
         return None
 
-    name_clean = re.sub(r'\s*IPO.*$', '', name, flags=re.IGNORECASE).strip()
-    name_clean = re.sub(r'\s*[UOLC]$', '', name_clean).strip()
-    name_clean = re.sub(r'\s*L@[\d.]+\s*\([^)]*\)\s*$', '', name_clean).strip()
+    name_clean = re.sub(r"\s*IPO.*$", "", name, flags=re.IGNORECASE).strip()
+    name_clean = re.sub(r"\s*[UOLC]$", "", name_clean).strip()
+    name_clean = re.sub(r"\s*L@[\d.]+\s*\([^)]*\)\s*$", "", name_clean).strip()
     if not name_clean:
         name_clean = name
 
@@ -124,7 +128,7 @@ def _parse_row(tds, col_map: dict) -> IPOData | None:
     def clean_date(val: str) -> str:
         if not val:
             return ""
-        return re.sub(r'GMP:?\s*[\d.]+.*$', '', val, flags=re.IGNORECASE).strip()
+        return re.sub(r"GMP:?\s*[\d.]+.*$", "", val, flags=re.IGNORECASE).strip()
 
     detail_url = ""
     name_idx = col_map.get("name")
@@ -157,16 +161,16 @@ def _parse_row(tds, col_map: dict) -> IPOData | None:
 def _clean_gmp(raw: str) -> str:
     if not raw:
         return ""
-    m = re.match(r'(₹[\d.]+)', raw)
+    m = re.match(r"(₹[\d.]+)", raw)
     if m:
         return m.group(1)
-    if '₹--' in raw:
-        return '₹0'
-    return raw.split('(')[0].strip() if '(' in raw else raw
+    if "₹--" in raw:
+        return "₹0"
+    return raw.split("(")[0].strip() if "(" in raw else raw
 
 
 def _extract_gmp_pct(raw: str) -> str:
     if not raw:
         return ""
-    m = re.search(r'\((\d+\.?\d*%)\)', raw)
+    m = re.search(r"\((\d+\.?\d*%)\)", raw)
     return m.group(1) if m else ""

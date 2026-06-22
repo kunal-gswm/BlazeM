@@ -1,20 +1,24 @@
-"""Utility functions for scraping operations."""
+"""Core utility functions for HTML fetching and parsing."""
 
 import logging
 from typing import Optional
 from bs4 import BeautifulSoup
 
-from config import REQUEST_HEADERS
+from core.config import REQUEST_HEADERS
 
 logger = logging.getLogger(__name__)
 
 
-def fetch_html_js(url: str, source_name: str, wait_selector: str = "table", timeout_ms: int = 15000) -> Optional[BeautifulSoup]:
+def fetch_html_js(
+    url: str, source_name: str, wait_selector: str = "table", timeout_ms: int = 15000
+) -> Optional[BeautifulSoup]:
     """Fetch a JS-rendered page using Playwright and return parsed BeautifulSoup."""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        logger.error("playwright not installed. Run: pip install playwright && playwright install chromium")
+        logger.error(
+            "playwright not installed. Run: pip install playwright && playwright install chromium"
+        )
         return None
 
     logger.info(f"[{source_name}] Playwright GET {url}")
@@ -32,7 +36,9 @@ def fetch_html_js(url: str, source_name: str, wait_selector: str = "table", time
             try:
                 page.wait_for_selector(wait_selector, timeout=timeout_ms)
             except Exception:
-                logger.warning(f"[{source_name}] Selector '{wait_selector}' not found, using page as-is")
+                logger.warning(
+                    f"[{source_name}] Selector '{wait_selector}' not found, using page as-is"
+                )
 
             # Small extra wait for any lazy-loaded content
             page.wait_for_timeout(2000)

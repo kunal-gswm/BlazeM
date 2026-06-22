@@ -12,17 +12,17 @@ class IPOData:
 
     issue_name: str
     ipo_type: str = ""
-    source: str = ""              # "ipocentral" | "chittorgarh" | "investorgain"
-    price_band: str = ""          # "₹140 - ₹148"
-    lot_size: str = ""            # "101 Shares"
-    issue_size: str = ""          # "₹8,750 Cr"
-    issue_open: str = ""          # date string
-    issue_close: str = ""         # date string
+    source: str = ""  # "ipocentral" | "chittorgarh" | "investorgain"
+    price_band: str = ""  # "₹140 - ₹148"
+    lot_size: str = ""  # "101 Shares"
+    issue_size: str = ""  # "₹8,750 Cr"
+    issue_open: str = ""  # date string
+    issue_close: str = ""  # date string
     allotment_date: str = ""
     listing_date: str = ""
-    gmp: str = ""                 # "₹45"
-    gmp_percent: str = ""         # "30.4%"
-    detail_url: str = ""          # link to source page
+    gmp: str = ""  # "₹45"
+    gmp_percent: str = ""  # "30.4%"
+    detail_url: str = ""  # link to source page
     scraped_at: str = ""
 
     def __post_init__(self):
