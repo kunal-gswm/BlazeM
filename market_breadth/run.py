@@ -8,12 +8,11 @@ from datetime import datetime, timezone
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from core.logger import setup_logging
-from core.io import safe_save
+from core.io import safe_save, DATA_DIR
 
 logger = setup_logging(__name__)
 
-OUTPUT_DIR = Path("data")
-OUTPUT_FILE = OUTPUT_DIR / "market_breadth.json"
+OUTPUT_FILE = DATA_DIR / "market_breadth.json"
 
 
 def fetch_breadth():
@@ -22,6 +21,19 @@ def fetch_breadth():
         data = bse.advanceDecline()
 
     if data:
+        # Format strings to numbers
+        for item in data:
+            for key in ["Advance", "Advance_PER", "Decline", "Decline_PER", "Unchange", "Unchange_PER", "TOTAL", "UP", "DN", "UC"]:
+                if key in item and item[key] is not None:
+                    try:
+                        # Convert to float, then if it's a whole number and not a PER field, to int
+                        val = float(item[key])
+                        if val.is_integer() and not key.endswith("_PER"):
+                            val = int(val)
+                        item[key] = val
+                    except ValueError:
+                        pass
+        
         safe_save(
             data=data,
             pipeline_name="market_breadth",

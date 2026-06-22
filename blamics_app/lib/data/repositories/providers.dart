@@ -7,6 +7,8 @@ import '../models/ipo_model.dart';
 import '../models/fii_dii_model.dart';
 import '../models/corporate_action_model.dart';
 import '../models/global_index_model.dart';
+import '../models/market_breadth_model.dart';
+import '../models/earnings_calendar_model.dart';
 import 'blamics_repository.dart';
 
 final dioProvider = Provider<Dio>((ref) {
@@ -46,4 +48,14 @@ final corporateActionsProvider = FutureProvider<ApiResponse<CorporateActionModel
 final globalIndicesProvider = FutureProvider<ApiResponse<GlobalIndexModel>>((ref) async {
   final repo = ref.watch(blamicsRepositoryProvider);
   return repo.getGlobalIndices();
+});
+
+final marketBreadthProvider = FutureProvider<ApiResponse<MarketBreadthModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getMarketBreadth();
+});
+
+final earningsCalendarProvider = FutureProvider<ApiResponse<EarningsCalendarModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getEarningsCalendar();
 });

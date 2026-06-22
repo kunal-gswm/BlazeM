@@ -7,6 +7,8 @@ import '../models/ipo_model.dart';
 import '../models/fii_dii_model.dart';
 import '../models/corporate_action_model.dart';
 import '../models/global_index_model.dart';
+import '../models/market_breadth_model.dart';
+import '../models/earnings_calendar_model.dart';
 
 class BlamicsRepository {
   final Dio _dio;
@@ -71,6 +73,20 @@ class BlamicsRepository {
       (json) => GlobalIndexModel.fromJson(json),
     );
   }
+
+  Future<ApiResponse<MarketBreadthModel>> getMarketBreadth() async {
+    return _fetchAndCache<MarketBreadthModel>(
+      ApiConstants.marketBreadth,
+      'breadth_cache',
+      (json) => MarketBreadthModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<EarningsCalendarModel>> getEarningsCalendar() async {
+    return _fetchAndCache<EarningsCalendarModel>(
+      ApiConstants.earningsCalendar,
+      'earnings_cache',
+      (json) => EarningsCalendarModel.fromJson(json),
+    );
+  }
 }
-
-

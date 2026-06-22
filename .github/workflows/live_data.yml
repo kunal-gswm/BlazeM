@@ -59,6 +59,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/health.json global_indices/data market_breadth/data scraper/data
+          git add data/
           git commit -m "chore(data): auto-update live data and health" || echo "No changes to commit"
           git push

@@ -8,12 +8,11 @@ from bse import BSE
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from core.logger import setup_logging
-from core.io import safe_save
+from core.io import safe_save, DATA_DIR
 
 logger = setup_logging(__name__)
 
-OUTPUT_DIR = Path("data")
-OUTPUT_FILE = OUTPUT_DIR / "earnings_calendar.json"
+OUTPUT_FILE = DATA_DIR / "earnings_calendar.json"
 
 
 def fetch_earnings_calendar():

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:intl/intl.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../data/repositories/providers.dart';
@@ -23,6 +22,8 @@ class DashboardScreen extends ConsumerWidget {
               ref.invalidate(fiiDiiDataProvider);
               ref.invalidate(corporateActionsProvider);
               ref.invalidate(globalIndicesProvider);
+              ref.invalidate(marketBreadthProvider);
+              ref.invalidate(earningsCalendarProvider);
             },
           ),
         ],
@@ -47,6 +48,8 @@ class DashboardScreen extends ConsumerWidget {
           ref.invalidate(fiiDiiDataProvider);
           ref.invalidate(corporateActionsProvider);
           ref.invalidate(globalIndicesProvider);
+          ref.invalidate(marketBreadthProvider);
+          ref.invalidate(earningsCalendarProvider);
         },
         color: AppColors.primary,
         child: ListView(
@@ -69,52 +72,69 @@ class _MarketBreadthCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // In a full implementation, we would fetch market_breadth data here.
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text('MARKET BREADTH', style: Theme.of(context).textTheme.titleSmall),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('ADVANCES', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: AppColors.positive)),
-                      Text('1263', style: Theme.of(context).textTheme.labelLarge?.copyWith(color: AppColors.positive, fontSize: 20)),
-                    ],
-                  ),
-                ),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('DECLINES', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: AppColors.negative)),
-                      Text('890', style: Theme.of(context).textTheme.labelLarge?.copyWith(color: AppColors.negative, fontSize: 20)),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 8),
-            Container(
-              height: 4,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(2),
-              ),
-              child: Row(
+    final asyncData = ref.watch(marketBreadthProvider);
+    
+    return FadeSwitcher(
+      child: asyncData.when(
+        loading: () => const Center(key: ValueKey('loading'), child: CircularProgressIndicator()),
+        error: (err, stack) => Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Text('Error loading Breadth', style: Theme.of(context).textTheme.bodySmall),
+          ),
+        ),
+        data: (response) {
+          if (response.data.isEmpty) return const SizedBox.shrink();
+          final breadth = response.data.first;
+          
+          return Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(flex: 1263, child: Container(color: AppColors.positive)),
-                  Expanded(flex: 890, child: Container(color: AppColors.negative)),
+                  Text('MARKET BREADTH', style: Theme.of(context).textTheme.titleSmall),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('ADVANCES', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: AppColors.positive)),
+                            Text('${breadth.up ?? breadth.advance ?? 0}', style: Theme.of(context).textTheme.labelLarge?.copyWith(color: AppColors.positive, fontSize: 20)),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('DECLINES', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: AppColors.negative)),
+                            Text('${breadth.dn ?? breadth.decline ?? 0}', style: Theme.of(context).textTheme.labelLarge?.copyWith(color: AppColors.negative, fontSize: 20)),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Container(
+                    height: 4,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(flex: (breadth.up ?? breadth.advance ?? 0).toInt(), child: Container(color: AppColors.positive)),
+                        Expanded(flex: (breadth.dn ?? breadth.decline ?? 0).toInt(), child: Container(color: AppColors.negative)),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
-          ],
-        ),
+          );
+        },
       ),
     );
   }

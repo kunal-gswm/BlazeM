@@ -8,12 +8,11 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core.logger import setup_logging
-from core.io import safe_save
+from core.io import safe_save, DATA_DIR
 
 logger = setup_logging(__name__)
 
-OUTPUT_DIR = Path("data")
-OUTPUT_FILE = OUTPUT_DIR / "fii_dii.json"
+OUTPUT_FILE = DATA_DIR / "fii_dii.json"
 
 
 def fetch_fii_dii():

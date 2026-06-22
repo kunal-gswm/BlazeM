@@ -9,14 +9,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dataclasses import asdict
 from core.logger import setup_logging
-from core.io import safe_save
+from core.io import safe_save, DATA_DIR
 from scraper.models import IPOData
 from scraper.investorgain import scrape_investorgain
 from scraper.chittorgarh import scrape_chittorgarh
 from scraper.transform import merge_ipo_data, filter_active_and_upcoming
 
-OUTPUT_DIR = Path(os.path.dirname(os.path.abspath(__file__))) / "data"
-OUTPUT_FILE = OUTPUT_DIR / "ipo_data.json"
+OUTPUT_FILE = DATA_DIR / "ipo_data.json"
 
 logger = setup_logging(__name__)
 

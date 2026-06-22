@@ -74,28 +74,29 @@ class AppTheme {
         centerTitle: false,
         titleTextStyle: GoogleFonts.orbitron(
           color: AppColors.textPrimary,
-          fontSize: 20,
+          fontSize: 22,
           fontWeight: FontWeight.bold,
         ),
         iconTheme: const IconThemeData(color: AppColors.textPrimary),
       ),
 
-      // Card Theme (avoid big rounded corners)
+      // Card Theme (Ultra-minimalist Kite/Groww style)
       cardTheme: CardThemeData(
         color: AppColors.surface1,
         elevation: 0,
-        margin: EdgeInsets.zero,
+        margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 12),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
-          side: const BorderSide(color: AppColors.border, width: 1),
+          borderRadius: BorderRadius.circular(12),
+          // Extremely subtle border for crisp edges without being heavy
+          side: const BorderSide(color: Colors.transparent, width: 0),
         ),
       ),
 
       // Divider Theme
       dividerTheme: const DividerThemeData(
-        color: AppColors.border,
+        color: AppColors.surface2,
         thickness: 1,
-        space: 1,
+        space: 24,
       ),
     );
   }
