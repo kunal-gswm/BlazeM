@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../core/constants/app_enums.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
 import '../../data/repositories/providers.dart';
-import '../widgets/empty_state.dart';
-import '../widgets/error_state.dart';
-import '../widgets/event_card.dart';
 import '../widgets/fade_switcher.dart';
 import '../widgets/section_header.dart';
 import '../widgets/skeleton_loader.dart';
@@ -49,10 +45,6 @@ class DashboardScreen extends ConsumerWidget {
         child: ListView(
           padding: AppSpacing.screenPadding,
           children: const [
-            _CriticalTodaySection(),
-            AppSpacing.sectionGap,
-            _Upcoming7DaysSection(),
-            AppSpacing.sectionGap,
             _MarketSnapshotSection(),
             SizedBox(height: AppSpacing.xl),
           ],
@@ -62,105 +54,6 @@ class DashboardScreen extends ConsumerWidget {
   }
 }
 
-// ── Critical Today ──────────────────────────────────────────────────────────
-
-class _CriticalTodaySection extends ConsumerWidget {
-  const _CriticalTodaySection();
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final asyncData = ref.watch(criticalTodayProvider);
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const SectionHeader(title: 'Critical Today'),
-        FadeSwitcher(
-          child: asyncData.when(
-            loading: () =>
-                const SkeletonLoader(key: ValueKey('loading'), itemCount: 2, itemHeight: 64),
-            error: (err, _) => ErrorState(
-              key: const ValueKey('error'),
-              message: 'Failed to load critical events.',
-              onRetry: () => ref.invalidate(criticalTodayProvider),
-            ),
-            data: (items) {
-              if (items.isEmpty) {
-                return const EmptyState(
-                  key: ValueKey('empty'),
-                  icon: Icons.check_circle_outline,
-                  message: 'No critical events today.',
-                );
-              }
-              return Column(
-                key: const ValueKey('data'),
-                children: items.take(5).map((action) {
-                  return EventCard(
-                    title: action.shortName,
-                    subtitle: action.purpose,
-                    date: action.exDate,
-                    importance: ImportanceLevel.critical,
-                    source: 'BSE',
-                  );
-                }).toList(),
-              );
-            },
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-// ── Upcoming 7 Days ─────────────────────────────────────────────────────────
-
-class _Upcoming7DaysSection extends ConsumerWidget {
-  const _Upcoming7DaysSection();
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final asyncData = ref.watch(upcoming7DaysProvider);
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const SectionHeader(title: 'Upcoming 7 Days'),
-        FadeSwitcher(
-          child: asyncData.when(
-            loading: () =>
-                const SkeletonLoader(key: ValueKey('loading'), itemCount: 3, itemHeight: 64),
-            error: (err, _) => ErrorState(
-              key: const ValueKey('error'),
-              message: 'Failed to load upcoming events.',
-              onRetry: () => ref.invalidate(upcoming7DaysProvider),
-            ),
-            data: (items) {
-              if (items.isEmpty) {
-                return const EmptyState(
-                  key: ValueKey('empty'),
-                  icon: Icons.event_available,
-                  message: 'No upcoming events this week.',
-                );
-              }
-              return Column(
-                key: const ValueKey('data'),
-                children: items.take(8).map((action) {
-                  return EventCard(
-                    title: action.shortName,
-                    subtitle: action.purpose,
-                    date: action.exDate,
-                    importance: ImportanceLevel.high,
-                    source: 'BSE',
-                  );
-                }).toList(),
-              );
-            },
-          ),
-        ),
-      ],
-    );
-  }
-}
 
 // ── Market Snapshot ──────────────────────────────────────────────────────────
 
@@ -322,7 +215,7 @@ class _FiiDiiRow extends ConsumerWidget {
                         style: AppTypography.metadata,
                       ),
                       Text(
-                        '$sign${item.netValue?.toStringAsFixed(0) ?? '0'} Cr',
+                        '$sign${item.netValue?.toStringAsFixed(2) ?? '0.00'} Cr',
                         style: AppTypography.value.copyWith(color: color, fontSize: 13),
                       ),
                     ],
@@ -382,13 +275,13 @@ class _GlobalIndicesMini extends ConsumerWidget {
                       ),
                       const SizedBox(width: AppSpacing.sm),
                       Text(
-                        index.price?.toStringAsFixed(0) ?? '-',
+                        index.price?.toStringAsFixed(2) ?? '-',
                         style: AppTypography.bodyMedium.copyWith(fontSize: 13),
                       ),
                       SizedBox(
                         width: 64,
                         child: Text(
-                          '$sign${index.changePct}%',
+                          '$sign${index.changePct?.toStringAsFixed(2) ?? '0.00'}%',
                           style: AppTypography.bodyMedium.copyWith(
                             color: color,
                             fontSize: 13,
