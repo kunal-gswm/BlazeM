@@ -47,13 +47,14 @@ class DashboardScreen extends ConsumerWidget {
           children: const [
             _MarketSnapshotSection(),
             SizedBox(height: AppSpacing.xl),
+            _HighlightsSection(),
+            SizedBox(height: AppSpacing.xl),
           ],
         ),
       ),
     );
   }
 }
-
 
 // ── Market Snapshot ──────────────────────────────────────────────────────────
 
@@ -86,7 +87,7 @@ class _MarketBreadthRow extends ConsumerWidget {
     return FadeSwitcher(
       child: asyncData.when(
         loading: () =>
-            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 56),
+            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 64),
         error: (err, stack) => const SizedBox.shrink(key: ValueKey('error')),
         data: (response) {
           if (response.data.isEmpty) {
@@ -98,11 +99,21 @@ class _MarketBreadthRow extends ConsumerWidget {
 
           return Container(
             key: const ValueKey('data'),
-            padding: AppSpacing.cardPadding,
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.md,
+              vertical: AppSpacing.md,
+            ),
             decoration: BoxDecoration(
               color: AppColors.surface1,
               borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
               border: Border.all(color: AppColors.border, width: 1),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.04),
+                  blurRadius: 10,
+                  offset: const Offset(0, 4),
+                ),
+              ],
             ),
             child: Column(
               children: [
@@ -118,11 +129,11 @@ class _MarketBreadthRow extends ConsumerWidget {
                     ),
                   ],
                 ),
-                const SizedBox(height: AppSpacing.sm),
+                const SizedBox(height: AppSpacing.md),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(2),
                   child: SizedBox(
-                    height: 3,
+                    height: 4,
                     child: Row(
                       children: [
                         if (advances > 0)
@@ -162,6 +173,8 @@ class _BreadthStat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      crossAxisAlignment: CrossAxisAlignment.baseline,
+      textBaseline: TextBaseline.alphabetic,
       children: [
         Text(
           label,
@@ -170,7 +183,11 @@ class _BreadthStat extends StatelessWidget {
         const SizedBox(width: AppSpacing.xs),
         Text(
           value,
-          style: AppTypography.value.copyWith(color: color),
+          style: AppTypography.value.copyWith(
+            color: color,
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ],
     );
@@ -187,42 +204,56 @@ class _FiiDiiRow extends ConsumerWidget {
     return FadeSwitcher(
       child: asyncData.when(
         loading: () =>
-            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 48),
+            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 70),
         error: (err, stack) => const SizedBox.shrink(key: ValueKey('error')),
         data: (response) {
           if (response.data.isEmpty) {
             return const SizedBox.shrink(key: ValueKey('empty'));
           }
-          return Container(
+          return Row(
             key: const ValueKey('data'),
-            padding: AppSpacing.cardPadding,
-            decoration: BoxDecoration(
-              color: AppColors.surface1,
-              borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-              border: Border.all(color: AppColors.border, width: 1),
-            ),
-            child: Row(
-              children: response.data.take(2).map((item) {
-                final isPositive = (item.netValue ?? 0) >= 0;
-                final color = isPositive ? AppColors.success : AppColors.danger;
-                final sign = isPositive ? '+' : '';
-
-                return Expanded(
-                  child: Row(
-                    children: [
-                      Text(
-                        '${item.category} ',
-                        style: AppTypography.metadata,
-                      ),
-                      Text(
-                        '$sign${item.netValue?.toStringAsFixed(2) ?? '0.00'} Cr',
-                        style: AppTypography.value.copyWith(color: color, fontSize: 13),
-                      ),
-                    ],
+            children: [
+              for (var i = 0; i < 2 && i < response.data.length; i++) ...[
+                if (i > 0) const SizedBox(width: AppSpacing.sm),
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(AppSpacing.md),
+                    decoration: BoxDecoration(
+                      color: AppColors.surface1,
+                      borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+                      border: Border.all(color: AppColors.border, width: 1),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.04),
+                          blurRadius: 10,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          response.data[i].category ?? '',
+                          style: AppTypography.metadata.copyWith(fontSize: 12),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          '${(response.data[i].netValue ?? 0) >= 0 ? '+' : ''}₹${response.data[i].netValue?.toStringAsFixed(2) ?? '0.00'} Cr',
+                          style: AppTypography.value.copyWith(
+                            color: (response.data[i].netValue ?? 0) >= 0 ? AppColors.success : AppColors.danger,
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
                   ),
-                );
-              }).toList(),
-            ),
+                ),
+              ],
+            ],
           );
         },
       ),
@@ -253,12 +284,21 @@ class _GlobalIndicesMini extends ConsumerWidget {
               color: AppColors.surface1,
               borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
               border: Border.all(color: AppColors.border, width: 1),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.04),
+                  blurRadius: 10,
+                  offset: const Offset(0, 4),
+                ),
+              ],
             ),
             child: Column(
               children: response.data.take(4).map((index) {
                 final isPositive = (index.changePct ?? 0) >= 0;
                 final color = isPositive ? AppColors.success : AppColors.danger;
                 final sign = isPositive ? '+' : '';
+                final isIndian = index.symbol == '^NSEI' || index.symbol == '^BSESN';
+                final currency = isIndian ? '₹' : '\$';
 
                 return Padding(
                   padding: const EdgeInsets.symmetric(vertical: 3),
@@ -275,7 +315,7 @@ class _GlobalIndicesMini extends ConsumerWidget {
                       ),
                       const SizedBox(width: AppSpacing.sm),
                       Text(
-                        index.price?.toStringAsFixed(2) ?? '-',
+                        index.price != null ? '$currency${index.price!.toStringAsFixed(2)}' : '-',
                         style: AppTypography.bodyMedium.copyWith(fontSize: 13),
                       ),
                       SizedBox(
@@ -297,6 +337,113 @@ class _GlobalIndicesMini extends ConsumerWidget {
           );
         },
       ),
+    );
+  }
+}
+
+// ── Highlights ──────────────────────────────────────────────────────────────
+
+class _HighlightsSection extends ConsumerWidget {
+  const _HighlightsSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncEvents = ref.watch(timelineEventsProvider);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const SectionHeader(title: 'Upcoming Highlights'),
+        SizedBox(
+          height: 120,
+          child: asyncEvents.when(
+            loading: () => ListView.separated(
+              scrollDirection: Axis.horizontal,
+              itemCount: 3,
+              separatorBuilder: (_, __) => const SizedBox(width: AppSpacing.sm),
+              itemBuilder: (_, __) => const SizedBox(
+                width: 200,
+                child: SkeletonLoader(itemCount: 1, itemHeight: 120),
+              ),
+            ),
+            error: (_, __) => const SizedBox.shrink(),
+            data: (events) {
+              final highlights = events.where((e) {
+                if (e.parsedDate == null) return false;
+                return e.parsedDate!.isAfter(DateTime.now().subtract(const Duration(days: 1))) &&
+                    (e.importanceIndex == 0 || e.importanceIndex == 1);
+              }).take(5).toList();
+
+              if (highlights.isEmpty) {
+                return Center(
+                  child: Text('No major upcoming events.', style: AppTypography.bodySecondary),
+                );
+              }
+
+              return ListView.separated(
+                scrollDirection: Axis.horizontal,
+                itemCount: highlights.length,
+                separatorBuilder: (_, __) => const SizedBox(width: AppSpacing.sm),
+                itemBuilder: (context, index) {
+                  final event = highlights[index];
+                  return Container(
+                    width: 220,
+                    padding: AppSpacing.cardPadding,
+                    decoration: BoxDecoration(
+                      color: AppColors.surface1,
+                      borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+                      border: Border.all(color: AppColors.border, width: 1),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.04),
+                          blurRadius: 10,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                          decoration: BoxDecoration(
+                            color: AppColors.surface2,
+                            borderRadius: BorderRadius.circular(AppSpacing.badgeRadius),
+                          ),
+                          child: Text(
+                            event.eventType.toUpperCase(),
+                            style: AppTypography.metadata.copyWith(fontSize: 10),
+                          ),
+                        ),
+                        const SizedBox(height: AppSpacing.sm),
+                        Text(
+                          event.entity,
+                          style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          event.title,
+                          style: AppTypography.bodySecondary.copyWith(fontSize: 12),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        const Spacer(),
+                        Text(
+                          event.date ?? '',
+                          style: AppTypography.timestamp.copyWith(color: AppColors.primary),
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 }

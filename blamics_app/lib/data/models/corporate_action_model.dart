@@ -28,4 +28,9 @@ class CorporateActionModel {
       dividendAmount: (json['dividend_amount'] as num?)?.toDouble(),
     );
   }
+
+  String get cleanPurpose {
+    // Remove variations like "- Rs. - 15.0000", "- Rs 15.00", "Rs. 15" from the end of the string
+    return purpose.replaceAll(RegExp(r'\s*-?\s*Rs\.?\s*-?\s*[\d.]+$', caseSensitive: false), '').trim();
+  }
 }

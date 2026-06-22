@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_colors.dart';
+import '../../core/theme/app_spacing.dart';
+import '../../core/theme/app_typography.dart';
 import 'dashboard_screen.dart';
 import 'timeline_screen.dart';
 import 'ipo_list_screen.dart';
@@ -32,40 +34,67 @@ class _MainScreenState extends ConsumerState<MainScreen> {
         index: _currentIndex,
         children: _screens,
       ),
-      bottomNavigationBar: Container(
-        decoration: const BoxDecoration(
-          border: Border(
-            top: BorderSide(color: AppColors.border, width: 1),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => setState(() => _currentIndex = 2), // IPOs
+        backgroundColor: AppColors.surface2,
+        elevation: 8,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(30),
+          side: const BorderSide(color: AppColors.border, width: 1),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Image.asset(
+            'assets/icon.png',
+            fit: BoxFit.contain,
           ),
         ),
-        child: BottomNavigationBar(
-          currentIndex: _currentIndex,
-          onTap: (index) => setState(() => _currentIndex = index),
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.dashboard_outlined),
-              activeIcon: Icon(Icons.dashboard),
-              label: 'Dashboard',
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: AppColors.surface1,
+        shape: const CircularNotchedRectangle(),
+        notchMargin: 8.0,
+        child: SizedBox(
+          height: 60,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              _buildBottomNavItem(context, 0, Icons.dashboard_outlined, 'Dashboard'),
+              _buildBottomNavItem(context, 1, Icons.timeline, 'Timeline'),
+              const SizedBox(width: 48), // Space for FAB
+              _buildBottomNavItem(context, 3, Icons.event_note_outlined, 'Actions'),
+              _buildBottomNavItem(context, 4, Icons.menu, 'Menu'),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildBottomNavItem(BuildContext context, int index, IconData icon, String label) {
+    final isSelected = _currentIndex == index;
+    return InkWell(
+      onTap: () => setState(() => _currentIndex = index),
+      borderRadius: BorderRadius.circular(8),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              color: isSelected ? AppColors.primary : AppColors.textSecondary,
+              size: 24,
             ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.timeline),
-              activeIcon: Icon(Icons.timeline),
-              label: 'Timeline',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.rocket_launch_outlined),
-              activeIcon: Icon(Icons.rocket_launch),
-              label: 'IPOs',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.event_note_outlined),
-              activeIcon: Icon(Icons.event_note),
-              label: 'Actions',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.menu),
-              activeIcon: Icon(Icons.menu),
-              label: 'Menu',
+            const SizedBox(height: 4),
+            Text(
+              label,
+              style: AppTypography.navLabel.copyWith(
+                color: isSelected ? AppColors.primary : AppColors.textSecondary,
+                fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                fontSize: 10,
+              ),
             ),
           ],
         ),

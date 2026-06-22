@@ -1,5 +1,5 @@
 class ApiConstants {
-  static const String baseUrl = 'https://cdn.jsdelivr.net/gh/kunal-gswm/BlazeM@main';
+  static const String baseUrl = 'https://raw.githubusercontent.com/kunal-gswm/BlazeM/main';
 
   static const String ipoData = '$baseUrl/data/ipo_data.json';
   static const String fiiDiiData = '$baseUrl/data/fii_dii.json';

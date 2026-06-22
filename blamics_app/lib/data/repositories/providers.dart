@@ -136,12 +136,13 @@ final timelineEventsProvider =
   // Add corporate actions
   for (final action in corpActions.data) {
     events.add(TimelineEvent(
-      title: action.purpose,
+      title: action.cleanPurpose,
       entity: action.shortName,
       date: action.exDate,
       parsedDate: _parseDate(action.exDate),
       eventType: action.actionType,
       source: 'BSE',
+      dividendAmount: action.dividendAmount,
     ));
   }
 
@@ -179,6 +180,7 @@ class TimelineEvent {
   final DateTime? parsedDate;
   final String eventType;
   final String source;
+  final double? dividendAmount;
 
   TimelineEvent({
     required this.title,
@@ -187,6 +189,7 @@ class TimelineEvent {
     this.parsedDate,
     required this.eventType,
     required this.source,
+    this.dividendAmount,
   });
 
   /// Importance based on proximity to today.

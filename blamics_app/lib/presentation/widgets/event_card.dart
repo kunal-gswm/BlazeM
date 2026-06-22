@@ -12,6 +12,7 @@ class EventCard extends StatelessWidget {
   final ImportanceLevel importance;
   final String? source;
   final VoidCallback? onTap;
+  final double? dividendAmount;
 
   const EventCard({
     super.key,
@@ -21,6 +22,7 @@ class EventCard extends StatelessWidget {
     this.importance = ImportanceLevel.medium,
     this.source,
     this.onTap,
+    this.dividendAmount,
   });
 
   @override
@@ -80,6 +82,16 @@ class EventCard extends StatelessWidget {
                             Text(
                               date!,
                               style: AppTypography.timestamp,
+                            ),
+                          ],
+                          if (dividendAmount != null) ...[
+                            const SizedBox(width: AppSpacing.sm),
+                            Text(
+                              '₹${dividendAmount!.toStringAsFixed(2)}',
+                              style: AppTypography.metadata.copyWith(
+                                color: AppColors.success,
+                                fontWeight: FontWeight.w600,
+                              ),
                             ),
                           ],
                           if (source != null) ...[

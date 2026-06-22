@@ -129,7 +129,7 @@ class _ActionTab extends ConsumerWidget {
                           ),
                           const SizedBox(height: 2),
                           Text(
-                            action.purpose,
+                            action.cleanPurpose,
                             style: AppTypography.bodySecondary
                                 .copyWith(fontSize: 13),
                             maxLines: 2,

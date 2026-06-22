@@ -123,6 +123,7 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
                                 date: event.date,
                                 importance: importance,
                                 source: event.source,
+                                dividendAmount: event.dividendAmount,
                               )),
                         ],
                       );
