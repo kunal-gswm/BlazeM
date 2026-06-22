@@ -55,6 +55,18 @@ jobs:
           cd scraper
           python run.py
 
+      - name: Run Sector Performance Pipeline
+        continue-on-error: true
+        run: python scraper/sector_performance.py
+
+      - name: Run Market Sentiment Pipeline
+        continue-on-error: true
+        run: python scraper/market_sentiment.py
+
+      - name: Run 52-Week High/Low Pipeline
+        continue-on-error: true
+        run: python scraper/high_low.py
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

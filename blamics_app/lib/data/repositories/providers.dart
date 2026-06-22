@@ -10,6 +10,9 @@ import '../models/corporate_action_model.dart';
 import '../models/global_index_model.dart';
 import '../models/market_breadth_model.dart';
 import '../models/earnings_calendar_model.dart';
+import '../models/sector_model.dart';
+import '../models/market_sentiment_model.dart';
+import '../models/high_low_model.dart';
 import 'blamics_repository.dart';
 
 final dioProvider = Provider<Dio>((ref) {
@@ -64,6 +67,24 @@ final earningsCalendarProvider =
     FutureProvider<ApiResponse<EarningsCalendarModel>>((ref) async {
   final repo = ref.watch(blamicsRepositoryProvider);
   return repo.getEarningsCalendar();
+});
+
+final sectorPerformanceProvider =
+    FutureProvider<ApiResponse<SectorModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getSectorPerformance();
+});
+
+final marketSentimentProvider =
+    FutureProvider<ApiResponse<MarketSentimentModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getMarketSentiment();
+});
+
+final highLowProvider =
+    FutureProvider<ApiResponse<HighLowModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getHighLow();
 });
 
 // ── Computed Providers ──────────────────────────────────────────────────────

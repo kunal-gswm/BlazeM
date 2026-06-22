@@ -8,4 +8,9 @@ class ApiConstants {
   static const String marketBreadth = '$baseUrl/data/market_breadth.json';
   static const String globalIndices = '$baseUrl/data/global_indices.json';
   static const String health = '$baseUrl/data/health.json';
+
+  // New Live Data Endpoints
+  static const String sectorPerformance = '$baseUrl/data/sector_performance.json';
+  static const String marketSentiment = '$baseUrl/data/market_sentiment.json';
+  static const String highLow = '$baseUrl/data/high_low.json';
 }

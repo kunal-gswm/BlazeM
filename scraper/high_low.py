@@ -26,12 +26,12 @@ def fetch_nse_52week(session, index_type):
         for item in items:
             parsed_items.append({
                 "symbol": item.get("symbol"),
-                "companyName": item.get("meta", {}).get("companyName", item.get("symbol")),
-                "lastPrice": item.get("lastPrice"),
-                "previousClose": item.get("previousClose"),
+                "companyName": item.get("comapnyName", item.get("symbol")),  # NSE has a typo in their API
+                "lastPrice": item.get("ltp"),
+                "previousClose": item.get("prevClose"),
                 "change": item.get("change"),
                 "pChange": item.get("pChange"),
-                "value52Week": item.get("value"), # 52w high/low price
+                "value52Week": item.get("new52WHL"),
                 "type": index_type.upper()
             })
             

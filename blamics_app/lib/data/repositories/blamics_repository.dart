@@ -9,6 +9,9 @@ import '../models/corporate_action_model.dart';
 import '../models/global_index_model.dart';
 import '../models/market_breadth_model.dart';
 import '../models/earnings_calendar_model.dart';
+import '../models/sector_model.dart';
+import '../models/market_sentiment_model.dart';
+import '../models/high_low_model.dart';
 
 class BlamicsRepository {
   final Dio _dio;
@@ -87,6 +90,30 @@ class BlamicsRepository {
       ApiConstants.earningsCalendar,
       'earnings_cache',
       (json) => EarningsCalendarModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<SectorModel>> getSectorPerformance() async {
+    return _fetchAndCache<SectorModel>(
+      ApiConstants.sectorPerformance,
+      'sector_cache',
+      (json) => SectorModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<MarketSentimentModel>> getMarketSentiment() async {
+    return _fetchAndCache<MarketSentimentModel>(
+      ApiConstants.marketSentiment,
+      'sentiment_cache',
+      (json) => MarketSentimentModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<HighLowModel>> getHighLow() async {
+    return _fetchAndCache<HighLowModel>(
+      ApiConstants.highLow,
+      'high_low_cache',
+      (json) => HighLowModel.fromJson(json),
     );
   }
 }
