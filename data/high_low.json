@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "source": "nse_india",
+    "last_updated": "2026-06-22T22:11:59.486886+00:00Z",
+    "status": "healthy",
+    "record_count": 1
+  },
+  "data": [
+    {
+      "highs": [
+        {
+          "symbol": "ABCAPITAL",
+          "companyName": "ABCAPITAL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 16.4,
+          "pChange": 4.362862463421123,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ABGSEC",
+          "companyName": "ABGSEC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.21,
+          "pChange": 0.18484288354898337,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ABSLAMC",
+          "companyName": "ABSLAMC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.4,
+          "pChange": 0.0338810774182619,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ABSLMSCIN",
+          "companyName": "ABSLMSCIN",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.96,
+          "pChange": 5.871779508687837,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ABSLNN50ET",
+          "companyName": "ABSLNN50ET",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.63,
+          "pChange": 0.8308057497032837,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ADANIENT",
+          "companyName": "ADANIENT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 21.6,
+          "pChange": 0.7109004739336493,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ADANIGREEN",
+          "companyName": "ADANIGREEN",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 48.6,
+          "pChange": 3.2348242811501597,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ADFFOODS",
+          "companyName": "ADFFOODS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.7,
+          "pChange": 2.509369398729021,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ADOR",
+          "companyName": "ADOR",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 32.6,
+          "pChange": 2.680039460703716,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AEGISLOG",
+          "companyName": "AEGISLOG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 56.2,
+          "pChange": 5.576503274459218,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AEQUS",
+          "companyName": "AEQUS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 15.85,
+          "pChange": 7.135461216404808,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AEROENTER",
+          "companyName": "AEROENTER",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 9.16,
+          "pChange": 6.741738426437036,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AEROFLEX",
+          "companyName": "AEROFLEX",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.25,
+          "pChange": 0.04928536224741252,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AIAENG",
+          "companyName": "AIAENG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 168.9,
+          "pChange": 3.6035843823341156,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AKCAPIT",
+          "companyName": "AKCAPIT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 71.7,
+          "pChange": 4.129470713586362,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ALPHAETF",
+          "companyName": "ALPHAETF",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.22,
+          "pChange": 0.8333333333333334,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AMAGI",
+          "companyName": "AMAGI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 41.05,
+          "pChange": 8.395541466407607,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ANANDRATHI",
+          "companyName": "ANANDRATHI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 49.5,
+          "pChange": 2.6506024096385543,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ARVIND",
+          "companyName": "ARVIND",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -10.35,
+          "pChange": -2.0034843205574915,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ASHIANA",
+          "companyName": "ASHIANA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 5.15,
+          "pChange": 1.3416699231470626,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AVL",
+          "companyName": "AVL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.4,
+          "pChange": 0.5397682171773297,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BELRISE",
+          "companyName": "BELRISE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.41,
+          "pChange": 3.073541001285827,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BETA",
+          "companyName": "BETA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 169.7,
+          "pChange": 8.526781228017285,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BHAGYANGR",
+          "companyName": "BHAGYANGR",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 19.4,
+          "pChange": 4.999355753124597,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BHARATFORG",
+          "companyName": "BHARATFORG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 67.6,
+          "pChange": 3.3114529244636035,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BLACKROSE",
+          "companyName": "BLACKROSE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 17.06,
+          "pChange": 17.837724801338354,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CASHIETF",
+          "companyName": "CASHIETF",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.15,
+          "pChange": 0.01405323364906265,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CEMPRO",
+          "companyName": "CEMPRO",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 16,
+          "pChange": 1.2779552715654952,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CENTUM",
+          "companyName": "CENTUM",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 166,
+          "pChange": 4.6905905623057365,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CLCIND",
+          "companyName": "CLCIND",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.11,
+          "pChange": 4.978763567720623,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CLEANMAX",
+          "companyName": "CLEANMAX",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 127.7,
+          "pChange": 9.319127198423702,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CPPLUS",
+          "companyName": "CPPLUS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -37.8,
+          "pChange": -1.0390895596239484,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CUPID",
+          "companyName": "CUPID",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.03,
+          "pChange": 1.712638480669229,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DAICHI",
+          "companyName": "DAICHI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 15.43,
+          "pChange": 4.905264496439471,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DECNGOLD",
+          "companyName": "DECNGOLD",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 12.58,
+          "pChange": 5.8587928464977646,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DEFENCE",
+          "companyName": "DEFENCE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.78,
+          "pChange": 0.9742692980264801,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DELHIVERY",
+          "companyName": "DELHIVERY",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 23.5,
+          "pChange": 5.0965083495987855,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EBBETF0431",
+          "companyName": "EBBETF0431",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.58,
+          "pChange": 0.04076841431955408,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EBBETF0433",
+          "companyName": "EBBETF0433",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.27,
+          "pChange": 0.09785112759941135,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EBGNG",
+          "companyName": "EBGNG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 50.15,
+          "pChange": 9.991034963641797,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EDELWEISS",
+          "companyName": "EDELWEISS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 6.27,
+          "pChange": 5.027664180899687,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EIFFL",
+          "companyName": "EIFFL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.76,
+          "pChange": 2.234765580002304,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ESAFSFB",
+          "companyName": "ESAFSFB",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -1.06,
+          "pChange": -2.9176988714560967,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "FCL",
+          "companyName": "FCL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.13,
+          "pChange": 4.8943014705882355,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "FINCABLES",
+          "companyName": "FINCABLES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 24.7,
+          "pChange": 2.1214463626213176,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GALAPREC",
+          "companyName": "GALAPREC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 106.85,
+          "pChange": 10.076861413684162,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GNFC",
+          "companyName": "GNFC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 14.35,
+          "pChange": 2.5279661763410552,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GOCLCORP",
+          "companyName": "GOCLCORP",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.2,
+          "pChange": 1.6457142857142857,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GOODLUCK",
+          "companyName": "GOODLUCK",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 58.6,
+          "pChange": 4.116903189546157,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GRANDOAK",
+          "companyName": "GRANDOAK",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.52,
+          "pChange": 4.981221585293536,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GRINDWELL",
+          "companyName": "GRINDWELL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -26.8,
+          "pChange": -1.2542119056533134,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GROWWDEFNC",
+          "companyName": "GROWWDEFNC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.39,
+          "pChange": 1.4485202167569822,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GRWRHITECH",
+          "companyName": "GRWRHITECH",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 193.5,
+          "pChange": 2.8516690000736866,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GVPIL",
+          "companyName": "GVPIL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -28.15,
+          "pChange": -2.674457270438459,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HALDYNGL",
+          "companyName": "HALDYNGL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -3.05,
+          "pChange": -2.339854238588416,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HAPPYFORGE",
+          "companyName": "HAPPYFORGE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 89.7,
+          "pChange": 6.122866894197952,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HAWKINCOOK",
+          "companyName": "HAWKINCOOK",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 88,
+          "pChange": 1.1337284205101779,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HDFCBSE500",
+          "companyName": "HDFCBSE500",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.35,
+          "pChange": 0.9421265141318977,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HFCL",
+          "companyName": "HFCL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.04,
+          "pChange": 0.49615953437336,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "IBULLSLTD",
+          "companyName": "IBULLSLTD",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.79,
+          "pChange": 2.980007544322897,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INDSWFTLAB",
+          "companyName": "INDSWFTLAB",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.12,
+          "pChange": 0.5977158714910876,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INOXINDIA",
+          "companyName": "INOXINDIA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 132.2,
+          "pChange": 6.893315257065387,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INVPRECQ",
+          "companyName": "INVPRECQ",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 40.45,
+          "pChange": 5.582775515837416,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "JUNIORBEES",
+          "companyName": "JUNIORBEES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 4.93,
+          "pChange": 0.63120966915907,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KANORICHEM",
+          "companyName": "KANORICHEM",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 6.03,
+          "pChange": 4.995029821073559,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KDDL",
+          "companyName": "KDDL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 200.1,
+          "pChange": 6.760820353414197,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KEI",
+          "companyName": "KEI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 29,
+          "pChange": 0.5150062155922571,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KIRLFER",
+          "companyName": "KIRLFER",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 18.15,
+          "pChange": 3.8066275167785233,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KIRLOSENG",
+          "companyName": "KIRLOSENG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 398.3,
+          "pChange": 20,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KIRLPNU",
+          "companyName": "KIRLPNU",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 114,
+          "pChange": 5.846153846153846,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KISSHT",
+          "companyName": "KISSHT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -1.7,
+          "pChange": -0.5749070003381805,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KMEW",
+          "companyName": "KMEW",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 277.1,
+          "pChange": 13.367745670316948,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KPIL",
+          "companyName": "KPIL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 50.3,
+          "pChange": 3.5961964681489955,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KRISHNADEF",
+          "companyName": "KRISHNADEF",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 39,
+          "pChange": 2.8876055086628165,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDCASE",
+          "companyName": "LIQUIDCASE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.02,
+          "pChange": 0.017447439588240427,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDPLUS",
+          "companyName": "LIQUIDPLUS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.15,
+          "pChange": 0.013751627275894315,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDSHRI",
+          "companyName": "LIQUIDSHRI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.16,
+          "pChange": 0.014420390432070948,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LLOYDSENGG",
+          "companyName": "LLOYDSENGG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.73,
+          "pChange": 4.295255642561032,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LTGILTBEES",
+          "companyName": "LTGILTBEES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -0.01,
+          "pChange": -0.033715441672285906,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MAHESHWARI",
+          "companyName": "MAHESHWARI",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -1.01,
+          "pChange": -1.402582974586863,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MAJESAUT",
+          "companyName": "MAJESAUT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -0.2,
+          "pChange": -0.05868544600938967,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MEGASTAR",
+          "companyName": "MEGASTAR",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 9,
+          "pChange": 2.694610778443114,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MENNPIS",
+          "companyName": "MENNPIS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 10.1,
+          "pChange": 18.181818181818183,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MIDCAPBETA",
+          "companyName": "MIDCAPBETA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.44,
+          "pChange": 0.18978605935127674,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MIDCAPIETF",
+          "companyName": "MIDCAPIETF",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.08,
+          "pChange": 0.3367003367003367,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MOALPHA50",
+          "companyName": "MOALPHA50",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -0.25,
+          "pChange": -0.4608294930875576,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MODEFENCE",
+          "companyName": "MODEFENCE",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.7,
+          "pChange": 1.6144349477682811,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MOHEALTH",
+          "companyName": "MOHEALTH",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.08,
+          "pChange": 0.16556291390728478,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MOMIDMTM",
+          "companyName": "MOMIDMTM",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.1,
+          "pChange": 3.199756209050739,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MONEXT50",
+          "companyName": "MONEXT50",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.75,
+          "pChange": 1.0384934921074496,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MSPL",
+          "companyName": "MSPL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.28,
+          "pChange": 0.631768953068592,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NAM-INDIA",
+          "companyName": "NAM-INDIA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -3.9,
+          "pChange": -0.32858707557502737,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NAVINFLUOR",
+          "companyName": "NAVINFLUOR",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 66.5,
+          "pChange": 0.8874357776739841,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NEXT30ADD",
+          "companyName": "NEXT30ADD",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.52,
+          "pChange": 8.305804624823029,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NEXT50",
+          "companyName": "NEXT50",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 4.55,
+          "pChange": 0.609682563078696,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NEXT50BETA",
+          "companyName": "NEXT50BETA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -0.04,
+          "pChange": -0.05083884087442806,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NEXT50ETF",
+          "companyName": "NEXT50ETF",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.37,
+          "pChange": 0.5074053757542513,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NIACL",
+          "companyName": "NIACL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 10.19,
+          "pChange": 5.036824675003707,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NRL",
+          "companyName": "NRL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.26,
+          "pChange": 4.088286932530725,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NYKAA",
+          "companyName": "NYKAA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.45,
+          "pChange": 0.8104531921931856,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ONELIFECAP",
+          "companyName": "ONELIFECAP",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.51,
+          "pChange": 4.841295286950946,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PANAMAPET",
+          "companyName": "PANAMAPET",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 3.75,
+          "pChange": 0.7759958613554061,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PARACABLES",
+          "companyName": "PARACABLES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -2.06,
+          "pChange": -2.819600328497126,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PIRAMALFIN",
+          "companyName": "PIRAMALFIN",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -63.1,
+          "pChange": -2.9306581208490083,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "POLYCAB",
+          "companyName": "POLYCAB",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -82,
+          "pChange": -0.813250024794208,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "POWERICA",
+          "companyName": "POWERICA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 29.5,
+          "pChange": 4.992806973004993,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PRIVISCL",
+          "companyName": "PRIVISCL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 167.5,
+          "pChange": 4.794069664272017,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PRUDENT",
+          "companyName": "PRUDENT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 79.8,
+          "pChange": 2.6343589066420177,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RADICO",
+          "companyName": "RADICO",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -6.2,
+          "pChange": -0.16449113870317308,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RBLBANK",
+          "companyName": "RBLBANK",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -1.7,
+          "pChange": -0.4487264088689455,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RICOAUTO",
+          "companyName": "RICOAUTO",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 2.02,
+          "pChange": 1.3904185022026432,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RML",
+          "companyName": "RML",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 8.85,
+          "pChange": 0.7893680595816795,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RPTECH",
+          "companyName": "RPTECH",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.5,
+          "pChange": 0.9991340837940451,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RRKABEL",
+          "companyName": "RRKABEL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 34.9,
+          "pChange": 1.5035974322519494,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RUBICON",
+          "companyName": "RUBICON",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 15.5,
+          "pChange": 1.1381994419151122,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SAIPARENT",
+          "companyName": "SAIPARENT",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -3.6,
+          "pChange": -0.6069802731411229,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SANGHVIMOV",
+          "companyName": "SANGHVIMOV",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 22.95,
+          "pChange": 5.533453887884268,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SANSERA",
+          "companyName": "SANSERA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 46.2,
+          "pChange": 1.568334578043316,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SANSTAR",
+          "companyName": "SANSTAR",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 8.05,
+          "pChange": 6.912838127951911,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SEDEMAC",
+          "companyName": "SEDEMAC",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 152.9,
+          "pChange": 5.6711546307629535,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SEIL",
+          "companyName": "SEIL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 14.54,
+          "pChange": 7.146367836429765,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SETL",
+          "companyName": "SETL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 18.55,
+          "pChange": 9.967223684917522,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHREEJISPG",
+          "companyName": "SHREEJISPG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -2.3,
+          "pChange": -0.45944866160607273,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHRIPISTON",
+          "companyName": "SHRIPISTON",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 41.3,
+          "pChange": 1.104366660427307,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SIGMAADV",
+          "companyName": "SIGMAADV",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 26.25,
+          "pChange": 4.999523854870965,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SONACOMS",
+          "companyName": "SONACOMS",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.4,
+          "pChange": 1.205604431410883,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SYRMA",
+          "companyName": "SYRMA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 4,
+          "pChange": 0.29985007496251875,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TATACOMM",
+          "companyName": "TATACOMM",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 81.3,
+          "pChange": 4.087892196299276,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TEXINFRA",
+          "companyName": "TEXINFRA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.61,
+          "pChange": 7.432366442035355,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "THELEELA",
+          "companyName": "THELEELA",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -1.15,
+          "pChange": -0.23269931201942534,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TIMKEN",
+          "companyName": "TIMKEN",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 92.8,
+          "pChange": 2.51531414322112,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "UFBL",
+          "companyName": "UFBL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 32.05,
+          "pChange": 4.975549173329194,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "UNIVCABLES",
+          "companyName": "UNIVCABLES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 81.5,
+          "pChange": 6.399685904986258,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VADILALIND",
+          "companyName": "VADILALIND",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 272,
+          "pChange": 4.453176162409954,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VELJAN",
+          "companyName": "VELJAN",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 7.1,
+          "pChange": 0.5657370517928287,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VENUSPIPES",
+          "companyName": "VENUSPIPES",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 138.9,
+          "pChange": 8.983894961516073,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VINDHYATEL",
+          "companyName": "VINDHYATEL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -44.1,
+          "pChange": -1.857546017438187,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VISL",
+          "companyName": "VISL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 1.27,
+          "pChange": 4.96675791943684,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "WABAG",
+          "companyName": "WABAG",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 85.4,
+          "pChange": 4.305303488606574,
+          "value52Week": null,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "WPIL",
+          "companyName": "WPIL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 23.85,
+          "pChange": 5.105426522530236,
+          "value52Week": null,
+          "type": "HIGH"
+        }
+      ],
+      "lows": [
+        {
+          "symbol": "BAYERCROP",
+          "companyName": "BAYERCROP",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -98.5,
+          "pChange": -2.3070617168286685,
+          "value52Week": null,
+          "type": "LOW"
+        },
+        {
+          "symbol": "GNRL",
+          "companyName": "GNRL",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -0.05,
+          "pChange": -0.058445353594389245,
+          "value52Week": null,
+          "type": "LOW"
+        },
+        {
+          "symbol": "GSLSU",
+          "companyName": "GSLSU",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -3.02,
+          "pChange": -6.450234942332337,
+          "value52Week": null,
+          "type": "LOW"
+        },
+        {
+          "symbol": "MHLXMIRU",
+          "companyName": "MHLXMIRU",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": -16.79,
+          "pChange": -9.947271757805558,
+          "value52Week": null,
+          "type": "LOW"
+        },
+        {
+          "symbol": "TECH",
+          "companyName": "TECH",
+          "lastPrice": null,
+          "previousClose": null,
+          "change": 0.42,
+          "pChange": 1.406563965170797,
+          "value52Week": null,
+          "type": "LOW"
+        }
+      ]
+    }
+  ]
+}
