@@ -8,6 +8,15 @@ from core.utils import fetch_html_js, clean_text
 
 logger = logging.getLogger(__name__)
 
+def parse_gmp(gmp_str: str) -> float | None:
+    if not gmp_str:
+        return None
+    clean = re.sub(r'[^\d.]', '', gmp_str)
+    try:
+        return float(clean) if clean else None
+    except ValueError:
+        return None
+
 
 def scrape_investorgain() -> list[IPOData]:
     """Scrape the InvestorGain live GMP table for mainboard IPOs."""
@@ -146,8 +155,8 @@ def _parse_row(tds, col_map: dict) -> IPOData | None:
         ipo_type="Mainboard",
         source="investorgain",
         price_band=get_cell("price"),
-        gmp=gmp_clean,
-        gmp_percent=gmp_pct or get_cell("gmp_pct"),
+        gmp=parse_gmp(get_cell("gmp")),
+        gmp_percent=get_cell("gmp_pct"),
         issue_size=get_cell("size"),
         lot_size=get_cell("lot"),
         issue_open=clean_date(get_cell("open")),

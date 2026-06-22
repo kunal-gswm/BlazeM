@@ -1,15 +1,17 @@
-name: Scrape IPO Data
+name: Live Data Pipelines (30 Min)
 
 on:
   schedule:
-    # Run every 30 minutes
     - cron: '*/30 * * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+
+concurrency:
+  group: blamics-data
+  cancel-in-progress: false
 
 jobs:
-  scrape:
+  live-scrape:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -27,17 +29,28 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('scraper/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-playwright-
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r scraper/requirements.txt
+          pip install -r requirements.txt
           playwright install chromium
 
-      - name: Run Scraper
+      - name: Run Global Indices Pipeline
+        continue-on-error: true
+        run: |
+          cd global_indices
+          python run.py
+
+      - name: Run Market Breadth Pipeline
+        continue-on-error: true
+        run: |
+          cd market_breadth
+          python run.py
+
+      - name: Run IPO Pipeline
+        continue-on-error: true
         run: |
           cd scraper
           python run.py
@@ -46,6 +59,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add scraper/data/ipo_data.json
-          git commit -m "chore(data): auto-update IPO data" || echo "No changes to commit"
+          git add data/health.json global_indices/data market_breadth/data scraper/data
+          git commit -m "chore(data): auto-update live data and health" || echo "No changes to commit"
           git push

@@ -8,11 +8,12 @@ from datetime import datetime, timezone
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from core.logger import setup_logging
+from core.io import safe_save
 
 logger = setup_logging(__name__)
 
 OUTPUT_DIR = Path("data")
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_FILE = OUTPUT_DIR / "global_indices.json"
 
 SYMBOLS = {
     "^GSPC": "S&P 500",
@@ -76,15 +77,23 @@ def fetch_indices():
                 logger.error(f"Fallback also failed for {symbol}: {e2}")
 
     if data:
-        out_file = OUTPUT_DIR / "global_indices.json"
-        payload = {
-            "last_updated": datetime.now(timezone.utc).isoformat() + "Z",
-            "indices": data,
-        }
-        with open(out_file, "w") as f:
-            json.dump(payload, f, indent=2)
-        logger.info(f"Successfully saved global indices to {out_file}")
+        safe_save(
+            data=data,
+            pipeline_name="global_indices",
+            source_name="Yahoo Finance",
+            file_path=OUTPUT_FILE,
+            retention_threshold=0.90
+        )
+    else:
+        logger.error("Failed to fetch global indices data.")
+        from core.io import update_health
+        update_health("global_indices", "failed")
 
 
 if __name__ == "__main__":
-    fetch_indices()
+    try:
+        fetch_indices()
+    except Exception as e:
+        logger.error(f"Global indices pipeline failed: {e}")
+        from core.io import update_health
+        update_health("global_indices", "failed")

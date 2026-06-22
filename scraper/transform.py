@@ -84,6 +84,24 @@ def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
             continue
 
         # Keep open and properly dated upcoming IPOs
+        # Replace the original strings with ISO format strings
+        if dt_open:
+            ipo.issue_open = dt_open.strftime("%Y-%m-%d")
+        else:
+            ipo.issue_open = None
+            
+        if dt_close:
+            ipo.issue_close = dt_close.strftime("%Y-%m-%d")
+        else:
+            ipo.issue_close = None
+            
+        # Also parse allotment and listing
+        dt_allot = _parse_date(ipo.allotment_date)
+        ipo.allotment_date = dt_allot.strftime("%Y-%m-%d") if dt_allot else None
+        
+        dt_list = _parse_date(ipo.listing_date)
+        ipo.listing_date = dt_list.strftime("%Y-%m-%d") if dt_list else None
+            
         filtered.append(ipo)
 
     logger.info(f"Filtered {len(ipos)} down to {len(filtered)} Open/Upcoming IPOs")
@@ -119,6 +137,16 @@ def merge_ipo_data(
             merged[key] = ipo
 
     result = list(merged.values())
+    
+    # Final cleanup pass for GMP strings that might have snuck in via chittorgarh
+    for ipo in result:
+        if isinstance(ipo.gmp, str):
+            clean = re.sub(r'[^\d.]', '', ipo.gmp)
+            try:
+                ipo.gmp = float(clean) if clean else None
+            except ValueError:
+                ipo.gmp = None
+                
     logger.info(f"Merged: {len(result)} unique IPOs")
     return result
 

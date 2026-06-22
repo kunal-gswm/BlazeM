@@ -8,6 +8,7 @@ from bse import BSE
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from core.logger import setup_logging
+from core.io import safe_save
 
 logger = setup_logging(__name__)
 
@@ -96,20 +97,20 @@ def fetch_corporate_actions():
 
 
 def save_json(data: list):
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    output_payload = {
-        "last_updated": datetime.now(timezone.utc).isoformat() + "Z",
-        "total_actions": len(data),
-        "actions": data,
-    }
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(output_payload, f, indent=2, ensure_ascii=False)
-
-    logger.info(f"Successfully saved {len(data)} actions to {OUTPUT_FILE}")
+    safe_save(
+        data=data,
+        pipeline_name="corporate_actions",
+        source_name="BSE API",
+        file_path=OUTPUT_FILE,
+        retention_threshold=0.50
+    )
 
 
 if __name__ == "__main__":
-    actions = fetch_corporate_actions()
-    save_json(actions)
+    try:
+        actions = fetch_corporate_actions()
+        save_json(actions)
+    except Exception as e:
+        logger.error(f"Corporate actions pipeline failed: {e}")
+        from core.io import update_health
+        update_health("corporate_actions", "failed")

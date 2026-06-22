@@ -8,11 +8,12 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core.logger import setup_logging
+from core.io import safe_save
 
 logger = setup_logging(__name__)
 
 OUTPUT_DIR = Path("data")
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_FILE = OUTPUT_DIR / "fii_dii.json"
 
 
 def fetch_fii_dii():
@@ -41,17 +42,34 @@ def fetch_fii_dii():
 
         if response.status_code == 200:
             data = response.json()
-            out_file = OUTPUT_DIR / "fii_dii.json"
-            with open(out_file, "w") as f:
-                json.dump(data, f, indent=2)
-            logger.info(f"Successfully saved FII/DII data to {out_file}")
+            
+            # Cast strings to float
+            for item in data:
+                for key in ['buyValue', 'sellValue', 'netValue']:
+                    if key in item and isinstance(item[key], str):
+                        try:
+                            item[key] = float(item[key])
+                        except ValueError:
+                            item[key] = None
+                            
+            safe_save(
+                data=data,
+                pipeline_name="fii_dii",
+                source_name="NSE API",
+                file_path=OUTPUT_FILE,
+                retention_threshold=1.0
+            )
         else:
             logger.error(
                 f"Failed to fetch data. NSE returned status code: {response.status_code}"
             )
+            from core.io import update_health
+            update_health("fii_dii", "failed")
 
     except Exception as e:
         logger.error(f"NSE Scraper encountered an error: {e}")
+        from core.io import update_health
+        update_health("fii_dii", "failed")
 
 
 if __name__ == "__main__":

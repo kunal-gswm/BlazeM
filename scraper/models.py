@@ -1,8 +1,7 @@
 """Unified IPO data model used across all scrapers."""
 
-from dataclasses import dataclass, asdict
-from datetime import datetime
-from typing import Any
+from dataclasses import dataclass, asdict, field
+from datetime import datetime, timezone
 import json
 
 
@@ -18,35 +17,13 @@ class IPOData:
     issue_size: str = ""  # "₹8,750 Cr"
     issue_open: str = ""  # date string
     issue_close: str = ""  # date string
-    allotment_date: str = ""
-    listing_date: str = ""
-    gmp: str = ""  # "₹45"
-    gmp_percent: str = ""  # "30.4%"
-    detail_url: str = ""  # link to source page
-    scraped_at: str = ""
+    allotment_date: str | None = None
+    listing_date: str | None = None
 
-    def __post_init__(self):
-        if not self.scraped_at:
-            self.scraped_at = datetime.now().isoformat(timespec="microseconds")
+    gmp: float | None = None
+    gmp_percent: str | None = None
 
-
-@dataclass
-class ScrapeResult:
-    """Container for the full scrape output file."""
-
-    last_updated: str
-    sources_scraped: list[str]
-    ipo_count: int
-    ipos: list[IPOData]
-
-    def to_json(self, indent: int = 2) -> str:
-        return json.dumps(asdict(self), indent=indent, ensure_ascii=False)
-
-    @classmethod
-    def from_ipos(cls, ipos: list[IPOData], sources: list[str]) -> "ScrapeResult":
-        return cls(
-            last_updated=datetime.now().isoformat(timespec="microseconds"),
-            sources_scraped=sources,
-            ipo_count=len(ipos),
-            ipos=ipos,
-        )
+    detail_url: str | None = None
+    scraped_at: str = field(
+        default_factory=lambda: datetime.now(timezone.utc).isoformat() + "Z"
+    )
