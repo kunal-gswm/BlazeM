@@ -30,7 +30,7 @@ class SectionHeader extends StatelessWidget {
               letterSpacing: 1.5,
             ),
           ),
-          if (trailing != null) trailing,
+          if (trailing != null) trailing!,
         ],
       ),
     );

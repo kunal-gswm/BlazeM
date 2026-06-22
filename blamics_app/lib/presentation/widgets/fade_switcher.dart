@@ -8,7 +8,7 @@ class FadeSwitcher extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedSwitcher(
-      duration: const Duration(milliseconds: 300),
+      duration: const Duration(milliseconds: 200),
       switchInCurve: Curves.easeIn,
       switchOutCurve: Curves.easeOut,
       child: child,
