@@ -10,6 +10,7 @@ import 'corporate_actions_screen.dart';
 import 'menu_screen.dart';
 import 'high_low_screen.dart';
 import 'sector_heatmap_screen.dart';
+import 'watchlist_screen.dart';
 
 class MainScreen extends ConsumerStatefulWidget {
   const MainScreen({super.key});
@@ -29,6 +30,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
     MenuScreen(),
     SectorHeatmapScreen(),
     HighLowScreen(),
+    WatchlistScreen(),
   ];
 
   void _showNavigationMenu(BuildContext context) {
@@ -73,6 +75,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
               _buildNavMenuItem(context, 3, Icons.rocket_launch_outlined, 'IPOs'),
               _buildNavMenuItem(context, 5, Icons.grid_view_rounded, 'Sector Heatmap'),
               _buildNavMenuItem(context, 6, Icons.swap_vert_rounded, '52-Week High/Low'),
+              _buildNavMenuItem(context, 7, Icons.star_outline_rounded, 'Watchlist'),
               _buildNavMenuItem(context, 4, Icons.settings_outlined, 'Settings & Info'),
               const SizedBox(height: AppSpacing.sm),
             ],

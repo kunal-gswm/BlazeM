@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -7,6 +8,7 @@ import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
 import '../../data/models/ipo_model.dart';
 import '../../data/repositories/providers.dart';
+import '../../data/repositories/watchlist_provider.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/error_state.dart';
 import '../widgets/fade_switcher.dart';
@@ -58,6 +60,7 @@ class IpoListScreen extends ConsumerStatefulWidget {
 
 class _IpoListScreenState extends ConsumerState<IpoListScreen> {
   int _filterIndex = 0;
+  String _searchQuery = '';
   static const _filterLabels = ['ALL', 'OPEN', 'UPCOMING', 'CLOSED', 'LISTED'];
 
   @override
@@ -70,13 +73,22 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
       ),
       body: Column(
         children: [
-          const SizedBox(height: AppSpacing.sm),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+            child: CupertinoSearchTextField(
+              backgroundColor: AppColors.surface1,
+              style: AppTypography.bodyMedium,
+              placeholderStyle: AppTypography.bodySecondary,
+              onChanged: (val) => setState(() => _searchQuery = val.toLowerCase()),
+            ),
+          ),
+          const SizedBox(height: AppSpacing.md),
           FilterChipBar(
             labels: _filterLabels,
             selectedIndex: _filterIndex,
             onSelected: (index) => setState(() => _filterIndex = index),
           ),
-          const SizedBox(height: AppSpacing.md),
+          const SizedBox(height: AppSpacing.sm),
           Expanded(
             child: FadeSwitcher(
               child: asyncData.when(
@@ -101,24 +113,29 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
                     );
                   }
 
-                  // Apply filter
-                  final filtered = _filterIndex == 0
-                      ? allIpos
-                      : allIpos.where((ipo) {
-                          final status = _determineStatus(ipo);
-                          final filterName = _filterLabels[_filterIndex];
-                          if (filterName == 'OPEN' && status == IpoStatus.open) return true;
-                          if (filterName == 'UPCOMING' && status == IpoStatus.upcoming) return true;
-                          if (filterName == 'CLOSED' && status == IpoStatus.closed) return true;
-                          if (filterName == 'LISTED' && status == IpoStatus.listed) return true;
-                          return false;
-                        }).toList();
+                  // Apply filter & search
+                  final filtered = allIpos.where((ipo) {
+                    if (_searchQuery.isNotEmpty &&
+                        !ipo.issueName.toLowerCase().contains(_searchQuery)) {
+                      return false;
+                    }
+
+                    if (_filterIndex == 0) return true;
+
+                    final status = _determineStatus(ipo);
+                    final filterName = _filterLabels[_filterIndex];
+                    if (filterName == 'OPEN' && status == IpoStatus.open) return true;
+                    if (filterName == 'UPCOMING' && status == IpoStatus.upcoming) return true;
+                    if (filterName == 'CLOSED' && status == IpoStatus.closed) return true;
+                    if (filterName == 'LISTED' && status == IpoStatus.listed) return true;
+                    return false;
+                  }).toList();
 
                   if (filtered.isEmpty) {
                     return EmptyState(
                       key: const ValueKey('filtered_empty'),
-                      icon: Icons.filter_alt_off_outlined,
-                      message: 'No IPOs match this filter.',
+                      icon: Icons.search_off_outlined,
+                      message: 'No IPOs match this criteria.',
                     );
                   }
 
@@ -141,14 +158,19 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
   }
 }
 
-class _IpoRow extends StatelessWidget {
+class _IpoRow extends ConsumerWidget {
   final IpoModel ipo;
 
   const _IpoRow({required this.ipo});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final status = _determineStatus(ipo);
+    final itemId = 'IPO:${ipo.issueName}';
+    
+    // Watchlist state
+    ref.watch(watchlistProvider);
+    final isSaved = ref.read(watchlistProvider.notifier).isSaved(itemId);
 
     return GestureDetector(
       onTap: () {
@@ -183,6 +205,24 @@ class _IpoRow extends StatelessWidget {
                 ),
                 const SizedBox(width: AppSpacing.sm),
                 StatusBadge(status: status),
+                const SizedBox(width: AppSpacing.sm),
+                GestureDetector(
+                  onTap: () {
+                    ref.read(watchlistProvider.notifier).toggleItem(
+                      WatchlistItem(
+                        id: itemId,
+                        title: ipo.issueName,
+                        type: 'IPO',
+                        subtitle: ipo.issueOpen != null ? 'Open: ${ipo.issueOpen}' : null,
+                      ),
+                    );
+                  },
+                  child: Icon(
+                    isSaved ? Icons.star_rounded : Icons.star_border_rounded,
+                    color: isSaved ? Colors.amber : AppColors.textSecondary,
+                    size: 24,
+                  ),
+                ),
               ],
             ),
             const SizedBox(height: AppSpacing.sm),

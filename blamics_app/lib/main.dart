@@ -7,9 +7,10 @@ import 'presentation/screens/splash_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Initialize local storage for offline caching
+  // Initialize local storage for offline caching and watchlists
   await Hive.initFlutter();
   await Hive.openBox('blamics_cache');
+  await Hive.openBox('blamics_watchlist');
 
   runApp(
     const ProviderScope(
