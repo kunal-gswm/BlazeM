@@ -26,6 +26,9 @@ def normalize_name(name: str) -> str:
         " ",
         name,
     )
+    # Remove isolated status characters at the end of the name (like 'o', 'u', 'c', 'l')
+    name = re.sub(r"\s+[oucl]\s*$", "", name)
+    
     # Remove special chars
     name = re.sub(r"[^a-z0-9\s]", "", name)
     # Collapse whitespace
