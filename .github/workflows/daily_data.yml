@@ -2,8 +2,8 @@ name: Daily Data Pipelines (EOD)
 
 on:
   schedule:
-    # Runs at 13:00 UTC (18:30 IST) daily
-    - cron: '0 13 * * *'
+    # Runs every hour from 13:00 to 16:00 UTC (18:30 to 21:30 IST) daily
+    - cron: '0 13-16 * * *'
   workflow_dispatch:
 
 concurrency:
