@@ -22,7 +22,6 @@ class HighLowWidget extends ConsumerWidget {
         return DefaultTabController(
           length: 2,
           child: Container(
-            margin: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
             decoration: BoxDecoration(
               color: AppColors.surface1,
               borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
@@ -50,7 +49,7 @@ class HighLowWidget extends ConsumerWidget {
                   child: TabBarView(
                     children: [
                       _buildList(model.highs, AppColors.success),
-                      _buildList(model.lows, AppColors.error),
+                      _buildList(model.lows, AppColors.danger),
                     ],
                   ),
                 ),

@@ -76,13 +76,13 @@ class _MarketSnapshotSection extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: const [
         SectionHeader(title: 'Market Snapshot'),
-        _MarketBreadthRow(),
+        _FiiDiiRow(),
         AppSpacing.itemGap,
-        FearAndGreedGaugeWidget(),
+        _MarketBreadthRow(),
         AppSpacing.itemGap,
         SectorHeatmapWidget(),
         AppSpacing.itemGap,
-        _FiiDiiRow(),
+        FearAndGreedGaugeWidget(),
         AppSpacing.itemGap,
         HighLowWidget(),
         AppSpacing.itemGap,
@@ -249,7 +249,7 @@ class _FiiDiiRow extends ConsumerWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          response.data[i].category ?? '',
+                          response.data[i].category,
                           style: AppTypography.metadata.copyWith(fontSize: 12),
                         ),
                         const SizedBox(height: 6),

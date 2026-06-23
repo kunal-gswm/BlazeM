@@ -21,7 +21,7 @@ class FearAndGreedGaugeWidget extends ConsumerWidget {
         final sentiment = response.data.first;
         
         return Container(
-          margin: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+          width: double.infinity,
           padding: const EdgeInsets.all(AppSpacing.md),
           decoration: BoxDecoration(
             color: AppColors.surface1,

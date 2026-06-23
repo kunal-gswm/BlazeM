@@ -69,18 +69,36 @@ class _IpoRow extends StatelessWidget {
   const _IpoRow({required this.ipo});
 
   IpoStatus _determineStatus(IpoModel ipo) {
-    // Simple heuristic based on available dates
-    if (ipo.listingDate != null && ipo.listingDate!.isNotEmpty) {
+    final now = DateTime.now();
+    
+    DateTime? parseDate(String? dateStr) {
+      if (dateStr == null || dateStr.isEmpty) return null;
+      try {
+        return DateTime.parse(dateStr);
+      } catch (e) {
+        return null;
+      }
+    }
+
+    // To ensure whole-day comparisons, we compare against today at 00:00:00
+    final today = DateTime(now.year, now.month, now.day);
+    
+    final listingDate = parseDate(ipo.listingDate);
+    final closeDate = parseDate(ipo.issueClose);
+    final openDate = parseDate(ipo.issueOpen);
+    
+    if (listingDate != null && (listingDate.isBefore(today) || listingDate.isAtSameMomentAs(today))) {
       return IpoStatus.listed;
     }
-    if (ipo.issueClose != null && ipo.issueClose!.isNotEmpty) {
-      // Could check if close date has passed, but we don't have a reliable
-      // date parser for all formats here, so we infer from data presence
-      if (ipo.allotmentDate != null && ipo.allotmentDate!.isNotEmpty) {
-        return IpoStatus.closed;
-      }
+    
+    if (closeDate != null && (closeDate.isBefore(today) || closeDate.isAtSameMomentAs(today))) {
+      return IpoStatus.closed;
+    }
+    
+    if (openDate != null && (openDate.isBefore(today) || openDate.isAtSameMomentAs(today))) {
       return IpoStatus.open;
     }
+    
     return IpoStatus.upcoming;
   }
 

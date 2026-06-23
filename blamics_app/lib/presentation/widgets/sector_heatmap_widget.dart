@@ -16,10 +16,7 @@ class SectorHeatmapWidget extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-          child: Text('Sector Performance', style: AppTypography.sectionTitle),
-        ),
+        Text('Sector Performance', style: AppTypography.sectionTitle),
         const SizedBox(height: AppSpacing.sm),
         asyncData.when(
           loading: () => const SkeletonLoader(itemCount: 1, itemHeight: 100),
@@ -31,7 +28,7 @@ class SectorHeatmapWidget extends ConsumerWidget {
             return SizedBox(
               height: 100,
               child: ListView.separated(
-                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+                padding: EdgeInsets.zero,
                 scrollDirection: Axis.horizontal,
                 itemCount: sectors.length,
                 separatorBuilder: (context, index) => const SizedBox(width: AppSpacing.sm),
@@ -43,9 +40,9 @@ class SectorHeatmapWidget extends ConsumerWidget {
                   
                   final color = isPositive 
                       ? AppColors.success.withOpacity(intensity) 
-                      : AppColors.error.withOpacity(intensity);
+                      : AppColors.danger.withOpacity(intensity);
                       
-                  final textColor = isPositive ? AppColors.success : AppColors.error;
+                  final textColor = isPositive ? AppColors.success : AppColors.danger;
 
                   return Container(
                     width: 140,
