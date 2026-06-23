@@ -83,17 +83,15 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
                     );
                   }
 
-                  // Group by importance
+                  // Group by date
                   final grouped = <String, List<TimelineEvent>>{};
                   for (final event in filtered) {
-                    final group = event.importanceLabel;
+                    final group = event.dateLabel;
                     grouped.putIfAbsent(group, () => []).add(event);
                   }
 
-                  // Order: CRITICAL, HIGH, MEDIUM, LOW
-                  final orderedKeys = ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW']
-                      .where((k) => grouped.containsKey(k))
-                      .toList();
+                  // Events are already sorted by date in provider
+                  final orderedKeys = grouped.keys.toList();
 
                   return ListView.builder(
                     key: const ValueKey('data'),
@@ -102,7 +100,6 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
                     itemBuilder: (context, sectionIndex) {
                       final group = orderedKeys[sectionIndex];
                       final items = grouped[group]!;
-                      final importance = _importanceFromLabel(group);
 
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -112,19 +109,20 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
                             title: group,
                             trailing: Text(
                               '${items.length}',
-                              style: AppTypography.metadata.copyWith(
-                                color: importance.color,
-                              ),
+                              style: AppTypography.metadata,
                             ),
                           ),
-                          ...items.map((event) => EventCard(
+                          ...items.map((event) {
+                            final importance = _importanceFromIndex(event.importanceIndex);
+                            return EventCard(
                                 title: event.entity,
                                 subtitle: event.title,
                                 date: event.date,
                                 importance: importance,
                                 source: event.source,
                                 dividendAmount: event.dividendAmount,
-                              )),
+                            );
+                          }),
                         ],
                       );
                     },
@@ -138,13 +136,13 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
     );
   }
 
-  ImportanceLevel _importanceFromLabel(String label) {
-    switch (label) {
-      case 'CRITICAL':
+  ImportanceLevel _importanceFromIndex(int index) {
+    switch (index) {
+      case 0:
         return ImportanceLevel.critical;
-      case 'HIGH':
+      case 1:
         return ImportanceLevel.high;
-      case 'MEDIUM':
+      case 2:
         return ImportanceLevel.medium;
       default:
         return ImportanceLevel.low;

@@ -17,9 +17,9 @@ class GlobalIndexModel {
     return GlobalIndexModel(
       symbol: json['symbol'] ?? '',
       name: json['name'] ?? '',
-      price: (json['price'] as num?)?.toDouble(),
-      change: (json['change'] as num?)?.toDouble(),
-      changePct: (json['change_pct'] as num?)?.toDouble(),
+      price: num.tryParse(json['price']?.toString() ?? '')?.toDouble(),
+      change: num.tryParse(json['change']?.toString() ?? '')?.toDouble(),
+      changePct: num.tryParse(json['change_pct']?.toString() ?? '')?.toDouble(),
     );
   }
 }

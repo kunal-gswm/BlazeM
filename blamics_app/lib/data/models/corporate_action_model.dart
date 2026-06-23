@@ -25,7 +25,7 @@ class CorporateActionModel {
       exDate: json['Ex_date'],
       purpose: json['Purpose'] ?? '',
       actionType: json['action_type'] ?? '',
-      dividendAmount: (json['dividend_amount'] as num?)?.toDouble(),
+      dividendAmount: num.tryParse(json['dividend_amount']?.toString() ?? '')?.toDouble(),
     );
   }
 

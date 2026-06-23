@@ -29,18 +29,18 @@ class MarketBreadthModel {
 
   factory MarketBreadthModel.fromJson(Map<String, dynamic> json) {
     return MarketBreadthModel(
-      advance: json['Advance'] as num?,
-      advancePer: json['Advance_PER'] as num?,
-      decline: json['Decline'] as num?,
-      declinePer: json['Decline_PER'] as num?,
-      unchange: json['Unchange'] as num?,
-      unchangePer: json['Unchange_PER'] as num?,
-      total: json['TOTAL'] as num?,
+      advance: num.tryParse(json['Advance']?.toString() ?? ''),
+      advancePer: num.tryParse(json['Advance_PER']?.toString() ?? ''),
+      decline: num.tryParse(json['Decline']?.toString() ?? ''),
+      declinePer: num.tryParse(json['Decline_PER']?.toString() ?? ''),
+      unchange: num.tryParse(json['Unchange']?.toString() ?? ''),
+      unchangePer: num.tryParse(json['Unchange_PER']?.toString() ?? ''),
+      total: num.tryParse(json['TOTAL']?.toString() ?? ''),
       scripGrp: json['Scrip_GRP'] as String?,
       sensInd: json['Sens_ind'] as String?,
-      up: json['UP'] as num?,
-      dn: json['DN'] as num?,
-      uc: json['UC'] as num?,
+      up: num.tryParse(json['UP']?.toString() ?? ''),
+      dn: num.tryParse(json['DN']?.toString() ?? ''),
+      uc: num.tryParse(json['UC']?.toString() ?? ''),
     );
   }
 }

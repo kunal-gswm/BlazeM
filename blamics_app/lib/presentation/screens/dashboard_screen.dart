@@ -8,9 +8,7 @@ import '../../data/repositories/providers.dart';
 import '../widgets/fade_switcher.dart';
 import '../widgets/section_header.dart';
 import '../widgets/skeleton_loader.dart';
-import '../widgets/sector_heatmap_widget.dart';
 import '../widgets/fear_greed_gauge_widget.dart';
-import '../widgets/high_low_widget.dart';
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
@@ -80,11 +78,7 @@ class _MarketSnapshotSection extends ConsumerWidget {
         AppSpacing.itemGap,
         _MarketBreadthRow(),
         AppSpacing.itemGap,
-        SectorHeatmapWidget(),
-        AppSpacing.itemGap,
         FearAndGreedGaugeWidget(),
-        AppSpacing.itemGap,
-        HighLowWidget(),
         AppSpacing.itemGap,
         _GlobalIndicesMini(),
       ],

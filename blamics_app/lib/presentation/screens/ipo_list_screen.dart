@@ -12,52 +12,130 @@ import '../widgets/error_state.dart';
 import '../widgets/fade_switcher.dart';
 import '../widgets/skeleton_loader.dart';
 import '../widgets/status_badge.dart';
+import '../widgets/filter_chip_bar.dart';
 import 'ipo_detail_screen.dart';
 
-class IpoListScreen extends ConsumerWidget {
+// Helper to determine status based on live dates
+IpoStatus _determineStatus(IpoModel ipo) {
+  final now = DateTime.now();
+  
+  DateTime? parseDate(String? dateStr) {
+    if (dateStr == null || dateStr.isEmpty) return null;
+    try {
+      return DateTime.parse(dateStr);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  final today = DateTime(now.year, now.month, now.day);
+  
+  final listingDate = parseDate(ipo.listingDate);
+  final closeDate = parseDate(ipo.issueClose);
+  final openDate = parseDate(ipo.issueOpen);
+  
+  if (listingDate != null && (listingDate.isBefore(today) || listingDate.isAtSameMomentAs(today))) {
+    return IpoStatus.listed;
+  }
+  
+  if (closeDate != null && (closeDate.isBefore(today) || closeDate.isAtSameMomentAs(today))) {
+    return IpoStatus.closed;
+  }
+  
+  if (openDate != null && (openDate.isBefore(today) || openDate.isAtSameMomentAs(today))) {
+    return IpoStatus.open;
+  }
+  
+  return IpoStatus.upcoming;
+}
+
+class IpoListScreen extends ConsumerStatefulWidget {
   const IpoListScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<IpoListScreen> createState() => _IpoListScreenState();
+}
+
+class _IpoListScreenState extends ConsumerState<IpoListScreen> {
+  int _filterIndex = 0;
+  static const _filterLabels = ['ALL', 'OPEN', 'UPCOMING', 'CLOSED', 'LISTED'];
+
+  @override
+  Widget build(BuildContext context) {
     final asyncData = ref.watch(ipoDataProvider);
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('IPOs'),
       ),
-      body: FadeSwitcher(
-        child: asyncData.when(
-          loading: () => Padding(
-            key: const ValueKey('loading'),
-            padding: AppSpacing.screenPadding,
-            child: const SkeletonLoader(itemCount: 5, itemHeight: 80),
+      body: Column(
+        children: [
+          const SizedBox(height: AppSpacing.sm),
+          FilterChipBar(
+            labels: _filterLabels,
+            selectedIndex: _filterIndex,
+            onSelected: (index) => setState(() => _filterIndex = index),
           ),
-          error: (err, _) => ErrorState(
-            key: const ValueKey('error'),
-            message: 'Failed to load IPO data.',
-            onRetry: () => ref.invalidate(ipoDataProvider),
-          ),
-          data: (response) {
-            if (response.data.isEmpty) {
-              return const EmptyState(
-                key: ValueKey('empty'),
-                icon: Icons.rocket_launch_outlined,
-                message: 'No active IPOs right now.',
-                submessage: 'Check back later for upcoming issues.',
-              );
-            }
+          const SizedBox(height: AppSpacing.md),
+          Expanded(
+            child: FadeSwitcher(
+              child: asyncData.when(
+                loading: () => Padding(
+                  key: const ValueKey('loading'),
+                  padding: AppSpacing.screenPadding,
+                  child: const SkeletonLoader(itemCount: 5, itemHeight: 80),
+                ),
+                error: (err, _) => ErrorState(
+                  key: const ValueKey('error'),
+                  message: 'Failed to load IPO data.',
+                  onRetry: () => ref.invalidate(ipoDataProvider),
+                ),
+                data: (response) {
+                  final allIpos = response.data;
+                  if (allIpos.isEmpty) {
+                    return const EmptyState(
+                      key: ValueKey('empty'),
+                      icon: Icons.rocket_launch_outlined,
+                      message: 'No active IPOs right now.',
+                      submessage: 'Check back later for upcoming issues.',
+                    );
+                  }
 
-            return ListView.builder(
-              key: const ValueKey('data'),
-              padding: AppSpacing.screenPadding,
-              itemCount: response.data.length,
-              itemBuilder: (context, index) {
-                final ipo = response.data[index];
-                return _IpoRow(ipo: ipo);
-              },
-            );
-          },
-        ),
+                  // Apply filter
+                  final filtered = _filterIndex == 0
+                      ? allIpos
+                      : allIpos.where((ipo) {
+                          final status = _determineStatus(ipo);
+                          final filterName = _filterLabels[_filterIndex];
+                          if (filterName == 'OPEN' && status == IpoStatus.open) return true;
+                          if (filterName == 'UPCOMING' && status == IpoStatus.upcoming) return true;
+                          if (filterName == 'CLOSED' && status == IpoStatus.closed) return true;
+                          if (filterName == 'LISTED' && status == IpoStatus.listed) return true;
+                          return false;
+                        }).toList();
+
+                  if (filtered.isEmpty) {
+                    return EmptyState(
+                      key: const ValueKey('filtered_empty'),
+                      icon: Icons.filter_alt_off_outlined,
+                      message: 'No IPOs match this filter.',
+                    );
+                  }
+
+                  return ListView.builder(
+                    key: const ValueKey('data'),
+                    padding: AppSpacing.screenPadding,
+                    itemCount: filtered.length,
+                    itemBuilder: (context, index) {
+                      final ipo = filtered[index];
+                      return _IpoRow(ipo: ipo);
+                    },
+                  );
+                },
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -67,40 +145,6 @@ class _IpoRow extends StatelessWidget {
   final IpoModel ipo;
 
   const _IpoRow({required this.ipo});
-
-  IpoStatus _determineStatus(IpoModel ipo) {
-    final now = DateTime.now();
-    
-    DateTime? parseDate(String? dateStr) {
-      if (dateStr == null || dateStr.isEmpty) return null;
-      try {
-        return DateTime.parse(dateStr);
-      } catch (e) {
-        return null;
-      }
-    }
-
-    // To ensure whole-day comparisons, we compare against today at 00:00:00
-    final today = DateTime(now.year, now.month, now.day);
-    
-    final listingDate = parseDate(ipo.listingDate);
-    final closeDate = parseDate(ipo.issueClose);
-    final openDate = parseDate(ipo.issueOpen);
-    
-    if (listingDate != null && (listingDate.isBefore(today) || listingDate.isAtSameMomentAs(today))) {
-      return IpoStatus.listed;
-    }
-    
-    if (closeDate != null && (closeDate.isBefore(today) || closeDate.isAtSameMomentAs(today))) {
-      return IpoStatus.closed;
-    }
-    
-    if (openDate != null && (openDate.isBefore(today) || openDate.isAtSameMomentAs(today))) {
-      return IpoStatus.open;
-    }
-    
-    return IpoStatus.upcoming;
-  }
 
   @override
   Widget build(BuildContext context) {

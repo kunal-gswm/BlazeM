@@ -21,14 +21,14 @@ class HighLowItem {
 
   factory HighLowItem.fromJson(Map<String, dynamic> json) {
     return HighLowItem(
-      symbol: json['symbol'] ?? '',
-      companyName: json['companyName'] ?? '',
-      lastPrice: json['lastPrice'],
-      previousClose: json['previousClose'],
-      change: json['change'],
-      pChange: json['pChange'],
-      value52Week: json['value52Week'],
-      type: json['type'] ?? 'HIGH',
+      symbol: json['symbol']?.toString() ?? '',
+      companyName: json['companyName']?.toString() ?? '',
+      lastPrice: num.tryParse(json['lastPrice']?.toString() ?? ''),
+      previousClose: num.tryParse(json['previousClose']?.toString() ?? ''),
+      change: num.tryParse(json['change']?.toString() ?? ''),
+      pChange: num.tryParse(json['pChange']?.toString() ?? ''),
+      value52Week: num.tryParse(json['value52Week']?.toString() ?? ''),
+      type: json['type']?.toString() ?? 'HIGH',
     );
   }
 }

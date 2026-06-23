@@ -15,11 +15,11 @@ class SectorModel {
 
   factory SectorModel.fromJson(Map<String, dynamic> json) {
     return SectorModel(
-      symbol: json['symbol'] ?? '',
-      lastPrice: json['lastPrice'],
-      percentChange: json['percentChange'],
-      change: json['change'],
-      status: json['status'] ?? 'flat',
+      symbol: json['symbol']?.toString() ?? '',
+      lastPrice: num.tryParse(json['lastPrice']?.toString() ?? ''),
+      percentChange: num.tryParse(json['percentChange']?.toString() ?? ''),
+      change: num.tryParse(json['change']?.toString() ?? ''),
+      status: json['status']?.toString() ?? 'flat',
     );
   }
 }

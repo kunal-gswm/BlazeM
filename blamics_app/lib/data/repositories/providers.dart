@@ -227,16 +227,15 @@ class TimelineEvent {
     return 3; // Low
   }
 
-  String get importanceLabel {
-    switch (importanceIndex) {
-      case 0:
-        return 'CRITICAL';
-      case 1:
-        return 'HIGH';
-      case 2:
-        return 'MEDIUM';
-      default:
-        return 'LOW';
-    }
+  String get dateLabel {
+    if (parsedDate == null) return 'TBA';
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final d = DateTime(parsedDate!.year, parsedDate!.month, parsedDate!.day);
+    final diff = d.difference(today).inDays;
+
+    if (diff == 0) return 'TODAY';
+    if (diff == 1) return 'TOMORROW';
+    return DateFormat('dd MMM yyyy').format(parsedDate!).toUpperCase();
   }
 }

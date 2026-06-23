@@ -39,7 +39,7 @@ class IpoModel {
       issueClose: json['issue_close']?.toString(),
       allotmentDate: json['allotment_date']?.toString(),
       listingDate: json['listing_date']?.toString(),
-      gmp: (json['gmp'] as num?)?.toDouble(),
+      gmp: num.tryParse(json['gmp']?.toString() ?? '')?.toDouble(),
       gmpPercent: json['gmp_percent']?.toString(),
     );
   }

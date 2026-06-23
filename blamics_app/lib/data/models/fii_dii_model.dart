@@ -17,9 +17,9 @@ class FiiDiiModel {
     return FiiDiiModel(
       category: json['category'] ?? '',
       date: json['date'] ?? '',
-      buyValue: (json['buyValue'] as num?)?.toDouble(),
-      sellValue: (json['sellValue'] as num?)?.toDouble(),
-      netValue: (json['netValue'] as num?)?.toDouble(),
+      buyValue: num.tryParse(json['buyValue']?.toString() ?? '')?.toDouble(),
+      sellValue: num.tryParse(json['sellValue']?.toString() ?? '')?.toDouble(),
+      netValue: num.tryParse(json['netValue']?.toString() ?? '')?.toDouble(),
     );
   }
 }
