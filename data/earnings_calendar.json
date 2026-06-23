@@ -1,11 +1,25 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-22T18:48:56.317611+00:00Z",
+    "last_updated": "2026-06-23T15:55:52.906671+00:00Z",
     "status": "healthy",
-    "record_count": 6
+    "record_count": 16
   },
   "data": [
+    {
+      "scrip_Code": "531370",
+      "short_name": "SPAR",
+      "Long_Name": "Sparc Electrex Ltd",
+      "meeting_date": "23 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sparc-electrex-ltd/spar/531370/"
+    },
+    {
+      "scrip_Code": "512301",
+      "short_name": "CHMBBRW",
+      "Long_Name": "Chambal Breweries & Distilleries Ltd",
+      "meeting_date": "24 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/chambal-breweries--distilleries-ltd/chmbbrw/512301/"
+    },
     {
       "scrip_Code": "542655",
       "short_name": "VIKASLIFE",
@@ -28,6 +42,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/cmx-holdings-ltd/cmxltd/532217/"
     },
     {
+      "scrip_Code": "544331",
+      "short_name": "DAVIN",
+      "Long_Name": "Davin Sons Retail Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/davin-sons-retail-ltd/davin/544331/"
+    },
+    {
+      "scrip_Code": "539407",
+      "short_name": "GENCON",
+      "Long_Name": "Generic Engineering Construction and Projects Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/generic-engineering-construction-and-projects-ltd/gencon/539407/"
+    },
+    {
       "scrip_Code": "514428",
       "short_name": "HINDADH",
       "Long_Name": "Hindustan Adhesives Ltd",
@@ -35,11 +63,53 @@
       "URL": "https://www.bseindia.com/stock-share-price/hindustan-adhesives-ltd/hindadh/514428/"
     },
     {
+      "scrip_Code": "544774",
+      "short_name": "SMR",
+      "Long_Name": "SMR Jewels Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/smr-jewels-ltd/smr/544774/"
+    },
+    {
+      "scrip_Code": "526231",
+      "short_name": "STDSFAC",
+      "Long_Name": "Standard Surfactants Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/standard-surfactants-ltd/stdsfac/526231/"
+    },
+    {
+      "scrip_Code": "507984",
+      "short_name": "DESIFARMS",
+      "Long_Name": "Desi Farms India Ltd",
+      "meeting_date": "26 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/desi-farms-india-ltd/desifarms/507984/"
+    },
+    {
+      "scrip_Code": "533292",
+      "short_name": "A2ZINFRA",
+      "Long_Name": "A2Z Infra Engineering Ltd",
+      "meeting_date": "29 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/a2z-infra-engineering-ltd/a2zinfra/533292/"
+    },
+    {
+      "scrip_Code": "544777",
+      "short_name": "CMRGREEN",
+      "Long_Name": "CMR Green Technologies Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/cmr-green-technologies-ltd/cmrgreen/544777/"
+    },
+    {
       "scrip_Code": "539229",
       "short_name": "MRSS",
       "Long_Name": "Majestic Research Services and Solutions Ltd",
       "meeting_date": "30 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
+    },
+    {
+      "scrip_Code": "502405",
+      "short_name": "MYSPAPE",
+      "Long_Name": "Mysore Paper Mills Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mysore-paper-mills-ltd/myspape/502405/"
     },
     {
       "scrip_Code": "523283",
