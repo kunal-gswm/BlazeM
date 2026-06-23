@@ -1,8 +1,8 @@
-name: Live Data Pipelines (30 Min)
+name: Live Data Pipelines (10 Min)
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 concurrency:
