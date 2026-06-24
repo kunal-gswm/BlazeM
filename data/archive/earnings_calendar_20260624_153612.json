@@ -1,11 +1,18 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-24T15:36:12.351944+00:00Z",
+    "last_updated": "2026-06-23T15:55:52.906671+00:00Z",
     "status": "healthy",
-    "record_count": 17
+    "record_count": 16
   },
   "data": [
+    {
+      "scrip_Code": "531370",
+      "short_name": "SPAR",
+      "Long_Name": "Sparc Electrex Ltd",
+      "meeting_date": "23 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sparc-electrex-ltd/spar/531370/"
+    },
     {
       "scrip_Code": "512301",
       "short_name": "CHMBBRW",
@@ -77,13 +84,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/desi-farms-india-ltd/desifarms/507984/"
     },
     {
-      "scrip_Code": "544769",
-      "short_name": "HARIKANTA",
-      "Long_Name": "Harikanta Overseas Ltd",
-      "meeting_date": "26 Jun 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/harikanta-overseas-ltd/harikanta/544769/"
-    },
-    {
       "scrip_Code": "533292",
       "short_name": "A2ZINFRA",
       "Long_Name": "A2Z Infra Engineering Ltd",
@@ -96,13 +96,6 @@
       "Long_Name": "CMR Green Technologies Ltd",
       "meeting_date": "30 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/cmr-green-technologies-ltd/cmrgreen/544777/"
-    },
-    {
-      "scrip_Code": "544785",
-      "short_name": "HEXAGON",
-      "Long_Name": "Hexagon Nutrition Ltd",
-      "meeting_date": "30 Jun 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/hexagon-nutrition-ltd/hexagon/544785/"
     },
     {
       "scrip_Code": "539229",
