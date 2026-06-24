@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-24T18:02:20.513187+00:00Z",
+    "last_updated": "2026-06-24T15:36:11.849924+00:00Z",
     "status": "healthy",
     "record_count": 89
   },
@@ -250,22 +250,6 @@
       "scrip_code": 544222,
       "short_name": "AKUMS",
       "Ex_date": "03 Jul 2026",
-      "Purpose": "Special Dividend",
-      "RD_Date": "03 Jul 2026",
-      "BCRD_FROM": null,
-      "BCRD_TO": null,
-      "ND_START_DATE": null,
-      "ND_END_DATE": null,
-      "payment_date": null,
-      "exdate": "20260703",
-      "long_name": "Akums Drugs and Pharmaceuticals Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": null
-    },
-    {
-      "scrip_code": 544222,
-      "short_name": "AKUMS",
-      "Ex_date": "03 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 1.0000",
       "RD_Date": "03 Jul 2026",
       "BCRD_FROM": null,
@@ -277,6 +261,22 @@
       "long_name": "Akums Drugs and Pharmaceuticals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
+    },
+    {
+      "scrip_code": 544222,
+      "short_name": "AKUMS",
+      "Ex_date": "03 Jul 2026",
+      "Purpose": "Special Dividend",
+      "RD_Date": "03 Jul 2026",
+      "BCRD_FROM": null,
+      "BCRD_TO": null,
+      "ND_START_DATE": null,
+      "ND_END_DATE": null,
+      "payment_date": null,
+      "exdate": "20260703",
+      "long_name": "Akums Drugs and Pharmaceuticals Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": null
     },
     {
       "scrip_code": 524634,
@@ -306,7 +306,7 @@
       "ND_END_DATE": null,
       "payment_date": null,
       "exdate": "20260703",
-      "long_name": "Balaji Amines Ltd",
+      "long_name": "Balaji Amines Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 11.0
     },
@@ -402,7 +402,7 @@
       "ND_END_DATE": null,
       "payment_date": null,
       "exdate": "20260703",
-      "long_name": "DCM Shriram Industries Ltd",
+      "long_name": "DCM Shriram Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.4
     },
@@ -746,22 +746,6 @@
       "scrip_code": 500411,
       "short_name": "THERMAX",
       "Ex_date": "03 Jul 2026",
-      "Purpose": "Final Dividend - Rs. - 14.0000",
-      "RD_Date": "03 Jul 2026",
-      "BCRD_FROM": null,
-      "BCRD_TO": null,
-      "ND_START_DATE": null,
-      "ND_END_DATE": null,
-      "payment_date": null,
-      "exdate": "20260703",
-      "long_name": "Thermax Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 14.0
-    },
-    {
-      "scrip_code": 500411,
-      "short_name": "THERMAX",
-      "Ex_date": "03 Jul 2026",
       "Purpose": "Special Dividend - Rs. - 6.0000",
       "RD_Date": "03 Jul 2026",
       "BCRD_FROM": null,
@@ -773,6 +757,22 @@
       "long_name": "Thermax Ltd",
       "action_type": "Dividend",
       "dividend_amount": 6.0
+    },
+    {
+      "scrip_code": 500411,
+      "short_name": "THERMAX",
+      "Ex_date": "03 Jul 2026",
+      "Purpose": "Final Dividend - Rs. - 14.0000",
+      "RD_Date": "03 Jul 2026",
+      "BCRD_FROM": null,
+      "BCRD_TO": null,
+      "ND_START_DATE": null,
+      "ND_END_DATE": null,
+      "payment_date": null,
+      "exdate": "20260703",
+      "long_name": "Thermax Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 14.0
     },
     {
       "scrip_code": 532410,
@@ -834,7 +834,7 @@
       "ND_END_DATE": "02 Jul 2026",
       "payment_date": null,
       "exdate": "20260702",
-      "long_name": "Chembond Material Technologies Ltd",
+      "long_name": "Chembond Material Technologies Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -978,7 +978,7 @@
       "ND_END_DATE": "30 Jun 2026",
       "payment_date": null,
       "exdate": "20260630",
-      "long_name": "Patel Integrated Logistics Ltd",
+      "long_name": "Patel Integrated Logistics Ltd-$",
       "action_type": "Buyback",
       "dividend_amount": null
     },
@@ -1106,7 +1106,7 @@
       "ND_END_DATE": "25 Jun 2026",
       "payment_date": null,
       "exdate": "20260625",
-      "long_name": "Alkyl Amines Chemicals Ltd",
+      "long_name": "Alkyl Amines Chemicals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
