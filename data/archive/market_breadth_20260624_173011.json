@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-24T17:30:11.252148+00:00Z",
+    "last_updated": "2026-06-24T15:37:49.190240+00:00Z",
     "status": "healthy",
-    "record_count": 74
+    "record_count": 73
   },
   "data": [
     {
@@ -722,20 +722,6 @@
     },
     {
       "Advance": null,
-      "Advance_PER": 46.67,
-      "Decline": null,
-      "Decline_PER": 53.33,
-      "Unchange": null,
-      "Unchange_PER": 0.0,
-      "TOTAL": 30,
-      "Scrip_GRP": null,
-      "Sens_ind": "BSE Midcap 150 Momentum 30",
-      "UP": 14,
-      "DN": 16,
-      "UC": 0
-    },
-    {
-      "Advance": null,
       "Advance_PER": 63.33,
       "Decline": null,
       "Decline_PER": 36.67,
@@ -1035,11 +1021,11 @@
       "Decline_PER": 0.0,
       "Unchange": null,
       "Unchange_PER": 0.0,
-      "TOTAL": 6724,
+      "TOTAL": 6694,
       "Scrip_GRP": null,
       "Sens_ind": "Total",
-      "UP": 3510,
-      "DN": 3158,
+      "UP": 3496,
+      "DN": 3142,
       "UC": 56
     }
   ]
