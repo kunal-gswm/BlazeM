@@ -1,17 +1,33 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-06-23T21:56:58.698260+00:00Z",
+    "last_updated": "2026-06-24T10:44:51.377359+00:00Z",
     "status": "healthy",
-    "record_count": 4
+    "record_count": 3
   },
   "data": [
+    {
+      "issue_name": "Knack Packaging Ltd.",
+      "ipo_type": "Mainboard",
+      "source": "chittorgarh",
+      "price_band": "161.00 to 170.00",
+      "lot_size": null,
+      "issue_size": null,
+      "issue_open": "2026-07-01",
+      "issue_close": null,
+      "allotment_date": null,
+      "listing_date": null,
+      "gmp": null,
+      "gmp_percent": null,
+      "detail_url": "https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/",
+      "scraped_at": "2026-06-24T10:44:44.174319+00:00Z"
+    },
     {
       "issue_name": "Aastha Spintex Ltd.",
       "ipo_type": "Mainboard",
       "source": "chittorgarh",
-      "price_band": null,
-      "lot_size": "02-Jul-2026",
+      "price_band": "125.00 to 136.00",
+      "lot_size": null,
       "issue_size": null,
       "issue_open": "2026-06-29",
       "issue_close": null,
@@ -20,14 +36,14 @@
       "gmp": null,
       "gmp_percent": null,
       "detail_url": "https://www.chittorgarh.com/ipo/aastha-spintex-ipo/2678/",
-      "scraped_at": "2026-06-23T21:56:55.420358+00:00Z"
+      "scraped_at": "2026-06-24T10:44:44.174394+00:00Z"
     },
     {
-      "issue_name": "CSM Technologies Ltd.",
+      "issue_name": "CSM Technologies Ltd. O",
       "ipo_type": "Mainboard",
       "source": "chittorgarh",
-      "price_band": null,
-      "lot_size": "30-Jun-2026",
+      "price_band": "107.00 to 113.00",
+      "lot_size": null,
       "issue_size": null,
       "issue_open": "2026-06-24",
       "issue_close": null,
@@ -36,39 +52,7 @@
       "gmp": null,
       "gmp_percent": null,
       "detail_url": "https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/",
-      "scraped_at": "2026-06-23T21:56:55.420434+00:00Z"
-    },
-    {
-      "issue_name": "Advit Jewels Ltd.",
-      "ipo_type": "Mainboard",
-      "source": "chittorgarh",
-      "price_band": null,
-      "lot_size": "29-Jun-2026",
-      "issue_size": null,
-      "issue_open": "2026-06-23",
-      "issue_close": null,
-      "allotment_date": null,
-      "listing_date": null,
-      "gmp": null,
-      "gmp_percent": null,
-      "detail_url": "https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/",
-      "scraped_at": "2026-06-23T21:56:55.420486+00:00Z"
-    },
-    {
-      "issue_name": "Waterways Leisure Tourism Ltd.",
-      "ipo_type": "Mainboard",
-      "source": "chittorgarh",
-      "price_band": null,
-      "lot_size": "29-Jun-2026",
-      "issue_size": null,
-      "issue_open": "2026-06-23",
-      "issue_close": null,
-      "allotment_date": null,
-      "listing_date": null,
-      "gmp": null,
-      "gmp_percent": null,
-      "detail_url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
-      "scraped_at": "2026-06-23T21:56:55.420534+00:00Z"
+      "scraped_at": "2026-06-24T10:44:44.174491+00:00Z"
     }
   ]
 }
