@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-06-24T04:20:42.709489+00:00Z",
+    "last_updated": "2026-06-24T00:06:31.688104+00:00Z",
     "status": "healthy",
     "record_count": 6
   },
@@ -37,16 +37,16 @@
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "price": 23826.75,
-      "change": 31.5,
-      "change_pct": 0.13
+      "price": 23824.1,
+      "change": -262.75,
+      "change_pct": -1.09
     },
     {
       "symbol": "^BSESN",
       "name": "BSE Sensex",
-      "price": 76428.6,
-      "change": 227.28,
-      "change_pct": 0.3
+      "price": 76200.68,
+      "change": -893.39,
+      "change_pct": -1.16
     }
   ]
 }
