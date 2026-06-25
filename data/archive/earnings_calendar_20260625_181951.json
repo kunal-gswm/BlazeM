@@ -1,17 +1,31 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-25T18:19:51.924261+00:00Z",
+    "last_updated": "2026-06-25T15:43:59.359773+00:00Z",
     "status": "healthy",
-    "record_count": 18
+    "record_count": 20
   },
   "data": [
+    {
+      "scrip_Code": "544772",
+      "short_name": "AUREATE",
+      "Long_Name": "Aureate Tradde Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/aureate-tradde-ltd/aureate/544772/"
+    },
     {
       "scrip_Code": "532217",
       "short_name": "CMXLTD",
       "Long_Name": "CMX Holdings Ltd",
       "meeting_date": "25 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/cmx-holdings-ltd/cmxltd/532217/"
+    },
+    {
+      "scrip_Code": "544331",
+      "short_name": "DAVIN",
+      "Long_Name": "Davin Sons Retail Ltd",
+      "meeting_date": "25 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/davin-sons-retail-ltd/davin/544331/"
     },
     {
       "scrip_Code": "539407",
