@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-25T01:30:45.451098+00:00Z",
+    "last_updated": "2026-06-24T23:20:41.161834+00:00Z",
     "status": "healthy",
     "record_count": 74
   },
@@ -960,16 +960,16 @@
     },
     {
       "Advance": null,
-      "Advance_PER": 49.61,
+      "Advance_PER": 49.19,
       "Decline": null,
-      "Decline_PER": 43.31,
+      "Decline_PER": 43.55,
       "Unchange": null,
-      "Unchange_PER": 7.09,
-      "TOTAL": 127,
+      "Unchange_PER": 7.26,
+      "TOTAL": 124,
       "Scrip_GRP": null,
       "Sens_ind": "BSE SME IPO",
-      "UP": 63,
-      "DN": 55,
+      "UP": 61,
+      "DN": 54,
       "UC": 9
     },
     {
@@ -1035,11 +1035,11 @@
       "Decline_PER": 0.0,
       "Unchange": null,
       "Unchange_PER": 0.0,
-      "TOTAL": 6727,
+      "TOTAL": 6724,
       "Scrip_GRP": null,
       "Sens_ind": "Total",
-      "UP": 3512,
-      "DN": 3159,
+      "UP": 3510,
+      "DN": 3158,
       "UC": 56
     }
   ]
