@@ -1,11 +1,25 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-25T15:43:59.359773+00:00Z",
+    "last_updated": "2026-06-24T18:02:21.005935+00:00Z",
     "status": "healthy",
-    "record_count": 20
+    "record_count": 17
   },
   "data": [
+    {
+      "scrip_Code": "512301",
+      "short_name": "CHMBBRW",
+      "Long_Name": "Chambal Breweries & Distilleries Ltd",
+      "meeting_date": "24 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/chambal-breweries--distilleries-ltd/chmbbrw/512301/"
+    },
+    {
+      "scrip_Code": "542655",
+      "short_name": "VIKASLIFE",
+      "Long_Name": "Vikas Lifecare Ltd",
+      "meeting_date": "24 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/vikas-lifecare-ltd/vikaslife/542655/"
+    },
     {
       "scrip_Code": "544772",
       "short_name": "AUREATE",
@@ -110,41 +124,6 @@
       "Long_Name": "Superhouse Ltd",
       "meeting_date": "30 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/superhouse-ltd/superhouse/523283/"
-    },
-    {
-      "scrip_Code": "532904",
-      "short_name": "SUPREMEINF",
-      "Long_Name": "Supreme Infrastructure India Ltd",
-      "meeting_date": "04 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/supreme-infrastructure-india-ltd/supremeinf/532904/"
-    },
-    {
-      "scrip_Code": "531530",
-      "short_name": "BETALA",
-      "Long_Name": "Betala Global Securities Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/betala-global-securities-ltd/betala/531530/"
-    },
-    {
-      "scrip_Code": "504340",
-      "short_name": "LONGSPUR",
-      "Long_Name": "Longspur International Ventures Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/longspur-international-ventures-ltd/longspur/504340/"
-    },
-    {
-      "scrip_Code": "507488",
-      "short_name": "GMBREW",
-      "Long_Name": "GM Breweries Ltd",
-      "meeting_date": "09 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/gm-breweries-ltd/gmbrew/507488/"
-    },
-    {
-      "scrip_Code": "532540",
-      "short_name": "TCS",
-      "Long_Name": "Tata Consultancy Services Ltd",
-      "meeting_date": "09 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/tcs/532540/"
     }
   ]
 }
