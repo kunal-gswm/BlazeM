@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-06-26T01:32:02.827217+00:00Z",
+    "last_updated": "2026-06-25T23:17:31.281429+00:00Z",
     "status": "healthy",
     "record_count": 1
   },
@@ -15,16 +15,6 @@
           "previousClose": "394.8",
           "change": -2.9,
           "pChange": -0.7345491388044579,
-          "value52Week": 399.35,
-          "type": "HIGH"
-        },
-        {
-          "symbol": "ABCAPITAL",
-          "companyName": "Aditya Birla Capital Limited",
-          "lastPrice": 396.9,
-          "previousClose": "63.9",
-          "change": 333,
-          "pChange": 521.1267605633802,
           "value52Week": 399.35,
           "type": "HIGH"
         },
@@ -116,16 +106,6 @@
           "change": 11.5,
           "pChange": 0.1341342508893684,
           "value52Week": 8693.5,
-          "type": "HIGH"
-        },
-        {
-          "symbol": "ARVIND",
-          "companyName": "Arvind Limited",
-          "lastPrice": 554,
-          "previousClose": "34.3",
-          "change": 519.7,
-          "pChange": 1515.1603498542274,
-          "value52Week": 570,
           "type": "HIGH"
         },
         {
@@ -246,16 +226,6 @@
           "change": 33,
           "pChange": 6.203007518796992,
           "value52Week": 581.8,
-          "type": "HIGH"
-        },
-        {
-          "symbol": "EMCURE",
-          "companyName": "Emcure Pharmaceuticals Limited",
-          "lastPrice": 1906.3,
-          "previousClose": "1008",
-          "change": 898.3,
-          "pChange": 89.1170634920635,
-          "value52Week": 1944,
           "type": "HIGH"
         },
         {
@@ -669,16 +639,6 @@
           "type": "HIGH"
         },
         {
-          "symbol": "SHADOWFAX",
-          "companyName": "Shadowfax Technologies Limited",
-          "lastPrice": 225,
-          "previousClose": "124",
-          "change": 101,
-          "pChange": 81.45161290322581,
-          "value52Week": 232.9,
-          "type": "HIGH"
-        },
-        {
           "symbol": "SHRIPISTON",
           "companyName": "Shriram Pistons & Rings Limited",
           "lastPrice": 4032,
@@ -745,16 +705,6 @@
           "previousClose": "1424.7",
           "change": 11.3,
           "pChange": 0.7931494349687653,
-          "value52Week": 1517.7,
-          "type": "HIGH"
-        },
-        {
-          "symbol": "SYRMA",
-          "companyName": "Syrma SGS Technology Limited",
-          "lastPrice": 1444.1,
-          "previousClose": "220",
-          "change": 1224.1,
-          "pChange": 556.4090909090909,
           "value52Week": 1517.7,
           "type": "HIGH"
         },
