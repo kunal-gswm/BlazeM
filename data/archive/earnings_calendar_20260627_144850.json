@@ -1,11 +1,25 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-27T14:48:50.337284+00:00Z",
+    "last_updated": "2026-06-26T17:57:36.949735+00:00Z",
     "status": "healthy",
-    "record_count": 13
+    "record_count": 15
   },
   "data": [
+    {
+      "scrip_Code": "507984",
+      "short_name": "DESIFARMS",
+      "Long_Name": "Desi Farms India Ltd",
+      "meeting_date": "26 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/desi-farms-india-ltd/desifarms/507984/"
+    },
+    {
+      "scrip_Code": "544769",
+      "short_name": "HARIKANTA",
+      "Long_Name": "Harikanta Overseas Ltd",
+      "meeting_date": "26 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/harikanta-overseas-ltd/harikanta/544769/"
+    },
     {
       "scrip_Code": "533292",
       "short_name": "A2ZINFRA",
