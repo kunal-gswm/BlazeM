@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-27T16:12:38.275914+00:00Z",
+    "last_updated": "2026-06-27T14:48:49.757647+00:00Z",
     "status": "healthy",
     "record_count": 96
   },
@@ -178,7 +178,7 @@
       "ND_END_DATE": null,
       "payment_date": null,
       "exdate": "20260710",
-      "long_name": "Grindwell Norton Ltd",
+      "long_name": "Grindwell Norton Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 19.0
     },
@@ -250,22 +250,6 @@
       "scrip_code": 500790,
       "short_name": "NESTLEIND",
       "Ex_date": "10 Jul 2026",
-      "Purpose": "Special Dividend",
-      "RD_Date": "10 Jul 2026",
-      "BCRD_FROM": null,
-      "BCRD_TO": null,
-      "ND_START_DATE": null,
-      "ND_END_DATE": null,
-      "payment_date": null,
-      "exdate": "20260710",
-      "long_name": "Nestle India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": null
-    },
-    {
-      "scrip_code": 500790,
-      "short_name": "NESTLEIND",
-      "Ex_date": "10 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 5.0000",
       "RD_Date": "10 Jul 2026",
       "BCRD_FROM": null,
@@ -277,6 +261,22 @@
       "long_name": "Nestle India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 5.0
+    },
+    {
+      "scrip_code": 500790,
+      "short_name": "NESTLEIND",
+      "Ex_date": "10 Jul 2026",
+      "Purpose": "Special Dividend",
+      "RD_Date": "10 Jul 2026",
+      "BCRD_FROM": null,
+      "BCRD_TO": null,
+      "ND_START_DATE": null,
+      "ND_END_DATE": null,
+      "payment_date": null,
+      "exdate": "20260710",
+      "long_name": "Nestle India Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": null
     },
     {
       "scrip_code": 540769,
@@ -338,7 +338,7 @@
       "ND_END_DATE": null,
       "payment_date": null,
       "exdate": "20260710",
-      "long_name": "PTL Enterprises Ltd",
+      "long_name": "PTL Enterprises Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -714,22 +714,6 @@
       "scrip_code": 544222,
       "short_name": "AKUMS",
       "Ex_date": "03 Jul 2026",
-      "Purpose": "Special Dividend",
-      "RD_Date": "03 Jul 2026",
-      "BCRD_FROM": null,
-      "BCRD_TO": null,
-      "ND_START_DATE": "29 Jun 2026",
-      "ND_END_DATE": "03 Jul 2026",
-      "payment_date": null,
-      "exdate": "20260703",
-      "long_name": "Akums Drugs and Pharmaceuticals Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": null
-    },
-    {
-      "scrip_code": 544222,
-      "short_name": "AKUMS",
-      "Ex_date": "03 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 1.0000",
       "RD_Date": "03 Jul 2026",
       "BCRD_FROM": null,
@@ -741,6 +725,22 @@
       "long_name": "Akums Drugs and Pharmaceuticals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
+    },
+    {
+      "scrip_code": 544222,
+      "short_name": "AKUMS",
+      "Ex_date": "03 Jul 2026",
+      "Purpose": "Special Dividend",
+      "RD_Date": "03 Jul 2026",
+      "BCRD_FROM": null,
+      "BCRD_TO": null,
+      "ND_START_DATE": "29 Jun 2026",
+      "ND_END_DATE": "03 Jul 2026",
+      "payment_date": null,
+      "exdate": "20260703",
+      "long_name": "Akums Drugs and Pharmaceuticals Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": null
     },
     {
       "scrip_code": 524634,
@@ -770,7 +770,7 @@
       "ND_END_DATE": "03 Jul 2026",
       "payment_date": null,
       "exdate": "20260703",
-      "long_name": "Balaji Amines Ltd",
+      "long_name": "Balaji Amines Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 11.0
     },
@@ -866,7 +866,7 @@
       "ND_END_DATE": "03 Jul 2026",
       "payment_date": null,
       "exdate": "20260703",
-      "long_name": "DCM Shriram Industries Ltd",
+      "long_name": "DCM Shriram Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.4
     },
@@ -1298,7 +1298,7 @@
       "ND_END_DATE": "02 Jul 2026",
       "payment_date": null,
       "exdate": "20260702",
-      "long_name": "Chembond Material Technologies Ltd",
+      "long_name": "Chembond Material Technologies Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1370,22 +1370,6 @@
       "scrip_code": 500490,
       "short_name": "BAJAJHLDNG",
       "Ex_date": "30 Jun 2026",
-      "Purpose": "Final Dividend - Rs. - 80.0000",
-      "RD_Date": "30 Jun 2026",
-      "BCRD_FROM": null,
-      "BCRD_TO": null,
-      "ND_START_DATE": "29 Jun 2026",
-      "ND_END_DATE": "30 Jun 2026",
-      "payment_date": null,
-      "exdate": "20260630",
-      "long_name": "Bajaj Holdings & Investment Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 80.0
-    },
-    {
-      "scrip_code": 500490,
-      "short_name": "BAJAJHLDNG",
-      "Ex_date": "30 Jun 2026",
       "Purpose": "Special Dividend - Rs. - 50.0000",
       "RD_Date": "30 Jun 2026",
       "BCRD_FROM": null,
@@ -1397,6 +1381,22 @@
       "long_name": "Bajaj Holdings & Investment Ltd",
       "action_type": "Dividend",
       "dividend_amount": 50.0
+    },
+    {
+      "scrip_code": 500490,
+      "short_name": "BAJAJHLDNG",
+      "Ex_date": "30 Jun 2026",
+      "Purpose": "Final Dividend - Rs. - 80.0000",
+      "RD_Date": "30 Jun 2026",
+      "BCRD_FROM": null,
+      "BCRD_TO": null,
+      "ND_START_DATE": "29 Jun 2026",
+      "ND_END_DATE": "30 Jun 2026",
+      "payment_date": null,
+      "exdate": "20260630",
+      "long_name": "Bajaj Holdings & Investment Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 80.0
     },
     {
       "scrip_code": 500034,
@@ -1442,7 +1442,7 @@
       "ND_END_DATE": "30 Jun 2026",
       "payment_date": null,
       "exdate": "20260630",
-      "long_name": "Patel Integrated Logistics Ltd",
+      "long_name": "Patel Integrated Logistics Ltd-$",
       "action_type": "Buyback",
       "dividend_amount": null
     },
