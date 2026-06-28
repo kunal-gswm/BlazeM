@@ -1,7 +1,7 @@
 {
   "ipos": {
     "status": "failed",
-    "updated_at": "2026-06-28T08:15:58.446956+00:00Z"
+    "updated_at": "2026-06-28T10:36:06.562959+00:00Z"
   },
   "fii_dii": {
     "status": "failed",
@@ -17,22 +17,22 @@
   },
   "market_breadth": {
     "status": "healthy",
-    "updated_at": "2026-06-28T08:15:41.798430+00:00Z"
+    "updated_at": "2026-06-28T10:35:51.045190+00:00Z"
   },
   "global_indices": {
     "status": "healthy",
-    "updated_at": "2026-06-28T08:15:40.822967+00:00Z"
+    "updated_at": "2026-06-28T10:35:49.385478+00:00Z"
   },
   "high_low": {
     "status": "healthy",
-    "updated_at": "2026-06-28T08:16:01.028362+00:00Z"
+    "updated_at": "2026-06-28T10:36:09.490078+00:00Z"
   },
   "sector_performance": {
     "status": "healthy",
-    "updated_at": "2026-06-28T08:15:59.006986+00:00Z"
+    "updated_at": "2026-06-28T10:36:07.340387+00:00Z"
   },
   "market_sentiment": {
     "status": "healthy",
-    "updated_at": "2026-06-28T08:16:00.186205+00:00Z"
+    "updated_at": "2026-06-28T10:36:08.209612+00:00Z"
   }
 }
