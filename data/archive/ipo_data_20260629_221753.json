@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-06-29T22:17:53.608732+00:00Z",
+    "last_updated": "2026-06-29T21:03:33.550810+00:00Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -10,8 +10,8 @@
       "issue_name": "Knack Packaging Ltd.",
       "ipo_type": "Mainboard",
       "source": "chittorgarh",
-      "price_band": "161.00 to 170.00",
-      "lot_size": null,
+      "price_band": null,
+      "lot_size": "06-Jul-2026",
       "issue_size": null,
       "issue_open": "2026-07-01",
       "issue_close": null,
@@ -20,14 +20,14 @@
       "gmp": null,
       "gmp_percent": null,
       "detail_url": "https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/",
-      "scraped_at": "2026-06-29T22:17:45.673758+00:00Z"
+      "scraped_at": "2026-06-29T21:03:30.372175+00:00Z"
     },
     {
-      "issue_name": "Aastha Spintex Ltd. O",
+      "issue_name": "Aastha Spintex Ltd.",
       "ipo_type": "Mainboard",
       "source": "chittorgarh",
-      "price_band": "125.00 to 136.00",
-      "lot_size": null,
+      "price_band": null,
+      "lot_size": "02-Jul-2026",
       "issue_size": null,
       "issue_open": "2026-06-29",
       "issue_close": null,
@@ -36,7 +36,7 @@
       "gmp": null,
       "gmp_percent": null,
       "detail_url": "https://www.chittorgarh.com/ipo/aastha-spintex-ipo/2678/",
-      "scraped_at": "2026-06-29T22:17:45.673837+00:00Z"
+      "scraped_at": "2026-06-29T21:03:30.372250+00:00Z"
     }
   ]
 }
