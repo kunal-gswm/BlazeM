@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-06-29T21:03:08.579847+00:00Z",
+    "last_updated": "2026-06-29T19:24:04.345379+00:00Z",
     "status": "healthy",
     "record_count": 6
   },
@@ -9,30 +9,30 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7440.43,
-      "change": 86.41,
+      "price": 7440.48,
+      "change": 86.46,
       "change_pct": 1.18
     },
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52182.74,
-      "change": 306.63,
-      "change_pct": 0.59
+      "price": 52193.79,
+      "change": 317.68,
+      "change_pct": 0.61
     },
     {
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 25820.14,
-      "change": 522.53,
-      "change_pct": 2.07
+      "price": 25824.97,
+      "change": 527.35,
+      "change_pct": 2.08
     },
     {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 17.65,
-      "change": -0.73,
-      "change_pct": -3.97
+      "price": 17.59,
+      "change": -0.79,
+      "change_pct": -4.3
     },
     {
       "symbol": "^NSEI",
