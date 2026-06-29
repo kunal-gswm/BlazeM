@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-06-29T01:34:26.423177+00:00Z",
+    "last_updated": "2026-06-28T23:19:35.371348+00:00Z",
     "status": "healthy",
     "record_count": 1
   },
@@ -11,20 +11,20 @@
         {
           "symbol": "ABCAPITAL",
           "companyName": "Aditya Birla Capital Limited",
-          "lastPrice": 396.9,
-          "previousClose": "63.9",
-          "change": 333,
-          "pChange": 521.1267605633802,
+          "lastPrice": 391.9,
+          "previousClose": "394.8",
+          "change": -2.9,
+          "pChange": -0.7345491388044579,
           "value52Week": 399.35,
           "type": "HIGH"
         },
         {
           "symbol": "ABCAPITAL",
           "companyName": "Aditya Birla Capital Limited",
-          "lastPrice": 391.9,
-          "previousClose": "394.8",
-          "change": -2.9,
-          "pChange": -0.7345491388044579,
+          "lastPrice": 396.9,
+          "previousClose": "63.9",
+          "change": 333,
+          "pChange": 521.1267605633802,
           "value52Week": 399.35,
           "type": "HIGH"
         },
@@ -121,20 +121,20 @@
         {
           "symbol": "ARVIND",
           "companyName": "Arvind Limited",
-          "lastPrice": 552,
-          "previousClose": "556.1",
-          "change": -4.1,
-          "pChange": -0.7372774680812804,
+          "lastPrice": 554,
+          "previousClose": "34.3",
+          "change": 519.7,
+          "pChange": 1515.1603498542274,
           "value52Week": 570,
           "type": "HIGH"
         },
         {
           "symbol": "ARVIND",
           "companyName": "Arvind Limited",
-          "lastPrice": 554,
-          "previousClose": "34.3",
-          "change": 519.7,
-          "pChange": 1515.1603498542274,
+          "lastPrice": 552,
+          "previousClose": "556.1",
+          "change": -4.1,
+          "pChange": -0.7372774680812804,
           "value52Week": 570,
           "type": "HIGH"
         },
