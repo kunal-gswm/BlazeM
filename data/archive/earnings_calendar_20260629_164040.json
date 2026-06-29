@@ -1,11 +1,18 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-29T16:40:40.405539+00:00Z",
+    "last_updated": "2026-06-28T16:19:15.307231+00:00Z",
     "status": "healthy",
     "record_count": 13
   },
   "data": [
+    {
+      "scrip_Code": "533292",
+      "short_name": "A2ZINFRA",
+      "Long_Name": "A2Z Infra Engineering Ltd",
+      "meeting_date": "29 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/a2z-infra-engineering-ltd/a2zinfra/533292/"
+    },
     {
       "scrip_Code": "544777",
       "short_name": "CMRGREEN",
@@ -26,6 +33,13 @@
       "Long_Name": "Majestic Research Services and Solutions Ltd",
       "meeting_date": "30 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
+    },
+    {
+      "scrip_Code": "502405",
+      "short_name": "MYSPAPE",
+      "Long_Name": "Mysore Paper Mills Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mysore-paper-mills-ltd/myspape/502405/"
     },
     {
       "scrip_Code": "523283",
@@ -82,20 +96,6 @@
       "Long_Name": "Tata Consultancy Services Ltd",
       "meeting_date": "09 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/tcs/532540/"
-    },
-    {
-      "scrip_Code": "532281",
-      "short_name": "HCLTECH",
-      "Long_Name": "HCL Technologies Ltd",
-      "meeting_date": "13 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/hcl-technologies-ltd/hcltech/532281/"
-    },
-    {
-      "scrip_Code": "544658",
-      "short_name": "ICICIAMC",
-      "Long_Name": "ICICI Prudential Asset Management Company Ltd",
-      "meeting_date": "13 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/icici-prudential-asset-management-company-ltd/iciciamc/544658/"
     }
   ]
 }
