@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-30T18:05:18.855629+00:00Z",
+    "last_updated": "2026-06-30T15:37:07.140124+00:00Z",
     "status": "healthy",
-    "record_count": 31
+    "record_count": 23
   },
   "data": [
     {
@@ -33,13 +33,6 @@
       "Long_Name": "Majestic Research Services and Solutions Ltd",
       "meeting_date": "30 Jun 2026",
       "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
-    },
-    {
-      "scrip_Code": "502405",
-      "short_name": "MYSPAPE",
-      "Long_Name": "Mysore Paper Mills Ltd",
-      "meeting_date": "30 Jun 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/mysore-paper-mills-ltd/myspape/502405/"
     },
     {
       "scrip_Code": "539917",
@@ -84,13 +77,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/a2z-infra-engineering-ltd/a2zinfra/533292/"
     },
     {
-      "scrip_Code": "507984",
-      "short_name": "DESIFARMS",
-      "Long_Name": "Desi Farms India Ltd",
-      "meeting_date": "03 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/desi-farms-india-ltd/desifarms/507984/"
-    },
-    {
       "scrip_Code": "532948",
       "short_name": "TULSI",
       "Long_Name": "Tulsi Extrusions Ltd",
@@ -126,20 +112,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/longspur-international-ventures-ltd/longspur/504340/"
     },
     {
-      "scrip_Code": "526071",
-      "short_name": "STELLANT",
-      "Long_Name": "Stellant Securities (India) Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/stellant-securities-(india)-ltd/stellant/526071/"
-    },
-    {
-      "scrip_Code": "539229",
-      "short_name": "MRSS",
-      "Long_Name": "Majestic Research Services and Solutions Ltd",
-      "meeting_date": "08 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
-    },
-    {
       "scrip_Code": "533227",
       "short_name": "AHLEAST",
       "Long_Name": "Asian Hotels (East) Ltd",
@@ -154,13 +126,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/anand-rathi-wealth-ltd/anandrathi/543415/"
     },
     {
-      "scrip_Code": "523708",
-      "short_name": "EIMCOELECO",
-      "Long_Name": "Eimco Elecon (India) Ltd",
-      "meeting_date": "09 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/eimco-elecon-(india)-ltd/eimcoeleco/523708/"
-    },
-    {
       "scrip_Code": "507488",
       "short_name": "GMBREW",
       "Long_Name": "GM Breweries Ltd",
@@ -173,27 +138,6 @@
       "Long_Name": "Tata Consultancy Services Ltd",
       "meeting_date": "09 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/tcs/532540/"
-    },
-    {
-      "scrip_Code": "505700",
-      "short_name": "ELECON",
-      "Long_Name": "Elecon Engineering Company Ltd",
-      "meeting_date": "10 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/elecon-engineering-company-ltd/elecon/505700/"
-    },
-    {
-      "scrip_Code": "533519",
-      "short_name": "LTF",
-      "Long_Name": "L&T Finance Ltd",
-      "meeting_date": "10 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/lt-finance-ltd/ltf/533519/"
-    },
-    {
-      "scrip_Code": "540005",
-      "short_name": "LTM",
-      "Long_Name": "LTM Ltd",
-      "meeting_date": "11 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/ltm-ltd/ltm/540005/"
     },
     {
       "scrip_Code": "532281",
