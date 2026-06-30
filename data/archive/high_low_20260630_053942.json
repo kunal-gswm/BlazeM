@@ -1,0 +1,1226 @@
+{
+  "metadata": {
+    "source": "nse_india",
+    "last_updated": "2026-06-30T01:27:36.604242+00:00Z",
+    "status": "healthy",
+    "record_count": 1
+  },
+  "data": [
+    {
+      "highs": [
+        {
+          "symbol": "ABGSEC",
+          "companyName": "AdityaBirlaSunLifeMF-Aditya Birla Sun Life CRISIL Broad Based Gilt ETF",
+          "lastPrice": 113.66,
+          "previousClose": "113.09",
+          "change": 0.57,
+          "pChange": 0.5040233442391016,
+          "value52Week": 114.83,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ABSLNN50ET",
+          "companyName": "Aditya Birla Sun Life Nifty Next 50 ETF",
+          "lastPrice": 75.36,
+          "previousClose": "75.74",
+          "change": -0.38,
+          "pChange": -0.5017163982043834,
+          "value52Week": 76.75,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ACMESOLAR",
+          "companyName": "Acme Solar Holdings Limited",
+          "lastPrice": 377.9,
+          "previousClose": "357.2",
+          "change": 20.7,
+          "pChange": 5.795072788353863,
+          "value52Week": 383.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ACSTECH",
+          "companyName": "ACS Technologies Limited",
+          "lastPrice": 44.98,
+          "previousClose": "44.83",
+          "change": 0.15,
+          "pChange": 0.3345973678340397,
+          "value52Week": 47.07,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ACUTAAS",
+          "companyName": "Acutaas Chemicals Limited",
+          "lastPrice": 3581,
+          "previousClose": "3300",
+          "change": 281,
+          "pChange": 8.515151515151516,
+          "value52Week": 3603.6,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ADOR",
+          "companyName": "Ador Welding Limited",
+          "lastPrice": 1255.9,
+          "previousClose": "1229.3",
+          "change": 26.6,
+          "pChange": 2.1638330757341575,
+          "value52Week": 1265,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AEGISLOG",
+          "companyName": "Aegis Logistics Limited",
+          "lastPrice": 1176,
+          "previousClose": "1140.65",
+          "change": 35.35,
+          "pChange": 3.0991101564897208,
+          "value52Week": 1186.95,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AETHER",
+          "companyName": "Aether Industries Limited",
+          "lastPrice": 1339,
+          "previousClose": "1325.1",
+          "change": 13.9,
+          "pChange": 1.0489774356652328,
+          "value52Week": 1392.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AJANTPHARM",
+          "companyName": "Ajanta Pharma Limited",
+          "lastPrice": 3300,
+          "previousClose": "3180.4",
+          "change": 119.6,
+          "pChange": 3.760533266255817,
+          "value52Week": 3479,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AKCAPIT",
+          "companyName": "AK Capital Services Limited",
+          "lastPrice": 1777,
+          "previousClose": "1800.4",
+          "change": -23.4,
+          "pChange": -1.299711175294379,
+          "value52Week": 1850,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AMAGI",
+          "companyName": "Amagi Media Labs Limited",
+          "lastPrice": 552,
+          "previousClose": "514.05",
+          "change": 37.95,
+          "pChange": 7.382550335570469,
+          "value52Week": 592.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AMANTA",
+          "companyName": "Amanta Healthcare Limited",
+          "lastPrice": 161,
+          "previousClose": "160.68",
+          "change": 0.32,
+          "pChange": 0.19915359721184964,
+          "value52Week": 167.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ANANDRATHI",
+          "companyName": "Anand Rathi Wealth Limited",
+          "lastPrice": 1976,
+          "previousClose": "1932.5",
+          "change": 43.5,
+          "pChange": 2.2509702457956013,
+          "value52Week": 1999,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "APOLLOHOSP",
+          "companyName": "Apollo Hospitals Enterprise Limited",
+          "lastPrice": 8664.5,
+          "previousClose": "8592",
+          "change": 72.5,
+          "pChange": 0.8438081936685289,
+          "value52Week": 8734,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ASTRAMICRO",
+          "companyName": "Astra Microwave Products Limited",
+          "lastPrice": 1737.9,
+          "previousClose": "1721.7",
+          "change": 16.2,
+          "pChange": 0.9409304756926293,
+          "value52Week": 1755,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ATHERENERG",
+          "companyName": "Ather Energy Limited",
+          "lastPrice": 1083,
+          "previousClose": "998.75",
+          "change": 84.25,
+          "pChange": 8.435544430538172,
+          "value52Week": 1098,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "companyName": "Aurobindo Pharma Limited",
+          "lastPrice": 1546,
+          "previousClose": "1555.2",
+          "change": -9.2,
+          "pChange": -0.5915637860082305,
+          "value52Week": 1585.3,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AVALON",
+          "companyName": "Avalon Technologies Limited",
+          "lastPrice": 1795,
+          "previousClose": "1750.3",
+          "change": 44.7,
+          "pChange": 2.553847911786551,
+          "value52Week": 1814.1,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AXISHCETF",
+          "companyName": "AXIS MUTUAL FUND - Axis NIFTY Healthcare ETF",
+          "lastPrice": 163.65,
+          "previousClose": "162.83",
+          "change": 0.82,
+          "pChange": 0.5035927040471657,
+          "value52Week": 166.97,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AYE",
+          "companyName": "Aye Finance Limited",
+          "lastPrice": 177.25,
+          "previousClose": "167.92",
+          "change": 9.33,
+          "pChange": 5.5562172463077655,
+          "value52Week": 178.63,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BBETF0432",
+          "companyName": "Edelweiss Mutual Fund - BHARAT Bond ETF - April 2032 - Growth",
+          "lastPrice": 1358.73,
+          "previousClose": "1343.79",
+          "change": 14.94,
+          "pChange": 1.1117808586163016,
+          "value52Week": 1358.73,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BHARATFORG",
+          "companyName": "Bharat Forge Limited",
+          "lastPrice": 2199.4,
+          "previousClose": "2145.3",
+          "change": 54.1,
+          "pChange": 2.521791823987321,
+          "value52Week": 2238,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BLISSGVS",
+          "companyName": "Bliss GVS Pharma Limited",
+          "lastPrice": 531,
+          "previousClose": "491.95",
+          "change": 39.05,
+          "pChange": 7.937798556763899,
+          "value52Week": 541.1,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CASHIETF",
+          "companyName": "ICICI Prudential MF-ICICI Prudential BSE Liquid Rate ETF-Growth",
+          "lastPrice": 1068.55,
+          "previousClose": "1068.4",
+          "change": 0.15,
+          "pChange": 0.014039685511044552,
+          "value52Week": 1068.55,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CEIGALL",
+          "companyName": "Ceigall India Limited",
+          "lastPrice": 399.95,
+          "previousClose": "382.2",
+          "change": 17.75,
+          "pChange": 4.6441653584510725,
+          "value52Week": 403,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CLCIND",
+          "companyName": "CLC Industries Limited",
+          "lastPrice": 46.71,
+          "previousClose": "44.49",
+          "change": 2.22,
+          "pChange": 4.989885367498315,
+          "value52Week": 46.71,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "CUPID",
+          "companyName": "Cupid Limited",
+          "lastPrice": 188.5,
+          "previousClose": "182.61",
+          "change": 5.89,
+          "pChange": 3.2254531515251084,
+          "value52Week": 189,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DIFFNKG",
+          "companyName": "Diffusion Engineers Limited",
+          "lastPrice": 416,
+          "previousClose": "388.3",
+          "change": 27.7,
+          "pChange": 7.133659541591553,
+          "value52Week": 422.2,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DISAQ",
+          "companyName": "Disa India Limited",
+          "lastPrice": 11702,
+          "previousClose": "12519",
+          "change": -817,
+          "pChange": -6.526080357856059,
+          "value52Week": 12864,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DRREDDY",
+          "companyName": "Dr. Reddy's Laboratories Limited",
+          "lastPrice": 1381,
+          "previousClose": "1350.5",
+          "change": 30.5,
+          "pChange": 2.258422806368012,
+          "value52Week": 1414.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EBBETF0431",
+          "companyName": "Edelweiss Mutual Fund - BHARAT Bond ETF - April 2031",
+          "lastPrice": 1431.86,
+          "previousClose": "1432.41",
+          "change": -0.55,
+          "pChange": -0.03839682772390587,
+          "value52Week": 1444.11,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "EBGNG",
+          "companyName": "GNG Electronics Limited",
+          "lastPrice": 570,
+          "previousClose": "565.75",
+          "change": 4.25,
+          "pChange": 0.7512152010605391,
+          "value52Week": 583.45,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "FEDERALBNK",
+          "companyName": "The Federal Bank  Limited",
+          "lastPrice": 325.2,
+          "previousClose": "324.05",
+          "change": 1.15,
+          "pChange": 0.35488350563184695,
+          "value52Week": 327,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "FERMENTA",
+          "companyName": "Fermenta Biotech Limited",
+          "lastPrice": 355,
+          "previousClose": "366.35",
+          "change": -11.35,
+          "pChange": -3.098130203357445,
+          "value52Week": 375.95,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GANDHAR",
+          "companyName": "Gandhar Oil Refinery (India) Limited",
+          "lastPrice": 179.1,
+          "previousClose": "175.15",
+          "change": 3.95,
+          "pChange": 2.2552098201541537,
+          "value52Week": 185.49,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GILT5BETA",
+          "companyName": "UTI Mutual Fund - UTI Nifty 5 yr Benchmark G-Sec ETF",
+          "lastPrice": 66.57,
+          "previousClose": "66.54",
+          "change": 0.03,
+          "pChange": 0.04508566275924256,
+          "value52Week": 66.57,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GMRAIRPORT",
+          "companyName": "GMR AIRPORTS LIMITED",
+          "lastPrice": 109.85,
+          "previousClose": "108.44",
+          "change": 1.41,
+          "pChange": 1.300258207303578,
+          "value52Week": 111.59,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GNRL",
+          "companyName": "Gujarat Natural Resources Limited",
+          "lastPrice": 112.55,
+          "previousClose": "101.85",
+          "change": 10.7,
+          "pChange": 10.505645557191949,
+          "value52Week": 120.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GSEC10IETF",
+          "companyName": "ICICI Pru Mutual Fund-ICICI Prudential Nifty 10 yr Benchmark G-Sec ETF",
+          "lastPrice": 263,
+          "previousClose": "262.74",
+          "change": 0.26,
+          "pChange": 0.098957143944584,
+          "value52Week": 265.67,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "GSEC10YEAR",
+          "companyName": "Mirae Asset Mutual Fund - Mirae Asset Nifty 8-13 yr G-Sec ETF",
+          "lastPrice": 30.3,
+          "previousClose": "29.95",
+          "change": 0.35,
+          "pChange": 1.1686143572621035,
+          "value52Week": 31,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HAWKINCOOK",
+          "companyName": "Hawkins Cookers Limited",
+          "lastPrice": 8130,
+          "previousClose": "8013",
+          "change": 117,
+          "pChange": 1.4601272931486335,
+          "value52Week": 8199,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HEALTHADD",
+          "companyName": "DSP Mutual Fund - DSP Nifty Healthcare ETF",
+          "lastPrice": 163.04,
+          "previousClose": "160.91",
+          "change": 2.13,
+          "pChange": 1.3237213349077124,
+          "value52Week": 164.37,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HEALTHIETF",
+          "companyName": "ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty Healthcare ETF",
+          "lastPrice": 165.6,
+          "previousClose": "163.68",
+          "change": 1.92,
+          "pChange": 1.1730205278592376,
+          "value52Week": 167.1,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HEXAGON",
+          "companyName": "Hexagon Nutrition Limited",
+          "lastPrice": 65.75,
+          "previousClose": "57.49",
+          "change": 8.26,
+          "pChange": 14.3677161245434,
+          "value52Week": 67.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "HONASA",
+          "companyName": "Honasa Consumer Limited",
+          "lastPrice": 443.5,
+          "previousClose": "417.7",
+          "change": 25.8,
+          "pChange": 6.176681829063922,
+          "value52Week": 449,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INDOTECH",
+          "companyName": "Indo Tech Transformers Limited",
+          "lastPrice": 3081.9,
+          "previousClose": "2935.2",
+          "change": 146.7,
+          "pChange": 4.99795584627964,
+          "value52Week": 3081.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INDSWFTLAB",
+          "companyName": "Ind-Swift Laboratories Limited",
+          "lastPrice": 206,
+          "previousClose": "200.9",
+          "change": 5.1,
+          "pChange": 2.538576406172225,
+          "value52Week": 211,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "INNOVACAP",
+          "companyName": "Innova Captab Limited",
+          "lastPrice": 999,
+          "previousClose": "941.35",
+          "change": 57.65,
+          "pChange": 6.124183353694162,
+          "value52Week": 999.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "IOLCP",
+          "companyName": "IOL Chemicals and Pharmaceuticals Limited",
+          "lastPrice": 143.26,
+          "previousClose": "133.66",
+          "change": 9.6,
+          "pChange": 7.182403112374682,
+          "value52Week": 143.89,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "JBCHEPHARM",
+          "companyName": "JB Chemicals & Pharmaceuticals Limited",
+          "lastPrice": 2280.8,
+          "previousClose": "2243.9",
+          "change": 36.9,
+          "pChange": 1.6444583091938143,
+          "value52Week": 2315.3,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KANORICHEM",
+          "companyName": "Kanoria Chemicals & Industries Limited",
+          "lastPrice": 131,
+          "previousClose": "132.07",
+          "change": -1.07,
+          "pChange": -0.8101764215946089,
+          "value52Week": 134,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KOTYARK",
+          "companyName": "Kotyark Industries Limited",
+          "lastPrice": 43.2,
+          "previousClose": "45.45",
+          "change": -2.25,
+          "pChange": -4.9504950495049505,
+          "value52Week": 45.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "KPL",
+          "companyName": "Kwality Pharmaceuticals Limited",
+          "lastPrice": 2719.9,
+          "previousClose": "2439.3",
+          "change": 280.6,
+          "pChange": 11.50330012708564,
+          "value52Week": 2757.8,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LAURUSLABS",
+          "companyName": "Laurus Labs Limited",
+          "lastPrice": 1487.6,
+          "previousClose": "1450",
+          "change": 37.6,
+          "pChange": 2.593103448275862,
+          "value52Week": 1531.2,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDCASE",
+          "companyName": "Zerodha Fund House - Zerodha Nifty 1D Rate Liquid ETF",
+          "lastPrice": 114.75,
+          "previousClose": "114.74",
+          "change": 0.01,
+          "pChange": 0.008715356458079136,
+          "value52Week": 114.77,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDPLUS",
+          "companyName": "Mirae Asset Mutual Fund - Mirae Asset Nifty 1D Rate Liquid ETF-Growth",
+          "lastPrice": 1092,
+          "previousClose": "1091.85",
+          "change": 0.15,
+          "pChange": 0.013738150844896277,
+          "value52Week": 1092.02,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "LIQUIDSHRI",
+          "companyName": "Shriram Mutual Fund -SHRIRAM NIFTY 1D RATE LIQUID ETF",
+          "lastPrice": 1110.71,
+          "previousClose": "1110.56",
+          "change": 0.15,
+          "pChange": 0.01350669932286414,
+          "value52Week": 1110.73,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MACPOWER",
+          "companyName": "Macpower CNC Machines Limited",
+          "lastPrice": 1336,
+          "previousClose": "1154.3",
+          "change": 181.7,
+          "pChange": 15.741141817551762,
+          "value52Week": 1339.95,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MAHABANK",
+          "companyName": "Bank of Maharashtra",
+          "lastPrice": 93.65,
+          "previousClose": "88.71",
+          "change": 4.94,
+          "pChange": 5.568707022883554,
+          "value52Week": 94.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MAJESAUT",
+          "companyName": "Majestic Auto Limited",
+          "lastPrice": 331,
+          "previousClose": "340.9",
+          "change": -9.9,
+          "pChange": -2.904077442065122,
+          "value52Week": 350,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MANCREDIT",
+          "companyName": "Mangal Credit and Fincorp Limited",
+          "lastPrice": 240,
+          "previousClose": "232.73",
+          "change": 7.27,
+          "pChange": 3.1237915180681477,
+          "value52Week": 241.26,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MEGASTAR",
+          "companyName": "Megastar Foods Limited",
+          "lastPrice": 362.95,
+          "previousClose": "351.85",
+          "change": 11.1,
+          "pChange": 3.1547534460707687,
+          "value52Week": 363,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "NUVAMA",
+          "companyName": "Nuvama Wealth Management Limited",
+          "lastPrice": 1769.2,
+          "previousClose": "1748.6",
+          "change": 20.6,
+          "pChange": 1.1780853254031798,
+          "value52Week": 1787.3,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "OFSS",
+          "companyName": "Oracle Financial Services Software Limited",
+          "lastPrice": 10880,
+          "previousClose": "10974.5",
+          "change": -94.5,
+          "pChange": -0.8610870654699531,
+          "value52Week": 11055,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PHARMABEES",
+          "companyName": "Nippon India Mutual Fund - Nippon India Nifty Pharma ETF",
+          "lastPrice": 25.94,
+          "previousClose": "25.63",
+          "change": 0.31,
+          "pChange": 1.2095200936402652,
+          "value52Week": 26.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PIDILITIND",
+          "companyName": "Pidilite Industries Limited",
+          "lastPrice": 1599.9,
+          "previousClose": "1597",
+          "change": 2.9,
+          "pChange": 0.18159048215403883,
+          "value52Week": 1620.7,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PIXTRANS",
+          "companyName": "Pix Transmissions Limited",
+          "lastPrice": 1855,
+          "previousClose": "1796.1",
+          "change": 58.9,
+          "pChange": 3.2793274316574803,
+          "value52Week": 1930,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PRADPME",
+          "companyName": "Pradeep Metals Limited",
+          "lastPrice": 596,
+          "previousClose": "561.95",
+          "change": 34.05,
+          "pChange": 6.059257941097963,
+          "value52Week": 596,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PREMEXPLN",
+          "companyName": "Premier Explosives Limited",
+          "lastPrice": 814.8,
+          "previousClose": "741.45",
+          "change": 73.35,
+          "pChange": 9.892777665385394,
+          "value52Week": 815,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PVTBKGROWW",
+          "companyName": "Groww Mutual Fund - Groww Nifty Private Bank ETF",
+          "lastPrice": 28.28,
+          "previousClose": "28.51",
+          "change": -0.23,
+          "pChange": -0.8067344791301297,
+          "value52Week": 29.57,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RADICO",
+          "companyName": "Radico Khaitan Limited",
+          "lastPrice": 3865,
+          "previousClose": "3829.8",
+          "change": 35.2,
+          "pChange": 0.9191080474176198,
+          "value52Week": 3914.6,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RAMCOSYS",
+          "companyName": "Ramco Systems Limited",
+          "lastPrice": 832,
+          "previousClose": "709.8",
+          "change": 122.2,
+          "pChange": 17.216117216117215,
+          "value52Week": 836.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "RRKABEL",
+          "companyName": "R R Kabel Limited",
+          "lastPrice": 2488.3,
+          "previousClose": "2488.3",
+          "change": 0,
+          "pChange": 0,
+          "value52Week": 2549,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SAILIFE",
+          "companyName": "Sai Life Sciences Limited",
+          "lastPrice": 1247.9,
+          "previousClose": "1221.3",
+          "change": 26.6,
+          "pChange": 2.1780070416769015,
+          "value52Week": 1260,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SCHNEIDER",
+          "companyName": "Schneider Electric Infrastructure Limited",
+          "lastPrice": 1432,
+          "previousClose": "1335.3",
+          "change": 96.7,
+          "pChange": 7.241818317980978,
+          "value52Week": 1468.8,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHIVAUM",
+          "companyName": "Shiv Aum Steels Limited",
+          "lastPrice": 420,
+          "previousClose": "405",
+          "change": 15,
+          "pChange": 3.7037037037037037,
+          "value52Week": 445.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHRIPISTON",
+          "companyName": "Shriram Pistons & Rings Limited",
+          "lastPrice": 4033,
+          "previousClose": "4033",
+          "change": 0,
+          "pChange": 0,
+          "value52Week": 4069,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SKFINDUS",
+          "companyName": "SKF India (Industrial) Limited",
+          "lastPrice": 2860,
+          "previousClose": "2906",
+          "change": -46,
+          "pChange": -1.582931865106676,
+          "value52Week": 2984,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SKMEGGPROD",
+          "companyName": "SKM Egg Products Export (India) Limited",
+          "lastPrice": 303,
+          "previousClose": "276.01",
+          "change": 26.99,
+          "pChange": 9.778631209014167,
+          "value52Week": 310,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TAMBOLIIN",
+          "companyName": "Tamboli Industries Limited",
+          "lastPrice": 223.95,
+          "previousClose": "225.61",
+          "change": -1.66,
+          "pChange": -0.7357829883427153,
+          "value52Week": 237.7,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "THANGAMAYL",
+          "companyName": "Thangamayil Jewellery Limited",
+          "lastPrice": 5860,
+          "previousClose": "5594.2",
+          "change": 265.8,
+          "pChange": 4.751349612098244,
+          "value52Week": 6153.4,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "THERMAX",
+          "companyName": "Thermax Limited",
+          "lastPrice": 5105,
+          "previousClose": "4828.8",
+          "change": 276.2,
+          "pChange": 5.7198475811795895,
+          "value52Week": 5277.8,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TIMEX",
+          "companyName": "Timex Group India Limited",
+          "lastPrice": 512.1,
+          "previousClose": "507.5",
+          "change": 4.6,
+          "pChange": 0.9064039408866995,
+          "value52Week": 527.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TIRUPATIFL",
+          "companyName": "Tirupati Forge Limited",
+          "lastPrice": 58.03,
+          "previousClose": "48.36",
+          "change": 9.67,
+          "pChange": 19.99586435070306,
+          "value52Week": 58.03,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TORNTPHARM",
+          "companyName": "Torrent Pharmaceuticals Limited",
+          "lastPrice": 4648.9,
+          "previousClose": "4516.2",
+          "change": 132.7,
+          "pChange": 2.938310969399052,
+          "value52Week": 4742.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "TURTLEMINT",
+          "companyName": "Turtlemint Fintech Solutions Limited",
+          "lastPrice": 137.5,
+          "previousClose": "152",
+          "change": 2.6,
+          "pChange": 1.927353595255745,
+          "value52Week": 144.95,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VENUSREM",
+          "companyName": "Venus Remedies Limited",
+          "lastPrice": 1942,
+          "previousClose": "1947",
+          "change": -5,
+          "pChange": -0.25680534155110424,
+          "value52Week": 2044.3,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VISL",
+          "companyName": "Vedanta Iron and Steel Limited",
+          "lastPrice": 32.42,
+          "previousClose": "30.88",
+          "change": 1.54,
+          "pChange": 4.987046632124352,
+          "value52Week": 32.42,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "WELCORP",
+          "companyName": "Welspun Corp Limited",
+          "lastPrice": 1513.9,
+          "previousClose": "1455.1",
+          "change": 58.8,
+          "pChange": 4.04095938423476,
+          "value52Week": 1525,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "WHEELS",
+          "companyName": "Wheels India Limited",
+          "lastPrice": 1796.5,
+          "previousClose": "1674.4",
+          "change": 122.1,
+          "pChange": 7.292164357381749,
+          "value52Week": 1796.5,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ZYDUSWELL",
+          "companyName": "Zydus Wellness Limited",
+          "lastPrice": 565.4,
+          "previousClose": "518.1",
+          "change": 47.3,
+          "pChange": 9.129511677282379,
+          "value52Week": 577.5,
+          "type": "HIGH"
+        }
+      ],
+      "lows": [
+        {
+          "symbol": "AQYLON",
+          "companyName": "Aqylon Nexus Limited",
+          "lastPrice": 40.05,
+          "previousClose": "     39.55",
+          "change": 0.5,
+          "pChange": 1.2642225031605563,
+          "value52Week": 38.01,
+          "type": "LOW"
+        },
+        {
+          "symbol": "ASIANTILES",
+          "companyName": "Asian Granito India Limited",
+          "lastPrice": 54.86,
+          "previousClose": "     54.36",
+          "change": 0.5,
+          "pChange": 0.919793966151582,
+          "value52Week": 53,
+          "type": "LOW"
+        },
+        {
+          "symbol": "BANG",
+          "companyName": "Bang Overseas Limited",
+          "lastPrice": 27.1,
+          "previousClose": "     31.92",
+          "change": -4.82,
+          "pChange": -15.100250626566416,
+          "value52Week": 25.84,
+          "type": "LOW"
+        },
+        {
+          "symbol": "BAYERCROP",
+          "companyName": "Bayer Cropscience Limited",
+          "lastPrice": 4079.9,
+          "previousClose": "   4186.30",
+          "change": -106.4,
+          "pChange": -2.5416238683324175,
+          "value52Week": 4030,
+          "type": "LOW"
+        },
+        {
+          "symbol": "BHARTIHEXA",
+          "companyName": "Bharti Hexacom Limited",
+          "lastPrice": 1447,
+          "previousClose": "   1477.00",
+          "change": -30,
+          "pChange": -2.031144211238998,
+          "value52Week": 1430,
+          "type": "LOW"
+        },
+        {
+          "symbol": "BSOFT",
+          "companyName": "BIRLASOFT LIMITED",
+          "lastPrice": 298.65,
+          "previousClose": "    300.70",
+          "change": -2.05,
+          "pChange": -0.6817426005986033,
+          "value52Week": 296.8,
+          "type": "LOW"
+        },
+        {
+          "symbol": "CSBBANK",
+          "companyName": "CSB Bank Limited",
+          "lastPrice": 330,
+          "previousClose": "    324.60",
+          "change": 5.4,
+          "pChange": 1.6635859519408502,
+          "value52Week": 317.35,
+          "type": "LOW"
+        },
+        {
+          "symbol": "GSLSU",
+          "companyName": "Global Surfaces Limited",
+          "lastPrice": 43.6,
+          "previousClose": "     45.72",
+          "change": -2.12,
+          "pChange": -4.636920384951881,
+          "value52Week": 42.15,
+          "type": "LOW"
+        },
+        {
+          "symbol": "HCLTECH",
+          "companyName": "HCL Technologies Limited",
+          "lastPrice": 1103.6,
+          "previousClose": "   1100.70",
+          "change": 2.9,
+          "pChange": 0.2634687017352594,
+          "value52Week": 1086,
+          "type": "LOW"
+        },
+        {
+          "symbol": "INDIAMART",
+          "companyName": "Indiamart Intermesh Limited",
+          "lastPrice": 1914,
+          "previousClose": "   1955.40",
+          "change": -41.4,
+          "pChange": -2.117213869285057,
+          "value52Week": 1903.2,
+          "type": "LOW"
+        },
+        {
+          "symbol": "JYOTHYLAB",
+          "companyName": "Jyothy Labs Limited",
+          "lastPrice": 195.88,
+          "previousClose": "    200.40",
+          "change": -1.02,
+          "pChange": -0.5180294565769427,
+          "value52Week": 195,
+          "type": "LOW"
+        },
+        {
+          "symbol": "LEMERITE",
+          "companyName": "Le Merite Exports Limited",
+          "lastPrice": 23.3,
+          "previousClose": "     24.28",
+          "change": -0.98,
+          "pChange": -4.036243822075782,
+          "value52Week": 23.07,
+          "type": "LOW"
+        },
+        {
+          "symbol": "LTM",
+          "companyName": "LTM Limited",
+          "lastPrice": 3685,
+          "previousClose": "   3762.60",
+          "change": -77.6,
+          "pChange": -2.06240365704566,
+          "value52Week": 3675.6,
+          "type": "LOW"
+        },
+        {
+          "symbol": "MEDICAMEQ",
+          "companyName": "Medicamen Biotech Limited",
+          "lastPrice": 242.95,
+          "previousClose": "    228.20",
+          "change": 14.75,
+          "pChange": 6.463628396143734,
+          "value52Week": 212.4,
+          "type": "LOW"
+        },
+        {
+          "symbol": "MHLXMIRU",
+          "companyName": "Mahalaxmi Rubtech Limited",
+          "lastPrice": 111.25,
+          "previousClose": "    131.91",
+          "change": -20.66,
+          "pChange": -15.662193920097035,
+          "value52Week": 105.53,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PATANJALI",
+          "companyName": "Patanjali Foods Limited",
+          "lastPrice": 412.45,
+          "previousClose": "    412.55",
+          "change": -0.1,
+          "pChange": -0.024239486122894196,
+          "value52Week": 407.5,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PERSISTENT",
+          "companyName": "Persistent Systems Limited",
+          "lastPrice": 4292,
+          "previousClose": "   4841.50",
+          "change": -549.5,
+          "pChange": -11.349788288753485,
+          "value52Week": 4265,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PFIZER",
+          "companyName": "Pfizer Limited",
+          "lastPrice": 4408,
+          "previousClose": "   4460.70",
+          "change": -52.7,
+          "pChange": -1.1814289237115252,
+          "value52Week": 4360.1,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PGHH",
+          "companyName": "Procter & Gamble Hygiene and Health Care Limited",
+          "lastPrice": 8820,
+          "previousClose": "   9020.50",
+          "change": -200.5,
+          "pChange": -2.2227149271104705,
+          "value52Week": 8750.5,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PIIND",
+          "companyName": "PI Industries Limited",
+          "lastPrice": 2567.7,
+          "previousClose": "   2684.90",
+          "change": -117.2,
+          "pChange": -4.365153264553615,
+          "value52Week": 2553.3,
+          "type": "LOW"
+        },
+        {
+          "symbol": "PML",
+          "companyName": "Paul Merchants Limited",
+          "lastPrice": 498,
+          "previousClose": "    499.95",
+          "change": -1.95,
+          "pChange": -0.39003900390039004,
+          "value52Week": 484.15,
+          "type": "LOW"
+        },
+        {
+          "symbol": "RAMKY",
+          "companyName": "Ramky Infrastructure Limited",
+          "lastPrice": 399,
+          "previousClose": "    404.45",
+          "change": -5.45,
+          "pChange": -1.3475089627889727,
+          "value52Week": 398,
+          "type": "LOW"
+        },
+        {
+          "symbol": "SMALLGROWW",
+          "companyName": "Groww Mutual Fund - Groww Nifty Smallcap 250 Momentum Quality 100 ETF",
+          "lastPrice": 46.1,
+          "previousClose": "     46.34",
+          "change": -0.24,
+          "pChange": -0.5179110919292188,
+          "value52Week": 45,
+          "type": "LOW"
+        },
+        {
+          "symbol": "SUPREMEIND",
+          "companyName": "Supreme Industries Limited",
+          "lastPrice": 3193,
+          "previousClose": "   3421.90",
+          "change": -228.9,
+          "pChange": -6.689266197141938,
+          "value52Week": 3176,
+          "type": "LOW"
+        },
+        {
+          "symbol": "SWIGGY",
+          "companyName": "Swiggy Limited",
+          "lastPrice": 238.9,
+          "previousClose": "    240.75",
+          "change": -1.85,
+          "pChange": -0.7684319833852544,
+          "value52Week": 236.5,
+          "type": "LOW"
+        },
+        {
+          "symbol": "TECHNVISN",
+          "companyName": "TechNVision Ventures Limited",
+          "lastPrice": 4790,
+          "previousClose": "   4900.00",
+          "change": -110,
+          "pChange": -2.2448979591836733,
+          "value52Week": 4099.5,
+          "type": "LOW"
+        },
+        {
+          "symbol": "TURTLEMINT",
+          "companyName": "Turtlemint Fintech Solutions Limited",
+          "lastPrice": 137.5,
+          "previousClose": "    152.00",
+          "change": 2.6,
+          "pChange": 1.927353595255745,
+          "value52Week": 132,
+          "type": "LOW"
+        },
+        {
+          "symbol": "UPL",
+          "companyName": "UPL Limited",
+          "lastPrice": 574.4,
+          "previousClose": "    590.50",
+          "change": -16.1,
+          "pChange": -2.726502963590178,
+          "value52Week": 564.1,
+          "type": "LOW"
+        },
+        {
+          "symbol": "VAML",
+          "companyName": "Vedanta Aluminium Metal Limited",
+          "lastPrice": 451,
+          "previousClose": "    442.82",
+          "change": 8.18,
+          "pChange": 1.847251704981708,
+          "value52Week": 425,
+          "type": "LOW"
+        },
+        {
+          "symbol": "ZENSARTECH",
+          "companyName": "Zensar Technologies Limited",
+          "lastPrice": 434,
+          "previousClose": "    445.40",
+          "change": -11.4,
+          "pChange": -2.559497081275258,
+          "value52Week": 430.85,
+          "type": "LOW"
+        }
+      ]
+    }
+  ]
+}
