@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-06-30T16:00:26.985015+00:00Z",
+    "last_updated": "2026-06-30T13:27:30.717267+00:00Z",
     "status": "healthy",
     "record_count": 1
   },
@@ -571,10 +571,10 @@
         {
           "symbol": "LIQUIDCASE",
           "companyName": "Zerodha Fund House - Zerodha Nifty 1D Rate Liquid ETF",
-          "lastPrice": 114.76,
+          "lastPrice": 114.77,
           "previousClose": "114.76",
-          "change": 0,
-          "pChange": 0,
+          "change": 0.01,
+          "pChange": 0.00871383757406762,
           "value52Week": 114.78,
           "type": "HIGH"
         },
