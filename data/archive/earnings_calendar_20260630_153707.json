@@ -1,18 +1,11 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-06-30T15:37:07.140124+00:00Z",
+    "last_updated": "2026-06-29T16:40:40.405539+00:00Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 13
   },
   "data": [
-    {
-      "scrip_Code": "513401",
-      "short_name": "ASHIS",
-      "Long_Name": "Ashiana Ispat Ltd",
-      "meeting_date": "30 Jun 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/ashiana-ispat-ltd/ashis/513401/"
-    },
     {
       "scrip_Code": "544777",
       "short_name": "CMRGREEN",
@@ -35,13 +28,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
     },
     {
-      "scrip_Code": "539917",
-      "short_name": "NAGAFERT",
-      "Long_Name": "Nagarjuna Fertilizers and Chemicals Ltd",
-      "meeting_date": "30 Jun 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/nagarjuna-fertilizers-and-chemicals-ltd/nagafert/539917/"
-    },
-    {
       "scrip_Code": "523283",
       "short_name": "SUPERHOUSE",
       "Long_Name": "Superhouse Ltd",
@@ -49,46 +35,11 @@
       "URL": "https://www.bseindia.com/stock-share-price/superhouse-ltd/superhouse/523283/"
     },
     {
-      "scrip_Code": "543594",
-      "short_name": "DPL",
-      "Long_Name": "Dipna Pharmachem Ltd",
-      "meeting_date": "01 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/dipna-pharmachem-ltd/dpl/543594/"
-    },
-    {
-      "scrip_Code": "530961",
-      "short_name": "VIKASECO",
-      "Long_Name": "Vikas EcoTech Ltd",
-      "meeting_date": "01 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/vikas-ecotech-ltd/vikaseco/530961/"
-    },
-    {
-      "scrip_Code": "544779",
-      "short_name": "UHMVL",
-      "Long_Name": "UHM Vacation Ltd",
-      "meeting_date": "02 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/uhm-vacation-ltd/uhmvl/544779/"
-    },
-    {
-      "scrip_Code": "533292",
-      "short_name": "A2ZINFRA",
-      "Long_Name": "A2Z Infra Engineering Ltd",
-      "meeting_date": "03 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/a2z-infra-engineering-ltd/a2zinfra/533292/"
-    },
-    {
       "scrip_Code": "532948",
       "short_name": "TULSI",
       "Long_Name": "Tulsi Extrusions Ltd",
       "meeting_date": "03 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tulsi-extrusions-ltd/tulsi/532948/"
-    },
-    {
-      "scrip_Code": "536073",
-      "short_name": "JULIEN",
-      "Long_Name": "Julien Agro Infratech Ltd",
-      "meeting_date": "04 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/julien-agro-infratech-ltd/julien/536073/"
     },
     {
       "scrip_Code": "532904",
@@ -119,13 +70,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/asian-hotels-(east)-ltd/ahleast/533227/"
     },
     {
-      "scrip_Code": "543415",
-      "short_name": "ANANDRATHI",
-      "Long_Name": "Anand Rathi Wealth Ltd",
-      "meeting_date": "09 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/anand-rathi-wealth-ltd/anandrathi/543415/"
-    },
-    {
       "scrip_Code": "507488",
       "short_name": "GMBREW",
       "Long_Name": "GM Breweries Ltd",
@@ -152,20 +96,6 @@
       "Long_Name": "ICICI Prudential Asset Management Company Ltd",
       "meeting_date": "13 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/icici-prudential-asset-management-company-ltd/iciciamc/544658/"
-    },
-    {
-      "scrip_Code": "543334",
-      "short_name": "NUVOCO",
-      "Long_Name": "Nuvoco Vistas Corporation Ltd",
-      "meeting_date": "13 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/nuvoco-vistas-corporation-ltd/nuvoco/543334/"
-    },
-    {
-      "scrip_Code": "540115",
-      "short_name": "LTTS",
-      "Long_Name": "L&T Technology Services Ltd",
-      "meeting_date": "14 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/lt-technology-services-ltd/ltts/540115/"
     }
   ]
 }
