@@ -1,11 +1,67 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-01T15:48:07.397735+00:00Z",
+    "last_updated": "2026-06-30T18:05:18.855629+00:00Z",
     "status": "healthy",
-    "record_count": 29
+    "record_count": 31
   },
   "data": [
+    {
+      "scrip_Code": "513401",
+      "short_name": "ASHIS",
+      "Long_Name": "Ashiana Ispat Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ashiana-ispat-ltd/ashis/513401/"
+    },
+    {
+      "scrip_Code": "544777",
+      "short_name": "CMRGREEN",
+      "Long_Name": "CMR Green Technologies Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/cmr-green-technologies-ltd/cmrgreen/544777/"
+    },
+    {
+      "scrip_Code": "544785",
+      "short_name": "HEXAGON",
+      "Long_Name": "Hexagon Nutrition Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/hexagon-nutrition-ltd/hexagon/544785/"
+    },
+    {
+      "scrip_Code": "539229",
+      "short_name": "MRSS",
+      "Long_Name": "Majestic Research Services and Solutions Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/majestic-research-services-and-solutions-ltd/mrss/539229/"
+    },
+    {
+      "scrip_Code": "502405",
+      "short_name": "MYSPAPE",
+      "Long_Name": "Mysore Paper Mills Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mysore-paper-mills-ltd/myspape/502405/"
+    },
+    {
+      "scrip_Code": "539917",
+      "short_name": "NAGAFERT",
+      "Long_Name": "Nagarjuna Fertilizers and Chemicals Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nagarjuna-fertilizers-and-chemicals-ltd/nagafert/539917/"
+    },
+    {
+      "scrip_Code": "523283",
+      "short_name": "SUPERHOUSE",
+      "Long_Name": "Superhouse Ltd",
+      "meeting_date": "30 Jun 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/superhouse-ltd/superhouse/523283/"
+    },
+    {
+      "scrip_Code": "543594",
+      "short_name": "DPL",
+      "Long_Name": "Dipna Pharmachem Ltd",
+      "meeting_date": "01 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/dipna-pharmachem-ltd/dpl/543594/"
+    },
     {
       "scrip_Code": "530961",
       "short_name": "VIKASECO",
@@ -166,48 +222,6 @@
       "Long_Name": "L&T Technology Services Ltd",
       "meeting_date": "14 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/lt-technology-services-ltd/ltts/540115/"
-    },
-    {
-      "scrip_Code": "543235",
-      "short_name": "ANGELONE",
-      "Long_Name": "Angel One Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/angel-one-ltd/angelone/543235/"
-    },
-    {
-      "scrip_Code": "544429",
-      "short_name": "HDBFS",
-      "Long_Name": "HDB Financial Services Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/hdb-financial-services-ltd/hdbfs/544429/"
-    },
-    {
-      "scrip_Code": "541729",
-      "short_name": "HDFCAMC",
-      "Long_Name": "HDFC Asset Management Company Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/hdfc-asset-management-company-ltd/hdfcamc/541729/"
-    },
-    {
-      "scrip_Code": "540777",
-      "short_name": "HDFCLIFE",
-      "Long_Name": "HDFC Life Insurance Company Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/hdfc-life-insurance-company-ltd/hdfclife/540777/"
-    },
-    {
-      "scrip_Code": "540716",
-      "short_name": "ICICIGI",
-      "Long_Name": "ICICI Lombard General Insurance Company Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/icici-lombard-general-insurance-company-ltd/icicigi/540716/"
-    },
-    {
-      "scrip_Code": "540133",
-      "short_name": "ICICIPRULI",
-      "Long_Name": "ICICI Prudential Life Insurance Company Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/icici-prudential-life-insurance-company-ltd/icicipruli/540133/"
     }
   ]
 }
