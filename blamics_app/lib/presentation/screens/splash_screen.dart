@@ -97,7 +97,7 @@ class _SplashScreenState extends State<SplashScreen>
                         color: AppColors.primary.withValues(alpha: 0.1),
                       ),
                       child: Image.asset(
-                        'assets/icon.png',
+                        'assets/app_icon.png',
                         width: 80,
                         height: 80,
                         fit: BoxFit.contain,
