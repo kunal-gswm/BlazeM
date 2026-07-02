@@ -96,10 +96,11 @@ class _SplashScreenState extends State<SplashScreen>
                         shape: BoxShape.circle,
                         color: AppColors.primary.withValues(alpha: 0.1),
                       ),
-                      child: const Icon(
-                        Icons.local_fire_department_rounded,
-                        color: AppColors.primary,
-                        size: 80,
+                      child: Image.asset(
+                        'assets/icon.png',
+                        width: 80,
+                        height: 80,
+                        fit: BoxFit.contain,
                       ),
                     ),
                   ),
