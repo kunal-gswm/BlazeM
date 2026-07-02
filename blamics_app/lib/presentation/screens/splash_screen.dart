@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
-import '../../core/theme/app_typography.dart';
 import 'main_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -16,7 +15,6 @@ class _SplashScreenState extends State<SplashScreen>
   late final AnimationController _controller;
   late final Animation<double> _logoScaleAnimation;
   late final Animation<double> _logoFadeAnimation;
-  late final Animation<double> _textFadeAnimation;
 
   @override
   void initState() {
@@ -40,14 +38,6 @@ class _SplashScreenState extends State<SplashScreen>
       CurvedAnimation(
         parent: _controller,
         curve: const Interval(0.0, 0.6, curve: Curves.easeOutBack),
-      ),
-    );
-
-    // 0.6 -> 1.0: Text fades in
-    _textFadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: const Interval(0.6, 1.0, curve: Curves.easeIn),
       ),
     );
 
