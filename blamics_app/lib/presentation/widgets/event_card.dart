@@ -27,17 +27,21 @@ class EventCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        height: 72,
-        margin: const EdgeInsets.only(bottom: AppSpacing.sm),
-        decoration: BoxDecoration(
-          color: AppColors.surface1,
+    return Container(
+      margin: const EdgeInsets.only(bottom: AppSpacing.sm),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+        border: Border.all(color: AppColors.border, width: 1),
+      ),
+      child: Material(
+        color: AppColors.surface1,
+        borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+        child: InkWell(
+          onTap: onTap,
           borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-          border: Border.all(color: AppColors.border, width: 1),
-        ),
-        child: Row(
+          child: SizedBox(
+            height: 72,
+            child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Importance indicator bar
@@ -124,6 +128,8 @@ class EventCard extends StatelessWidget {
               ),
             ),
           ],
+        ),
+          ),
         ),
       ),
     );

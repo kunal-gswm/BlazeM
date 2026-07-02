@@ -13,6 +13,7 @@ import '../widgets/skeleton_loader.dart';
 import '../widgets/fear_greed_gauge_widget.dart';
 import '../widgets/stale_banner.dart';
 import '../widgets/importance_indicator.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 void _showEventDetails(BuildContext context, WidgetRef ref, dynamic event, ImportanceLevel importance) {
   showModalBottomSheet(
@@ -196,13 +197,17 @@ class _CriticalTodaySection extends ConsumerWidget {
               );
             }
             return Column(
-              children: critical.map((event) => EventCard(
-                title: event.entity,
-                subtitle: event.title,
-                importance: ImportanceLevel.critical,
-                source: event.eventType,
-                onTap: () => _showEventDetails(context, ref, event, ImportanceLevel.critical),
-              )).toList(),
+              children: critical.asMap().entries.map((entry) {
+                final index = entry.key;
+                final event = entry.value;
+                return EventCard(
+                  title: event.entity,
+                  subtitle: event.title,
+                  importance: ImportanceLevel.critical,
+                  source: event.eventType,
+                  onTap: () => _showEventDetails(context, ref, event, ImportanceLevel.critical),
+                ).animate(delay: (index * 50).ms).fade(duration: 400.ms).slideY(begin: 0.1, duration: 400.ms);
+              }).toList(),
             );
           },
         ),
@@ -234,7 +239,9 @@ class _UpcomingSection extends ConsumerWidget {
               );
             }
             return Column(
-              children: important.map((event) {
+              children: important.asMap().entries.map((entry) {
+                final index = entry.key;
+                final event = entry.value;
                 final importance = event.importanceIndex == 0 ? ImportanceLevel.critical : ImportanceLevel.high;
                 return EventCard(
                   title: event.entity,
@@ -243,7 +250,7 @@ class _UpcomingSection extends ConsumerWidget {
                   importance: importance,
                   source: event.eventType,
                   onTap: () => _showEventDetails(context, ref, event, importance),
-                );
+                ).animate(delay: (index * 50).ms).fade(duration: 400.ms).slideY(begin: 0.1, duration: 400.ms);
               }).toList(),
             );
           },
@@ -344,28 +351,35 @@ class _CompactFiiDii extends ConsumerWidget {
         error: (_, __) => const SizedBox.shrink(),
         data: (response) {
           if (response.data.isEmpty) return const SizedBox.shrink();
-          return Padding(
-            padding: const EdgeInsets.symmetric(vertical: 4),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text('Flows', style: AppTypography.metadata),
-                Row(
-                  children: response.data.take(2).map((item) {
-                    final isPositive = (item.netValue ?? 0) >= 0;
-                    return Padding(
-                      padding: const EdgeInsets.only(left: AppSpacing.md),
-                      child: Text(
-                        '${item.category} ${isPositive ? '+' : ''}${item.netValue?.toStringAsFixed(0)}Cr',
-                        style: AppTypography.metadata.copyWith(
-                          color: isPositive ? AppColors.success : AppColors.danger,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    );
-                  }).toList(),
-                ),
-              ],
+          return GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => ref.read(navigationProvider.notifier).state = 8, // FiiDiiScreen
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 4),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text('Flows', style: AppTypography.metadata),
+                  Row(
+                    children: [
+                      ...response.data.take(2).map((item) {
+                        final isPositive = (item.netValue ?? 0) >= 0;
+                        return Padding(
+                          padding: const EdgeInsets.only(right: AppSpacing.md),
+                          child: Text(
+                            '${item.category} ${isPositive ? '+' : ''}${item.netValue?.toStringAsFixed(0)}',
+                            style: AppTypography.metadata.copyWith(
+                              color: isPositive ? AppColors.success : AppColors.danger,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        );
+                      }),
+                      const Icon(Icons.chevron_right, size: 16, color: AppColors.textSecondary),
+                    ],
+                  ),
+                ],
+              ),
             ),
           );
         },

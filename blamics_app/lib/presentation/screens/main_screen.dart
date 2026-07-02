@@ -12,6 +12,7 @@ import 'menu_screen.dart';
 import 'high_low_screen.dart';
 import 'sector_heatmap_screen.dart';
 import 'watchlist_screen.dart';
+import 'fii_dii_screen.dart';
 
 class MainScreen extends ConsumerStatefulWidget {
   const MainScreen({super.key});
@@ -30,6 +31,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
     SectorHeatmapScreen(),
     HighLowScreen(),
     WatchlistScreen(),
+    FiiDiiScreen(),
   ];
 
   void _showNavigationMenu(BuildContext context) {
@@ -68,6 +70,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
               _buildNavMenuItem(context, 5, Icons.grid_view_rounded, 'Sector Heatmap'),
               _buildNavMenuItem(context, 6, Icons.swap_vert_rounded, '52-Week High/Low'),
               _buildNavMenuItem(context, 7, Icons.star_outline_rounded, 'Watchlist'),
+              _buildNavMenuItem(context, 8, Icons.account_balance_outlined, 'Institutional Flows'),
               _buildNavMenuItem(context, 4, Icons.settings_outlined, 'Settings & Info'),
               const SizedBox(height: AppSpacing.sm),
             ],

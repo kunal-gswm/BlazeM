@@ -16,6 +16,7 @@ import '../widgets/skeleton_loader.dart';
 import '../widgets/status_badge.dart';
 import '../widgets/filter_chip_bar.dart';
 import 'ipo_detail_screen.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 // Helper to determine status based on live dates
 IpoStatus _determineStatus(IpoModel ipo) {
@@ -163,7 +164,10 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
                     itemCount: filtered.length,
                     itemBuilder: (context, index) {
                       final ipo = filtered[index];
-                      return _IpoRow(ipo: ipo);
+                      return _IpoRow(ipo: ipo)
+                          .animate(delay: (index * 50).ms)
+                          .fade(duration: 400.ms)
+                          .slideY(begin: 0.1, duration: 400.ms, curve: Curves.easeOutQuad);
                     },
                   );
                 },

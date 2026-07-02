@@ -9,6 +9,7 @@ import '../widgets/empty_state.dart';
 import '../widgets/error_state.dart';
 import '../widgets/fade_switcher.dart';
 import '../widgets/skeleton_loader.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class CorporateActionsScreen extends ConsumerStatefulWidget {
   const CorporateActionsScreen({super.key});
@@ -179,7 +180,7 @@ class _ActionTab extends ConsumerWidget {
                     ),
                   ],
                 ),
-              );
+              ).animate(delay: (index * 50).ms).fade(duration: 400.ms).slideY(begin: 0.1, duration: 400.ms, curve: Curves.easeOutQuad);
             },
           );
         },
