@@ -93,14 +93,6 @@ class DashboardScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: false,
-        title: Image.asset(
-          'assets/app_icon.png',
-          height: 32,
-          fit: BoxFit.contain,
-        ),
-      ),
       body: SafeArea(
         child: RefreshIndicator(
           onRefresh: () async {
