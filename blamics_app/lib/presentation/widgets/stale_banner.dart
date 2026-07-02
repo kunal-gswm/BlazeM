@@ -46,10 +46,12 @@ class StaleBanner extends StatelessWidget {
             color: isOffline ? AppColors.danger : AppColors.warning,
           ),
           const SizedBox(width: AppSpacing.sm),
-          Text(
-            message,
-            style: AppTypography.metadata.copyWith(
-              color: isOffline ? AppColors.danger : AppColors.warning,
+          Expanded(
+            child: Text(
+              message,
+              style: AppTypography.metadata.copyWith(
+                color: isOffline ? AppColors.danger : AppColors.warning,
+              ),
             ),
           ),
         ],

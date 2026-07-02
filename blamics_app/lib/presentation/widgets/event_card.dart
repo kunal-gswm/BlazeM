@@ -35,12 +35,12 @@ class EventCard extends StatelessWidget {
       ),
       child: Material(
         color: AppColors.surface1,
-        borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+        borderRadius: BorderRadius.circular(12),
         child: InkWell(
           onTap: onTap,
-          borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+          borderRadius: BorderRadius.circular(12),
           child: SizedBox(
-            height: 72,
+            height: 76,
             child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
