@@ -2,11 +2,12 @@ name: Live Data Pipelines (10 Min)
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    # Every 10 min, Mon-Fri, during IST market hours (UTC ~4:00-10:00)
+    - cron: '*/10 4-10 * * 1-5'
   workflow_dispatch:
 
 concurrency:
-  group: blamics-data
+  group: blamics-live-data
   cancel-in-progress: false
 
 jobs:
@@ -57,15 +58,21 @@ jobs:
 
       - name: Run Sector Performance Pipeline
         continue-on-error: true
-        run: python scraper/sector_performance.py
+        run: |
+          cd scraper
+          python sector_performance.py
 
       - name: Run Market Sentiment Pipeline
         continue-on-error: true
-        run: python scraper/market_sentiment.py
+        run: |
+          cd scraper
+          python market_sentiment.py
 
       - name: Run 52-Week High/Low Pipeline
         continue-on-error: true
-        run: python scraper/high_low.py
+        run: |
+          cd scraper
+          python high_low.py
 
       - name: Commit and Push changes
         run: |
@@ -74,3 +81,19 @@ jobs:
           git add data/
           git commit -m "chore(data): auto-update live data and health" || echo "No changes to commit"
           git push
+
+      - name: Check Health
+        run: |
+          if grep -q '"status": "failed"' data/health.json; then
+            echo "One or more pipelines failed!"
+            exit 1
+          fi
+
+      - name: Create Issue on Failure
+        if: failure()
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ github.token }}
+          title: "🚨 Live Data Pipeline Failure"
+          body: "A live scraper pipeline failed. Please check the workflow logs."
+          assignees: "${{ github.actor }}"

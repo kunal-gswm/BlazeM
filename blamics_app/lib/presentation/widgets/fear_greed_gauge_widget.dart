@@ -108,7 +108,7 @@ class _GaugePainter extends CustomPainter {
 
   void _drawSegment(Canvas canvas, Rect rect, double startAngle, double sweepAngle, Color color) {
     final paint = Paint()
-      ..color = color.withOpacity(0.7)
+      ..color = color.withValues(alpha: 0.7)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 20
       ..strokeCap = StrokeCap.butt;

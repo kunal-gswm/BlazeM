@@ -19,7 +19,9 @@ import 'ipo_detail_screen.dart';
 
 // Helper to determine status based on live dates
 IpoStatus _determineStatus(IpoModel ipo) {
-  final now = DateTime.now();
+  // Use Asia/Kolkata (IST) which is exactly UTC+5:30
+  final nowUtc = DateTime.now().toUtc();
+  final nowIst = nowUtc.add(const Duration(hours: 5, minutes: 30));
   
   DateTime? parseDate(String? dateStr) {
     if (dateStr == null || dateStr.isEmpty) return null;
@@ -30,22 +32,39 @@ IpoStatus _determineStatus(IpoModel ipo) {
     }
   }
 
-  final today = DateTime(now.year, now.month, now.day);
+  final today = DateTime(nowIst.year, nowIst.month, nowIst.day);
   
-  final listingDate = parseDate(ipo.listingDate);
-  final closeDate = parseDate(ipo.issueClose);
-  final openDate = parseDate(ipo.issueOpen);
+  final listingDate = parseDate(ipo.listingDateRaw);
+  final closeDate = parseDate(ipo.issueCloseRaw);
+  final openDate = parseDate(ipo.issueOpenRaw);
   
   if (listingDate != null && (listingDate.isBefore(today) || listingDate.isAtSameMomentAs(today))) {
     return IpoStatus.listed;
   }
   
-  if (closeDate != null && (closeDate.isBefore(today) || closeDate.isAtSameMomentAs(today))) {
-    return IpoStatus.closed;
+  if (closeDate != null) {
+    if (closeDate.isBefore(today)) {
+      return IpoStatus.closed;
+    } else if (closeDate.isAtSameMomentAs(today)) {
+      // Closes at 5:00 PM IST
+      if (nowIst.hour >= 17) {
+        return IpoStatus.closed;
+      }
+    }
   }
   
-  if (openDate != null && (openDate.isBefore(today) || openDate.isAtSameMomentAs(today))) {
-    return IpoStatus.open;
+  if (openDate != null) {
+    if (openDate.isBefore(today)) {
+      // Must be open if before close date and after open date
+      if (closeDate == null || closeDate.isAfter(today) || (closeDate.isAtSameMomentAs(today) && nowIst.hour < 17)) {
+        return IpoStatus.open;
+      }
+    } else if (openDate.isAtSameMomentAs(today)) {
+      // Opens at 10:00 AM IST
+      if (nowIst.hour >= 10) {
+        return IpoStatus.open;
+      }
+    }
   }
   
   return IpoStatus.upcoming;
@@ -108,8 +127,7 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
                     return const EmptyState(
                       key: ValueKey('empty'),
                       icon: Icons.rocket_launch_outlined,
-                      message: 'No active IPOs right now.',
-                      submessage: 'Check back later for upcoming issues.',
+                      message: 'No upcoming IPOs.',
                     );
                   }
 
@@ -227,9 +245,12 @@ class _IpoRow extends ConsumerWidget {
             ),
             const SizedBox(height: AppSpacing.sm),
             // Metadata line
-            Row(
+            Wrap(
+              spacing: AppSpacing.md,
+              runSpacing: 4.0,
+              crossAxisAlignment: WrapCrossAlignment.center,
               children: [
-                if (ipo.gmp != null) ...[
+                if (ipo.gmp != null)
                   Text(
                     'GMP ₹${ipo.gmp?.toStringAsFixed(2)} (${ipo.calculatedGmpPercent})',
                     style: AppTypography.metadata.copyWith(
@@ -237,20 +258,16 @@ class _IpoRow extends ConsumerWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  const SizedBox(width: AppSpacing.md),
-                ],
                 if (ipo.issueOpen != null)
                   Text(
                     'Open: ${ipo.issueOpen}',
                     style: AppTypography.timestamp,
                   ),
-                if (ipo.issueClose != null) ...[
-                  const SizedBox(width: AppSpacing.sm),
+                if (ipo.issueClose != null)
                   Text(
                     'Close: ${ipo.issueClose}',
                     style: AppTypography.timestamp,
                   ),
-                ],
               ],
             ),
             if (ipo.listingDate != null) ...[

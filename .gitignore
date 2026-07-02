@@ -21,3 +21,18 @@ var/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Per-module data outputs (canonical output is data/)
+scraper/data/
+earnings_calendar/data/
+fii_dii/data/
+corporate_actions/data/
+global_indices/data/
+market_breadth/data/
+
+# Binary releases (use GitHub Releases instead)
+release/
+releases/
+
+# Archive directory (generated at runtime)
+data/archive/

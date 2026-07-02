@@ -87,52 +87,57 @@ final highLowProvider =
   return repo.getHighLow();
 });
 
+final healthStatusProvider = FutureProvider<Map<String, dynamic>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getHealthStatus();
+});
+
 // ── Computed Providers ──────────────────────────────────────────────────────
 
 /// Parse a date string like "03 Jul 2026" into a DateTime.
 DateTime? _parseDate(String? dateStr) {
   if (dateStr == null || dateStr.isEmpty) return null;
   try {
-    return DateFormat('dd MMM yyyy').parse(dateStr);
+    return DateFormat('dd MMMM yyyy').parse(dateStr);
   } catch (_) {
-    return null;
+    try {
+      return DateFormat('dd MMM yyyy').parse(dateStr);
+    } catch (_) {
+      try {
+        return DateTime.parse(dateStr);
+      } catch (_) {
+        return null;
+      }
+    }
   }
 }
 
-/// Corporate actions happening today.
+/// Timeline events happening today.
 final criticalTodayProvider =
-    FutureProvider<List<CorporateActionModel>>((ref) async {
-  final response = await ref.watch(corporateActionsProvider.future);
+    FutureProvider<List<TimelineEvent>>((ref) async {
+  final events = await ref.watch(timelineEventsProvider.future);
   final now = DateTime.now();
   final today = DateTime(now.year, now.month, now.day);
 
-  return response.data.where((action) {
-    final date = _parseDate(action.exDate);
-    if (date == null) return false;
-    return DateTime(date.year, date.month, date.day) == today;
+  return events.where((event) {
+    if (event.parsedDate == null) return false;
+    return DateTime(event.parsedDate!.year, event.parsedDate!.month, event.parsedDate!.day) == today;
   }).toList();
 });
 
-/// Corporate actions in the next 7 days (excluding today).
+/// Timeline events in the next 7 days (excluding today).
 final upcoming7DaysProvider =
-    FutureProvider<List<CorporateActionModel>>((ref) async {
-  final response = await ref.watch(corporateActionsProvider.future);
+    FutureProvider<List<TimelineEvent>>((ref) async {
+  final events = await ref.watch(timelineEventsProvider.future);
   final now = DateTime.now();
   final today = DateTime(now.year, now.month, now.day);
   final weekOut = today.add(const Duration(days: 7));
 
-  return response.data.where((action) {
-    final date = _parseDate(action.exDate);
-    if (date == null) return false;
-    final d = DateTime(date.year, date.month, date.day);
+  return events.where((event) {
+    if (event.parsedDate == null) return false;
+    final d = DateTime(event.parsedDate!.year, event.parsedDate!.month, event.parsedDate!.day);
     return d.isAfter(today) && !d.isAfter(weekOut);
-  }).toList()
-    ..sort((a, b) {
-      final da = _parseDate(a.exDate);
-      final db = _parseDate(b.exDate);
-      if (da == null || db == null) return 0;
-      return da.compareTo(db);
-    });
+  }).toList();
 });
 
 /// Filtered corporate actions by type.
@@ -236,6 +241,6 @@ class TimelineEvent {
 
     if (diff == 0) return 'TODAY';
     if (diff == 1) return 'TOMORROW';
-    return DateFormat('dd MMM yyyy').format(parsedDate!).toUpperCase();
+    return DateFormat('dd MMMM yyyy').format(parsedDate!).toUpperCase();
   }
 }

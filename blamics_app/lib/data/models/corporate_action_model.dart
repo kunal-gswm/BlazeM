@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class CorporateActionModel {
   final dynamic scripCode;
   final String shortName;
@@ -17,12 +19,27 @@ class CorporateActionModel {
     this.dividendAmount,
   });
 
+  static String? _formatDate(String? dateStr) {
+    if (dateStr == null || dateStr.isEmpty) return null;
+    try {
+      final parsed = DateFormat('dd MMM yyyy').parse(dateStr);
+      return DateFormat('dd MMMM yyyy').format(parsed);
+    } catch (_) {
+      try {
+        final parsed = DateTime.parse(dateStr);
+        return DateFormat('dd MMMM yyyy').format(parsed);
+      } catch (_) {
+        return dateStr;
+      }
+    }
+  }
+
   factory CorporateActionModel.fromJson(Map<String, dynamic> json) {
     return CorporateActionModel(
       scripCode: json['scrip_code'],
       shortName: json['short_name'] ?? '',
       longName: json['long_name'] ?? '',
-      exDate: json['Ex_date'],
+      exDate: _formatDate(json['Ex_date']),
       purpose: json['Purpose'] ?? '',
       actionType: json['action_type'] ?? '',
       dividendAmount: num.tryParse(json['dividend_amount']?.toString() ?? '')?.toDouble(),

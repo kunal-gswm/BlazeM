@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class IpoModel {
   final String issueName;
   final String ipoType;
@@ -5,7 +7,11 @@ class IpoModel {
   final String priceBand;
   final String lotSize;
   final String issueSize;
-  final String? issueOpen;
+  final String? issueOpenRaw;    // ISO format for computation
+  final String? issueCloseRaw;
+  final String? allotmentDateRaw;
+  final String? listingDateRaw;
+  final String? issueOpen;       // Formatted for display
   final String? issueClose;
   final String? allotmentDate;
   final String? listingDate;
@@ -19,6 +25,10 @@ class IpoModel {
     required this.priceBand,
     required this.lotSize,
     required this.issueSize,
+    this.issueOpenRaw,
+    this.issueCloseRaw,
+    this.allotmentDateRaw,
+    this.listingDateRaw,
     this.issueOpen,
     this.issueClose,
     this.allotmentDate,
@@ -27,6 +37,16 @@ class IpoModel {
     this.gmpPercent,
   });
 
+  static String? _formatDate(String? dateStr) {
+    if (dateStr == null || dateStr.isEmpty) return null;
+    try {
+      final parsed = DateTime.parse(dateStr);
+      return DateFormat('dd MMMM yyyy').format(parsed);
+    } catch (_) {
+      return dateStr;
+    }
+  }
+
   factory IpoModel.fromJson(Map<String, dynamic> json) {
     return IpoModel(
       issueName: json['issue_name']?.toString() ?? '',
@@ -34,11 +54,15 @@ class IpoModel {
       source: json['source']?.toString() ?? '',
       priceBand: json['price_band']?.toString() ?? '',
       lotSize: json['lot_size']?.toString() ?? '',
-      issueSize: json['issue_size']?.toString() ?? '',
-      issueOpen: json['issue_open']?.toString(),
-      issueClose: json['issue_close']?.toString(),
-      allotmentDate: json['allotment_date']?.toString(),
-      listingDate: json['listing_date']?.toString(),
+      issueSize: (json['issue_size']?.toString() ?? '').replaceAll(RegExp(r'[^\x00-\x7F]+'), '₹'),
+      issueOpenRaw: json['issue_open']?.toString(),
+      issueCloseRaw: json['issue_close']?.toString(),
+      allotmentDateRaw: json['allotment_date']?.toString(),
+      listingDateRaw: json['listing_date']?.toString(),
+      issueOpen: _formatDate(json['issue_open']?.toString()),
+      issueClose: _formatDate(json['issue_close']?.toString()),
+      allotmentDate: _formatDate(json['allotment_date']?.toString()),
+      listingDate: _formatDate(json['listing_date']?.toString()),
       gmp: num.tryParse(json['gmp']?.toString() ?? '')?.toDouble(),
       gmpPercent: json['gmp_percent']?.toString(),
     );

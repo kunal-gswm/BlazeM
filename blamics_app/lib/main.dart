@@ -9,8 +9,16 @@ void main() async {
   
   // Initialize local storage for offline caching and watchlists
   await Hive.initFlutter();
-  await Hive.openBox('blamics_cache');
-  await Hive.openBox('blamics_watchlist');
+  try {
+    await Hive.openBox('blamics_cache');
+    await Hive.openBox('blamics_watchlist');
+  } catch (e) {
+    // If box is corrupted, delete it and open again
+    await Hive.deleteBoxFromDisk('blamics_cache');
+    await Hive.deleteBoxFromDisk('blamics_watchlist');
+    await Hive.openBox('blamics_cache');
+    await Hive.openBox('blamics_watchlist');
+  }
 
   runApp(
     const ProviderScope(

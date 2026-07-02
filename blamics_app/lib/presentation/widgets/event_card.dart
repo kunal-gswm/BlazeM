@@ -30,101 +30,100 @@ class EventCard extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
+        height: 72,
         margin: const EdgeInsets.only(bottom: AppSpacing.sm),
         decoration: BoxDecoration(
           color: AppColors.surface1,
           borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
           border: Border.all(color: AppColors.border, width: 1),
         ),
-        child: IntrinsicHeight(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              // Importance indicator bar
-              ClipRRect(
-                borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(AppSpacing.cardRadius),
-                  bottomLeft: Radius.circular(AppSpacing.cardRadius),
-                ),
-                child: ImportanceIndicator(level: importance),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            // Importance indicator bar
+            ClipRRect(
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(AppSpacing.cardRadius),
+                bottomLeft: Radius.circular(AppSpacing.cardRadius),
               ),
-              // Content
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: AppSpacing.md,
-                    vertical: AppSpacing.sm + 2,
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      // Title row
-                      Text(
-                        title,
-                        style: AppTypography.bodyMedium,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      if (subtitle != null) ...[
-                        const SizedBox(height: 2),
-                        Text(
-                          subtitle!,
-                          style: AppTypography.bodySecondary.copyWith(fontSize: 13),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                      const SizedBox(height: AppSpacing.xs),
-                      // Metadata row
-                      Row(
+              child: ImportanceIndicator(level: importance),
+            ),
+            // Content
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: AppSpacing.md,
+                  vertical: AppSpacing.sm,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    // Center: Title/Subtitle
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          if (date != null) ...[
+                          Text(
+                            title,
+                            style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          if (subtitle != null) ...[
+                            const SizedBox(height: 2),
                             Text(
-                              date!,
-                              style: AppTypography.timestamp,
-                            ),
-                          ],
-                          if (dividendAmount != null) ...[
-                            const SizedBox(width: AppSpacing.sm),
-                            Text(
-                              '₹${dividendAmount!.toStringAsFixed(2)}',
-                              style: AppTypography.metadata.copyWith(
-                                color: AppColors.success,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                          ],
-                          if (source != null) ...[
-                            if (date != null)
-                              const SizedBox(width: AppSpacing.sm),
-                            Container(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 5,
-                                vertical: 1,
-                              ),
-                              decoration: BoxDecoration(
-                                color: AppColors.surface2,
-                                borderRadius: BorderRadius.circular(
-                                  AppSpacing.badgeRadius,
-                                ),
-                              ),
-                              child: Text(
-                                source!.toUpperCase(),
-                                style: AppTypography.timestamp.copyWith(
-                                  fontSize: 10,
-                                  letterSpacing: 0.5,
-                                ),
-                              ),
+                              subtitle!,
+                              style: AppTypography.bodySecondary.copyWith(fontSize: 12),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ],
                         ],
                       ),
-                    ],
-                  ),
+                    ),
+                    const SizedBox(width: AppSpacing.md),
+                    // Right: Date/Status
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        if (date != null)
+                          Text(
+                            date!,
+                            style: AppTypography.value.copyWith(fontSize: 13),
+                          ),
+                        if (dividendAmount != null) ...[
+                          const SizedBox(height: 2),
+                          Text(
+                            '₹${dividendAmount!.toStringAsFixed(2)}',
+                            style: AppTypography.metadata.copyWith(
+                              color: AppColors.success,
+                            ),
+                          ),
+                        ],
+                        if (source != null) ...[
+                          const SizedBox(height: 2),
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: AppColors.surface2,
+                              borderRadius: BorderRadius.circular(AppSpacing.badgeRadius),
+                            ),
+                            child: Text(
+                              source!.toUpperCase(),
+                              style: AppTypography.metadata.copyWith(fontSize: 9),
+                            ),
+                          ),
+                        ],
+                      ],
+                    ),
+                  ],
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

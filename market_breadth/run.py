@@ -1,12 +1,12 @@
 import json
 import os
 import sys
-from bse import BSE
 from pathlib import Path
 from datetime import datetime, timezone
 
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from bse import BSE
 from core.logger import setup_logging
 from core.io import safe_save, DATA_DIR
 

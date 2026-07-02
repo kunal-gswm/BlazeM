@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: blamics-data
+  group: blamics-daily-data
   cancel-in-progress: false
 
 jobs:
@@ -56,3 +56,19 @@ jobs:
           git add data/
           git commit -m "chore(data): auto-update daily data and health" || echo "No changes to commit"
           git push
+
+      - name: Check Health
+        run: |
+          if grep -q '"status": "failed"' data/health.json; then
+            echo "One or more pipelines failed!"
+            exit 1
+          fi
+
+      - name: Create Issue on Failure
+        if: failure()
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ github.token }}
+          title: "🚨 Daily Data Pipeline Failure"
+          body: "A daily scraper pipeline failed. Please check the workflow logs."
+          assignees: "${{ github.actor }}"

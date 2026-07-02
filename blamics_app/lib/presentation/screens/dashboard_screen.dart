@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/constants/app_enums.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
 import '../../data/repositories/providers.dart';
+import '../widgets/event_card.dart';
 import '../widgets/fade_switcher.dart';
 import '../widgets/section_header.dart';
 import '../widgets/skeleton_loader.dart';
 import '../widgets/fear_greed_gauge_widget.dart';
+import '../widgets/stale_banner.dart';
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
@@ -16,186 +19,188 @@ class DashboardScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('BLAMICS'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.refresh, size: 20),
-            onPressed: () {
-              ref.invalidate(corporateActionsProvider);
-              ref.invalidate(fiiDiiDataProvider);
-              ref.invalidate(globalIndicesProvider);
-              ref.invalidate(marketBreadthProvider);
-              ref.invalidate(earningsCalendarProvider);
-              ref.invalidate(criticalTodayProvider);
-              ref.invalidate(upcoming7DaysProvider);
-              ref.invalidate(sectorPerformanceProvider);
-              ref.invalidate(marketSentimentProvider);
-              ref.invalidate(highLowProvider);
-            },
+      body: SafeArea(
+        child: RefreshIndicator(
+          onRefresh: () async {
+            ref.invalidate(corporateActionsProvider);
+            ref.invalidate(fiiDiiDataProvider);
+            ref.invalidate(globalIndicesProvider);
+            ref.invalidate(marketBreadthProvider);
+            ref.invalidate(earningsCalendarProvider);
+            ref.invalidate(sectorPerformanceProvider);
+            ref.invalidate(marketSentimentProvider);
+            ref.invalidate(highLowProvider);
+            ref.invalidate(ipoDataProvider);
+            ref.invalidate(healthStatusProvider);
+          },
+          color: AppColors.primary,
+          backgroundColor: AppColors.surface1,
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: [
+              Consumer(
+                builder: (context, ref, child) {
+                  final healthAsync = ref.watch(healthStatusProvider);
+                  final bool hasFailedPipelines = healthAsync.value?.values.any((p) => p['status'] == 'failed') ?? false;
+                  
+                  if (hasFailedPipelines) {
+                    return StaleBanner.stale('Some data may be outdated due to pipeline failures.');
+                  }
+                  return const SizedBox.shrink();
+                },
+              ),
+              const Padding(
+                padding: AppSpacing.screenPadding,
+                child: Column(
+                  children: [
+                    _SummaryHeader(),
+                    SizedBox(height: AppSpacing.lg),
+                    _CriticalTodaySection(),
+                    SizedBox(height: AppSpacing.lg),
+                    _UpcomingSection(),
+                    SizedBox(height: AppSpacing.lg),
+                    _MarketStatusStrip(),
+                    SizedBox(height: AppSpacing.lg),
+                    _DataHealthSection(),
+                    SizedBox(height: AppSpacing.xl),
+                  ],
+                ),
+              ),
+            ],
           ),
-        ],
-      ),
-      body: RefreshIndicator(
-        onRefresh: () async {
-          ref.invalidate(corporateActionsProvider);
-          ref.invalidate(fiiDiiDataProvider);
-          ref.invalidate(globalIndicesProvider);
-          ref.invalidate(marketBreadthProvider);
-          ref.invalidate(earningsCalendarProvider);
-          ref.invalidate(sectorPerformanceProvider);
-          ref.invalidate(marketSentimentProvider);
-          ref.invalidate(highLowProvider);
-        },
-        color: AppColors.primary,
-        backgroundColor: AppColors.surface1,
-        child: ListView(
-          padding: AppSpacing.screenPadding,
-          children: const [
-            _MarketSnapshotSection(),
-            SizedBox(height: AppSpacing.xl),
-            _HighlightsSection(),
-            SizedBox(height: AppSpacing.xl),
-          ],
         ),
       ),
     );
   }
 }
 
-// ── Market Snapshot ──────────────────────────────────────────────────────────
+class _SummaryHeader extends ConsumerWidget {
+  const _SummaryHeader();
 
-class _MarketSnapshotSection extends ConsumerWidget {
-  const _MarketSnapshotSection();
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final todayEvents = ref.watch(criticalTodayProvider);
+
+    return todayEvents.when(
+      loading: () => const SizedBox.shrink(),
+      error: (_, __) => const SizedBox.shrink(),
+      data: (events) {
+        final count = events.where((e) => e.importanceIndex == 0).length;
+        if (count == 0) return const SizedBox.shrink();
+        
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Today:', style: AppTypography.metadata),
+            Text('$count Critical Events', style: AppTypography.value.copyWith(color: AppColors.danger)),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _CriticalTodaySection extends ConsumerWidget {
+  const _CriticalTodaySection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final todayEvents = ref.watch(criticalTodayProvider);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const SectionHeader(title: 'CRITICAL TODAY'),
+        todayEvents.when(
+          loading: () => const SkeletonLoader(itemCount: 2, itemHeight: 72),
+          error: (_, __) => const SizedBox.shrink(),
+          data: (events) {
+            final critical = events.where((e) => e.importanceIndex == 0).toList();
+            if (critical.isEmpty) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: AppSpacing.sm),
+                child: Text('No critical events today.', style: AppTypography.bodySecondary),
+              );
+            }
+            return Column(
+              children: critical.map((event) => EventCard(
+                title: event.entity,
+                subtitle: event.title,
+                importance: ImportanceLevel.critical,
+                source: event.eventType,
+              )).toList(),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _UpcomingSection extends ConsumerWidget {
+  const _UpcomingSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final upcomingEvents = ref.watch(upcoming7DaysProvider);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const SectionHeader(title: 'UPCOMING'),
+        upcomingEvents.when(
+          loading: () => const SkeletonLoader(itemCount: 3, itemHeight: 72),
+          error: (_, __) => const SizedBox.shrink(),
+          data: (events) {
+            final important = events.where((e) => e.importanceIndex <= 1).take(5).toList();
+            if (important.isEmpty) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: AppSpacing.sm),
+                child: Text('No major upcoming events.', style: AppTypography.bodySecondary),
+              );
+            }
+            return Column(
+              children: important.map((event) => EventCard(
+                title: event.entity,
+                subtitle: event.title,
+                date: event.date,
+                importance: event.importanceIndex == 0 ? ImportanceLevel.critical : ImportanceLevel.high,
+                source: event.eventType,
+              )).toList(),
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _MarketStatusStrip extends ConsumerWidget {
+  const _MarketStatusStrip();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
-        SectionHeader(title: 'Market Snapshot'),
-        _FiiDiiRow(),
-        AppSpacing.itemGap,
-        _MarketBreadthRow(),
-        AppSpacing.itemGap,
-        FearAndGreedGaugeWidget(),
-        AppSpacing.itemGap,
-        _GlobalIndicesMini(),
-      ],
-    );
-  }
-}
-
-class _MarketBreadthRow extends ConsumerWidget {
-  const _MarketBreadthRow();
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final asyncData = ref.watch(marketBreadthProvider);
-
-    return FadeSwitcher(
-      child: asyncData.when(
-        loading: () =>
-            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 64),
-        error: (err, stack) => const SizedBox.shrink(key: ValueKey('error')),
-        data: (response) {
-          if (response.data.isEmpty) {
-            return const SizedBox.shrink(key: ValueKey('empty'));
-          }
-          final breadth = response.data.first;
-          final advances = (breadth.up ?? breadth.advance ?? 0).toInt();
-          final declines = (breadth.dn ?? breadth.decline ?? 0).toInt();
-
-          return Container(
-            key: const ValueKey('data'),
-            padding: const EdgeInsets.symmetric(
-              horizontal: AppSpacing.md,
-              vertical: AppSpacing.md,
-            ),
-            decoration: BoxDecoration(
-              color: AppColors.surface1,
-              borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-              border: Border.all(color: AppColors.border, width: 1),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.04),
-                  blurRadius: 10,
-                  offset: const Offset(0, 4),
-                ),
-              ],
-            ),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    _BreadthStat(label: 'ADV', value: '$advances', color: AppColors.success),
-                    const SizedBox(width: AppSpacing.lg),
-                    _BreadthStat(label: 'DEC', value: '$declines', color: AppColors.danger),
-                    const Spacer(),
-                    Text(
-                      breadth.sensInd ?? '',
-                      style: AppTypography.timestamp,
-                    ),
-                  ],
-                ),
-                const SizedBox(height: AppSpacing.md),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(2),
-                  child: SizedBox(
-                    height: 4,
-                    child: Row(
-                      children: [
-                        if (advances > 0)
-                          Expanded(
-                            flex: advances,
-                            child: Container(color: AppColors.success),
-                          ),
-                        if (declines > 0)
-                          Expanded(
-                            flex: declines,
-                            child: Container(color: AppColors.danger),
-                          ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          );
-        },
-      ),
-    );
-  }
-}
-
-class _BreadthStat extends StatelessWidget {
-  final String label;
-  final String value;
-  final Color color;
-
-  const _BreadthStat({
-    required this.label,
-    required this.value,
-    required this.color,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.baseline,
-      textBaseline: TextBaseline.alphabetic,
       children: [
-        Text(
-          label,
-          style: AppTypography.metadata.copyWith(color: color),
-        ),
-        const SizedBox(width: AppSpacing.xs),
-        Text(
-          value,
-          style: AppTypography.value.copyWith(
-            color: color,
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
+        const SectionHeader(title: 'MARKET STATUS'),
+        Container(
+          decoration: BoxDecoration(
+            color: AppColors.surface1,
+            borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+            border: Border.all(color: AppColors.border),
+          ),
+          padding: const EdgeInsets.all(AppSpacing.sm),
+          child: Column(
+            children: const [
+              FearAndGreedGaugeWidget(),
+              Divider(height: AppSpacing.md, color: AppColors.border),
+              _CompactMarketBreadth(),
+              Divider(height: AppSpacing.md, color: AppColors.border),
+              _CompactFiiDii(),
+              Divider(height: AppSpacing.md, color: AppColors.border),
+              _CompactGlobalIndices(),
+            ],
           ),
         ),
       ],
@@ -203,65 +208,33 @@ class _BreadthStat extends StatelessWidget {
   }
 }
 
-class _FiiDiiRow extends ConsumerWidget {
-  const _FiiDiiRow();
+class _CompactMarketBreadth extends ConsumerWidget {
+  const _CompactMarketBreadth();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final asyncData = ref.watch(fiiDiiDataProvider);
-
+    final asyncData = ref.watch(marketBreadthProvider);
     return FadeSwitcher(
       child: asyncData.when(
-        loading: () =>
-            const SkeletonLoader(key: ValueKey('loading'), itemCount: 1, itemHeight: 70),
-        error: (err, stack) => const SizedBox.shrink(key: ValueKey('error')),
+        loading: () => const SizedBox(height: 24, child: Center(child: LinearProgressIndicator())),
+        error: (_, __) => const SizedBox.shrink(),
         data: (response) {
-          if (response.data.isEmpty) {
-            return const SizedBox.shrink(key: ValueKey('empty'));
-          }
+          if (response.data.isEmpty) return const SizedBox.shrink();
+          final breadth = response.data.first;
+          final advances = (breadth.up ?? breadth.advance ?? 0).toInt();
+          final declines = (breadth.dn ?? breadth.decline ?? 0).toInt();
+          
           return Row(
-            key: const ValueKey('data'),
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              for (var i = 0; i < 2 && i < response.data.length; i++) ...[
-                if (i > 0) const SizedBox(width: AppSpacing.sm),
-                Expanded(
-                  child: Container(
-                    padding: const EdgeInsets.all(AppSpacing.md),
-                    decoration: BoxDecoration(
-                      color: AppColors.surface1,
-                      borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-                      border: Border.all(color: AppColors.border, width: 1),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.04),
-                          blurRadius: 10,
-                          offset: const Offset(0, 4),
-                        ),
-                      ],
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          response.data[i].category,
-                          style: AppTypography.metadata.copyWith(fontSize: 12),
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          '${(response.data[i].netValue ?? 0) >= 0 ? '+' : ''}₹${response.data[i].netValue?.toStringAsFixed(2) ?? '0.00'} Cr',
-                          style: AppTypography.value.copyWith(
-                            color: (response.data[i].netValue ?? 0) >= 0 ? AppColors.success : AppColors.danger,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
+              Text('Breadth', style: AppTypography.metadata),
+              Row(
+                children: [
+                  Text('ADV $advances', style: AppTypography.metadata.copyWith(color: AppColors.success, fontWeight: FontWeight.bold)),
+                  const SizedBox(width: AppSpacing.md),
+                  Text('DEC $declines', style: AppTypography.metadata.copyWith(color: AppColors.danger, fontWeight: FontWeight.bold)),
+                ],
+              ),
             ],
           );
         },
@@ -270,79 +243,38 @@ class _FiiDiiRow extends ConsumerWidget {
   }
 }
 
-class _GlobalIndicesMini extends ConsumerWidget {
-  const _GlobalIndicesMini();
+class _CompactFiiDii extends ConsumerWidget {
+  const _CompactFiiDii();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final asyncData = ref.watch(globalIndicesProvider);
-
+    final asyncData = ref.watch(fiiDiiDataProvider);
     return FadeSwitcher(
       child: asyncData.when(
-        loading: () =>
-            const SkeletonLoader(key: ValueKey('loading'), itemCount: 3, itemHeight: 36),
-        error: (err, stack) => const SizedBox.shrink(key: ValueKey('error')),
+        loading: () => const SizedBox(height: 24),
+        error: (_, __) => const SizedBox.shrink(),
         data: (response) {
-          if (response.data.isEmpty) {
-            return const SizedBox.shrink(key: ValueKey('empty'));
-          }
-          return Container(
-            key: const ValueKey('data'),
-            padding: AppSpacing.cardPadding,
-            decoration: BoxDecoration(
-              color: AppColors.surface1,
-              borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-              border: Border.all(color: AppColors.border, width: 1),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.04),
-                  blurRadius: 10,
-                  offset: const Offset(0, 4),
-                ),
-              ],
-            ),
-            child: Column(
-              children: response.data.take(4).map((index) {
-                final isPositive = (index.changePct ?? 0) >= 0;
-                final color = isPositive ? AppColors.success : AppColors.danger;
-                final sign = isPositive ? '+' : '';
-                final isIndian = index.symbol == '^NSEI' || index.symbol == '^BSESN';
-                final currency = isIndian ? '₹' : '\$';
-
-                return Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 3),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Expanded(
-                        child: Text(
-                          index.name.toUpperCase().replaceAll(' BSE ', ' '),
-                          style: AppTypography.metadata,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
+          if (response.data.isEmpty) return const SizedBox.shrink();
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('Flows', style: AppTypography.metadata),
+              Row(
+                children: response.data.take(2).map((item) {
+                  final isPositive = (item.netValue ?? 0) >= 0;
+                  return Padding(
+                    padding: const EdgeInsets.only(left: AppSpacing.md),
+                    child: Text(
+                      '${item.category} ${isPositive ? '+' : ''}${item.netValue?.toStringAsFixed(0)}Cr',
+                      style: AppTypography.metadata.copyWith(
+                        color: isPositive ? AppColors.success : AppColors.danger,
+                        fontWeight: FontWeight.bold,
                       ),
-                      const SizedBox(width: AppSpacing.sm),
-                      Text(
-                        index.price != null ? '$currency${index.price!.toStringAsFixed(2)}' : '-',
-                        style: AppTypography.bodyMedium.copyWith(fontSize: 13),
-                      ),
-                      SizedBox(
-                        width: 64,
-                        child: Text(
-                          '$sign${index.changePct?.toStringAsFixed(2) ?? '0.00'}%',
-                          style: AppTypography.bodyMedium.copyWith(
-                            color: color,
-                            fontSize: 13,
-                          ),
-                          textAlign: TextAlign.right,
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              }).toList(),
-            ),
+                    ),
+                  );
+                }).toList(),
+              ),
+            ],
           );
         },
       ),
@@ -350,107 +282,85 @@ class _GlobalIndicesMini extends ConsumerWidget {
   }
 }
 
-// ── Highlights ──────────────────────────────────────────────────────────────
-
-class _HighlightsSection extends ConsumerWidget {
-  const _HighlightsSection();
+class _CompactGlobalIndices extends ConsumerWidget {
+  const _CompactGlobalIndices();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final asyncEvents = ref.watch(timelineEventsProvider);
+    final asyncData = ref.watch(globalIndicesProvider);
+    return FadeSwitcher(
+      child: asyncData.when(
+        loading: () => const SizedBox(height: 24),
+        error: (_, __) => const SizedBox.shrink(),
+        data: (response) {
+          if (response.data.isEmpty) return const SizedBox.shrink();
+          final nifty = response.data.firstWhere((e) => e.symbol == '^NSEI', orElse: () => response.data.first);
+          final isPositive = (nifty.changePct ?? 0) >= 0;
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('NIFTY 50', style: AppTypography.metadata),
+              Text(
+                '${nifty.price?.toStringAsFixed(2) ?? '-'} (${isPositive ? '+' : ''}${nifty.changePct?.toStringAsFixed(2)}%)',
+                style: AppTypography.metadata.copyWith(
+                  color: isPositive ? AppColors.success : AppColors.danger,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          );
+        },
+      ),
+    );
+  }
+}
 
+class _DataHealthSection extends ConsumerWidget {
+  const _DataHealthSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final healthData = ref.watch(healthStatusProvider);
+    
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SectionHeader(title: 'Upcoming Highlights'),
-        SizedBox(
-          height: 120,
-          child: asyncEvents.when(
-            loading: () => ListView.separated(
-              scrollDirection: Axis.horizontal,
-              itemCount: 3,
-              separatorBuilder: (_, __) => const SizedBox(width: AppSpacing.sm),
-              itemBuilder: (_, __) => const SizedBox(
-                width: 200,
-                child: SkeletonLoader(itemCount: 1, itemHeight: 120),
+        const SectionHeader(title: 'DATA HEALTH'),
+        healthData.when(
+          loading: () => const SkeletonLoader(itemCount: 1, itemHeight: 40),
+          error: (_, __) => const SizedBox.shrink(),
+          data: (healthMap) {
+            final allHealthy = healthMap.values.every((v) => v['status'] == 'healthy');
+            final color = allHealthy ? AppColors.success : AppColors.warning;
+            return Container(
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: AppSpacing.sm),
+              decoration: BoxDecoration(
+                color: AppColors.surface1,
+                borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+                border: Border.all(color: AppColors.border),
               ),
-            ),
-            error: (_, __) => const SizedBox.shrink(),
-            data: (events) {
-              final highlights = events.where((e) {
-                if (e.parsedDate == null) return false;
-                return e.parsedDate!.isAfter(DateTime.now().subtract(const Duration(days: 1))) &&
-                    (e.importanceIndex == 0 || e.importanceIndex == 1);
-              }).take(5).toList();
-
-              if (highlights.isEmpty) {
-                return Center(
-                  child: Text('No major upcoming events.', style: AppTypography.bodySecondary),
-                );
-              }
-
-              return ListView.separated(
-                scrollDirection: Axis.horizontal,
-                itemCount: highlights.length,
-                separatorBuilder: (_, __) => const SizedBox(width: AppSpacing.sm),
-                itemBuilder: (context, index) {
-                  final event = highlights[index];
-                  return Container(
-                    width: 220,
-                    padding: AppSpacing.cardPadding,
-                    decoration: BoxDecoration(
-                      color: AppColors.surface1,
-                      borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-                      border: Border.all(color: AppColors.border, width: 1),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.04),
-                          blurRadius: 10,
-                          offset: const Offset(0, 4),
-                        ),
-                      ],
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                          decoration: BoxDecoration(
-                            color: AppColors.surface2,
-                            borderRadius: BorderRadius.circular(AppSpacing.badgeRadius),
-                          ),
-                          child: Text(
-                            event.eventType.toUpperCase(),
-                            style: AppTypography.metadata.copyWith(fontSize: 10),
-                          ),
-                        ),
-                        const SizedBox(height: AppSpacing.sm),
-                        Text(
-                          event.entity,
-                          style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        const SizedBox(height: 2),
-                        Text(
-                          event.title,
-                          style: AppTypography.bodySecondary.copyWith(fontSize: 12),
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        const Spacer(),
-                        Text(
-                          event.date ?? '',
-                          style: AppTypography.timestamp.copyWith(color: AppColors.primary),
-                        ),
-                      ],
-                    ),
-                  );
-                },
-              );
-            },
-          ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text('System Status', style: AppTypography.metadata),
+                  Row(
+                    children: [
+                      Container(
+                        width: 8,
+                        height: 8,
+                        decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+                      ),
+                      const SizedBox(width: 6),
+                      Text(
+                        allHealthy ? 'ALL SYSTEMS OPERATIONAL' : 'DEGRADED PERFORMANCE',
+                        style: AppTypography.metadata.copyWith(color: color, fontWeight: FontWeight.bold, fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            );
+          },
         ),
       ],
     );

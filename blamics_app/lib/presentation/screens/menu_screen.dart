@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
+import '../../data/repositories/providers.dart';
 
-class MenuScreen extends StatelessWidget {
+class MenuScreen extends ConsumerWidget {
   const MenuScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final healthAsync = ref.watch(healthStatusProvider);
+    
     return Scaffold(
       appBar: AppBar(
         title: const Text('MENU'),
@@ -75,12 +79,28 @@ class MenuScreen extends StatelessWidget {
                   style: AppTypography.label.copyWith(letterSpacing: 1.5),
                 ),
                 const SizedBox(height: AppSpacing.sm),
-                _StatusRow(label: 'Corporate Actions', status: 'Live'),
-                _StatusRow(label: 'Earnings Calendar', status: 'Live'),
-                _StatusRow(label: 'FII / DII', status: 'Live'),
-                _StatusRow(label: 'Market Breadth', status: 'Live'),
-                _StatusRow(label: 'Global Indices', status: 'Live'),
-                _StatusRow(label: 'IPO Data', status: 'Live'),
+                ...healthAsync.when(
+                  loading: () => [const Center(child: CircularProgressIndicator())],
+                  error: (_, __) => [const Text('Unable to load health status')],
+                  data: (healthMap) {
+                    const pipelineLabels = {
+                      'corporate_actions': 'Corporate Actions',
+                      'earnings_calendar': 'Earnings Calendar',
+                      'fii_dii': 'FII / DII',
+                      'market_breadth': 'Market Breadth',
+                      'global_indices': 'Global Indices',
+                      'ipos': 'IPO Data',
+                      'sector_performance': 'Sector Performance',
+                      'market_sentiment': 'Market Sentiment',
+                      'high_low': '52W High/Low',
+                    };
+                    return pipelineLabels.entries.map((e) {
+                      final status = healthMap[e.key]?['status'] ?? 'unknown';
+                      final displayStatus = status == 'healthy' ? 'Live' : 'Failed';
+                      return _StatusRow(label: e.value, status: displayStatus);
+                    }).toList();
+                  },
+                ),
               ],
             ),
           ),

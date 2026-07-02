@@ -41,13 +41,13 @@ def scrape_sector_performance():
     try:
         # Step 1: Hit base URL to get cookies
         logger.info("Establishing session with NSE...")
-        session.get("https://www.nseindia.com", timeout=10)
+        session.get("https://www.nseindia.com", timeout=15)
         
         # Step 2: Hit allIndices API
         api_url = "https://www.nseindia.com/api/allIndices"
         logger.info(f"Fetching data from {api_url}")
         
-        response = session.get(api_url, timeout=10)
+        response = session.get(api_url, timeout=15)
         response.raise_for_status()
         
         data = response.json()

@@ -45,9 +45,9 @@ class AppTypography {
         height: 1.4,
       );
 
-  // Metadata — 12px Medium
+  // Metadata — 11px Medium
   static TextStyle get metadata => GoogleFonts.inter(
-        fontSize: 12,
+        fontSize: 11,
         fontWeight: FontWeight.w500,
         color: AppColors.textSecondary,
         height: 1.3,
@@ -70,9 +70,9 @@ class AppTypography {
         height: 1.3,
       );
 
-  // Value — 14px Bold, for numeric data
+  // Value — 16px Bold, for numeric data
   static TextStyle get value => GoogleFonts.inter(
-        fontSize: 14,
+        fontSize: 16,
         fontWeight: FontWeight.w700,
         color: AppColors.textPrimary,
         height: 1.3,

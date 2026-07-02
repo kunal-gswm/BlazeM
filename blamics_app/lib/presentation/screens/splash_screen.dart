@@ -95,13 +95,6 @@ class _SplashScreenState extends State<SplashScreen>
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: AppColors.primary.withValues(alpha: 0.1),
-                        boxShadow: [
-                          BoxShadow(
-                            color: AppColors.primary.withValues(alpha: 0.2),
-                            blurRadius: 40,
-                            spreadRadius: 10,
-                          ),
-                        ],
                       ),
                       child: const Icon(
                         Icons.local_fire_department_rounded,

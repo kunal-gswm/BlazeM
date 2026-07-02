@@ -3,10 +3,9 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from bse import BSE
-
 # Add project root to sys.path to allow importing 'core'
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from bse import BSE
 from core.logger import setup_logging
 from core.io import safe_save, DATA_DIR
 

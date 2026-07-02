@@ -58,33 +58,68 @@ def _parse_date(date_str: str) -> datetime | None:
         return None
 
 
+import pytz
+from core.notifications import check_and_trigger_notification
+
 def filter_active_and_upcoming(ipos: list[IPOData]) -> list[IPOData]:
-    """Filter to keep only Open and Upcoming IPOs (within 1 month)."""
+    """Filter to keep only Open and Upcoming IPOs (within 1 month), using IST time rules."""
     filtered = []
-    now = datetime.now()
-    yesterday = now - timedelta(days=1)
-    one_month_ahead = now + timedelta(days=31)
+    
+    IST = pytz.timezone('Asia/Kolkata')
+    now_ist = datetime.now(pytz.utc).astimezone(IST)
+    today = now_ist.date()
+    yesterday = today - timedelta(days=1)
+    one_month_ahead = today + timedelta(days=31)
 
     for ipo in ipos:
         # Try to parse close date first, then open date
         dt_close = _parse_date(ipo.issue_close)
         dt_open = _parse_date(ipo.issue_open)
+        
+        # Keep track of determined status for notification triggering
+        calculated_status = "Upcoming"
 
-        # If no dates are given (e.g. "Coming soon"), discard.
         if not dt_close and not dt_open:
             continue
 
-        # If we have a close date, and it's strictly in the past, it's CLOSED.
-        if dt_close and dt_close < yesterday:
-            continue
+        if dt_open:
+            open_date = dt_open.date()
+            if today < open_date:
+                calculated_status = "Upcoming"
+            elif today == open_date:
+                if now_ist.hour < 10:
+                    calculated_status = "Upcoming"
+                else:
+                    calculated_status = "Open"
+            elif dt_close and today <= dt_close.date():
+                calculated_status = "Open"
 
+        if dt_close:
+            close_date = dt_close.date()
+            if today == close_date:
+                if now_ist.hour < 17:
+                    calculated_status = "Open"
+                else:
+                    calculated_status = "Closed"
+            elif today > close_date:
+                calculated_status = "Closed"
+
+        # Filtering logic
         # If no close date, but open date is in the past, it's CLOSED.
-        if not dt_close and dt_open and dt_open < yesterday:
+        if not dt_close and dt_open and dt_open.date() < yesterday:
             continue
 
         # If it opens too far in the future (> 1 month), skip.
-        if dt_open and dt_open > one_month_ahead:
+        if dt_open and dt_open.date() > one_month_ahead:
             continue
+            
+        # If it is strictly past the close date (e.g., today > close_date), keep it for 1 extra day so users can see "Closed"
+        if calculated_status == "Closed":
+            if dt_close and today > close_date + timedelta(days=1):
+                continue
+                
+        # Trigger notification if state changed
+        check_and_trigger_notification(ipo.issue_name, calculated_status)
 
         # Keep open and properly dated upcoming IPOs
         # Replace the original strings with ISO format strings

@@ -29,6 +29,8 @@ class _CorporateActionsScreenState
     'Split',
     'Rights',
     'Buyback',
+    'Merger',
+    'Demerger',
   ];
 
   @override

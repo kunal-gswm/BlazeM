@@ -79,7 +79,7 @@ class _TimelineScreenState extends ConsumerState<TimelineScreen> {
                     return const EmptyState(
                       key: ValueKey('empty'),
                       icon: Icons.timeline,
-                      message: 'No events found.',
+                      message: 'No important events today.',
                     );
                   }
 

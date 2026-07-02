@@ -42,6 +42,7 @@ dependencies:
   google_fonts: ^6.2.1
   intl: ^0.20.2
   webview_flutter: ^4.14.0
+  timezone: ^0.11.1
 
 dev_dependencies:
   flutter_test:

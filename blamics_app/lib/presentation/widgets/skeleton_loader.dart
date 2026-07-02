@@ -86,16 +86,19 @@ class _SkeletonCard extends StatelessWidget {
       ),
       child: Padding(
         padding: AppSpacing.cardPadding,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            _SkeletonLine(width: 0.6, opacity: opacity),
-            const SizedBox(height: AppSpacing.sm),
-            _SkeletonLine(width: 0.4, opacity: opacity),
-            const SizedBox(height: AppSpacing.sm),
-            _SkeletonLine(width: 0.25, opacity: opacity),
-          ],
+        child: SingleChildScrollView(
+          physics: const NeverScrollableScrollPhysics(),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              _SkeletonLine(width: 0.6, opacity: opacity),
+              const SizedBox(height: AppSpacing.sm),
+              _SkeletonLine(width: 0.4, opacity: opacity),
+              const SizedBox(height: AppSpacing.sm),
+              _SkeletonLine(width: 0.25, opacity: opacity),
+            ],
+          ),
         ),
       ),
     );

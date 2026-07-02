@@ -116,4 +116,22 @@ class BlamicsRepository {
       (json) => HighLowModel.fromJson(json),
     );
   }
+
+  Future<Map<String, dynamic>> getHealthStatus() async {
+    try {
+      final response = await _dio.get(ApiConstants.health);
+      final jsonMap = response.data is String 
+          ? const JsonDecoder().convert(response.data) as Map<String, dynamic>
+          : response.data as Map<String, dynamic>;
+      
+      await _cacheBox.put('health_cache', jsonMap);
+      return jsonMap;
+    } catch (e) {
+      final cachedData = _cacheBox.get('health_cache');
+      if (cachedData != null) {
+        return Map<String, dynamic>.from(cachedData);
+      }
+      return {};
+    }
+  }
 }

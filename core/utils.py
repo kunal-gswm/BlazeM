@@ -55,4 +55,5 @@ def clean_text(text: Optional[str]) -> str:
     """Strip whitespace and normalize."""
     if not text:
         return ""
-    return " ".join(text.strip().split())
+    cleaned = " ".join(text.strip().split())
+    return cleaned.replace("â‚¹", "₹").replace("\u00e2\u201a\u00b9", "₹")

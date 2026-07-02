@@ -24,8 +24,6 @@ def _convert_empty_strings(obj: Any) -> Any:
         return {k: _convert_empty_strings(v) for k, v in obj.items()}
     elif isinstance(obj, list):
         return [_convert_empty_strings(item) for item in obj]
-    elif isinstance(obj, str) and obj.strip() == "":
-        return None
     return obj
 
 def update_health(pipeline: str, status: str):
@@ -42,7 +40,7 @@ def update_health(pipeline: str, status: str):
         health_data[pipeline] = {}
         
     health_data[pipeline]["status"] = status
-    health_data[pipeline]["updated_at"] = datetime.now(timezone.utc).isoformat() + "Z"
+    health_data[pipeline]["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     with open(HEALTH_FILE, "w", encoding="utf-8") as f:
         json.dump(health_data, f, indent=2)
@@ -73,13 +71,14 @@ def safe_save(
     pipeline_name: str, 
     source_name: str, 
     file_path: Path, 
-    retention_threshold: float
+    retention_threshold: float,
+    override_count: int | None = None
 ) -> bool:
     """
     Safely saves data preventing excessive data loss.
     Wraps payload in standardized metadata.
     """
-    new_count = len(data)
+    new_count = override_count if override_count is not None else len(data)
     
     # 1. Load previous to check threshold
     if file_path.exists():
@@ -111,7 +110,7 @@ def safe_save(
     payload = {
         "metadata": {
             "source": source_name,
-            "last_updated": datetime.now(timezone.utc).isoformat() + "Z",
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "status": "healthy",
             "record_count": new_count
         },

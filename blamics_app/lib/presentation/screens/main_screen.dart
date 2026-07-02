@@ -48,13 +48,6 @@ class _MainScreenState extends ConsumerState<MainScreen> {
             color: AppColors.surface1,
             borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
             border: Border.all(color: AppColors.border),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withOpacity(0.15),
-                blurRadius: 20,
-                offset: const Offset(0, 10),
-              ),
-            ],
           ),
           child: Column(
             mainAxisSize: MainAxisSize.min,

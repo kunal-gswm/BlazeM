@@ -28,13 +28,13 @@ class TimelineTile extends StatelessWidget {
         children: [
           // Timeline connector
           SizedBox(
-            width: 20,
+            width: 16,
             child: Column(
               children: [
                 Container(
-                  width: 8,
-                  height: 8,
-                  margin: const EdgeInsets.only(top: 6),
+                  width: 6,
+                  height: 6,
+                  margin: const EdgeInsets.only(top: 4),
                   decoration: BoxDecoration(
                     color: importance.color,
                     shape: BoxShape.circle,
@@ -50,11 +50,11 @@ class TimelineTile extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(width: AppSpacing.sm),
+          const SizedBox(width: AppSpacing.xs),
           // Content
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(bottom: AppSpacing.lg),
+              padding: const EdgeInsets.only(bottom: AppSpacing.sm),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -64,13 +64,13 @@ class TimelineTile extends StatelessWidget {
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  const SizedBox(height: 2),
+                  const SizedBox(height: 1),
                   Text(
                     entity,
-                    style: AppTypography.bodySecondary.copyWith(fontSize: 13),
+                    style: AppTypography.metadata,
                   ),
                   if (date != null) ...[
-                    const SizedBox(height: AppSpacing.xs),
+                    const SizedBox(height: 1),
                     Text(
                       date!,
                       style: AppTypography.timestamp,

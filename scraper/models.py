@@ -1,8 +1,7 @@
 """Unified IPO data model used across all scrapers."""
 
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
-import json
 
 
 @dataclass

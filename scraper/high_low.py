@@ -15,7 +15,7 @@ def fetch_nse_52week(session, index_type):
     """Fetch 52-week high or low data. index_type should be 'high' or 'low'."""
     url = f"https://www.nseindia.com/api/live-analysis-52Week?index={index_type}"
     try:
-        response = session.get(url, timeout=10)
+        response = session.get(url, timeout=15)
         response.raise_for_status()
         data = response.json()
         
@@ -54,7 +54,7 @@ def scrape_high_low():
     
     try:
         logger.info("Establishing session with NSE...")
-        session.get("https://www.nseindia.com", timeout=10)
+        session.get("https://www.nseindia.com", timeout=15)
         
         highs = fetch_nse_52week(session, 'high')
         logger.info(f"Scraped {len(highs)} stocks hitting 52W High.")
@@ -73,13 +73,18 @@ def scrape_high_low():
 def main():
     data = scrape_high_low()
     if data["highs"] or data["lows"]:
+        total_records = len(data["highs"]) + len(data["lows"])
         safe_save(
             data=[data], # Wrapped in list for consistent format
             pipeline_name="high_low",
             source_name="nse_india",
             file_path=OUTPUT_FILE,
-            retention_threshold=0.20
+            retention_threshold=0.20,
+            override_count=total_records
         )
+        logger.info("High/Low pipeline completed successfully.")
+    else:
+        logger.warning("No data scraped.")
 
 if __name__ == "__main__":
     main()

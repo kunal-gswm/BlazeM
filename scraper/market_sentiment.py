@@ -27,7 +27,7 @@ def scrape_market_sentiment():
     api_url = "https://api.tickertape.in/mmi/now"
     
     try:
-        response = requests.get(api_url, timeout=10)
+        response = requests.get(api_url, timeout=15)
         response.raise_for_status()
         
         data = response.json()

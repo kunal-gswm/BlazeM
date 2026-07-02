@@ -1,17 +1,17 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-01T18:04:50.970719+00:00Z",
+    "last_updated": "2026-07-02T08:55:25Z",
     "status": "healthy",
-    "record_count": 29
+    "record_count": 39
   },
   "data": [
     {
-      "scrip_Code": "530961",
-      "short_name": "VIKASECO",
-      "Long_Name": "Vikas EcoTech Ltd",
-      "meeting_date": "01 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/vikas-ecotech-ltd/vikaseco/530961/"
+      "scrip_Code": "543594",
+      "short_name": "DPL",
+      "Long_Name": "Dipna Pharmachem Ltd",
+      "meeting_date": "02 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/dipna-pharmachem-ltd/dpl/543594/"
     },
     {
       "scrip_Code": "544779",
@@ -40,6 +40,13 @@
       "Long_Name": "Tulsi Extrusions Ltd",
       "meeting_date": "03 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tulsi-extrusions-ltd/tulsi/532948/"
+    },
+    {
+      "scrip_Code": "539175",
+      "short_name": "BLUEGOD",
+      "Long_Name": "Bluegod Entertainment Ltd",
+      "meeting_date": "04 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bluegod-entertainment-ltd/bluegod/539175/"
     },
     {
       "scrip_Code": "536073",
@@ -75,6 +82,13 @@
       "Long_Name": "Stellant Securities (India) Ltd",
       "meeting_date": "06 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/stellant-securities-(india)-ltd/stellant/526071/"
+    },
+    {
+      "scrip_Code": "543951",
+      "short_name": "INNOVATUS",
+      "Long_Name": "Innovatus Entertainment Networks Ltd",
+      "meeting_date": "08 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/innovatus-entertainment-networks-ltd/innovatus/543951/"
     },
     {
       "scrip_Code": "539229",
@@ -131,6 +145,20 @@
       "Long_Name": "L&T Finance Ltd",
       "meeting_date": "10 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/lt-finance-ltd/ltf/533519/"
+    },
+    {
+      "scrip_Code": "514060",
+      "short_name": "NEWTRAC",
+      "Long_Name": "Newtrac Foods & Beverages Ltd",
+      "meeting_date": "10 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/newtrac-foods--beverages-ltd/newtrac/514060/"
+    },
+    {
+      "scrip_Code": "532406",
+      "short_name": "AVANTEL",
+      "Long_Name": "Avantel Ltd",
+      "meeting_date": "11 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/avantel-ltd/avantel/532406/"
     },
     {
       "scrip_Code": "540005",
@@ -208,6 +236,48 @@
       "Long_Name": "ICICI Prudential Life Insurance Company Ltd",
       "meeting_date": "15 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/icici-prudential-life-insurance-company-ltd/icicipruli/540133/"
+    },
+    {
+      "scrip_Code": "544118",
+      "short_name": "JSFB",
+      "Long_Name": "Jana Small Finance Bank Ltd",
+      "meeting_date": "15 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/jana-small-finance-bank-ltd/jsfb/544118/"
+    },
+    {
+      "scrip_Code": "513262",
+      "short_name": "SSWL",
+      "Long_Name": "Steel Strips Wheels Ltd",
+      "meeting_date": "15 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/steel-strips-wheels-ltd/sswl/513262/"
+    },
+    {
+      "scrip_Code": "500878",
+      "short_name": "CEATLTD",
+      "Long_Name": "Ceat Ltd",
+      "meeting_date": "16 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ceat-ltd/ceatltd/500878/"
+    },
+    {
+      "scrip_Code": "511766",
+      "short_name": "MUTHOOTCAP",
+      "Long_Name": "Muthoot Capital Services Ltd",
+      "meeting_date": "16 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/muthoot-capital-services-ltd/muthootcap/511766/"
+    },
+    {
+      "scrip_Code": "532755",
+      "short_name": "TECHM",
+      "Long_Name": "Tech Mahindra Ltd",
+      "meeting_date": "16 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/tech-mahindra-ltd/techm/532755/"
+    },
+    {
+      "scrip_Code": "544570",
+      "short_name": "WEWORK",
+      "Long_Name": "WeWork India Management Ltd",
+      "meeting_date": "16 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/wework-india-management-ltd/wework/544570/"
     }
   ]
 }
