@@ -2,11 +2,26 @@
 
 import json
 from pathlib import Path
+import firebase_admin
+from firebase_admin import credentials, messaging
 from core.logger import setup_logging
 
 logger = setup_logging(__name__)
 
 NOTIFICATIONS_FILE = Path(__file__).resolve().parent.parent / "data" / "ipo_notifications.json"
+SERVICE_ACCOUNT_FILE = Path(__file__).resolve().parent.parent / "service_account.json"
+
+# Initialize Firebase Admin
+try:
+    if not firebase_admin._apps:
+        if SERVICE_ACCOUNT_FILE.exists():
+            cred = credentials.Certificate(str(SERVICE_ACCOUNT_FILE))
+            firebase_admin.initialize_app(cred)
+            logger.info("Firebase Admin initialized successfully.")
+        else:
+            logger.warning(f"Firebase Service Account file not found at {SERVICE_ACCOUNT_FILE}. Notifications will only be logged.")
+except Exception as e:
+    logger.error(f"Failed to initialize Firebase Admin: {e}")
 
 def _load_state() -> dict:
     if NOTIFICATIONS_FILE.exists():
@@ -26,12 +41,24 @@ def _save_state(state: dict):
         logger.error(f"Failed to save notification state: {e}")
 
 def _trigger_alert(title: str, message: str):
-    """Placeholder for inbuilt notification trigger."""
-    # For "inbuilt" requirement, we log a critical alert which can be parsed by the runner
+    """Sends a real push notification via FCM to the 'all' topic."""
     logger.critical(f"🔔 NOTIFICATION TRIGGERED | {title} | {message}")
     
-    # Example: If you have an inbuilt Github Action step to parse logs, or a local system notifier:
-    # print(f"::notice title={title}::{message}") # GitHub Actions syntax
+    if firebase_admin._apps:
+        try:
+            msg = messaging.Message(
+                notification=messaging.Notification(
+                    title=title,
+                    body=message,
+                ),
+                topic='all',
+            )
+            response = messaging.send(msg)
+            logger.info(f"Successfully sent FCM message: {response}")
+        except Exception as e:
+            logger.error(f"Failed to send FCM message: {e}")
+    else:
+        logger.warning("FCM not initialized. Push notification was not sent.")
 
 def check_and_trigger_notification(ipo_name: str, status: str):
     """Check state and trigger notification if not already sent."""

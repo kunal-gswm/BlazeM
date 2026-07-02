@@ -17,59 +17,9 @@ import '../widgets/status_badge.dart';
 import '../widgets/filter_chip_bar.dart';
 import 'ipo_detail_screen.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:timezone/timezone.dart' as tz;
 
-// Helper to determine status based on live dates
-IpoStatus _determineStatus(IpoModel ipo) {
-  // Use Asia/Kolkata (IST) which is exactly UTC+5:30
-  final nowUtc = DateTime.now().toUtc();
-  final nowIst = nowUtc.add(const Duration(hours: 5, minutes: 30));
-  
-  DateTime? parseDate(String? dateStr) {
-    if (dateStr == null || dateStr.isEmpty) return null;
-    try {
-      return DateTime.parse(dateStr);
-    } catch (e) {
-      return null;
-    }
-  }
-
-  final today = DateTime(nowIst.year, nowIst.month, nowIst.day);
-  
-  final listingDate = parseDate(ipo.listingDateRaw);
-  final closeDate = parseDate(ipo.issueCloseRaw);
-  final openDate = parseDate(ipo.issueOpenRaw);
-  
-  if (listingDate != null && (listingDate.isBefore(today) || listingDate.isAtSameMomentAs(today))) {
-    return IpoStatus.listed;
-  }
-  
-  if (closeDate != null) {
-    if (closeDate.isBefore(today)) {
-      return IpoStatus.closed;
-    } else if (closeDate.isAtSameMomentAs(today)) {
-      // Closes at 5:00 PM IST
-      if (nowIst.hour >= 17) {
-        return IpoStatus.closed;
-      }
-    }
-  }
-  
-  if (openDate != null) {
-    if (openDate.isBefore(today)) {
-      // Must be open if before close date and after open date
-      if (closeDate == null || closeDate.isAfter(today) || (closeDate.isAtSameMomentAs(today) && nowIst.hour < 17)) {
-        return IpoStatus.open;
-      }
-    } else if (openDate.isAtSameMomentAs(today)) {
-      // Opens at 10:00 AM IST
-      if (nowIst.hour >= 10) {
-        return IpoStatus.open;
-      }
-    }
-  }
-  
-  return IpoStatus.upcoming;
-}
+import '../../core/utils/ipo_status_helper.dart';
 
 class IpoListScreen extends ConsumerStatefulWidget {
   const IpoListScreen({super.key});
@@ -141,7 +91,7 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
 
                     if (_filterIndex == 0) return true;
 
-                    final status = _determineStatus(ipo);
+                    final status = IpoStatusHelper.determineStatus(ipo);
                     final filterName = _filterLabels[_filterIndex];
                     if (filterName == 'OPEN' && status == IpoStatus.open) return true;
                     if (filterName == 'UPCOMING' && status == IpoStatus.upcoming) return true;
@@ -187,7 +137,7 @@ class _IpoRow extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final status = _determineStatus(ipo);
+    final status = IpoStatusHelper.determineStatus(ipo);
     final itemId = 'IPO:${ipo.issueName}';
     
     // Watchlist state

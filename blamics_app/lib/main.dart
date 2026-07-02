@@ -7,8 +7,11 @@ import 'core/theme/app_theme.dart';
 import 'core/services/push_notification_service.dart';
 import 'presentation/screens/splash_screen.dart';
 
+import 'package:timezone/data/latest.dart' as tz;
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  tz.initializeTimeZones();
   
   try {
     await Firebase.initializeApp(

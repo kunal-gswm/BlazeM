@@ -9,6 +9,9 @@ import '../widgets/section_header.dart';
 import '../widgets/timeline_tile.dart';
 import '../../core/constants/app_enums.dart';
 
+import '../../core/utils/ipo_status_helper.dart';
+import '../widgets/status_badge.dart';
+
 class IpoDetailScreen extends StatelessWidget {
   final IpoModel ipo;
 
@@ -16,6 +19,8 @@ class IpoDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final status = IpoStatusHelper.determineStatus(ipo);
+    
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -35,6 +40,16 @@ class IpoDetailScreen extends StatelessWidget {
           _InfoBlock(
             children: [
               MetricRow(label: 'Issue Name', value: ipo.issueName),
+              Padding(
+                padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text('Status', style: AppTypography.bodySmall),
+                    StatusBadge(status: status),
+                  ],
+                ),
+              ),
               MetricRow(label: 'Type', value: ipo.ipoType),
               MetricRow(label: 'Price Band', value: ipo.priceBand),
               MetricRow(label: 'Lot Size', value: ipo.lotSize),
