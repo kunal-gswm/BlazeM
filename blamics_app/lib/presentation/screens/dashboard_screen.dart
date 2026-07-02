@@ -96,7 +96,7 @@ class DashboardScreen extends ConsumerWidget {
       appBar: AppBar(
         centerTitle: false,
         title: Image.asset(
-          'assets/logo_horizontal.png',
+          'assets/app_icon.png',
           height: 32,
           fit: BoxFit.contain,
         ),
