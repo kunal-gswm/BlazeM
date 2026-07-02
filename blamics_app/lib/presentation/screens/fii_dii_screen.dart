@@ -86,6 +86,8 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
                 const SizedBox(height: AppSpacing.md),
                 _buildChart(grouped, chartDates, context),
                 const SizedBox(height: AppSpacing.xl),
+                _buildMonthlyAnalytics(grouped, sortedDates),
+                const SizedBox(height: AppSpacing.xl),
                 Text('RECENT HISTORY', style: AppTypography.label),
                 const SizedBox(height: AppSpacing.md),
                 ...sortedDates.reversed.take(30).map((date) => _buildHistoryRow(date, grouped[date]!)),
@@ -243,6 +245,48 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
     );
   }
 
+  Widget _buildMonthlyAnalytics(Map<String, Map<String, FiiDiiModel>> grouped, List<String> sortedDates) {
+    // Group dates by Month (e.g., "Jun 2026")
+    final Map<String, Map<String, double>> monthlyTotals = {};
+    
+    for (final date in sortedDates) {
+      try {
+        final d = DateFormat('dd-MMM-yyyy').parse(date);
+        final monthKey = DateFormat('MMM yyyy').format(d);
+        
+        monthlyTotals.putIfAbsent(monthKey, () => {'FII': 0.0, 'DII': 0.0});
+        
+        final dayData = grouped[date]!;
+        final fii = dayData.values.firstWhere((e) => e.category.contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date, netValue: 0));
+        final dii = dayData.values.firstWhere((e) => e.category.contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date, netValue: 0));
+        
+        monthlyTotals[monthKey]!['FII'] = monthlyTotals[monthKey]!['FII']! + (fii.netValue ?? 0);
+        monthlyTotals[monthKey]!['DII'] = monthlyTotals[monthKey]!['DII']! + (dii.netValue ?? 0);
+      } catch (_) {}
+    }
+
+    final sortedMonths = monthlyTotals.keys.toList(); // since we iterated older to newer initially, but wait, sortedDates is oldest first.
+    // We want newest month first
+    final reversedMonths = sortedMonths.reversed.toList();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('MONTHLY BEHAVIOR', style: AppTypography.label),
+        const SizedBox(height: AppSpacing.md),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: reversedMonths.map((month) {
+              final totals = monthlyTotals[month]!;
+              return _MonthlyInsightCard(month: month, fiiTotal: totals['FII']!, diiTotal: totals['DII']!);
+            }).toList(),
+          ),
+        ),
+      ],
+    );
+  }
+
   double _calculateMaxAbsoluteValue(Map<String, Map<String, FiiDiiModel>> grouped, List<String> dates) {
     double maxVal = 0;
     for (var date in dates) {
@@ -344,6 +388,75 @@ class _HistoryCell extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class _MonthlyInsightCard extends StatelessWidget {
+  final String month;
+  final double fiiTotal;
+  final double diiTotal;
+
+  const _MonthlyInsightCard({required this.month, required this.fiiTotal, required this.diiTotal});
+
+  @override
+  Widget build(BuildContext context) {
+    final netTotal = fiiTotal + diiTotal;
+    final isPositive = netTotal >= 0;
+
+    return Container(
+      width: 200,
+      margin: const EdgeInsets.only(right: AppSpacing.md),
+      padding: const EdgeInsets.all(AppSpacing.md),
+      decoration: BoxDecoration(
+        color: AppColors.surface1,
+        borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+        border: Border.all(color: AppColors.border),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(month.toUpperCase(), style: AppTypography.label.copyWith(color: AppColors.textPrimary)),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                decoration: BoxDecoration(
+                  color: isPositive ? AppColors.success.withValues(alpha: 0.1) : AppColors.danger.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: Text(
+                  isPositive ? 'INFLOW' : 'OUTFLOW',
+                  style: AppTypography.metadata.copyWith(
+                    color: isPositive ? AppColors.success : AppColors.danger,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 9,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          _HistoryCell(title: 'FII NET', value: fiiTotal),
+          const SizedBox(height: 4),
+          _HistoryCell(title: 'DII NET', value: diiTotal),
+          const Divider(color: AppColors.border, height: 16),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('TOTAL', style: AppTypography.metadata),
+              Text(
+                '${isPositive ? '+' : ''}₹${netTotal.toStringAsFixed(0)} Cr',
+                style: AppTypography.value.copyWith(
+                  color: isPositive ? AppColors.success : AppColors.danger,
+                  fontSize: 14,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
