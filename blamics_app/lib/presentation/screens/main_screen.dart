@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
+import '../../data/repositories/providers.dart';
 import 'dashboard_screen.dart';
 import 'timeline_screen.dart';
 import 'ipo_list_screen.dart';
@@ -20,8 +21,6 @@ class MainScreen extends ConsumerStatefulWidget {
 }
 
 class _MainScreenState extends ConsumerState<MainScreen> {
-  int _currentIndex = 0;
-
   List<Widget> get _screens => const [
     DashboardScreen(),
     TimelineScreen(),
@@ -79,48 +78,54 @@ class _MainScreenState extends ConsumerState<MainScreen> {
   }
 
   Widget _buildNavMenuItem(BuildContext context, int index, IconData icon, String title) {
-    final isSelected = _currentIndex == index;
-    return ListTile(
-      dense: true,
-      leading: Icon(
-        icon,
-        color: isSelected ? AppColors.primary : AppColors.textSecondary,
-        size: 22,
-      ),
-      title: Text(
-        title,
-        style: AppTypography.bodyMedium.copyWith(
-          color: isSelected ? AppColors.primary : AppColors.textPrimary,
-          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+    final currentIndex = ref.watch(navigationProvider);
+    final isSelected = currentIndex == index;
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        dense: true,
+        leading: Icon(
+          icon,
+          color: isSelected ? AppColors.primary : AppColors.textSecondary,
+          size: 22,
         ),
+        title: Text(
+          title,
+          style: AppTypography.bodyMedium.copyWith(
+            color: isSelected ? AppColors.primary : AppColors.textPrimary,
+            fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+          ),
+        ),
+        trailing: isSelected
+            ? const Icon(Icons.circle, size: 8, color: AppColors.primary)
+            : null,
+        onTap: () {
+          ref.read(navigationProvider.notifier).state = index;
+          Navigator.pop(context);
+        },
       ),
-      trailing: isSelected
-          ? const Icon(Icons.circle, size: 8, color: AppColors.primary)
-          : null,
-      onTap: () {
-        setState(() => _currentIndex = index);
-        Navigator.pop(context);
-      },
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    final currentIndex = ref.watch(navigationProvider);
+    
     return Scaffold(
       body: IndexedStack(
-        index: _currentIndex,
+        index: currentIndex,
         children: _screens,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () => _showNavigationMenu(context),
-        backgroundColor: AppColors.primary, // Make it pop a bit more since it's an icon
+        backgroundColor: AppColors.primary,
         elevation: 8,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30),
         ),
         child: const Icon(
-          Icons.local_fire_department_rounded, // Flame icon for BlazeM
+          Icons.local_fire_department_rounded,
           color: Colors.white,
           size: 28,
         ),
@@ -147,9 +152,10 @@ class _MainScreenState extends ConsumerState<MainScreen> {
   }
 
   Widget _buildBottomNavItem(int index, IconData icon, String label) {
-    final isSelected = _currentIndex == index;
+    final currentIndex = ref.watch(navigationProvider);
+    final isSelected = currentIndex == index;
     return InkWell(
-      onTap: () => setState(() => _currentIndex = index),
+      onTap: () => ref.read(navigationProvider.notifier).state = index,
       borderRadius: BorderRadius.circular(8),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),

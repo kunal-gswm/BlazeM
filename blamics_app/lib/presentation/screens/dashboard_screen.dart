@@ -12,6 +12,79 @@ import '../widgets/section_header.dart';
 import '../widgets/skeleton_loader.dart';
 import '../widgets/fear_greed_gauge_widget.dart';
 import '../widgets/stale_banner.dart';
+import '../widgets/importance_indicator.dart';
+
+void _showEventDetails(BuildContext context, WidgetRef ref, dynamic event, ImportanceLevel importance) {
+  showModalBottomSheet(
+    context: context,
+    backgroundColor: Colors.transparent,
+    isScrollControlled: true,
+    builder: (context) {
+      return Container(
+        margin: const EdgeInsets.only(
+          left: AppSpacing.lg,
+          right: AppSpacing.lg,
+          bottom: AppSpacing.xl,
+        ),
+        padding: AppSpacing.screenPadding,
+        decoration: BoxDecoration(
+          color: AppColors.surface1,
+          borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+          border: Border.all(color: AppColors.border),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 40,
+                height: 4,
+                margin: const EdgeInsets.only(bottom: AppSpacing.lg),
+                decoration: BoxDecoration(
+                  color: AppColors.border,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            Row(
+              children: [
+                ImportanceIndicator(level: importance),
+                const SizedBox(width: AppSpacing.sm),
+                Text((event.eventType as String).toUpperCase(), style: AppTypography.metadata),
+              ],
+            ),
+            const SizedBox(height: AppSpacing.md),
+            Text(event.entity as String, style: AppTypography.screenTitle.copyWith(fontSize: 20)),
+            const SizedBox(height: AppSpacing.xs),
+            Text(event.title as String, style: AppTypography.bodyMedium),
+            const SizedBox(height: AppSpacing.lg),
+            Text('Date: ${event.date}', style: AppTypography.value.copyWith(fontSize: 14)),
+            const SizedBox(height: AppSpacing.xl),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.primary,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(vertical: AppSpacing.md),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+                  ),
+                ),
+                onPressed: () {
+                  Navigator.pop(context); // Close bottom sheet
+                  ref.read(navigationProvider.notifier).state = 1; // Go to Timeline tab
+                },
+                child: const Text('View in Timeline'),
+              ),
+            ),
+          ],
+        ),
+      );
+    },
+  );
+}
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
@@ -128,6 +201,7 @@ class _CriticalTodaySection extends ConsumerWidget {
                 subtitle: event.title,
                 importance: ImportanceLevel.critical,
                 source: event.eventType,
+                onTap: () => _showEventDetails(context, ref, event, ImportanceLevel.critical),
               )).toList(),
             );
           },
@@ -160,13 +234,17 @@ class _UpcomingSection extends ConsumerWidget {
               );
             }
             return Column(
-              children: important.map((event) => EventCard(
-                title: event.entity,
-                subtitle: event.title,
-                date: event.date,
-                importance: event.importanceIndex == 0 ? ImportanceLevel.critical : ImportanceLevel.high,
-                source: event.eventType,
-              )).toList(),
+              children: important.map((event) {
+                final importance = event.importanceIndex == 0 ? ImportanceLevel.critical : ImportanceLevel.high;
+                return EventCard(
+                  title: event.entity,
+                  subtitle: event.title,
+                  date: event.date,
+                  importance: importance,
+                  source: event.eventType,
+                  onTap: () => _showEventDetails(context, ref, event, importance),
+                );
+              }).toList(),
             );
           },
         ),
@@ -194,6 +272,8 @@ class _MarketStatusStrip extends ConsumerWidget {
           child: const Column(
             children: [
               FearAndGreedGaugeWidget(),
+              Divider(height: AppSpacing.md, color: AppColors.border),
+              _CompactSectorPerformance(),
               Divider(height: AppSpacing.md, color: AppColors.border),
               _CompactMarketBreadth(),
               Divider(height: AppSpacing.md, color: AppColors.border),
@@ -224,18 +304,27 @@ class _CompactMarketBreadth extends ConsumerWidget {
           final advances = (breadth.up ?? breadth.advance ?? 0).toInt();
           final declines = (breadth.dn ?? breadth.decline ?? 0).toInt();
           
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('Breadth', style: AppTypography.metadata),
-              Row(
+          return GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => ref.read(navigationProvider.notifier).state = 6, // 52-Week High/Low tab
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 4),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('ADV $advances', style: AppTypography.metadata.copyWith(color: AppColors.success, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: AppSpacing.md),
-                  Text('DEC $declines', style: AppTypography.metadata.copyWith(color: AppColors.danger, fontWeight: FontWeight.bold)),
+                  Text('Breadth', style: AppTypography.metadata),
+                  Row(
+                    children: [
+                      Text('ADV $advances', style: AppTypography.metadata.copyWith(color: AppColors.success, fontWeight: FontWeight.bold)),
+                      const SizedBox(width: AppSpacing.md),
+                      Text('DEC $declines', style: AppTypography.metadata.copyWith(color: AppColors.danger, fontWeight: FontWeight.bold)),
+                      const SizedBox(width: AppSpacing.sm),
+                      const Icon(Icons.chevron_right, size: 16, color: AppColors.textSecondary),
+                    ],
+                  ),
                 ],
               ),
-            ],
+            ),
           );
         },
       ),
@@ -255,26 +344,29 @@ class _CompactFiiDii extends ConsumerWidget {
         error: (_, __) => const SizedBox.shrink(),
         data: (response) {
           if (response.data.isEmpty) return const SizedBox.shrink();
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('Flows', style: AppTypography.metadata),
-              Row(
-                children: response.data.take(2).map((item) {
-                  final isPositive = (item.netValue ?? 0) >= 0;
-                  return Padding(
-                    padding: const EdgeInsets.only(left: AppSpacing.md),
-                    child: Text(
-                      '${item.category} ${isPositive ? '+' : ''}${item.netValue?.toStringAsFixed(0)}Cr',
-                      style: AppTypography.metadata.copyWith(
-                        color: isPositive ? AppColors.success : AppColors.danger,
-                        fontWeight: FontWeight.bold,
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 4),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('Flows', style: AppTypography.metadata),
+                Row(
+                  children: response.data.take(2).map((item) {
+                    final isPositive = (item.netValue ?? 0) >= 0;
+                    return Padding(
+                      padding: const EdgeInsets.only(left: AppSpacing.md),
+                      child: Text(
+                        '${item.category} ${isPositive ? '+' : ''}${item.netValue?.toStringAsFixed(0)}Cr',
+                        style: AppTypography.metadata.copyWith(
+                          color: isPositive ? AppColors.success : AppColors.danger,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                  );
-                }).toList(),
-              ),
-            ],
+                    );
+                  }).toList(),
+                ),
+              ],
+            ),
           );
         },
       ),
@@ -296,18 +388,71 @@ class _CompactGlobalIndices extends ConsumerWidget {
           if (response.data.isEmpty) return const SizedBox.shrink();
           final nifty = response.data.firstWhere((e) => e.symbol == '^NSEI', orElse: () => response.data.first);
           final isPositive = (nifty.changePct ?? 0) >= 0;
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('NIFTY 50', style: AppTypography.metadata),
-              Text(
-                '${nifty.price?.toStringAsFixed(2) ?? '-'} (${isPositive ? '+' : ''}${nifty.changePct?.toStringAsFixed(2)}%)',
-                style: AppTypography.metadata.copyWith(
-                  color: isPositive ? AppColors.success : AppColors.danger,
-                  fontWeight: FontWeight.bold,
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 4),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('NIFTY 50', style: AppTypography.metadata),
+                Text(
+                  '${nifty.price?.toStringAsFixed(2) ?? '-'} (${isPositive ? '+' : ''}${nifty.changePct?.toStringAsFixed(2)}%)',
+                  style: AppTypography.metadata.copyWith(
+                    color: isPositive ? AppColors.success : AppColors.danger,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+              ],
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _CompactSectorPerformance extends ConsumerWidget {
+  const _CompactSectorPerformance();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncData = ref.watch(sectorPerformanceProvider);
+    return FadeSwitcher(
+      child: asyncData.when(
+        loading: () => const SizedBox(height: 24),
+        error: (_, __) => const SizedBox.shrink(),
+        data: (response) {
+          if (response.data.isEmpty) return const SizedBox.shrink();
+          // Sort by percentChange to find top gainer
+          final sectors = List.of(response.data);
+          sectors.sort((a, b) => (b.percentChange ?? 0).compareTo(a.percentChange ?? 0));
+          final topSector = sectors.first;
+          final isPositive = (topSector.percentChange ?? 0) >= 0;
+          
+          return GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => ref.read(navigationProvider.notifier).state = 5, // Sector Heatmap tab
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 4),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text('Top Sector', style: AppTypography.metadata),
+                  Row(
+                    children: [
+                      Text(
+                        '${topSector.symbol} (${isPositive ? '+' : ''}${topSector.percentChange?.toStringAsFixed(2)}%)',
+                        style: AppTypography.metadata.copyWith(
+                          color: isPositive ? AppColors.success : AppColors.danger,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(width: AppSpacing.sm),
+                      const Icon(Icons.chevron_right, size: 16, color: AppColors.textSecondary),
+                    ],
+                  ),
+                ],
               ),
-            ],
+            ),
           );
         },
       ),
@@ -332,32 +477,38 @@ class _DataHealthSection extends ConsumerWidget {
           data: (healthMap) {
             final allHealthy = healthMap.values.every((v) => v['status'] == 'healthy');
             final color = allHealthy ? AppColors.success : AppColors.warning;
-            return Container(
-              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: AppSpacing.sm),
-              decoration: BoxDecoration(
-                color: AppColors.surface1,
-                borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
-                border: Border.all(color: AppColors.border),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text('System Status', style: AppTypography.metadata),
-                  Row(
-                    children: [
-                      Container(
-                        width: 8,
-                        height: 8,
-                        decoration: BoxDecoration(color: color, shape: BoxShape.circle),
-                      ),
-                      const SizedBox(width: 6),
-                      Text(
-                        allHealthy ? 'ALL SYSTEMS OPERATIONAL' : 'DEGRADED PERFORMANCE',
-                        style: AppTypography.metadata.copyWith(color: color, fontWeight: FontWeight.bold, fontSize: 10),
-                      ),
-                    ],
-                  ),
-                ],
+            return GestureDetector(
+              onTap: () => ref.read(navigationProvider.notifier).state = 4, // Settings & Info tab
+              behavior: HitTestBehavior.opaque,
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: AppSpacing.sm),
+                decoration: BoxDecoration(
+                  color: AppColors.surface1,
+                  borderRadius: BorderRadius.circular(AppSpacing.cardRadius),
+                  border: Border.all(color: AppColors.border),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text('System Status', style: AppTypography.metadata),
+                    Row(
+                      children: [
+                        Container(
+                          width: 8,
+                          height: 8,
+                          decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+                        ),
+                        const SizedBox(width: 6),
+                        Text(
+                          allHealthy ? 'ALL SYSTEMS OPERATIONAL' : 'DEGRADED PERFORMANCE',
+                          style: AppTypography.metadata.copyWith(color: color, fontWeight: FontWeight.bold, fontSize: 10),
+                        ),
+                        const SizedBox(width: AppSpacing.sm),
+                        const Icon(Icons.chevron_right, size: 16, color: AppColors.textSecondary),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             );
           },

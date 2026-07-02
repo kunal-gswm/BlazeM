@@ -15,6 +15,16 @@ import '../models/market_sentiment_model.dart';
 import '../models/high_low_model.dart';
 import 'blamics_repository.dart';
 
+// Global Navigation State
+class NavigationNotifier extends Notifier<int> {
+  @override
+  int build() => 0;
+
+  @override
+  set state(int value) => super.state = value;
+}
+final navigationProvider = NotifierProvider<NavigationNotifier, int>(NavigationNotifier.new);
+
 final dioProvider = Provider<Dio>((ref) {
   return Dio(BaseOptions(
     connectTimeout: const Duration(seconds: 10),
