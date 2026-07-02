@@ -92,14 +92,9 @@ class _SplashScreenState extends State<SplashScreen>
                     scale: _logoScaleAnimation.value,
                     child: Container(
                       padding: const EdgeInsets.all(AppSpacing.lg),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: AppColors.primary.withValues(alpha: 0.1),
-                      ),
                       child: Image.asset(
-                        'assets/icon.png',
-                        width: 80,
-                        height: 80,
+                        'assets/logo_horizontal.png',
+                        width: 240,
                         fit: BoxFit.contain,
                       ),
                     ),
@@ -107,22 +102,7 @@ class _SplashScreenState extends State<SplashScreen>
                 );
               },
             ),
-            const SizedBox(height: AppSpacing.xl),
-            AnimatedBuilder(
-              animation: _textFadeAnimation,
-              builder: (context, child) {
-                return Opacity(
-                  opacity: _textFadeAnimation.value,
-                  child: Text(
-                    'BLAMICS',
-                    style: AppTypography.screenTitle.copyWith(
-                      fontSize: 32,
-                      letterSpacing: 8.0,
-                    ),
-                  ),
-                );
-              },
-            ),
+
           ],
         ),
       ),
