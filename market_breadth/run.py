@@ -41,6 +41,23 @@ def fetch_breadth():
             file_path=OUTPUT_FILE,
             retention_threshold=0.90
         )
+        
+        # --- NOTIFICATIONS: Check for Extreme Fear/Greed ---
+        try:
+            advances = sum(item.get("Advance", 0) for item in data if isinstance(item.get("Advance"), (int, float)))
+            declines = sum(item.get("Decline", 0) for item in data if isinstance(item.get("Decline"), (int, float)))
+            total = advances + declines
+            if total > 0:
+                adv_ratio = advances / total
+                today_str = datetime.now().strftime("%Y-%m-%d")
+                
+                from core.notifications import check_and_trigger_breadth_alert
+                if adv_ratio <= 0.10:
+                    check_and_trigger_breadth_alert(today_str, "fear")
+                elif adv_ratio >= 0.90:
+                    check_and_trigger_breadth_alert(today_str, "greed")
+        except Exception as e:
+            logger.error(f"Failed to trigger breadth alert: {e}")
     else:
         logger.error("Failed to fetch market breadth data.")
         from core.io import update_health

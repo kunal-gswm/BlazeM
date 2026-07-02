@@ -92,6 +92,19 @@ def fetch_corporate_actions():
             seen.add(key)
             unique_actions.append(action)
 
+    # --- NOTIFICATIONS: Check for Corporate Actions happening tomorrow ---
+    tomorrow = (datetime.now() + timedelta(days=1)).strftime("%d %b %Y")
+    for action in unique_actions:
+        ex_date = action.get("Ex_date") or action.get("RD_Date")
+        if ex_date == tomorrow:
+            try:
+                from core.notifications import check_and_trigger_corp_action_alert
+                company = action.get("short_name", "Unknown")
+                action_type = action.get("action_type", "Corporate Action")
+                check_and_trigger_corp_action_alert(company, action_type, ex_date)
+            except Exception as e:
+                logger.error(f"Failed to trigger corp action alert: {e}")
+
     return unique_actions
 
 

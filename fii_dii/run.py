@@ -89,6 +89,20 @@ def fetch_fii_dii():
                     unique_dates.append(d)
                 final_data.append(row)
             
+            # --- NOTIFICATIONS: Check FII Whales on the most recent date ---
+            if final_data:
+                latest_date = final_data[0].get("date")
+                for row in final_data:
+                    if row.get("date") == latest_date and row.get("category") == "FII":
+                        net_val = row.get("netValue")
+                        if net_val is not None:
+                            try:
+                                from core.notifications import check_and_trigger_fii_alert
+                                check_and_trigger_fii_alert(latest_date, float(net_val))
+                            except Exception as e:
+                                logger.error(f"Failed to trigger FII alert: {e}")
+                        break
+            
             safe_save(
                 data=final_data,
                 pipeline_name="fii_dii",
