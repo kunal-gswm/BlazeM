@@ -45,7 +45,7 @@ class IpoDetailScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text('Status', style: AppTypography.bodySecondary),
+                    Text('Status', style: AppTypography.bodySecondary),
                     StatusBadge(status: status),
                   ],
                 ),
