@@ -4,9 +4,9 @@ class AppColors {
   AppColors._();
 
   // Backgrounds & Surfaces
-  static const Color background = Color(0xFF0B0D13);
-  static const Color surface1 = Color(0xFF11141C);
-  static const Color surface2 = Color(0xFF171B24);
+  static const Color background = Color(0xFF000000); // Pure Black
+  static const Color surface1 = Color(0xFF0F0F0F); // Very Dark Gray
+  static const Color surface2 = Color(0xFF1C1C1C); // Dark Gray
 
   // Borders
   static const Color border = Color(0xFF232838);
