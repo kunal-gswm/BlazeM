@@ -93,7 +93,7 @@ def fetch_fii_dii():
             if final_data:
                 latest_date = final_data[0].get("date")
                 for row in final_data:
-                    if row.get("date") == latest_date and row.get("category") == "FII":
+                    if row.get("date") == latest_date and "FII" in row.get("category", ""):
                         net_val = row.get("netValue")
                         if net_val is not None:
                             try:

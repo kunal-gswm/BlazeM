@@ -65,7 +65,7 @@ class BentoFiiDii extends ConsumerWidget {
           error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
           data: (response) {
             if (response.data.isEmpty) return const SizedBox.shrink();
-            final fii = response.data.firstWhere((e) => e.category == 'FII', orElse: () => response.data.first);
+            final fii = response.data.firstWhere((e) => e.category?.contains('FII') ?? false, orElse: () => response.data.first);
             final isPositive = (fii.netValue ?? 0) >= 0;
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
