@@ -42,7 +42,7 @@ class PushNotificationService {
       android: initializationSettingsAndroid,
       iOS: initializationSettingsIOS,
     );
-    await _localNotifications.initialize(initializationSettings);
+    await _localNotifications.initialize(settings: initializationSettings);
 
     // Create Android channel
     const channel = AndroidNotificationChannel(
@@ -77,10 +77,10 @@ class PushNotificationService {
 
       if (notification != null && android != null) {
         _localNotifications.show(
-          notification.hashCode,
-          notification.title,
-          notification.body,
-          NotificationDetails(
+          id: notification.hashCode,
+          title: notification.title,
+          body: notification.body,
+          notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
               channel.id,
               channel.name,
