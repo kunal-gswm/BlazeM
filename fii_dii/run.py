@@ -51,12 +51,50 @@ def fetch_fii_dii():
                         except ValueError:
                             item[key] = None
                             
+            # Read existing data to accumulate history
+            existing_data = []
+            if OUTPUT_FILE.exists():
+                try:
+                    with open(OUTPUT_FILE, 'r') as f:
+                        existing_data = json.load(f).get("data", [])
+                except Exception:
+                    pass
+            
+            # Combine and deduplicate by date and category
+            combined_dict = {}
+            for row in existing_data + data:
+                key = f"{row.get('date')}_{row.get('category')}"
+                combined_dict[key] = row
+                
+            combined = list(combined_dict.values())
+            
+            # Sort by date descending (parse the 'dd-MMM-yyyy' format)
+            from datetime import datetime
+            def parse_date(date_str):
+                try:
+                    return datetime.strptime(date_str, "%d-%b-%Y")
+                except ValueError:
+                    return datetime.min
+
+            combined.sort(key=lambda x: parse_date(x.get("date", "")), reverse=True)
+            
+            # Keep only the latest 90 unique dates (which is up to 180 records)
+            unique_dates = []
+            final_data = []
+            for row in combined:
+                d = row.get("date")
+                if d not in unique_dates:
+                    if len(unique_dates) >= 90:
+                        continue
+                    unique_dates.append(d)
+                final_data.append(row)
+            
             safe_save(
-                data=data,
+                data=final_data,
                 pipeline_name="fii_dii",
                 source_name="NSE API",
                 file_path=OUTPUT_FILE,
-                retention_threshold=1.0
+                retention_threshold=0.05
             )
         else:
             logger.error(
