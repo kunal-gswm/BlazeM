@@ -1,11 +1,27 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-02T01:52:29.277402+00:00Z",
+    "last_updated": "2026-07-02T05:48:00.843023+00:00Z",
     "status": "healthy",
-    "record_count": 1
+    "record_count": 2
   },
   "data": [
+    {
+      "issue_name": "Kusumgar",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "0",
+      "lot_size": null,
+      "issue_size": "₹650.00 Cr",
+      "issue_open": "2026-07-08",
+      "issue_close": "2026-07-10",
+      "allotment_date": "2026-07-13",
+      "listing_date": "2026-07-15",
+      "gmp": 94.0,
+      "gmp_percent": "0.00%",
+      "detail_url": "https://www.investorgain.com/gmp/kusumgar-ipo/1595/",
+      "scraped_at": "2026-07-02T05:47:49.487200+00:00Z"
+    },
     {
       "issue_name": "Knack Packaging",
       "ipo_type": "Mainboard",
@@ -20,7 +36,7 @@
       "gmp": 26.0,
       "gmp_percent": "15.29%",
       "detail_url": "https://www.investorgain.com/gmp/knack-packaging-ipo/1877/",
-      "scraped_at": "2026-07-02T01:52:17.682044+00:00Z"
+      "scraped_at": "2026-07-02T05:47:49.487323+00:00Z"
     }
   ]
 }
