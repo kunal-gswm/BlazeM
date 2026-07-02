@@ -111,10 +111,10 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
           Expanded(
             child: FadeSwitcher(
               child: asyncData.when(
-                loading: () => Padding(
-                  key: const ValueKey('loading'),
+                loading: () => const Padding(
+                  key: ValueKey('loading'),
                   padding: AppSpacing.screenPadding,
-                  child: const SkeletonLoader(itemCount: 5, itemHeight: 80),
+                  child: SkeletonLoader(itemCount: 5, itemHeight: 80),
                 ),
                 error: (err, _) => ErrorState(
                   key: const ValueKey('error'),
@@ -150,8 +150,8 @@ class _IpoListScreenState extends ConsumerState<IpoListScreen> {
                   }).toList();
 
                   if (filtered.isEmpty) {
-                    return EmptyState(
-                      key: const ValueKey('filtered_empty'),
+                    return const EmptyState(
+                      key: ValueKey('filtered_empty'),
                       icon: Icons.search_off_outlined,
                       message: 'No IPOs match this criteria.',
                     );

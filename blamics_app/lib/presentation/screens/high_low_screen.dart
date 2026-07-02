@@ -90,11 +90,11 @@ class _HighLowScreenState extends ConsumerState<HighLowScreen> {
                   length: 2,
                   child: Column(
                     children: [
-                      TabBar(
+                      const TabBar(
                         indicatorColor: AppColors.primary,
                         labelColor: AppColors.primary,
                         unselectedLabelColor: AppColors.textSecondary,
-                        tabs: const [
+                        tabs: [
                           Tab(text: 'Highs 🚀'),
                           Tab(text: 'Lows 📉'),
                         ],

@@ -79,10 +79,10 @@ class _ActionTab extends ConsumerWidget {
 
     return FadeSwitcher(
       child: asyncData.when(
-        loading: () => Padding(
-          key: const ValueKey('loading'),
+        loading: () => const Padding(
+          key: ValueKey('loading'),
           padding: AppSpacing.screenPadding,
-          child: const SkeletonLoader(itemCount: 5, itemHeight: 68),
+          child: SkeletonLoader(itemCount: 5, itemHeight: 68),
         ),
         error: (err, _) => ErrorState(
           key: const ValueKey('error'),

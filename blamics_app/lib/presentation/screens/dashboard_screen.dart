@@ -191,8 +191,8 @@ class _MarketStatusStrip extends ConsumerWidget {
             border: Border.all(color: AppColors.border),
           ),
           padding: const EdgeInsets.all(AppSpacing.sm),
-          child: Column(
-            children: const [
+          child: const Column(
+            children: [
               FearAndGreedGaugeWidget(),
               Divider(height: AppSpacing.md, color: AppColors.border),
               _CompactMarketBreadth(),

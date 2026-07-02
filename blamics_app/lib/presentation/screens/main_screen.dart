@@ -95,7 +95,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
         ),
       ),
       trailing: isSelected
-          ? Icon(Icons.circle, size: 8, color: AppColors.primary)
+          ? const Icon(Icons.circle, size: 8, color: AppColors.primary)
           : null,
       onTap: () {
         setState(() => _currentIndex = index);
