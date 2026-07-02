@@ -1,47 +1,18 @@
 {
-  "ipos": {
+  "corporate_actions": {
     "status": "healthy",
-    "updated_at": "2026-07-02T13:49:01Z"
+    "updated_at": "2026-07-02T15:54:29Z"
   },
   "fii_dii": {
-<<<<<<< Updated upstream
-    "status": "failed",
-    "updated_at": "2026-07-02T15:23:24Z"
-  },
-  "corporate_actions": {
     "status": "healthy",
-    "updated_at": "2026-07-02T15:23:24Z"
-=======
-    "status": "healthy",
-    "updated_at": "2026-07-02T15:16:23Z"
-  },
-  "corporate_actions": {
-    "status": "healthy",
-    "updated_at": "2026-07-02T15:19:25Z"
->>>>>>> Stashed changes
-  },
-  "earnings_calendar": {
-    "status": "healthy",
-    "updated_at": "2026-07-02T15:23:25Z"
+    "updated_at": "2026-07-02T15:55:18Z"
   },
   "market_breadth": {
     "status": "healthy",
-    "updated_at": "2026-07-02T15:16:34Z"
+    "updated_at": "2026-07-02T15:55:19Z"
   },
-  "global_indices": {
+  "earnings_calendar": {
     "status": "healthy",
-    "updated_at": "2026-07-02T11:41:33Z"
-  },
-  "high_low": {
-    "status": "healthy",
-    "updated_at": "2026-07-02T11:41:53Z"
-  },
-  "sector_performance": {
-    "status": "healthy",
-    "updated_at": "2026-07-02T11:41:51Z"
-  },
-  "market_sentiment": {
-    "status": "healthy",
-    "updated_at": "2026-07-02T11:41:51Z"
+    "updated_at": "2026-07-02T15:55:20Z"
   }
 }

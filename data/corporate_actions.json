@@ -1,11 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-<<<<<<< Updated upstream
-    "last_updated": "2026-07-02T15:23:24Z",
-=======
-    "last_updated": "2026-07-02T15:19:25Z",
->>>>>>> Stashed changes
+    "last_updated": "2026-07-02T15:54:29Z",
     "status": "healthy",
     "record_count": 119
   },
@@ -1294,25 +1290,6 @@
       "scrip_code": 544222,
       "short_name": "AKUMS",
       "Ex_date": "03 Jul 2026",
-<<<<<<< Updated upstream
-=======
-      "Purpose": "Final Dividend - Rs. - 1.0000",
-      "RD_Date": "03 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "03 Jul 2026",
-      "ND_END_DATE": "03 Jul 2026",
-      "payment_date": "",
-      "exdate": "20260703",
-      "long_name": "Akums Drugs and Pharmaceuticals Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 1.0
-    },
-    {
-      "scrip_code": 544222,
-      "short_name": "AKUMS",
-      "Ex_date": "03 Jul 2026",
->>>>>>> Stashed changes
       "Purpose": "Special Dividend - Rs. - 2.0000",
       "RD_Date": "03 Jul 2026",
       "BCRD_FROM": "",
