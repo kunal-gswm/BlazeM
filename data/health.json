@@ -4,12 +4,21 @@
     "updated_at": "2026-07-02T13:49:01Z"
   },
   "fii_dii": {
+<<<<<<< Updated upstream
     "status": "failed",
     "updated_at": "2026-07-02T15:23:24Z"
   },
   "corporate_actions": {
     "status": "healthy",
     "updated_at": "2026-07-02T15:23:24Z"
+=======
+    "status": "healthy",
+    "updated_at": "2026-07-02T15:16:23Z"
+  },
+  "corporate_actions": {
+    "status": "healthy",
+    "updated_at": "2026-07-02T15:19:25Z"
+>>>>>>> Stashed changes
   },
   "earnings_calendar": {
     "status": "healthy",
@@ -17,7 +26,7 @@
   },
   "market_breadth": {
     "status": "healthy",
-    "updated_at": "2026-07-02T11:41:34Z"
+    "updated_at": "2026-07-02T15:16:34Z"
   },
   "global_indices": {
     "status": "healthy",
