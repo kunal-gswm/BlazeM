@@ -1,34 +1,38 @@
 {
   "corporate_actions": {
-    "status": "failed",
-    "updated_at": "2026-07-03T15:15:58Z"
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:00:00Z"
   },
   "fii_dii": {
-    "status": "failed",
-    "updated_at": "2026-07-03T15:15:47Z"
+    "status": "healthy",
+    "updated_at": "2026-07-03T15:52:40Z"
   },
   "market_breadth": {
     "status": "healthy",
-    "updated_at": "2026-07-03T12:22:04Z"
+    "updated_at": "2026-07-03T16:00:00Z"
   },
   "earnings_calendar": {
-    "status": "failed",
-    "updated_at": "2026-07-03T15:16:08Z"
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:00:00Z"
   },
   "global_indices": {
     "status": "healthy",
-    "updated_at": "2026-07-03T12:22:03Z"
+    "updated_at": "2026-07-03T16:02:55Z"
   },
   "sector_performance": {
     "status": "healthy",
-    "updated_at": "2026-07-03T12:22:05Z"
+    "updated_at": "2026-07-03T16:00:00Z"
   },
   "market_sentiment": {
     "status": "healthy",
-    "updated_at": "2026-07-03T12:22:06Z"
+    "updated_at": "2026-07-03T16:00:00Z"
   },
   "high_low": {
     "status": "healthy",
-    "updated_at": "2026-07-03T12:22:07Z"
+    "updated_at": "2026-07-03T16:00:00Z"
+  },
+  "ipos": {
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:07:02Z"
   }
 }

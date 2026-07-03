@@ -2,8 +2,15 @@
 
 import json
 from pathlib import Path
-import firebase_admin
-from firebase_admin import credentials, messaging
+try:
+    import firebase_admin
+    from firebase_admin import credentials, messaging
+    HAS_FIREBASE = True
+except ImportError:
+    firebase_admin = None
+    credentials = None
+    messaging = None
+    HAS_FIREBASE = False
 from core.logger import setup_logging
 
 logger = setup_logging(__name__)
@@ -13,13 +20,15 @@ SERVICE_ACCOUNT_FILE = Path(__file__).resolve().parent.parent / "service_account
 
 # Initialize Firebase Admin
 try:
-    if not firebase_admin._apps:
+    if HAS_FIREBASE and not firebase_admin._apps:
         if SERVICE_ACCOUNT_FILE.exists():
             cred = credentials.Certificate(str(SERVICE_ACCOUNT_FILE))
             firebase_admin.initialize_app(cred)
             logger.info("Firebase Admin initialized successfully.")
         else:
             logger.warning(f"Firebase Service Account file not found at {SERVICE_ACCOUNT_FILE}. Notifications will only be logged.")
+    elif not HAS_FIREBASE:
+        logger.warning("firebase_admin library not installed. Push notifications will only be logged.")
 except Exception as e:
     logger.error(f"Failed to initialize Firebase Admin: {e}")
 
@@ -44,7 +53,7 @@ def _trigger_alert(title: str, message: str):
     """Sends a real push notification via FCM to the 'all' topic."""
     logger.critical(f"🔔 NOTIFICATION TRIGGERED | {title} | {message}")
     
-    if firebase_admin._apps:
+    if HAS_FIREBASE and firebase_admin and firebase_admin._apps:
         try:
             msg = messaging.Message(
                 notification=messaging.Notification(
@@ -58,7 +67,7 @@ def _trigger_alert(title: str, message: str):
         except Exception as e:
             logger.error(f"Failed to send FCM message: {e}")
     else:
-        logger.warning("FCM not initialized. Push notification was not sent.")
+        logger.warning("FCM not initialized or library not available. Push notification was not sent.")
 
 def check_and_trigger_notification(ipo_name: str, status: str):
     """Check state and trigger notification if not already sent."""
