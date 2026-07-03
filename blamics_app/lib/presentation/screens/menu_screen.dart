@@ -93,6 +93,10 @@ class MenuScreen extends ConsumerWidget {
                       'sector_performance': 'Sector Performance',
                       'market_sentiment': 'Market Sentiment',
                       'high_low': '52W High/Low',
+                      'commodities': 'Commodities',
+                      'currency': 'Currency',
+                      'volume_shocker': 'Volume Shocker',
+                      'circuit_breakers': '10%+ Circuit Breakers',
                     };
                     return pipelineLabels.entries.map((e) {
                       final status = healthMap[e.key]?['status'] ?? 'unknown';

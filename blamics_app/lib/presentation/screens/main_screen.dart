@@ -13,6 +13,10 @@ import 'high_low_screen.dart';
 import 'sector_heatmap_screen.dart';
 import 'watchlist_screen.dart';
 import 'fii_dii_screen.dart';
+import 'commodities_screen.dart';
+import 'currency_screen.dart';
+import 'volume_shocker_screen.dart';
+import 'circuit_breakers_screen.dart';
 
 class MainScreen extends ConsumerStatefulWidget {
   const MainScreen({super.key});
@@ -32,6 +36,10 @@ class _MainScreenState extends ConsumerState<MainScreen> {
     HighLowScreen(),
     WatchlistScreen(),
     FiiDiiScreen(),
+    CommoditiesScreen(),
+    CurrencyScreen(),
+    VolumeShockerScreen(),
+    CircuitBreakersScreen(),
   ];
 
   void _showNavigationMenu(BuildContext context) {
@@ -63,15 +71,28 @@ class _MainScreenState extends ConsumerState<MainScreen> {
                 ),
               ),
               const SizedBox(height: AppSpacing.sm),
-              _buildNavMenuItem(context, 0, Icons.dashboard_outlined, 'Dashboard'),
-              _buildNavMenuItem(context, 1, Icons.timeline, 'Timeline'),
-              _buildNavMenuItem(context, 2, Icons.event_note_outlined, 'Corporate Actions'),
-              _buildNavMenuItem(context, 3, Icons.rocket_launch_outlined, 'IPOs'),
-              _buildNavMenuItem(context, 5, Icons.grid_view_rounded, 'Sector Heatmap'),
-              _buildNavMenuItem(context, 6, Icons.swap_vert_rounded, '52-Week High/Low'),
-              _buildNavMenuItem(context, 7, Icons.star_outline_rounded, 'Watchlist'),
-              _buildNavMenuItem(context, 8, Icons.account_balance_outlined, 'Institutional Flows'),
-              _buildNavMenuItem(context, 4, Icons.settings_outlined, 'Settings & Info'),
+              Flexible(
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      _buildNavMenuItem(context, 0, Icons.dashboard_outlined, 'Dashboard'),
+                      _buildNavMenuItem(context, 1, Icons.timeline, 'Timeline'),
+                      _buildNavMenuItem(context, 2, Icons.event_note_outlined, 'Corporate Actions'),
+                      _buildNavMenuItem(context, 3, Icons.rocket_launch_outlined, 'IPOs'),
+                      _buildNavMenuItem(context, 5, Icons.grid_view_rounded, 'Sector Heatmap'),
+                      _buildNavMenuItem(context, 6, Icons.swap_vert_rounded, '52-Week High/Low'),
+                      _buildNavMenuItem(context, 9, Icons.monetization_on_outlined, 'Commodities'),
+                      _buildNavMenuItem(context, 10, Icons.currency_exchange_outlined, 'Currency'),
+                      _buildNavMenuItem(context, 11, Icons.bolt_outlined, 'Volume Shockers'),
+                      _buildNavMenuItem(context, 12, Icons.offline_bolt_outlined, '10%+ Circuit Breakers'),
+                      _buildNavMenuItem(context, 7, Icons.star_outline_rounded, 'Watchlist'),
+                      _buildNavMenuItem(context, 8, Icons.account_balance_outlined, 'Institutional Flows'),
+                      _buildNavMenuItem(context, 4, Icons.settings_outlined, 'Settings & Info'),
+                    ],
+                  ),
+                ),
+              ),
               const SizedBox(height: AppSpacing.sm),
             ],
           ),

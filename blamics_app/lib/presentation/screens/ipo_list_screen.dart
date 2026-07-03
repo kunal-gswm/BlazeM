@@ -211,6 +211,21 @@ class _IpoRow extends ConsumerWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
+                if (ipo.subscriptionTotal != null)
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: Colors.amber.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    child: Text(
+                      'Sub: ${ipo.subscriptionTotal}x',
+                      style: AppTypography.metadata.copyWith(
+                        color: Colors.amber,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
                 if (ipo.issueOpen != null)
                   Text(
                     'Open: ${ipo.issueOpen}',

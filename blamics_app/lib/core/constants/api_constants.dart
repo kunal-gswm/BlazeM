@@ -13,4 +13,8 @@ class ApiConstants {
   static const String sectorPerformance = '$baseUrl/data/sector_performance.json';
   static const String marketSentiment = '$baseUrl/data/market_sentiment.json';
   static const String highLow = '$baseUrl/data/high_low.json';
+  static const String commodities = '$baseUrl/data/commodities.json';
+  static const String currency = '$baseUrl/data/currency.json';
+  static const String volumeShocker = '$baseUrl/data/volume_shocker.json';
+  static const String circuitBreakers = '$baseUrl/data/circuit_breakers.json';
 }

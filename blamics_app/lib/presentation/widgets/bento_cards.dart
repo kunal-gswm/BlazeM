@@ -245,3 +245,194 @@ class BentoGlobal extends ConsumerWidget {
     );
   }
 }
+
+class BentoCommodities extends ConsumerWidget {
+  const BentoCommodities({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncData = ref.watch(commoditiesProvider);
+    return BentoCard(
+      title: 'Commodities',
+      onTap: () => ref.read(navigationProvider.notifier).state = 9,
+      child: FadeSwitcher(
+        child: asyncData.when(
+          loading: () => const Center(child: CircularProgressIndicator()),
+          error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
+          data: (response) {
+            if (response.data.isEmpty) return const SizedBox.shrink();
+            final gold = response.data.firstWhere((e) => e.symbol == 'GC=F', orElse: () => response.data.first);
+            final isPositive = (gold.changePct ?? 0) >= 0;
+
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text('Gold (Gold/Oz)', style: AppTypography.metadata),
+                Text(
+                  '\$${gold.price?.toStringAsFixed(1) ?? gold.price}',
+                  style: AppTypography.screenTitle.copyWith(fontSize: 20),
+                ),
+                const SizedBox(height: 2),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                  decoration: BoxDecoration(
+                    color: (isPositive ? AppColors.success : AppColors.danger).withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Text(
+                    '${gold.changePct != null ? (isPositive ? '+' : '') : ''}${gold.changePct?.toStringAsFixed(2) ?? '-'}%',
+                    style: AppTypography.metadata.copyWith(
+                      color: isPositive ? AppColors.success : AppColors.danger,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class BentoCurrency extends ConsumerWidget {
+  const BentoCurrency({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncData = ref.watch(currencyProvider);
+    return BentoCard(
+      title: 'USD / INR',
+      onTap: () => ref.read(navigationProvider.notifier).state = 10,
+      child: FadeSwitcher(
+        child: asyncData.when(
+          loading: () => const Center(child: CircularProgressIndicator()),
+          error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
+          data: (response) {
+            if (response.data.isEmpty) return const SizedBox.shrink();
+            final usdinr = response.data.firstWhere((e) => e.symbol == 'INR=X', orElse: () => response.data.first);
+            final isPositive = (usdinr.changePct ?? 0) >= 0;
+
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text('Exchange Rate', style: AppTypography.metadata),
+                Text(
+                  '₹${usdinr.rate?.toStringAsFixed(2) ?? usdinr.rate}',
+                  style: AppTypography.screenTitle.copyWith(fontSize: 20),
+                ),
+                const SizedBox(height: 2),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                  decoration: BoxDecoration(
+                    color: (isPositive ? AppColors.danger : AppColors.success).withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Text(
+                    '${usdinr.changePct != null ? (isPositive ? '+' : '') : ''}${usdinr.changePct?.toStringAsFixed(2) ?? '-'}%',
+                    style: AppTypography.metadata.copyWith(
+                      color: isPositive ? AppColors.danger : AppColors.success,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class BentoVolumeShocker extends ConsumerWidget {
+  const BentoVolumeShocker({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncData = ref.watch(volumeShockerProvider);
+    return BentoCard(
+      title: 'Vol Shocker ⚡',
+      onTap: () => ref.read(navigationProvider.notifier).state = 11,
+      child: FadeSwitcher(
+        child: asyncData.when(
+          loading: () => const Center(child: CircularProgressIndicator()),
+          error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
+          data: (response) {
+            if (response.data.isEmpty) return const SizedBox.shrink();
+            final top = response.data.first;
+
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text(
+                  top.symbol,
+                  style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                Text(
+                  '₹${top.lastPrice}',
+                  style: AppTypography.screenTitle.copyWith(fontSize: 20),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  '1W Vol: +${top.volChange1WkPct?.toStringAsFixed(0) ?? '-'}%',
+                  style: AppTypography.metadata.copyWith(color: Colors.amber, fontWeight: FontWeight.bold),
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class BentoCircuitBreakers extends ConsumerWidget {
+  const BentoCircuitBreakers({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncData = ref.watch(circuitBreakersProvider);
+    return BentoCard(
+      title: '10%+ Circuits 🚀',
+      onTap: () => ref.read(navigationProvider.notifier).state = 12,
+      child: FadeSwitcher(
+        child: asyncData.when(
+          loading: () => const Center(child: CircularProgressIndicator()),
+          error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
+          data: (response) {
+            if (response.data.isEmpty) return const SizedBox.shrink();
+            final model = response.data.first;
+            final count = model.upperCircuit.length + model.lowerCircuit.length;
+            final topSymbol = model.upperCircuit.isNotEmpty ? model.upperCircuit.first.symbol : (model.lowerCircuit.isNotEmpty ? model.lowerCircuit.first.symbol : 'None');
+
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text('$count Active Stocks', style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold, color: AppColors.success)),
+                Text(
+                  topSymbol,
+                  style: AppTypography.screenTitle.copyWith(fontSize: 20),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  'Intraday Extreme',
+                  style: AppTypography.metadata,
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}

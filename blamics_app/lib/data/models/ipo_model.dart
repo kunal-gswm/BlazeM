@@ -17,6 +17,11 @@ class IpoModel {
   final String? listingDate;
   final double? gmp;
   final String? gmpPercent;
+  final String? subscriptionQib;
+  final String? subscriptionNii;
+  final String? subscriptionRetail;
+  final String? subscriptionTotal;
+  final String? subscriptionApplications;
 
   IpoModel({
     required this.issueName,
@@ -35,6 +40,11 @@ class IpoModel {
     this.listingDate,
     this.gmp,
     this.gmpPercent,
+    this.subscriptionQib,
+    this.subscriptionNii,
+    this.subscriptionRetail,
+    this.subscriptionTotal,
+    this.subscriptionApplications,
   });
 
   static String? _formatDate(String? dateStr) {
@@ -65,6 +75,11 @@ class IpoModel {
       listingDate: _formatDate(json['listing_date']?.toString()),
       gmp: num.tryParse(json['gmp']?.toString() ?? '')?.toDouble(),
       gmpPercent: json['gmp_percent']?.toString(),
+      subscriptionQib: json['subscription_qib']?.toString(),
+      subscriptionNii: json['subscription_nii']?.toString(),
+      subscriptionRetail: json['subscription_retail']?.toString(),
+      subscriptionTotal: json['subscription_total']?.toString(),
+      subscriptionApplications: json['subscription_applications']?.toString(),
     );
   }
 

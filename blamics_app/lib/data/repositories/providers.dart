@@ -13,6 +13,10 @@ import '../models/earnings_calendar_model.dart';
 import '../models/sector_model.dart';
 import '../models/market_sentiment_model.dart';
 import '../models/high_low_model.dart';
+import '../models/commodity_model.dart';
+import '../models/currency_model.dart';
+import '../models/volume_shocker_model.dart';
+import '../models/circuit_breaker_model.dart';
 import 'blamics_repository.dart';
 
 // Global Navigation State
@@ -95,6 +99,30 @@ final highLowProvider =
     FutureProvider<ApiResponse<HighLowModel>>((ref) async {
   final repo = ref.watch(blamicsRepositoryProvider);
   return repo.getHighLow();
+});
+
+final commoditiesProvider =
+    FutureProvider<ApiResponse<CommodityModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getCommodities();
+});
+
+final currencyProvider =
+    FutureProvider<ApiResponse<CurrencyModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getCurrency();
+});
+
+final volumeShockerProvider =
+    FutureProvider<ApiResponse<VolumeShockerModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getVolumeShocker();
+});
+
+final circuitBreakersProvider =
+    FutureProvider<ApiResponse<CircuitBreakerModel>>((ref) async {
+  final repo = ref.watch(blamicsRepositoryProvider);
+  return repo.getCircuitBreakers();
 });
 
 final healthStatusProvider = FutureProvider<Map<String, dynamic>>((ref) async {

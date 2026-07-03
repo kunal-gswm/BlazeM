@@ -103,6 +103,21 @@ class IpoDetailScreen extends StatelessWidget {
 
           AppSpacing.sectionGap,
 
+          // ── Live Subscriptions ──────────────────────────────────────
+          if (ipo.subscriptionTotal != null || ipo.subscriptionRetail != null) ...[
+            const SectionHeader(title: 'Live Subscriptions'),
+            _InfoBlock(
+              children: [
+                if (ipo.subscriptionQib != null) MetricRow(label: 'QIB (Institutional)', value: '${ipo.subscriptionQib}x'),
+                if (ipo.subscriptionNii != null) MetricRow(label: 'NII (Non-Institutional)', value: '${ipo.subscriptionNii}x'),
+                if (ipo.subscriptionRetail != null) MetricRow(label: 'Retail Individual', value: '${ipo.subscriptionRetail}x'),
+                if (ipo.subscriptionTotal != null) MetricRow(label: 'Total Subscription', value: '${ipo.subscriptionTotal}x', valueColor: Colors.amber),
+                if (ipo.subscriptionApplications != null) MetricRow(label: 'Total Applications', value: ipo.subscriptionApplications!),
+              ],
+            ),
+            AppSpacing.sectionGap,
+          ],
+
           // ── Timeline ────────────────────────────────────────────────
           const SectionHeader(title: 'Milestones'),
           _buildTimeline(),

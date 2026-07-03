@@ -34,12 +34,21 @@ class ApiResponse<T> {
     Map<String, dynamic> json,
     T Function(Map<String, dynamic>) fromJsonT,
   ) {
+    final rawData = json['data'];
+    List<T> parsedData = [];
+    if (rawData is List) {
+      parsedData = rawData
+          .map((item) => fromJsonT(item as Map<String, dynamic>))
+          .toList();
+    } else if (rawData is Map<String, dynamic>) {
+      parsedData = [fromJsonT(rawData)];
+    } else if (rawData is Map) {
+      parsedData = [fromJsonT(Map<String, dynamic>.from(rawData))];
+    }
+
     return ApiResponse(
       metadata: ApiMetadata.fromJson(json['metadata'] ?? {}),
-      data: (json['data'] as List<dynamic>?)
-              ?.map((item) => fromJsonT(item as Map<String, dynamic>))
-              .toList() ??
-          [],
+      data: parsedData,
     );
   }
 }

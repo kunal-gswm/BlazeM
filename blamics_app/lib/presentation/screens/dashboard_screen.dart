@@ -106,6 +106,10 @@ class DashboardScreen extends ConsumerWidget {
             ref.invalidate(marketSentimentProvider);
             ref.invalidate(highLowProvider);
             ref.invalidate(ipoDataProvider);
+            ref.invalidate(commoditiesProvider);
+            ref.invalidate(currencyProvider);
+            ref.invalidate(volumeShockerProvider);
+            ref.invalidate(circuitBreakersProvider);
             ref.invalidate(healthStatusProvider);
           },
           color: AppColors.primary,
@@ -144,7 +148,7 @@ class DashboardScreen extends ConsumerWidget {
               const SizedBox(height: AppSpacing.lg),
               
               // BENTO BOX GRID
-              const SectionHeader(title: 'MARKET STATUS'),
+              const SectionHeader(title: 'MARKET STATUS & INTELLIGENCE'),
               GridView.count(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
@@ -157,6 +161,10 @@ class DashboardScreen extends ConsumerWidget {
                   const BentoBreadth().animate().fade(delay: 150.ms).slideY(begin: 0.1),
                   const BentoGlobal().animate().fade(delay: 200.ms).slideY(begin: 0.1),
                   const BentoSector().animate().fade(delay: 250.ms).slideY(begin: 0.1),
+                  const BentoCommodities().animate().fade(delay: 300.ms).slideY(begin: 0.1),
+                  const BentoCurrency().animate().fade(delay: 350.ms).slideY(begin: 0.1),
+                  const BentoVolumeShocker().animate().fade(delay: 400.ms).slideY(begin: 0.1),
+                  const BentoCircuitBreakers().animate().fade(delay: 450.ms).slideY(begin: 0.1),
                 ],
               ),
               

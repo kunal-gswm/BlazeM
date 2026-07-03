@@ -12,6 +12,10 @@ import '../models/earnings_calendar_model.dart';
 import '../models/sector_model.dart';
 import '../models/market_sentiment_model.dart';
 import '../models/high_low_model.dart';
+import '../models/commodity_model.dart';
+import '../models/currency_model.dart';
+import '../models/volume_shocker_model.dart';
+import '../models/circuit_breaker_model.dart';
 
 class BlamicsRepository {
   final Dio _dio;
@@ -114,6 +118,38 @@ class BlamicsRepository {
       ApiConstants.highLow,
       'high_low_cache',
       (json) => HighLowModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<CommodityModel>> getCommodities() async {
+    return _fetchAndCache<CommodityModel>(
+      ApiConstants.commodities,
+      'commodities_cache',
+      (json) => CommodityModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<CurrencyModel>> getCurrency() async {
+    return _fetchAndCache<CurrencyModel>(
+      ApiConstants.currency,
+      'currency_cache',
+      (json) => CurrencyModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<VolumeShockerModel>> getVolumeShocker() async {
+    return _fetchAndCache<VolumeShockerModel>(
+      ApiConstants.volumeShocker,
+      'volume_shocker_cache',
+      (json) => VolumeShockerModel.fromJson(json),
+    );
+  }
+
+  Future<ApiResponse<CircuitBreakerModel>> getCircuitBreakers() async {
+    return _fetchAndCache<CircuitBreakerModel>(
+      ApiConstants.circuitBreakers,
+      'circuit_breakers_cache',
+      (json) => CircuitBreakerModel.fromJson(json),
     );
   }
 
