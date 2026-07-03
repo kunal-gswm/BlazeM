@@ -33,6 +33,22 @@
   },
   "ipos": {
     "status": "healthy",
-    "updated_at": "2026-07-03T16:07:02Z"
+    "updated_at": "2026-07-03T16:46:17Z"
+  },
+  "commodities": {
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:41:57Z"
+  },
+  "currency": {
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:42:35Z"
+  },
+  "volume_shocker": {
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:47:39Z"
+  },
+  "circuit_breakers": {
+    "status": "healthy",
+    "updated_at": "2026-07-03T16:49:40Z"
   }
 }

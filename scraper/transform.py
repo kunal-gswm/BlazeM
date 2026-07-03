@@ -184,7 +184,24 @@ def merge_ipo_data(
                 ipo.gmp = float(clean) if clean else None
             except ValueError:
                 ipo.gmp = None
-                
+
+    # Pass 3: Merge live IPO subscription status
+    try:
+        from scraper.subscriptions import scrape_subscriptions
+        subs_map = scrape_subscriptions()
+        if subs_map:
+            for ipo in result:
+                key = normalize_name(ipo.issue_name)
+                if key in subs_map:
+                    sub = subs_map[key]
+                    ipo.subscription_qib = sub.get("subscription_qib")
+                    ipo.subscription_nii = sub.get("subscription_nii")
+                    ipo.subscription_retail = sub.get("subscription_retail")
+                    ipo.subscription_total = sub.get("subscription_total")
+                    ipo.subscription_applications = sub.get("subscription_applications")
+    except Exception as e:
+        logger.error(f"Failed to merge subscription data: {e}")
+
     logger.info(f"Merged: {len(result)} unique IPOs")
     return result
 

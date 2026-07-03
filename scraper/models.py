@@ -22,6 +22,12 @@ class IPOData:
     gmp: float | None = None
     gmp_percent: str | None = None
 
+    subscription_qib: str | None = None
+    subscription_nii: str | None = None
+    subscription_retail: str | None = None
+    subscription_total: str | None = None
+    subscription_applications: str | None = None
+
     detail_url: str | None = None
     scraped_at: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat() + "Z"

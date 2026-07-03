@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-03T16:07:02Z",
+    "last_updated": "2026-07-03T16:46:17Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -19,8 +19,13 @@
       "listing_date": "2026-07-15",
       "gmp": 140.0,
       "gmp_percent": "33.41%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/kusumgar-ipo/1595/",
-      "scraped_at": "2026-07-03T16:06:48.180755+00:00Z"
+      "scraped_at": "2026-07-03T16:46:03.003752+00:00Z"
     },
     {
       "issue_name": "Knack Packaging",
@@ -35,8 +40,13 @@
       "listing_date": "2026-07-08",
       "gmp": 26.5,
       "gmp_percent": "15.59%",
+      "subscription_qib": "160.22x",
+      "subscription_nii": "146.64x",
+      "subscription_retail": "21.09x",
+      "subscription_total": "87.17x",
+      "subscription_applications": "19,86,659",
       "detail_url": "https://www.investorgain.com/gmp/knack-packaging-ipo/1877/",
-      "scraped_at": "2026-07-03T16:06:48.180900+00:00Z"
+      "scraped_at": "2026-07-03T16:46:03.003855+00:00Z"
     }
   ]
 }

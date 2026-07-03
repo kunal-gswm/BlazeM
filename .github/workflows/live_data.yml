@@ -74,6 +74,30 @@ jobs:
           cd scraper
           python high_low.py
 
+      - name: Run Commodities Pipeline
+        continue-on-error: true
+        run: |
+          cd scraper
+          python commodities.py
+
+      - name: Run Currency Pipeline
+        continue-on-error: true
+        run: |
+          cd scraper
+          python currency.py
+
+      - name: Run Volume Shocker Pipeline
+        continue-on-error: true
+        run: |
+          cd scraper
+          python volume_shocker.py
+
+      - name: Run 10%+ Circuit Breakers Pipeline
+        continue-on-error: true
+        run: |
+          cd scraper
+          python circuit_breakers.py
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
