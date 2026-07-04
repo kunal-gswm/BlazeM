@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_typography.dart';
@@ -21,7 +20,8 @@ class BentoCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return RepaintBoundary(
+      child: GestureDetector(
       onTap: onTap,
       behavior: HitTestBehavior.opaque,
       child: Container(
@@ -46,6 +46,7 @@ class BentoCard extends StatelessWidget {
           ],
         ),
       ),
+    ),
     );
   }
 }
@@ -65,7 +66,7 @@ class BentoFiiDii extends ConsumerWidget {
           error: (_, __) => const Center(child: Icon(Icons.error, color: AppColors.danger)),
           data: (response) {
             if (response.data.isEmpty) return const SizedBox.shrink();
-            final fii = response.data.firstWhere((e) => e.category?.contains('FII') ?? false, orElse: () => response.data.first);
+            final fii = response.data.firstWhere((e) => e.category.toUpperCase().contains('FII'), orElse: () => response.data.first);
             final isPositive = (fii.netValue ?? 0) >= 0;
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -73,7 +74,7 @@ class BentoFiiDii extends ConsumerWidget {
               children: [
                 Text('FII Net Flow', style: AppTypography.metadata),
                 Text(
-                  '${isPositive ? '+' : ''}${fii.netValue?.toStringAsFixed(0)} Cr',
+                  '${isPositive ? '+' : ''}${(fii.netValue ?? 0).toStringAsFixed(0)} Cr',
                   style: AppTypography.screenTitle.copyWith(
                     color: isPositive ? AppColors.success : AppColors.danger,
                     fontSize: 22,
@@ -174,7 +175,7 @@ class BentoSector extends ConsumerWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
-                  topSector.symbol ?? 'Unknown',
+                  topSector.symbol,
                   style: AppTypography.bodyMedium.copyWith(fontWeight: FontWeight.bold),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,

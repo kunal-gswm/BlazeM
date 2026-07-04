@@ -9,7 +9,7 @@ class ImportanceIndicator extends StatelessWidget {
   const ImportanceIndicator({
     super.key,
     required this.level,
-    this.height = double.infinity,
+    this.height = 16.0,
   });
 
   @override

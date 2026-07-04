@@ -38,7 +38,7 @@ class ApiResponse<T> {
     List<T> parsedData = [];
     if (rawData is List) {
       parsedData = rawData
-          .map((item) => fromJsonT(item as Map<String, dynamic>))
+          .map((item) => fromJsonT(Map<String, dynamic>.from(item as Map)))
           .toList();
     } else if (rawData is Map<String, dynamic>) {
       parsedData = [fromJsonT(rawData)];
@@ -47,7 +47,7 @@ class ApiResponse<T> {
     }
 
     return ApiResponse(
-      metadata: ApiMetadata.fromJson(json['metadata'] ?? {}),
+      metadata: ApiMetadata.fromJson(Map<String, dynamic>.from(json['metadata'] as Map? ?? {})),
       data: parsedData,
     );
   }

@@ -62,8 +62,8 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
           final sortedDates = grouped.keys.toList()
             ..sort((a, b) {
               try {
-                final da = DateFormat('dd-MMM-yyyy').parse(a);
-                final db = DateFormat('dd-MMM-yyyy').parse(b);
+                final da = DateFormat('dd-MMM-yyyy', 'en_US').parse(a);
+                final db = DateFormat('dd-MMM-yyyy', 'en_US').parse(b);
                 return da.compareTo(db);
               } catch (_) {
                 return 0;
@@ -90,7 +90,7 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
                 const SizedBox(height: AppSpacing.xl),
                 Text('RECENT HISTORY', style: AppTypography.label),
                 const SizedBox(height: AppSpacing.md),
-                ...sortedDates.reversed.take(30).map((date) => _buildHistoryRow(date, grouped[date]!)),
+                ...sortedDates.reversed.take(30).map((date) => _buildHistoryRow(date, grouped[date] ?? {})),
               ],
             ),
           );
@@ -100,9 +100,9 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
   }
 
   Widget _buildSummaryCards(Map<String, Map<String, FiiDiiModel>> grouped, String latestDate) {
-    final todayData = grouped[latestDate]!;
-    final fii = todayData.values.firstWhere((e) => e.category.contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: latestDate, netValue: 0));
-    final dii = todayData.values.firstWhere((e) => e.category.contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: latestDate, netValue: 0));
+    final todayData = grouped[latestDate] ?? {};
+    final fii = todayData.values.firstWhere((e) => e.category.toUpperCase().contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: latestDate, netValue: 0));
+    final dii = todayData.values.firstWhere((e) => e.category.toUpperCase().contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: latestDate, netValue: 0));
     
     return Row(
       children: [
@@ -143,6 +143,7 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
             enabled: true,
             touchTooltipData: BarTouchTooltipData(
               getTooltipItem: (group, groupIndex, rod, rodIndex) {
+                if (group.x < 0 || group.x >= dates.length) return null;
                 final date = dates[group.x];
                 final category = rodIndex == 0 ? 'FII' : 'DII';
                 return BarTooltipItem(
@@ -167,15 +168,15 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
               sideTitles: SideTitles(
                 showTitles: true,
                 getTitlesWidget: (double value, TitleMeta meta) {
-                  if (value.toInt() >= dates.length) return const SizedBox.shrink();
+                  if (value.toInt() < 0 || value.toInt() >= dates.length) return const SizedBox.shrink();
                   // Only show 4-5 labels to avoid crowding
                   if (dates.length > 7 && value.toInt() % 3 != 0) return const SizedBox.shrink();
                   final date = dates[value.toInt()];
                   try {
-                    final d = DateFormat('dd-MMM-yyyy').parse(date);
+                    final d = DateFormat('dd-MMM-yyyy', 'en_US').parse(date);
                     return Padding(
                       padding: const EdgeInsets.only(top: 8.0),
-                      child: Text(DateFormat('dd MMM').format(d), style: AppTypography.metadata.copyWith(fontSize: 9)),
+                      child: Text(DateFormat('dd MMM', 'en_US').format(d), style: AppTypography.metadata.copyWith(fontSize: 9)),
                     );
                   } catch (_) {
                     return const SizedBox.shrink();
@@ -213,9 +214,9 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
           borderData: FlBorderData(show: false),
           barGroups: List.generate(dates.length, (index) {
             final date = dates[index];
-            final dayData = grouped[date]!;
-            final fii = dayData.values.firstWhere((e) => e.category.contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date, netValue: 0));
-            final dii = dayData.values.firstWhere((e) => e.category.contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date, netValue: 0));
+            final dayData = grouped[date] ?? {};
+            final fii = dayData.values.firstWhere((e) => e.category.toUpperCase().contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date, netValue: 0));
+            final dii = dayData.values.firstWhere((e) => e.category.toUpperCase().contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date, netValue: 0));
             
             final isTouched = index == _touchedIndex;
             
@@ -251,17 +252,17 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
     
     for (final date in sortedDates) {
       try {
-        final d = DateFormat('dd-MMM-yyyy').parse(date);
-        final monthKey = DateFormat('MMM yyyy').format(d);
+        final d = DateFormat('dd-MMM-yyyy', 'en_US').parse(date);
+        final monthKey = DateFormat('MMM yyyy', 'en_US').format(d);
         
         monthlyTotals.putIfAbsent(monthKey, () => {'FII': 0.0, 'DII': 0.0});
         
-        final dayData = grouped[date]!;
-        final fii = dayData.values.firstWhere((e) => e.category.contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date, netValue: 0));
-        final dii = dayData.values.firstWhere((e) => e.category.contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date, netValue: 0));
+        final dayData = grouped[date] ?? {};
+        final fii = dayData.values.firstWhere((e) => e.category.toUpperCase().contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date, netValue: 0));
+        final dii = dayData.values.firstWhere((e) => e.category.toUpperCase().contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date, netValue: 0));
         
-        monthlyTotals[monthKey]!['FII'] = monthlyTotals[monthKey]!['FII']! + (fii.netValue ?? 0);
-        monthlyTotals[monthKey]!['DII'] = monthlyTotals[monthKey]!['DII']! + (dii.netValue ?? 0);
+        monthlyTotals[monthKey]!['FII'] = (monthlyTotals[monthKey]!['FII'] ?? 0) + (fii.netValue ?? 0);
+        monthlyTotals[monthKey]!['DII'] = (monthlyTotals[monthKey]!['DII'] ?? 0) + (dii.netValue ?? 0);
       } catch (_) {}
     }
 
@@ -290,9 +291,12 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
   double _calculateMaxAbsoluteValue(Map<String, Map<String, FiiDiiModel>> grouped, List<String> dates) {
     double maxVal = 0;
     for (var date in dates) {
-      for (var item in grouped[date]!.values) {
-        if (item.netValue != null) {
-          final absVal = item.netValue!.abs();
+      final dayData = grouped[date];
+      if (dayData == null) continue;
+      for (var item in dayData.values) {
+        final val = item.netValue;
+        if (val != null && !val.isNaN && !val.isInfinite) {
+          final absVal = val.abs();
           if (absVal > maxVal) maxVal = absVal;
         }
       }
@@ -301,8 +305,8 @@ class _FiiDiiScreenState extends ConsumerState<FiiDiiScreen> {
   }
 
   Widget _buildHistoryRow(String date, Map<String, FiiDiiModel> data) {
-    final fii = data.values.firstWhere((e) => e.category.contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date));
-    final dii = data.values.firstWhere((e) => e.category.contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date));
+    final fii = data.values.firstWhere((e) => e.category.toUpperCase().contains('FII'), orElse: () => FiiDiiModel(category: 'FII', date: date));
+    final dii = data.values.firstWhere((e) => e.category.toUpperCase().contains('DII'), orElse: () => FiiDiiModel(category: 'DII', date: date));
     
     return Container(
       margin: const EdgeInsets.only(bottom: AppSpacing.sm),

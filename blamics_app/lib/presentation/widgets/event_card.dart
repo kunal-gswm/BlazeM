@@ -50,7 +50,7 @@ class EventCard extends StatelessWidget {
                 topLeft: Radius.circular(AppSpacing.cardRadius),
                 bottomLeft: Radius.circular(AppSpacing.cardRadius),
               ),
-              child: ImportanceIndicator(level: importance),
+              child: ImportanceIndicator(level: importance, height: double.infinity),
             ),
             // Content
             Expanded(
