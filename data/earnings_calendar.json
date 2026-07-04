@@ -1,25 +1,11 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-03T17:40:53Z",
+    "last_updated": "2026-07-04T14:42:18Z",
     "status": "healthy",
-    "record_count": 56
+    "record_count": 58
   },
   "data": [
-    {
-      "scrip_Code": "507984",
-      "short_name": "DESIFARMS",
-      "Long_Name": "Desi Farms India Ltd",
-      "meeting_date": "03 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/desi-farms-india-ltd/desifarms/507984/"
-    },
-    {
-      "scrip_Code": "532948",
-      "short_name": "TULSI",
-      "Long_Name": "Tulsi Extrusions Ltd",
-      "meeting_date": "03 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/tulsi-extrusions-ltd/tulsi/532948/"
-    },
     {
       "scrip_Code": "539175",
       "short_name": "BLUEGOD",
@@ -397,6 +383,34 @@
       "Long_Name": "Tata Technologies Ltd",
       "meeting_date": "17 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tata-technologies-ltd/tatatech/544028/"
+    },
+    {
+      "scrip_Code": "532215",
+      "short_name": "AXISBANK",
+      "Long_Name": "AXIS Bank Ltd",
+      "meeting_date": "18 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/axis-bank-ltd/axisbank/532215/"
+    },
+    {
+      "scrip_Code": "500180",
+      "short_name": "HDFCBANK",
+      "Long_Name": "HDFC Bank Ltd",
+      "meeting_date": "18 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/hdfc-bank-ltd/hdfcbank/500180/"
+    },
+    {
+      "scrip_Code": "532174",
+      "short_name": "ICICIBANK",
+      "Long_Name": "ICICI Bank Ltd",
+      "meeting_date": "18 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/icici-bank-ltd/icicibank/532174/"
+    },
+    {
+      "scrip_Code": "530005",
+      "short_name": "INDIACEM",
+      "Long_Name": "India Cements Ltd",
+      "meeting_date": "18 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/india-cements-ltd/indiacem/530005/"
     }
   ]
 }
