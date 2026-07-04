@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-04T14:42:18Z",
+    "last_updated": "2026-07-04T16:09:41Z",
     "status": "healthy",
     "record_count": 133
   },
@@ -26,22 +26,6 @@
       "scrip_code": 523395,
       "short_name": "3MINDIA",
       "Ex_date": "17 Jul 2026",
-      "Purpose": "Special Dividend - Rs. - 346.0000",
-      "RD_Date": "17 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "",
-      "ND_END_DATE": "",
-      "payment_date": "",
-      "exdate": "20260717",
-      "long_name": "3M India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 346.0
-    },
-    {
-      "scrip_code": 523395,
-      "short_name": "3MINDIA",
-      "Ex_date": "17 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 160.0000",
       "RD_Date": "17 Jul 2026",
       "BCRD_FROM": "",
@@ -53,6 +37,22 @@
       "long_name": "3M India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 160.0
+    },
+    {
+      "scrip_code": 523395,
+      "short_name": "3MINDIA",
+      "Ex_date": "17 Jul 2026",
+      "Purpose": "Special Dividend - Rs. - 346.0000",
+      "RD_Date": "17 Jul 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260717",
+      "long_name": "3M India Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 346.0
     },
     {
       "scrip_code": 500027,
@@ -98,7 +98,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Bajaj Electricals Ltd-$",
+      "long_name": "Bajaj Electricals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -114,7 +114,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Balkrishna Industries Ltd-$",
+      "long_name": "Balkrishna Industries Ltd",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -130,7 +130,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Bharat Seats Ltd-$",
+      "long_name": "Bharat Seats Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -290,7 +290,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Duncan Engineering Ltd-$",
+      "long_name": "Duncan Engineering Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -362,22 +362,6 @@
       "scrip_code": 504741,
       "short_name": "INDIANHUME",
       "Ex_date": "17 Jul 2026",
-      "Purpose": "Special Dividend - Rs. - 3.0000",
-      "RD_Date": "17 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "",
-      "ND_END_DATE": "",
-      "payment_date": "",
-      "exdate": "20260717",
-      "long_name": "Indian Hume Pipe Company Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 3.0
-    },
-    {
-      "scrip_code": 504741,
-      "short_name": "INDIANHUME",
-      "Ex_date": "17 Jul 2026",
       "Purpose": "Dividend - Rs. - 2.0000",
       "RD_Date": "17 Jul 2026",
       "BCRD_FROM": "",
@@ -391,6 +375,22 @@
       "dividend_amount": 2.0
     },
     {
+      "scrip_code": 504741,
+      "short_name": "INDIANHUME",
+      "Ex_date": "17 Jul 2026",
+      "Purpose": "Special Dividend - Rs. - 3.0000",
+      "RD_Date": "17 Jul 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260717",
+      "long_name": "Indian Hume Pipe Company Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 3.0
+    },
+    {
       "scrip_code": 523586,
       "short_name": "INDTONER",
       "Ex_date": "17 Jul 2026",
@@ -402,7 +402,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Indian Toners & Developers Ltd-$",
+      "long_name": "Indian Toners & Developers Ltd",
       "action_type": "Split",
       "dividend_amount": null
     },
@@ -690,7 +690,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "TTK Healthcare Ltd-$",
+      "long_name": "TTK Healthcare Ltd",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -834,7 +834,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Zydus Wellness Ltd-$",
+      "long_name": "Zydus Wellness Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.2
     },
@@ -962,7 +962,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260715",
-      "long_name": "Automobile Corporation of Goa Ltd-$",
+      "long_name": "Automobile Corporation of Goa Ltd",
       "action_type": "Dividend",
       "dividend_amount": 22.5
     },
@@ -978,7 +978,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260715",
-      "long_name": "Bharat Bijlee Ltd-$",
+      "long_name": "Bharat Bijlee Ltd",
       "action_type": "Dividend",
       "dividend_amount": 35.0
     },
@@ -1090,7 +1090,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Bimetal Bearings Ltd-$",
+      "long_name": "Bimetal Bearings Ltd",
       "action_type": "Dividend",
       "dividend_amount": 13.5
     },
@@ -1138,7 +1138,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Modison Ltd-$",
+      "long_name": "Modison Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -1218,7 +1218,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Ultramarine & Pigments Ltd-$",
+      "long_name": "Ultramarine & Pigments Ltd",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -1250,7 +1250,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260713",
-      "long_name": "Bhansali Engineering Polymers Ltd-$",
+      "long_name": "Bhansali Engineering Polymers Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -1298,7 +1298,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260713",
-      "long_name": "Super Sales India Ltd-$",
+      "long_name": "Super Sales India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 2.5
     },
@@ -1410,7 +1410,7 @@
       "ND_END_DATE": "10 Jul 2026",
       "payment_date": "",
       "exdate": "20260710",
-      "long_name": "Control Print Ltd-$",
+      "long_name": "Control Print Ltd",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -1522,7 +1522,7 @@
       "ND_END_DATE": "10 Jul 2026",
       "payment_date": "",
       "exdate": "20260710",
-      "long_name": "Grindwell Norton Ltd-$",
+      "long_name": "Grindwell Norton Ltd",
       "action_type": "Dividend",
       "dividend_amount": 19.0
     },
@@ -1626,22 +1626,6 @@
       "scrip_code": 500790,
       "short_name": "NESTLEIND",
       "Ex_date": "10 Jul 2026",
-      "Purpose": "Special Dividend - Rs. - 2.0000",
-      "RD_Date": "10 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "06 Jul 2026",
-      "ND_END_DATE": "10 Jul 2026",
-      "payment_date": "",
-      "exdate": "20260710",
-      "long_name": "Nestle India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 2.0
-    },
-    {
-      "scrip_code": 500790,
-      "short_name": "NESTLEIND",
-      "Ex_date": "10 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 5.0000",
       "RD_Date": "10 Jul 2026",
       "BCRD_FROM": "",
@@ -1653,6 +1637,22 @@
       "long_name": "Nestle India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 5.0
+    },
+    {
+      "scrip_code": 500790,
+      "short_name": "NESTLEIND",
+      "Ex_date": "10 Jul 2026",
+      "Purpose": "Special Dividend - Rs. - 2.0000",
+      "RD_Date": "10 Jul 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "06 Jul 2026",
+      "ND_END_DATE": "10 Jul 2026",
+      "payment_date": "",
+      "exdate": "20260710",
+      "long_name": "Nestle India Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 2.0
     },
     {
       "scrip_code": 540769,
@@ -1714,7 +1714,7 @@
       "ND_END_DATE": "10 Jul 2026",
       "payment_date": "",
       "exdate": "20260710",
-      "long_name": "PTL Enterprises Ltd-$",
+      "long_name": "PTL Enterprises Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
