@@ -1,12 +1,22 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-06T08:26:56Z",
+    "last_updated": "2026-07-06T12:26:50Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
+      {
+        "symbol": "MAZDA",
+        "name": "MAZDA",
+        "last_price": 275.38,
+        "prev_close": 229.49,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 993128,
+        "turnover_cr": 26.72
+      },
       {
         "symbol": "KAUSHALYA",
         "name": "KAUSHALYA",
@@ -14,118 +24,98 @@
         "prev_close": 1006.85,
         "change": 20,
         "change_pct": 20,
-        "volume": 6100,
-        "turnover_cr": 0.73
+        "volume": 6412,
+        "turnover_cr": 0.76
       },
       {
-        "symbol": "DIGITIDE",
-        "name": "DIGITIDE",
-        "last_price": 120.85,
-        "prev_close": 102.22,
-        "change": 18.23,
-        "change_pct": 18.23,
-        "volume": 58271997,
-        "turnover_cr": 677.47
-      },
-      {
-        "symbol": "MAZDA",
-        "name": "MAZDA",
-        "last_price": 268.45,
-        "prev_close": 229.49,
-        "change": 16.98,
-        "change_pct": 16.98,
-        "volume": 566990,
-        "turnover_cr": 15.04
+        "symbol": "AARTECH",
+        "name": "AARTECH",
+        "last_price": 57.48,
+        "prev_close": 47.9,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 1024459,
+        "turnover_cr": 5.74
       },
       {
         "symbol": "IVP",
         "name": "IVP",
-        "last_price": 187.6,
+        "last_price": 189.9,
         "prev_close": 161.67,
-        "change": 16.04,
-        "change_pct": 16.04,
-        "volume": 134830,
-        "turnover_cr": 2.45
+        "change": 17.46,
+        "change_pct": 17.46,
+        "volume": 581182,
+        "turnover_cr": 10.99
       },
       {
-        "symbol": "FERMENTA",
-        "name": "FERMENTA",
-        "last_price": 391.95,
-        "prev_close": 343,
-        "change": 14.27,
-        "change_pct": 14.27,
-        "volume": 2112134,
-        "turnover_cr": 82.46
+        "symbol": "DIGITIDE",
+        "name": "DIGITIDE",
+        "last_price": 119.5,
+        "prev_close": 102.22,
+        "change": 16.9,
+        "change_pct": 16.9,
+        "volume": 70931051,
+        "turnover_cr": 830.04
       },
       {
         "symbol": "SPECTRUM",
         "name": "SPECTRUM",
-        "last_price": 2113.9,
+        "last_price": 2109,
         "prev_close": 1853.2,
-        "change": 14.07,
-        "change_pct": 14.07,
-        "volume": 402565,
-        "turnover_cr": 83.91
+        "change": 13.8,
+        "change_pct": 13.8,
+        "volume": 635447,
+        "turnover_cr": 132.43
+      },
+      {
+        "symbol": "FERMENTA",
+        "name": "FERMENTA",
+        "last_price": 390.25,
+        "prev_close": 343,
+        "change": 13.78,
+        "change_pct": 13.78,
+        "volume": 3139046,
+        "turnover_cr": 123.07
       },
       {
         "symbol": "OMAXE",
         "name": "OMAXE",
-        "last_price": 89.8,
+        "last_price": 90.19,
         "prev_close": 79.5,
-        "change": 12.96,
-        "change_pct": 12.96,
-        "volume": 21707859,
-        "turnover_cr": 195.26
-      },
-      {
-        "symbol": "DALMIASUG",
-        "name": "DALMIASUG",
-        "last_price": 381.45,
-        "prev_close": 341.1,
-        "change": 11.83,
-        "change_pct": 11.83,
-        "volume": 5970587,
-        "turnover_cr": 229.66
-      },
-      {
-        "symbol": "ADVENTHTL",
-        "name": "ADVENTHTL",
-        "last_price": 155.96,
-        "prev_close": 140.59,
-        "change": 10.93,
-        "change_pct": 10.93,
-        "volume": 7898179,
-        "turnover_cr": 125.53
+        "change": 13.45,
+        "change_pct": 13.45,
+        "volume": 25496915,
+        "turnover_cr": 229.42
       },
       {
         "symbol": "ASIANHOTNR",
         "name": "ASIANHOTNR",
-        "last_price": 354.5,
+        "last_price": 361.5,
         "prev_close": 320.65,
-        "change": 10.56,
-        "change_pct": 10.56,
-        "volume": 246955,
-        "turnover_cr": 8.85
+        "change": 12.74,
+        "change_pct": 12.74,
+        "volume": 277141,
+        "turnover_cr": 9.93
+      },
+      {
+        "symbol": "ZSARACOM",
+        "name": "ZSARACOM",
+        "last_price": 10999,
+        "prev_close": 9837,
+        "change": 11.81,
+        "change_pct": 11.81,
+        "volume": 339,
+        "turnover_cr": 0.35
       },
       {
         "symbol": "ELGIRUBCO",
         "name": "ELGIRUBCO",
-        "last_price": 61.12,
+        "last_price": 61.3,
         "prev_close": 55.29,
-        "change": 10.54,
-        "change_pct": 10.54,
-        "volume": 1441462,
-        "turnover_cr": 9.0
-      },
-      {
-        "symbol": "TARSONS",
-        "name": "TARSONS",
-        "last_price": 294.35,
-        "prev_close": 266.6,
-        "change": 10.41,
-        "change_pct": 10.41,
-        "volume": 6408499,
-        "turnover_cr": 192.06
+        "change": 10.87,
+        "change_pct": 10.87,
+        "volume": 1544497,
+        "turnover_cr": 9.63
       },
       {
         "symbol": "RAMCOSYS",
@@ -134,8 +124,28 @@
         "prev_close": 799.6,
         "change": 10,
         "change_pct": 10,
-        "volume": 3495339,
-        "turnover_cr": 297.15
+        "volume": 3507615,
+        "turnover_cr": 298.23
+      },
+      {
+        "symbol": "DIACABS",
+        "name": "DIACABS",
+        "last_price": 218.77,
+        "prev_close": 198.89,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 13219723,
+        "turnover_cr": 287.57
+      },
+      {
+        "symbol": "SPARC",
+        "name": "SPARC",
+        "last_price": 263.3,
+        "prev_close": 239.37,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 9651891,
+        "turnover_cr": 248.09
       }
     ],
     "lower_circuit": [
@@ -146,8 +156,18 @@
         "prev_close": 963.9,
         "change": -19.99,
         "change_pct": -19.99,
-        "volume": 181282,
-        "turnover_cr": 14.33
+        "volume": 182779,
+        "turnover_cr": 14.45
+      },
+      {
+        "symbol": "SUPRIYA",
+        "name": "SUPRIYA",
+        "last_price": 867.9,
+        "prev_close": 978.9,
+        "change": -11.34,
+        "change_pct": -11.34,
+        "volume": 2414801,
+        "turnover_cr": 215.25
       }
     ]
   }
