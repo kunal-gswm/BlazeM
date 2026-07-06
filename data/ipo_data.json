@@ -1,11 +1,32 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-03T16:46:17Z",
+    "last_updated": "2026-07-06T08:26:49Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": [
+    {
+      "issue_name": "Laser Power & Infra",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "214",
+      "lot_size": "70",
+      "issue_size": "₹742.00 Cr",
+      "issue_open": "2026-07-09",
+      "issue_close": "2026-07-13",
+      "allotment_date": "2026-07-14",
+      "listing_date": "2026-07-16",
+      "gmp": 45.0,
+      "gmp_percent": "21.03%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/laser-power-infra-ipo/1923/",
+      "scraped_at": "2026-07-06T08:26:32.803387+00:00Z"
+    },
     {
       "issue_name": "Kusumgar",
       "ipo_type": "Mainboard",
@@ -17,36 +38,15 @@
       "issue_close": "2026-07-10",
       "allotment_date": "2026-07-13",
       "listing_date": "2026-07-15",
-      "gmp": 140.0,
-      "gmp_percent": "33.41%",
+      "gmp": 174.0,
+      "gmp_percent": "41.53%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/kusumgar-ipo/1595/",
-      "scraped_at": "2026-07-03T16:46:03.003752+00:00Z"
-    },
-    {
-      "issue_name": "Knack Packaging",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "170",
-      "lot_size": "88",
-      "issue_size": "₹439.50 Cr",
-      "issue_open": "2026-07-01",
-      "issue_close": "2026-07-03",
-      "allotment_date": "2026-07-06",
-      "listing_date": "2026-07-08",
-      "gmp": 26.5,
-      "gmp_percent": "15.59%",
-      "subscription_qib": "160.22x",
-      "subscription_nii": "146.64x",
-      "subscription_retail": "21.09x",
-      "subscription_total": "87.17x",
-      "subscription_applications": "19,86,659",
-      "detail_url": "https://www.investorgain.com/gmp/knack-packaging-ipo/1877/",
-      "scraped_at": "2026-07-03T16:46:03.003855+00:00Z"
+      "scraped_at": "2026-07-06T08:26:32.803498+00:00Z"
     }
   ]
 }
