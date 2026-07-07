@@ -1,32 +1,11 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-06T16:26:07Z",
+    "last_updated": "2026-07-07T15:46:02Z",
     "status": "healthy",
-    "record_count": 83
+    "record_count": 88
   },
   "data": [
-    {
-      "scrip_Code": "531530",
-      "short_name": "BETALA",
-      "Long_Name": "Betala Global Securities Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/betala-global-securities-ltd/betala/531530/"
-    },
-    {
-      "scrip_Code": "504340",
-      "short_name": "LONGSPUR",
-      "Long_Name": "Longspur International Ventures Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/longspur-international-ventures-ltd/longspur/504340/"
-    },
-    {
-      "scrip_Code": "526071",
-      "short_name": "STELLANT",
-      "Long_Name": "Stellant Securities (India) Ltd",
-      "meeting_date": "06 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/stellant-securities-(india)-ltd/stellant/526071/"
-    },
     {
       "scrip_Code": "512301",
       "short_name": "CHMBBRW",
@@ -322,13 +301,6 @@
       "URL": "https://www.bseindia.com/stock-share-price/tata-elxsi-ltd/tataelxsi/500408/"
     },
     {
-      "scrip_Code": "543235",
-      "short_name": "ANGELONE",
-      "Long_Name": "Angel One Ltd",
-      "meeting_date": "15 Jul 2026",
-      "URL": "https://www.bseindia.com/stock-share-price/angel-one-ltd/angelone/543235/"
-    },
-    {
       "scrip_Code": "544429",
       "short_name": "HDBFS",
       "Long_Name": "HDB Financial Services Ltd",
@@ -586,6 +558,69 @@
       "Long_Name": "UltraTech Cement Ltd",
       "meeting_date": "20 Jul 2026",
       "URL": "https://www.bseindia.com/stock-share-price/ultratech-cement-ltd/ultracemco/532538/"
+    },
+    {
+      "scrip_Code": "539254",
+      "short_name": "ADANIENSOL",
+      "Long_Name": "Adani Energy Solutions Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/adani-energy-solutions-ltd/adaniensol/539254/"
+    },
+    {
+      "scrip_Code": "542066",
+      "short_name": "ATGL",
+      "Long_Name": "Adani Total Gas Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/adani-total-gas-ltd/atgl/542066/"
+    },
+    {
+      "scrip_Code": "532977",
+      "short_name": "BAJAJ-AUTO",
+      "Long_Name": "Bajaj Auto Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bajaj-auto-ltd/bajaj-auto/532977/"
+    },
+    {
+      "scrip_Code": "544580",
+      "short_name": "CRAMC",
+      "Long_Name": "Canara Robeco Asset Management Company Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/canara-robeco-asset-management-company-ltd/cramc/544580/"
+    },
+    {
+      "scrip_Code": "500092",
+      "short_name": "CRISIL",
+      "Long_Name": "Crisil Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/crisil-ltd/crisil/500092/"
+    },
+    {
+      "scrip_Code": "543933",
+      "short_name": "CYIENTDLM",
+      "Long_Name": "Cyient DLM Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/cyient-dlm-ltd/cyientdlm/543933/"
+    },
+    {
+      "scrip_Code": "532720",
+      "short_name": "M&MFIN",
+      "Long_Name": "Mahindra & Mahindra Financial Services Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mahindra--mahindra-financial-services-ltd/mmfin/532720/"
+    },
+    {
+      "scrip_Code": "523704",
+      "short_name": "MASTEK",
+      "Long_Name": "Mastek Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mastek-ltd/mastek/523704/"
+    },
+    {
+      "scrip_Code": "532529",
+      "short_name": "NDTV",
+      "Long_Name": "New Delhi Television Ltd",
+      "meeting_date": "21 Jul 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/new-delhi-television-ltd/ndtv/532529/"
     }
   ]
 }
