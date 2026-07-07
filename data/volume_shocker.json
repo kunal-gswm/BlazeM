@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-07T10:42:01Z",
+    "last_updated": "2026-07-07T13:09:17Z",
     "status": "healthy",
     "record_count": 22
   },
@@ -117,6 +117,16 @@
       "vol_change_2wk_pct": 13.68
     },
     {
+      "symbol": "CAPITALSFB",
+      "name": "Capital Small Finance Bank Limited",
+      "last_price": 295.95,
+      "change_pct": 1.44,
+      "volume": 941473,
+      "turnover_cr": 3.21,
+      "vol_change_1wk_pct": 14.37,
+      "vol_change_2wk_pct": 19.37
+    },
+    {
       "symbol": "TAJGVK",
       "name": "Taj GVK Hotels & Resorts Limited",
       "last_price": 362.05,
@@ -215,16 +225,6 @@
       "turnover_cr": 36.9,
       "vol_change_1wk_pct": 7.7,
       "vol_change_2wk_pct": 7.43
-    },
-    {
-      "symbol": "HLEGLAS",
-      "name": "HLE Glascoat Limited",
-      "last_price": 404,
-      "change_pct": 4.28,
-      "volume": 846645,
-      "turnover_cr": 33.9,
-      "vol_change_1wk_pct": 7.66,
-      "vol_change_2wk_pct": 5.82
     }
   ]
 }
