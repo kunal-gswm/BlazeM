@@ -1,12 +1,22 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-07T07:45:09Z",
+    "last_updated": "2026-07-07T10:42:02Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
+      {
+        "symbol": "SHAREINDIA",
+        "name": "SHAREINDIA",
+        "last_price": 164.91,
+        "prev_close": 137.43,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 54004222,
+        "turnover_cr": 842.9
+      },
       {
         "symbol": "ZSARACOM",
         "name": "ZSARACOM",
@@ -14,8 +24,8 @@
         "prev_close": 10337,
         "change": 20,
         "change_pct": 20,
-        "volume": 1464,
-        "turnover_cr": 1.75
+        "volume": 1477,
+        "turnover_cr": 1.76
       },
       {
         "symbol": "ITDC",
@@ -24,100 +34,70 @@
         "prev_close": 585.7,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 13595290,
-        "turnover_cr": 902.13
-      },
-      {
-        "symbol": "DBSTOCKBRO",
-        "name": "DBSTOCKBRO",
-        "last_price": 43.23,
-        "prev_close": 36.03,
-        "change": 19.98,
-        "change_pct": 19.98,
-        "volume": 358369,
-        "turnover_cr": 1.47
+        "volume": 13636321,
+        "turnover_cr": 905.0
       },
       {
         "symbol": "IOLCP",
         "name": "IOLCP",
-        "last_price": 169.44,
+        "last_price": 164.6,
         "prev_close": 144.46,
-        "change": 17.29,
-        "change_pct": 17.29,
-        "volume": 36936399,
-        "turnover_cr": 618.91
-      },
-      {
-        "symbol": "KOTIC",
-        "name": "KOTIC",
-        "last_price": 185.03,
-        "prev_close": 160.33,
-        "change": 15.41,
-        "change_pct": 15.41,
-        "volume": 764387,
-        "turnover_cr": 14.34
-      },
-      {
-        "symbol": "SHAREINDIA",
-        "name": "SHAREINDIA",
-        "last_price": 157.86,
-        "prev_close": 137.43,
-        "change": 14.87,
-        "change_pct": 14.87,
-        "volume": 46259606,
-        "turnover_cr": 717.44
-      },
-      {
-        "symbol": "KAUSHALYA",
-        "name": "KAUSHALYA",
-        "last_price": 1382.1,
-        "prev_close": 1208.2,
-        "change": 14.39,
-        "change_pct": 14.39,
-        "volume": 31825,
-        "turnover_cr": 4.41
+        "change": 13.94,
+        "change_pct": 13.94,
+        "volume": 41176929,
+        "turnover_cr": 689.51
       },
       {
         "symbol": "NAUKRI",
         "name": "NAUKRI",
-        "last_price": 1147,
+        "last_price": 1157.95,
         "prev_close": 1025.15,
-        "change": 11.89,
-        "change_pct": 11.89,
-        "volume": 11377886,
-        "turnover_cr": 1264.55
+        "change": 12.95,
+        "change_pct": 12.95,
+        "volume": 16707549,
+        "turnover_cr": 1881.96
       },
       {
-        "symbol": "RITES",
-        "name": "RITES",
-        "last_price": 240.5,
-        "prev_close": 216.15,
-        "change": 11.27,
-        "change_pct": 11.27,
-        "volume": 60059451,
-        "turnover_cr": 1411.58
+        "symbol": "KOTIC",
+        "name": "KOTIC",
+        "last_price": 179.99,
+        "prev_close": 160.33,
+        "change": 12.26,
+        "change_pct": 12.26,
+        "volume": 872520,
+        "turnover_cr": 16.29
+      },
+      {
+        "symbol": "DBSTOCKBRO",
+        "name": "DBSTOCKBRO",
+        "last_price": 40.36,
+        "prev_close": 36.03,
+        "change": 12.02,
+        "change_pct": 12.02,
+        "volume": 658685,
+        "turnover_cr": 2.75
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "TRENT",
-        "name": "TRENT",
-        "last_price": 2931.2,
-        "prev_close": 3343.8,
-        "change": -12.34,
-        "change_pct": -12.34,
-        "volume": 6738787,
-        "turnover_cr": 2022.86
-      },
-      {
         "symbol": "KRISHANA",
         "name": "KRISHANA",
-        "last_price": 129.6,
+        "last_price": 128,
         "prev_close": 147.1,
-        "change": -11.9,
-        "change_pct": -11.9,
-        "volume": 2988969,
-        "turnover_cr": 39.43
+        "change": -12.98,
+        "change_pct": -12.98,
+        "volume": 3597084,
+        "turnover_cr": 47.33
+      },
+      {
+        "symbol": "TRENT",
+        "name": "TRENT",
+        "last_price": 2921,
+        "prev_close": 3343.8,
+        "change": -12.64,
+        "change_pct": -12.64,
+        "volume": 9059505,
+        "turnover_cr": 2704.33
       },
       {
         "symbol": "DIGITIDE",
@@ -126,8 +106,8 @@
         "prev_close": 120.55,
         "change": -10,
         "change_pct": -10,
-        "volume": 6481853,
-        "turnover_cr": 72.57
+        "volume": 6552116,
+        "turnover_cr": 73.33
       },
       {
         "symbol": "NATIONSTD",
@@ -136,8 +116,8 @@
         "prev_close": 771.2,
         "change": -10,
         "change_pct": -10,
-        "volume": 34039,
-        "turnover_cr": 2.4
+        "volume": 34871,
+        "turnover_cr": 2.46
       }
     ]
   }
