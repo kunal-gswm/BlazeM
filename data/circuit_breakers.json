@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-08T09:13:19Z",
+    "last_updated": "2026-07-08T11:20:49Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,58 +14,48 @@
         "prev_close": 477.25,
         "change": 20,
         "change_pct": 20,
-        "volume": 3510057,
-        "turnover_cr": 190.47
+        "volume": 3535394,
+        "turnover_cr": 191.92
       },
       {
-        "symbol": "JINDRILL",
-        "name": "JINDRILL",
-        "last_price": 606.95,
-        "prev_close": 540.2,
-        "change": 12.36,
-        "change_pct": 12.36,
-        "volume": 17676509,
-        "turnover_cr": 1073.34
+        "symbol": "BANARBEADS",
+        "name": "BANARBEADS",
+        "last_price": 121.8,
+        "prev_close": 101.53,
+        "change": 19.96,
+        "change_pct": 19.96,
+        "volume": 99484,
+        "turnover_cr": 1.09
       },
       {
         "symbol": "DPABHUSHAN",
         "name": "DPABHUSHAN",
-        "last_price": 1065,
+        "last_price": 1090,
         "prev_close": 958.6,
-        "change": 11.1,
-        "change_pct": 11.1,
-        "volume": 718639,
-        "turnover_cr": 78.18
+        "change": 13.71,
+        "change_pct": 13.71,
+        "volume": 781853,
+        "turnover_cr": 84.96
       },
       {
         "symbol": "SGMART",
         "name": "SGMART",
-        "last_price": 664.25,
+        "last_price": 672,
         "prev_close": 599.95,
-        "change": 10.72,
-        "change_pct": 10.72,
-        "volume": 7132567,
-        "turnover_cr": 477.12
+        "change": 12.01,
+        "change_pct": 12.01,
+        "volume": 8206593,
+        "turnover_cr": 548.91
       },
       {
-        "symbol": "BNALTD",
-        "name": "BNALTD",
-        "last_price": 396.95,
-        "prev_close": 360,
-        "change": 10.26,
-        "change_pct": 10.26,
-        "volume": 123,
-        "turnover_cr": 0.0
-      },
-      {
-        "symbol": "ITDC",
-        "name": "ITDC",
-        "last_price": 773.65,
-        "prev_close": 702.8,
-        "change": 10.08,
-        "change_pct": 10.08,
-        "volume": 26289097,
-        "turnover_cr": 1958.46
+        "symbol": "JINDRILL",
+        "name": "JINDRILL",
+        "last_price": 599,
+        "prev_close": 540.2,
+        "change": 10.88,
+        "change_pct": 10.88,
+        "volume": 20334559,
+        "turnover_cr": 1233.35
       },
       {
         "symbol": "ZSARACOM",
@@ -74,30 +64,30 @@
         "prev_close": 12404,
         "change": 10,
         "change_pct": 10,
-        "volume": 1334,
-        "turnover_cr": 1.81
+        "volume": 1352,
+        "turnover_cr": 1.83
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "FINKURVE",
-        "name": "FINKURVE",
-        "last_price": 63,
-        "prev_close": 70.12,
-        "change": -10.15,
-        "change_pct": -10.15,
-        "volume": 94762,
-        "turnover_cr": 0.62
+        "symbol": "CUPID",
+        "name": "CUPID",
+        "last_price": 192,
+        "prev_close": 221.11,
+        "change": -13.17,
+        "change_pct": -13.17,
+        "volume": 77637002,
+        "turnover_cr": 1656.7
       },
       {
-        "symbol": "KAUSHALYA",
-        "name": "KAUSHALYA",
-        "last_price": 1146.15,
-        "prev_close": 1273.5,
-        "change": -10,
-        "change_pct": -10,
-        "volume": 7015,
-        "turnover_cr": 0.82
+        "symbol": "AARTECH",
+        "name": "AARTECH",
+        "last_price": 47.3,
+        "prev_close": 53.07,
+        "change": -10.87,
+        "change_pct": -10.87,
+        "volume": 1000651,
+        "turnover_cr": 5.1
       },
       {
         "symbol": "NATIONSTD",
@@ -106,8 +96,18 @@
         "prev_close": 694.1,
         "change": -10,
         "change_pct": -10,
-        "volume": 355877,
-        "turnover_cr": 22.48
+        "volume": 357073,
+        "turnover_cr": 22.56
+      },
+      {
+        "symbol": "KAUSHALYA",
+        "name": "KAUSHALYA",
+        "last_price": 1146.15,
+        "prev_close": 1273.5,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 7197,
+        "turnover_cr": 0.84
       },
       {
         "symbol": "DJML",
@@ -116,8 +116,8 @@
         "prev_close": 120.61,
         "change": -10,
         "change_pct": -10,
-        "volume": 360707,
-        "turnover_cr": 4.14
+        "volume": 402775,
+        "turnover_cr": 4.6
       }
     ]
   }
