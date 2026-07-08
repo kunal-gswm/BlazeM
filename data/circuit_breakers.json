@@ -1,123 +1,133 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-07T13:09:18Z",
+    "last_updated": "2026-07-08T06:33:18Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "SHAREINDIA",
-        "name": "SHAREINDIA",
-        "last_price": 164.91,
-        "prev_close": 137.43,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 54004222,
-        "turnover_cr": 842.9
+        "symbol": "DPABHUSHAN",
+        "name": "DPABHUSHAN",
+        "last_price": 1118.5,
+        "prev_close": 958.6,
+        "change": 16.68,
+        "change_pct": 16.68,
+        "volume": 491828,
+        "turnover_cr": 53.56
       },
       {
-        "symbol": "ZSARACOM",
-        "name": "ZSARACOM",
-        "last_price": 12404,
-        "prev_close": 10337,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 1477,
-        "turnover_cr": 1.76
-      },
-      {
-        "symbol": "ITDC",
-        "name": "ITDC",
-        "last_price": 702.8,
-        "prev_close": 585.7,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 13636321,
-        "turnover_cr": 905.0
-      },
-      {
-        "symbol": "IOLCP",
-        "name": "IOLCP",
-        "last_price": 164.6,
-        "prev_close": 144.46,
-        "change": 13.94,
-        "change_pct": 13.94,
-        "volume": 41176929,
-        "turnover_cr": 689.51
-      },
-      {
-        "symbol": "NAUKRI",
-        "name": "NAUKRI",
-        "last_price": 1157.95,
-        "prev_close": 1025.15,
-        "change": 12.95,
-        "change_pct": 12.95,
-        "volume": 16707549,
-        "turnover_cr": 1881.96
-      },
-      {
-        "symbol": "KOTIC",
-        "name": "KOTIC",
-        "last_price": 179.99,
-        "prev_close": 160.33,
-        "change": 12.26,
-        "change_pct": 12.26,
-        "volume": 872520,
-        "turnover_cr": 16.29
+        "symbol": "DHUNINV",
+        "name": "DHUNINV",
+        "last_price": 1005.6,
+        "prev_close": 879.35,
+        "change": 14.36,
+        "change_pct": 14.36,
+        "volume": 24350,
+        "turnover_cr": 2.48
       },
       {
         "symbol": "DBSTOCKBRO",
         "name": "DBSTOCKBRO",
-        "last_price": 40.36,
-        "prev_close": 36.03,
-        "change": 12.02,
-        "change_pct": 12.02,
-        "volume": 658685,
-        "turnover_cr": 2.75
+        "last_price": 48.15,
+        "prev_close": 42.14,
+        "change": 14.26,
+        "change_pct": 14.26,
+        "volume": 957132,
+        "turnover_cr": 4.48
+      },
+      {
+        "symbol": "JINDRILL",
+        "name": "JINDRILL",
+        "last_price": 617.2,
+        "prev_close": 540.2,
+        "change": 14.25,
+        "change_pct": 14.25,
+        "volume": 10801827,
+        "turnover_cr": 654.8
+      },
+      {
+        "symbol": "GEMAROMA",
+        "name": "GEMAROMA",
+        "last_price": 218.71,
+        "prev_close": 194.02,
+        "change": 12.73,
+        "change_pct": 12.73,
+        "volume": 14267761,
+        "turnover_cr": 313.46
+      },
+      {
+        "symbol": "MASTERTR",
+        "name": "MASTERTR",
+        "last_price": 84,
+        "prev_close": 75.24,
+        "change": 11.64,
+        "change_pct": 11.64,
+        "volume": 9468739,
+        "turnover_cr": 79.5
+      },
+      {
+        "symbol": "SGMART",
+        "name": "SGMART",
+        "last_price": 667,
+        "prev_close": 599.95,
+        "change": 11.18,
+        "change_pct": 11.18,
+        "volume": 1247809,
+        "turnover_cr": 81.45
+      },
+      {
+        "symbol": "SHAREINDIA",
+        "name": "SHAREINDIA",
+        "last_price": 182.98,
+        "prev_close": 164.91,
+        "change": 10.96,
+        "change_pct": 10.96,
+        "volume": 61686979,
+        "turnover_cr": 1111.35
+      },
+      {
+        "symbol": "ELITECON",
+        "name": "ELITECON",
+        "last_price": 26.57,
+        "prev_close": 24.08,
+        "change": 10.34,
+        "change_pct": 10.34,
+        "volume": 9593648,
+        "turnover_cr": 26.42
+      },
+      {
+        "symbol": "BALAMINES",
+        "name": "BALAMINES",
+        "last_price": 2277.1,
+        "prev_close": 2067.8,
+        "change": 10.12,
+        "change_pct": 10.12,
+        "volume": 925722,
+        "turnover_cr": 207.75
+      },
+      {
+        "symbol": "ZSARACOM",
+        "name": "ZSARACOM",
+        "last_price": 13644,
+        "prev_close": 12404,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 1009,
+        "turnover_cr": 1.37
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "KRISHANA",
-        "name": "KRISHANA",
-        "last_price": 128,
-        "prev_close": 147.1,
-        "change": -12.98,
-        "change_pct": -12.98,
-        "volume": 3597084,
-        "turnover_cr": 47.33
-      },
-      {
-        "symbol": "TRENT",
-        "name": "TRENT",
-        "last_price": 2921,
-        "prev_close": 3343.8,
-        "change": -12.64,
-        "change_pct": -12.64,
-        "volume": 9059505,
-        "turnover_cr": 2704.33
-      },
-      {
-        "symbol": "DIGITIDE",
-        "name": "DIGITIDE",
-        "last_price": 108.5,
-        "prev_close": 120.55,
-        "change": -10,
-        "change_pct": -10,
-        "volume": 6552116,
-        "turnover_cr": 73.33
-      },
-      {
         "symbol": "NATIONSTD",
         "name": "NATIONSTD",
-        "last_price": 694.1,
-        "prev_close": 771.2,
+        "last_price": 624.7,
+        "prev_close": 694.1,
         "change": -10,
         "change_pct": -10,
-        "volume": 34871,
-        "turnover_cr": 2.46
+        "volume": 257308,
+        "turnover_cr": 16.24
       }
     ]
   }
