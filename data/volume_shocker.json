@@ -1,230 +1,240 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-08T06:33:17Z",
+    "last_updated": "2026-07-08T09:13:18Z",
     "status": "healthy",
-    "record_count": 22
+    "record_count": 23
   },
   "data": [
     {
       "symbol": "JINDRILL",
       "name": "Jindal Drilling And Industries Limited",
-      "last_price": 615.85,
-      "change_pct": 14,
-      "volume": 10852901,
-      "turnover_cr": 657.94,
-      "vol_change_1wk_pct": 141.91,
-      "vol_change_2wk_pct": 123.16
+      "last_price": 606.65,
+      "change_pct": 12.3,
+      "volume": 17681090,
+      "turnover_cr": 1073.61,
+      "vol_change_1wk_pct": 231.2,
+      "vol_change_2wk_pct": 200.64
     },
     {
       "symbol": "GEMAROMA",
       "name": "Gem Aromatics Limited",
-      "last_price": 217.83,
-      "change_pct": 12.27,
-      "volume": 14274455,
-      "turnover_cr": 313.61,
-      "vol_change_1wk_pct": 107.22,
-      "vol_change_2wk_pct": 95.31
+      "last_price": 202.29,
+      "change_pct": 4.26,
+      "volume": 16382343,
+      "turnover_cr": 357.94,
+      "vol_change_1wk_pct": 123.05,
+      "vol_change_2wk_pct": 109.38
+    },
+    {
+      "symbol": "INDIANCARD",
+      "name": "Indian Card Clothing Company Limited",
+      "last_price": 239.5,
+      "change_pct": 6.62,
+      "volume": 97137,
+      "turnover_cr": 2.43,
+      "vol_change_1wk_pct": 101.55,
+      "vol_change_2wk_pct": 57.0
     },
     {
       "symbol": "MASTERTR",
       "name": "Master Trust Limited",
-      "last_price": 84.15,
-      "change_pct": 11.84,
-      "volume": 9475773,
-      "turnover_cr": 79.56,
-      "vol_change_1wk_pct": 50.1,
-      "vol_change_2wk_pct": 45.66
-    },
-    {
-      "symbol": "DHUNINV",
-      "name": "Dhunseri Investments Limited",
-      "last_price": 1010,
-      "change_pct": 14.86,
-      "volume": 24356,
-      "turnover_cr": 2.48,
-      "vol_change_1wk_pct": 46.39,
-      "vol_change_2wk_pct": 56.44
-    },
-    {
-      "symbol": "BANARBEADS",
-      "name": "Banaras Beads Limited",
-      "last_price": 108,
-      "change_pct": 6.37,
-      "volume": 58357,
-      "turnover_cr": 0.62,
-      "vol_change_1wk_pct": 45.1,
-      "vol_change_2wk_pct": 47.29
+      "last_price": 78.3,
+      "change_pct": 4.07,
+      "volume": 18322638,
+      "turnover_cr": 152.35,
+      "vol_change_1wk_pct": 96.88,
+      "vol_change_2wk_pct": 88.28
     },
     {
       "symbol": "DPABHUSHAN",
       "name": "D. P. Abhushan Limited",
-      "last_price": 1119,
-      "change_pct": 16.73,
-      "volume": 492694,
-      "turnover_cr": 53.65,
-      "vol_change_1wk_pct": 44.3,
-      "vol_change_2wk_pct": 23.29
+      "last_price": 1064.45,
+      "change_pct": 11.04,
+      "volume": 718640,
+      "turnover_cr": 78.18,
+      "vol_change_1wk_pct": 64.61,
+      "vol_change_2wk_pct": 33.97
     },
     {
-      "symbol": "BANK10ADD",
-      "name": "DSP Mutual Fund - DSP BSE Top 10 Banks ETF",
-      "last_price": 17.42,
-      "change_pct": -0.57,
-      "volume": 1556198,
-      "turnover_cr": 2.72,
-      "vol_change_1wk_pct": 36.31,
-      "vol_change_2wk_pct": 30.42
+      "symbol": "DHUNINV",
+      "name": "Dhunseri Investments Limited",
+      "last_price": 958,
+      "change_pct": 8.94,
+      "volume": 28704,
+      "turnover_cr": 2.91,
+      "vol_change_1wk_pct": 54.67,
+      "vol_change_2wk_pct": 66.52
     },
     {
       "symbol": "ORCHPHARMA",
       "name": "Orchid Pharma Limited",
-      "last_price": 1015.85,
-      "change_pct": 9.86,
-      "volume": 1819429,
-      "turnover_cr": 185.09,
-      "vol_change_1wk_pct": 35.11,
-      "vol_change_2wk_pct": 23.9
+      "last_price": 977.7,
+      "change_pct": 5.74,
+      "volume": 2704531,
+      "turnover_cr": 274.83,
+      "vol_change_1wk_pct": 52.19,
+      "vol_change_2wk_pct": 35.52
     },
     {
-      "symbol": "SBIETFPB",
-      "name": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank",
-      "last_price": 286.01,
-      "change_pct": -1.04,
-      "volume": 258514,
-      "turnover_cr": 7.45,
-      "vol_change_1wk_pct": 29.37,
-      "vol_change_2wk_pct": 13.49
+      "symbol": "BANARBEADS",
+      "name": "Banaras Beads Limited",
+      "last_price": 106.7,
+      "change_pct": 5.09,
+      "volume": 63507,
+      "turnover_cr": 0.67,
+      "vol_change_1wk_pct": 49.08,
+      "vol_change_2wk_pct": 51.46
     },
     {
-      "symbol": "SBIBPB",
-      "name": "SBI Mutual Fund - SBI BSE PSU Bank ETF",
-      "last_price": 47.66,
-      "change_pct": -0.75,
-      "volume": 1987909,
-      "turnover_cr": 9.43,
-      "vol_change_1wk_pct": 26.0,
-      "vol_change_2wk_pct": 27.74
+      "symbol": "BANK10ADD",
+      "name": "DSP Mutual Fund - DSP BSE Top 10 Banks ETF",
+      "last_price": 17.14,
+      "change_pct": -2.17,
+      "volume": 1685697,
+      "turnover_cr": 2.94,
+      "vol_change_1wk_pct": 39.34,
+      "vol_change_2wk_pct": 32.95
+    },
+    {
+      "symbol": "SGMART",
+      "name": "SG Mart Limited",
+      "last_price": 664.65,
+      "change_pct": 10.78,
+      "volume": 7132918,
+      "turnover_cr": 477.14,
+      "vol_change_1wk_pct": 37.36,
+      "vol_change_2wk_pct": 48.09
     },
     {
       "symbol": "HIKAL",
       "name": "Hikal Limited",
-      "last_price": 236.45,
-      "change_pct": 8.76,
-      "volume": 6700013,
-      "turnover_cr": 159.07,
-      "vol_change_1wk_pct": 25.55,
-      "vol_change_2wk_pct": 20.13
+      "last_price": 227,
+      "change_pct": 4.42,
+      "volume": 9452457,
+      "turnover_cr": 223.75,
+      "vol_change_1wk_pct": 36.05,
+      "vol_change_2wk_pct": 28.4
+    },
+    {
+      "symbol": "SBIETFPB",
+      "name": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank",
+      "last_price": 281.5,
+      "change_pct": -2.6,
+      "volume": 266117,
+      "turnover_cr": 7.67,
+      "vol_change_1wk_pct": 30.24,
+      "vol_change_2wk_pct": 13.89
+    },
+    {
+      "symbol": "SBIBPB",
+      "name": "SBI Mutual Fund - SBI BSE PSU Bank ETF",
+      "last_price": 46.8,
+      "change_pct": -2.54,
+      "volume": 2053523,
+      "turnover_cr": 9.74,
+      "vol_change_1wk_pct": 26.86,
+      "vol_change_2wk_pct": 28.66
     },
     {
       "symbol": "HDFCPSUBK",
       "name": "HDFC Mutual Fund -HDFC NIFTY PSU BANK ETF",
-      "last_price": 83.66,
-      "change_pct": -0.62,
-      "volume": 5719846,
-      "turnover_cr": 47.7,
-      "vol_change_1wk_pct": 18.06,
-      "vol_change_2wk_pct": 17.45
-    },
-    {
-      "symbol": "BANKPSU",
-      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty PSU Bank ETF",
-      "last_price": 83.34,
-      "change_pct": -0.66,
-      "volume": 669611,
-      "turnover_cr": 5.55,
-      "vol_change_1wk_pct": 16.94,
-      "vol_change_2wk_pct": 21.25
-    },
-    {
-      "symbol": "KREBSBIO",
-      "name": "Krebs Biochemicals and Industries Limited",
-      "last_price": 54.19,
-      "change_pct": -6.86,
-      "volume": 65519,
-      "turnover_cr": 0.35,
-      "vol_change_1wk_pct": 13.81,
-      "vol_change_2wk_pct": 10.19
-    },
-    {
-      "symbol": "MIRZAINT",
-      "name": "Mirza International Limited",
-      "last_price": 38.32,
-      "change_pct": 7.73,
-      "volume": 2824515,
-      "turnover_cr": 11.15,
-      "vol_change_1wk_pct": 11.07,
-      "vol_change_2wk_pct": 6.09
-    },
-    {
-      "symbol": "VAIBHAVGBL",
-      "name": "Vaibhav Global Limited",
-      "last_price": 250.3,
-      "change_pct": 5.6,
-      "volume": 2346634,
-      "turnover_cr": 59.32,
-      "vol_change_1wk_pct": 9.97,
-      "vol_change_2wk_pct": 9.8
-    },
-    {
-      "symbol": "ELITECON",
-      "name": "Elitecon International Limited",
-      "last_price": 26.57,
-      "change_pct": 10.34,
-      "volume": 9596236,
-      "turnover_cr": 26.43,
-      "vol_change_1wk_pct": 8.72,
-      "vol_change_2wk_pct": 8.84
+      "last_price": 81.8,
+      "change_pct": -2.83,
+      "volume": 8214716,
+      "turnover_cr": 68.48,
+      "vol_change_1wk_pct": 25.93,
+      "vol_change_2wk_pct": 25.07
     },
     {
       "symbol": "UNICHEMLAB",
       "name": "Unichem Laboratories Limited",
-      "last_price": 520.75,
-      "change_pct": 9.11,
-      "volume": 1140720,
-      "turnover_cr": 58.24,
-      "vol_change_1wk_pct": 8.07,
-      "vol_change_2wk_pct": 8.39
+      "last_price": 572.7,
+      "change_pct": 20,
+      "volume": 3510057,
+      "turnover_cr": 190.47,
+      "vol_change_1wk_pct": 24.84,
+      "vol_change_2wk_pct": 25.81
     },
     {
-      "symbol": "ALKYLAMINE",
-      "name": "Alkyl Amines Chemicals Limited",
-      "last_price": 1932.5,
-      "change_pct": 7.62,
-      "volume": 521331,
-      "turnover_cr": 99.11,
-      "vol_change_1wk_pct": 7.75,
-      "vol_change_2wk_pct": 8.41
+      "symbol": "MADHAV",
+      "name": "Madhav Marbles and Granites Limited",
+      "last_price": 37.87,
+      "change_pct": 4.61,
+      "volume": 43331,
+      "turnover_cr": 0.16,
+      "vol_change_1wk_pct": 18.95,
+      "vol_change_2wk_pct": 10.14
     },
     {
-      "symbol": "DTIL",
-      "name": "Dhunseri Tea & Industries Limited",
-      "last_price": 155.5,
-      "change_pct": 10.31,
-      "volume": 46254,
-      "turnover_cr": 0.7,
-      "vol_change_1wk_pct": 7.6,
-      "vol_change_2wk_pct": 8.87
+      "symbol": "BANKPSU",
+      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty PSU Bank ETF",
+      "last_price": 81.55,
+      "change_pct": -2.79,
+      "volume": 689531,
+      "turnover_cr": 5.71,
+      "vol_change_1wk_pct": 17.44,
+      "vol_change_2wk_pct": 21.88
     },
     {
-      "symbol": "HLEGLAS",
-      "name": "HLE Glascoat Limited",
-      "last_price": 429.25,
-      "change_pct": 6.16,
-      "volume": 1734658,
-      "turnover_cr": 73.71,
-      "vol_change_1wk_pct": 7.34,
-      "vol_change_2wk_pct": 9.6
+      "symbol": "RADHIKAJWE",
+      "name": "Radhika Jeweltech Limited",
+      "last_price": 56.53,
+      "change_pct": 3.55,
+      "volume": 3284544,
+      "turnover_cr": 19.2,
+      "vol_change_1wk_pct": 16.47,
+      "vol_change_2wk_pct": 17.7
     },
     {
-      "symbol": "SHAREINDIA",
-      "name": "Share India Securities Limited",
-      "last_price": 183.46,
-      "change_pct": 11.25,
-      "volume": 61721745,
-      "turnover_cr": 1111.98,
-      "vol_change_1wk_pct": 6.73,
-      "vol_change_2wk_pct": 10.94
+      "symbol": "KREBSBIO",
+      "name": "Krebs Biochemicals and Industries Limited",
+      "last_price": 54,
+      "change_pct": -7.18,
+      "volume": 75953,
+      "turnover_cr": 0.41,
+      "vol_change_1wk_pct": 16.01,
+      "vol_change_2wk_pct": 11.82
+    },
+    {
+      "symbol": "PALASHSECU",
+      "name": "Palash Securities Limited",
+      "last_price": 92.9,
+      "change_pct": 0.5,
+      "volume": 11700,
+      "turnover_cr": 0.11,
+      "vol_change_1wk_pct": 15.13,
+      "vol_change_2wk_pct": 14.44
+    },
+    {
+      "symbol": "MONEXT50",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Next 50 ETF",
+      "last_price": 70.7,
+      "change_pct": -1.52,
+      "volume": 111055,
+      "turnover_cr": 0.8,
+      "vol_change_1wk_pct": 14.83,
+      "vol_change_2wk_pct": 1.16
+    },
+    {
+      "symbol": "MIRZAINT",
+      "name": "Mirza International Limited",
+      "last_price": 38.15,
+      "change_pct": 7.25,
+      "volume": 3707062,
+      "turnover_cr": 14.5,
+      "vol_change_1wk_pct": 14.53,
+      "vol_change_2wk_pct": 8.0
+    },
+    {
+      "symbol": "ELITECON",
+      "name": "Elitecon International Limited",
+      "last_price": 24.16,
+      "change_pct": 0.33,
+      "volume": 15162681,
+      "turnover_cr": 40.32,
+      "vol_change_1wk_pct": 13.78,
+      "vol_change_2wk_pct": 13.97
     }
   ]
 }

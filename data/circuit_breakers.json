@@ -1,111 +1,71 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-08T06:33:18Z",
+    "last_updated": "2026-07-08T09:13:19Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "DPABHUSHAN",
-        "name": "DPABHUSHAN",
-        "last_price": 1118.5,
-        "prev_close": 958.6,
-        "change": 16.68,
-        "change_pct": 16.68,
-        "volume": 491828,
-        "turnover_cr": 53.56
-      },
-      {
-        "symbol": "DHUNINV",
-        "name": "DHUNINV",
-        "last_price": 1005.6,
-        "prev_close": 879.35,
-        "change": 14.36,
-        "change_pct": 14.36,
-        "volume": 24350,
-        "turnover_cr": 2.48
-      },
-      {
-        "symbol": "DBSTOCKBRO",
-        "name": "DBSTOCKBRO",
-        "last_price": 48.15,
-        "prev_close": 42.14,
-        "change": 14.26,
-        "change_pct": 14.26,
-        "volume": 957132,
-        "turnover_cr": 4.48
+        "symbol": "UNICHEMLAB",
+        "name": "UNICHEMLAB",
+        "last_price": 572.7,
+        "prev_close": 477.25,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 3510057,
+        "turnover_cr": 190.47
       },
       {
         "symbol": "JINDRILL",
         "name": "JINDRILL",
-        "last_price": 617.2,
+        "last_price": 606.95,
         "prev_close": 540.2,
-        "change": 14.25,
-        "change_pct": 14.25,
-        "volume": 10801827,
-        "turnover_cr": 654.8
+        "change": 12.36,
+        "change_pct": 12.36,
+        "volume": 17676509,
+        "turnover_cr": 1073.34
       },
       {
-        "symbol": "GEMAROMA",
-        "name": "GEMAROMA",
-        "last_price": 218.71,
-        "prev_close": 194.02,
-        "change": 12.73,
-        "change_pct": 12.73,
-        "volume": 14267761,
-        "turnover_cr": 313.46
-      },
-      {
-        "symbol": "MASTERTR",
-        "name": "MASTERTR",
-        "last_price": 84,
-        "prev_close": 75.24,
-        "change": 11.64,
-        "change_pct": 11.64,
-        "volume": 9468739,
-        "turnover_cr": 79.5
+        "symbol": "DPABHUSHAN",
+        "name": "DPABHUSHAN",
+        "last_price": 1065,
+        "prev_close": 958.6,
+        "change": 11.1,
+        "change_pct": 11.1,
+        "volume": 718639,
+        "turnover_cr": 78.18
       },
       {
         "symbol": "SGMART",
         "name": "SGMART",
-        "last_price": 667,
+        "last_price": 664.25,
         "prev_close": 599.95,
-        "change": 11.18,
-        "change_pct": 11.18,
-        "volume": 1247809,
-        "turnover_cr": 81.45
+        "change": 10.72,
+        "change_pct": 10.72,
+        "volume": 7132567,
+        "turnover_cr": 477.12
       },
       {
-        "symbol": "SHAREINDIA",
-        "name": "SHAREINDIA",
-        "last_price": 182.98,
-        "prev_close": 164.91,
-        "change": 10.96,
-        "change_pct": 10.96,
-        "volume": 61686979,
-        "turnover_cr": 1111.35
+        "symbol": "BNALTD",
+        "name": "BNALTD",
+        "last_price": 396.95,
+        "prev_close": 360,
+        "change": 10.26,
+        "change_pct": 10.26,
+        "volume": 123,
+        "turnover_cr": 0.0
       },
       {
-        "symbol": "ELITECON",
-        "name": "ELITECON",
-        "last_price": 26.57,
-        "prev_close": 24.08,
-        "change": 10.34,
-        "change_pct": 10.34,
-        "volume": 9593648,
-        "turnover_cr": 26.42
-      },
-      {
-        "symbol": "BALAMINES",
-        "name": "BALAMINES",
-        "last_price": 2277.1,
-        "prev_close": 2067.8,
-        "change": 10.12,
-        "change_pct": 10.12,
-        "volume": 925722,
-        "turnover_cr": 207.75
+        "symbol": "ITDC",
+        "name": "ITDC",
+        "last_price": 773.65,
+        "prev_close": 702.8,
+        "change": 10.08,
+        "change_pct": 10.08,
+        "volume": 26289097,
+        "turnover_cr": 1958.46
       },
       {
         "symbol": "ZSARACOM",
@@ -114,11 +74,31 @@
         "prev_close": 12404,
         "change": 10,
         "change_pct": 10,
-        "volume": 1009,
-        "turnover_cr": 1.37
+        "volume": 1334,
+        "turnover_cr": 1.81
       }
     ],
     "lower_circuit": [
+      {
+        "symbol": "FINKURVE",
+        "name": "FINKURVE",
+        "last_price": 63,
+        "prev_close": 70.12,
+        "change": -10.15,
+        "change_pct": -10.15,
+        "volume": 94762,
+        "turnover_cr": 0.62
+      },
+      {
+        "symbol": "KAUSHALYA",
+        "name": "KAUSHALYA",
+        "last_price": 1146.15,
+        "prev_close": 1273.5,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 7015,
+        "turnover_cr": 0.82
+      },
       {
         "symbol": "NATIONSTD",
         "name": "NATIONSTD",
@@ -126,8 +106,18 @@
         "prev_close": 694.1,
         "change": -10,
         "change_pct": -10,
-        "volume": 257308,
-        "turnover_cr": 16.24
+        "volume": 355877,
+        "turnover_cr": 22.48
+      },
+      {
+        "symbol": "DJML",
+        "name": "DJML",
+        "last_price": 108.55,
+        "prev_close": 120.61,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 360707,
+        "turnover_cr": 4.14
       }
     ]
   }
