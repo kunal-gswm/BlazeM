@@ -1,151 +1,211 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-09T07:42:02Z",
+    "last_updated": "2026-07-09T10:42:11Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "KALYANKJIL",
-        "name": "KALYANKJIL",
-        "last_price": 440.65,
-        "prev_close": 374.15,
-        "change": 17.77,
-        "change_pct": 17.77,
-        "volume": 87102887,
-        "turnover_cr": 3673.13
-      },
-      {
         "symbol": "MASTERTR",
         "name": "MASTERTR",
-        "last_price": 93.25,
+        "last_price": 94.7,
         "prev_close": 80.51,
-        "change": 15.82,
-        "change_pct": 15.82,
-        "volume": 14383985,
-        "turnover_cr": 131.38
+        "change": 17.63,
+        "change_pct": 17.63,
+        "volume": 17957760,
+        "turnover_cr": 165.05
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "name": "KALYANKJIL",
+        "last_price": 439.75,
+        "prev_close": 374.15,
+        "change": 17.53,
+        "change_pct": 17.53,
+        "volume": 117145048,
+        "turnover_cr": 5005.73
       },
       {
         "symbol": "TBZ",
         "name": "TBZ",
-        "last_price": 229.7,
+        "last_price": 235.2,
         "prev_close": 201.7,
-        "change": 13.88,
-        "change_pct": 13.88,
-        "volume": 9324773,
-        "turnover_cr": 212.71
-      },
-      {
-        "symbol": "BUILDPRO",
-        "name": "BUILDPRO",
-        "last_price": 1199.5,
-        "prev_close": 1057.1,
-        "change": 13.47,
-        "change_pct": 13.47,
-        "volume": 564066,
-        "turnover_cr": 67.23
-      },
-      {
-        "symbol": "INA",
-        "name": "INA",
-        "last_price": 123,
-        "prev_close": 108.5,
-        "change": 13.36,
-        "change_pct": 13.36,
-        "volume": 11723445,
-        "turnover_cr": 143.07
-      },
-      {
-        "symbol": "BPL",
-        "name": "BPL",
-        "last_price": 60.39,
-        "prev_close": 53.34,
-        "change": 13.22,
-        "change_pct": 13.22,
-        "volume": 662583,
-        "turnover_cr": 4.08
-      },
-      {
-        "symbol": "MAPMYINDIA",
-        "name": "MAPMYINDIA",
-        "last_price": 1053.55,
-        "prev_close": 931.45,
-        "change": 13.11,
-        "change_pct": 13.11,
-        "volume": 3343307,
-        "turnover_cr": 339.74
+        "change": 16.61,
+        "change_pct": 16.61,
+        "volume": 14601407,
+        "turnover_cr": 336.66
       },
       {
         "symbol": "UNICHEMLAB",
         "name": "UNICHEMLAB",
-        "last_price": 646.35,
+        "last_price": 655,
         "prev_close": 572.7,
-        "change": 12.86,
-        "change_pct": 12.86,
-        "volume": 8575889,
-        "turnover_cr": 554.32
+        "change": 14.37,
+        "change_pct": 14.37,
+        "volume": 9638575,
+        "turnover_cr": 623.17
       },
       {
-        "symbol": "TCIEXP",
-        "name": "TCIEXP",
-        "last_price": 558.1,
-        "prev_close": 499,
-        "change": 11.84,
-        "change_pct": 11.84,
-        "volume": 2377479,
-        "turnover_cr": 133.56
+        "symbol": "MAPMYINDIA",
+        "name": "MAPMYINDIA",
+        "last_price": 1060.25,
+        "prev_close": 931.45,
+        "change": 13.83,
+        "change_pct": 13.83,
+        "volume": 7268771,
+        "turnover_cr": 757.73
+      },
+      {
+        "symbol": "BUILDPRO",
+        "name": "BUILDPRO",
+        "last_price": 1199.9,
+        "prev_close": 1057.1,
+        "change": 13.51,
+        "change_pct": 13.51,
+        "volume": 654905,
+        "turnover_cr": 78.14
+      },
+      {
+        "symbol": "PML",
+        "name": "PML",
+        "last_price": 519,
+        "prev_close": 458.3,
+        "change": 13.24,
+        "change_pct": 13.24,
+        "volume": 631,
+        "turnover_cr": 0.03
       },
       {
         "symbol": "INDNIPPON",
         "name": "INDNIPPON",
-        "last_price": 1123.8,
+        "last_price": 1140,
         "prev_close": 1007.4,
-        "change": 11.55,
-        "change_pct": 11.55,
-        "volume": 181214,
-        "turnover_cr": 19.64
+        "change": 13.16,
+        "change_pct": 13.16,
+        "volume": 599986,
+        "turnover_cr": 66.66
       },
       {
-        "symbol": "MARSONS",
-        "name": "MARSONS",
-        "last_price": 116.99,
-        "prev_close": 105.64,
-        "change": 10.74,
-        "change_pct": 10.74,
-        "volume": 2104092,
-        "turnover_cr": 24.07
+        "symbol": "IKIO",
+        "name": "IKIO",
+        "last_price": 203.9,
+        "prev_close": 181.44,
+        "change": 12.38,
+        "change_pct": 12.38,
+        "volume": 8913230,
+        "turnover_cr": 181.87
+      },
+      {
+        "symbol": "INA",
+        "name": "INA",
+        "last_price": 121.3,
+        "prev_close": 108.5,
+        "change": 11.8,
+        "change_pct": 11.8,
+        "volume": 42385448,
+        "turnover_cr": 513.46
+      },
+      {
+        "symbol": "MBAPL",
+        "name": "MBAPL",
+        "last_price": 131.7,
+        "prev_close": 118.05,
+        "change": 11.56,
+        "change_pct": 11.56,
+        "volume": 2221219,
+        "turnover_cr": 28.03
+      },
+      {
+        "symbol": "JNKINDIA",
+        "name": "JNKINDIA",
+        "last_price": 518,
+        "prev_close": 464.9,
+        "change": 11.42,
+        "change_pct": 11.42,
+        "volume": 1710180,
+        "turnover_cr": 86.36
       },
       {
         "symbol": "RADHIKAJWE",
         "name": "RADHIKAJWE",
-        "last_price": 62.16,
+        "last_price": 62.65,
         "prev_close": 56.27,
-        "change": 10.47,
-        "change_pct": 10.47,
-        "volume": 7845890,
-        "turnover_cr": 49.29
+        "change": 11.34,
+        "change_pct": 11.34,
+        "volume": 14988247,
+        "turnover_cr": 94.74
+      },
+      {
+        "symbol": "MARSONS",
+        "name": "MARSONS",
+        "last_price": 117.5,
+        "prev_close": 105.64,
+        "change": 11.23,
+        "change_pct": 11.23,
+        "volume": 3999130,
+        "turnover_cr": 46.17
+      },
+      {
+        "symbol": "AZAD",
+        "name": "AZAD",
+        "last_price": 2478,
+        "prev_close": 2229.4,
+        "change": 11.15,
+        "change_pct": 11.15,
+        "volume": 2468476,
+        "turnover_cr": 595.84
       },
       {
         "symbol": "FERMENTA",
         "name": "FERMENTA",
-        "last_price": 399.95,
+        "last_price": 402.2,
         "prev_close": 363.3,
-        "change": 10.09,
-        "change_pct": 10.09,
-        "volume": 1777834,
-        "turnover_cr": 72.17
+        "change": 10.71,
+        "change_pct": 10.71,
+        "volume": 2186102,
+        "turnover_cr": 88.59
       },
       {
-        "symbol": "COCKERILL",
-        "name": "COCKERILL",
-        "last_price": 9342.5,
-        "prev_close": 8493.5,
+        "symbol": "SUVEN",
+        "name": "SUVEN",
+        "last_price": 350,
+        "prev_close": 317.1,
+        "change": 10.38,
+        "change_pct": 10.38,
+        "volume": 2981090,
+        "turnover_cr": 101.21
+      },
+      {
+        "symbol": "BPL",
+        "name": "BPL",
+        "last_price": 58.72,
+        "prev_close": 53.34,
+        "change": 10.09,
+        "change_pct": 10.09,
+        "volume": 935759,
+        "turnover_cr": 5.71
+      },
+      {
+        "symbol": "TCIEXP",
+        "name": "TCIEXP",
+        "last_price": 548.95,
+        "prev_close": 499,
+        "change": 10.01,
+        "change_pct": 10.01,
+        "volume": 2889155,
+        "turnover_cr": 162.17
+      },
+      {
+        "symbol": "SOMATEX",
+        "name": "SOMATEX",
+        "last_price": 112.8,
+        "prev_close": 102.55,
         "change": 10,
         "change_pct": 10,
-        "volume": 17717,
-        "turnover_cr": 16.24
+        "volume": 41311,
+        "turnover_cr": 0.45
       }
     ],
     "lower_circuit": []
