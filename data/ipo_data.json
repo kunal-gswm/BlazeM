@@ -1,32 +1,11 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-09T13:39:55Z",
+    "last_updated": "2026-07-10T07:41:23Z",
     "status": "healthy",
     "record_count": 4
   },
   "data": [
-    {
-      "issue_name": "SBI Funds Management",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "574",
-      "lot_size": "26",
-      "issue_size": "₹11692.91 Cr",
-      "issue_open": "2026-07-14",
-      "issue_close": "2026-07-16",
-      "allotment_date": "2026-07-17",
-      "listing_date": "2026-07-21",
-      "gmp": 91.0,
-      "gmp_percent": "15.85%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/sbi-funds-management-ipo/2210/",
-      "scraped_at": "2026-07-09T13:39:38.613125+00:00Z"
-    },
     {
       "issue_name": "Alpine Texworld",
       "ipo_type": "Mainboard",
@@ -38,15 +17,36 @@
       "issue_close": "2026-07-16",
       "allotment_date": "2026-07-17",
       "listing_date": "2026-07-21",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 2.0,
+      "gmp_percent": "1.90%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/alpine-texworld-ipo/1940/",
-      "scraped_at": "2026-07-09T13:39:38.613274+00:00Z"
+      "scraped_at": "2026-07-10T07:41:02.450139+00:00Z"
+    },
+    {
+      "issue_name": "SBI Funds Management",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "574",
+      "lot_size": "26",
+      "issue_size": "₹11692.91 Cr",
+      "issue_open": "2026-07-14",
+      "issue_close": "2026-07-16",
+      "allotment_date": "2026-07-17",
+      "listing_date": "2026-07-21",
+      "gmp": 92.0,
+      "gmp_percent": "16.03%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/sbi-funds-management-ipo/2210/",
+      "scraped_at": "2026-07-10T07:41:02.450262+00:00Z"
     },
     {
       "issue_name": "Laser Power & Infra",
@@ -59,15 +59,15 @@
       "issue_close": "2026-07-13",
       "allotment_date": "2026-07-14",
       "listing_date": "2026-07-16",
-      "gmp": 24.0,
-      "gmp_percent": "11.21%",
-      "subscription_qib": "0.00x",
-      "subscription_nii": "0.20x",
-      "subscription_retail": "0.26x",
-      "subscription_total": "0.17x",
-      "subscription_applications": "35,492",
+      "gmp": 33.0,
+      "gmp_percent": "15.42%",
+      "subscription_qib": "0.68x",
+      "subscription_nii": "0.77x",
+      "subscription_retail": "0.53x",
+      "subscription_total": "0.62x",
+      "subscription_applications": "76,282",
       "detail_url": "https://www.investorgain.com/gmp/laser-power-infra-ipo/1923/",
-      "scraped_at": "2026-07-09T13:39:38.613399+00:00Z"
+      "scraped_at": "2026-07-10T07:41:02.450376+00:00Z"
     },
     {
       "issue_name": "Kusumgar",
@@ -80,15 +80,15 @@
       "issue_close": "2026-07-10",
       "allotment_date": "2026-07-13",
       "listing_date": "2026-07-15",
-      "gmp": 158.0,
-      "gmp_percent": "37.71%",
-      "subscription_qib": "2.30x",
-      "subscription_nii": "38.71x",
-      "subscription_retail": "10.08x",
-      "subscription_total": "13.91x",
-      "subscription_applications": "13,26,224",
+      "gmp": 163.0,
+      "gmp_percent": "38.90%",
+      "subscription_qib": "21.25x",
+      "subscription_nii": "117.71x",
+      "subscription_retail": "19.39x",
+      "subscription_total": "40.71x",
+      "subscription_applications": "25,90,033",
       "detail_url": "https://www.investorgain.com/gmp/kusumgar-ipo/1595/",
-      "scraped_at": "2026-07-09T13:39:38.613510+00:00Z"
+      "scraped_at": "2026-07-10T07:41:02.450478+00:00Z"
     }
   ]
 }
