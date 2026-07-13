@@ -1,32 +1,11 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-10T12:59:16Z",
+    "last_updated": "2026-07-13T07:26:09Z",
     "status": "healthy",
-    "record_count": 4
+    "record_count": 3
   },
   "data": [
-    {
-      "issue_name": "SBI Funds Management",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "574",
-      "lot_size": "26",
-      "issue_size": "₹11692.91 Cr",
-      "issue_open": "2026-07-14",
-      "issue_close": "2026-07-16",
-      "allotment_date": "2026-07-17",
-      "listing_date": "2026-07-21",
-      "gmp": 123.0,
-      "gmp_percent": "21.43%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/sbi-funds-management-ipo/2210/",
-      "scraped_at": "2026-07-10T12:58:56.319349+00:00Z"
-    },
     {
       "issue_name": "Alpine Texworld",
       "ipo_type": "Mainboard",
@@ -46,7 +25,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/alpine-texworld-ipo/1940/",
-      "scraped_at": "2026-07-10T12:58:56.319477+00:00Z"
+      "scraped_at": "2026-07-13T07:25:48.748650+00:00Z"
+    },
+    {
+      "issue_name": "SBI Funds Management",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "574",
+      "lot_size": "26",
+      "issue_size": "₹9812.91 Cr",
+      "issue_open": "2026-07-14",
+      "issue_close": "2026-07-16",
+      "allotment_date": "2026-07-17",
+      "listing_date": "2026-07-21",
+      "gmp": 99.0,
+      "gmp_percent": "17.25%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/sbi-funds-management-ipo/2210/",
+      "scraped_at": "2026-07-13T07:25:48.748770+00:00Z"
     },
     {
       "issue_name": "Laser Power & Infra",
@@ -59,36 +59,15 @@
       "issue_close": "2026-07-13",
       "allotment_date": "2026-07-14",
       "listing_date": "2026-07-16",
-      "gmp": 35.0,
-      "gmp_percent": "16.36%",
-      "subscription_qib": "0.68x",
-      "subscription_nii": "2.03x",
-      "subscription_retail": "0.85x",
-      "subscription_total": "1.05x",
-      "subscription_applications": "1,27,871",
+      "gmp": 29.0,
+      "gmp_percent": "13.55%",
+      "subscription_qib": "0.96x",
+      "subscription_nii": "15.30x",
+      "subscription_retail": "2.79x",
+      "subscription_total": "4.95x",
+      "subscription_applications": "4,49,640",
       "detail_url": "https://www.investorgain.com/gmp/laser-power-infra-ipo/1923/",
-      "scraped_at": "2026-07-10T12:58:56.319580+00:00Z"
-    },
-    {
-      "issue_name": "Kusumgar",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "419",
-      "lot_size": "35",
-      "issue_size": "₹650.00 Cr",
-      "issue_open": "2026-07-08",
-      "issue_close": "2026-07-10",
-      "allotment_date": "2026-07-13",
-      "listing_date": "2026-07-15",
-      "gmp": 165.0,
-      "gmp_percent": "39.38%",
-      "subscription_qib": "299.51x",
-      "subscription_nii": "174.28x",
-      "subscription_retail": "27.97x",
-      "subscription_total": "135.80x",
-      "subscription_applications": "37,19,640",
-      "detail_url": "https://www.investorgain.com/gmp/kusumgar-ipo/1595/",
-      "scraped_at": "2026-07-10T12:58:56.319680+00:00Z"
+      "scraped_at": "2026-07-13T07:25:48.748859+00:00Z"
     }
   ]
 }
