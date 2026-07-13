@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-13T07:26:17Z",
+    "last_updated": "2026-07-13T10:40:52Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 193.34,
         "change": 20,
         "change_pct": 20,
-        "volume": 130915,
-        "turnover_cr": 2.92
+        "volume": 134714,
+        "turnover_cr": 3.01
       },
       {
         "symbol": "SHARDUL",
@@ -24,7 +24,7 @@
         "prev_close": 33.6,
         "change": 20,
         "change_pct": 20,
-        "volume": 2965,
+        "volume": 3090,
         "turnover_cr": 0.01
       },
       {
@@ -34,8 +34,8 @@
         "prev_close": 564.05,
         "change": 20,
         "change_pct": 20,
-        "volume": 15071469,
-        "turnover_cr": 976.22
+        "volume": 15126498,
+        "turnover_cr": 979.96
       },
       {
         "symbol": "HESTERBIO",
@@ -44,118 +44,178 @@
         "prev_close": 2120.9,
         "change": 20,
         "change_pct": 20,
-        "volume": 402822,
-        "turnover_cr": 100.04
+        "volume": 482367,
+        "turnover_cr": 120.25
+      },
+      {
+        "symbol": "FINOPB",
+        "name": "FINOPB",
+        "last_price": 161.99,
+        "prev_close": 135.4,
+        "change": 19.64,
+        "change_pct": 19.64,
+        "volume": 29573133,
+        "turnover_cr": 453.74
       },
       {
         "symbol": "BFUTILITIE",
         "name": "BFUTILITIE",
-        "last_price": 673.1,
+        "last_price": 670,
         "prev_close": 578.8,
-        "change": 16.29,
-        "change_pct": 16.29,
-        "volume": 2737881,
-        "turnover_cr": 180.55
+        "change": 15.76,
+        "change_pct": 15.76,
+        "volume": 4308780,
+        "turnover_cr": 287.88
       },
       {
-        "symbol": "SKMEGGPROD",
-        "name": "SKMEGGPROD",
-        "last_price": 367.45,
-        "prev_close": 321.35,
-        "change": 14.35,
-        "change_pct": 14.35,
-        "volume": 3256882,
-        "turnover_cr": 115.71
-      },
-      {
-        "symbol": "CNL",
-        "name": "CNL",
-        "last_price": 964.45,
-        "prev_close": 847.5,
-        "change": 13.8,
-        "change_pct": 13.8,
-        "volume": 493830,
-        "turnover_cr": 45.96
-      },
-      {
-        "symbol": "PURVA",
-        "name": "PURVA",
-        "last_price": 254.44,
-        "prev_close": 224.06,
-        "change": 13.56,
-        "change_pct": 13.56,
-        "volume": 10403426,
-        "turnover_cr": 263.51
-      },
-      {
-        "symbol": "EPIGRAL",
-        "name": "EPIGRAL",
-        "last_price": 1091.2,
-        "prev_close": 977.6,
-        "change": 11.62,
-        "change_pct": 11.62,
-        "volume": 536807,
-        "turnover_cr": 58.09
-      },
-      {
-        "symbol": "INDIANHUME",
-        "name": "INDIANHUME",
-        "last_price": 407.15,
-        "prev_close": 367.05,
-        "change": 10.92,
-        "change_pct": 10.92,
-        "volume": 2858564,
-        "turnover_cr": 116.06
+        "symbol": "MSCI360",
+        "name": "MSCI360",
+        "last_price": 11.49,
+        "prev_close": 10.05,
+        "change": 14.33,
+        "change_pct": 14.33,
+        "volume": 17492,
+        "turnover_cr": 0.02
       },
       {
         "symbol": "PPAP",
         "name": "PPAP",
-        "last_price": 357.72,
+        "last_price": 369.2,
         "prev_close": 323.37,
-        "change": 10.62,
-        "change_pct": 10.62,
-        "volume": 2142848,
-        "turnover_cr": 75.12
+        "change": 14.17,
+        "change_pct": 14.17,
+        "volume": 3404728,
+        "turnover_cr": 121.4
       },
       {
-        "symbol": "KALYANKJIL",
-        "name": "KALYANKJIL",
-        "last_price": 525.85,
-        "prev_close": 476.15,
-        "change": 10.44,
-        "change_pct": 10.44,
-        "volume": 105980344,
-        "turnover_cr": 5379.56
+        "symbol": "BOROLTD",
+        "name": "BOROLTD",
+        "last_price": 264,
+        "prev_close": 231.97,
+        "change": 13.81,
+        "change_pct": 13.81,
+        "volume": 616555,
+        "turnover_cr": 15.52
       },
       {
-        "symbol": "BCLIND",
-        "name": "BCLIND",
-        "last_price": 37.71,
-        "prev_close": 34.24,
-        "change": 10.13,
-        "change_pct": 10.13,
-        "volume": 32978285,
-        "turnover_cr": 127.2
+        "symbol": "NEWGEN",
+        "name": "NEWGEN",
+        "last_price": 585.85,
+        "prev_close": 517.2,
+        "change": 13.27,
+        "change_pct": 13.27,
+        "volume": 32487365,
+        "turnover_cr": 1868.38
+      },
+      {
+        "symbol": "NOVARTIND",
+        "name": "NOVARTIND",
+        "last_price": 1688.5,
+        "prev_close": 1494.6,
+        "change": 12.97,
+        "change_pct": 12.97,
+        "volume": 307545,
+        "turnover_cr": 50.3
+      },
+      {
+        "symbol": "GNA",
+        "name": "GNA",
+        "last_price": 536.95,
+        "prev_close": 475.4,
+        "change": 12.95,
+        "change_pct": 12.95,
+        "volume": 2017627,
+        "turnover_cr": 103.49
+      },
+      {
+        "symbol": "TRIGYN",
+        "name": "TRIGYN",
+        "last_price": 58.9,
+        "prev_close": 52.43,
+        "change": 12.34,
+        "change_pct": 12.34,
+        "volume": 270136,
+        "turnover_cr": 1.58
       },
       {
         "symbol": "SANGAMIND",
         "name": "SANGAMIND",
-        "last_price": 614.7,
+        "last_price": 627,
         "prev_close": 558.75,
-        "change": 10.01,
-        "change_pct": 10.01,
-        "volume": 2569575,
-        "turnover_cr": 159.45
+        "change": 12.21,
+        "change_pct": 12.21,
+        "volume": 3455676,
+        "turnover_cr": 214.36
       },
       {
-        "symbol": "JITFINFRA",
-        "name": "JITFINFRA",
-        "last_price": 357.6,
-        "prev_close": 325.1,
+        "symbol": "CNL",
+        "name": "CNL",
+        "last_price": 947,
+        "prev_close": 847.5,
+        "change": 11.74,
+        "change_pct": 11.74,
+        "volume": 2108393,
+        "turnover_cr": 201.33
+      },
+      {
+        "symbol": "INDIANHUME",
+        "name": "INDIANHUME",
+        "last_price": 409.8,
+        "prev_close": 367.05,
+        "change": 11.65,
+        "change_pct": 11.65,
+        "volume": 4001020,
+        "turnover_cr": 162.64
+      },
+      {
+        "symbol": "BCLIND",
+        "name": "BCLIND",
+        "last_price": 38.19,
+        "prev_close": 34.24,
+        "change": 11.54,
+        "change_pct": 11.54,
+        "volume": 58370999,
+        "turnover_cr": 222.98
+      },
+      {
+        "symbol": "PURVA",
+        "name": "PURVA",
+        "last_price": 249.4,
+        "prev_close": 224.06,
+        "change": 11.31,
+        "change_pct": 11.31,
+        "volume": 13995860,
+        "turnover_cr": 353.62
+      },
+      {
+        "symbol": "SKMEGGPROD",
+        "name": "SKMEGGPROD",
+        "last_price": 357,
+        "prev_close": 321.35,
+        "change": 11.09,
+        "change_pct": 11.09,
+        "volume": 5940256,
+        "turnover_cr": 212.71
+      },
+      {
+        "symbol": "JETFREIGHT",
+        "name": "JETFREIGHT",
+        "last_price": 22.8,
+        "prev_close": 20.58,
+        "change": 10.79,
+        "change_pct": 10.79,
+        "volume": 450473,
+        "turnover_cr": 1.0
+      },
+      {
+        "symbol": "RAMCOSYS",
+        "name": "RAMCOSYS",
+        "last_price": 886.15,
+        "prev_close": 805.6,
         "change": 10,
         "change_pct": 10,
-        "volume": 127607,
-        "turnover_cr": 4.37
+        "volume": 2369609,
+        "turnover_cr": 204.22
       }
     ],
     "lower_circuit": [
@@ -166,8 +226,18 @@
         "prev_close": 0.3,
         "change": -40,
         "change_pct": -40,
-        "volume": 1188876,
-        "turnover_cr": 0.02
+        "volume": 1599765,
+        "turnover_cr": 0.03
+      },
+      {
+        "symbol": "SHRADHA",
+        "name": "SHRADHA",
+        "last_price": 27,
+        "prev_close": 32.47,
+        "change": -16.85,
+        "change_pct": -16.85,
+        "volume": 138031,
+        "turnover_cr": 0.41
       }
     ]
   }
