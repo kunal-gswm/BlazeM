@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-13T15:45:56Z",
+    "last_updated": "2026-07-13T18:00:40Z",
     "status": "healthy",
     "record_count": 200
   },
@@ -66,7 +66,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260727",
-      "long_name": "Deepak Nitrite Ltd-$",
+      "long_name": "Deepak Nitrite Ltd",
       "action_type": "Dividend",
       "dividend_amount": 7.5
     },
@@ -578,7 +578,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260724",
-      "long_name": "Kirloskar Brothers Ltd-$",
+      "long_name": "Kirloskar Brothers Ltd",
       "action_type": "Dividend",
       "dividend_amount": 7.0
     },
@@ -658,7 +658,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260724",
-      "long_name": "Nitta Gelatin India Ltd-$",
+      "long_name": "Nitta Gelatin India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 7.0
     },
@@ -802,7 +802,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260724",
-      "long_name": "Siyaram Silk Mills Ltd-$",
+      "long_name": "Siyaram Silk Mills Ltd",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -834,7 +834,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260724",
-      "long_name": "Swelect Energy Systems Ltd-$",
+      "long_name": "Swelect Energy Systems Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.5
     },
@@ -914,7 +914,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260723",
-      "long_name": "Banswara Syntex Ltd-$",
+      "long_name": "Banswara Syntex Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -954,22 +954,6 @@
       "scrip_code": 532835,
       "short_name": "ICRA",
       "Ex_date": "23 Jul 2026",
-      "Purpose": "Special Dividend - Rs. - 35.0000",
-      "RD_Date": "23 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "",
-      "ND_END_DATE": "",
-      "payment_date": "",
-      "exdate": "20260723",
-      "long_name": "ICRA Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 35.0
-    },
-    {
-      "scrip_code": 532835,
-      "short_name": "ICRA",
-      "Ex_date": "23 Jul 2026",
       "Purpose": "Final Dividend - Rs. - 70.0000",
       "RD_Date": "23 Jul 2026",
       "BCRD_FROM": "",
@@ -981,6 +965,22 @@
       "long_name": "ICRA Ltd",
       "action_type": "Dividend",
       "dividend_amount": 70.0
+    },
+    {
+      "scrip_code": 532835,
+      "short_name": "ICRA",
+      "Ex_date": "23 Jul 2026",
+      "Purpose": "Special Dividend - Rs. - 35.0000",
+      "RD_Date": "23 Jul 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260723",
+      "long_name": "ICRA Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 35.0
     },
     {
       "scrip_code": 544764,
@@ -1138,7 +1138,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260722",
-      "long_name": "Hawkins Cookers Ltd-$",
+      "long_name": "Hawkins Cookers Ltd",
       "action_type": "Dividend",
       "dividend_amount": 140.0
     },
@@ -1170,7 +1170,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260722",
-      "long_name": "Ram Ratna Wires Ltd-$",
+      "long_name": "Ram Ratna Wires Ltd",
       "action_type": "Dividend",
       "dividend_amount": 2.5
     },
@@ -1202,7 +1202,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260722",
-      "long_name": "Sarla Performance Fibers Ltd-$",
+      "long_name": "Sarla Performance Fibers Ltd",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1282,7 +1282,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260721",
-      "long_name": "Indo Borax & Chemicals Ltd-$",
+      "long_name": "Indo Borax & Chemicals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -1298,7 +1298,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260721",
-      "long_name": "Indo Borax & Chemicals Ltd-$",
+      "long_name": "Indo Borax & Chemicals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 30.0
     },
@@ -1698,7 +1698,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Bajaj Electricals Ltd-$",
+      "long_name": "Bajaj Electricals Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -1714,7 +1714,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Balkrishna Industries Ltd-$",
+      "long_name": "Balkrishna Industries Ltd",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -1730,7 +1730,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Bharat Seats Ltd-$",
+      "long_name": "Bharat Seats Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -1890,7 +1890,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Duncan Engineering Ltd-$",
+      "long_name": "Duncan Engineering Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -1994,22 +1994,6 @@
       "scrip_code": 504741,
       "short_name": "INDIANHUME",
       "Ex_date": "17 Jul 2026",
-      "Purpose": "Special Dividend - Rs. - 3.0000",
-      "RD_Date": "17 Jul 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "14 Jul 2026",
-      "ND_END_DATE": "17 Jul 2026",
-      "payment_date": "",
-      "exdate": "20260717",
-      "long_name": "Indian Hume Pipe Company Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 3.0
-    },
-    {
-      "scrip_code": 504741,
-      "short_name": "INDIANHUME",
-      "Ex_date": "17 Jul 2026",
       "Purpose": "Dividend - Rs. - 2.0000",
       "RD_Date": "17 Jul 2026",
       "BCRD_FROM": "",
@@ -2023,6 +2007,22 @@
       "dividend_amount": 2.0
     },
     {
+      "scrip_code": 504741,
+      "short_name": "INDIANHUME",
+      "Ex_date": "17 Jul 2026",
+      "Purpose": "Special Dividend - Rs. - 3.0000",
+      "RD_Date": "17 Jul 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "14 Jul 2026",
+      "ND_END_DATE": "17 Jul 2026",
+      "payment_date": "",
+      "exdate": "20260717",
+      "long_name": "Indian Hume Pipe Company Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 3.0
+    },
+    {
       "scrip_code": 523586,
       "short_name": "INDTONER",
       "Ex_date": "17 Jul 2026",
@@ -2034,7 +2034,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Indian Toners & Developers Ltd-$",
+      "long_name": "Indian Toners & Developers Ltd",
       "action_type": "Split",
       "dividend_amount": null
     },
@@ -2290,7 +2290,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Punjab Chemicals & Crop Protection Ltd-$",
+      "long_name": "Punjab Chemicals & Crop Protection Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -2386,7 +2386,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Sky Industries Ltd-$",
+      "long_name": "Sky Industries Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -2514,7 +2514,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "TTK Healthcare Ltd-$",
+      "long_name": "TTK Healthcare Ltd",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -2658,7 +2658,7 @@
       "ND_END_DATE": "17 Jul 2026",
       "payment_date": "",
       "exdate": "20260717",
-      "long_name": "Zydus Wellness Ltd-$",
+      "long_name": "Zydus Wellness Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.2
     },
@@ -2818,7 +2818,7 @@
       "ND_END_DATE": "15 Jul 2026",
       "payment_date": "",
       "exdate": "20260715",
-      "long_name": "Automobile Corporation of Goa Ltd-$",
+      "long_name": "Automobile Corporation of Goa Ltd",
       "action_type": "Dividend",
       "dividend_amount": 22.5
     },
@@ -2834,7 +2834,7 @@
       "ND_END_DATE": "15 Jul 2026",
       "payment_date": "",
       "exdate": "20260715",
-      "long_name": "Bharat Bijlee Ltd-$",
+      "long_name": "Bharat Bijlee Ltd",
       "action_type": "Dividend",
       "dividend_amount": 35.0
     },
@@ -2962,7 +2962,7 @@
       "ND_END_DATE": "14 Jul 2026",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Bimetal Bearings Ltd-$",
+      "long_name": "Bimetal Bearings Ltd",
       "action_type": "Dividend",
       "dividend_amount": 13.5
     },
@@ -3026,7 +3026,7 @@
       "ND_END_DATE": "14 Jul 2026",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Modison Ltd-$",
+      "long_name": "Modison Ltd",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -3106,7 +3106,7 @@
       "ND_END_DATE": "14 Jul 2026",
       "payment_date": "",
       "exdate": "20260714",
-      "long_name": "Ultramarine & Pigments Ltd-$",
+      "long_name": "Ultramarine & Pigments Ltd",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -3138,7 +3138,7 @@
       "ND_END_DATE": "13 Jul 2026",
       "payment_date": "",
       "exdate": "20260713",
-      "long_name": "Bhansali Engineering Polymers Ltd-$",
+      "long_name": "Bhansali Engineering Polymers Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -3186,7 +3186,7 @@
       "ND_END_DATE": "13 Jul 2026",
       "payment_date": "",
       "exdate": "20260713",
-      "long_name": "Super Sales India Ltd-$",
+      "long_name": "Super Sales India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 2.5
     },
