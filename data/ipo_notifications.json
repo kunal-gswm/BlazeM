@@ -14,5 +14,13 @@
   "laser power & infra": {
     "open_notified": true,
     "closed_notified": true
+  },
+  "alpine texworld": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "sbi funds management": {
+    "open_notified": true,
+    "closed_notified": false
   }
 }

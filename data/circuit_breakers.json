@@ -1,243 +1,153 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-13T13:07:01Z",
+    "last_updated": "2026-07-14T06:16:12Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "TAINWALCHM",
-        "name": "TAINWALCHM",
-        "last_price": 232,
-        "prev_close": 193.34,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 134714,
-        "turnover_cr": 3.01
+        "symbol": "SHRADHA",
+        "name": "SHRADHA",
+        "last_price": 35.54,
+        "prev_close": 29.62,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 584151,
+        "turnover_cr": 1.98
       },
       {
-        "symbol": "SHARDUL",
-        "name": "SHARDUL",
-        "last_price": 40.32,
-        "prev_close": 33.6,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 3090,
-        "turnover_cr": 0.01
+        "symbol": "NURECA",
+        "name": "NURECA",
+        "last_price": 289.72,
+        "prev_close": 245.57,
+        "change": 17.98,
+        "change_pct": 17.98,
+        "volume": 219392,
+        "turnover_cr": 6.2
       },
       {
         "symbol": "JUSTDIAL",
         "name": "JUSTDIAL",
-        "last_price": 676.85,
-        "prev_close": 564.05,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 15126498,
-        "turnover_cr": 979.96
+        "last_price": 772.4,
+        "prev_close": 676.85,
+        "change": 14.12,
+        "change_pct": 14.12,
+        "volume": 22969756,
+        "turnover_cr": 1730.06
       },
       {
-        "symbol": "HESTERBIO",
-        "name": "HESTERBIO",
-        "last_price": 2545,
-        "prev_close": 2120.9,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 482367,
-        "turnover_cr": 120.25
+        "symbol": "HGS",
+        "name": "HGS",
+        "last_price": 474.25,
+        "prev_close": 417.4,
+        "change": 13.62,
+        "change_pct": 13.62,
+        "volume": 581757,
+        "turnover_cr": 26.83
       },
       {
         "symbol": "FINOPB",
         "name": "FINOPB",
-        "last_price": 161.99,
-        "prev_close": 135.4,
-        "change": 19.64,
-        "change_pct": 19.64,
-        "volume": 29573133,
-        "turnover_cr": 453.74
+        "last_price": 181.7,
+        "prev_close": 161.33,
+        "change": 12.63,
+        "change_pct": 12.63,
+        "volume": 35431165,
+        "turnover_cr": 636.95
       },
       {
-        "symbol": "BFUTILITIE",
-        "name": "BFUTILITIE",
-        "last_price": 670,
-        "prev_close": 578.8,
-        "change": 15.76,
-        "change_pct": 15.76,
-        "volume": 4308780,
-        "turnover_cr": 287.88
+        "symbol": "VRAJ",
+        "name": "VRAJ",
+        "last_price": 134.59,
+        "prev_close": 119.55,
+        "change": 12.58,
+        "change_pct": 12.58,
+        "volume": 440107,
+        "turnover_cr": 5.94
       },
       {
-        "symbol": "MSCI360",
-        "name": "MSCI360",
-        "last_price": 11.49,
-        "prev_close": 10.05,
-        "change": 14.33,
-        "change_pct": 14.33,
-        "volume": 17492,
-        "turnover_cr": 0.02
+        "symbol": "ORIENTTECH",
+        "name": "ORIENTTECH",
+        "last_price": 291.3,
+        "prev_close": 258.8,
+        "change": 12.56,
+        "change_pct": 12.56,
+        "volume": 9968408,
+        "turnover_cr": 290.26
       },
       {
-        "symbol": "PPAP",
-        "name": "PPAP",
-        "last_price": 369.2,
-        "prev_close": 323.37,
-        "change": 14.17,
-        "change_pct": 14.17,
-        "volume": 3404728,
-        "turnover_cr": 121.4
+        "symbol": "TBZ",
+        "name": "TBZ",
+        "last_price": 251.12,
+        "prev_close": 225.11,
+        "change": 11.55,
+        "change_pct": 11.55,
+        "volume": 7948834,
+        "turnover_cr": 197.74
       },
       {
-        "symbol": "BOROLTD",
-        "name": "BOROLTD",
-        "last_price": 264,
-        "prev_close": 231.97,
-        "change": 13.81,
-        "change_pct": 13.81,
-        "volume": 616555,
-        "turnover_cr": 15.52
+        "symbol": "WANBURY",
+        "name": "WANBURY",
+        "last_price": 334.55,
+        "prev_close": 300.45,
+        "change": 11.35,
+        "change_pct": 11.35,
+        "volume": 4098015,
+        "turnover_cr": 137.54
       },
       {
-        "symbol": "NEWGEN",
-        "name": "NEWGEN",
-        "last_price": 585.85,
-        "prev_close": 517.2,
-        "change": 13.27,
-        "change_pct": 13.27,
-        "volume": 32487365,
-        "turnover_cr": 1868.38
+        "symbol": "COUNCODOS",
+        "name": "COUNCODOS",
+        "last_price": 7.05,
+        "prev_close": 6.38,
+        "change": 10.5,
+        "change_pct": 10.5,
+        "volume": 703939,
+        "turnover_cr": 0.5
       },
       {
-        "symbol": "NOVARTIND",
-        "name": "NOVARTIND",
-        "last_price": 1688.5,
-        "prev_close": 1494.6,
-        "change": 12.97,
-        "change_pct": 12.97,
-        "volume": 307545,
-        "turnover_cr": 50.3
-      },
-      {
-        "symbol": "GNA",
-        "name": "GNA",
-        "last_price": 536.95,
-        "prev_close": 475.4,
-        "change": 12.95,
-        "change_pct": 12.95,
-        "volume": 2017627,
-        "turnover_cr": 103.49
-      },
-      {
-        "symbol": "TRIGYN",
-        "name": "TRIGYN",
-        "last_price": 58.9,
-        "prev_close": 52.43,
-        "change": 12.34,
-        "change_pct": 12.34,
-        "volume": 270136,
-        "turnover_cr": 1.58
-      },
-      {
-        "symbol": "SANGAMIND",
-        "name": "SANGAMIND",
-        "last_price": 627,
-        "prev_close": 558.75,
-        "change": 12.21,
-        "change_pct": 12.21,
-        "volume": 3455676,
-        "turnover_cr": 214.36
-      },
-      {
-        "symbol": "CNL",
-        "name": "CNL",
-        "last_price": 947,
-        "prev_close": 847.5,
-        "change": 11.74,
-        "change_pct": 11.74,
-        "volume": 2108393,
-        "turnover_cr": 201.33
-      },
-      {
-        "symbol": "INDIANHUME",
-        "name": "INDIANHUME",
-        "last_price": 409.8,
-        "prev_close": 367.05,
-        "change": 11.65,
-        "change_pct": 11.65,
-        "volume": 4001020,
-        "turnover_cr": 162.64
-      },
-      {
-        "symbol": "BCLIND",
-        "name": "BCLIND",
-        "last_price": 38.19,
-        "prev_close": 34.24,
-        "change": 11.54,
-        "change_pct": 11.54,
-        "volume": 58370999,
-        "turnover_cr": 222.98
-      },
-      {
-        "symbol": "PURVA",
-        "name": "PURVA",
-        "last_price": 249.4,
-        "prev_close": 224.06,
-        "change": 11.31,
-        "change_pct": 11.31,
-        "volume": 13995860,
-        "turnover_cr": 353.62
-      },
-      {
-        "symbol": "SKMEGGPROD",
-        "name": "SKMEGGPROD",
-        "last_price": 357,
-        "prev_close": 321.35,
-        "change": 11.09,
-        "change_pct": 11.09,
-        "volume": 5940256,
-        "turnover_cr": 212.71
-      },
-      {
-        "symbol": "JETFREIGHT",
-        "name": "JETFREIGHT",
-        "last_price": 22.8,
-        "prev_close": 20.58,
-        "change": 10.79,
-        "change_pct": 10.79,
-        "volume": 450473,
-        "turnover_cr": 1.0
-      },
-      {
-        "symbol": "RAMCOSYS",
-        "name": "RAMCOSYS",
-        "last_price": 886.15,
-        "prev_close": 805.6,
+        "symbol": "SHARDUL",
+        "name": "SHARDUL",
+        "last_price": 44.35,
+        "prev_close": 40.32,
         "change": 10,
         "change_pct": 10,
-        "volume": 2369609,
-        "turnover_cr": 204.22
+        "volume": 13214,
+        "turnover_cr": 0.06
       }
     ],
     "lower_circuit": [
       {
         "symbol": "GANGAFO-RE",
         "name": "GANGAFO-RE",
-        "last_price": 0.18,
-        "prev_close": 0.3,
-        "change": -40,
-        "change_pct": -40,
-        "volume": 1599765,
-        "turnover_cr": 0.03
+        "last_price": 0.11,
+        "prev_close": 0.18,
+        "change": -38.89,
+        "change_pct": -38.89,
+        "volume": 1132865,
+        "turnover_cr": 0.01
       },
       {
-        "symbol": "SHRADHA",
-        "name": "SHRADHA",
-        "last_price": 27,
-        "prev_close": 32.47,
-        "change": -16.85,
-        "change_pct": -16.85,
-        "volume": 138031,
-        "turnover_cr": 0.41
+        "symbol": "BAJAJCON",
+        "name": "BAJAJCON",
+        "last_price": 584.8,
+        "prev_close": 660.45,
+        "change": -11.45,
+        "change_pct": -11.45,
+        "volume": 3139792,
+        "turnover_cr": 189.94
+      },
+      {
+        "symbol": "ESSARSHPNG",
+        "name": "ESSARSHPNG",
+        "last_price": 19.74,
+        "prev_close": 22.24,
+        "change": -11.24,
+        "change_pct": -11.24,
+        "volume": 1001731,
+        "turnover_cr": 2.05
       }
     ]
   }
