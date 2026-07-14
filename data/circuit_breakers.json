@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-14T06:16:12Z",
+    "last_updated": "2026-07-14T08:32:26Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,98 +14,108 @@
         "prev_close": 29.62,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 584151,
-        "turnover_cr": 1.98
+        "volume": 592698,
+        "turnover_cr": 2.01
       },
       {
         "symbol": "NURECA",
         "name": "NURECA",
-        "last_price": 289.72,
+        "last_price": 286.89,
         "prev_close": 245.57,
-        "change": 17.98,
-        "change_pct": 17.98,
-        "volume": 219392,
-        "turnover_cr": 6.2
-      },
-      {
-        "symbol": "JUSTDIAL",
-        "name": "JUSTDIAL",
-        "last_price": 772.4,
-        "prev_close": 676.85,
-        "change": 14.12,
-        "change_pct": 14.12,
-        "volume": 22969756,
-        "turnover_cr": 1730.06
-      },
-      {
-        "symbol": "HGS",
-        "name": "HGS",
-        "last_price": 474.25,
-        "prev_close": 417.4,
-        "change": 13.62,
-        "change_pct": 13.62,
-        "volume": 581757,
-        "turnover_cr": 26.83
-      },
-      {
-        "symbol": "FINOPB",
-        "name": "FINOPB",
-        "last_price": 181.7,
-        "prev_close": 161.33,
-        "change": 12.63,
-        "change_pct": 12.63,
-        "volume": 35431165,
-        "turnover_cr": 636.95
-      },
-      {
-        "symbol": "VRAJ",
-        "name": "VRAJ",
-        "last_price": 134.59,
-        "prev_close": 119.55,
-        "change": 12.58,
-        "change_pct": 12.58,
-        "volume": 440107,
-        "turnover_cr": 5.94
-      },
-      {
-        "symbol": "ORIENTTECH",
-        "name": "ORIENTTECH",
-        "last_price": 291.3,
-        "prev_close": 258.8,
-        "change": 12.56,
-        "change_pct": 12.56,
-        "volume": 9968408,
-        "turnover_cr": 290.26
-      },
-      {
-        "symbol": "TBZ",
-        "name": "TBZ",
-        "last_price": 251.12,
-        "prev_close": 225.11,
-        "change": 11.55,
-        "change_pct": 11.55,
-        "volume": 7948834,
-        "turnover_cr": 197.74
-      },
-      {
-        "symbol": "WANBURY",
-        "name": "WANBURY",
-        "last_price": 334.55,
-        "prev_close": 300.45,
-        "change": 11.35,
-        "change_pct": 11.35,
-        "volume": 4098015,
-        "turnover_cr": 137.54
+        "change": 16.83,
+        "change_pct": 16.83,
+        "volume": 420209,
+        "turnover_cr": 11.99
       },
       {
         "symbol": "COUNCODOS",
         "name": "COUNCODOS",
-        "last_price": 7.05,
+        "last_price": 7.43,
         "prev_close": 6.38,
-        "change": 10.5,
-        "change_pct": 10.5,
-        "volume": 703939,
-        "turnover_cr": 0.5
+        "change": 16.46,
+        "change_pct": 16.46,
+        "volume": 2265774,
+        "turnover_cr": 1.66
+      },
+      {
+        "symbol": "BALPHARMA",
+        "name": "BALPHARMA",
+        "last_price": 91.94,
+        "prev_close": 79.17,
+        "change": 16.13,
+        "change_pct": 16.13,
+        "volume": 350072,
+        "turnover_cr": 3.1
+      },
+      {
+        "symbol": "LANDMARK",
+        "name": "LANDMARK",
+        "last_price": 484,
+        "prev_close": 422.9,
+        "change": 14.45,
+        "change_pct": 14.45,
+        "volume": 5221701,
+        "turnover_cr": 249.01
+      },
+      {
+        "symbol": "TBZ",
+        "name": "TBZ",
+        "last_price": 257.14,
+        "prev_close": 225.11,
+        "change": 14.23,
+        "change_pct": 14.23,
+        "volume": 11007321,
+        "turnover_cr": 274.52
+      },
+      {
+        "symbol": "JUSTDIAL",
+        "name": "JUSTDIAL",
+        "last_price": 763.5,
+        "prev_close": 676.85,
+        "change": 12.8,
+        "change_pct": 12.8,
+        "volume": 31706996,
+        "turnover_cr": 2396.95
+      },
+      {
+        "symbol": "WANBURY",
+        "name": "WANBURY",
+        "last_price": 337.9,
+        "prev_close": 300.45,
+        "change": 12.46,
+        "change_pct": 12.46,
+        "volume": 6931733,
+        "turnover_cr": 234.11
+      },
+      {
+        "symbol": "FINOPB",
+        "name": "FINOPB",
+        "last_price": 180.6,
+        "prev_close": 161.33,
+        "change": 11.94,
+        "change_pct": 11.94,
+        "volume": 43758565,
+        "turnover_cr": 787.17
+      },
+      {
+        "symbol": "VRAJ",
+        "name": "VRAJ",
+        "last_price": 132.51,
+        "prev_close": 119.55,
+        "change": 10.84,
+        "change_pct": 10.84,
+        "volume": 520500,
+        "turnover_cr": 7.01
+      },
+      {
+        "symbol": "ORIENTTECH",
+        "name": "ORIENTTECH",
+        "last_price": 286,
+        "prev_close": 258.8,
+        "change": 10.51,
+        "change_pct": 10.51,
+        "volume": 14016340,
+        "turnover_cr": 406.74
       },
       {
         "symbol": "SHARDUL",
@@ -114,7 +124,7 @@
         "prev_close": 40.32,
         "change": 10,
         "change_pct": 10,
-        "volume": 13214,
+        "volume": 13218,
         "turnover_cr": 0.06
       }
     ],
@@ -126,28 +136,28 @@
         "prev_close": 0.18,
         "change": -38.89,
         "change_pct": -38.89,
-        "volume": 1132865,
-        "turnover_cr": 0.01
+        "volume": 2900636,
+        "turnover_cr": 0.03
       },
       {
         "symbol": "BAJAJCON",
         "name": "BAJAJCON",
-        "last_price": 584.8,
+        "last_price": 584.2,
         "prev_close": 660.45,
-        "change": -11.45,
-        "change_pct": -11.45,
-        "volume": 3139792,
-        "turnover_cr": 189.94
+        "change": -11.55,
+        "change_pct": -11.55,
+        "volume": 3640154,
+        "turnover_cr": 219.24
       },
       {
         "symbol": "ESSARSHPNG",
         "name": "ESSARSHPNG",
-        "last_price": 19.74,
+        "last_price": 19.79,
         "prev_close": 22.24,
-        "change": -11.24,
-        "change_pct": -11.24,
-        "volume": 1001731,
-        "turnover_cr": 2.05
+        "change": -11.02,
+        "change_pct": -11.02,
+        "volume": 2125088,
+        "turnover_cr": 4.2
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-14T06:16:05Z",
+    "last_updated": "2026-07-14T08:32:19Z",
     "status": "healthy",
     "record_count": 5
   },
@@ -17,15 +17,15 @@
       "issue_close": "2026-07-21",
       "allotment_date": "2026-07-22",
       "listing_date": "2026-07-24",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 20.0,
+      "gmp_percent": "4.72%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/caliber-mining-ipo/1610/",
-      "scraped_at": "2026-07-14T06:15:50.324216+00:00Z"
+      "scraped_at": "2026-07-14T08:32:04.095089+00:00Z"
     },
     {
       "issue_name": "Alpine Texworld",
@@ -41,12 +41,12 @@
       "gmp": 5.0,
       "gmp_percent": "4.76%",
       "subscription_qib": "0.00x",
-      "subscription_nii": "0.16x",
-      "subscription_retail": "0.11x",
-      "subscription_total": "0.13x",
-      "subscription_applications": "5,286",
+      "subscription_nii": "0.29x",
+      "subscription_retail": "0.19x",
+      "subscription_total": "0.22x",
+      "subscription_applications": "9,002",
       "detail_url": "https://www.investorgain.com/gmp/alpine-texworld-ipo/1940/",
-      "scraped_at": "2026-07-14T06:15:50.324344+00:00Z"
+      "scraped_at": "2026-07-14T08:32:04.095202+00:00Z"
     },
     {
       "issue_name": "SBI Funds Management",
@@ -59,15 +59,15 @@
       "issue_close": "2026-07-16",
       "allotment_date": "2026-07-17",
       "listing_date": "2026-07-21",
-      "gmp": 87.0,
-      "gmp_percent": "15.16%",
-      "subscription_qib": "0.00x",
-      "subscription_nii": "0.36x",
-      "subscription_retail": "0.31x",
-      "subscription_total": "0.25x",
-      "subscription_applications": "4,01,071",
+      "gmp": 105.0,
+      "gmp_percent": "18.29%",
+      "subscription_qib": "0.07x",
+      "subscription_nii": "0.74x",
+      "subscription_retail": "0.48x",
+      "subscription_total": "0.45x",
+      "subscription_applications": "6,80,395",
       "detail_url": "https://www.investorgain.com/gmp/sbi-funds-management-ipo/2210/",
-      "scraped_at": "2026-07-14T06:15:50.324489+00:00Z"
+      "scraped_at": "2026-07-14T08:32:04.095287+00:00Z"
     },
     {
       "issue_name": "Laser Power & Infra",
@@ -80,15 +80,15 @@
       "issue_close": "2026-07-13",
       "allotment_date": "2026-07-14",
       "listing_date": "2026-07-16",
-      "gmp": 39.0,
-      "gmp_percent": "18.22%",
+      "gmp": 42.0,
+      "gmp_percent": "19.63%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/laser-power-infra-ipo/1923/",
-      "scraped_at": "2026-07-14T06:15:50.324606+00:00Z"
+      "scraped_at": "2026-07-14T08:32:04.095368+00:00Z"
     },
     {
       "issue_name": "Caliber Mining & Logistics Ltd.",
@@ -109,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
-      "scraped_at": "2026-07-14T06:15:54.851028+00:00Z"
+      "scraped_at": "2026-07-14T08:32:07.480534+00:00Z"
     }
   ]
 }
