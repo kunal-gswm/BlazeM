@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-07-14T08:32:23Z",
+    "last_updated": "2026-07-14T10:24:26Z",
     "status": "healthy",
     "record_count": 7
   },
@@ -9,51 +9,51 @@
     {
       "symbol": "GC=F",
       "name": "Gold",
-      "price": 4026.9,
-      "change": 4.3,
-      "change_pct": 0.11
+      "price": 4024.7,
+      "change": 2.1,
+      "change_pct": 0.05
     },
     {
       "symbol": "SI=F",
       "name": "Silver",
-      "price": 58.33,
-      "change": 0.345,
-      "change_pct": 0.6
+      "price": 58.27,
+      "change": 0.29,
+      "change_pct": 0.5
     },
     {
       "symbol": "CL=F",
       "name": "Crude Oil (WTI)",
-      "price": 80.05,
-      "change": 0.42,
-      "change_pct": 0.53
+      "price": 81.02,
+      "change": 1.39,
+      "change_pct": 1.75
     },
     {
       "symbol": "BZ=F",
       "name": "Brent Crude",
-      "price": 85.83,
-      "change": 1.12,
-      "change_pct": 1.32
+      "price": 87.24,
+      "change": 2.53,
+      "change_pct": 2.99
     },
     {
       "symbol": "NG=F",
       "name": "Natural Gas",
-      "price": 2.88,
-      "change": -0.013,
-      "change_pct": -0.45
+      "price": 2.897,
+      "change": 0.004,
+      "change_pct": 0.14
     },
     {
       "symbol": "HG=F",
       "name": "Copper",
-      "price": 6.371,
-      "change": 0.043,
-      "change_pct": 0.68
+      "price": 6.391,
+      "change": 0.063,
+      "change_pct": 1.0
     },
     {
       "symbol": "PL=F",
       "name": "Platinum",
-      "price": 1612.9,
-      "change": 0.5,
-      "change_pct": 0.03
+      "price": 1610.8,
+      "change": -1.6,
+      "change_pct": -0.1
     }
   ]
 }
