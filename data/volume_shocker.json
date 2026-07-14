@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-14T10:24:29Z",
+    "last_updated": "2026-07-14T11:57:24Z",
     "status": "healthy",
     "record_count": 25
   },
@@ -11,9 +11,9 @@
       "name": "Orient Technologies Limited",
       "last_price": 280.4,
       "change_pct": 8.35,
-      "volume": 17335594,
-      "turnover_cr": 500.84,
-      "vol_change_1wk_pct": 138.58,
+      "volume": 17335944,
+      "turnover_cr": 500.85,
+      "vol_change_1wk_pct": 138.59,
       "vol_change_2wk_pct": 20.26
     },
     {
@@ -21,10 +21,10 @@
       "name": "PDS Limited",
       "last_price": 380.5,
       "change_pct": 5.89,
-      "volume": 9240979,
-      "turnover_cr": 368.73,
-      "vol_change_1wk_pct": 111.02,
-      "vol_change_2wk_pct": 61.97
+      "volume": 9246576,
+      "turnover_cr": 368.95,
+      "vol_change_1wk_pct": 111.09,
+      "vol_change_2wk_pct": 62.01
     },
     {
       "symbol": "LANDMARK",
@@ -41,7 +41,7 @@
       "name": "Hinduja Global Solutions Limited",
       "last_price": 451.8,
       "change_pct": 8.24,
-      "volume": 1688540,
+      "volume": 1688542,
       "turnover_cr": 78.25,
       "vol_change_1wk_pct": 95.61,
       "vol_change_2wk_pct": 103.28
@@ -51,8 +51,8 @@
       "name": "Nuvoco Vistas Corporation Limited",
       "last_price": 338.5,
       "change_pct": 6.93,
-      "volume": 21133456,
-      "turnover_cr": 725.98,
+      "volume": 21133756,
+      "turnover_cr": 725.99,
       "vol_change_1wk_pct": 78.17,
       "vol_change_2wk_pct": 81.74
     },
@@ -91,7 +91,7 @@
       "name": "Hariom Pipe Industries Limited",
       "last_price": 397.4,
       "change_pct": 4.05,
-      "volume": 5609156,
+      "volume": 5609157,
       "turnover_cr": 233.22,
       "vol_change_1wk_pct": 40.43,
       "vol_change_2wk_pct": 36.14
@@ -111,10 +111,10 @@
       "name": "Vraj Iron and Steel Limited",
       "last_price": 133.01,
       "change_pct": 11.26,
-      "volume": 607079,
+      "volume": 607292,
       "turnover_cr": 8.16,
-      "vol_change_1wk_pct": 35.7,
-      "vol_change_2wk_pct": 32.88
+      "vol_change_1wk_pct": 35.71,
+      "vol_change_2wk_pct": 32.89
     },
     {
       "symbol": "ALPA",
@@ -137,13 +137,23 @@
       "vol_change_2wk_pct": 29.9
     },
     {
+      "symbol": "BIOCON",
+      "name": "Biocon Limited",
+      "last_price": 437,
+      "change_pct": 6.34,
+      "volume": 88998645,
+      "turnover_cr": 4369.4,
+      "vol_change_1wk_pct": 19.44,
+      "vol_change_2wk_pct": 18.76
+    },
+    {
       "symbol": "HINDCOMPOS",
       "name": "Hindustan Composites Limited",
       "last_price": 448,
       "change_pct": 2.45,
-      "volume": 81298,
+      "volume": 81396,
       "turnover_cr": 3.78,
-      "vol_change_1wk_pct": 17.69,
+      "vol_change_1wk_pct": 17.71,
       "vol_change_2wk_pct": 2.98
     },
     {
@@ -171,7 +181,7 @@
       "name": "Just Dial Limited",
       "last_price": 803,
       "change_pct": 18.64,
-      "volume": 42569363,
+      "volume": 42569366,
       "turnover_cr": 3247.32,
       "vol_change_1wk_pct": 15.71,
       "vol_change_2wk_pct": 27.05
@@ -181,7 +191,7 @@
       "name": "Essar Shipping Limited",
       "last_price": 20.15,
       "change_pct": -9.4,
-      "volume": 2630072,
+      "volume": 2630073,
       "turnover_cr": 5.22,
       "vol_change_1wk_pct": 15.49,
       "vol_change_2wk_pct": 19.18
@@ -201,10 +211,10 @@
       "name": "Plastiblends India Limited",
       "last_price": 198.51,
       "change_pct": 1.39,
-      "volume": 1101978,
-      "turnover_cr": 22.97,
-      "vol_change_1wk_pct": 14.79,
-      "vol_change_2wk_pct": 20.5
+      "volume": 1105978,
+      "turnover_cr": 23.05,
+      "vol_change_1wk_pct": 14.84,
+      "vol_change_2wk_pct": 20.57
     },
     {
       "symbol": "SINTERCOM",
@@ -245,16 +255,6 @@
       "turnover_cr": 13.08,
       "vol_change_1wk_pct": 12.34,
       "vol_change_2wk_pct": 5.8
-    },
-    {
-      "symbol": "JITFINFRA",
-      "name": "JITF Infralogistics Limited",
-      "last_price": 393.35,
-      "change_pct": 10,
-      "volume": 460302,
-      "turnover_cr": 17.93,
-      "vol_change_1wk_pct": 12.18,
-      "vol_change_2wk_pct": 16.62
     }
   ]
 }
