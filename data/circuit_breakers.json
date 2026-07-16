@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-16T06:23:42Z",
+    "last_updated": "2026-07-16T08:42:38Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 78.08,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 12628,
-        "turnover_cr": 0.11
+        "volume": 13338,
+        "turnover_cr": 0.12
       },
       {
         "symbol": "BNALTD",
@@ -24,50 +24,90 @@
         "prev_close": 449.65,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 35085,
-        "turnover_cr": 1.86
-      },
-      {
-        "symbol": "BECTORFOOD",
-        "name": "BECTORFOOD",
-        "last_price": 192.71,
-        "prev_close": 168.97,
-        "change": 14.05,
-        "change_pct": 14.05,
-        "volume": 50919600,
-        "turnover_cr": 967.73
+        "volume": 35943,
+        "turnover_cr": 1.91
       },
       {
         "symbol": "AARNAV",
         "name": "AARNAV",
-        "last_price": 29.49,
+        "last_price": 31.35,
         "prev_close": 26.13,
-        "change": 12.86,
-        "change_pct": 12.86,
-        "volume": 76218,
-        "turnover_cr": 0.22
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 554943,
+        "turnover_cr": 1.7
+      },
+      {
+        "symbol": "TRANSPEK",
+        "name": "TRANSPEK",
+        "last_price": 1090,
+        "prev_close": 969.2,
+        "change": 12.46,
+        "change_pct": 12.46,
+        "volume": 80653,
+        "turnover_cr": 8.61
+      },
+      {
+        "symbol": "BECTORFOOD",
+        "name": "BECTORFOOD",
+        "last_price": 189.19,
+        "prev_close": 168.97,
+        "change": 11.97,
+        "change_pct": 11.97,
+        "volume": 60447523,
+        "turnover_cr": 1149.41
+      },
+      {
+        "symbol": "PREMIERPOL",
+        "name": "PREMIERPOL",
+        "last_price": 74.2,
+        "prev_close": 67.2,
+        "change": 10.42,
+        "change_pct": 10.42,
+        "volume": 1604321,
+        "turnover_cr": 11.74
+      },
+      {
+        "symbol": "SAURASHCEM",
+        "name": "SAURASHCEM",
+        "last_price": 61.35,
+        "prev_close": 55.59,
+        "change": 10.36,
+        "change_pct": 10.36,
+        "volume": 685764,
+        "turnover_cr": 4.1
+      },
+      {
+        "symbol": "SATIA",
+        "name": "SATIA",
+        "last_price": 60.6,
+        "prev_close": 55.04,
+        "change": 10.1,
+        "change_pct": 10.1,
+        "volume": 599247,
+        "turnover_cr": 3.52
       }
     ],
     "lower_circuit": [
       {
         "symbol": "SHRADHA",
         "name": "SHRADHA",
-        "last_price": 35.36,
+        "last_price": 35.29,
         "prev_close": 40.74,
-        "change": -13.21,
-        "change_pct": -13.21,
-        "volume": 253103,
-        "turnover_cr": 0.91
+        "change": -13.38,
+        "change_pct": -13.38,
+        "volume": 301886,
+        "turnover_cr": 1.08
       },
       {
         "symbol": "ICICIGI",
         "name": "ICICIGI",
-        "last_price": 1609.2,
+        "last_price": 1616.7,
         "prev_close": 1814.6,
-        "change": -11.32,
-        "change_pct": -11.32,
-        "volume": 9193734,
-        "turnover_cr": 1473.79
+        "change": -10.91,
+        "change_pct": -10.91,
+        "volume": 11501953,
+        "turnover_cr": 1845.29
       }
     ]
   }
