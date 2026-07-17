@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-17T06:22:15Z",
+    "last_updated": "2026-07-17T08:37:05Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -10,52 +10,52 @@
       {
         "symbol": "RELAXO",
         "name": "RELAXO",
-        "last_price": 418.35,
+        "last_price": 431.85,
         "prev_close": 366.65,
-        "change": 14.1,
-        "change_pct": 14.1,
-        "volume": 16867729,
-        "turnover_cr": 691.88
+        "change": 17.78,
+        "change_pct": 17.78,
+        "volume": 33167738,
+        "turnover_cr": 1391.59
       },
       {
         "symbol": "RESPONIND",
         "name": "RESPONIND",
-        "last_price": 216.71,
+        "last_price": 217.66,
         "prev_close": 190.59,
-        "change": 13.7,
-        "change_pct": 13.7,
-        "volume": 10591888,
-        "turnover_cr": 223.08
+        "change": 14.2,
+        "change_pct": 14.2,
+        "volume": 24150042,
+        "turnover_cr": 519.37
+      },
+      {
+        "symbol": "CAMPUS",
+        "name": "CAMPUS",
+        "last_price": 254.79,
+        "prev_close": 226.65,
+        "change": 12.42,
+        "change_pct": 12.42,
+        "volume": 28668600,
+        "turnover_cr": 719.58
       },
       {
         "symbol": "PAR",
         "name": "PAR",
-        "last_price": 105.97,
+        "last_price": 105.49,
         "prev_close": 95.03,
-        "change": 11.51,
-        "change_pct": 11.51,
-        "volume": 251503,
-        "turnover_cr": 2.7
+        "change": 11.01,
+        "change_pct": 11.01,
+        "volume": 293200,
+        "turnover_cr": 3.14
       },
       {
-        "symbol": "FINOPB",
-        "name": "FINOPB",
-        "last_price": 175.3,
-        "prev_close": 158.24,
-        "change": 10.78,
-        "change_pct": 10.78,
-        "volume": 22489492,
-        "turnover_cr": 390.4
-      },
-      {
-        "symbol": "PIONRINV",
-        "name": "PIONRINV",
-        "last_price": 103.12,
-        "prev_close": 93.69,
-        "change": 10.07,
-        "change_pct": 10.07,
-        "volume": 283310,
-        "turnover_cr": 3.11
+        "symbol": "LIBERTSHOE",
+        "name": "LIBERTSHOE",
+        "last_price": 281.5,
+        "prev_close": 255.55,
+        "change": 10.15,
+        "change_pct": 10.15,
+        "volume": 1286061,
+        "turnover_cr": 36.06
       },
       {
         "symbol": "LASERPOWER",
@@ -64,30 +64,20 @@
         "prev_close": 262.42,
         "change": 10,
         "change_pct": 10,
-        "volume": 7961665,
-        "turnover_cr": 224.17
+        "volume": 7998246,
+        "turnover_cr": 225.23
       }
     ],
     "lower_circuit": [
       {
         "symbol": "GRINDWELL",
         "name": "GRINDWELL",
-        "last_price": 2101.2,
+        "last_price": 2080,
         "prev_close": 2382.3,
-        "change": -11.8,
-        "change_pct": -11.8,
-        "volume": 325666,
-        "turnover_cr": 70.52
-      },
-      {
-        "symbol": "GNA",
-        "name": "GNA",
-        "last_price": 527.5,
-        "prev_close": 592,
-        "change": -10.9,
-        "change_pct": -10.9,
-        "volume": 1240805,
-        "turnover_cr": 69.73
+        "change": -12.69,
+        "change_pct": -12.69,
+        "volume": 427178,
+        "turnover_cr": 91.78
       }
     ]
   }
