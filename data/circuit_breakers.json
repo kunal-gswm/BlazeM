@@ -1,173 +1,23 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-20T10:17:10Z",
+    "last_updated": "2026-07-20T12:29:52Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
-    "upper_circuit": [
+    "upper_circuit": [],
+    "lower_circuit": [
       {
-        "symbol": "SDBL",
-        "name": "SDBL",
-        "last_price": 78.18,
-        "prev_close": 65.15,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 29756163,
-        "turnover_cr": 220.4
-      },
-      {
-        "symbol": "TINNARUBR",
-        "name": "TINNARUBR",
-        "last_price": 1189.9,
-        "prev_close": 991.6,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 1222415,
-        "turnover_cr": 135.2
-      },
-      {
-        "symbol": "TATVA",
-        "name": "TATVA",
-        "last_price": 1713.7,
-        "prev_close": 1428.1,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 3293770,
-        "turnover_cr": 551.03
-      },
-      {
-        "symbol": "ASHIMASYN",
-        "name": "ASHIMASYN",
-        "last_price": 17.23,
-        "prev_close": 14.36,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 2423424,
-        "turnover_cr": 3.99
-      },
-      {
-        "symbol": "SHALPAINTS",
-        "name": "SHALPAINTS",
-        "last_price": 58.78,
-        "prev_close": 48.99,
-        "change": 19.98,
-        "change_pct": 19.98,
-        "volume": 802391,
-        "turnover_cr": 4.57
-      },
-      {
-        "symbol": "SIKKO",
-        "name": "SIKKO",
-        "last_price": 4.89,
-        "prev_close": 4.1,
-        "change": 19.27,
-        "change_pct": 19.27,
-        "volume": 5728388,
-        "turnover_cr": 2.64
-      },
-      {
-        "symbol": "DYCL",
-        "name": "DYCL",
-        "last_price": 447.6,
-        "prev_close": 386.5,
-        "change": 15.81,
-        "change_pct": 15.81,
-        "volume": 19859647,
-        "turnover_cr": 858.06
-      },
-      {
-        "symbol": "PODDARMENT",
-        "name": "PODDARMENT",
-        "last_price": 256,
-        "prev_close": 225.52,
-        "change": 13.52,
-        "change_pct": 13.52,
-        "volume": 35638,
-        "turnover_cr": 0.87
-      },
-      {
-        "symbol": "BEPL",
-        "name": "BEPL",
-        "last_price": 126.75,
-        "prev_close": 113.1,
-        "change": 12.07,
-        "change_pct": 12.07,
-        "volume": 102857215,
-        "turnover_cr": 1308.65
-      },
-      {
-        "symbol": "JGCHEM",
-        "name": "JGCHEM",
-        "last_price": 496,
-        "prev_close": 445.45,
-        "change": 11.35,
-        "change_pct": 11.35,
-        "volume": 2552136,
-        "turnover_cr": 123.97
-      },
-      {
-        "symbol": "BECTORFOOD",
-        "name": "BECTORFOOD",
-        "last_price": 209.95,
-        "prev_close": 188.63,
-        "change": 11.3,
-        "change_pct": 11.3,
-        "volume": 85273492,
-        "turnover_cr": 1781.53
-      },
-      {
-        "symbol": "COMSYN",
-        "name": "COMSYN",
-        "last_price": 210,
-        "prev_close": 189.27,
-        "change": 10.95,
-        "change_pct": 10.95,
-        "volume": 3871722,
-        "turnover_cr": 81.26
-      },
-      {
-        "symbol": "ORIENTHOT",
-        "name": "ORIENTHOT",
-        "last_price": 140.4,
-        "prev_close": 126.61,
-        "change": 10.89,
-        "change_pct": 10.89,
-        "volume": 9634175,
-        "turnover_cr": 135.5
-      },
-      {
-        "symbol": "GANDHAR",
-        "name": "GANDHAR",
-        "last_price": 230,
-        "prev_close": 207.93,
-        "change": 10.61,
-        "change_pct": 10.61,
-        "volume": 3211545,
-        "turnover_cr": 71.35
-      },
-      {
-        "symbol": "MODIS",
-        "name": "MODIS",
-        "last_price": 377.5,
-        "prev_close": 341.95,
-        "change": 10.4,
-        "change_pct": 10.4,
-        "volume": 121148,
-        "turnover_cr": 4.38
-      },
-      {
-        "symbol": "DIACABS",
-        "name": "DIACABS",
-        "last_price": 244.61,
-        "prev_close": 222.38,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 9896165,
-        "turnover_cr": 234.84
+        "symbol": "RESPONIND",
+        "name": "RESPONIND",
+        "last_price": 189.25,
+        "prev_close": 220.6,
+        "change": -14.21,
+        "change_pct": -14.21,
+        "volume": 16439333,
+        "turnover_cr": 357.95
       }
-    ],
-    "lower_circuit": []
+    ]
   }
 }
