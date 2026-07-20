@@ -1,84 +1,12 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-17T11:53:59Z",
+    "last_updated": "2026-07-20T06:53:07Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
-    "upper_circuit": [
-      {
-        "symbol": "RELAXO",
-        "name": "RELAXO",
-        "last_price": 439.95,
-        "prev_close": 366.65,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 35746124,
-        "turnover_cr": 1503.7
-      },
-      {
-        "symbol": "RESPONIND",
-        "name": "RESPONIND",
-        "last_price": 224.55,
-        "prev_close": 190.59,
-        "change": 17.82,
-        "change_pct": 17.82,
-        "volume": 27832498,
-        "turnover_cr": 600.15
-      },
-      {
-        "symbol": "SUPERHOUSE",
-        "name": "SUPERHOUSE",
-        "last_price": 178.76,
-        "prev_close": 154.62,
-        "change": 15.61,
-        "change_pct": 15.61,
-        "volume": 278365,
-        "turnover_cr": 4.83
-      },
-      {
-        "symbol": "FINOPB",
-        "name": "FINOPB",
-        "last_price": 177.62,
-        "prev_close": 158.24,
-        "change": 12.25,
-        "change_pct": 12.25,
-        "volume": 58714643,
-        "turnover_cr": 1025.04
-      },
-      {
-        "symbol": "SBINEQWETF",
-        "name": "SBINEQWETF",
-        "last_price": 36.4,
-        "prev_close": 33,
-        "change": 10.3,
-        "change_pct": 10.3,
-        "volume": 11853,
-        "turnover_cr": 0.04
-      },
-      {
-        "symbol": "LASERPOWER",
-        "name": "LASERPOWER",
-        "last_price": 288.66,
-        "prev_close": 262.42,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 8020732,
-        "turnover_cr": 225.88
-      }
-    ],
-    "lower_circuit": [
-      {
-        "symbol": "GRINDWELL",
-        "name": "GRINDWELL",
-        "last_price": 2073,
-        "prev_close": 2382.3,
-        "change": -12.98,
-        "change_pct": -12.98,
-        "volume": 584725,
-        "turnover_cr": 124.61
-      }
-    ]
+    "upper_circuit": [],
+    "lower_circuit": []
   }
 }
