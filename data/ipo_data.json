@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-20T12:28:43Z",
+    "last_updated": "2026-07-21T06:33:49Z",
     "status": "healthy",
     "record_count": 5
   },
@@ -17,15 +17,15 @@
       "issue_close": "2026-07-27",
       "allotment_date": "2026-07-28",
       "listing_date": "2026-07-30",
-      "gmp": 203.0,
-      "gmp_percent": "41.86%",
+      "gmp": 200.0,
+      "gmp_percent": "41.24%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/indo-mim-ipo/1594/",
-      "scraped_at": "2026-07-20T12:28:26.182884+00:00Z"
+      "scraped_at": "2026-07-21T06:33:30.508847+00:00Z"
     },
     {
       "issue_name": "Xtranet Technologies",
@@ -46,7 +46,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/xtranet-technologies-ipo/1951/",
-      "scraped_at": "2026-07-20T12:28:26.183047+00:00Z"
+      "scraped_at": "2026-07-21T06:33:30.508972+00:00Z"
     },
     {
       "issue_name": "Lohia Corp",
@@ -59,22 +59,22 @@
       "issue_close": "2026-07-27",
       "allotment_date": "2026-07-28",
       "listing_date": "2026-07-30",
-      "gmp": 90.0,
-      "gmp_percent": "21.18%",
+      "gmp": 56.0,
+      "gmp_percent": "13.18%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lohia-corp-ipo/1862/",
-      "scraped_at": "2026-07-20T12:28:26.183151+00:00Z"
+      "scraped_at": "2026-07-21T06:33:30.509114+00:00Z"
     },
     {
       "issue_name": "Cube Highways Trust InvIT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "152",
-      "lot_size": "",
+      "lot_size": "95",
       "issue_size": "₹5000.00 Cr",
       "issue_open": "2026-07-22",
       "issue_close": "2026-07-24",
@@ -88,7 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/cube-highways-trust-invit/2346/",
-      "scraped_at": "2026-07-20T12:28:26.183253+00:00Z"
+      "scraped_at": "2026-07-21T06:33:30.509227+00:00Z"
     },
     {
       "issue_name": "Caliber Mining",
@@ -101,15 +101,15 @@
       "issue_close": "2026-07-21",
       "allotment_date": "2026-07-22",
       "listing_date": "2026-07-24",
-      "gmp": 110.0,
-      "gmp_percent": "25.94%",
+      "gmp": 93.0,
+      "gmp_percent": "21.93%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/caliber-mining-ipo/1610/",
-      "scraped_at": "2026-07-20T12:28:26.183354+00:00Z"
+      "scraped_at": "2026-07-21T06:33:30.509330+00:00Z"
     }
   ]
 }
