@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-21T09:16:18Z",
+    "last_updated": "2026-07-21T11:21:49Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 115.6,
         "change": 20,
         "change_pct": 20,
-        "volume": 331298,
-        "turnover_cr": 4.43
+        "volume": 336737,
+        "turnover_cr": 4.5
       },
       {
         "symbol": "AASTHA",
@@ -24,100 +24,191 @@
         "prev_close": 107.55,
         "change": 20,
         "change_pct": 20,
-        "volume": 8598162,
-        "turnover_cr": 110.17
-      },
-      {
-        "symbol": "JINDWORLD",
-        "name": "JINDWORLD",
-        "last_price": 37.65,
-        "prev_close": 31.55,
-        "change": 19.33,
-        "change_pct": 19.33,
-        "volume": 92563765,
-        "turnover_cr": 336.93
+        "volume": 10338553,
+        "turnover_cr": 132.62
       },
       {
         "symbol": "BLUESTONE",
         "name": "BLUESTONE",
-        "last_price": 725.7,
+        "last_price": 732.45,
         "prev_close": 610.4,
-        "change": 18.89,
-        "change_pct": 18.89,
-        "volume": 20902779,
-        "turnover_cr": 1423.48
+        "change": 20,
+        "change_pct": 20,
+        "volume": 23104761,
+        "turnover_cr": 1583.81
       },
       {
-        "symbol": "SHALPAINTS",
-        "name": "SHALPAINTS",
-        "last_price": 69.39,
-        "prev_close": 58.78,
-        "change": 18.05,
-        "change_pct": 18.05,
-        "volume": 2941392,
-        "turnover_cr": 19.75
+        "symbol": "JINDWORLD",
+        "name": "JINDWORLD",
+        "last_price": 37.75,
+        "prev_close": 31.55,
+        "change": 19.65,
+        "change_pct": 19.65,
+        "volume": 100856338,
+        "turnover_cr": 368.13
       },
       {
         "symbol": "KCPSUGIND",
         "name": "KCPSUGIND",
-        "last_price": 25.39,
+        "last_price": 25.7,
         "prev_close": 21.71,
-        "change": 16.95,
-        "change_pct": 16.95,
-        "volume": 4844801,
-        "turnover_cr": 12.42
+        "change": 18.38,
+        "change_pct": 18.38,
+        "volume": 5896724,
+        "turnover_cr": 15.13
+      },
+      {
+        "symbol": "SHALPAINTS",
+        "name": "SHALPAINTS",
+        "last_price": 69,
+        "prev_close": 58.78,
+        "change": 17.39,
+        "change_pct": 17.39,
+        "volume": 3497715,
+        "turnover_cr": 23.59
       },
       {
         "symbol": "SCPL",
         "name": "SCPL",
-        "last_price": 549.55,
+        "last_price": 557,
         "prev_close": 483.3,
-        "change": 13.71,
-        "change_pct": 13.71,
-        "volume": 186124,
-        "turnover_cr": 10.04
+        "change": 15.25,
+        "change_pct": 15.25,
+        "volume": 242133,
+        "turnover_cr": 13.11
       },
       {
         "symbol": "VIMTALABS",
         "name": "VIMTALABS",
-        "last_price": 602.35,
+        "last_price": 601.8,
         "prev_close": 530.25,
-        "change": 13.6,
-        "change_pct": 13.6,
-        "volume": 5376675,
-        "turnover_cr": 322.98
-      },
-      {
-        "symbol": "KARURVYSYA",
-        "name": "KARURVYSYA",
-        "last_price": 339.45,
-        "prev_close": 301,
-        "change": 12.77,
-        "change_pct": 12.77,
-        "volume": 72418295,
-        "turnover_cr": 2400.01
+        "change": 13.49,
+        "change_pct": 13.49,
+        "volume": 6265863,
+        "turnover_cr": 376.38
       },
       {
         "symbol": "STALLION",
         "name": "STALLION",
-        "last_price": 239.38,
+        "last_price": 245.95,
         "prev_close": 217.1,
-        "change": 10.26,
-        "change_pct": 10.26,
-        "volume": 17319714,
-        "turnover_cr": 412.61
+        "change": 13.29,
+        "change_pct": 13.29,
+        "volume": 26382822,
+        "turnover_cr": 633.77
+      },
+      {
+        "symbol": "KARURVYSYA",
+        "name": "KARURVYSYA",
+        "last_price": 340.45,
+        "prev_close": 301,
+        "change": 13.11,
+        "change_pct": 13.11,
+        "volume": 83899658,
+        "turnover_cr": 2790.59
+      },
+      {
+        "symbol": "SUPREMEINF",
+        "name": "SUPREMEINF",
+        "last_price": 88,
+        "prev_close": 78.81,
+        "change": 11.66,
+        "change_pct": 11.66,
+        "volume": 1333783,
+        "turnover_cr": 11.63
+      },
+      {
+        "symbol": "TARSONS",
+        "name": "TARSONS",
+        "last_price": 314,
+        "prev_close": 281.35,
+        "change": 11.6,
+        "change_pct": 11.6,
+        "volume": 6870321,
+        "turnover_cr": 218.79
+      },
+      {
+        "symbol": "SPECTRUM",
+        "name": "SPECTRUM",
+        "last_price": 2154,
+        "prev_close": 1932,
+        "change": 11.49,
+        "change_pct": 11.49,
+        "volume": 122569,
+        "turnover_cr": 25.6
+      },
+      {
+        "symbol": "BATLIBOI",
+        "name": "BATLIBOI",
+        "last_price": 91,
+        "prev_close": 81.69,
+        "change": 11.4,
+        "change_pct": 11.4,
+        "volume": 449580,
+        "turnover_cr": 3.99
+      },
+      {
+        "symbol": "AYE",
+        "name": "AYE",
+        "last_price": 190,
+        "prev_close": 171.47,
+        "change": 10.81,
+        "change_pct": 10.81,
+        "volume": 22350012,
+        "turnover_cr": 428.36
+      },
+      {
+        "symbol": "WESTLIFE",
+        "name": "WESTLIFE",
+        "last_price": 498,
+        "prev_close": 450.1,
+        "change": 10.64,
+        "change_pct": 10.64,
+        "volume": 1867115,
+        "turnover_cr": 94.47
+      },
+      {
+        "symbol": "SHK",
+        "name": "SHK",
+        "last_price": 143.5,
+        "prev_close": 130.19,
+        "change": 10.22,
+        "change_pct": 10.22,
+        "volume": 4919429,
+        "turnover_cr": 68.69
       },
       {
         "symbol": "DIACABS",
         "name": "DIACABS",
-        "last_price": 269.06,
+        "last_price": 269.07,
         "prev_close": 244.61,
         "change": 10,
         "change_pct": 10,
-        "volume": 20309193,
-        "turnover_cr": 530.56
+        "volume": 20782551,
+        "turnover_cr": 543.3
       }
     ],
-    "lower_circuit": []
+    "lower_circuit": [
+      {
+        "symbol": "COMSYN",
+        "name": "COMSYN",
+        "last_price": 187.85,
+        "prev_close": 209.35,
+        "change": -10.27,
+        "change_pct": -10.27,
+        "volume": 2525825,
+        "turnover_cr": 51.42
+      },
+      {
+        "symbol": "VCL",
+        "name": "VCL",
+        "last_price": 0.99,
+        "prev_close": 1.1,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 1499367,
+        "turnover_cr": 0.15
+      }
+    ]
   }
 }
