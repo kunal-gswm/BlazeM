@@ -1,12 +1,22 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-21T06:33:58Z",
+    "last_updated": "2026-07-21T09:16:18Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
+      {
+        "symbol": "HECPROJECT",
+        "name": "HECPROJECT",
+        "last_price": 138.72,
+        "prev_close": 115.6,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 331298,
+        "turnover_cr": 4.43
+      },
       {
         "symbol": "AASTHA",
         "name": "AASTHA",
@@ -14,8 +24,38 @@
         "prev_close": 107.55,
         "change": 20,
         "change_pct": 20,
-        "volume": 5512311,
-        "turnover_cr": 70.34
+        "volume": 8598162,
+        "turnover_cr": 110.17
+      },
+      {
+        "symbol": "JINDWORLD",
+        "name": "JINDWORLD",
+        "last_price": 37.65,
+        "prev_close": 31.55,
+        "change": 19.33,
+        "change_pct": 19.33,
+        "volume": 92563765,
+        "turnover_cr": 336.93
+      },
+      {
+        "symbol": "BLUESTONE",
+        "name": "BLUESTONE",
+        "last_price": 725.7,
+        "prev_close": 610.4,
+        "change": 18.89,
+        "change_pct": 18.89,
+        "volume": 20902779,
+        "turnover_cr": 1423.48
+      },
+      {
+        "symbol": "SHALPAINTS",
+        "name": "SHALPAINTS",
+        "last_price": 69.39,
+        "prev_close": 58.78,
+        "change": 18.05,
+        "change_pct": 18.05,
+        "volume": 2941392,
+        "turnover_cr": 19.75
       },
       {
         "symbol": "KCPSUGIND",
@@ -24,111 +64,60 @@
         "prev_close": 21.71,
         "change": 16.95,
         "change_pct": 16.95,
-        "volume": 4363459,
-        "turnover_cr": 11.2
+        "volume": 4844801,
+        "turnover_cr": 12.42
       },
       {
-        "symbol": "SHALPAINTS",
-        "name": "SHALPAINTS",
-        "last_price": 67.2,
-        "prev_close": 58.78,
-        "change": 14.32,
-        "change_pct": 14.32,
-        "volume": 1983477,
-        "turnover_cr": 13.12
+        "symbol": "SCPL",
+        "name": "SCPL",
+        "last_price": 549.55,
+        "prev_close": 483.3,
+        "change": 13.71,
+        "change_pct": 13.71,
+        "volume": 186124,
+        "turnover_cr": 10.04
       },
       {
-        "symbol": "HECPROJECT",
-        "name": "HECPROJECT",
-        "last_price": 131.35,
-        "prev_close": 115.6,
-        "change": 13.62,
-        "change_pct": 13.62,
-        "volume": 215851,
-        "turnover_cr": 2.85
-      },
-      {
-        "symbol": "AYE",
-        "name": "AYE",
-        "last_price": 194.2,
-        "prev_close": 171.47,
-        "change": 13.26,
-        "change_pct": 13.26,
-        "volume": 13933721,
-        "turnover_cr": 267.39
-      },
-      {
-        "symbol": "TARSONS",
-        "name": "TARSONS",
-        "last_price": 317.8,
-        "prev_close": 281.35,
-        "change": 12.96,
-        "change_pct": 12.96,
-        "volume": 5632041,
-        "turnover_cr": 180.21
-      },
-      {
-        "symbol": "ASHIANA",
-        "name": "ASHIANA",
-        "last_price": 420.3,
-        "prev_close": 373.6,
-        "change": 12.5,
-        "change_pct": 12.5,
-        "volume": 5159711,
-        "turnover_cr": 219.6
-      },
-      {
-        "symbol": "JINDWORLD",
-        "name": "JINDWORLD",
-        "last_price": 35.28,
-        "prev_close": 31.55,
-        "change": 11.82,
-        "change_pct": 11.82,
-        "volume": 27906778,
-        "turnover_cr": 96.92
-      },
-      {
-        "symbol": "NELCAST",
-        "name": "NELCAST",
-        "last_price": 141.87,
-        "prev_close": 127.95,
-        "change": 10.88,
-        "change_pct": 10.88,
-        "volume": 5331555,
-        "turnover_cr": 77.06
+        "symbol": "VIMTALABS",
+        "name": "VIMTALABS",
+        "last_price": 602.35,
+        "prev_close": 530.25,
+        "change": 13.6,
+        "change_pct": 13.6,
+        "volume": 5376675,
+        "turnover_cr": 322.98
       },
       {
         "symbol": "KARURVYSYA",
         "name": "KARURVYSYA",
-        "last_price": 333.2,
+        "last_price": 339.45,
         "prev_close": 301,
-        "change": 10.7,
-        "change_pct": 10.7,
-        "volume": 48890464,
-        "turnover_cr": 1603.56
+        "change": 12.77,
+        "change_pct": 12.77,
+        "volume": 72418295,
+        "turnover_cr": 2400.01
       },
       {
-        "symbol": "BLUESTONE",
-        "name": "BLUESTONE",
-        "last_price": 675.7,
-        "prev_close": 610.4,
-        "change": 10.7,
-        "change_pct": 10.7,
-        "volume": 6654857,
-        "turnover_cr": 432.39
+        "symbol": "STALLION",
+        "name": "STALLION",
+        "last_price": 239.38,
+        "prev_close": 217.1,
+        "change": 10.26,
+        "change_pct": 10.26,
+        "volume": 17319714,
+        "turnover_cr": 412.61
+      },
+      {
+        "symbol": "DIACABS",
+        "name": "DIACABS",
+        "last_price": 269.06,
+        "prev_close": 244.61,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 20309193,
+        "turnover_cr": 530.56
       }
     ],
-    "lower_circuit": [
-      {
-        "symbol": "INDOBORAX",
-        "name": "INDOBORAX",
-        "last_price": 418.25,
-        "prev_close": 481.05,
-        "change": -5.17,
-        "change_pct": -13.05,
-        "volume": 386282,
-        "turnover_cr": 16.4
-      }
-    ]
+    "lower_circuit": []
   }
 }
