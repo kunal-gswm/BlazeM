@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-22T09:15:12Z",
+    "last_updated": "2026-07-22T11:23:21Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,18 +14,8 @@
         "prev_close": 2137.1,
         "change": 20,
         "change_pct": 20,
-        "volume": 1203619,
-        "turnover_cr": 300.15
-      },
-      {
-        "symbol": "ARENTERP",
-        "name": "ARENTERP",
-        "last_price": 41.22,
-        "prev_close": 34.35,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 36877,
-        "turnover_cr": 0.15
+        "volume": 1207996,
+        "turnover_cr": 301.28
       },
       {
         "symbol": "EMAMIPAP",
@@ -34,78 +24,98 @@
         "prev_close": 98.86,
         "change": 20,
         "change_pct": 20,
-        "volume": 1400454,
-        "turnover_cr": 16.22
+        "volume": 1427994,
+        "turnover_cr": 16.55
       },
       {
-        "symbol": "KAYA",
-        "name": "KAYA",
-        "last_price": 278.06,
-        "prev_close": 245.12,
-        "change": 13.44,
-        "change_pct": 13.44,
-        "volume": 318811,
-        "turnover_cr": 8.9
+        "symbol": "ARENTERP",
+        "name": "ARENTERP",
+        "last_price": 41.22,
+        "prev_close": 34.35,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 36878,
+        "turnover_cr": 0.15
       },
       {
         "symbol": "WAKEFIT",
         "name": "WAKEFIT",
-        "last_price": 140,
+        "last_price": 142.55,
         "prev_close": 124.07,
-        "change": 12.84,
-        "change_pct": 12.84,
-        "volume": 17764776,
-        "turnover_cr": 240.93
+        "change": 14.89,
+        "change_pct": 14.89,
+        "volume": 31058547,
+        "turnover_cr": 425.91
       },
       {
         "symbol": "MALUPAPER",
         "name": "MALUPAPER",
-        "last_price": 33.85,
+        "last_price": 34.08,
         "prev_close": 30.15,
-        "change": 12.27,
-        "change_pct": 12.27,
-        "volume": 252790,
-        "turnover_cr": 0.86
+        "change": 13.03,
+        "change_pct": 13.03,
+        "volume": 458139,
+        "turnover_cr": 1.57
       },
       {
-        "symbol": "DATAPATTNS",
-        "name": "DATAPATTNS",
-        "last_price": 4764,
-        "prev_close": 4243.9,
-        "change": 12.26,
-        "change_pct": 12.26,
-        "volume": 5774950,
-        "turnover_cr": 2660.63
-      },
-      {
-        "symbol": "STYLAMIND",
-        "name": "STYLAMIND",
-        "last_price": 3890,
-        "prev_close": 3510.7,
-        "change": 10.8,
-        "change_pct": 10.8,
-        "volume": 1574891,
-        "turnover_cr": 606.93
+        "symbol": "UFLEX",
+        "name": "UFLEX",
+        "last_price": 496,
+        "prev_close": 439.7,
+        "change": 12.8,
+        "change_pct": 12.8,
+        "volume": 11738381,
+        "turnover_cr": 578.7
       },
       {
         "symbol": "ASAHISONG",
         "name": "ASAHISONG",
-        "last_price": 296.4,
+        "last_price": 302,
         "prev_close": 268.75,
-        "change": 10.29,
-        "change_pct": 10.29,
-        "volume": 157914,
-        "turnover_cr": 4.69
+        "change": 12.37,
+        "change_pct": 12.37,
+        "volume": 181522,
+        "turnover_cr": 5.39
+      },
+      {
+        "symbol": "DATAPATTNS",
+        "name": "DATAPATTNS",
+        "last_price": 4746.7,
+        "prev_close": 4243.9,
+        "change": 11.85,
+        "change_pct": 11.85,
+        "volume": 6972637,
+        "turnover_cr": 3232.95
       },
       {
         "symbol": "CYIENTDLM",
         "name": "CYIENTDLM",
-        "last_price": 686.5,
+        "last_price": 696,
         "prev_close": 623,
-        "change": 10.19,
-        "change_pct": 10.19,
-        "volume": 11829013,
-        "turnover_cr": 824.74
+        "change": 11.72,
+        "change_pct": 11.72,
+        "volume": 12932202,
+        "turnover_cr": 901.62
+      },
+      {
+        "symbol": "KAYA",
+        "name": "KAYA",
+        "last_price": 272.59,
+        "prev_close": 245.12,
+        "change": 11.21,
+        "change_pct": 11.21,
+        "volume": 427752,
+        "turnover_cr": 11.82
+      },
+      {
+        "symbol": "ASIANHOTNR",
+        "name": "ASIANHOTNR",
+        "last_price": 324,
+        "prev_close": 294.55,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 28791,
+        "turnover_cr": 0.88
       }
     ],
     "lower_circuit": [
@@ -116,48 +126,48 @@
         "prev_close": 129.05,
         "change": -20,
         "change_pct": -20,
-        "volume": 18004430,
-        "turnover_cr": 207.0
+        "volume": 18345174,
+        "turnover_cr": 210.51
       },
       {
         "symbol": "BANDHANBNK",
         "name": "BANDHANBNK",
-        "last_price": 173.55,
+        "last_price": 174.1,
         "prev_close": 208.83,
-        "change": -16.89,
-        "change_pct": -16.89,
-        "volume": 142769963,
-        "turnover_cr": 2555.3
-      },
-      {
-        "symbol": "MEDPLUS",
-        "name": "MEDPLUS",
-        "last_price": 675.95,
-        "prev_close": 793.55,
-        "change": -14.82,
-        "change_pct": -14.82,
-        "volume": 2088790,
-        "turnover_cr": 141.51
-      },
-      {
-        "symbol": "TIPSMUSIC",
-        "name": "TIPSMUSIC",
-        "last_price": 619.5,
-        "prev_close": 712.2,
-        "change": -13.02,
-        "change_pct": -13.02,
-        "volume": 1978359,
-        "turnover_cr": 129.69
+        "change": -16.63,
+        "change_pct": -16.63,
+        "volume": 156943419,
+        "turnover_cr": 2801.13
       },
       {
         "symbol": "BAJAJHCARE",
         "name": "BAJAJHCARE",
-        "last_price": 323.5,
+        "last_price": 321,
         "prev_close": 369.35,
-        "change": -12.41,
-        "change_pct": -12.41,
-        "volume": 1346986,
-        "turnover_cr": 44.73
+        "change": -13.09,
+        "change_pct": -13.09,
+        "volume": 1661439,
+        "turnover_cr": 54.9
+      },
+      {
+        "symbol": "TIPSMUSIC",
+        "name": "TIPSMUSIC",
+        "last_price": 625.7,
+        "prev_close": 712.2,
+        "change": -12.15,
+        "change_pct": -12.15,
+        "volume": 2886455,
+        "turnover_cr": 186.18
+      },
+      {
+        "symbol": "MEDPLUS",
+        "name": "MEDPLUS",
+        "last_price": 711,
+        "prev_close": 793.55,
+        "change": -10.4,
+        "change_pct": -10.4,
+        "volume": 2431192,
+        "turnover_cr": 165.11
       }
     ]
   }

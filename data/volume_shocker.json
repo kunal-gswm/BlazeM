@@ -1,260 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-22T09:15:12Z",
+    "last_updated": "2026-07-22T11:23:20Z",
     "status": "healthy",
-    "record_count": 25
+    "record_count": 24
   },
   "data": [
     {
       "symbol": "UFLEX",
       "name": "UFLEX Limited",
-      "last_price": 482.7,
-      "change_pct": 9.78,
-      "volume": 11038916,
-      "turnover_cr": 544.44,
-      "vol_change_1wk_pct": 419.22,
-      "vol_change_2wk_pct": 266.11
+      "last_price": 496,
+      "change_pct": 12.8,
+      "volume": 11738381,
+      "turnover_cr": 578.7,
+      "vol_change_1wk_pct": 445.78,
+      "vol_change_2wk_pct": 282.97
     },
     {
       "symbol": "GSEC10ABSL",
       "name": "AdityaBirlaSunLifeMF - Aditya Birla Sun Life CRISIL 10 Year Gilt ETF",
-      "last_price": 113.37,
-      "change_pct": -0.01,
-      "volume": 22050,
+      "last_price": 113.3,
+      "change_pct": -0.07,
+      "volume": 22150,
       "turnover_cr": 0.25,
-      "vol_change_1wk_pct": 299.59,
-      "vol_change_2wk_pct": 32.28
+      "vol_change_1wk_pct": 300.95,
+      "vol_change_2wk_pct": 32.43
     },
     {
       "symbol": "GULPOLY",
       "name": "Gulshan Polyols Limited",
-      "last_price": 186.25,
-      "change_pct": 3,
-      "volume": 13830804,
-      "turnover_cr": 279.52,
-      "vol_change_1wk_pct": 97.22,
-      "vol_change_2wk_pct": 94.77
+      "last_price": 186.17,
+      "change_pct": 2.95,
+      "volume": 14384339,
+      "turnover_cr": 289.87,
+      "vol_change_1wk_pct": 101.11,
+      "vol_change_2wk_pct": 98.57
     },
     {
       "symbol": "CRAMC",
       "name": "Canara Robeco Asset Management Company Limited",
-      "last_price": 267,
-      "change_pct": 5.87,
-      "volume": 29736921,
-      "turnover_cr": 836.29,
-      "vol_change_1wk_pct": 64.91,
-      "vol_change_2wk_pct": 68.05
+      "last_price": 266.95,
+      "change_pct": 5.85,
+      "volume": 30946288,
+      "turnover_cr": 868.57,
+      "vol_change_1wk_pct": 67.55,
+      "vol_change_2wk_pct": 70.82
+    },
+    {
+      "symbol": "STYLAMIND",
+      "name": "Stylam Industries Limited",
+      "last_price": 3659,
+      "change_pct": 4.22,
+      "volume": 1979903,
+      "turnover_cr": 755.14,
+      "vol_change_1wk_pct": 53.78,
+      "vol_change_2wk_pct": 49.41
     },
     {
       "symbol": "MPSLTD",
       "name": "MPS Limited",
       "last_price": 2564.5,
       "change_pct": 20,
-      "volume": 1203625,
-      "turnover_cr": 300.16,
-      "vol_change_1wk_pct": 47.33,
-      "vol_change_2wk_pct": 48.4
-    },
-    {
-      "symbol": "STYLAMIND",
-      "name": "Stylam Industries Limited",
-      "last_price": 3833.3,
-      "change_pct": 9.19,
-      "volume": 1595295,
-      "turnover_cr": 614.82,
-      "vol_change_1wk_pct": 43.33,
-      "vol_change_2wk_pct": 39.81
+      "volume": 1207996,
+      "turnover_cr": 301.28,
+      "vol_change_1wk_pct": 47.5,
+      "vol_change_2wk_pct": 48.57
     },
     {
       "symbol": "NBIFIN",
       "name": "N. B. I. Industrial Finance Company Limited",
-      "last_price": 2101,
-      "change_pct": 1.35,
-      "volume": 25820,
-      "turnover_cr": 5.42,
-      "vol_change_1wk_pct": 43.23,
-      "vol_change_2wk_pct": 3.13
+      "last_price": 2240,
+      "change_pct": 8.06,
+      "volume": 26257,
+      "turnover_cr": 5.52,
+      "vol_change_1wk_pct": 43.96,
+      "vol_change_2wk_pct": 3.18
+    },
+    {
+      "symbol": "WAKEFIT",
+      "name": "Wakefit Innovations Limited",
+      "last_price": 142.55,
+      "change_pct": 14.89,
+      "volume": 31058547,
+      "turnover_cr": 425.91,
+      "vol_change_1wk_pct": 41.25,
+      "vol_change_2wk_pct": 35.22
+    },
+    {
+      "symbol": "MALUPAPER",
+      "name": "Malu Paper Mills Limited",
+      "last_price": 34.08,
+      "change_pct": 13.03,
+      "volume": 458139,
+      "turnover_cr": 1.57,
+      "vol_change_1wk_pct": 40.04,
+      "vol_change_2wk_pct": 43.46
+    },
+    {
+      "symbol": "GSEC10YEAR",
+      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty 8-13 yr G-Sec ETF",
+      "last_price": 30.5,
+      "change_pct": 0.56,
+      "volume": 65395,
+      "turnover_cr": 0.2,
+      "vol_change_1wk_pct": 37.5,
+      "vol_change_2wk_pct": 34.42
     },
     {
       "symbol": "TGBHOTELS",
       "name": "TGB Banquets And Hotels Limited",
-      "last_price": 9.2,
-      "change_pct": 5.75,
-      "volume": 707985,
-      "turnover_cr": 0.7,
-      "vol_change_1wk_pct": 31.96,
-      "vol_change_2wk_pct": 45.78
+      "last_price": 8.94,
+      "change_pct": 2.76,
+      "volume": 802608,
+      "turnover_cr": 0.78,
+      "vol_change_1wk_pct": 36.23,
+      "vol_change_2wk_pct": 51.9
+    },
+    {
+      "symbol": "KAYA",
+      "name": "Kaya Limited",
+      "last_price": 272.59,
+      "change_pct": 11.21,
+      "volume": 427752,
+      "turnover_cr": 11.82,
+      "vol_change_1wk_pct": 34.87,
+      "vol_change_2wk_pct": 42.52
+    },
+    {
+      "symbol": "MEDPLUS",
+      "name": "Medplus Health Services Limited",
+      "last_price": 711,
+      "change_pct": -10.4,
+      "volume": 2431192,
+      "turnover_cr": 165.11,
+      "vol_change_1wk_pct": 27.33,
+      "vol_change_2wk_pct": 27.9
     },
     {
       "symbol": "ARENTERP",
       "name": "Rajdarshan Industries Limited",
       "last_price": 41.22,
       "change_pct": 20,
-      "volume": 36877,
+      "volume": 36878,
       "turnover_cr": 0.15,
       "vol_change_1wk_pct": 26.28,
       "vol_change_2wk_pct": 29.67
     },
     {
-      "symbol": "KAYA",
-      "name": "Kaya Limited",
-      "last_price": 277.99,
-      "change_pct": 13.41,
-      "volume": 320228,
-      "turnover_cr": 8.94,
-      "vol_change_1wk_pct": 26.1,
-      "vol_change_2wk_pct": 31.83
-    },
-    {
-      "symbol": "WAKEFIT",
-      "name": "Wakefit Innovations Limited",
-      "last_price": 140.26,
-      "change_pct": 13.05,
-      "volume": 18120795,
-      "turnover_cr": 245.92,
-      "vol_change_1wk_pct": 24.06,
-      "vol_change_2wk_pct": 20.55
-    },
-    {
-      "symbol": "MEDPLUS",
-      "name": "Medplus Health Services Limited",
-      "last_price": 676.4,
-      "change_pct": -14.76,
-      "volume": 2088912,
-      "turnover_cr": 141.52,
-      "vol_change_1wk_pct": 23.48,
-      "vol_change_2wk_pct": 23.98
+      "symbol": "ANDHRAPAP",
+      "name": "ANDHRA PAPER LIMITED",
+      "last_price": 60.3,
+      "change_pct": 0.4,
+      "volume": 1208574,
+      "turnover_cr": 7.28,
+      "vol_change_1wk_pct": 25.85,
+      "vol_change_2wk_pct": 26.37
     },
     {
       "symbol": "GANESHBE",
       "name": "Ganesh Benzoplast Limited",
-      "last_price": 109.99,
-      "change_pct": 4.36,
-      "volume": 10776176,
-      "turnover_cr": 121.89,
-      "vol_change_1wk_pct": 22.13,
-      "vol_change_2wk_pct": 32.79
-    },
-    {
-      "symbol": "MALUPAPER",
-      "name": "Malu Paper Mills Limited",
-      "last_price": 33.9,
-      "change_pct": 12.44,
-      "volume": 252872,
-      "turnover_cr": 0.86,
-      "vol_change_1wk_pct": 22.1,
-      "vol_change_2wk_pct": 23.99
-    },
-    {
-      "symbol": "GSEC10YEAR",
-      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty 8-13 yr G-Sec ETF",
-      "last_price": 30.28,
-      "change_pct": -0.16,
-      "volume": 34527,
-      "turnover_cr": 0.1,
-      "vol_change_1wk_pct": 19.8,
-      "vol_change_2wk_pct": 18.17
+      "last_price": 108.9,
+      "change_pct": 3.33,
+      "volume": 11607281,
+      "turnover_cr": 130.99,
+      "vol_change_1wk_pct": 23.84,
+      "vol_change_2wk_pct": 35.32
     },
     {
       "symbol": "HUHTAMAKI",
       "name": "Huhtamaki India Limited",
-      "last_price": 288.97,
-      "change_pct": 9.38,
-      "volume": 23236132,
-      "turnover_cr": 684.33,
-      "vol_change_1wk_pct": 19.57,
-      "vol_change_2wk_pct": 33.02
-    },
-    {
-      "symbol": "KRISHIVAL",
-      "name": "Krishival Foods Limited",
-      "last_price": 390.4,
-      "change_pct": -0.76,
-      "volume": 112150,
-      "turnover_cr": 4.37,
-      "vol_change_1wk_pct": 19.13,
-      "vol_change_2wk_pct": 15.07
-    },
-    {
-      "symbol": "SMARTWORKS",
-      "name": "Smartworks Coworking Spaces Limited",
-      "last_price": 481,
-      "change_pct": -3.8,
-      "volume": 1825177,
-      "turnover_cr": 91.64,
-      "vol_change_1wk_pct": 17.58,
-      "vol_change_2wk_pct": 25.37
-    },
-    {
-      "symbol": "JKPAPER",
-      "name": "JK Paper Limited",
-      "last_price": 386.4,
-      "change_pct": 2.78,
-      "volume": 6106869,
-      "turnover_cr": 241.67,
-      "vol_change_1wk_pct": 17.25,
-      "vol_change_2wk_pct": 15.15
-    },
-    {
-      "symbol": "INVPRECQ",
-      "name": "Investment & Precision Castings Limited",
-      "last_price": 912.9,
-      "change_pct": 2.94,
-      "volume": 73837,
-      "turnover_cr": 6.9,
-      "vol_change_1wk_pct": 17.04,
-      "vol_change_2wk_pct": 17.63
+      "last_price": 290.56,
+      "change_pct": 9.98,
+      "volume": 24962628,
+      "turnover_cr": 734.68,
+      "vol_change_1wk_pct": 21.02,
+      "vol_change_2wk_pct": 35.47
     },
     {
       "symbol": "ORIENTELEC",
       "name": "Orient Electric Limited",
-      "last_price": 172.62,
-      "change_pct": -3.3,
-      "volume": 3456593,
-      "turnover_cr": 61.08,
-      "vol_change_1wk_pct": 17.03,
-      "vol_change_2wk_pct": 18.1
+      "last_price": 171.5,
+      "change_pct": -3.93,
+      "volume": 3914886,
+      "turnover_cr": 68.94,
+      "vol_change_1wk_pct": 19.29,
+      "vol_change_2wk_pct": 20.5
+    },
+    {
+      "symbol": "KRISHIVAL",
+      "name": "Krishival Foods Limited",
+      "last_price": 389.25,
+      "change_pct": -1.05,
+      "volume": 112528,
+      "turnover_cr": 4.39,
+      "vol_change_1wk_pct": 19.19,
+      "vol_change_2wk_pct": 15.12
+    },
+    {
+      "symbol": "JKPAPER",
+      "name": "JK Paper Limited",
+      "last_price": 388,
+      "change_pct": 3.21,
+      "volume": 6783489,
+      "turnover_cr": 268.02,
+      "vol_change_1wk_pct": 19.16,
+      "vol_change_2wk_pct": 16.83
     },
     {
       "symbol": "INCREDIBLE",
       "name": "INCREDIBLE INDUSTRIES LIMITED",
-      "last_price": 34.11,
-      "change_pct": 4.28,
-      "volume": 38381,
-      "turnover_cr": 0.14,
-      "vol_change_1wk_pct": 16.83,
-      "vol_change_2wk_pct": 6.6
+      "last_price": 34.6,
+      "change_pct": 5.78,
+      "volume": 43559,
+      "turnover_cr": 0.15,
+      "vol_change_1wk_pct": 19.1,
+      "vol_change_2wk_pct": 7.49
     },
     {
-      "symbol": "TRIDENT",
-      "name": "Trident Limited",
-      "last_price": 25.29,
-      "change_pct": 0.76,
-      "volume": 53214912,
-      "turnover_cr": 138.47,
-      "vol_change_1wk_pct": 15.25,
-      "vol_change_2wk_pct": 14.56
+      "symbol": "TARC",
+      "name": "TARC Limited",
+      "last_price": 126.25,
+      "change_pct": 9.4,
+      "volume": 6561108,
+      "turnover_cr": 80.78,
+      "vol_change_1wk_pct": 18.69,
+      "vol_change_2wk_pct": 1.07
     },
     {
-      "symbol": "EMAMIPAP",
-      "name": "Emami Paper Mills Limited",
-      "last_price": 118.63,
-      "change_pct": 20,
-      "volume": 1408894,
-      "turnover_cr": 16.32,
-      "vol_change_1wk_pct": 15.17,
-      "vol_change_2wk_pct": 20.44
+      "symbol": "SMARTWORKS",
+      "name": "Smartworks Coworking Spaces Limited",
+      "last_price": 490,
+      "change_pct": -2,
+      "volume": 1904517,
+      "turnover_cr": 95.52,
+      "vol_change_1wk_pct": 18.35,
+      "vol_change_2wk_pct": 26.47
     },
     {
-      "symbol": "ANDHRAPAP",
-      "name": "ANDHRA PAPER LIMITED",
-      "last_price": 59.7,
-      "change_pct": -0.6,
-      "volume": 650474,
-      "turnover_cr": 3.91,
-      "vol_change_1wk_pct": 13.91,
-      "vol_change_2wk_pct": 14.19
+      "symbol": "INVPRECQ",
+      "name": "Investment & Precision Castings Limited",
+      "last_price": 932.7,
+      "change_pct": 5.18,
+      "volume": 78737,
+      "turnover_cr": 7.36,
+      "vol_change_1wk_pct": 18.17,
+      "vol_change_2wk_pct": 18.8
     }
   ]
 }
