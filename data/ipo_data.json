@@ -1,32 +1,11 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-21T11:21:38Z",
+    "last_updated": "2026-07-22T06:33:56Z",
     "status": "healthy",
     "record_count": 5
   },
   "data": [
-    {
-      "issue_name": "Indo-MIM",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "485",
-      "lot_size": "30",
-      "issue_size": "₹3811.21 Cr",
-      "issue_open": "2026-07-23",
-      "issue_close": "2026-07-27",
-      "allotment_date": "2026-07-28",
-      "listing_date": "2026-07-30",
-      "gmp": 180.0,
-      "gmp_percent": "37.11%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/indo-mim-ipo/1594/",
-      "scraped_at": "2026-07-21T11:21:23.923169+00:00Z"
-    },
     {
       "issue_name": "Xtranet Technologies",
       "ipo_type": "Mainboard",
@@ -38,15 +17,15 @@
       "issue_close": "2026-07-27",
       "allotment_date": "2026-07-28",
       "listing_date": "2026-07-30",
-      "gmp": 21.0,
-      "gmp_percent": "16.54%",
+      "gmp": 20.0,
+      "gmp_percent": "15.75%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/xtranet-technologies-ipo/1951/",
-      "scraped_at": "2026-07-21T11:21:23.923327+00:00Z"
+      "scraped_at": "2026-07-22T06:33:38.254842+00:00Z"
     },
     {
       "issue_name": "Lohia Corp",
@@ -59,15 +38,36 @@
       "issue_close": "2026-07-27",
       "allotment_date": "2026-07-28",
       "listing_date": "2026-07-30",
-      "gmp": 40.0,
-      "gmp_percent": "9.41%",
+      "gmp": 36.0,
+      "gmp_percent": "8.47%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lohia-corp-ipo/1862/",
-      "scraped_at": "2026-07-21T11:21:23.923435+00:00Z"
+      "scraped_at": "2026-07-22T06:33:38.254989+00:00Z"
+    },
+    {
+      "issue_name": "Indo-MIM",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "485",
+      "lot_size": "30",
+      "issue_size": "₹3811.21 Cr",
+      "issue_open": "2026-07-23",
+      "issue_close": "2026-07-27",
+      "allotment_date": "2026-07-28",
+      "listing_date": "2026-07-30",
+      "gmp": 194.0,
+      "gmp_percent": "40.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/indo-mim-ipo/1594/",
+      "scraped_at": "2026-07-22T06:33:38.255120+00:00Z"
     },
     {
       "issue_name": "Cube Highways Trust InvIT",
@@ -88,7 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/cube-highways-trust-invit/2346/",
-      "scraped_at": "2026-07-21T11:21:23.923534+00:00Z"
+      "scraped_at": "2026-07-22T06:33:38.255255+00:00Z"
     },
     {
       "issue_name": "Caliber Mining",
@@ -101,15 +101,15 @@
       "issue_close": "2026-07-21",
       "allotment_date": "2026-07-22",
       "listing_date": "2026-07-24",
-      "gmp": 86.0,
-      "gmp_percent": "20.28%",
+      "gmp": 73.0,
+      "gmp_percent": "17.22%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/caliber-mining-ipo/1610/",
-      "scraped_at": "2026-07-21T11:21:23.923642+00:00Z"
+      "scraped_at": "2026-07-22T06:33:38.255364+00:00Z"
     }
   ]
 }
