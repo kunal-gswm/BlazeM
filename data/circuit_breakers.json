@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-23T06:34:42Z",
+    "last_updated": "2026-07-23T09:14:03Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,18 @@
         "prev_close": 236.19,
         "change": 20,
         "change_pct": 20,
-        "volume": 18541378,
-        "turnover_cr": 518.81
+        "volume": 22439504,
+        "turnover_cr": 628.46
+      },
+      {
+        "symbol": "TECHNVISN",
+        "name": "TECHNVISN",
+        "last_price": 4429.9,
+        "prev_close": 3691.6,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 8641,
+        "turnover_cr": 3.72
       },
       {
         "symbol": "TIPSFILMS",
@@ -24,8 +34,8 @@
         "prev_close": 312.6,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 69867,
-        "turnover_cr": 2.57
+        "volume": 70574,
+        "turnover_cr": 2.6
       },
       {
         "symbol": "ARENTERP",
@@ -34,80 +44,70 @@
         "prev_close": 41.22,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 270552,
-        "turnover_cr": 1.32
+        "volume": 273396,
+        "turnover_cr": 1.34
       },
       {
-        "symbol": "TECHNVISN",
-        "name": "TECHNVISN",
-        "last_price": 4330.8,
-        "prev_close": 3691.6,
-        "change": 17.31,
-        "change_pct": 17.31,
-        "volume": 4913,
-        "turnover_cr": 2.08
-      },
-      {
-        "symbol": "TANLA",
-        "name": "TANLA",
-        "last_price": 641.7,
-        "prev_close": 561.6,
-        "change": 14.26,
-        "change_pct": 14.26,
-        "volume": 18754671,
-        "turnover_cr": 1193.15
+        "symbol": "ASIANTILES",
+        "name": "ASIANTILES",
+        "last_price": 51.61,
+        "prev_close": 43.42,
+        "change": 18.86,
+        "change_pct": 18.86,
+        "volume": 46519096,
+        "turnover_cr": 229.71
       },
       {
         "symbol": "PRAENG",
         "name": "PRAENG",
-        "last_price": 22.34,
+        "last_price": 22.75,
         "prev_close": 19.65,
-        "change": 13.69,
-        "change_pct": 13.69,
-        "volume": 526665,
-        "turnover_cr": 1.18
+        "change": 15.78,
+        "change_pct": 15.78,
+        "volume": 870992,
+        "turnover_cr": 1.97
       },
       {
         "symbol": "TIPSMUSIC",
         "name": "TIPSMUSIC",
-        "last_price": 692.25,
+        "last_price": 706.75,
         "prev_close": 622.85,
-        "change": 11.14,
-        "change_pct": 11.14,
-        "volume": 3330611,
-        "turnover_cr": 227.16
-      },
-      {
-        "symbol": "ROUTE",
-        "name": "ROUTE",
-        "last_price": 628.9,
-        "prev_close": 567.05,
-        "change": 10.91,
-        "change_pct": 10.91,
-        "volume": 9717293,
-        "turnover_cr": 608.2
+        "change": 13.47,
+        "change_pct": 13.47,
+        "volume": 6425906,
+        "turnover_cr": 442.57
       },
       {
         "symbol": "UYFINCORP",
         "name": "UYFINCORP",
-        "last_price": 19,
+        "last_price": 19.15,
         "prev_close": 17.24,
-        "change": 10.21,
-        "change_pct": 10.21,
-        "volume": 970159,
-        "turnover_cr": 1.78
+        "change": 11.08,
+        "change_pct": 11.08,
+        "volume": 1329267,
+        "turnover_cr": 2.47
       }
     ],
     "lower_circuit": [
       {
+        "symbol": "CONTROLPR",
+        "name": "CONTROLPR",
+        "last_price": 572,
+        "prev_close": 656.8,
+        "change": -12.91,
+        "change_pct": -12.91,
+        "volume": 971757,
+        "turnover_cr": 57.56
+      },
+      {
         "symbol": "CIEINDIA",
         "name": "CIEINDIA",
-        "last_price": 417.9,
+        "last_price": 418.6,
         "prev_close": 472.5,
-        "change": -11.56,
-        "change_pct": -11.56,
-        "volume": 2369587,
-        "turnover_cr": 102.74
+        "change": -11.41,
+        "change_pct": -11.41,
+        "volume": 5569761,
+        "turnover_cr": 237.1
       }
     ]
   }
