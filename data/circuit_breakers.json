@@ -1,173 +1,113 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-22T11:23:21Z",
+    "last_updated": "2026-07-23T06:34:42Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "MPSLTD",
-        "name": "MPSLTD",
-        "last_price": 2564.5,
-        "prev_close": 2137.1,
+        "symbol": "GANDHAR",
+        "name": "GANDHAR",
+        "last_price": 283.42,
+        "prev_close": 236.19,
         "change": 20,
         "change_pct": 20,
-        "volume": 1207996,
-        "turnover_cr": 301.28
+        "volume": 18541378,
+        "turnover_cr": 518.81
       },
       {
-        "symbol": "EMAMIPAP",
-        "name": "EMAMIPAP",
-        "last_price": 118.63,
-        "prev_close": 98.86,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 1427994,
-        "turnover_cr": 16.55
+        "symbol": "TIPSFILMS",
+        "name": "TIPSFILMS",
+        "last_price": 375.1,
+        "prev_close": 312.6,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 69867,
+        "turnover_cr": 2.57
       },
       {
         "symbol": "ARENTERP",
         "name": "ARENTERP",
-        "last_price": 41.22,
-        "prev_close": 34.35,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 36878,
-        "turnover_cr": 0.15
+        "last_price": 49.46,
+        "prev_close": 41.22,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 270552,
+        "turnover_cr": 1.32
       },
       {
-        "symbol": "WAKEFIT",
-        "name": "WAKEFIT",
-        "last_price": 142.55,
-        "prev_close": 124.07,
-        "change": 14.89,
-        "change_pct": 14.89,
-        "volume": 31058547,
-        "turnover_cr": 425.91
+        "symbol": "TECHNVISN",
+        "name": "TECHNVISN",
+        "last_price": 4330.8,
+        "prev_close": 3691.6,
+        "change": 17.31,
+        "change_pct": 17.31,
+        "volume": 4913,
+        "turnover_cr": 2.08
       },
       {
-        "symbol": "MALUPAPER",
-        "name": "MALUPAPER",
-        "last_price": 34.08,
-        "prev_close": 30.15,
-        "change": 13.03,
-        "change_pct": 13.03,
-        "volume": 458139,
-        "turnover_cr": 1.57
+        "symbol": "TANLA",
+        "name": "TANLA",
+        "last_price": 641.7,
+        "prev_close": 561.6,
+        "change": 14.26,
+        "change_pct": 14.26,
+        "volume": 18754671,
+        "turnover_cr": 1193.15
       },
       {
-        "symbol": "UFLEX",
-        "name": "UFLEX",
-        "last_price": 496,
-        "prev_close": 439.7,
-        "change": 12.8,
-        "change_pct": 12.8,
-        "volume": 11738381,
-        "turnover_cr": 578.7
-      },
-      {
-        "symbol": "ASAHISONG",
-        "name": "ASAHISONG",
-        "last_price": 302,
-        "prev_close": 268.75,
-        "change": 12.37,
-        "change_pct": 12.37,
-        "volume": 181522,
-        "turnover_cr": 5.39
-      },
-      {
-        "symbol": "DATAPATTNS",
-        "name": "DATAPATTNS",
-        "last_price": 4746.7,
-        "prev_close": 4243.9,
-        "change": 11.85,
-        "change_pct": 11.85,
-        "volume": 6972637,
-        "turnover_cr": 3232.95
-      },
-      {
-        "symbol": "CYIENTDLM",
-        "name": "CYIENTDLM",
-        "last_price": 696,
-        "prev_close": 623,
-        "change": 11.72,
-        "change_pct": 11.72,
-        "volume": 12932202,
-        "turnover_cr": 901.62
-      },
-      {
-        "symbol": "KAYA",
-        "name": "KAYA",
-        "last_price": 272.59,
-        "prev_close": 245.12,
-        "change": 11.21,
-        "change_pct": 11.21,
-        "volume": 427752,
-        "turnover_cr": 11.82
-      },
-      {
-        "symbol": "ASIANHOTNR",
-        "name": "ASIANHOTNR",
-        "last_price": 324,
-        "prev_close": 294.55,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 28791,
-        "turnover_cr": 0.88
-      }
-    ],
-    "lower_circuit": [
-      {
-        "symbol": "AASTHA",
-        "name": "AASTHA",
-        "last_price": 103.24,
-        "prev_close": 129.05,
-        "change": -20,
-        "change_pct": -20,
-        "volume": 18345174,
-        "turnover_cr": 210.51
-      },
-      {
-        "symbol": "BANDHANBNK",
-        "name": "BANDHANBNK",
-        "last_price": 174.1,
-        "prev_close": 208.83,
-        "change": -16.63,
-        "change_pct": -16.63,
-        "volume": 156943419,
-        "turnover_cr": 2801.13
-      },
-      {
-        "symbol": "BAJAJHCARE",
-        "name": "BAJAJHCARE",
-        "last_price": 321,
-        "prev_close": 369.35,
-        "change": -13.09,
-        "change_pct": -13.09,
-        "volume": 1661439,
-        "turnover_cr": 54.9
+        "symbol": "PRAENG",
+        "name": "PRAENG",
+        "last_price": 22.34,
+        "prev_close": 19.65,
+        "change": 13.69,
+        "change_pct": 13.69,
+        "volume": 526665,
+        "turnover_cr": 1.18
       },
       {
         "symbol": "TIPSMUSIC",
         "name": "TIPSMUSIC",
-        "last_price": 625.7,
-        "prev_close": 712.2,
-        "change": -12.15,
-        "change_pct": -12.15,
-        "volume": 2886455,
-        "turnover_cr": 186.18
+        "last_price": 692.25,
+        "prev_close": 622.85,
+        "change": 11.14,
+        "change_pct": 11.14,
+        "volume": 3330611,
+        "turnover_cr": 227.16
       },
       {
-        "symbol": "MEDPLUS",
-        "name": "MEDPLUS",
-        "last_price": 711,
-        "prev_close": 793.55,
-        "change": -10.4,
-        "change_pct": -10.4,
-        "volume": 2431192,
-        "turnover_cr": 165.11
+        "symbol": "ROUTE",
+        "name": "ROUTE",
+        "last_price": 628.9,
+        "prev_close": 567.05,
+        "change": 10.91,
+        "change_pct": 10.91,
+        "volume": 9717293,
+        "turnover_cr": 608.2
+      },
+      {
+        "symbol": "UYFINCORP",
+        "name": "UYFINCORP",
+        "last_price": 19,
+        "prev_close": 17.24,
+        "change": 10.21,
+        "change_pct": 10.21,
+        "volume": 970159,
+        "turnover_cr": 1.78
+      }
+    ],
+    "lower_circuit": [
+      {
+        "symbol": "CIEINDIA",
+        "name": "CIEINDIA",
+        "last_price": 417.9,
+        "prev_close": 472.5,
+        "change": -11.56,
+        "change_pct": -11.56,
+        "volume": 2369587,
+        "turnover_cr": 102.74
       }
     ]
   }
