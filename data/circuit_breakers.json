@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-24T09:06:52Z",
+    "last_updated": "2026-07-24T11:10:52Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,18 @@
         "prev_close": 74.41,
         "change": 20,
         "change_pct": 20,
-        "volume": 89339,
-        "turnover_cr": 0.76
+        "volume": 93729,
+        "turnover_cr": 0.8
+      },
+      {
+        "symbol": "TECHNVISN",
+        "name": "TECHNVISN",
+        "last_price": 5315.8,
+        "prev_close": 4429.9,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 26430,
+        "turnover_cr": 12.69
       },
       {
         "symbol": "AARON",
@@ -24,48 +34,78 @@
         "prev_close": 112.71,
         "change": 20,
         "change_pct": 20,
-        "volume": 361490,
-        "turnover_cr": 4.76
+        "volume": 364489,
+        "turnover_cr": 4.8
+      },
+      {
+        "symbol": "CNL",
+        "name": "CNL",
+        "last_price": 1047.95,
+        "prev_close": 879.05,
+        "change": 19.21,
+        "change_pct": 19.21,
+        "volume": 5646074,
+        "turnover_cr": 549.06
       },
       {
         "symbol": "KCPSUGIND",
         "name": "KCPSUGIND",
-        "last_price": 28.4,
+        "last_price": 27.9,
         "prev_close": 24.19,
-        "change": 17.4,
-        "change_pct": 17.4,
-        "volume": 3304389,
-        "turnover_cr": 8.98
+        "change": 15.34,
+        "change_pct": 15.34,
+        "volume": 3946850,
+        "turnover_cr": 10.79
       },
       {
-        "symbol": "AKG",
-        "name": "AKG",
-        "last_price": 10.8,
-        "prev_close": 9.32,
-        "change": 15.88,
-        "change_pct": 15.88,
-        "volume": 43427,
-        "turnover_cr": 0.04
+        "symbol": "BTML",
+        "name": "BTML",
+        "last_price": 7,
+        "prev_close": 6.08,
+        "change": 15.13,
+        "change_pct": 15.13,
+        "volume": 3313634,
+        "turnover_cr": 2.19
+      },
+      {
+        "symbol": "INDOBORAX",
+        "name": "INDOBORAX",
+        "last_price": 428,
+        "prev_close": 373.5,
+        "change": 14.59,
+        "change_pct": 14.59,
+        "volume": 10596863,
+        "turnover_cr": 434.69
       },
       {
         "symbol": "CREATIVEYE",
         "name": "CREATIVEYE",
-        "last_price": 6.67,
+        "last_price": 6.83,
         "prev_close": 5.97,
-        "change": 11.73,
-        "change_pct": 11.73,
-        "volume": 297559,
-        "turnover_cr": 0.21
+        "change": 14.41,
+        "change_pct": 14.41,
+        "volume": 448979,
+        "turnover_cr": 0.31
       },
       {
-        "symbol": "TIPSFILMS",
-        "name": "TIPSFILMS",
-        "last_price": 417.25,
-        "prev_close": 375.1,
-        "change": 11.24,
-        "change_pct": 11.24,
-        "volume": 314174,
-        "turnover_cr": 13.04
+        "symbol": "JINDWORLD",
+        "name": "JINDWORLD",
+        "last_price": 38.39,
+        "prev_close": 34.04,
+        "change": 12.78,
+        "change_pct": 12.78,
+        "volume": 74088630,
+        "turnover_cr": 275.02
+      },
+      {
+        "symbol": "MAXIND",
+        "name": "MAXIND",
+        "last_price": 184,
+        "prev_close": 165.65,
+        "change": 11.08,
+        "change_pct": 11.08,
+        "volume": 3223259,
+        "turnover_cr": 57.99
       },
       {
         "symbol": "LASERPOWER",
@@ -74,30 +114,40 @@
         "prev_close": 279.57,
         "change": 10,
         "change_pct": 10,
-        "volume": 6202753,
-        "turnover_cr": 181.96
+        "volume": 6556933,
+        "turnover_cr": 192.86
       }
     ],
     "lower_circuit": [
       {
         "symbol": "BANK10BETF",
         "name": "BANK10BETF",
-        "last_price": 20.84,
+        "last_price": 20.8,
         "prev_close": 24.9,
-        "change": -16.31,
-        "change_pct": -16.31,
-        "volume": 57371,
-        "turnover_cr": 0.12
+        "change": -16.47,
+        "change_pct": -16.47,
+        "volume": 82583,
+        "turnover_cr": 0.17
       },
       {
         "symbol": "ARENTERP",
         "name": "ARENTERP",
-        "last_price": 43.91,
+        "last_price": 42.97,
         "prev_close": 49.46,
-        "change": -11.22,
-        "change_pct": -11.22,
-        "volume": 138289,
-        "turnover_cr": 0.65
+        "change": -13.12,
+        "change_pct": -13.12,
+        "volume": 166894,
+        "turnover_cr": 0.77
+      },
+      {
+        "symbol": "SPANDANA",
+        "name": "SPANDANA",
+        "last_price": 262,
+        "prev_close": 292.25,
+        "change": -10.35,
+        "change_pct": -10.35,
+        "volume": 1984220,
+        "turnover_cr": 53.08
       }
     ]
   }
