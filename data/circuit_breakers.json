@@ -1,53 +1,103 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-24T06:30:52Z",
+    "last_updated": "2026-07-24T09:06:52Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
+        "symbol": "ORIENTLTD",
+        "name": "ORIENTLTD",
+        "last_price": 89.29,
+        "prev_close": 74.41,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 89339,
+        "turnover_cr": 0.76
+      },
+      {
         "symbol": "AARON",
         "name": "AARON",
-        "last_price": 130.94,
+        "last_price": 135.25,
         "prev_close": 112.71,
-        "change": 16.17,
-        "change_pct": 16.17,
-        "volume": 266892,
-        "turnover_cr": 3.5
+        "change": 20,
+        "change_pct": 20,
+        "volume": 361490,
+        "turnover_cr": 4.76
       },
       {
         "symbol": "KCPSUGIND",
         "name": "KCPSUGIND",
-        "last_price": 27.06,
+        "last_price": 28.4,
         "prev_close": 24.19,
-        "change": 11.86,
-        "change_pct": 11.86,
-        "volume": 1199488,
-        "turnover_cr": 3.15
+        "change": 17.4,
+        "change_pct": 17.4,
+        "volume": 3304389,
+        "turnover_cr": 8.98
+      },
+      {
+        "symbol": "AKG",
+        "name": "AKG",
+        "last_price": 10.8,
+        "prev_close": 9.32,
+        "change": 15.88,
+        "change_pct": 15.88,
+        "volume": 43427,
+        "turnover_cr": 0.04
+      },
+      {
+        "symbol": "CREATIVEYE",
+        "name": "CREATIVEYE",
+        "last_price": 6.67,
+        "prev_close": 5.97,
+        "change": 11.73,
+        "change_pct": 11.73,
+        "volume": 297559,
+        "turnover_cr": 0.21
       },
       {
         "symbol": "TIPSFILMS",
         "name": "TIPSFILMS",
-        "last_price": 417.15,
+        "last_price": 417.25,
         "prev_close": 375.1,
-        "change": 11.21,
-        "change_pct": 11.21,
-        "volume": 257257,
-        "turnover_cr": 10.69
+        "change": 11.24,
+        "change_pct": 11.24,
+        "volume": 314174,
+        "turnover_cr": 13.04
+      },
+      {
+        "symbol": "LASERPOWER",
+        "name": "LASERPOWER",
+        "last_price": 307.52,
+        "prev_close": 279.57,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 6202753,
+        "turnover_cr": 181.96
       }
     ],
     "lower_circuit": [
       {
         "symbol": "BANK10BETF",
         "name": "BANK10BETF",
-        "last_price": 20.9,
+        "last_price": 20.84,
         "prev_close": 24.9,
-        "change": -16.06,
-        "change_pct": -16.06,
-        "volume": 39481,
-        "turnover_cr": 0.08
+        "change": -16.31,
+        "change_pct": -16.31,
+        "volume": 57371,
+        "turnover_cr": 0.12
+      },
+      {
+        "symbol": "ARENTERP",
+        "name": "ARENTERP",
+        "last_price": 43.91,
+        "prev_close": 49.46,
+        "change": -11.22,
+        "change_pct": -11.22,
+        "volume": 138289,
+        "turnover_cr": 0.65
       }
     ]
   }

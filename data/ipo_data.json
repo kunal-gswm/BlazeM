@@ -1,31 +1,52 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-24T06:30:40Z",
+    "last_updated": "2026-07-24T09:06:42Z",
     "status": "healthy",
-    "record_count": 5
+    "record_count": 6
   },
   "data": [
+    {
+      "issue_name": "Juniper Green Energy",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "",
+      "lot_size": "",
+      "issue_size": "₹1800.00 Cr",
+      "issue_open": "2026-07-30",
+      "issue_close": "2026-08-03",
+      "allotment_date": "2026-08-04",
+      "listing_date": "2026-08-06",
+      "gmp": 0.0,
+      "gmp_percent": "",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/juniper-green-energy-ipo/1809/",
+      "scraped_at": "2026-07-24T09:06:22.054471+00:00Z"
+    },
     {
       "issue_name": "Manipal Health Enterprises",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "590",
       "lot_size": "25",
-      "issue_size": "₹9273.64 Cr",
+      "issue_size": "₹9275.22 Cr",
       "issue_open": "2026-07-29",
       "issue_close": "2026-07-31",
       "allotment_date": "2026-08-03",
       "listing_date": "2026-08-05",
-      "gmp": 26.0,
-      "gmp_percent": "4.41%",
+      "gmp": 30.0,
+      "gmp_percent": "5.08%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/manipal-health-enterprises-ipo/2217/",
-      "scraped_at": "2026-07-24T06:30:21.656950+00:00Z"
+      "scraped_at": "2026-07-24T09:06:22.054671+00:00Z"
     },
     {
       "issue_name": "Xtranet Technologies",
@@ -38,15 +59,36 @@
       "issue_close": "2026-07-27",
       "allotment_date": "2026-07-28",
       "listing_date": "2026-07-30",
-      "gmp": 7.0,
-      "gmp_percent": "5.51%",
+      "gmp": 9.0,
+      "gmp_percent": "7.09%",
       "subscription_qib": "0.91x",
-      "subscription_nii": "1.33x",
-      "subscription_retail": "1.87x",
-      "subscription_total": "1.48x",
-      "subscription_applications": "63,703",
+      "subscription_nii": "1.56x",
+      "subscription_retail": "2.19x",
+      "subscription_total": "1.69x",
+      "subscription_applications": "74,770",
       "detail_url": "https://www.investorgain.com/gmp/xtranet-technologies-ipo/1951/",
-      "scraped_at": "2026-07-24T06:30:21.657053+00:00Z"
+      "scraped_at": "2026-07-24T09:06:22.054780+00:00Z"
+    },
+    {
+      "issue_name": "Indo-MIM",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "485",
+      "lot_size": "30",
+      "issue_size": "₹3811.21 Cr",
+      "issue_open": "2026-07-23",
+      "issue_close": "2026-07-27",
+      "allotment_date": "2026-07-28",
+      "listing_date": "2026-07-30",
+      "gmp": 162.0,
+      "gmp_percent": "33.40%",
+      "subscription_qib": "1.00x",
+      "subscription_nii": "6.58x",
+      "subscription_retail": "1.63x",
+      "subscription_total": "2.51x",
+      "subscription_applications": "12,17,162",
+      "detail_url": "https://www.investorgain.com/gmp/indo-mim-ipo/1594/",
+      "scraped_at": "2026-07-24T09:06:22.054883+00:00Z"
     },
     {
       "issue_name": "Lohia Corp",
@@ -61,34 +103,13 @@
       "listing_date": "2026-07-30",
       "gmp": 11.0,
       "gmp_percent": "2.59%",
-      "subscription_qib": "0.43x",
-      "subscription_nii": "0.19x",
-      "subscription_retail": "0.86x",
-      "subscription_total": "0.44x",
-      "subscription_applications": "50,678",
+      "subscription_qib": "0.51x",
+      "subscription_nii": "0.23x",
+      "subscription_retail": "0.98x",
+      "subscription_total": "0.52x",
+      "subscription_applications": "57,616",
       "detail_url": "https://www.investorgain.com/gmp/lohia-corp-ipo/1862/",
-      "scraped_at": "2026-07-24T06:30:21.657134+00:00Z"
-    },
-    {
-      "issue_name": "Indo-MIM",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "485",
-      "lot_size": "30",
-      "issue_size": "₹3811.21 Cr",
-      "issue_open": "2026-07-23",
-      "issue_close": "2026-07-27",
-      "allotment_date": "2026-07-28",
-      "listing_date": "2026-07-30",
-      "gmp": 166.0,
-      "gmp_percent": "34.23%",
-      "subscription_qib": "0.25x",
-      "subscription_nii": "4.64x",
-      "subscription_retail": "1.27x",
-      "subscription_total": "1.70x",
-      "subscription_applications": "9,31,883",
-      "detail_url": "https://www.investorgain.com/gmp/indo-mim-ipo/1594/",
-      "scraped_at": "2026-07-24T06:30:21.657208+00:00Z"
+      "scraped_at": "2026-07-24T09:06:22.054995+00:00Z"
     },
     {
       "issue_name": "Cube Highways Trust InvIT",
@@ -109,7 +130,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/cube-highways-trust-invit/2346/",
-      "scraped_at": "2026-07-24T06:30:21.657281+00:00Z"
+      "scraped_at": "2026-07-24T09:06:22.055095+00:00Z"
     }
   ]
 }
