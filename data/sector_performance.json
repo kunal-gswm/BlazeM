@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-07-23T11:22:34Z",
+    "last_updated": "2026-07-24T06:30:40Z",
     "status": "healthy",
     "record_count": 10
   },
   "data": [
     {
-      "symbol": "NIFTY AUTO",
-      "lastPrice": 27520.8,
-      "percentChange": 0.7,
-      "change": 191.15,
-      "status": "up"
-    },
-    {
       "symbol": "NIFTY MEDIA",
-      "lastPrice": 1499.5,
-      "percentChange": 0.22,
-      "change": 3.3,
+      "lastPrice": 1509.3,
+      "percentChange": 0.65,
+      "change": 9.8,
       "status": "up"
     },
     {
-      "symbol": "NIFTY IT",
-      "lastPrice": 28533.55,
-      "percentChange": -0.06,
-      "change": -16.3,
+      "symbol": "NIFTY FMCG",
+      "lastPrice": 49027.9,
+      "percentChange": -0.01,
+      "change": -5.3,
       "status": "down"
     },
     {
       "symbol": "NIFTY PHARMA",
-      "lastPrice": 25653.55,
-      "percentChange": -0.38,
-      "change": -98.7,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY FMCG",
-      "lastPrice": 49033.2,
-      "percentChange": -0.41,
-      "change": -200.6,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY METAL",
-      "lastPrice": 12469.7,
-      "percentChange": -0.74,
-      "change": -93.15,
+      "lastPrice": 25529.4,
+      "percentChange": -0.48,
+      "change": -124.15,
       "status": "down"
     },
     {
       "symbol": "NIFTY PVT BANK",
-      "lastPrice": 27281.3,
-      "percentChange": -0.77,
-      "change": -212.15,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY BANK",
-      "lastPrice": 56592,
-      "percentChange": -0.94,
-      "change": -534.8,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY PSU BANK",
-      "lastPrice": 8297.65,
-      "percentChange": -1,
-      "change": -84.15,
+      "lastPrice": 27146.1,
+      "percentChange": -0.5,
+      "change": -135.2,
       "status": "down"
     },
     {
       "symbol": "NIFTY REALTY",
-      "lastPrice": 886.7,
-      "percentChange": -1.81,
-      "change": -16.3,
+      "lastPrice": 881.9,
+      "percentChange": -0.54,
+      "change": -4.8,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY PSU BANK",
+      "lastPrice": 8252.2,
+      "percentChange": -0.55,
+      "change": -45.45,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY BANK",
+      "lastPrice": 56249.05,
+      "percentChange": -0.61,
+      "change": -342.95,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY METAL",
+      "lastPrice": 12377.45,
+      "percentChange": -0.74,
+      "change": -92.25,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY IT",
+      "lastPrice": 28300.95,
+      "percentChange": -0.82,
+      "change": -232.6,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY AUTO",
+      "lastPrice": 27199.45,
+      "percentChange": -1.17,
+      "change": -321.35,
       "status": "down"
     }
   ]
