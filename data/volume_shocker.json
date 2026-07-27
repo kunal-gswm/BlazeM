@@ -1,250 +1,260 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-27T07:38:12Z",
+    "last_updated": "2026-07-27T10:56:53Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 25
   },
   "data": [
     {
       "symbol": "CAPILLARY",
       "name": "Capillary Technologies India Limited",
-      "last_price": 535.55,
-      "change_pct": 12.45,
-      "volume": 5980305,
-      "turnover_cr": 322.82,
-      "vol_change_1wk_pct": 427.24,
-      "vol_change_2wk_pct": 110.97
+      "last_price": 538,
+      "change_pct": 12.97,
+      "volume": 8291808,
+      "turnover_cr": 447.53,
+      "vol_change_1wk_pct": 592.38,
+      "vol_change_2wk_pct": 153.86
     },
     {
       "symbol": "PYRAMID",
       "name": "Pyramid Technoplast Limited",
-      "last_price": 192.3,
-      "change_pct": 17.11,
-      "volume": 2708601,
-      "turnover_cr": 51.34,
-      "vol_change_1wk_pct": 117.42,
-      "vol_change_2wk_pct": 99.33
+      "last_price": 197.05,
+      "change_pct": 20,
+      "volume": 4561988,
+      "turnover_cr": 87.6,
+      "vol_change_1wk_pct": 197.77,
+      "vol_change_2wk_pct": 167.3
     },
     {
       "symbol": "MONARCH",
       "name": "Monarch Networth Capital Limited",
-      "last_price": 383.85,
-      "change_pct": 7.3,
-      "volume": 3309149,
-      "turnover_cr": 128.62,
-      "vol_change_1wk_pct": 42.9,
-      "vol_change_2wk_pct": 32.81
+      "last_price": 393,
+      "change_pct": 9.85,
+      "volume": 5152604,
+      "turnover_cr": 201.53,
+      "vol_change_1wk_pct": 66.8,
+      "vol_change_2wk_pct": 51.09
     },
     {
       "symbol": "ORIENTTECH",
       "name": "Orient Technologies Limited",
-      "last_price": 278.56,
-      "change_pct": 7.64,
-      "volume": 5735799,
-      "turnover_cr": 160.93,
-      "vol_change_1wk_pct": 35.44,
-      "vol_change_2wk_pct": 2.12
+      "last_price": 279,
+      "change_pct": 7.81,
+      "volume": 7708727,
+      "turnover_cr": 215.77,
+      "vol_change_1wk_pct": 47.63,
+      "vol_change_2wk_pct": 2.85
     },
     {
-      "symbol": "ESENSEX",
-      "name": "Edelweiss Mutual Fund - Edelweiss BSE Sensex ETF",
-      "last_price": 77,
-      "change_pct": 0.36,
-      "volume": 14178,
-      "turnover_cr": 0.11,
-      "vol_change_1wk_pct": 35.16,
-      "vol_change_2wk_pct": 52.07
+      "symbol": "TMB",
+      "name": "Tamilnad Mercantile Bank Limited",
+      "last_price": 911,
+      "change_pct": 13.24,
+      "volume": 7671271,
+      "turnover_cr": 674.98,
+      "vol_change_1wk_pct": 41.77,
+      "vol_change_2wk_pct": 39.3
     },
     {
       "symbol": "RATNAVEER",
       "name": "Ratnaveer Precision Engineering Limited",
-      "last_price": 198.77,
-      "change_pct": 11.29,
-      "volume": 35013186,
-      "turnover_cr": 690.25,
-      "vol_change_1wk_pct": 24.17,
-      "vol_change_2wk_pct": 34.36
+      "last_price": 204,
+      "change_pct": 14.22,
+      "volume": 53640552,
+      "turnover_cr": 1062.14,
+      "vol_change_1wk_pct": 37.02,
+      "vol_change_2wk_pct": 52.65
+    },
+    {
+      "symbol": "ESENSEX",
+      "name": "Edelweiss Mutual Fund - Edelweiss BSE Sensex ETF",
+      "last_price": 77.19,
+      "change_pct": 0.61,
+      "volume": 14180,
+      "turnover_cr": 0.11,
+      "vol_change_1wk_pct": 35.17,
+      "vol_change_2wk_pct": 52.07
     },
     {
       "symbol": "ORIENTLTD",
       "name": "Orient Press Limited",
-      "last_price": 96.55,
-      "change_pct": 8.13,
-      "volume": 583380,
-      "turnover_cr": 5.74,
-      "vol_change_1wk_pct": 23.99,
-      "vol_change_2wk_pct": 39.91
-    },
-    {
-      "symbol": "CPEDU",
-      "name": "Career Point Edutech Limited",
-      "last_price": 198.94,
-      "change_pct": 6.69,
-      "volume": 55821,
-      "turnover_cr": 1.12,
-      "vol_change_1wk_pct": 23.64,
-      "vol_change_2wk_pct": 17.09
+      "last_price": 97.3,
+      "change_pct": 8.97,
+      "volume": 682320,
+      "turnover_cr": 6.71,
+      "vol_change_1wk_pct": 28.06,
+      "vol_change_2wk_pct": 46.68
     },
     {
       "symbol": "SESHAPAPER",
       "name": "Seshasayee Paper and Boards Limited",
-      "last_price": 244.13,
-      "change_pct": 6.04,
-      "volume": 2989932,
-      "turnover_cr": 76.47,
-      "vol_change_1wk_pct": 21.51,
-      "vol_change_2wk_pct": 33.19
+      "last_price": 238.1,
+      "change_pct": 3.42,
+      "volume": 3834474,
+      "turnover_cr": 96.72,
+      "vol_change_1wk_pct": 27.58,
+      "vol_change_2wk_pct": 42.57
     },
     {
-      "symbol": "GLOBALVECT",
-      "name": "Global Vectra Helicorp Limited",
-      "last_price": 161.08,
-      "change_pct": 8.14,
-      "volume": 96435,
-      "turnover_cr": 1.6,
-      "vol_change_1wk_pct": 15.65,
-      "vol_change_2wk_pct": 15.66
-    },
-    {
-      "symbol": "HEXATRADEX",
-      "name": "Hexa Tradex Limited",
-      "last_price": 160,
-      "change_pct": 3.2,
-      "volume": 57599,
-      "turnover_cr": 0.96,
-      "vol_change_1wk_pct": 13.92,
-      "vol_change_2wk_pct": 15.65
-    },
-    {
-      "symbol": "SURANASOL",
-      "name": "Surana Solar Limited",
-      "last_price": 28.29,
-      "change_pct": 7.73,
-      "volume": 881706,
-      "turnover_cr": 2.59,
-      "vol_change_1wk_pct": 13.05,
-      "vol_change_2wk_pct": 15.53
-    },
-    {
-      "symbol": "CREDITACC",
-      "name": "CREDITACCESS GRAMEEN LIMITED",
-      "last_price": 1587.1,
-      "change_pct": 4.58,
-      "volume": 3056473,
-      "turnover_cr": 485.9,
-      "vol_change_1wk_pct": 12.52,
-      "vol_change_2wk_pct": 11.82
+      "symbol": "CPEDU",
+      "name": "Career Point Edutech Limited",
+      "last_price": 196.5,
+      "change_pct": 5.38,
+      "volume": 61588,
+      "turnover_cr": 1.23,
+      "vol_change_1wk_pct": 26.08,
+      "vol_change_2wk_pct": 18.86
     },
     {
       "symbol": "KFINTECH",
       "name": "Kfin Technologies Limited",
-      "last_price": 932,
-      "change_pct": 8.66,
-      "volume": 5186193,
-      "turnover_cr": 472.95,
-      "vol_change_1wk_pct": 10.33,
-      "vol_change_2wk_pct": 5.84
+      "last_price": 948.1,
+      "change_pct": 10.53,
+      "volume": 10620157,
+      "turnover_cr": 986.4,
+      "vol_change_1wk_pct": 21.16,
+      "vol_change_2wk_pct": 11.95
     },
     {
-      "symbol": "ENEXT50",
-      "name": "Edelweiss Mutual Fund - Edelweiss Nifty Next 50 ETF",
-      "last_price": 72.32,
-      "change_pct": 0.84,
-      "volume": 13828,
-      "turnover_cr": 0.1,
-      "vol_change_1wk_pct": 9.59,
-      "vol_change_2wk_pct": 14.81
+      "symbol": "GLOBALVECT",
+      "name": "Global Vectra Helicorp Limited",
+      "last_price": 159.88,
+      "change_pct": 7.34,
+      "volume": 113359,
+      "turnover_cr": 1.87,
+      "vol_change_1wk_pct": 18.4,
+      "vol_change_2wk_pct": 18.41
     },
     {
-      "symbol": "DCBBANK",
-      "name": "DCB Bank Limited",
-      "last_price": 191.77,
-      "change_pct": 2.97,
-      "volume": 9340591,
-      "turnover_cr": 184.3,
-      "vol_change_1wk_pct": 9.4,
-      "vol_change_2wk_pct": 9.37
+      "symbol": "SURAJLTD",
+      "name": "Suraj Limited",
+      "last_price": 216,
+      "change_pct": -2.39,
+      "volume": 20090,
+      "turnover_cr": 0.46,
+      "vol_change_1wk_pct": 16.23,
+      "vol_change_2wk_pct": 22.79
+    },
+    {
+      "symbol": "HEXATRADEX",
+      "name": "Hexa Tradex Limited",
+      "last_price": 158.35,
+      "change_pct": 2.13,
+      "volume": 66117,
+      "turnover_cr": 1.1,
+      "vol_change_1wk_pct": 15.97,
+      "vol_change_2wk_pct": 17.97
+    },
+    {
+      "symbol": "CREDITACC",
+      "name": "CREDITACCESS GRAMEEN LIMITED",
+      "last_price": 1598.9,
+      "change_pct": 5.36,
+      "volume": 3825382,
+      "turnover_cr": 608.45,
+      "vol_change_1wk_pct": 15.67,
+      "vol_change_2wk_pct": 14.8
+    },
+    {
+      "symbol": "SURANASOL",
+      "name": "Surana Solar Limited",
+      "last_price": 28,
+      "change_pct": 6.63,
+      "volume": 1016676,
+      "turnover_cr": 2.97,
+      "vol_change_1wk_pct": 15.05,
+      "vol_change_2wk_pct": 17.91
+    },
+    {
+      "symbol": "MEDICO",
+      "name": "Medico Remedies Limited",
+      "last_price": 41.65,
+      "change_pct": 9.63,
+      "volume": 417055,
+      "turnover_cr": 1.65,
+      "vol_change_1wk_pct": 14.65,
+      "vol_change_2wk_pct": 8.52
+    },
+    {
+      "symbol": "MANBA",
+      "name": "Manba Finance Limited",
+      "last_price": 149.2,
+      "change_pct": 7.95,
+      "volume": 2948629,
+      "turnover_cr": 42.98,
+      "vol_change_1wk_pct": 13.11,
+      "vol_change_2wk_pct": 18.85
     },
     {
       "symbol": "CONCOR",
       "name": "Container Corporation of India Limited",
-      "last_price": 512.65,
-      "change_pct": 7.35,
-      "volume": 9665515,
-      "turnover_cr": 486.06,
-      "vol_change_1wk_pct": 9.39,
-      "vol_change_2wk_pct": 3.75
+      "last_price": 510,
+      "change_pct": 6.8,
+      "volume": 13227175,
+      "turnover_cr": 667.92,
+      "vol_change_1wk_pct": 12.85,
+      "vol_change_2wk_pct": 5.13
     },
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Limited",
-      "last_price": 85.29,
-      "change_pct": 5.57,
-      "volume": 152051138,
-      "turnover_cr": 1317.52,
-      "vol_change_1wk_pct": 9.13,
-      "vol_change_2wk_pct": 10.48
+      "symbol": "MOLDTKPAC",
+      "name": "Mold-Tek Packaging Limited",
+      "last_price": 688,
+      "change_pct": -5.42,
+      "volume": 822742,
+      "turnover_cr": 58.27,
+      "vol_change_1wk_pct": 12.0,
+      "vol_change_2wk_pct": 14.48
     },
     {
-      "symbol": "DEEPINDS",
-      "name": "Deep Industries Limited",
-      "last_price": 514.1,
-      "change_pct": 7.19,
-      "volume": 1380683,
-      "turnover_cr": 71.26,
-      "vol_change_1wk_pct": 8.01,
-      "vol_change_2wk_pct": 7.57
+      "symbol": "ALLDIGI",
+      "name": "Alldigi Tech Limited",
+      "last_price": 875,
+      "change_pct": 6.35,
+      "volume": 103621,
+      "turnover_cr": 9.04,
+      "vol_change_1wk_pct": 11.23,
+      "vol_change_2wk_pct": 16.0
+    },
+    {
+      "symbol": "DCBBANK",
+      "name": "DCB Bank Limited",
+      "last_price": 191.4,
+      "change_pct": 2.77,
+      "volume": 10927140,
+      "turnover_cr": 214.51,
+      "vol_change_1wk_pct": 10.99,
+      "vol_change_2wk_pct": 10.96
+    },
+    {
+      "symbol": "CARTRADE",
+      "name": "Cartrade Tech Limited",
+      "last_price": 2977,
+      "change_pct": 12.07,
+      "volume": 3555902,
+      "turnover_cr": 1038.85,
+      "vol_change_1wk_pct": 10.95,
+      "vol_change_2wk_pct": 5.0
     },
     {
       "symbol": "LATENTVIEW",
       "name": "Latent View Analytics Limited",
-      "last_price": 318.05,
-      "change_pct": 7.43,
-      "volume": 3865446,
-      "turnover_cr": 122.21,
-      "vol_change_1wk_pct": 7.93,
-      "vol_change_2wk_pct": 4.94
+      "last_price": 314.05,
+      "change_pct": 6.08,
+      "volume": 5284442,
+      "turnover_cr": 167.22,
+      "vol_change_1wk_pct": 10.84,
+      "vol_change_2wk_pct": 6.75
     },
     {
-      "symbol": "WAAREEINDO",
-      "name": "Indosolar Limited",
-      "last_price": 335.05,
-      "change_pct": -4.99,
-      "volume": 260621,
-      "turnover_cr": 8.75,
-      "vol_change_1wk_pct": 7.85,
-      "vol_change_2wk_pct": 8.86
-    },
-    {
-      "symbol": "SENCO",
-      "name": "Senco Gold Limited",
-      "last_price": 415.9,
-      "change_pct": 8.63,
-      "volume": 14792780,
-      "turnover_cr": 615.65,
-      "vol_change_1wk_pct": 7.26,
-      "vol_change_2wk_pct": 6.91
-    },
-    {
-      "symbol": "LANDSMILL",
-      "name": "Landsmill Green Limited",
-      "last_price": 0.82,
-      "change_pct": 9.33,
-      "volume": 13486306,
-      "turnover_cr": 1.12,
-      "vol_change_1wk_pct": 7.17,
-      "vol_change_2wk_pct": 5.91
-    },
-    {
-      "symbol": "TOP10ADD",
-      "name": "DSP Mutual Fund - DSP Nifty Top 10 Equal Weight ETF",
-      "last_price": 86.9,
-      "change_pct": 0.57,
-      "volume": 2121674,
-      "turnover_cr": 18.42,
-      "vol_change_1wk_pct": 7.01,
-      "vol_change_2wk_pct": 5.18
+      "symbol": "UGARSUGAR",
+      "name": "The Ugar Sugar Works Limited",
+      "last_price": 43.27,
+      "change_pct": 8.94,
+      "volume": 870227,
+      "turnover_cr": 3.68,
+      "vol_change_1wk_pct": 10.78,
+      "vol_change_2wk_pct": 9.68
     }
   ]
 }
