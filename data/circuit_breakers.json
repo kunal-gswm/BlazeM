@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-28T06:31:28Z",
+    "last_updated": "2026-07-28T09:22:50Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -10,42 +10,32 @@
       {
         "symbol": "DELTAMAGNT",
         "name": "DELTAMAGNT",
-        "last_price": 67.46,
+        "last_price": 64.1,
         "prev_close": 56.22,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 23953,
-        "turnover_cr": 0.15
+        "change": 14.02,
+        "change_pct": 14.02,
+        "volume": 272841,
+        "turnover_cr": 1.81
       },
       {
-        "symbol": "ASIANTILES",
-        "name": "ASIANTILES",
-        "last_price": 60.28,
-        "prev_close": 53.42,
-        "change": 12.84,
-        "change_pct": 12.84,
-        "volume": 45145396,
-        "turnover_cr": 263.38
+        "symbol": "ASHIKAG",
+        "name": "ASHIKAG",
+        "last_price": 477.8,
+        "prev_close": 429.65,
+        "change": 11.21,
+        "change_pct": 11.21,
+        "volume": 1323044,
+        "turnover_cr": 61.81
       },
       {
-        "symbol": "DEVIT",
-        "name": "DEVIT",
-        "last_price": 29.19,
-        "prev_close": 26.08,
-        "change": 11.92,
-        "change_pct": 11.92,
-        "volume": 494829,
-        "turnover_cr": 1.45
-      },
-      {
-        "symbol": "AGARIND",
-        "name": "AGARIND",
-        "last_price": 540,
-        "prev_close": 483.55,
-        "change": 11.67,
-        "change_pct": 11.67,
-        "volume": 2232579,
-        "turnover_cr": 121.05
+        "symbol": "COFORGE",
+        "name": "COFORGE",
+        "last_price": 1685,
+        "prev_close": 1528.4,
+        "change": 10.25,
+        "change_pct": 10.25,
+        "volume": 14076622,
+        "turnover_cr": 2336.23
       }
     ],
     "lower_circuit": [
@@ -56,28 +46,28 @@
         "prev_close": 102.37,
         "change": -20,
         "change_pct": -20,
-        "volume": 13840781,
-        "turnover_cr": 122.32
+        "volume": 13916300,
+        "turnover_cr": 122.95
       },
       {
         "symbol": "SKMEGGPROD",
         "name": "SKMEGGPROD",
-        "last_price": 266,
+        "last_price": 270.65,
         "prev_close": 318.8,
-        "change": -16.56,
-        "change_pct": -16.56,
-        "volume": 1662752,
-        "turnover_cr": 46.82
+        "change": -15.1,
+        "change_pct": -15.1,
+        "volume": 2195154,
+        "turnover_cr": 61.2
       },
       {
         "symbol": "AURIONPRO",
         "name": "AURIONPRO",
-        "last_price": 744.55,
+        "last_price": 742.4,
         "prev_close": 836.65,
-        "change": -11.01,
-        "change_pct": -11.01,
-        "volume": 835599,
-        "turnover_cr": 62.96
+        "change": -11.27,
+        "change_pct": -11.27,
+        "volume": 1102476,
+        "turnover_cr": 82.71
       }
     ]
   }
