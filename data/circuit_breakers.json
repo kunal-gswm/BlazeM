@@ -1,163 +1,83 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-27T10:56:53Z",
+    "last_updated": "2026-07-28T06:31:28Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "PYRAMID",
-        "name": "PYRAMID",
-        "last_price": 197.05,
-        "prev_close": 164.21,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 4561988,
-        "turnover_cr": 87.6
+        "symbol": "DELTAMAGNT",
+        "name": "DELTAMAGNT",
+        "last_price": 67.46,
+        "prev_close": 56.22,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 23953,
+        "turnover_cr": 0.15
       },
       {
-        "symbol": "KCPSUGIND",
-        "name": "KCPSUGIND",
-        "last_price": 32,
-        "prev_close": 27.85,
-        "change": 14.9,
-        "change_pct": 14.9,
-        "volume": 3727198,
-        "turnover_cr": 11.6
+        "symbol": "ASIANTILES",
+        "name": "ASIANTILES",
+        "last_price": 60.28,
+        "prev_close": 53.42,
+        "change": 12.84,
+        "change_pct": 12.84,
+        "volume": 45145396,
+        "turnover_cr": 263.38
       },
       {
-        "symbol": "HGM",
-        "name": "HGM",
-        "last_price": 53.5,
-        "prev_close": 46.73,
-        "change": 14.49,
-        "change_pct": 14.49,
-        "volume": 11777,
-        "turnover_cr": 0.06
+        "symbol": "DEVIT",
+        "name": "DEVIT",
+        "last_price": 29.19,
+        "prev_close": 26.08,
+        "change": 11.92,
+        "change_pct": 11.92,
+        "volume": 494829,
+        "turnover_cr": 1.45
       },
       {
-        "symbol": "RATNAVEER",
-        "name": "RATNAVEER",
-        "last_price": 204,
-        "prev_close": 178.61,
-        "change": 14.22,
-        "change_pct": 14.22,
-        "volume": 53640552,
-        "turnover_cr": 1062.14
-      },
-      {
-        "symbol": "TMB",
-        "name": "TMB",
-        "last_price": 911,
-        "prev_close": 804.5,
-        "change": 13.24,
-        "change_pct": 13.24,
-        "volume": 7671271,
-        "turnover_cr": 674.98
-      },
-      {
-        "symbol": "CAPILLARY",
-        "name": "CAPILLARY",
-        "last_price": 538,
-        "prev_close": 476.25,
-        "change": 12.97,
-        "change_pct": 12.97,
-        "volume": 8291808,
-        "turnover_cr": 447.53
-      },
-      {
-        "symbol": "CARTRADE",
-        "name": "CARTRADE",
-        "last_price": 2977,
-        "prev_close": 2656.4,
-        "change": 12.07,
-        "change_pct": 12.07,
-        "volume": 3555902,
-        "turnover_cr": 1038.85
-      },
-      {
-        "symbol": "AARNAV",
-        "name": "AARNAV",
-        "last_price": 31.64,
-        "prev_close": 28.32,
-        "change": 11.72,
-        "change_pct": 11.72,
-        "volume": 164190,
-        "turnover_cr": 0.52
-      },
-      {
-        "symbol": "LANDSMILL",
-        "name": "LANDSMILL",
-        "last_price": 0.83,
-        "prev_close": 0.75,
-        "change": 10.67,
-        "change_pct": 10.67,
-        "volume": 15689177,
-        "turnover_cr": 1.3
-      },
-      {
-        "symbol": "KFINTECH",
-        "name": "KFINTECH",
-        "last_price": 948.1,
-        "prev_close": 857.75,
-        "change": 10.53,
-        "change_pct": 10.53,
-        "volume": 10620157,
-        "turnover_cr": 986.4
-      },
-      {
-        "symbol": "MBAPL",
-        "name": "MBAPL",
-        "last_price": 163.25,
-        "prev_close": 148.25,
-        "change": 10.12,
-        "change_pct": 10.12,
-        "volume": 5234794,
-        "turnover_cr": 83.74
-      },
-      {
-        "symbol": "KECL",
-        "name": "KECL",
-        "last_price": 137.33,
-        "prev_close": 124.85,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 418474,
-        "turnover_cr": 5.66
+        "symbol": "AGARIND",
+        "name": "AGARIND",
+        "last_price": 540,
+        "prev_close": 483.55,
+        "change": 11.67,
+        "change_pct": 11.67,
+        "volume": 2232579,
+        "turnover_cr": 121.05
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "NELCAST",
-        "name": "NELCAST",
-        "last_price": 116.59,
-        "prev_close": 134.47,
-        "change": -13.3,
-        "change_pct": -13.3,
-        "volume": 2814717,
-        "turnover_cr": 33.37
+        "symbol": "AASTHA",
+        "name": "AASTHA",
+        "last_price": 81.9,
+        "prev_close": 102.37,
+        "change": -20,
+        "change_pct": -20,
+        "volume": 13840781,
+        "turnover_cr": 122.32
       },
       {
-        "symbol": "GANDHAR",
-        "name": "GANDHAR",
-        "last_price": 246.8,
-        "prev_close": 282.46,
-        "change": -12.62,
-        "change_pct": -12.62,
-        "volume": 20541880,
-        "turnover_cr": 507.04
+        "symbol": "SKMEGGPROD",
+        "name": "SKMEGGPROD",
+        "last_price": 266,
+        "prev_close": 318.8,
+        "change": -16.56,
+        "change_pct": -16.56,
+        "volume": 1662752,
+        "turnover_cr": 46.82
       },
       {
-        "symbol": "MOSCHIP",
-        "name": "MOSCHIP",
-        "last_price": 208.31,
-        "prev_close": 231.79,
-        "change": -10.13,
-        "change_pct": -10.13,
-        "volume": 10880186,
-        "turnover_cr": 229.64
+        "symbol": "AURIONPRO",
+        "name": "AURIONPRO",
+        "last_price": 744.55,
+        "prev_close": 836.65,
+        "change": -11.01,
+        "change_pct": -11.01,
+        "volume": 835599,
+        "turnover_cr": 62.96
       }
     ]
   }
