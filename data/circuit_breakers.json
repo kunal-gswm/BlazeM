@@ -1,12 +1,22 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-29T06:36:08Z",
+    "last_updated": "2026-07-29T09:28:08Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
+      {
+        "symbol": "SMLMAH",
+        "name": "SMLMAH",
+        "last_price": 4566,
+        "prev_close": 3805,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 466598,
+        "turnover_cr": 203.23
+      },
       {
         "symbol": "AVONMORE",
         "name": "AVONMORE",
@@ -14,8 +24,8 @@
         "prev_close": 9.15,
         "change": 20,
         "change_pct": 20,
-        "volume": 909376,
-        "turnover_cr": 0.98
+        "volume": 936855,
+        "turnover_cr": 1.01
       },
       {
         "symbol": "ALMONDZ",
@@ -24,110 +34,140 @@
         "prev_close": 12.56,
         "change": 19.98,
         "change_pct": 19.98,
-        "volume": 2513524,
-        "turnover_cr": 3.75
+        "volume": 2762089,
+        "turnover_cr": 4.12
       },
       {
-        "symbol": "CPEDU",
-        "name": "CPEDU",
-        "last_price": 224.6,
-        "prev_close": 194.2,
-        "change": 15.65,
-        "change_pct": 15.65,
-        "volume": 143648,
-        "turnover_cr": 3.13
+        "symbol": "SIGMA",
+        "name": "SIGMA",
+        "last_price": 44.75,
+        "prev_close": 37.55,
+        "change": 19.17,
+        "change_pct": 19.17,
+        "volume": 1701667,
+        "turnover_cr": 6.74
+      },
+      {
+        "symbol": "APCOTEXIND",
+        "name": "APCOTEXIND",
+        "last_price": 689,
+        "prev_close": 591.1,
+        "change": 16.56,
+        "change_pct": 16.56,
+        "volume": 5040837,
+        "turnover_cr": 342.63
+      },
+      {
+        "symbol": "SCANSTL",
+        "name": "SCANSTL",
+        "last_price": 58.4,
+        "prev_close": 50.51,
+        "change": 15.62,
+        "change_pct": 15.62,
+        "volume": 2142441,
+        "turnover_cr": 11.94
+      },
+      {
+        "symbol": "COMSYN",
+        "name": "COMSYN",
+        "last_price": 205.92,
+        "prev_close": 179.25,
+        "change": 14.88,
+        "change_pct": 14.88,
+        "volume": 4806597,
+        "turnover_cr": 94.95
+      },
+      {
+        "symbol": "EXPLEOSOL",
+        "name": "EXPLEOSOL",
+        "last_price": 920.95,
+        "prev_close": 809.3,
+        "change": 13.8,
+        "change_pct": 13.8,
+        "volume": 1529062,
+        "turnover_cr": 141.19
       },
       {
         "symbol": "TIPSFILMS",
         "name": "TIPSFILMS",
-        "last_price": 416.55,
+        "last_price": 409.1,
         "prev_close": 360.35,
-        "change": 15.6,
-        "change_pct": 15.6,
-        "volume": 92511,
-        "turnover_cr": 3.79
-      },
-      {
-        "symbol": "TIL",
-        "name": "TIL",
-        "last_price": 264.78,
-        "prev_close": 232.75,
-        "change": 13.76,
-        "change_pct": 13.76,
-        "volume": 24693080,
-        "turnover_cr": 599.65
+        "change": 13.53,
+        "change_pct": 13.53,
+        "volume": 229113,
+        "turnover_cr": 9.5
       },
       {
         "symbol": "SHK",
         "name": "SHK",
-        "last_price": 161.5,
+        "last_price": 163.4,
         "prev_close": 143.97,
-        "change": 12.18,
-        "change_pct": 12.18,
-        "volume": 13405953,
-        "turnover_cr": 220.25
+        "change": 13.5,
+        "change_pct": 13.5,
+        "volume": 15781254,
+        "turnover_cr": 258.62
       },
       {
-        "symbol": "PARADEEP",
-        "name": "PARADEEP",
-        "last_price": 155.86,
-        "prev_close": 139.21,
-        "change": 11.96,
-        "change_pct": 11.96,
-        "volume": 114205409,
-        "turnover_cr": 1755.57
-      },
-      {
-        "symbol": "ASIANTILES",
-        "name": "ASIANTILES",
-        "last_price": 64.25,
-        "prev_close": 57.62,
-        "change": 11.51,
-        "change_pct": 11.51,
-        "volume": 51836466,
-        "turnover_cr": 322.01
-      },
-      {
-        "symbol": "ARIHANT",
-        "name": "ARIHANT",
-        "last_price": 1205.95,
-        "prev_close": 1088.4,
-        "change": 10.8,
-        "change_pct": 10.8,
-        "volume": 29563,
-        "turnover_cr": 3.54
+        "symbol": "PCBL",
+        "name": "PCBL",
+        "last_price": 357.7,
+        "prev_close": 318.4,
+        "change": 12.34,
+        "change_pct": 12.34,
+        "volume": 12483071,
+        "turnover_cr": 428.94
       },
       {
         "symbol": "FSL",
         "name": "FSL",
-        "last_price": 290.75,
+        "last_price": 295.31,
         "prev_close": 263.06,
-        "change": 10.53,
-        "change_pct": 10.53,
-        "volume": 32054885,
-        "turnover_cr": 926.13
+        "change": 12.26,
+        "change_pct": 12.26,
+        "volume": 45200308,
+        "turnover_cr": 1312.98
       },
       {
-        "symbol": "RADAAN",
-        "name": "RADAAN",
-        "last_price": 3.49,
-        "prev_close": 3.16,
-        "change": 10.44,
-        "change_pct": 10.44,
-        "volume": 608699,
-        "turnover_cr": 0.21
+        "symbol": "PARADEEP",
+        "name": "PARADEEP",
+        "last_price": 156.07,
+        "prev_close": 139.21,
+        "change": 12.11,
+        "change_pct": 12.11,
+        "volume": 157195799,
+        "turnover_cr": 2429.15
+      },
+      {
+        "symbol": "KAYNES",
+        "name": "KAYNES",
+        "last_price": 3617.5,
+        "prev_close": 3227.7,
+        "change": 12.08,
+        "change_pct": 12.08,
+        "volume": 5397178,
+        "turnover_cr": 1915.0
+      },
+      {
+        "symbol": "DIGJAMLMTD",
+        "name": "DIGJAMLMTD",
+        "last_price": 47.34,
+        "prev_close": 42.79,
+        "change": 10.63,
+        "change_pct": 10.63,
+        "volume": 68050,
+        "turnover_cr": 0.31
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "SHAH",
-        "name": "SHAH",
-        "last_price": 3.56,
-        "prev_close": 4.1,
-        "change": -13.17,
-        "change_pct": -13.17,
-        "volume": 21945874,
-        "turnover_cr": 8.19
+        "symbol": "J&KBANK",
+        "name": "J&KBANK",
+        "last_price": 157.32,
+        "prev_close": 177.3,
+        "change": -11.27,
+        "change_pct": -11.27,
+        "volume": 29345400,
+        "turnover_cr": 476.33
       },
       {
         "symbol": "THANGAMAYL",
@@ -136,8 +176,8 @@
         "prev_close": 7168.5,
         "change": -10,
         "change_pct": -10,
-        "volume": 728519,
-        "turnover_cr": 487.0
+        "volume": 749671,
+        "turnover_cr": 500.65
       }
     ]
   }
