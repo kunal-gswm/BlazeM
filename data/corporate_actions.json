@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-07-29T15:12:22Z",
+    "last_updated": "2026-07-29T17:22:12Z",
     "status": "healthy",
     "record_count": 218
   },
@@ -50,7 +50,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260812",
-      "long_name": "Gabriel India Ltd",
+      "long_name": "Gabriel India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 3.1
     },
@@ -194,7 +194,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260812",
-      "long_name": "Voith Paper Fabrics India Ltd",
+      "long_name": "Voith Paper Fabrics India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -226,7 +226,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260811",
-      "long_name": "Dhunseri Ventures Ltd",
+      "long_name": "Dhunseri Ventures Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -338,7 +338,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260811",
-      "long_name": "Ratnamani Metals & Tubes Ltd",
+      "long_name": "Ratnamani Metals & Tubes Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -450,7 +450,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260810",
-      "long_name": "Majestic Auto Ltd",
+      "long_name": "Majestic Auto Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 25.0
     },
@@ -514,7 +514,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "Avanti Feeds Ltd",
+      "long_name": "Avanti Feeds Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -898,7 +898,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "Shri Dinesh Mills Ltd",
+      "long_name": "Shri Dinesh Mills Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -962,7 +962,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "United Breweries Ltd",
+      "long_name": "United Breweries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -1098,22 +1098,6 @@
       "scrip_code": 523457,
       "short_name": "LINDEINDIA",
       "Ex_date": "06 Aug 2026",
-      "Purpose": "Final Dividend - Rs. - 4.0000",
-      "RD_Date": "06 Aug 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "",
-      "ND_END_DATE": "",
-      "payment_date": "",
-      "exdate": "20260806",
-      "long_name": "Linde India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 4.0
-    },
-    {
-      "scrip_code": 523457,
-      "short_name": "LINDEINDIA",
-      "Ex_date": "06 Aug 2026",
       "Purpose": "Special Dividend - Rs. - 8.0000",
       "RD_Date": "06 Aug 2026",
       "BCRD_FROM": "",
@@ -1125,6 +1109,22 @@
       "long_name": "Linde India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 8.0
+    },
+    {
+      "scrip_code": 523457,
+      "short_name": "LINDEINDIA",
+      "Ex_date": "06 Aug 2026",
+      "Purpose": "Final Dividend - Rs. - 4.0000",
+      "RD_Date": "06 Aug 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260806",
+      "long_name": "Linde India Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 4.0
     },
     {
       "scrip_code": 517206,
@@ -1234,7 +1234,7 @@
       "ND_END_DATE": "05 Aug 2026",
       "payment_date": "",
       "exdate": "20260805",
-      "long_name": "Adf Foods Ltd",
+      "long_name": "Adf Foods Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.6
     },
@@ -1394,7 +1394,7 @@
       "ND_END_DATE": "05 Aug 2026",
       "payment_date": "",
       "exdate": "20260805",
-      "long_name": "Gandhi Special Tubes Ltd",
+      "long_name": "Gandhi Special Tubes Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 15.0
     },
@@ -1426,7 +1426,7 @@
       "ND_END_DATE": "05 Aug 2026",
       "payment_date": "",
       "exdate": "20260805",
-      "long_name": "Indag Rubber Ltd",
+      "long_name": "Indag Rubber Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -1506,7 +1506,7 @@
       "ND_END_DATE": "05 Aug 2026",
       "payment_date": "",
       "exdate": "20260805",
-      "long_name": "Oriental Aromatics Ltd",
+      "long_name": "Oriental Aromatics Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.5
     },
@@ -1522,7 +1522,7 @@
       "ND_END_DATE": "05 Aug 2026",
       "payment_date": "",
       "exdate": "20260805",
-      "long_name": "Shreyans Industries Ltd",
+      "long_name": "Shreyans Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -1634,7 +1634,7 @@
       "ND_END_DATE": "04 Aug 2026",
       "payment_date": "",
       "exdate": "20260804",
-      "long_name": "Balkrishna Industries Ltd",
+      "long_name": "Balkrishna Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -1746,7 +1746,7 @@
       "ND_END_DATE": "04 Aug 2026",
       "payment_date": "",
       "exdate": "20260804",
-      "long_name": "Mysore Petro Chemicals Ltd",
+      "long_name": "Mysore Petro Chemicals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1762,7 +1762,7 @@
       "ND_END_DATE": "04 Aug 2026",
       "payment_date": "",
       "exdate": "20260804",
-      "long_name": "TCPL Packaging Ltd",
+      "long_name": "TCPL Packaging Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 25.0
     },
@@ -1954,7 +1954,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "ADC India Communications Ltd",
+      "long_name": "ADC India Communications Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 25.0
     },
@@ -2002,7 +2002,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "Anant Raj Ltd",
+      "long_name": "Anant Raj Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -2098,7 +2098,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "Batliboi Ltd",
+      "long_name": "Batliboi Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.6
     },
@@ -2546,7 +2546,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "International Travel House Ltd",
+      "long_name": "International Travel House Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.5
     },
@@ -2658,7 +2658,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "Mafatlal Industries Ltd",
+      "long_name": "Mafatlal Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.25
     },
@@ -2962,7 +2962,7 @@
       "ND_END_DATE": "31 Jul 2026",
       "payment_date": "",
       "exdate": "20260731",
-      "long_name": "Spice Islands Industries Ltd",
+      "long_name": "Spice Islands Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.6
     },
@@ -3058,7 +3058,7 @@
       "ND_END_DATE": "30 Jul 2026",
       "payment_date": "",
       "exdate": "20260730",
-      "long_name": "Albert David Ltd",
+      "long_name": "Albert David Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -3106,7 +3106,7 @@
       "ND_END_DATE": "30 Jul 2026",
       "payment_date": "",
       "exdate": "20260730",
-      "long_name": "Cheviot Company Ltd",
+      "long_name": "Cheviot Company Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 25.0
     },
@@ -3170,7 +3170,7 @@
       "ND_END_DATE": "30 Jul 2026",
       "payment_date": "",
       "exdate": "20260730",
-      "long_name": "Granules India Ltd",
+      "long_name": "Granules India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.75
     },
@@ -3234,7 +3234,7 @@
       "ND_END_DATE": "30 Jul 2026",
       "payment_date": "",
       "exdate": "20260730",
-      "long_name": "Kokuyo Camlin Ltd",
+      "long_name": "Kokuyo Camlin Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.3
     },
@@ -3442,7 +3442,7 @@
       "ND_END_DATE": "29 Jul 2026",
       "payment_date": "",
       "exdate": "20260729",
-      "long_name": "Shakti Pumps India Ltd",
+      "long_name": "Shakti Pumps India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -3490,7 +3490,7 @@
       "ND_END_DATE": "29 Jul 2026",
       "payment_date": "",
       "exdate": "20260729",
-      "long_name": "Ugar Sugar Works Ltd",
+      "long_name": "Ugar Sugar Works Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.1
     }
