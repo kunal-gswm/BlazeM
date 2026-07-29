@@ -1,103 +1,143 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-28T11:37:10Z",
+    "last_updated": "2026-07-29T06:36:08Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
+        "symbol": "AVONMORE",
+        "name": "AVONMORE",
+        "last_price": 10.98,
+        "prev_close": 9.15,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 909376,
+        "turnover_cr": 0.98
+      },
+      {
+        "symbol": "ALMONDZ",
+        "name": "ALMONDZ",
+        "last_price": 15.07,
+        "prev_close": 12.56,
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 2513524,
+        "turnover_cr": 3.75
+      },
+      {
+        "symbol": "CPEDU",
+        "name": "CPEDU",
+        "last_price": 224.6,
+        "prev_close": 194.2,
+        "change": 15.65,
+        "change_pct": 15.65,
+        "volume": 143648,
+        "turnover_cr": 3.13
+      },
+      {
+        "symbol": "TIPSFILMS",
+        "name": "TIPSFILMS",
+        "last_price": 416.55,
+        "prev_close": 360.35,
+        "change": 15.6,
+        "change_pct": 15.6,
+        "volume": 92511,
+        "turnover_cr": 3.79
+      },
+      {
+        "symbol": "TIL",
+        "name": "TIL",
+        "last_price": 264.78,
+        "prev_close": 232.75,
+        "change": 13.76,
+        "change_pct": 13.76,
+        "volume": 24693080,
+        "turnover_cr": 599.65
+      },
+      {
+        "symbol": "SHK",
+        "name": "SHK",
+        "last_price": 161.5,
+        "prev_close": 143.97,
+        "change": 12.18,
+        "change_pct": 12.18,
+        "volume": 13405953,
+        "turnover_cr": 220.25
+      },
+      {
+        "symbol": "PARADEEP",
+        "name": "PARADEEP",
+        "last_price": 155.86,
+        "prev_close": 139.21,
+        "change": 11.96,
+        "change_pct": 11.96,
+        "volume": 114205409,
+        "turnover_cr": 1755.57
+      },
+      {
+        "symbol": "ASIANTILES",
+        "name": "ASIANTILES",
+        "last_price": 64.25,
+        "prev_close": 57.62,
+        "change": 11.51,
+        "change_pct": 11.51,
+        "volume": 51836466,
+        "turnover_cr": 322.01
+      },
+      {
+        "symbol": "ARIHANT",
+        "name": "ARIHANT",
+        "last_price": 1205.95,
+        "prev_close": 1088.4,
+        "change": 10.8,
+        "change_pct": 10.8,
+        "volume": 29563,
+        "turnover_cr": 3.54
+      },
+      {
+        "symbol": "FSL",
+        "name": "FSL",
+        "last_price": 290.75,
+        "prev_close": 263.06,
+        "change": 10.53,
+        "change_pct": 10.53,
+        "volume": 32054885,
+        "turnover_cr": 926.13
+      },
+      {
         "symbol": "RADAAN",
         "name": "RADAAN",
-        "last_price": 3.25,
-        "prev_close": 2.79,
-        "change": 16.49,
-        "change_pct": 16.49,
-        "volume": 162760,
-        "turnover_cr": 0.05
-      },
-      {
-        "symbol": "ASHIKAG",
-        "name": "ASHIKAG",
-        "last_price": 490,
-        "prev_close": 429.65,
-        "change": 14.05,
-        "change_pct": 14.05,
-        "volume": 2057736,
-        "turnover_cr": 97.73
-      },
-      {
-        "symbol": "GANESHBE",
-        "name": "GANESHBE",
-        "last_price": 126.11,
-        "prev_close": 112.35,
-        "change": 12.25,
-        "change_pct": 12.25,
-        "volume": 11433563,
-        "turnover_cr": 138.67
-      },
-      {
-        "symbol": "NILKAMAL",
-        "name": "NILKAMAL",
-        "last_price": 1968,
-        "prev_close": 1775.2,
-        "change": 10.86,
-        "change_pct": 10.86,
-        "volume": 330501,
-        "turnover_cr": 62.05
-      },
-      {
-        "symbol": "COFORGE",
-        "name": "COFORGE",
-        "last_price": 1683.7,
-        "prev_close": 1528.4,
-        "change": 10.16,
-        "change_pct": 10.16,
-        "volume": 15625771,
-        "turnover_cr": 2597.39
-      },
-      {
-        "symbol": "AGARIND",
-        "name": "AGARIND",
-        "last_price": 531.9,
-        "prev_close": 483.55,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 4040225,
-        "turnover_cr": 216.31
+        "last_price": 3.49,
+        "prev_close": 3.16,
+        "change": 10.44,
+        "change_pct": 10.44,
+        "volume": 608699,
+        "turnover_cr": 0.21
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "AASTHA",
-        "name": "AASTHA",
-        "last_price": 81.9,
-        "prev_close": 102.37,
-        "change": -20,
-        "change_pct": -20,
-        "volume": 14134979,
-        "turnover_cr": 124.74
+        "symbol": "SHAH",
+        "name": "SHAH",
+        "last_price": 3.56,
+        "prev_close": 4.1,
+        "change": -13.17,
+        "change_pct": -13.17,
+        "volume": 21945874,
+        "turnover_cr": 8.19
       },
       {
-        "symbol": "SKMEGGPROD",
-        "name": "SKMEGGPROD",
-        "last_price": 273,
-        "prev_close": 318.8,
-        "change": -14.37,
-        "change_pct": -14.37,
-        "volume": 2358044,
-        "turnover_cr": 65.6
-      },
-      {
-        "symbol": "AURIONPRO",
-        "name": "AURIONPRO",
-        "last_price": 738,
-        "prev_close": 836.65,
-        "change": -11.79,
-        "change_pct": -11.79,
-        "volume": 1299788,
-        "turnover_cr": 97.27
+        "symbol": "THANGAMAYL",
+        "name": "THANGAMAYL",
+        "last_price": 6452,
+        "prev_close": 7168.5,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 728519,
+        "turnover_cr": 487.0
       }
     ]
   }
