@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-29T11:42:17Z",
+    "last_updated": "2026-07-30T06:32:53Z",
     "status": "healthy",
     "record_count": 4
   },
@@ -25,28 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/ardee-industries-ipo/2123/",
-      "scraped_at": "2026-07-29T11:41:57.390450+00:00Z"
-    },
-    {
-      "issue_name": "MV Electrosystems",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "425",
-      "lot_size": "34",
-      "issue_size": "₹290.00 Cr",
-      "issue_open": "2026-07-30",
-      "issue_close": "2026-08-03",
-      "allotment_date": "2026-08-04",
-      "listing_date": "2026-08-06",
-      "gmp": 106.0,
-      "gmp_percent": "24.94%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/mv-electrosystems-ipo/2054/",
-      "scraped_at": "2026-07-29T11:41:57.390573+00:00Z"
+      "scraped_at": "2026-07-30T06:32:33.274720+00:00Z"
     },
     {
       "issue_name": "Juniper Green Energy",
@@ -61,13 +40,34 @@
       "listing_date": "2026-08-06",
       "gmp": 17.0,
       "gmp_percent": "7.56%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "subscription_qib": "0.00x",
+      "subscription_nii": "0.02x",
+      "subscription_retail": "0.07x",
+      "subscription_total": "0.04x",
+      "subscription_applications": "23,102",
       "detail_url": "https://www.investorgain.com/gmp/juniper-green-energy-ipo/1809/",
-      "scraped_at": "2026-07-29T11:41:57.390670+00:00Z"
+      "scraped_at": "2026-07-30T06:32:33.274837+00:00Z"
+    },
+    {
+      "issue_name": "MV Electrosystems",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "425",
+      "lot_size": "34",
+      "issue_size": "₹290.00 Cr",
+      "issue_open": "2026-07-30",
+      "issue_close": "2026-08-03",
+      "allotment_date": "2026-08-04",
+      "listing_date": "2026-08-06",
+      "gmp": 100.0,
+      "gmp_percent": "23.53%",
+      "subscription_qib": "0.06x",
+      "subscription_nii": "1.09x",
+      "subscription_retail": "4.89x",
+      "subscription_total": "1.22x",
+      "subscription_applications": "75,271",
+      "detail_url": "https://www.investorgain.com/gmp/mv-electrosystems-ipo/2054/",
+      "scraped_at": "2026-07-30T06:32:33.274924+00:00Z"
     },
     {
       "issue_name": "Manipal Health Enterprises",
@@ -82,13 +82,13 @@
       "listing_date": "2026-08-05",
       "gmp": 9.0,
       "gmp_percent": "1.53%",
-      "subscription_qib": "0.15x",
-      "subscription_nii": "0.08x",
-      "subscription_retail": "0.27x",
-      "subscription_total": "0.15x",
-      "subscription_applications": "93,239",
+      "subscription_qib": "0.16x",
+      "subscription_nii": "0.10x",
+      "subscription_retail": "0.39x",
+      "subscription_total": "0.19x",
+      "subscription_applications": "1,37,363",
       "detail_url": "https://www.investorgain.com/gmp/manipal-health-enterprises-ipo/2217/",
-      "scraped_at": "2026-07-29T11:41:57.390768+00:00Z"
+      "scraped_at": "2026-07-30T06:32:33.275008+00:00Z"
     }
   ]
 }
