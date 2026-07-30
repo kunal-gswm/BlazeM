@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-30T06:33:00Z",
+    "last_updated": "2026-07-30T09:18:03Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,18 @@
         "prev_close": 4566,
         "change": 20,
         "change_pct": 20,
-        "volume": 1418973,
-        "turnover_cr": 747.58
+        "volume": 1487060,
+        "turnover_cr": 784.89
+      },
+      {
+        "symbol": "RSDFIN",
+        "name": "RSDFIN",
+        "last_price": 92.29,
+        "prev_close": 76.91,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 7893,
+        "turnover_cr": 0.07
       },
       {
         "symbol": "GATECH",
@@ -24,60 +34,50 @@
         "prev_close": 0.49,
         "change": 18.37,
         "change_pct": 18.37,
-        "volume": 32556143,
-        "turnover_cr": 1.82
+        "volume": 34956457,
+        "turnover_cr": 1.96
       },
       {
         "symbol": "LCL",
         "name": "LCL",
-        "last_price": 489,
+        "last_price": 493.75,
         "prev_close": 425,
-        "change": 6.07,
-        "change_pct": 15.06,
-        "volume": 14329877,
-        "turnover_cr": 688.34
+        "change": 7.1,
+        "change_pct": 16.18,
+        "volume": 18624471,
+        "turnover_cr": 900.08
       },
       {
         "symbol": "PRIMO",
         "name": "PRIMO",
-        "last_price": 26.05,
+        "last_price": 25.15,
         "prev_close": 22.69,
-        "change": 14.81,
-        "change_pct": 14.81,
-        "volume": 548514,
-        "turnover_cr": 1.36
-      },
-      {
-        "symbol": "PIONEEREMB",
-        "name": "PIONEEREMB",
-        "last_price": 26.66,
-        "prev_close": 23.75,
-        "change": 12.25,
-        "change_pct": 12.25,
-        "volume": 176830,
-        "turnover_cr": 0.46
-      },
-      {
-        "symbol": "GATECHDVR",
-        "name": "GATECHDVR",
-        "last_price": 0.49,
-        "prev_close": 0.44,
-        "change": 11.36,
-        "change_pct": 11.36,
-        "volume": 4411305,
-        "turnover_cr": 0.22
+        "change": 10.84,
+        "change_pct": 10.84,
+        "volume": 1185829,
+        "turnover_cr": 2.98
       }
     ],
     "lower_circuit": [
       {
         "symbol": "ADFFOODS",
         "name": "ADFFOODS",
-        "last_price": 265.4,
+        "last_price": 264.7,
         "prev_close": 301.8,
-        "change": -12.06,
-        "change_pct": -12.06,
-        "volume": 765573,
-        "turnover_cr": 20.83
+        "change": -12.29,
+        "change_pct": -12.29,
+        "volume": 1062393,
+        "turnover_cr": 28.74
+      },
+      {
+        "symbol": "SERVOTECH",
+        "name": "SERVOTECH",
+        "last_price": 83,
+        "prev_close": 92.25,
+        "change": -10.03,
+        "change_pct": -10.03,
+        "volume": 3026444,
+        "turnover_cr": 25.79
       },
       {
         "symbol": "THANGAMAYL",
@@ -86,8 +86,8 @@
         "prev_close": 6452,
         "change": -10,
         "change_pct": -10,
-        "volume": 323096,
-        "turnover_cr": 188.86
+        "volume": 328219,
+        "turnover_cr": 191.83
       }
     ]
   }
