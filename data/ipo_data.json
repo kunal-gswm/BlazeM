@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-07-31T06:49:32Z",
+    "last_updated": "2026-07-31T09:36:25Z",
     "status": "healthy",
-    "record_count": 4
+    "record_count": 5
   },
   "data": [
     {
@@ -25,7 +25,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/ardee-industries-ipo/2123/",
-      "scraped_at": "2026-07-31T06:49:12.299426+00:00Z"
+      "scraped_at": "2026-07-31T09:36:08.235177+00:00Z"
+    },
+    {
+      "issue_name": "Juniper Green Energy",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "225",
+      "lot_size": "66",
+      "issue_size": "₹1800.00 Cr",
+      "issue_open": "2026-07-30",
+      "issue_close": "2026-08-03",
+      "allotment_date": "2026-08-04",
+      "listing_date": "2026-08-06",
+      "gmp": 5.5,
+      "gmp_percent": "2.44%",
+      "subscription_qib": "1.25x",
+      "subscription_nii": "0.08x",
+      "subscription_retail": "0.21x",
+      "subscription_total": "0.48x",
+      "subscription_applications": "70,003",
+      "detail_url": "https://www.investorgain.com/gmp/juniper-green-energy-ipo/1809/",
+      "scraped_at": "2026-07-31T09:36:08.235309+00:00Z"
     },
     {
       "issue_name": "MV Electrosystems",
@@ -40,34 +61,13 @@
       "listing_date": "2026-08-06",
       "gmp": 133.0,
       "gmp_percent": "31.29%",
-      "subscription_qib": "0.89x",
-      "subscription_nii": "8.38x",
-      "subscription_retail": "25.76x",
-      "subscription_total": "7.45x",
-      "subscription_applications": "4,15,278",
+      "subscription_qib": "0.91x",
+      "subscription_nii": "11.90x",
+      "subscription_retail": "35.56x",
+      "subscription_total": "10.20x",
+      "subscription_applications": "5,81,018",
       "detail_url": "https://www.investorgain.com/gmp/mv-electrosystems-ipo/2054/",
-      "scraped_at": "2026-07-31T06:49:12.299517+00:00Z"
-    },
-    {
-      "issue_name": "Juniper Green Energy",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "225",
-      "lot_size": "66",
-      "issue_size": "₹1800.00 Cr",
-      "issue_open": "2026-07-30",
-      "issue_close": "2026-08-03",
-      "allotment_date": "2026-08-04",
-      "listing_date": "2026-08-06",
-      "gmp": 6.0,
-      "gmp_percent": "2.67%",
-      "subscription_qib": "1.25x",
-      "subscription_nii": "0.07x",
-      "subscription_retail": "0.18x",
-      "subscription_total": "0.47x",
-      "subscription_applications": "61,014",
-      "detail_url": "https://www.investorgain.com/gmp/juniper-green-energy-ipo/1809/",
-      "scraped_at": "2026-07-31T06:49:12.299609+00:00Z"
+      "scraped_at": "2026-07-31T09:36:08.235410+00:00Z"
     },
     {
       "issue_name": "Manipal Health Enterprises",
@@ -80,15 +80,36 @@
       "issue_close": "2026-07-31",
       "allotment_date": "2026-08-03",
       "listing_date": "2026-08-05",
-      "gmp": 3.75,
-      "gmp_percent": "0.64%",
-      "subscription_qib": "0.74x",
-      "subscription_nii": "0.21x",
-      "subscription_retail": "0.61x",
-      "subscription_total": "0.58x",
-      "subscription_applications": "2,23,306",
+      "gmp": 2.5,
+      "gmp_percent": "0.42%",
+      "subscription_qib": "7.16x",
+      "subscription_nii": "0.66x",
+      "subscription_retail": "0.72x",
+      "subscription_total": "4.21x",
+      "subscription_applications": "2,76,272",
       "detail_url": "https://www.investorgain.com/gmp/manipal-health-enterprises-ipo/2217/",
-      "scraped_at": "2026-07-31T06:49:12.299689+00:00Z"
+      "scraped_at": "2026-07-31T09:36:08.235511+00:00Z"
+    },
+    {
+      "issue_name": "Technocraft Ventures Ltd.",
+      "ipo_type": "Mainboard",
+      "source": "chittorgarh",
+      "price_band": "",
+      "lot_size": "",
+      "issue_size": "",
+      "issue_open": "2026-08-07",
+      "issue_close": null,
+      "allotment_date": null,
+      "listing_date": null,
+      "gmp": null,
+      "gmp_percent": null,
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/",
+      "scraped_at": "2026-07-31T09:36:13.263380+00:00Z"
     }
   ]
 }
