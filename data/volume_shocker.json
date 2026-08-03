@@ -1,250 +1,260 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-03T07:33:23Z",
+    "last_updated": "2026-08-03T10:58:18Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 25
   },
   "data": [
     {
+      "symbol": "MOQUALITY",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Quality ETF",
+      "last_price": 216.8,
+      "change_pct": 6.23,
+      "volume": 491673,
+      "turnover_cr": 10.1,
+      "vol_change_1wk_pct": 554.31,
+      "vol_change_2wk_pct": 210.06
+    },
+    {
+      "symbol": "MOGSEC",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal 5 Year G Sec ETF - Growth",
+      "last_price": 65.16,
+      "change_pct": -0.61,
+      "volume": 1466559,
+      "turnover_cr": 9.59,
+      "vol_change_1wk_pct": 358.55,
+      "vol_change_2wk_pct": 591.74
+    },
+    {
       "symbol": "DALMIASUG",
       "name": "Dalmia Bharat Sugar and Industries Limited",
-      "last_price": 398.05,
-      "change_pct": 13.44,
-      "volume": 5421720,
-      "turnover_cr": 213.26,
-      "vol_change_1wk_pct": 78.62,
-      "vol_change_2wk_pct": 60.78
+      "last_price": 419.8,
+      "change_pct": 19.64,
+      "volume": 10294952,
+      "turnover_cr": 411.44,
+      "vol_change_1wk_pct": 149.29,
+      "vol_change_2wk_pct": 115.41
+    },
+    {
+      "symbol": "ETHOSLTD",
+      "name": "Ethos Limited",
+      "last_price": 2902.5,
+      "change_pct": 12.7,
+      "volume": 1592283,
+      "turnover_cr": 465.46,
+      "vol_change_1wk_pct": 88.49,
+      "vol_change_2wk_pct": 88.99
     },
     {
       "symbol": "URBANCO",
       "name": "Urban Company Limited",
-      "last_price": 146.15,
-      "change_pct": 12.95,
-      "volume": 71939534,
-      "turnover_cr": 1061.4,
-      "vol_change_1wk_pct": 64.32,
-      "vol_change_2wk_pct": 57.76
+      "last_price": 145.85,
+      "change_pct": 12.72,
+      "volume": 92834272,
+      "turnover_cr": 1367.45,
+      "vol_change_1wk_pct": 83.0,
+      "vol_change_2wk_pct": 74.54
+    },
+    {
+      "symbol": "MOLOWVOL",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Low Volatility ETF",
+      "last_price": 37.05,
+      "change_pct": -0.56,
+      "volume": 2596147,
+      "turnover_cr": 9.79,
+      "vol_change_1wk_pct": 75.83,
+      "vol_change_2wk_pct": 114.24
     },
     {
       "symbol": "UGROCAP",
       "name": "Ugro Capital Limited",
-      "last_price": 97.37,
-      "change_pct": 2.01,
-      "volume": 5179196,
-      "turnover_cr": 52.35,
-      "vol_change_1wk_pct": 58.22,
-      "vol_change_2wk_pct": 49.91
+      "last_price": 97.67,
+      "change_pct": 2.33,
+      "volume": 6281719,
+      "turnover_cr": 63.13,
+      "vol_change_1wk_pct": 70.61,
+      "vol_change_2wk_pct": 60.53
     },
     {
-      "symbol": "ITBETA",
-      "name": "UTI Mutual Fund - UTI Nifty IT ETF",
-      "last_price": 329.7,
-      "change_pct": 1.96,
-      "volume": 351308,
-      "turnover_cr": 11.38,
-      "vol_change_1wk_pct": 41.24,
-      "vol_change_2wk_pct": 63.56
+      "symbol": "MOM50",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal M50 ETF",
+      "last_price": 258.25,
+      "change_pct": 1.26,
+      "volume": 251906,
+      "turnover_cr": 6.5,
+      "vol_change_1wk_pct": 69.34,
+      "vol_change_2wk_pct": 72.77
     },
     {
-      "symbol": "SPORTKING",
-      "name": "Sportking India Limited",
-      "last_price": 231.6,
-      "change_pct": 15.08,
-      "volume": 10550688,
-      "turnover_cr": 248.15,
-      "vol_change_1wk_pct": 23.15,
-      "vol_change_2wk_pct": 22.28
+      "symbol": "MONEXT50",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Next 50 ETF",
+      "last_price": 74.38,
+      "change_pct": 1.79,
+      "volume": 539926,
+      "turnover_cr": 4.0,
+      "vol_change_1wk_pct": 59.04,
+      "vol_change_2wk_pct": 90.94
     },
     {
       "symbol": "MSCI360",
       "name": "360 ONE Mutual Fund - 360 ONE MSCI India ETF",
-      "last_price": 10.28,
-      "change_pct": 0.49,
-      "volume": 14775,
-      "turnover_cr": 0.02,
-      "vol_change_1wk_pct": 22.6,
-      "vol_change_2wk_pct": 5.56
+      "last_price": 10.16,
+      "change_pct": -0.68,
+      "volume": 31339,
+      "turnover_cr": 0.03,
+      "vol_change_1wk_pct": 47.93,
+      "vol_change_2wk_pct": 11.8
     },
     {
-      "symbol": "BLUEDART",
-      "name": "Blue Dart Express Limited",
-      "last_price": 5489,
-      "change_pct": 6.37,
-      "volume": 491730,
-      "turnover_cr": 272.34,
-      "vol_change_1wk_pct": 20.35,
-      "vol_change_2wk_pct": 27.49
+      "symbol": "ITBETA",
+      "name": "UTI Mutual Fund - UTI Nifty IT ETF",
+      "last_price": 323.74,
+      "change_pct": 0.12,
+      "volume": 352251,
+      "turnover_cr": 11.41,
+      "vol_change_1wk_pct": 41.35,
+      "vol_change_2wk_pct": 63.73
     },
     {
-      "symbol": "CLEAN",
-      "name": "Clean Science and Technology Limited",
-      "last_price": 766.5,
-      "change_pct": 4.42,
-      "volume": 3092088,
-      "turnover_cr": 235.64,
-      "vol_change_1wk_pct": 20.07,
-      "vol_change_2wk_pct": 14.87
+      "symbol": "NOCIL",
+      "name": "NOCIL Limited",
+      "last_price": 172.7,
+      "change_pct": 5.2,
+      "volume": 12374720,
+      "turnover_cr": 219.64,
+      "vol_change_1wk_pct": 37.52,
+      "vol_change_2wk_pct": 35.89
+    },
+    {
+      "symbol": "MSCIINDIA",
+      "name": "Kotak Mahindra Mutual Fund - Kotak MSCI India ETF",
+      "last_price": 30.53,
+      "change_pct": 1.26,
+      "volume": 1069823,
+      "turnover_cr": 3.26,
+      "vol_change_1wk_pct": 33.41,
+      "vol_change_2wk_pct": 49.05
+    },
+    {
+      "symbol": "VINDHYATEL",
+      "name": "Vindhya Telelinks Limited",
+      "last_price": 2383,
+      "change_pct": 20,
+      "volume": 605417,
+      "turnover_cr": 136.89,
+      "vol_change_1wk_pct": 28.21,
+      "vol_change_2wk_pct": 24.97
+    },
+    {
+      "symbol": "SPORTKING",
+      "name": "Sportking India Limited",
+      "last_price": 231.81,
+      "change_pct": 15.18,
+      "volume": 12667361,
+      "turnover_cr": 296.39,
+      "vol_change_1wk_pct": 27.8,
+      "vol_change_2wk_pct": 26.76
+    },
+    {
+      "symbol": "NATCAPSUQ",
+      "name": "Natural Capsules Limited",
+      "last_price": 157.95,
+      "change_pct": 10.24,
+      "volume": 161886,
+      "turnover_cr": 2.57,
+      "vol_change_1wk_pct": 26.24,
+      "vol_change_2wk_pct": 10.27
+    },
+    {
+      "symbol": "AVADHSUGAR",
+      "name": "Avadh Sugar & Energy Limited",
+      "last_price": 567,
+      "change_pct": 12.5,
+      "volume": 578282,
+      "turnover_cr": 31.46,
+      "vol_change_1wk_pct": 25.8,
+      "vol_change_2wk_pct": 26.69
     },
     {
       "symbol": "MOBIKWIK",
       "name": "One Mobikwik Systems Limited",
-      "last_price": 218.62,
-      "change_pct": 6.53,
-      "volume": 13200172,
-      "turnover_cr": 284.94,
-      "vol_change_1wk_pct": 19.24,
-      "vol_change_2wk_pct": 19.18
+      "last_price": 214,
+      "change_pct": 4.28,
+      "volume": 17160792,
+      "turnover_cr": 370.36,
+      "vol_change_1wk_pct": 25.01,
+      "vol_change_2wk_pct": 24.94
+    },
+    {
+      "symbol": "BLUEDART",
+      "name": "Blue Dart Express Limited",
+      "last_price": 5332,
+      "change_pct": 3.32,
+      "volume": 601176,
+      "turnover_cr": 332.02,
+      "vol_change_1wk_pct": 24.88,
+      "vol_change_2wk_pct": 33.61
+    },
+    {
+      "symbol": "CLEAN",
+      "name": "Clean Science and Technology Limited",
+      "last_price": 767,
+      "change_pct": 4.49,
+      "volume": 3558094,
+      "turnover_cr": 271.28,
+      "vol_change_1wk_pct": 23.1,
+      "vol_change_2wk_pct": 17.11
+    },
+    {
+      "symbol": "DIAMONDYD",
+      "name": "Prataap Snacks Limited",
+      "last_price": 1160,
+      "change_pct": 0.04,
+      "volume": 412833,
+      "turnover_cr": 46.97,
+      "vol_change_1wk_pct": 21.79,
+      "vol_change_2wk_pct": 26.87
+    },
+    {
+      "symbol": "OBCL",
+      "name": "OBCL Limited",
+      "last_price": 53.47,
+      "change_pct": 1.5,
+      "volume": 65944,
+      "turnover_cr": 0.35,
+      "vol_change_1wk_pct": 21.75,
+      "vol_change_2wk_pct": 13.15
     },
     {
       "symbol": "ALPHAGEO",
       "name": "Alphageo (India) Limited",
       "last_price": 264.15,
       "change_pct": 20,
-      "volume": 241733,
-      "turnover_cr": 6.17,
-      "vol_change_1wk_pct": 17.68,
-      "vol_change_2wk_pct": 27.53
-    },
-    {
-      "symbol": "VINDHYATEL",
-      "name": "Vindhya Telelinks Limited",
-      "last_price": 2265,
-      "change_pct": 14.05,
-      "volume": 378393,
-      "turnover_cr": 83.99,
-      "vol_change_1wk_pct": 17.63,
-      "vol_change_2wk_pct": 15.61
+      "volume": 276528,
+      "turnover_cr": 7.08,
+      "vol_change_1wk_pct": 20.22,
+      "vol_change_2wk_pct": 31.49
     },
     {
       "symbol": "HSBCGOLD",
       "name": "HSBC Mutual Fund - HSBC Gold ETF",
-      "last_price": 123.75,
-      "change_pct": 0.53,
-      "volume": 13537,
-      "turnover_cr": 0.17,
-      "vol_change_1wk_pct": 14.95,
-      "vol_change_2wk_pct": 2.33
+      "last_price": 123.15,
+      "change_pct": 0.04,
+      "volume": 15876,
+      "turnover_cr": 0.2,
+      "vol_change_1wk_pct": 17.53,
+      "vol_change_2wk_pct": 2.73
     },
     {
-      "symbol": "INDTERRAIN",
-      "name": "Indian Terrain Fashions Limited",
-      "last_price": 33.39,
-      "change_pct": 19.98,
-      "volume": 269317,
-      "turnover_cr": 0.87,
-      "vol_change_1wk_pct": 13.8,
-      "vol_change_2wk_pct": 18.94
-    },
-    {
-      "symbol": "NIFTYETF",
-      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty 50 ETF",
-      "last_price": 267.58,
-      "change_pct": 0.8,
-      "volume": 1970357,
-      "turnover_cr": 52.75,
-      "vol_change_1wk_pct": 10.07,
-      "vol_change_2wk_pct": 8.67
-    },
-    {
-      "symbol": "SHALPAINTS",
-      "name": "Shalimar Paints Limited",
-      "last_price": 80.01,
-      "change_pct": 19.99,
-      "volume": 4317385,
-      "turnover_cr": 33.14,
-      "vol_change_1wk_pct": 9.96,
-      "vol_change_2wk_pct": 5.55
-    },
-    {
-      "symbol": "MID150",
-      "name": "Kotak Mahindra Mutual Fund - Kotak Nifty Midcap 150 ETF",
-      "last_price": 23.72,
-      "change_pct": 1.07,
-      "volume": 262443,
-      "turnover_cr": 0.62,
-      "vol_change_1wk_pct": 9.93,
-      "vol_change_2wk_pct": 5.2
-    },
-    {
-      "symbol": "MWL",
-      "name": "Mangalam Worldwide Limited",
-      "last_price": 38.19,
-      "change_pct": 6.08,
-      "volume": 2451032,
-      "turnover_cr": 9.48,
-      "vol_change_1wk_pct": 9.89,
-      "vol_change_2wk_pct": 9.87
-    },
-    {
-      "symbol": "MUTHOOTFIN",
-      "name": "Muthoot Finance Limited",
-      "last_price": 2883.1,
-      "change_pct": -7.58,
-      "volume": 7137451,
-      "turnover_cr": 2018.3,
-      "vol_change_1wk_pct": 8.86,
-      "vol_change_2wk_pct": 9.73
-    },
-    {
-      "symbol": "PROSTARM",
-      "name": "Prostarm Info Systems Limited",
-      "last_price": 136.22,
-      "change_pct": 7.23,
-      "volume": 960809,
-      "turnover_cr": 12.68,
-      "vol_change_1wk_pct": 8.5,
-      "vol_change_2wk_pct": 7.95
-    },
-    {
-      "symbol": "MOMNC",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty MNC ETF",
-      "last_price": 33.38,
-      "change_pct": 1.37,
-      "volume": 13335,
-      "turnover_cr": 0.04,
-      "vol_change_1wk_pct": 8.46,
-      "vol_change_2wk_pct": 8.6
-    },
-    {
-      "symbol": "ADVENZYMES",
-      "name": "Advanced Enzyme Technologies Limited",
-      "last_price": 320.05,
-      "change_pct": 1.57,
-      "volume": 1420144,
-      "turnover_cr": 46.96,
-      "vol_change_1wk_pct": 8.41,
-      "vol_change_2wk_pct": 8.87
-    },
-    {
-      "symbol": "EXCELSOFT",
-      "name": "Excelsoft Technologies Limited",
-      "last_price": 83.73,
-      "change_pct": 8.16,
-      "volume": 2512631,
-      "turnover_cr": 20.92,
-      "vol_change_1wk_pct": 7.74,
-      "vol_change_2wk_pct": 8.89
-    },
-    {
-      "symbol": "KIOCL",
-      "name": "KIOCL Limited",
-      "last_price": 395.3,
-      "change_pct": 8.14,
-      "volume": 2343270,
-      "turnover_cr": 93.14,
-      "vol_change_1wk_pct": 7.17,
-      "vol_change_2wk_pct": 12.15
-    },
-    {
-      "symbol": "URJA",
-      "name": "Urja Global Limited",
-      "last_price": 9.94,
-      "change_pct": 9.35,
-      "volume": 4395275,
-      "turnover_cr": 4.36,
-      "vol_change_1wk_pct": 7.09,
-      "vol_change_2wk_pct": 6.95
+      "symbol": "EBBETF0431",
+      "name": "Edelweiss Mutual Fund - BHARAT Bond ETF - April 2031",
+      "last_price": 1439,
+      "change_pct": -0.16,
+      "volume": 57504,
+      "turnover_cr": 8.27,
+      "vol_change_1wk_pct": 16.04,
+      "vol_change_2wk_pct": 20.82
     }
   ]
 }

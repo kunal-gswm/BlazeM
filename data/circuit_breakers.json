@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-03T07:33:24Z",
+    "last_updated": "2026-08-03T10:58:19Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -18,14 +18,14 @@
         "turnover_cr": 0.0
       },
       {
-        "symbol": "UEL",
-        "name": "UEL",
-        "last_price": 184.47,
-        "prev_close": 153.73,
+        "symbol": "IITL",
+        "name": "IITL",
+        "last_price": 153.21,
+        "prev_close": 127.68,
         "change": 20,
         "change_pct": 20,
-        "volume": 210120,
-        "turnover_cr": 3.79
+        "volume": 270241,
+        "turnover_cr": 3.92
       },
       {
         "symbol": "ALPHAGEO",
@@ -34,8 +34,8 @@
         "prev_close": 220.13,
         "change": 20,
         "change_pct": 20,
-        "volume": 241733,
-        "turnover_cr": 6.17
+        "volume": 276528,
+        "turnover_cr": 7.08
       },
       {
         "symbol": "AARTISURF",
@@ -44,18 +44,38 @@
         "prev_close": 400.85,
         "change": 20,
         "change_pct": 20,
-        "volume": 101727,
-        "turnover_cr": 4.8
+        "volume": 103704,
+        "turnover_cr": 4.89
       },
       {
-        "symbol": "IITL",
-        "name": "IITL",
-        "last_price": 153.21,
-        "prev_close": 127.68,
+        "symbol": "VINDHYATEL",
+        "name": "VINDHYATEL",
+        "last_price": 2383,
+        "prev_close": 1985.9,
         "change": 20,
         "change_pct": 20,
-        "volume": 268768,
-        "turnover_cr": 3.9
+        "volume": 605417,
+        "turnover_cr": 136.89
+      },
+      {
+        "symbol": "UEL",
+        "name": "UEL",
+        "last_price": 184.47,
+        "prev_close": 153.73,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 211631,
+        "turnover_cr": 3.82
+      },
+      {
+        "symbol": "KHAITANLTD",
+        "name": "KHAITANLTD",
+        "last_price": 155.4,
+        "prev_close": 129.5,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 49355,
+        "turnover_cr": 0.74
       },
       {
         "symbol": "SHALPAINTS",
@@ -64,8 +84,8 @@
         "prev_close": 66.68,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 4317336,
-        "turnover_cr": 33.14
+        "volume": 4518150,
+        "turnover_cr": 34.74
       },
       {
         "symbol": "RSDFIN",
@@ -74,8 +94,8 @@
         "prev_close": 110.74,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 155432,
-        "turnover_cr": 1.93
+        "volume": 156670,
+        "turnover_cr": 1.94
       },
       {
         "symbol": "INDTERRAIN",
@@ -84,78 +104,138 @@
         "prev_close": 27.83,
         "change": 19.98,
         "change_pct": 19.98,
-        "volume": 269317,
-        "turnover_cr": 0.87
-      },
-      {
-        "symbol": "SPORTKING",
-        "name": "SPORTKING",
-        "last_price": 231.33,
-        "prev_close": 201.26,
-        "change": 14.94,
-        "change_pct": 14.94,
-        "volume": 10549578,
-        "turnover_cr": 248.13
-      },
-      {
-        "symbol": "VINDHYATEL",
-        "name": "VINDHYATEL",
-        "last_price": 2278,
-        "prev_close": 1985.9,
-        "change": 14.71,
-        "change_pct": 14.71,
-        "volume": 373383,
-        "turnover_cr": 82.85
-      },
-      {
-        "symbol": "RATNAVEER",
-        "name": "RATNAVEER",
-        "last_price": 206.73,
-        "prev_close": 181.38,
-        "change": 13.98,
-        "change_pct": 13.98,
-        "volume": 30151923,
-        "turnover_cr": 617.0
+        "volume": 296135,
+        "turnover_cr": 0.96
       },
       {
         "symbol": "DALMIASUG",
         "name": "DALMIASUG",
-        "last_price": 398.45,
+        "last_price": 419.8,
         "prev_close": 350.9,
-        "change": 13.55,
-        "change_pct": 13.55,
-        "volume": 5416577,
-        "turnover_cr": 213.05
+        "change": 19.64,
+        "change_pct": 19.64,
+        "volume": 10294952,
+        "turnover_cr": 411.44
+      },
+      {
+        "symbol": "RMC",
+        "name": "RMC",
+        "last_price": 293.45,
+        "prev_close": 251.1,
+        "change": 16.87,
+        "change_pct": 16.87,
+        "volume": 272852,
+        "turnover_cr": 7.74
+      },
+      {
+        "symbol": "ADL",
+        "name": "ADL",
+        "last_price": 82.85,
+        "prev_close": 71.33,
+        "change": 16.15,
+        "change_pct": 16.15,
+        "volume": 2531,
+        "turnover_cr": 0.02
+      },
+      {
+        "symbol": "SPORTKING",
+        "name": "SPORTKING",
+        "last_price": 231.81,
+        "prev_close": 201.26,
+        "change": 15.18,
+        "change_pct": 15.18,
+        "volume": 12667361,
+        "turnover_cr": 296.39
+      },
+      {
+        "symbol": "RATNAVEER",
+        "name": "RATNAVEER",
+        "last_price": 205.55,
+        "prev_close": 181.38,
+        "change": 13.33,
+        "change_pct": 13.33,
+        "volume": 39358650,
+        "turnover_cr": 808.03
+      },
+      {
+        "symbol": "INDORAMA",
+        "name": "INDORAMA",
+        "last_price": 63.5,
+        "prev_close": 56.25,
+        "change": 12.89,
+        "change_pct": 12.89,
+        "volume": 2539412,
+        "turnover_cr": 15.66
       },
       {
         "symbol": "URBANCO",
         "name": "URBANCO",
-        "last_price": 146.25,
+        "last_price": 145.85,
         "prev_close": 129.39,
-        "change": 13.03,
-        "change_pct": 13.03,
-        "volume": 71869718,
-        "turnover_cr": 1060.37
+        "change": 12.72,
+        "change_pct": 12.72,
+        "volume": 92834272,
+        "turnover_cr": 1367.45
       },
       {
-        "symbol": "ROSSTECH",
-        "name": "ROSSTECH",
-        "last_price": 1075,
-        "prev_close": 954.1,
-        "change": 12.67,
-        "change_pct": 12.67,
-        "volume": 862992,
-        "turnover_cr": 90.4
+        "symbol": "ETHOSLTD",
+        "name": "ETHOSLTD",
+        "last_price": 2902.5,
+        "prev_close": 2575.4,
+        "change": 12.7,
+        "change_pct": 12.7,
+        "volume": 1592283,
+        "turnover_cr": 465.46
       },
       {
-        "symbol": "GENESYS",
-        "name": "GENESYS",
-        "last_price": 298.75,
-        "prev_close": 271.6,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 496790,
-        "turnover_cr": 14.42
+        "symbol": "AVADHSUGAR",
+        "name": "AVADHSUGAR",
+        "last_price": 567,
+        "prev_close": 504,
+        "change": 12.5,
+        "change_pct": 12.5,
+        "volume": 578282,
+        "turnover_cr": 31.46
+      },
+      {
+        "symbol": "KAPSTON",
+        "name": "KAPSTON",
+        "last_price": 531,
+        "prev_close": 474.9,
+        "change": 11.81,
+        "change_pct": 11.81,
+        "volume": 302591,
+        "turnover_cr": 15.63
+      },
+      {
+        "symbol": "CCAVENUE",
+        "name": "CCAVENUE",
+        "last_price": 17.71,
+        "prev_close": 15.85,
+        "change": 11.74,
+        "change_pct": 11.74,
+        "volume": 95564917,
+        "turnover_cr": 164.08
+      },
+      {
+        "symbol": "NAHARSPING",
+        "name": "NAHARSPING",
+        "last_price": 313.5,
+        "prev_close": 281.1,
+        "change": 11.53,
+        "change_pct": 11.53,
+        "volume": 176570,
+        "turnover_cr": 5.34
+      },
+      {
+        "symbol": "URJA",
+        "name": "URJA",
+        "last_price": 10.1,
+        "prev_close": 9.09,
+        "change": 11.11,
+        "change_pct": 11.11,
+        "volume": 5881622,
+        "turnover_cr": 5.85
       }
     ],
     "lower_circuit": [
@@ -166,28 +246,38 @@
         "prev_close": 213.43,
         "change": -20,
         "change_pct": -20,
-        "volume": 2880575,
-        "turnover_cr": 52.79
-      },
-      {
-        "symbol": "XPROINDIA",
-        "name": "XPROINDIA",
-        "last_price": 1309.2,
-        "prev_close": 1500.4,
-        "change": -12.74,
-        "change_pct": -12.74,
-        "volume": 258634,
-        "turnover_cr": 34.47
+        "volume": 2912295,
+        "turnover_cr": 53.33
       },
       {
         "symbol": "ZEEL",
         "name": "ZEEL",
-        "last_price": 101.77,
+        "last_price": 97.9,
         "prev_close": 114.55,
-        "change": -11.16,
-        "change_pct": -11.16,
-        "volume": 66222917,
-        "turnover_cr": 682.69
+        "change": -14.54,
+        "change_pct": -14.54,
+        "volume": 107649848,
+        "turnover_cr": 1092.0
+      },
+      {
+        "symbol": "XPROINDIA",
+        "name": "XPROINDIA",
+        "last_price": 1296,
+        "prev_close": 1500.4,
+        "change": -13.62,
+        "change_pct": -13.62,
+        "volume": 349840,
+        "turnover_cr": 46.41
+      },
+      {
+        "symbol": "NITTAGELA",
+        "name": "NITTAGELA",
+        "last_price": 1725,
+        "prev_close": 1922.5,
+        "change": -10.27,
+        "change_pct": -10.27,
+        "volume": 39875,
+        "turnover_cr": 6.94
       }
     ]
   }

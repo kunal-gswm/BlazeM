@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-08-03T07:32:58Z",
+    "last_updated": "2026-08-03T10:57:46Z",
     "status": "healthy",
     "record_count": 6
   },
@@ -30,23 +30,23 @@
     {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 16.07,
-      "change": 0.08,
-      "change_pct": 0.5
+      "price": 15.95,
+      "change": -0.04,
+      "change_pct": -0.25
     },
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "price": 24579.5,
-      "change": 212.8,
-      "change_pct": 0.87
+      "price": 24774.3,
+      "change": 407.6,
+      "change_pct": 1.67
     },
     {
       "symbol": "^BSESN",
       "name": "BSE Sensex",
-      "price": 78697.84,
-      "change": 603.2,
-      "change_pct": 0.77
+      "price": 78639.03,
+      "change": 544.39,
+      "change_pct": 0.7
     }
   ]
 }
