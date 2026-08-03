@@ -1,213 +1,193 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-07-31T11:47:55Z",
+    "last_updated": "2026-08-03T07:33:24Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "YASHO",
-        "name": "YASHO",
-        "last_price": 3858.7,
-        "prev_close": 3215.6,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 273048,
-        "turnover_cr": 102.5
-      },
-      {
-        "symbol": "DCI",
-        "name": "DCI",
-        "last_price": 332.1,
-        "prev_close": 276.75,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 124884,
-        "turnover_cr": 3.97
+        "symbol": "DSKULKARNI",
+        "name": "DSKULKARNI",
+        "last_price": 9.03,
+        "prev_close": 1,
+        "change": 5,
+        "change_pct": 803,
+        "volume": 59,
+        "turnover_cr": 0.0
       },
       {
         "symbol": "UEL",
         "name": "UEL",
-        "last_price": 153.73,
-        "prev_close": 128.11,
+        "last_price": 184.47,
+        "prev_close": 153.73,
         "change": 20,
         "change_pct": 20,
-        "volume": 218909,
-        "turnover_cr": 3.3
+        "volume": 210120,
+        "turnover_cr": 3.79
       },
       {
-        "symbol": "TRANSPEK",
-        "name": "TRANSPEK",
-        "last_price": 1321.3,
-        "prev_close": 1101.1,
+        "symbol": "ALPHAGEO",
+        "name": "ALPHAGEO",
+        "last_price": 264.15,
+        "prev_close": 220.13,
         "change": 20,
         "change_pct": 20,
-        "volume": 289600,
-        "turnover_cr": 36.41
+        "volume": 241733,
+        "turnover_cr": 6.17
+      },
+      {
+        "symbol": "AARTISURF",
+        "name": "AARTISURF",
+        "last_price": 481,
+        "prev_close": 400.85,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 101727,
+        "turnover_cr": 4.8
+      },
+      {
+        "symbol": "IITL",
+        "name": "IITL",
+        "last_price": 153.21,
+        "prev_close": 127.68,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 268768,
+        "turnover_cr": 3.9
+      },
+      {
+        "symbol": "SHALPAINTS",
+        "name": "SHALPAINTS",
+        "last_price": 80.01,
+        "prev_close": 66.68,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 4317336,
+        "turnover_cr": 33.14
       },
       {
         "symbol": "RSDFIN",
         "name": "RSDFIN",
-        "last_price": 110.74,
-        "prev_close": 92.29,
+        "last_price": 132.88,
+        "prev_close": 110.74,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 160324,
-        "turnover_cr": 1.76
+        "volume": 155432,
+        "turnover_cr": 1.93
       },
       {
-        "symbol": "GATECH",
-        "name": "GATECH",
-        "last_price": 0.69,
-        "prev_close": 0.58,
-        "change": 18.97,
-        "change_pct": 18.97,
-        "volume": 81203825,
-        "turnover_cr": 5.28
+        "symbol": "INDTERRAIN",
+        "name": "INDTERRAIN",
+        "last_price": 33.39,
+        "prev_close": 27.83,
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 269317,
+        "turnover_cr": 0.87
       },
       {
-        "symbol": "ESAFSFB",
-        "name": "ESAFSFB",
-        "last_price": 42.7,
-        "prev_close": 36.48,
-        "change": 17.05,
-        "change_pct": 17.05,
-        "volume": 43578126,
-        "turnover_cr": 175.79
+        "symbol": "SPORTKING",
+        "name": "SPORTKING",
+        "last_price": 231.33,
+        "prev_close": 201.26,
+        "change": 14.94,
+        "change_pct": 14.94,
+        "volume": 10549578,
+        "turnover_cr": 248.13
       },
       {
-        "symbol": "BESTAGRO",
-        "name": "BESTAGRO",
-        "last_price": 19.15,
-        "prev_close": 16.6,
-        "change": 15.36,
-        "change_pct": 15.36,
-        "volume": 38044658,
-        "turnover_cr": 71.18
+        "symbol": "VINDHYATEL",
+        "name": "VINDHYATEL",
+        "last_price": 2278,
+        "prev_close": 1985.9,
+        "change": 14.71,
+        "change_pct": 14.71,
+        "volume": 373383,
+        "turnover_cr": 82.85
       },
       {
-        "symbol": "KRITIKA",
-        "name": "KRITIKA",
-        "last_price": 6.18,
-        "prev_close": 5.47,
-        "change": 12.98,
-        "change_pct": 12.98,
-        "volume": 1098742,
-        "turnover_cr": 0.67
+        "symbol": "RATNAVEER",
+        "name": "RATNAVEER",
+        "last_price": 206.73,
+        "prev_close": 181.38,
+        "change": 13.98,
+        "change_pct": 13.98,
+        "volume": 30151923,
+        "turnover_cr": 617.0
       },
       {
-        "symbol": "VERANDA",
-        "name": "VERANDA",
-        "last_price": 262,
-        "prev_close": 231.97,
-        "change": 12.95,
-        "change_pct": 12.95,
-        "volume": 3373967,
-        "turnover_cr": 86.97
+        "symbol": "DALMIASUG",
+        "name": "DALMIASUG",
+        "last_price": 398.45,
+        "prev_close": 350.9,
+        "change": 13.55,
+        "change_pct": 13.55,
+        "volume": 5416577,
+        "turnover_cr": 213.05
       },
       {
-        "symbol": "SIGMA",
-        "name": "SIGMA",
-        "last_price": 54.55,
-        "prev_close": 48.3,
-        "change": 12.94,
-        "change_pct": 12.94,
-        "volume": 6041372,
-        "turnover_cr": 31.74
+        "symbol": "URBANCO",
+        "name": "URBANCO",
+        "last_price": 146.25,
+        "prev_close": 129.39,
+        "change": 13.03,
+        "change_pct": 13.03,
+        "volume": 71869718,
+        "turnover_cr": 1060.37
       },
       {
-        "symbol": "BTML",
-        "name": "BTML",
-        "last_price": 6.9,
-        "prev_close": 6.16,
-        "change": 12.01,
-        "change_pct": 12.01,
-        "volume": 2169140,
-        "turnover_cr": 1.5
+        "symbol": "ROSSTECH",
+        "name": "ROSSTECH",
+        "last_price": 1075,
+        "prev_close": 954.1,
+        "change": 12.67,
+        "change_pct": 12.67,
+        "volume": 862992,
+        "turnover_cr": 90.4
       },
       {
-        "symbol": "SCPL",
-        "name": "SCPL",
-        "last_price": 617,
-        "prev_close": 551.15,
-        "change": 11.95,
-        "change_pct": 11.95,
-        "volume": 550846,
-        "turnover_cr": 33.79
-      },
-      {
-        "symbol": "63MOONS",
-        "name": "63MOONS",
-        "last_price": 947,
-        "prev_close": 847.35,
-        "change": 11.76,
-        "change_pct": 11.76,
-        "volume": 13988219,
-        "turnover_cr": 1282.54
-      },
-      {
-        "symbol": "THEJO",
-        "name": "THEJO",
-        "last_price": 2108,
-        "prev_close": 1900.6,
-        "change": 10.91,
-        "change_pct": 10.91,
-        "volume": 75458,
-        "turnover_cr": 15.68
-      },
-      {
-        "symbol": "SHADOWFAX",
-        "name": "SHADOWFAX",
-        "last_price": 242.8,
-        "prev_close": 220.17,
-        "change": 10.28,
-        "change_pct": 10.28,
-        "volume": 72781395,
-        "turnover_cr": 1761.38
-      },
-      {
-        "symbol": "GATECHDVR",
-        "name": "GATECHDVR",
-        "last_price": 0.54,
-        "prev_close": 0.49,
-        "change": 10.2,
-        "change_pct": 10.2,
-        "volume": 4312099,
-        "turnover_cr": 0.22
+        "symbol": "GENESYS",
+        "name": "GENESYS",
+        "last_price": 298.75,
+        "prev_close": 271.6,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 496790,
+        "turnover_cr": 14.42
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "NARMADA",
-        "name": "NARMADA",
-        "last_price": 17.3,
-        "prev_close": 36.19,
-        "change": -4.42,
-        "change_pct": -52.2,
-        "volume": 8232988,
-        "turnover_cr": 15.18
+        "symbol": "INDOTHAI",
+        "name": "INDOTHAI",
+        "last_price": 170.75,
+        "prev_close": 213.43,
+        "change": -20,
+        "change_pct": -20,
+        "volume": 2880575,
+        "turnover_cr": 52.79
       },
       {
-        "symbol": "THANGAMAYL",
-        "name": "THANGAMAYL",
-        "last_price": 5226.5,
-        "prev_close": 5807,
-        "change": -10,
-        "change_pct": -10,
-        "volume": 748277,
-        "turnover_cr": 394.67
+        "symbol": "XPROINDIA",
+        "name": "XPROINDIA",
+        "last_price": 1309.2,
+        "prev_close": 1500.4,
+        "change": -12.74,
+        "change_pct": -12.74,
+        "volume": 258634,
+        "turnover_cr": 34.47
       },
       {
-        "symbol": "ASIANTILES",
-        "name": "ASIANTILES",
-        "last_price": 54.64,
-        "prev_close": 60.71,
-        "change": -10,
-        "change_pct": -10,
-        "volume": 10893154,
-        "turnover_cr": 60.97
+        "symbol": "ZEEL",
+        "name": "ZEEL",
+        "last_price": 101.77,
+        "prev_close": 114.55,
+        "change": -11.16,
+        "change_pct": -11.16,
+        "volume": 66222917,
+        "turnover_cr": 682.69
       }
     ]
   }
