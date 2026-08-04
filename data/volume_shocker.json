@@ -1,250 +1,260 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-04T06:31:59Z",
+    "last_updated": "2026-08-04T09:27:35Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 25
   },
   "data": [
     {
+      "symbol": "RUSTOMJEE",
+      "name": "Keystone Realtors Limited",
+      "last_price": 418.9,
+      "change_pct": 5.57,
+      "volume": 6273461,
+      "turnover_cr": 264.32,
+      "vol_change_1wk_pct": 281.89,
+      "vol_change_2wk_pct": 301.03
+    },
+    {
       "symbol": "STEELCITY",
       "name": "Steel City Securities Limited",
-      "last_price": 88.29,
-      "change_pct": 15.56,
-      "volume": 409131,
-      "turnover_cr": 3.63,
-      "vol_change_1wk_pct": 102.88,
-      "vol_change_2wk_pct": 82.02
+      "last_price": 88,
+      "change_pct": 15.18,
+      "volume": 495289,
+      "turnover_cr": 4.39,
+      "vol_change_1wk_pct": 124.54,
+      "vol_change_2wk_pct": 99.3
     },
     {
       "symbol": "MOHITIND",
       "name": "Mohit Industries Limited",
       "last_price": 26.94,
       "change_pct": 20,
-      "volume": 294131,
-      "turnover_cr": 0.78,
-      "vol_change_1wk_pct": 65.4,
-      "vol_change_2wk_pct": 80.91
+      "volume": 297666,
+      "turnover_cr": 0.79,
+      "vol_change_1wk_pct": 66.19,
+      "vol_change_2wk_pct": 81.88
     },
     {
-      "symbol": "MON50EQUAL",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 50 Equal Weight ETF",
-      "last_price": 34.21,
-      "change_pct": -0.09,
-      "volume": 60906,
-      "turnover_cr": 0.21,
-      "vol_change_1wk_pct": 34.4,
-      "vol_change_2wk_pct": 11.79
-    },
-    {
-      "symbol": "AVADHSUGAR",
-      "name": "Avadh Sugar & Energy Limited",
-      "last_price": 627.5,
-      "change_pct": 12.31,
-      "volume": 3322264,
-      "turnover_cr": 208.09,
-      "vol_change_1wk_pct": 28.87,
-      "vol_change_2wk_pct": 45.97
-    },
-    {
-      "symbol": "RBA",
-      "name": "Restaurant Brands Asia Limited",
-      "last_price": 84.47,
-      "change_pct": 19.38,
-      "volume": 89443719,
-      "turnover_cr": 722.71,
-      "vol_change_1wk_pct": 22.71,
-      "vol_change_2wk_pct": 25.78
-    },
-    {
-      "symbol": "TECILCHEM",
-      "name": "TECIL Chemicals and Hydro Power Limited",
-      "last_price": 10.15,
-      "change_pct": 1,
-      "volume": 128166,
-      "turnover_cr": 0.13,
-      "vol_change_1wk_pct": 19.19,
-      "vol_change_2wk_pct": 18.14
-    },
-    {
-      "symbol": "EBBETF0433",
-      "name": "Edelweiss Mutual Fund - BHARAT Bond ETF-April 2033",
-      "last_price": 1316.45,
-      "change_pct": -0.21,
-      "volume": 71520,
-      "turnover_cr": 9.38,
-      "vol_change_1wk_pct": 18.86,
-      "vol_change_2wk_pct": 21.75
-    },
-    {
-      "symbol": "AARTISURF",
-      "name": "Aarti Surfactants Limited",
-      "last_price": 518.1,
-      "change_pct": 7.71,
-      "volume": 517526,
-      "turnover_cr": 26.49,
-      "vol_change_1wk_pct": 16.73,
-      "vol_change_2wk_pct": 25.81
-    },
-    {
-      "symbol": "LICI",
-      "name": "Life Insurance Corporation Of India",
-      "last_price": 396.4,
-      "change_pct": -7.49,
-      "volume": 24625875,
-      "turnover_cr": 977.43,
-      "vol_change_1wk_pct": 16.45,
-      "vol_change_2wk_pct": 18.67
-    },
-    {
-      "symbol": "GESHIP",
-      "name": "The Great Eastern Shipping Company Limited",
-      "last_price": 1434.9,
-      "change_pct": 2.61,
-      "volume": 6551562,
-      "turnover_cr": 972.17,
-      "vol_change_1wk_pct": 15.74,
-      "vol_change_2wk_pct": 15.61
-    },
-    {
-      "symbol": "BAJAJELEC",
-      "name": "Bajaj Electricals Limited",
-      "last_price": 351.6,
-      "change_pct": 4.13,
-      "volume": 1010573,
-      "turnover_cr": 35.99,
-      "vol_change_1wk_pct": 13.39,
-      "vol_change_2wk_pct": 14.66
-    },
-    {
-      "symbol": "UNIMECH",
-      "name": "Unimech Aerospace and Manufacturing Limited",
-      "last_price": 1351.8,
-      "change_pct": 7.3,
-      "volume": 1021980,
-      "turnover_cr": 137.87,
-      "vol_change_1wk_pct": 12.2,
-      "vol_change_2wk_pct": 11.25
-    },
-    {
-      "symbol": "SNXT30BEES",
-      "name": "Nippon India Mutual Fund - Nippon India BSE Sensex Next 30 ETF",
-      "last_price": 43.5,
-      "change_pct": 0.25,
-      "volume": 122856,
-      "turnover_cr": 0.54,
-      "vol_change_1wk_pct": 12.13,
-      "vol_change_2wk_pct": 16.12
-    },
-    {
-      "symbol": "RAMANEWS",
-      "name": "Shree Rama Newsprint Limited",
-      "last_price": 33,
-      "change_pct": 6.97,
-      "volume": 291162,
-      "turnover_cr": 0.96,
-      "vol_change_1wk_pct": 11.17,
-      "vol_change_2wk_pct": 10.37
-    },
-    {
-      "symbol": "MWL",
-      "name": "Mangalam Worldwide Limited",
-      "last_price": 42.18,
-      "change_pct": 11.29,
-      "volume": 7570631,
-      "turnover_cr": 31.52,
-      "vol_change_1wk_pct": 10.94,
-      "vol_change_2wk_pct": 15.43
-    },
-    {
-      "symbol": "KKCL",
-      "name": "Kewal Kiran Clothing Limited",
-      "last_price": 543.35,
-      "change_pct": 6.55,
-      "volume": 238943,
-      "turnover_cr": 12.82,
-      "vol_change_1wk_pct": 10.92,
-      "vol_change_2wk_pct": 8.6
-    },
-    {
-      "symbol": "MOGOLD",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Gold ETF",
-      "last_price": 140.45,
-      "change_pct": -0.07,
-      "volume": 281881,
-      "turnover_cr": 3.95,
-      "vol_change_1wk_pct": 10.9,
-      "vol_change_2wk_pct": 13.25
-    },
-    {
-      "symbol": "INDTERRAIN",
-      "name": "Indian Terrain Fashions Limited",
-      "last_price": 33,
-      "change_pct": -1.17,
-      "volume": 660826,
-      "turnover_cr": 2.37,
-      "vol_change_1wk_pct": 10.07,
-      "vol_change_2wk_pct": 16.58
-    },
-    {
-      "symbol": "MENNPIS",
-      "name": "Menon Pistons Limited",
-      "last_price": 75.91,
-      "change_pct": 1.99,
-      "volume": 406186,
-      "turnover_cr": 3.18,
-      "vol_change_1wk_pct": 8.53,
-      "vol_change_2wk_pct": 4.37
-    },
-    {
-      "symbol": "EPACKPEB",
-      "name": "EPack Prefab Technologies Limited",
-      "last_price": 264.2,
-      "change_pct": 8.3,
-      "volume": 10906030,
-      "turnover_cr": 290.94,
-      "vol_change_1wk_pct": 8.35,
-      "vol_change_2wk_pct": 11.46
-    },
-    {
-      "symbol": "GULFOILLUB",
-      "name": "Gulf Oil Lubricants India Limited",
-      "last_price": 1152,
-      "change_pct": 3.31,
-      "volume": 653946,
-      "turnover_cr": 76.22,
-      "vol_change_1wk_pct": 8.34,
-      "vol_change_2wk_pct": 8.42
-    },
-    {
-      "symbol": "AXITA",
-      "name": "Axita Cotton Limited",
-      "last_price": 7.34,
-      "change_pct": 0.55,
-      "volume": 4205543,
-      "turnover_cr": 3.1,
-      "vol_change_1wk_pct": 8.24,
-      "vol_change_2wk_pct": 9.63
+      "symbol": "BASF",
+      "name": "BASF India Limited",
+      "last_price": 3965.1,
+      "change_pct": 6.31,
+      "volume": 641694,
+      "turnover_cr": 262.29,
+      "vol_change_1wk_pct": 58.6,
+      "vol_change_2wk_pct": 38.49
     },
     {
       "symbol": "MANYAVAR",
       "name": "Vedant Fashions Limited",
-      "last_price": 449.7,
-      "change_pct": 7.39,
-      "volume": 3946186,
-      "turnover_cr": 177.61,
-      "vol_change_1wk_pct": 7.77,
-      "vol_change_2wk_pct": 9.23
+      "last_price": 474.65,
+      "change_pct": 13.35,
+      "volume": 24813540,
+      "turnover_cr": 1159.98,
+      "vol_change_1wk_pct": 48.86,
+      "vol_change_2wk_pct": 58.06
+    },
+    {
+      "symbol": "TOTAL",
+      "name": "Total Transport Systems Limited",
+      "last_price": 62.46,
+      "change_pct": 20,
+      "volume": 214318,
+      "turnover_cr": 1.29,
+      "vol_change_1wk_pct": 45.34,
+      "vol_change_2wk_pct": 27.36
+    },
+    {
+      "symbol": "AVADHSUGAR",
+      "name": "Avadh Sugar & Energy Limited",
+      "last_price": 611.15,
+      "change_pct": 9.39,
+      "volume": 4343775,
+      "turnover_cr": 271.07,
+      "vol_change_1wk_pct": 37.75,
+      "vol_change_2wk_pct": 60.11
+    },
+    {
+      "symbol": "MON50EQUAL",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 50 Equal Weight ETF",
+      "last_price": 34.1,
+      "change_pct": -0.41,
+      "volume": 62170,
+      "turnover_cr": 0.21,
+      "vol_change_1wk_pct": 35.11,
+      "vol_change_2wk_pct": 12.04
+    },
+    {
+      "symbol": "LICI",
+      "name": "Life Insurance Corporation Of India",
+      "last_price": 394.4,
+      "change_pct": -7.96,
+      "volume": 47304137,
+      "turnover_cr": 1868.23,
+      "vol_change_1wk_pct": 31.61,
+      "vol_change_2wk_pct": 35.87
+    },
+    {
+      "symbol": "RBA",
+      "name": "Restaurant Brands Asia Limited",
+      "last_price": 84.91,
+      "change_pct": 20,
+      "volume": 114744616,
+      "turnover_cr": 936.89,
+      "vol_change_1wk_pct": 29.13,
+      "vol_change_2wk_pct": 33.07
+    },
+    {
+      "symbol": "WONDERLA",
+      "name": "Wonderla Holidays Limited",
+      "last_price": 500.2,
+      "change_pct": 3.09,
+      "volume": 1024990,
+      "turnover_cr": 51.34,
+      "vol_change_1wk_pct": 28.99,
+      "vol_change_2wk_pct": 29.57
+    },
+    {
+      "symbol": "AARTISURF",
+      "name": "Aarti Surfactants Limited",
+      "last_price": 550.1,
+      "change_pct": 14.37,
+      "volume": 817233,
+      "turnover_cr": 42.74,
+      "vol_change_1wk_pct": 26.43,
+      "vol_change_2wk_pct": 40.75
+    },
+    {
+      "symbol": "TECILCHEM",
+      "name": "TECIL Chemicals and Hydro Power Limited",
+      "last_price": 10,
+      "change_pct": -0.5,
+      "volume": 145649,
+      "turnover_cr": 0.15,
+      "vol_change_1wk_pct": 21.81,
+      "vol_change_2wk_pct": 20.62
+    },
+    {
+      "symbol": "CENTEXT",
+      "name": "Century Extrusions Limited",
+      "last_price": 24,
+      "change_pct": 20,
+      "volume": 1997535,
+      "turnover_cr": 4.63,
+      "vol_change_1wk_pct": 20.2,
+      "vol_change_2wk_pct": 25.24
+    },
+    {
+      "symbol": "GESHIP",
+      "name": "The Great Eastern Shipping Company Limited",
+      "last_price": 1438.4,
+      "change_pct": 2.86,
+      "volume": 7872475,
+      "turnover_cr": 1163.02,
+      "vol_change_1wk_pct": 18.91,
+      "vol_change_2wk_pct": 18.75
+    },
+    {
+      "symbol": "EBBETF0433",
+      "name": "Edelweiss Mutual Fund - BHARAT Bond ETF-April 2033",
+      "last_price": 1315.85,
+      "change_pct": -0.26,
+      "volume": 71592,
+      "turnover_cr": 9.39,
+      "vol_change_1wk_pct": 18.88,
+      "vol_change_2wk_pct": 21.77
+    },
+    {
+      "symbol": "ALKYLAMINE",
+      "name": "Alkyl Amines Chemicals Limited",
+      "last_price": 1899.2,
+      "change_pct": 4.1,
+      "volume": 977191,
+      "turnover_cr": 189.54,
+      "vol_change_1wk_pct": 18.65,
+      "vol_change_2wk_pct": 18.35
+    },
+    {
+      "symbol": "SUMMITSEC",
+      "name": "Summit Securities Limited",
+      "last_price": 1552,
+      "change_pct": 1.96,
+      "volume": 29359,
+      "turnover_cr": 4.64,
+      "vol_change_1wk_pct": 17.2,
+      "vol_change_2wk_pct": 18.14
+    },
+    {
+      "symbol": "BAJAJELEC",
+      "name": "Bajaj Electricals Limited",
+      "last_price": 350.75,
+      "change_pct": 3.88,
+      "volume": 1256117,
+      "turnover_cr": 44.58,
+      "vol_change_1wk_pct": 16.65,
+      "vol_change_2wk_pct": 18.22
+    },
+    {
+      "symbol": "KKCL",
+      "name": "Kewal Kiran Clothing Limited",
+      "last_price": 535.85,
+      "change_pct": 5.08,
+      "volume": 346942,
+      "turnover_cr": 18.65,
+      "vol_change_1wk_pct": 15.85,
+      "vol_change_2wk_pct": 12.49
+    },
+    {
+      "symbol": "MWL",
+      "name": "Mangalam Worldwide Limited",
+      "last_price": 42.31,
+      "change_pct": 11.64,
+      "volume": 10571335,
+      "turnover_cr": 44.22,
+      "vol_change_1wk_pct": 15.28,
+      "vol_change_2wk_pct": 21.55
+    },
+    {
+      "symbol": "MAGADSUGAR",
+      "name": "Magadh Sugar & Energy Limited",
+      "last_price": 546.5,
+      "change_pct": 2.16,
+      "volume": 400967,
+      "turnover_cr": 22.39,
+      "vol_change_1wk_pct": 14.31,
+      "vol_change_2wk_pct": 17.96
+    },
+    {
+      "symbol": "UNIMECH",
+      "name": "Unimech Aerospace and Manufacturing Limited",
+      "last_price": 1342.8,
+      "change_pct": 6.59,
+      "volume": 1182876,
+      "turnover_cr": 159.45,
+      "vol_change_1wk_pct": 14.12,
+      "vol_change_2wk_pct": 13.02
+    },
+    {
+      "symbol": "RAMANEWS",
+      "name": "Shree Rama Newsprint Limited",
+      "last_price": 33.5,
+      "change_pct": 8.59,
+      "volume": 362264,
+      "turnover_cr": 1.2,
+      "vol_change_1wk_pct": 13.89,
+      "vol_change_2wk_pct": 12.91
     },
     {
       "symbol": "MANINFRA",
       "name": "Man Infraconstruction Limited",
-      "last_price": 108.52,
-      "change_pct": 8.72,
-      "volume": 3977770,
-      "turnover_cr": 42.46,
-      "vol_change_1wk_pct": 7.37,
-      "vol_change_2wk_pct": 6.2
+      "last_price": 110.88,
+      "change_pct": 11.08,
+      "volume": 7445155,
+      "turnover_cr": 80.4,
+      "vol_change_1wk_pct": 13.8,
+      "vol_change_2wk_pct": 11.61
     }
   ]
 }

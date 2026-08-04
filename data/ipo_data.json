@@ -1,11 +1,32 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-04T06:31:53Z",
+    "last_updated": "2026-08-04T09:27:28Z",
     "status": "healthy",
     "record_count": 7
   },
   "data": [
+    {
+      "issue_name": "Molbio Diagnostics",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "",
+      "lot_size": "",
+      "issue_size": "",
+      "issue_open": "2026-08-10",
+      "issue_close": "2026-08-12",
+      "allotment_date": "2026-08-13",
+      "listing_date": "2026-08-17",
+      "gmp": 0.0,
+      "gmp_percent": "",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
+      "scraped_at": "2026-08-04T09:27:09.413760+00:00Z"
+    },
     {
       "issue_name": "Dhoot Transmission",
       "ipo_type": "Mainboard",
@@ -17,15 +38,15 @@
       "issue_close": "2026-08-12",
       "allotment_date": "2026-08-13",
       "listing_date": "2026-08-17",
-      "gmp": 200.0,
-      "gmp_percent": "22.96%",
+      "gmp": 243.0,
+      "gmp_percent": "27.90%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/dhoot-transmission-ipo/2122/",
-      "scraped_at": "2026-08-04T06:31:35.661325+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.413891+00:00Z"
     },
     {
       "issue_name": "LEAP India",
@@ -38,15 +59,15 @@
       "issue_close": "2026-08-11",
       "allotment_date": "2026-08-12",
       "listing_date": "2026-08-14",
-      "gmp": 4.0,
-      "gmp_percent": "2.52%",
+      "gmp": 3.0,
+      "gmp_percent": "1.89%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/leap-india-ipo/1868/",
-      "scraped_at": "2026-08-04T06:31:35.661427+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.413989+00:00Z"
     },
     {
       "issue_name": "Technocraft Ventures",
@@ -67,7 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/technocraft-ventures-ipo/1854/",
-      "scraped_at": "2026-08-04T06:31:35.661499+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.414090+00:00Z"
     },
     {
       "issue_name": "Ardee Industries",
@@ -88,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/ardee-industries-ipo/2123/",
-      "scraped_at": "2026-08-04T06:31:35.661573+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.414189+00:00Z"
     },
     {
       "issue_name": "MV Electrosystems",
@@ -101,15 +122,15 @@
       "issue_close": "2026-08-03",
       "allotment_date": "2026-08-04",
       "listing_date": "2026-08-06",
-      "gmp": 100.0,
-      "gmp_percent": "23.53%",
+      "gmp": 98.0,
+      "gmp_percent": "23.06%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/mv-electrosystems-ipo/2054/",
-      "scraped_at": "2026-08-04T06:31:35.661645+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.414286+00:00Z"
     },
     {
       "issue_name": "Juniper Green Energy",
@@ -122,36 +143,15 @@
       "issue_close": "2026-08-03",
       "allotment_date": "2026-08-04",
       "listing_date": "2026-08-06",
-      "gmp": 10.75,
-      "gmp_percent": "4.78%",
+      "gmp": 13.0,
+      "gmp_percent": "5.78%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/juniper-green-energy-ipo/1809/",
-      "scraped_at": "2026-08-04T06:31:35.661712+00:00Z"
-    },
-    {
-      "issue_name": "Molbio Diagnostics Ltd.",
-      "ipo_type": "Mainboard",
-      "source": "chittorgarh",
-      "price_band": "",
-      "lot_size": "",
-      "issue_size": "",
-      "issue_open": "2026-08-10",
-      "issue_close": null,
-      "allotment_date": null,
-      "listing_date": null,
-      "gmp": null,
-      "gmp_percent": null,
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
-      "scraped_at": "2026-08-04T06:31:40.401068+00:00Z"
+      "scraped_at": "2026-08-04T09:27:09.414380+00:00Z"
     }
   ]
 }
