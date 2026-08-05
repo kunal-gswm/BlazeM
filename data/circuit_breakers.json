@@ -1,41 +1,61 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-05T06:33:07Z",
+    "last_updated": "2026-08-05T09:23:56Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "DIAMINESQ",
-        "name": "DIAMINESQ",
-        "last_price": 275.55,
-        "prev_close": 239.82,
-        "change": 14.9,
-        "change_pct": 14.9,
-        "volume": 85833,
-        "turnover_cr": 2.37
-      },
-      {
         "symbol": "ELANTAS",
         "name": "ELANTAS",
-        "last_price": 11255,
+        "last_price": 11847.5,
         "prev_close": 9873,
-        "change": 14,
-        "change_pct": 14,
-        "volume": 30565,
-        "turnover_cr": 34.73
+        "change": 20,
+        "change_pct": 20,
+        "volume": 39999,
+        "turnover_cr": 45.74
+      },
+      {
+        "symbol": "OMNI",
+        "name": "OMNI",
+        "last_price": 732.6,
+        "prev_close": 610.5,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 10095692,
+        "turnover_cr": 692.28
+      },
+      {
+        "symbol": "CELLO",
+        "name": "CELLO",
+        "last_price": 406.65,
+        "prev_close": 344.85,
+        "change": 17.92,
+        "change_pct": 17.92,
+        "volume": 29825746,
+        "turnover_cr": 1160.79
       },
       {
         "symbol": "ASKAUTOLTD",
         "name": "ASKAUTOLTD",
-        "last_price": 623.75,
+        "last_price": 643.1,
         "prev_close": 551.3,
-        "change": 13.14,
-        "change_pct": 13.14,
-        "volume": 6627943,
-        "turnover_cr": 407.21
+        "change": 16.65,
+        "change_pct": 16.65,
+        "volume": 16129698,
+        "turnover_cr": 1005.85
+      },
+      {
+        "symbol": "SHILPAMED",
+        "name": "SHILPAMED",
+        "last_price": 735,
+        "prev_close": 644.65,
+        "change": 14.02,
+        "change_pct": 14.02,
+        "volume": 14247463,
+        "turnover_cr": 1015.64
       },
       {
         "symbol": "AKSHAR",
@@ -44,28 +64,48 @@
         "prev_close": 0.4,
         "change": 12.5,
         "change_pct": 12.5,
-        "volume": 3490787,
-        "turnover_cr": 0.15
+        "volume": 3961366,
+        "turnover_cr": 0.17
       },
       {
-        "symbol": "CELLO",
-        "name": "CELLO",
-        "last_price": 382.9,
-        "prev_close": 344.85,
-        "change": 11.03,
-        "change_pct": 11.03,
-        "volume": 9398109,
-        "turnover_cr": 354.08
+        "symbol": "DIAMINESQ",
+        "name": "DIAMINESQ",
+        "last_price": 267.98,
+        "prev_close": 239.82,
+        "change": 11.74,
+        "change_pct": 11.74,
+        "volume": 205458,
+        "turnover_cr": 5.6
       },
       {
         "symbol": "SAURASHCEM",
         "name": "SAURASHCEM",
-        "last_price": 69.08,
+        "last_price": 69.09,
         "prev_close": 62.32,
-        "change": 10.85,
-        "change_pct": 10.85,
-        "volume": 5905449,
-        "turnover_cr": 41.38
+        "change": 10.86,
+        "change_pct": 10.86,
+        "volume": 6740683,
+        "turnover_cr": 47.19
+      },
+      {
+        "symbol": "EMIL",
+        "name": "EMIL",
+        "last_price": 146.9,
+        "prev_close": 133.17,
+        "change": 10.31,
+        "change_pct": 10.31,
+        "volume": 14443446,
+        "turnover_cr": 207.1
+      },
+      {
+        "symbol": "HTMEDIA",
+        "name": "HTMEDIA",
+        "last_price": 29.19,
+        "prev_close": 26.5,
+        "change": 10.15,
+        "change_pct": 10.15,
+        "volume": 4084306,
+        "turnover_cr": 12.03
       },
       {
         "symbol": "AASTHA",
@@ -74,18 +114,18 @@
         "prev_close": 83.72,
         "change": 10,
         "change_pct": 10,
-        "volume": 3186370,
-        "turnover_cr": 29.34
+        "volume": 3788481,
+        "turnover_cr": 34.88
       },
       {
-        "symbol": "KECL",
-        "name": "KECL",
-        "last_price": 150.21,
-        "prev_close": 136.56,
+        "symbol": "SUDEEPPHRM",
+        "name": "SUDEEPPHRM",
+        "last_price": 958.95,
+        "prev_close": 871.8,
         "change": 10,
         "change_pct": 10,
-        "volume": 1034102,
-        "turnover_cr": 15.33
+        "volume": 1656329,
+        "turnover_cr": 148.3
       },
       {
         "symbol": "UEL",
@@ -94,11 +134,31 @@
         "prev_close": 202.91,
         "change": 10,
         "change_pct": 10,
-        "volume": 35473,
-        "turnover_cr": 0.79
+        "volume": 37235,
+        "turnover_cr": 0.83
+      },
+      {
+        "symbol": "KECL",
+        "name": "KECL",
+        "last_price": 150.21,
+        "prev_close": 136.56,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 1076276,
+        "turnover_cr": 15.96
       }
     ],
     "lower_circuit": [
+      {
+        "symbol": "AKG",
+        "name": "AKG",
+        "last_price": 8.44,
+        "prev_close": 10.03,
+        "change": -15.85,
+        "change_pct": -15.85,
+        "volume": 687693,
+        "turnover_cr": 0.59
+      },
       {
         "symbol": "INDOTHAI",
         "name": "INDOTHAI",
@@ -106,8 +166,8 @@
         "prev_close": 136.6,
         "change": -10,
         "change_pct": -10,
-        "volume": 73920,
-        "turnover_cr": 0.91
+        "volume": 89000,
+        "turnover_cr": 1.09
       }
     ]
   }
