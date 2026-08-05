@@ -8,8 +8,8 @@
     "updated_at": "2026-08-04T17:56:05Z"
   },
   "market_breadth": {
-    "status": "failed",
-    "updated_at": "2026-08-05T09:23:26Z"
+    "status": "healthy",
+    "updated_at": "2026-08-05T11:37:44Z"
   },
   "earnings_calendar": {
     "status": "healthy",
@@ -17,38 +17,38 @@
   },
   "global_indices": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:16Z"
+    "updated_at": "2026-08-05T11:37:43Z"
   },
   "sector_performance": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:49Z"
+    "updated_at": "2026-08-05T11:38:06Z"
   },
   "market_sentiment": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:50Z"
+    "updated_at": "2026-08-05T11:38:07Z"
   },
   "high_low": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:51Z"
+    "updated_at": "2026-08-05T11:38:08Z"
   },
   "ipos": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:48Z"
+    "updated_at": "2026-08-05T11:38:05Z"
   },
   "commodities": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:53Z"
+    "updated_at": "2026-08-05T11:38:10Z"
   },
   "currency": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:55Z"
+    "updated_at": "2026-08-05T11:38:11Z"
   },
   "volume_shocker": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:55Z"
+    "updated_at": "2026-08-05T11:38:11Z"
   },
   "circuit_breakers": {
     "status": "healthy",
-    "updated_at": "2026-08-05T09:23:56Z"
+    "updated_at": "2026-08-05T11:38:12Z"
   }
 }
