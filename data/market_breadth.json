@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-08-07T10:28:46Z",
+    "last_updated": "2026-08-07T11:25:27Z",
     "status": "healthy",
     "record_count": 78
   },
@@ -148,16 +148,16 @@
     },
     {
       "Advance": null,
-      "Advance_PER": 42.6,
+      "Advance_PER": 42.7,
       "Decline": null,
-      "Decline_PER": 56.9,
+      "Decline_PER": 56.8,
       "Unchange": null,
       "Unchange_PER": 0.5,
       "TOTAL": 1000,
       "Scrip_GRP": null,
       "Sens_ind": "BSE 1000",
-      "UP": 426,
-      "DN": 569,
+      "UP": 427,
+      "DN": 568,
       "UC": 5
     },
     {
@@ -386,16 +386,16 @@
     },
     {
       "Advance": null,
-      "Advance_PER": 48.0,
+      "Advance_PER": 48.27,
       "Decline": null,
-      "Decline_PER": 51.2,
+      "Decline_PER": 50.93,
       "Unchange": null,
       "Unchange_PER": 0.8,
       "TOTAL": 375,
       "Scrip_GRP": null,
       "Sens_ind": "BSE Consumer Discretionary",
-      "UP": 180,
-      "DN": 192,
+      "UP": 181,
+      "DN": 191,
       "UC": 3
     },
     {
@@ -939,7 +939,7 @@
       "Unchange_PER": 0.0,
       "TOTAL": 30,
       "Scrip_GRP": null,
-      "Sens_ind": "BSE Quality Index",
+      "Sens_ind": "BSE Quality Index ",
       "UP": 17,
       "DN": 13,
       "UC": 0
@@ -1094,8 +1094,8 @@
       "TOTAL": 6827,
       "Scrip_GRP": null,
       "Sens_ind": "Total",
-      "UP": 2912,
-      "DN": 3841,
+      "UP": 2914,
+      "DN": 3839,
       "UC": 74
     }
   ]

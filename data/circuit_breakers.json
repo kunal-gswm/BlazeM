@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-07T10:29:15Z",
+    "last_updated": "2026-08-07T11:25:52Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -64,8 +64,8 @@
         "prev_close": 3252.2,
         "change": 12.17,
         "change_pct": 12.17,
-        "volume": 7973852,
-        "turnover_cr": 2896.49
+        "volume": 7973925,
+        "turnover_cr": 2896.52
       },
       {
         "symbol": "TIJARIA",
@@ -88,16 +88,6 @@
         "turnover_cr": 3.29
       },
       {
-        "symbol": "SAPPHIRE",
-        "name": "SAPPHIRE",
-        "last_price": 221.6,
-        "prev_close": 199.74,
-        "change": 10.94,
-        "change_pct": 10.94,
-        "volume": 18224172,
-        "turnover_cr": 393.37
-      },
-      {
         "symbol": "WINDMACHIN",
         "name": "WINDMACHIN",
         "last_price": 306.75,
@@ -108,13 +98,23 @@
         "turnover_cr": 48.24
       },
       {
+        "symbol": "SAPPHIRE",
+        "name": "SAPPHIRE",
+        "last_price": 221.6,
+        "prev_close": 199.74,
+        "change": 10.94,
+        "change_pct": 10.94,
+        "volume": 18224172,
+        "turnover_cr": 393.37
+      },
+      {
         "symbol": "AVALON",
         "name": "AVALON",
         "last_price": 1968,
         "prev_close": 1774.5,
         "change": 10.9,
         "change_pct": 10.9,
-        "volume": 1877230,
+        "volume": 1877232,
         "turnover_cr": 357.01
       },
       {
@@ -138,16 +138,6 @@
         "turnover_cr": 545.29
       },
       {
-        "symbol": "VARDMNPOLY",
-        "name": "VARDMNPOLY",
-        "last_price": 6.6,
-        "prev_close": 6,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 1044396,
-        "turnover_cr": 0.67
-      },
-      {
         "symbol": "ZENITHEXPO",
         "name": "ZENITHEXPO",
         "last_price": 216.96,
@@ -156,6 +146,16 @@
         "change_pct": 10,
         "volume": 1629,
         "turnover_cr": 0.03
+      },
+      {
+        "symbol": "VARDMNPOLY",
+        "name": "VARDMNPOLY",
+        "last_price": 6.6,
+        "prev_close": 6,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 1044397,
+        "turnover_cr": 0.67
       }
     ],
     "lower_circuit": [
