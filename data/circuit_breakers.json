@@ -1,233 +1,83 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-06T11:50:09Z",
+    "last_updated": "2026-08-07T05:44:12Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "MVELECTRO",
-        "name": "MVELECTRO",
-        "last_price": 624,
-        "prev_close": 425,
-        "change": 20,
-        "change_pct": 46.82,
-        "volume": 17538016,
-        "turnover_cr": 1000.42
-      },
-      {
-        "symbol": "SANDESH",
-        "name": "SANDESH",
-        "last_price": 1187.75,
-        "prev_close": 989.8,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 15349,
-        "turnover_cr": 1.82
-      },
-      {
-        "symbol": "MOLDTECH",
-        "name": "MOLDTECH",
-        "last_price": 199.68,
-        "prev_close": 166.4,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 3577835,
-        "turnover_cr": 67.57
+        "symbol": "SBCL",
+        "name": "SBCL",
+        "last_price": 920.9,
+        "prev_close": 767.45,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 5747784,
+        "turnover_cr": 513.89
       },
       {
         "symbol": "SICAGEN",
         "name": "SICAGEN",
-        "last_price": 61.81,
-        "prev_close": 51.51,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 268108,
-        "turnover_cr": 1.57
+        "last_price": 70.23,
+        "prev_close": 61.72,
+        "change": 13.79,
+        "change_pct": 13.79,
+        "volume": 1029926,
+        "turnover_cr": 7.22
       },
       {
-        "symbol": "PVP",
-        "name": "PVP",
-        "last_price": 33.25,
-        "prev_close": 27.71,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 10496593,
-        "turnover_cr": 33.15
+        "symbol": "ENRIN",
+        "name": "ENRIN",
+        "last_price": 3672.1,
+        "prev_close": 3252.2,
+        "change": 12.91,
+        "change_pct": 12.91,
+        "volume": 4136277,
+        "turnover_cr": 1485.23
       },
       {
-        "symbol": "ALLCARGO",
-        "name": "ALLCARGO",
-        "last_price": 9.76,
-        "prev_close": 8.14,
-        "change": 19.9,
-        "change_pct": 19.9,
-        "volume": 169686303,
-        "turnover_cr": 158.32
+        "symbol": "AEPL",
+        "name": "AEPL",
+        "last_price": 16.25,
+        "prev_close": 14.52,
+        "change": 11.91,
+        "change_pct": 11.91,
+        "volume": 212743,
+        "turnover_cr": 0.35
       },
       {
-        "symbol": "SOTL",
-        "name": "SOTL",
-        "last_price": 791,
-        "prev_close": 679,
-        "change": 16.49,
-        "change_pct": 16.49,
-        "volume": 6004735,
-        "turnover_cr": 477.86
+        "symbol": "ALBERTDAVD",
+        "name": "ALBERTDAVD",
+        "last_price": 808,
+        "prev_close": 730.55,
+        "change": 10.6,
+        "change_pct": 10.6,
+        "volume": 68855,
+        "turnover_cr": 5.56
       },
       {
-        "symbol": "GMMPFAUDLR",
-        "name": "GMMPFAUDLR",
-        "last_price": 982,
-        "prev_close": 857.1,
-        "change": 14.57,
-        "change_pct": 14.57,
-        "volume": 6204622,
-        "turnover_cr": 605.16
-      },
-      {
-        "symbol": "DECNGOLD",
-        "name": "DECNGOLD",
-        "last_price": 227,
-        "prev_close": 199.03,
-        "change": 14.05,
-        "change_pct": 14.05,
-        "volume": 21194506,
-        "turnover_cr": 474.95
-      },
-      {
-        "symbol": "NAVINFLUOR",
-        "name": "NAVINFLUOR",
-        "last_price": 8619,
-        "prev_close": 7609.5,
-        "change": 13.27,
-        "change_pct": 13.27,
-        "volume": 3853522,
-        "turnover_cr": 3215.19
-      },
-      {
-        "symbol": "SIGIND",
-        "name": "SIGIND",
-        "last_price": 69.2,
-        "prev_close": 61.4,
-        "change": 12.7,
-        "change_pct": 12.7,
-        "volume": 637807,
-        "turnover_cr": 4.4
-      },
-      {
-        "symbol": "SUDARCOLOR",
-        "name": "SUDARCOLOR",
-        "last_price": 428,
-        "prev_close": 381.4,
-        "change": 12.22,
-        "change_pct": 12.22,
-        "volume": 249219,
-        "turnover_cr": 10.51
-      },
-      {
-        "symbol": "ATL",
-        "name": "ATL",
-        "last_price": 25.66,
-        "prev_close": 23.18,
-        "change": 10.7,
-        "change_pct": 10.7,
-        "volume": 1027024,
-        "turnover_cr": 2.57
-      },
-      {
-        "symbol": "KOLTEPATIL",
-        "name": "KOLTEPATIL",
-        "last_price": 432.25,
-        "prev_close": 392.6,
-        "change": 10.1,
-        "change_pct": 10.1,
-        "volume": 1221264,
-        "turnover_cr": 51.65
-      },
-      {
-        "symbol": "UEL",
-        "name": "UEL",
-        "last_price": 245.52,
-        "prev_close": 223.2,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 8985,
-        "turnover_cr": 0.22
-      },
-      {
-        "symbol": "TECHNVISN",
-        "name": "TECHNVISN",
-        "last_price": 5308.2,
-        "prev_close": 4825.7,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 2711,
-        "turnover_cr": 1.4
+        "symbol": "TREJHARA",
+        "name": "TREJHARA",
+        "last_price": 182.11,
+        "prev_close": 165.13,
+        "change": 10.28,
+        "change_pct": 10.28,
+        "volume": 122030,
+        "turnover_cr": 2.13
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "OMNI",
-        "name": "OMNI",
-        "last_price": 619,
-        "prev_close": 732.6,
-        "change": -15.51,
-        "change_pct": -15.51,
-        "volume": 11785459,
-        "turnover_cr": 776.78
-      },
-      {
-        "symbol": "TARACHAND",
-        "name": "TARACHAND",
-        "last_price": 49.94,
-        "prev_close": 58.77,
-        "change": -15.02,
-        "change_pct": -15.02,
-        "volume": 1656087,
-        "turnover_cr": 8.24
-      },
-      {
-        "symbol": "FSL",
-        "name": "FSL",
-        "last_price": 295,
-        "prev_close": 339.45,
-        "change": -13.09,
-        "change_pct": -13.09,
-        "volume": 24119467,
-        "turnover_cr": 726.96
-      },
-      {
-        "symbol": "NAHARPOLY",
-        "name": "NAHARPOLY",
-        "last_price": 241.9,
-        "prev_close": 273.8,
-        "change": -11.65,
-        "change_pct": -11.65,
-        "volume": 174101,
-        "turnover_cr": 4.27
-      },
-      {
-        "symbol": "ANUP",
-        "name": "ANUP",
-        "last_price": 1990,
-        "prev_close": 2214,
-        "change": -10.12,
-        "change_pct": -10.12,
-        "volume": 678945,
-        "turnover_cr": 137.04
-      },
-      {
         "symbol": "INDOTHAI",
         "name": "INDOTHAI",
-        "last_price": 110.65,
-        "prev_close": 122.94,
+        "last_price": 99.59,
+        "prev_close": 110.65,
         "change": -10,
         "change_pct": -10,
-        "volume": 82995,
-        "turnover_cr": 0.92
+        "volume": 118990,
+        "turnover_cr": 1.19
       }
     ]
   }

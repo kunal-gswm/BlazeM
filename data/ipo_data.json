@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-06T11:50:02Z",
+    "last_updated": "2026-08-07T05:44:05Z",
     "status": "healthy",
-    "record_count": 7
+    "record_count": 8
   },
   "data": [
     {
@@ -17,6 +17,27 @@
       "issue_close": "2026-08-14",
       "allotment_date": "2026-08-17",
       "listing_date": "2026-08-19",
+      "gmp": 20.0,
+      "gmp_percent": "20.62%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/shiprocket-ipo/1790/",
+      "scraped_at": "2026-08-07T05:43:49.931721+00:00Z"
+    },
+    {
+      "issue_name": "Behari Lal Engineering",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "285",
+      "lot_size": "52",
+      "issue_size": "₹301.62 Cr",
+      "issue_open": "2026-08-12",
+      "issue_close": "2026-08-14",
+      "allotment_date": "2026-08-17",
+      "listing_date": "2026-08-19",
       "gmp": 0.0,
       "gmp_percent": "0.00%",
       "subscription_qib": null,
@@ -24,8 +45,8 @@
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/shiprocket-ipo/1790/",
-      "scraped_at": "2026-08-06T11:49:44.006220+00:00Z"
+      "detail_url": "https://www.investorgain.com/gmp/behari-lal-engineering-ipo/1928/",
+      "scraped_at": "2026-08-07T05:43:49.931847+00:00Z"
     },
     {
       "issue_name": "Milky Mist Dairy Food",
@@ -38,15 +59,36 @@
       "issue_close": "2026-08-13",
       "allotment_date": "2026-08-14",
       "listing_date": "2026-08-18",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 27.0,
+      "gmp_percent": "19.29%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/milky-mist-dairy-food-ipo/1838/",
-      "scraped_at": "2026-08-06T11:49:44.006348+00:00Z"
+      "scraped_at": "2026-08-07T05:43:49.931947+00:00Z"
+    },
+    {
+      "issue_name": "Molbio Diagnostics",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "807",
+      "lot_size": "18",
+      "issue_size": "₹939.70 Cr",
+      "issue_open": "2026-08-10",
+      "issue_close": "2026-08-12",
+      "allotment_date": "2026-08-13",
+      "listing_date": "2026-08-17",
+      "gmp": 205.0,
+      "gmp_percent": "25.40%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
+      "scraped_at": "2026-08-07T05:43:49.932045+00:00Z"
     },
     {
       "issue_name": "Dhoot Transmission",
@@ -67,28 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/dhoot-transmission-ipo/2122/",
-      "scraped_at": "2026-08-06T11:49:44.006454+00:00Z"
-    },
-    {
-      "issue_name": "Molbio Diagnostics",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "807",
-      "lot_size": "18",
-      "issue_size": "₹939.70 Cr",
-      "issue_open": "2026-08-10",
-      "issue_close": "2026-08-12",
-      "allotment_date": "2026-08-13",
-      "listing_date": "2026-08-17",
-      "gmp": 210.0,
-      "gmp_percent": "26.02%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
-      "scraped_at": "2026-08-06T11:49:44.006553+00:00Z"
+      "scraped_at": "2026-08-07T05:43:49.932140+00:00Z"
     },
     {
       "issue_name": "Technocraft Ventures",
@@ -101,15 +122,15 @@
       "issue_close": "2026-08-11",
       "allotment_date": "2026-08-12",
       "listing_date": "2026-08-14",
-      "gmp": 15.0,
-      "gmp_percent": "7.08%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "gmp": 17.0,
+      "gmp_percent": "8.02%",
+      "subscription_qib": "0.00x",
+      "subscription_nii": "0.51x",
+      "subscription_retail": "0.29x",
+      "subscription_total": "0.25x",
+      "subscription_applications": "13,799",
       "detail_url": "https://www.investorgain.com/gmp/technocraft-ventures-ipo/1854/",
-      "scraped_at": "2026-08-06T11:49:44.006649+00:00Z"
+      "scraped_at": "2026-08-07T05:43:49.932288+00:00Z"
     },
     {
       "issue_name": "LEAP India",
@@ -122,15 +143,15 @@
       "issue_close": "2026-08-11",
       "allotment_date": "2026-08-12",
       "listing_date": "2026-08-14",
-      "gmp": 11.0,
-      "gmp_percent": "6.92%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "gmp": 18.0,
+      "gmp_percent": "11.32%",
+      "subscription_qib": "0.00x",
+      "subscription_nii": "0.02x",
+      "subscription_retail": "0.04x",
+      "subscription_total": "0.02x",
+      "subscription_applications": "19,274",
       "detail_url": "https://www.investorgain.com/gmp/leap-india-ipo/1868/",
-      "scraped_at": "2026-08-06T11:49:44.006742+00:00Z"
+      "scraped_at": "2026-08-07T05:43:49.932392+00:00Z"
     },
     {
       "issue_name": "Ardee Industries",
@@ -143,15 +164,15 @@
       "issue_close": "2026-08-07",
       "allotment_date": "2026-08-10",
       "listing_date": "2026-08-12",
-      "gmp": 15.5,
-      "gmp_percent": "29.25%",
-      "subscription_qib": "1.33x",
-      "subscription_nii": "31.93x",
-      "subscription_retail": "14.99x",
-      "subscription_total": "14.72x",
-      "subscription_applications": "12,55,485",
+      "gmp": 12.0,
+      "gmp_percent": "22.64%",
+      "subscription_qib": "4.89x",
+      "subscription_nii": "74.61x",
+      "subscription_retail": "23.18x",
+      "subscription_total": "28.98x",
+      "subscription_applications": "19,62,716",
       "detail_url": "https://www.investorgain.com/gmp/ardee-industries-ipo/2123/",
-      "scraped_at": "2026-08-06T11:49:44.006837+00:00Z"
+      "scraped_at": "2026-08-07T05:43:49.932497+00:00Z"
     }
   ]
 }
