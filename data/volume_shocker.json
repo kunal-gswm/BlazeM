@@ -1,260 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-07T09:28:15Z",
+    "last_updated": "2026-08-07T10:29:15Z",
     "status": "healthy",
-    "record_count": 25
+    "record_count": 24
   },
   "data": [
     {
+      "symbol": "SBIMIDMOM",
+      "name": "SBI Nifty Midcap150 Momentum 50 ETF",
+      "last_price": 63.89,
+      "change_pct": 1.08,
+      "volume": 16442212,
+      "turnover_cr": 105.08,
+      "vol_change_1wk_pct": 987.18,
+      "vol_change_2wk_pct": 1114.64
+    },
+    {
       "symbol": "ARVSMART",
       "name": "Arvind SmartSpaces Limited",
-      "last_price": 650.5,
-      "change_pct": 7.82,
-      "volume": 6083510,
-      "turnover_cr": 403.29,
-      "vol_change_1wk_pct": 260.02,
-      "vol_change_2wk_pct": 203.66
+      "last_price": 653.3,
+      "change_pct": 8.29,
+      "volume": 6910360,
+      "turnover_cr": 457.07,
+      "vol_change_1wk_pct": 295.36,
+      "vol_change_2wk_pct": 231.35
     },
     {
       "symbol": "PRSMJOHNSN",
       "name": "Prism Johnson Limited",
-      "last_price": 114.98,
-      "change_pct": 1.46,
-      "volume": 43255897,
-      "turnover_cr": 523.48,
-      "vol_change_1wk_pct": 229.85,
-      "vol_change_2wk_pct": 316.76
+      "last_price": 109,
+      "change_pct": -3.81,
+      "volume": 48697881,
+      "turnover_cr": 584.23,
+      "vol_change_1wk_pct": 258.76,
+      "vol_change_2wk_pct": 356.61
     },
     {
       "symbol": "AEPL",
       "name": "Artemis Electricals and Projects Limited",
-      "last_price": 17.42,
-      "change_pct": 19.97,
-      "volume": 1016636,
-      "turnover_cr": 1.73,
-      "vol_change_1wk_pct": 80.25,
-      "vol_change_2wk_pct": 72.39
-    },
-    {
-      "symbol": "INDRAMEDCO",
-      "name": "Indraprastha Medical Corporation Limited",
-      "last_price": 376.65,
-      "change_pct": 4.09,
-      "volume": 7982461,
-      "turnover_cr": 312.81,
-      "vol_change_1wk_pct": 53.03,
-      "vol_change_2wk_pct": 50.68
-    },
-    {
-      "symbol": "ALBERTDAVD",
-      "name": "Albert David Limited",
-      "last_price": 826,
-      "change_pct": 13.07,
-      "volume": 264008,
-      "turnover_cr": 21.99,
-      "vol_change_1wk_pct": 51.73,
-      "vol_change_2wk_pct": 71.79
+      "last_price": 16.8,
+      "change_pct": 15.7,
+      "volume": 1203391,
+      "turnover_cr": 2.05,
+      "vol_change_1wk_pct": 95.0,
+      "vol_change_2wk_pct": 85.69
     },
     {
       "symbol": "ULTRAMAR",
       "name": "Ultramarine & Pigments Limited",
-      "last_price": 413.35,
-      "change_pct": 6.15,
-      "volume": 1256519,
-      "turnover_cr": 53.63,
-      "vol_change_1wk_pct": 41.05,
-      "vol_change_2wk_pct": 50.72
+      "last_price": 391,
+      "change_pct": 0.41,
+      "volume": 1889911,
+      "turnover_cr": 79.83,
+      "vol_change_1wk_pct": 61.74,
+      "vol_change_2wk_pct": 76.29
     },
     {
-      "symbol": "TRAVELFOOD",
-      "name": "Travel Food Services Limited",
-      "last_price": 1429.1,
-      "change_pct": 6.87,
-      "volume": 1228573,
-      "turnover_cr": 177.38,
-      "vol_change_1wk_pct": 34.82,
-      "vol_change_2wk_pct": 47.14
+      "symbol": "ALBERTDAVD",
+      "name": "Albert David Limited",
+      "last_price": 809.9,
+      "change_pct": 10.86,
+      "volume": 299179,
+      "turnover_cr": 24.89,
+      "vol_change_1wk_pct": 58.62,
+      "vol_change_2wk_pct": 81.36
     },
     {
-      "symbol": "GRINFRA",
-      "name": "G R Infraprojects Limited",
-      "last_price": 868.3,
-      "change_pct": -2.43,
-      "volume": 538025,
-      "turnover_cr": 48.63,
-      "vol_change_1wk_pct": 33.59,
-      "vol_change_2wk_pct": 41.41
-    },
-    {
-      "symbol": "GOCLCORP",
-      "name": "GOCL Corporation Limited",
-      "last_price": 437.25,
-      "change_pct": 6.5,
-      "volume": 1821323,
-      "turnover_cr": 80.0,
-      "vol_change_1wk_pct": 33.02,
-      "vol_change_2wk_pct": 35.06
+      "symbol": "INDRAMEDCO",
+      "name": "Indraprastha Medical Corporation Limited",
+      "last_price": 382.15,
+      "change_pct": 5.61,
+      "volume": 8474274,
+      "turnover_cr": 331.51,
+      "vol_change_1wk_pct": 56.29,
+      "vol_change_2wk_pct": 53.8
     },
     {
       "symbol": "VISAKAIND",
       "name": "Visaka Industries Limited",
-      "last_price": 96.79,
-      "change_pct": 12.04,
-      "volume": 11457763,
-      "turnover_cr": 108.48,
-      "vol_change_1wk_pct": 32.44,
-      "vol_change_2wk_pct": 40.8
+      "last_price": 100,
+      "change_pct": 15.75,
+      "volume": 14124593,
+      "turnover_cr": 134.81,
+      "vol_change_1wk_pct": 39.98,
+      "vol_change_2wk_pct": 50.29
+    },
+    {
+      "symbol": "GRINFRA",
+      "name": "G R Infraprojects Limited",
+      "last_price": 867.6,
+      "change_pct": -2.51,
+      "volume": 582729,
+      "turnover_cr": 52.52,
+      "vol_change_1wk_pct": 36.38,
+      "vol_change_2wk_pct": 44.85
+    },
+    {
+      "symbol": "TRAVELFOOD",
+      "name": "Travel Food Services Limited",
+      "last_price": 1429,
+      "change_pct": 6.87,
+      "volume": 1277146,
+      "turnover_cr": 184.32,
+      "vol_change_1wk_pct": 36.2,
+      "vol_change_2wk_pct": 49.0
+    },
+    {
+      "symbol": "ARCHIDPLY",
+      "name": "Archidply Industries Limited",
+      "last_price": 90,
+      "change_pct": 9.7,
+      "volume": 295022,
+      "turnover_cr": 2.65,
+      "vol_change_1wk_pct": 35.87,
+      "vol_change_2wk_pct": 39.26
+    },
+    {
+      "symbol": "GOCLCORP",
+      "name": "GOCL Corporation Limited",
+      "last_price": 435,
+      "change_pct": 5.96,
+      "volume": 1950609,
+      "turnover_cr": 85.66,
+      "vol_change_1wk_pct": 35.36,
+      "vol_change_2wk_pct": 37.55
     },
     {
       "symbol": "SICAGEN",
       "name": "Sicagen India Limited",
       "last_price": 74.06,
       "change_pct": 19.99,
-      "volume": 1705363,
-      "turnover_cr": 12.14,
-      "vol_change_1wk_pct": 32.31,
-      "vol_change_2wk_pct": 52.04
+      "volume": 1820404,
+      "turnover_cr": 12.99,
+      "vol_change_1wk_pct": 34.49,
+      "vol_change_2wk_pct": 55.55
     },
     {
       "symbol": "SANDESH",
       "name": "The Sandesh Limited",
-      "last_price": 1131.9,
-      "change_pct": -4.7,
-      "volume": 101466,
-      "turnover_cr": 12.16,
-      "vol_change_1wk_pct": 31.85,
-      "vol_change_2wk_pct": 53.47
-    },
-    {
-      "symbol": "ARCHIDPLY",
-      "name": "Archidply Industries Limited",
-      "last_price": 89.12,
-      "change_pct": 8.63,
-      "volume": 227144,
-      "turnover_cr": 2.04,
-      "vol_change_1wk_pct": 27.62,
-      "vol_change_2wk_pct": 30.23
+      "last_price": 1140,
+      "change_pct": -4.02,
+      "volume": 108153,
+      "turnover_cr": 12.92,
+      "vol_change_1wk_pct": 33.95,
+      "vol_change_2wk_pct": 57.0
     },
     {
       "symbol": "VARROC",
       "name": "Varroc Engineering Limited",
-      "last_price": 814.3,
-      "change_pct": 10.59,
-      "volume": 13436187,
-      "turnover_cr": 1084.46,
-      "vol_change_1wk_pct": 26.93,
-      "vol_change_2wk_pct": 40.95
+      "last_price": 804,
+      "change_pct": 9.19,
+      "volume": 15190210,
+      "turnover_cr": 1226.79,
+      "vol_change_1wk_pct": 30.45,
+      "vol_change_2wk_pct": 46.29
     },
     {
       "symbol": "SBCL",
       "name": "Shivalik Bimetal Controls Limited",
       "last_price": 920.9,
       "change_pct": 19.99,
-      "volume": 6010549,
-      "turnover_cr": 538.06,
-      "vol_change_1wk_pct": 19.9,
-      "vol_change_2wk_pct": 24.14
+      "volume": 6015282,
+      "turnover_cr": 538.5,
+      "vol_change_1wk_pct": 19.92,
+      "vol_change_2wk_pct": 24.16
     },
     {
       "symbol": "TATAINVEST",
       "name": "Tata Investment Corporation Limited",
-      "last_price": 700.85,
-      "change_pct": 5.06,
-      "volume": 3324128,
-      "turnover_cr": 232.65,
-      "vol_change_1wk_pct": 17.3,
-      "vol_change_2wk_pct": 13.17
-    },
-    {
-      "symbol": "GUJTHEM",
-      "name": "Gujarat Themis Biosyn Limited",
-      "last_price": 361.65,
-      "change_pct": -0.07,
-      "volume": 631688,
-      "turnover_cr": 23.28,
-      "vol_change_1wk_pct": 17.06,
-      "vol_change_2wk_pct": 17.21
+      "last_price": 687,
+      "change_pct": 2.98,
+      "volume": 3672187,
+      "turnover_cr": 256.8,
+      "vol_change_1wk_pct": 19.12,
+      "vol_change_2wk_pct": 14.55
     },
     {
       "symbol": "IXIGO",
       "name": "Le Travenues Technology Limited",
-      "last_price": 175.95,
-      "change_pct": -13.18,
-      "volume": 7328561,
-      "turnover_cr": 133.02,
-      "vol_change_1wk_pct": 16.48,
-      "vol_change_2wk_pct": 15.33
+      "last_price": 176.5,
+      "change_pct": -12.91,
+      "volume": 8410058,
+      "turnover_cr": 152.08,
+      "vol_change_1wk_pct": 18.91,
+      "vol_change_2wk_pct": 17.59
     },
     {
-      "symbol": "BANKADD",
-      "name": "DSP  Mutual Fund - DSP Nifty Bank ETF",
-      "last_price": 59.15,
-      "change_pct": -0.4,
-      "volume": 353455,
-      "turnover_cr": 2.09,
-      "vol_change_1wk_pct": 15.85,
-      "vol_change_2wk_pct": 18.31
+      "symbol": "GUJTHEM",
+      "name": "Gujarat Themis Biosyn Limited",
+      "last_price": 359,
+      "change_pct": -0.8,
+      "volume": 677948,
+      "turnover_cr": 24.93,
+      "vol_change_1wk_pct": 18.31,
+      "vol_change_2wk_pct": 18.47
     },
     {
       "symbol": "ENRIN",
       "name": "Siemens Energy India Limited",
-      "last_price": 3681,
-      "change_pct": 13.18,
-      "volume": 7369988,
-      "turnover_cr": 2676.06,
-      "vol_change_1wk_pct": 15.76,
-      "vol_change_2wk_pct": 17.89
+      "last_price": 3648,
+      "change_pct": 12.17,
+      "volume": 7973872,
+      "turnover_cr": 2896.5,
+      "vol_change_1wk_pct": 17.05,
+      "vol_change_2wk_pct": 19.36
     },
     {
       "symbol": "ATLASCYCLE",
       "name": "Atlas Cycles (Haryana) Limited",
-      "last_price": 100.5,
-      "change_pct": 2.89,
-      "volume": 61148,
-      "turnover_cr": 0.62,
-      "vol_change_1wk_pct": 14.99,
-      "vol_change_2wk_pct": 16.41
+      "last_price": 98.55,
+      "change_pct": 0.89,
+      "volume": 65912,
+      "turnover_cr": 0.67,
+      "vol_change_1wk_pct": 16.16,
+      "vol_change_2wk_pct": 17.69
+    },
+    {
+      "symbol": "BANKADD",
+      "name": "DSP  Mutual Fund - DSP Nifty Bank ETF",
+      "last_price": 59.19,
+      "change_pct": -0.34,
+      "volume": 353831,
+      "turnover_cr": 2.09,
+      "vol_change_1wk_pct": 15.87,
+      "vol_change_2wk_pct": 18.33
     },
     {
       "symbol": "SAHLIBHFI",
       "name": "Shalibhadra Finance Limited",
-      "last_price": 77.95,
-      "change_pct": -2.01,
-      "volume": 56621,
+      "last_price": 76.97,
+      "change_pct": -3.24,
+      "volume": 56675,
       "turnover_cr": 0.44,
-      "vol_change_1wk_pct": 14.94,
-      "vol_change_2wk_pct": 9.59
-    },
-    {
-      "symbol": "PGIL",
-      "name": "Pearl Global Industries Limited",
-      "last_price": 2449.4,
-      "change_pct": 10.26,
-      "volume": 2100825,
-      "turnover_cr": 516.93,
-      "vol_change_1wk_pct": 13.24,
-      "vol_change_2wk_pct": 15.79
+      "vol_change_1wk_pct": 14.95,
+      "vol_change_2wk_pct": 9.6
     },
     {
       "symbol": "EIHOTEL",
       "name": "EIH Limited",
-      "last_price": 307.85,
-      "change_pct": -5.47,
-      "volume": 1260672,
-      "turnover_cr": 39.14,
-      "vol_change_1wk_pct": 13.23,
-      "vol_change_2wk_pct": 10.13
-    },
-    {
-      "symbol": "GILLANDERS",
-      "name": "Gillanders Arbuthnot & Company Limited",
-      "last_price": 90.8,
-      "change_pct": 2.54,
-      "volume": 47385,
-      "turnover_cr": 0.45,
-      "vol_change_1wk_pct": 12.44,
-      "vol_change_2wk_pct": 16.89
+      "last_price": 305.8,
+      "change_pct": -6.1,
+      "volume": 1391523,
+      "turnover_cr": 43.15,
+      "vol_change_1wk_pct": 14.61,
+      "vol_change_2wk_pct": 11.18
     }
   ]
 }
