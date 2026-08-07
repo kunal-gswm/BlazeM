@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-07T05:44:12Z",
+    "last_updated": "2026-08-07T06:55:23Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,58 +14,118 @@
         "prev_close": 767.45,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 5747784,
-        "turnover_cr": 513.89
-      },
-      {
-        "symbol": "SICAGEN",
-        "name": "SICAGEN",
-        "last_price": 70.23,
-        "prev_close": 61.72,
-        "change": 13.79,
-        "change_pct": 13.79,
-        "volume": 1029926,
-        "turnover_cr": 7.22
-      },
-      {
-        "symbol": "ENRIN",
-        "name": "ENRIN",
-        "last_price": 3672.1,
-        "prev_close": 3252.2,
-        "change": 12.91,
-        "change_pct": 12.91,
-        "volume": 4136277,
-        "turnover_cr": 1485.23
-      },
-      {
-        "symbol": "AEPL",
-        "name": "AEPL",
-        "last_price": 16.25,
-        "prev_close": 14.52,
-        "change": 11.91,
-        "change_pct": 11.91,
-        "volume": 212743,
-        "turnover_cr": 0.35
+        "volume": 5993370,
+        "turnover_cr": 536.48
       },
       {
         "symbol": "ALBERTDAVD",
         "name": "ALBERTDAVD",
-        "last_price": 808,
+        "last_price": 855.25,
         "prev_close": 730.55,
-        "change": 10.6,
-        "change_pct": 10.6,
-        "volume": 68855,
-        "turnover_cr": 5.56
+        "change": 17.07,
+        "change_pct": 17.07,
+        "volume": 190026,
+        "turnover_cr": 15.78
+      },
+      {
+        "symbol": "SICAGEN",
+        "name": "SICAGEN",
+        "last_price": 70.54,
+        "prev_close": 61.72,
+        "change": 14.29,
+        "change_pct": 14.29,
+        "volume": 1119525,
+        "turnover_cr": 7.85
+      },
+      {
+        "symbol": "AEPL",
+        "name": "AEPL",
+        "last_price": 16.55,
+        "prev_close": 14.52,
+        "change": 13.98,
+        "change_pct": 13.98,
+        "volume": 268818,
+        "turnover_cr": 0.44
+      },
+      {
+        "symbol": "ENRIN",
+        "name": "ENRIN",
+        "last_price": 3701.9,
+        "prev_close": 3252.2,
+        "change": 13.83,
+        "change_pct": 13.83,
+        "volume": 5433192,
+        "turnover_cr": 1961.87
+      },
+      {
+        "symbol": "UYFINCORP",
+        "name": "UYFINCORP",
+        "last_price": 21.78,
+        "prev_close": 19.2,
+        "change": 13.44,
+        "change_pct": 13.44,
+        "volume": 1435284,
+        "turnover_cr": 3.02
+      },
+      {
+        "symbol": "PRSMJOHNSN",
+        "name": "PRSMJOHNSN",
+        "last_price": 127.99,
+        "prev_close": 113.32,
+        "change": 12.95,
+        "change_pct": 12.95,
+        "volume": 5995489,
+        "turnover_cr": 75.62
+      },
+      {
+        "symbol": "PGIL",
+        "name": "PGIL",
+        "last_price": 2495.1,
+        "prev_close": 2221.5,
+        "change": 12.32,
+        "change_pct": 12.32,
+        "volume": 828075,
+        "turnover_cr": 201.63
       },
       {
         "symbol": "TREJHARA",
         "name": "TREJHARA",
-        "last_price": 182.11,
+        "last_price": 184.2,
         "prev_close": 165.13,
-        "change": 10.28,
-        "change_pct": 10.28,
-        "volume": 122030,
-        "turnover_cr": 2.13
+        "change": 11.55,
+        "change_pct": 11.55,
+        "volume": 162513,
+        "turnover_cr": 2.87
+      },
+      {
+        "symbol": "BTML",
+        "name": "BTML",
+        "last_price": 8,
+        "prev_close": 7.2,
+        "change": 11.11,
+        "change_pct": 11.11,
+        "volume": 2639115,
+        "turnover_cr": 2.11
+      },
+      {
+        "symbol": "WORTHPERI",
+        "name": "WORTHPERI",
+        "last_price": 164.92,
+        "prev_close": 149.86,
+        "change": 10.05,
+        "change_pct": 10.05,
+        "volume": 173581,
+        "turnover_cr": 2.83
+      },
+      {
+        "symbol": "TRAVELFOOD",
+        "name": "TRAVELFOOD",
+        "last_price": 1470.9,
+        "prev_close": 1337.2,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 841426,
+        "turnover_cr": 121.09
       }
     ],
     "lower_circuit": [
@@ -76,8 +136,8 @@
         "prev_close": 110.65,
         "change": -10,
         "change_pct": -10,
-        "volume": 118990,
-        "turnover_cr": 1.19
+        "volume": 141572,
+        "turnover_cr": 1.41
       }
     ]
   }
