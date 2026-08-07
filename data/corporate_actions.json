@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-08-07T14:15:21Z",
+    "last_updated": "2026-08-07T16:01:24Z",
     "status": "healthy",
-    "record_count": 197
+    "record_count": 198
   },
   "data": [
     {
@@ -103,6 +103,22 @@
       "dividend_amount": 10.0
     },
     {
+      "scrip_code": 532286,
+      "short_name": "JINDALSTEL",
+      "Ex_date": "21 Aug 2026",
+      "Purpose": "Final Dividend - Rs. - 2.0000",
+      "RD_Date": "21 Aug 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260821",
+      "long_name": "Jindal Steel Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 2.0
+    },
+    {
       "scrip_code": 519421,
       "short_name": "KSE",
       "Ex_date": "21 Aug 2026",
@@ -114,7 +130,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "KSE Ltd",
+      "long_name": "KSE Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 7.5
     },
@@ -146,7 +162,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Mayur Uniquoters Ltd",
+      "long_name": "Mayur Uniquoters Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -162,7 +178,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Nicco Parks & Resorts Ltd",
+      "long_name": "Nicco Parks & Resorts Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": null
     },
@@ -226,7 +242,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Rajapalayam Mills Ltd",
+      "long_name": "Rajapalayam Mills Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.5
     },
@@ -338,7 +354,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260820",
-      "long_name": "Dai-Ichi Karkaria Ltd",
+      "long_name": "Dai-Ichi Karkaria Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -498,7 +514,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260820",
-      "long_name": "Sukhjit Starch & Chemicals Ltd",
+      "long_name": "Sukhjit Starch & Chemicals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -754,7 +770,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260818",
-      "long_name": "India Gelatine & Chemicals Ltd",
+      "long_name": "India Gelatine & Chemicals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -930,7 +946,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260817",
-      "long_name": "Hisar Metal Industries Ltd",
+      "long_name": "Hisar Metal Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -994,7 +1010,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260817",
-      "long_name": "Plastiblends India Ltd",
+      "long_name": "Plastiblends India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 3.0
     },
@@ -1362,7 +1378,7 @@
       "ND_END_DATE": "14 Aug 2026",
       "payment_date": "",
       "exdate": "20260814",
-      "long_name": "Premco Global Ltd",
+      "long_name": "Premco Global Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1490,7 +1506,7 @@
       "ND_END_DATE": "14 Aug 2026",
       "payment_date": "",
       "exdate": "20260814",
-      "long_name": "Sarda Energy & Minerals Ltd",
+      "long_name": "Sarda Energy & Minerals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1522,7 +1538,7 @@
       "ND_END_DATE": "14 Aug 2026",
       "payment_date": "",
       "exdate": "20260814",
-      "long_name": "Suryalata Spinning Mills Ltd",
+      "long_name": "Suryalata Spinning Mills Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1906,7 +1922,7 @@
       "ND_END_DATE": "12 Aug 2026",
       "payment_date": "",
       "exdate": "20260812",
-      "long_name": "Gabriel India Ltd",
+      "long_name": "Gabriel India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 3.1
     },
@@ -2098,7 +2114,7 @@
       "ND_END_DATE": "12 Aug 2026",
       "payment_date": "",
       "exdate": "20260812",
-      "long_name": "Voith Paper Fabrics India Ltd",
+      "long_name": "Voith Paper Fabrics India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -2146,7 +2162,7 @@
       "ND_END_DATE": "11 Aug 2026",
       "payment_date": "",
       "exdate": "20260811",
-      "long_name": "Dhunseri Ventures Ltd",
+      "long_name": "Dhunseri Ventures Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -2274,7 +2290,7 @@
       "ND_END_DATE": "11 Aug 2026",
       "payment_date": "",
       "exdate": "20260811",
-      "long_name": "Ratnamani Metals & Tubes Ltd",
+      "long_name": "Ratnamani Metals & Tubes Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -2418,7 +2434,7 @@
       "ND_END_DATE": "10 Aug 2026",
       "payment_date": "",
       "exdate": "20260810",
-      "long_name": "Majestic Auto Ltd",
+      "long_name": "Majestic Auto Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 25.0
     },
@@ -2594,7 +2610,7 @@
       "ND_END_DATE": "07 Aug 2026",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "Avanti Feeds Ltd",
+      "long_name": "Avanti Feeds Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -3026,7 +3042,7 @@
       "ND_END_DATE": "07 Aug 2026",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "Shri Dinesh Mills Ltd",
+      "long_name": "Shri Dinesh Mills Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -3090,7 +3106,7 @@
       "ND_END_DATE": "07 Aug 2026",
       "payment_date": "",
       "exdate": "20260807",
-      "long_name": "United Breweries Ltd",
+      "long_name": "United Breweries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
