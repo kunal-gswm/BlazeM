@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-07T08:18:19Z",
+    "last_updated": "2026-08-07T09:28:16Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,78 +14,58 @@
         "prev_close": 767.45,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 6003300,
-        "turnover_cr": 537.4
-      },
-      {
-        "symbol": "AEPL",
-        "name": "AEPL",
-        "last_price": 16.94,
-        "prev_close": 14.52,
-        "change": 16.67,
-        "change_pct": 16.67,
-        "volume": 626744,
-        "turnover_cr": 1.05
+        "volume": 6010549,
+        "turnover_cr": 538.06
       },
       {
         "symbol": "SICAGEN",
         "name": "SICAGEN",
-        "last_price": 70.4,
+        "last_price": 74.06,
         "prev_close": 61.72,
-        "change": 14.06,
-        "change_pct": 14.06,
-        "volume": 1157916,
-        "turnover_cr": 8.12
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 1705363,
+        "turnover_cr": 12.14
       },
       {
-        "symbol": "ARVSMART",
-        "name": "ARVSMART",
-        "last_price": 686.6,
-        "prev_close": 603.3,
-        "change": 13.81,
-        "change_pct": 13.81,
-        "volume": 1561518,
-        "turnover_cr": 104.03
-      },
-      {
-        "symbol": "ALBERTDAVD",
-        "name": "ALBERTDAVD",
-        "last_price": 828.5,
-        "prev_close": 730.55,
-        "change": 13.41,
-        "change_pct": 13.41,
-        "volume": 248026,
-        "turnover_cr": 20.67
+        "symbol": "AEPL",
+        "name": "AEPL",
+        "last_price": 17.42,
+        "prev_close": 14.52,
+        "change": 19.97,
+        "change_pct": 19.97,
+        "volume": 1016736,
+        "turnover_cr": 1.73
       },
       {
         "symbol": "ENRIN",
         "name": "ENRIN",
-        "last_price": 3672.4,
+        "last_price": 3682.7,
         "prev_close": 3252.2,
-        "change": 12.92,
-        "change_pct": 12.92,
-        "volume": 6499790,
-        "turnover_cr": 2356.14
+        "change": 13.24,
+        "change_pct": 13.24,
+        "volume": 7370168,
+        "turnover_cr": 2676.13
+      },
+      {
+        "symbol": "ALBERTDAVD",
+        "name": "ALBERTDAVD",
+        "last_price": 826,
+        "prev_close": 730.55,
+        "change": 13.07,
+        "change_pct": 13.07,
+        "volume": 264008,
+        "turnover_cr": 21.99
       },
       {
         "symbol": "VISAKAIND",
         "name": "VISAKAIND",
-        "last_price": 97.02,
+        "last_price": 96.79,
         "prev_close": 86.39,
-        "change": 12.3,
-        "change_pct": 12.3,
-        "volume": 9656600,
-        "turnover_cr": 91.04
-      },
-      {
-        "symbol": "WINDMACHIN",
-        "name": "WINDMACHIN",
-        "last_price": 308.6,
-        "prev_close": 276.5,
-        "change": 11.61,
-        "change_pct": 11.61,
-        "volume": 740035,
-        "turnover_cr": 21.87
+        "change": 12.04,
+        "change_pct": 12.04,
+        "volume": 11457763,
+        "turnover_cr": 108.48
       },
       {
         "symbol": "BTML",
@@ -94,30 +74,90 @@
         "prev_close": 7.2,
         "change": 11.11,
         "change_pct": 11.11,
-        "volume": 3439487,
-        "turnover_cr": 2.76
+        "volume": 3766737,
+        "turnover_cr": 3.02
+      },
+      {
+        "symbol": "SAPPHIRE",
+        "name": "SAPPHIRE",
+        "last_price": 221.45,
+        "prev_close": 199.74,
+        "change": 10.87,
+        "change_pct": 10.87,
+        "volume": 12909747,
+        "turnover_cr": 274.29
+      },
+      {
+        "symbol": "VARROC",
+        "name": "VARROC",
+        "last_price": 814.5,
+        "prev_close": 737.85,
+        "change": 10.61,
+        "change_pct": 10.39,
+        "volume": 13436906,
+        "turnover_cr": 1084.52
       },
       {
         "symbol": "PGIL",
         "name": "PGIL",
-        "last_price": 2450.4,
+        "last_price": 2449.4,
         "prev_close": 2221.5,
-        "change": 10.3,
-        "change_pct": 10.3,
-        "volume": 1904470,
-        "turnover_cr": 468.84
+        "change": 10.26,
+        "change_pct": 10.26,
+        "volume": 2100825,
+        "turnover_cr": 516.93
+      },
+      {
+        "symbol": "AVALON",
+        "name": "AVALON",
+        "last_price": 1953.5,
+        "prev_close": 1774.5,
+        "change": 10.09,
+        "change_pct": 10.09,
+        "volume": 1600710,
+        "turnover_cr": 302.67
+      },
+      {
+        "symbol": "S&SPOWER",
+        "name": "S&SPOWER",
+        "last_price": 340.6,
+        "prev_close": 309.65,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 4691,
+        "turnover_cr": 0.15
       }
     ],
     "lower_circuit": [
       {
         "symbol": "IXIGO",
         "name": "IXIGO",
-        "last_price": 179.6,
+        "last_price": 175.95,
         "prev_close": 202.67,
-        "change": -11.38,
-        "change_pct": -11.38,
-        "volume": 4169559,
-        "turnover_cr": 77.65
+        "change": -13.18,
+        "change_pct": -13.18,
+        "volume": 7330448,
+        "turnover_cr": 133.05
+      },
+      {
+        "symbol": "GALAPREC",
+        "name": "GALAPREC",
+        "last_price": 1043.5,
+        "prev_close": 1162.2,
+        "change": -10.21,
+        "change_pct": -10.21,
+        "volume": 186043,
+        "turnover_cr": 19.62
+      },
+      {
+        "symbol": "BATLIBOI",
+        "name": "BATLIBOI",
+        "last_price": 92.24,
+        "prev_close": 102.67,
+        "change": -10.16,
+        "change_pct": -10.16,
+        "volume": 410317,
+        "turnover_cr": 3.99
       },
       {
         "symbol": "INDOTHAI",
@@ -126,8 +166,8 @@
         "prev_close": 110.65,
         "change": -10,
         "change_pct": -10,
-        "volume": 176424,
-        "turnover_cr": 1.76
+        "volume": 192782,
+        "turnover_cr": 1.92
       }
     ]
   }
