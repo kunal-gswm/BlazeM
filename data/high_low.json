@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-08-10T10:05:02Z",
+    "last_updated": "2026-08-10T11:20:35Z",
     "status": "healthy",
     "record_count": 157
   },
@@ -151,10 +151,10 @@
         {
           "symbol": "AUTOIETF",
           "companyName": "ICICI Prudential Mutual Fund - ICICI Prudential  Nifty Auto ETF",
-          "lastPrice": 30.71,
+          "lastPrice": 30.7,
           "previousClose": "30.7",
-          "change": 0.01,
-          "pChange": 0.03257328990228013,
+          "change": 0,
+          "pChange": 0,
           "value52Week": 31.46,
           "type": "HIGH"
         },
