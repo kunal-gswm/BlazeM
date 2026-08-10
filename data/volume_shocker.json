@@ -1,240 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-10T06:57:35Z",
+    "last_updated": "2026-08-10T08:45:37Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 24
   },
   "data": [
     {
       "symbol": "ITAXIS",
       "name": "AXIS MUTUAL FUND - AXIS NIFTY IT ETF",
-      "last_price": 349.1,
-      "change_pct": 0.38,
-      "volume": 2581723,
-      "turnover_cr": 90.08,
-      "vol_change_1wk_pct": 528.95,
-      "vol_change_2wk_pct": 289.32
+      "last_price": 349.28,
+      "change_pct": 0.43,
+      "volume": 2584835,
+      "turnover_cr": 90.18,
+      "vol_change_1wk_pct": 529.59,
+      "vol_change_2wk_pct": 289.67
     },
     {
       "symbol": "PIXTRANS",
       "name": "Pix Transmissions Limited",
-      "last_price": 1961.9,
-      "change_pct": 14.25,
-      "volume": 731820,
-      "turnover_cr": 142.07,
-      "vol_change_1wk_pct": 70.47,
-      "vol_change_2wk_pct": 78.25
-    },
-    {
-      "symbol": "ANDHRSUGAR",
-      "name": "The Andhra Sugars Limited",
-      "last_price": 102.95,
-      "change_pct": 17.02,
-      "volume": 11107636,
-      "turnover_cr": 112.83,
-      "vol_change_1wk_pct": 29.94,
-      "vol_change_2wk_pct": 37.89
+      "last_price": 1985.6,
+      "change_pct": 15.63,
+      "volume": 1097930,
+      "turnover_cr": 215.28,
+      "vol_change_1wk_pct": 105.73,
+      "vol_change_2wk_pct": 117.4
     },
     {
       "symbol": "RAMCOIND",
       "name": "Ramco Industries Limited",
-      "last_price": 363.9,
-      "change_pct": 7.14,
-      "volume": 2896886,
-      "turnover_cr": 104.22,
-      "vol_change_1wk_pct": 23.87,
-      "vol_change_2wk_pct": 22.07
+      "last_price": 378.25,
+      "change_pct": 11.36,
+      "volume": 12573677,
+      "turnover_cr": 467.26,
+      "vol_change_1wk_pct": 103.61,
+      "vol_change_2wk_pct": 95.78
+    },
+    {
+      "symbol": "SURYALA",
+      "name": "Suryalata Spinning Mills Limited",
+      "last_price": 405,
+      "change_pct": 1.53,
+      "volume": 26448,
+      "turnover_cr": 1.06,
+      "vol_change_1wk_pct": 59.62,
+      "vol_change_2wk_pct": 13.46
+    },
+    {
+      "symbol": "ANDHRSUGAR",
+      "name": "The Andhra Sugars Limited",
+      "last_price": 100.46,
+      "change_pct": 14.19,
+      "volume": 15457222,
+      "turnover_cr": 157.32,
+      "vol_change_1wk_pct": 41.67,
+      "vol_change_2wk_pct": 52.73
+    },
+    {
+      "symbol": "WEL",
+      "name": "Wonder Electricals Limited",
+      "last_price": 134.6,
+      "change_pct": 3.78,
+      "volume": 14417947,
+      "turnover_cr": 192.8,
+      "vol_change_1wk_pct": 31.45,
+      "vol_change_2wk_pct": 34.16
     },
     {
       "symbol": "THOMASCOTT",
       "name": "Thomas Scott (India) Limited",
-      "last_price": 358.6,
-      "change_pct": 13.79,
-      "volume": 950370,
-      "turnover_cr": 33.68,
-      "vol_change_1wk_pct": 23.73,
-      "vol_change_2wk_pct": 24.34
+      "last_price": 347.95,
+      "change_pct": 10.41,
+      "volume": 1190346,
+      "turnover_cr": 42.15,
+      "vol_change_1wk_pct": 29.73,
+      "vol_change_2wk_pct": 30.48
+    },
+    {
+      "symbol": "NIRLON",
+      "name": "Nirlon Limited",
+      "last_price": 639,
+      "change_pct": 3.06,
+      "volume": 84132,
+      "turnover_cr": 5.34,
+      "vol_change_1wk_pct": 26.28,
+      "vol_change_2wk_pct": 26.62
     },
     {
       "symbol": "GARUDA",
       "name": "Garuda Construction and Engineering Limited",
-      "last_price": 193.9,
-      "change_pct": 7.42,
-      "volume": 9301818,
-      "turnover_cr": 181.79,
-      "vol_change_1wk_pct": 21.64,
-      "vol_change_2wk_pct": 29.23
+      "last_price": 196.26,
+      "change_pct": 8.73,
+      "volume": 10882641,
+      "turnover_cr": 212.67,
+      "vol_change_1wk_pct": 25.32,
+      "vol_change_2wk_pct": 34.2
+    },
+    {
+      "symbol": "ABINFRA",
+      "name": "A B Infrabuild Limited",
+      "last_price": 10.29,
+      "change_pct": 3.31,
+      "volume": 7247142,
+      "turnover_cr": 7.57,
+      "vol_change_1wk_pct": 24.15,
+      "vol_change_2wk_pct": 10.78
     },
     {
       "symbol": "SURAKSHA",
       "name": "Suraksha Diagnostic Limited",
-      "last_price": 272.95,
-      "change_pct": 9.38,
-      "volume": 529865,
-      "turnover_cr": 14.38,
-      "vol_change_1wk_pct": 18.62,
-      "vol_change_2wk_pct": 18.25
+      "last_price": 266.5,
+      "change_pct": 6.79,
+      "volume": 661604,
+      "turnover_cr": 17.92,
+      "vol_change_1wk_pct": 23.25,
+      "vol_change_2wk_pct": 22.79
     },
     {
       "symbol": "AARTIPHARM",
       "name": "Aarti Pharmalabs Limited",
       "last_price": 823,
       "change_pct": 20,
-      "volume": 2615708,
-      "turnover_cr": 212.9,
-      "vol_change_1wk_pct": 17.32,
-      "vol_change_2wk_pct": 19.87
+      "volume": 3108596,
+      "turnover_cr": 253.43,
+      "vol_change_1wk_pct": 20.58,
+      "vol_change_2wk_pct": 23.61
     },
     {
-      "symbol": "KPL",
-      "name": "Kwality Pharmaceuticals Limited",
-      "last_price": 3113.7,
-      "change_pct": 19.22,
-      "volume": 333334,
-      "turnover_cr": 99.65,
-      "vol_change_1wk_pct": 13.04,
-      "vol_change_2wk_pct": 14.76
-    },
-    {
-      "symbol": "MANAKALUCO",
-      "name": "Manaksia Aluminium Company Limited",
-      "last_price": 45.6,
-      "change_pct": 12.65,
-      "volume": 1641426,
-      "turnover_cr": 7.46,
-      "vol_change_1wk_pct": 11.23,
-      "vol_change_2wk_pct": 18.17
-    },
-    {
-      "symbol": "SIMPLEXINF",
-      "name": "Simplex Infrastructures Limited",
-      "last_price": 256.76,
-      "change_pct": 7.49,
-      "volume": 453757,
-      "turnover_cr": 11.64,
-      "vol_change_1wk_pct": 11.16,
-      "vol_change_2wk_pct": 10.31
-    },
-    {
-      "symbol": "PAR",
-      "name": "Par Drugs and Chemicals Limited",
-      "last_price": 104.34,
-      "change_pct": 6.04,
-      "volume": 47342,
-      "turnover_cr": 0.5,
-      "vol_change_1wk_pct": 11.01,
-      "vol_change_2wk_pct": 7.3
-    },
-    {
-      "symbol": "ENTERO",
-      "name": "Entero Healthcare Solutions Limited",
-      "last_price": 1348.5,
-      "change_pct": 8.51,
-      "volume": 1228834,
-      "turnover_cr": 167.31,
-      "vol_change_1wk_pct": 10.76,
-      "vol_change_2wk_pct": 13.28
-    },
-    {
-      "symbol": "RAMCOCEM",
-      "name": "The Ramco Cements Limited",
-      "last_price": 965.3,
-      "change_pct": 3.37,
-      "volume": 1281767,
-      "turnover_cr": 124.51,
-      "vol_change_1wk_pct": 10.63,
-      "vol_change_2wk_pct": 8.46
-    },
-    {
-      "symbol": "UNIVCABLES",
-      "name": "Universal Cables Limited",
-      "last_price": 1674.5,
-      "change_pct": 18.66,
-      "volume": 1806317,
-      "turnover_cr": 295.24,
-      "vol_change_1wk_pct": 10.6,
-      "vol_change_2wk_pct": 10.01
-    },
-    {
-      "symbol": "GLOBECIVIL",
-      "name": "Globe Civil Projects Limited",
-      "last_price": 44.9,
-      "change_pct": 12.79,
-      "volume": 343778,
-      "turnover_cr": 1.51,
-      "vol_change_1wk_pct": 10.54,
-      "vol_change_2wk_pct": 10.36
-    },
-    {
-      "symbol": "ABINFRA",
-      "name": "A B Infrabuild Limited",
-      "last_price": 10.66,
-      "change_pct": 7.03,
-      "volume": 2833150,
-      "turnover_cr": 2.97,
-      "vol_change_1wk_pct": 9.44,
-      "vol_change_2wk_pct": 4.21
-    },
-    {
-      "symbol": "COMSYN",
-      "name": "Commercial Syn Bags Limited",
-      "last_price": 268.3,
-      "change_pct": 19.33,
-      "volume": 6161373,
-      "turnover_cr": 159.9,
-      "vol_change_1wk_pct": 8.18,
-      "vol_change_2wk_pct": 3.54
+      "symbol": "SIL",
+      "name": "Standard Industries Limited",
+      "last_price": 19.39,
+      "change_pct": 13.46,
+      "volume": 462846,
+      "turnover_cr": 0.9,
+      "vol_change_1wk_pct": 19.23,
+      "vol_change_2wk_pct": 20.77
     },
     {
       "symbol": "ESTER",
       "name": "Ester Industries Limited",
-      "last_price": 97.5,
-      "change_pct": 11.62,
-      "volume": 519981,
-      "turnover_cr": 4.93,
-      "vol_change_1wk_pct": 8.11,
-      "vol_change_2wk_pct": 9.03
+      "last_price": 99.83,
+      "change_pct": 14.29,
+      "volume": 1078719,
+      "turnover_cr": 10.43,
+      "vol_change_1wk_pct": 16.82,
+      "vol_change_2wk_pct": 18.74
     },
     {
-      "symbol": "AKUMS",
-      "name": "Akums Drugs and Pharmaceuticals Limited",
-      "last_price": 746.45,
-      "change_pct": 7.03,
-      "volume": 1659120,
-      "turnover_cr": 121.85,
-      "vol_change_1wk_pct": 8.02,
-      "vol_change_2wk_pct": 9.59
+      "symbol": "KPL",
+      "name": "Kwality Pharmaceuticals Limited",
+      "last_price": 3134.1,
+      "change_pct": 20,
+      "volume": 403122,
+      "turnover_cr": 121.5,
+      "vol_change_1wk_pct": 15.77,
+      "vol_change_2wk_pct": 17.85
     },
     {
-      "symbol": "GNRL",
-      "name": "Gujarat Natural Resources Limited",
-      "last_price": 99.5,
-      "change_pct": 5.94,
-      "volume": 427354,
-      "turnover_cr": 4.27,
-      "vol_change_1wk_pct": 7.84,
-      "vol_change_2wk_pct": 8.95
+      "symbol": "JISLDVREQS",
+      "name": "Jain Irrigation Systems Limited",
+      "last_price": 23.5,
+      "change_pct": 0.13,
+      "volume": 275341,
+      "turnover_cr": 0.66,
+      "vol_change_1wk_pct": 15.44,
+      "vol_change_2wk_pct": 12.6
     },
     {
-      "symbol": "POKARNA",
-      "name": "Pokarna Limited",
-      "last_price": 975.7,
-      "change_pct": -1.1,
-      "volume": 728043,
-      "turnover_cr": 74.8,
-      "vol_change_1wk_pct": 7.66,
-      "vol_change_2wk_pct": 11.62
+      "symbol": "IRISDOREME",
+      "name": "Iris Clothings Limited",
+      "last_price": 55.84,
+      "change_pct": 2.42,
+      "volume": 6991702,
+      "turnover_cr": 38.58,
+      "vol_change_1wk_pct": 15.3,
+      "vol_change_2wk_pct": 7.44
     },
     {
-      "symbol": "WEL",
-      "name": "Wonder Electricals Limited",
-      "last_price": 133.48,
-      "change_pct": 2.91,
-      "volume": 3362675,
-      "turnover_cr": 43.34,
-      "vol_change_1wk_pct": 7.34,
-      "vol_change_2wk_pct": 7.97
+      "symbol": "NDRAUTO",
+      "name": "Ndr Auto Components Limited",
+      "last_price": 850.95,
+      "change_pct": 2.66,
+      "volume": 242270,
+      "turnover_cr": 20.59,
+      "vol_change_1wk_pct": 14.92,
+      "vol_change_2wk_pct": 16.71
+    },
+    {
+      "symbol": "BBETF0432",
+      "name": "Edelweiss Mutual Fund - BHARAT Bond ETF - April 2032 - Growth",
+      "last_price": 1356,
+      "change_pct": 0.2,
+      "volume": 10804,
+      "turnover_cr": 1.46,
+      "vol_change_1wk_pct": 14.74,
+      "vol_change_2wk_pct": 8.76
+    },
+    {
+      "symbol": "UNIONGOLD",
+      "name": "Union Mutual Fund - Union Gold ETF",
+      "last_price": 147.85,
+      "change_pct": 1.06,
+      "volume": 47203,
+      "turnover_cr": 0.7,
+      "vol_change_1wk_pct": 14.49,
+      "vol_change_2wk_pct": 18.76
+    },
+    {
+      "symbol": "SIMPLEXINF",
+      "name": "Simplex Infrastructures Limited",
+      "last_price": 261.76,
+      "change_pct": 9.58,
+      "volume": 558805,
+      "turnover_cr": 14.35,
+      "vol_change_1wk_pct": 13.75,
+      "vol_change_2wk_pct": 12.69
+    },
+    {
+      "symbol": "GLOBECIVIL",
+      "name": "Globe Civil Projects Limited",
+      "last_price": 43.5,
+      "change_pct": 9.27,
+      "volume": 424983,
+      "turnover_cr": 1.87,
+      "vol_change_1wk_pct": 13.02,
+      "vol_change_2wk_pct": 12.8
+    },
+    {
+      "symbol": "MANAKALUCO",
+      "name": "Manaksia Aluminium Company Limited",
+      "last_price": 45.58,
+      "change_pct": 12.6,
+      "volume": 1789733,
+      "turnover_cr": 8.14,
+      "vol_change_1wk_pct": 12.25,
+      "vol_change_2wk_pct": 19.81
+    },
+    {
+      "symbol": "RAMCOCEM",
+      "name": "The Ramco Cements Limited",
+      "last_price": 954.55,
+      "change_pct": 2.22,
+      "volume": 1451186,
+      "turnover_cr": 140.77,
+      "vol_change_1wk_pct": 12.04,
+      "vol_change_2wk_pct": 9.57
     }
   ]
 }
