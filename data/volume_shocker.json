@@ -1,250 +1,260 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-11T05:14:19Z",
+    "last_updated": "2026-08-11T06:09:48Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 25
   },
   "data": [
     {
+      "symbol": "ARVEE",
+      "name": "Arvee Laboratories (India) Limited",
+      "last_price": 177.5,
+      "change_pct": 14.44,
+      "volume": 60475,
+      "turnover_cr": 1.07,
+      "vol_change_1wk_pct": 41.41,
+      "vol_change_2wk_pct": 52.84
+    },
+    {
+      "symbol": "GODAVARIB",
+      "name": "Godavari Biorefineries Limited",
+      "last_price": 272.2,
+      "change_pct": 13.37,
+      "volume": 6356221,
+      "turnover_cr": 172.02,
+      "vol_change_1wk_pct": 41.26,
+      "vol_change_2wk_pct": 59.38
+    },
+    {
       "symbol": "SHIVAUM",
       "name": "Shiv Aum Steels Limited",
-      "last_price": 431.7,
-      "change_pct": 0.82,
-      "volume": 116507,
-      "turnover_cr": 4.95,
-      "vol_change_1wk_pct": 37.86,
-      "vol_change_2wk_pct": 14.99
+      "last_price": 438,
+      "change_pct": 2.29,
+      "volume": 117904,
+      "turnover_cr": 5.01,
+      "vol_change_1wk_pct": 38.32,
+      "vol_change_2wk_pct": 15.17
     },
     {
       "symbol": "AFSL",
       "name": "Abans Financial Services Limited",
-      "last_price": 212.14,
-      "change_pct": 5.42,
-      "volume": 139641,
-      "turnover_cr": 2.97,
-      "vol_change_1wk_pct": 31.99,
-      "vol_change_2wk_pct": 13.74
-    },
-    {
-      "symbol": "ARVEE",
-      "name": "Arvee Laboratories (India) Limited",
-      "last_price": 180,
-      "change_pct": 16.05,
-      "volume": 31485,
-      "turnover_cr": 0.55,
-      "vol_change_1wk_pct": 21.56,
-      "vol_change_2wk_pct": 27.51
+      "last_price": 212.89,
+      "change_pct": 5.79,
+      "volume": 149732,
+      "turnover_cr": 3.18,
+      "vol_change_1wk_pct": 34.3,
+      "vol_change_2wk_pct": 14.74
     },
     {
       "symbol": "INDSWFTLAB",
       "name": "Ind-Swift Laboratories Limited",
-      "last_price": 280.31,
-      "change_pct": 18.15,
-      "volume": 8196936,
-      "turnover_cr": 228.18,
-      "vol_change_1wk_pct": 20.45,
-      "vol_change_2wk_pct": 18.64
+      "last_price": 284.68,
+      "change_pct": 20,
+      "volume": 9007624,
+      "turnover_cr": 251.09,
+      "vol_change_1wk_pct": 22.48,
+      "vol_change_2wk_pct": 20.49
     },
     {
       "symbol": "ABMINTLLTD",
       "name": "ABM International Limited",
       "last_price": 52.56,
       "change_pct": 20,
-      "volume": 15776,
+      "volume": 15807,
       "turnover_cr": 0.08,
-      "vol_change_1wk_pct": 19.15,
-      "vol_change_2wk_pct": 8.31
+      "vol_change_1wk_pct": 19.19,
+      "vol_change_2wk_pct": 8.33
+    },
+    {
+      "symbol": "LUMAXTECH",
+      "name": "Lumax Auto Technologies Limited",
+      "last_price": 2060,
+      "change_pct": 18.51,
+      "volume": 3975427,
+      "turnover_cr": 785.39,
+      "vol_change_1wk_pct": 18.63,
+      "vol_change_2wk_pct": 23.37
     },
     {
       "symbol": "3PLAND",
       "name": "3P Land Holdings Limited",
-      "last_price": 32.1,
-      "change_pct": 1.9,
-      "volume": 57728,
-      "turnover_cr": 0.18,
-      "vol_change_1wk_pct": 18.06,
-      "vol_change_2wk_pct": 20.76
+      "last_price": 31.73,
+      "change_pct": 0.73,
+      "volume": 58164,
+      "turnover_cr": 0.19,
+      "vol_change_1wk_pct": 18.2,
+      "vol_change_2wk_pct": 20.91
+    },
+    {
+      "symbol": "WINDLAS",
+      "name": "Windlas Biotech Limited",
+      "last_price": 928.7,
+      "change_pct": 10.61,
+      "volume": 813772,
+      "turnover_cr": 74.95,
+      "vol_change_1wk_pct": 18.17,
+      "vol_change_2wk_pct": 23.11
     },
     {
       "symbol": "KOLTEPATIL",
       "name": "Kolte - Patil Developers Limited",
-      "last_price": 536.9,
-      "change_pct": 16.16,
-      "volume": 6093634,
-      "turnover_cr": 320.21,
-      "vol_change_1wk_pct": 15.1,
-      "vol_change_2wk_pct": 24.89
+      "last_price": 541.5,
+      "change_pct": 17.16,
+      "volume": 7103797,
+      "turnover_cr": 374.63,
+      "vol_change_1wk_pct": 17.6,
+      "vol_change_2wk_pct": 29.01
     },
     {
       "symbol": "SUMEETINDS",
       "name": "Sumeet Industries Limited",
       "last_price": 15.6,
       "change_pct": -4.99,
-      "volume": 1358823,
-      "turnover_cr": 2.12,
-      "vol_change_1wk_pct": 15.09,
-      "vol_change_2wk_pct": 21.45
-    },
-    {
-      "symbol": "LUMAXTECH",
-      "name": "Lumax Auto Technologies Limited",
-      "last_price": 2045.4,
-      "change_pct": 17.67,
-      "volume": 3194238,
-      "turnover_cr": 624.06,
-      "vol_change_1wk_pct": 14.97,
-      "vol_change_2wk_pct": 18.78
-    },
-    {
-      "symbol": "GODAVARIB",
-      "name": "Godavari Biorefineries Limited",
-      "last_price": 268.6,
-      "change_pct": 11.87,
-      "volume": 2227525,
-      "turnover_cr": 59.58,
-      "vol_change_1wk_pct": 14.46,
-      "vol_change_2wk_pct": 20.81
-    },
-    {
-      "symbol": "NAGREEKEXP",
-      "name": "Nagreeka Exports Limited",
-      "last_price": 22.5,
-      "change_pct": 1.26,
-      "volume": 275015,
-      "turnover_cr": 0.64,
-      "vol_change_1wk_pct": 14.24,
-      "vol_change_2wk_pct": 14.18
+      "volume": 1425240,
+      "turnover_cr": 2.22,
+      "vol_change_1wk_pct": 15.83,
+      "vol_change_2wk_pct": 22.5
     },
     {
       "symbol": "VCL",
       "name": "Vaxtex Cotfab Limited",
-      "last_price": 1.38,
-      "change_pct": -1.43,
-      "volume": 2034916,
-      "turnover_cr": 0.29,
-      "vol_change_1wk_pct": 13.74,
-      "vol_change_2wk_pct": 10.31
+      "last_price": 1.37,
+      "change_pct": -2.14,
+      "volume": 2303436,
+      "turnover_cr": 0.33,
+      "vol_change_1wk_pct": 15.55,
+      "vol_change_2wk_pct": 11.67
     },
     {
-      "symbol": "RIR",
-      "name": "RIR Power Electronics Limited",
-      "last_price": 172.65,
-      "change_pct": 9.3,
-      "volume": 1027925,
-      "turnover_cr": 18.03,
-      "vol_change_1wk_pct": 12.51,
-      "vol_change_2wk_pct": 13.37
-    },
-    {
-      "symbol": "WINDLAS",
-      "name": "Windlas Biotech Limited",
-      "last_price": 935.1,
-      "change_pct": 11.37,
-      "volume": 513707,
-      "turnover_cr": 46.95,
-      "vol_change_1wk_pct": 11.47,
-      "vol_change_2wk_pct": 14.59
-    },
-    {
-      "symbol": "JHS",
-      "name": "JHS Svendgaard Laboratories Limited",
-      "last_price": 8.5,
-      "change_pct": 7.32,
-      "volume": 522641,
-      "turnover_cr": 0.47,
-      "vol_change_1wk_pct": 10.36,
-      "vol_change_2wk_pct": 5.15
-    },
-    {
-      "symbol": "GLAND",
-      "name": "Gland Pharma Limited",
-      "last_price": 2865.1,
-      "change_pct": 8.23,
-      "volume": 5249175,
-      "turnover_cr": 1526.18,
-      "vol_change_1wk_pct": 10.13,
-      "vol_change_2wk_pct": 10.68
-    },
-    {
-      "symbol": "KSHINTL",
-      "name": "KSH International Limited",
-      "last_price": 983.3,
-      "change_pct": 9.18,
-      "volume": 2394853,
-      "turnover_cr": 235.11,
-      "vol_change_1wk_pct": 9.68,
-      "vol_change_2wk_pct": 11.73
+      "symbol": "NAGREEKEXP",
+      "name": "Nagreeka Exports Limited",
+      "last_price": 22.91,
+      "change_pct": 3.11,
+      "volume": 286365,
+      "turnover_cr": 0.66,
+      "vol_change_1wk_pct": 14.83,
+      "vol_change_2wk_pct": 14.77
     },
     {
       "symbol": "AARTIPHARM",
       "name": "Aarti Pharmalabs Limited",
-      "last_price": 911.75,
-      "change_pct": 10.78,
-      "volume": 5690645,
-      "turnover_cr": 507.3,
-      "vol_change_1wk_pct": 8.8,
-      "vol_change_2wk_pct": 14.09
+      "last_price": 927,
+      "change_pct": 12.64,
+      "volume": 8862626,
+      "turnover_cr": 799.9,
+      "vol_change_1wk_pct": 13.7,
+      "vol_change_2wk_pct": 21.95
     },
     {
-      "symbol": "KRYSTAL",
-      "name": "Krystal Integrated Services Limited",
-      "last_price": 627,
-      "change_pct": 4.06,
-      "volume": 169688,
-      "turnover_cr": 10.38,
-      "vol_change_1wk_pct": 8.56,
-      "vol_change_2wk_pct": 11.3
+      "symbol": "JHS",
+      "name": "JHS Svendgaard Laboratories Limited",
+      "last_price": 8.99,
+      "change_pct": 13.51,
+      "volume": 689860,
+      "turnover_cr": 0.62,
+      "vol_change_1wk_pct": 13.68,
+      "vol_change_2wk_pct": 6.8
+    },
+    {
+      "symbol": "RIR",
+      "name": "RIR Power Electronics Limited",
+      "last_price": 173.29,
+      "change_pct": 9.7,
+      "volume": 1101441,
+      "turnover_cr": 19.31,
+      "vol_change_1wk_pct": 13.41,
+      "vol_change_2wk_pct": 14.33
+    },
+    {
+      "symbol": "GLAND",
+      "name": "Gland Pharma Limited",
+      "last_price": 2872,
+      "change_pct": 8.49,
+      "volume": 6190557,
+      "turnover_cr": 1796.17,
+      "vol_change_1wk_pct": 11.94,
+      "vol_change_2wk_pct": 12.59
+    },
+    {
+      "symbol": "KSHINTL",
+      "name": "KSH International Limited",
+      "last_price": 954,
+      "change_pct": 5.93,
+      "volume": 2773003,
+      "turnover_cr": 271.98,
+      "vol_change_1wk_pct": 11.21,
+      "vol_change_2wk_pct": 13.58
     },
     {
       "symbol": "GTPL",
       "name": "GTPL Hathway Limited",
-      "last_price": 55.14,
-      "change_pct": -6.57,
-      "volume": 211032,
-      "turnover_cr": 1.19,
-      "vol_change_1wk_pct": 8.45,
-      "vol_change_2wk_pct": 8.48
+      "last_price": 54.99,
+      "change_pct": -6.83,
+      "volume": 272482,
+      "turnover_cr": 1.53,
+      "vol_change_1wk_pct": 10.91,
+      "vol_change_2wk_pct": 10.95
     },
     {
-      "symbol": "ATLANTAA",
-      "name": "ATLANTAA LIMITED",
-      "last_price": 48.25,
-      "change_pct": 6.77,
-      "volume": 908047,
-      "turnover_cr": 4.39,
-      "vol_change_1wk_pct": 8.03,
-      "vol_change_2wk_pct": 13.0
+      "symbol": "KRYSTAL",
+      "name": "Krystal Integrated Services Limited",
+      "last_price": 627.7,
+      "change_pct": 4.17,
+      "volume": 179079,
+      "turnover_cr": 10.97,
+      "vol_change_1wk_pct": 9.03,
+      "vol_change_2wk_pct": 11.92
     },
     {
       "symbol": "SIL",
       "name": "Standard Industries Limited",
-      "last_price": 21.35,
-      "change_pct": 13.87,
-      "volume": 1026678,
-      "turnover_cr": 2.17,
-      "vol_change_1wk_pct": 7.55,
-      "vol_change_2wk_pct": 12.3
+      "last_price": 21.26,
+      "change_pct": 13.39,
+      "volume": 1157375,
+      "turnover_cr": 2.45,
+      "vol_change_1wk_pct": 8.51,
+      "vol_change_2wk_pct": 13.87
+    },
+    {
+      "symbol": "ATLANTAA",
+      "name": "ATLANTAA LIMITED",
+      "last_price": 48.2,
+      "change_pct": 6.66,
+      "volume": 954204,
+      "turnover_cr": 4.61,
+      "vol_change_1wk_pct": 8.44,
+      "vol_change_2wk_pct": 13.66
+    },
+    {
+      "symbol": "SHANTI",
+      "name": "Shanti Overseas (India) Limited",
+      "last_price": 6.13,
+      "change_pct": -8.78,
+      "volume": 158956,
+      "turnover_cr": 0.1,
+      "vol_change_1wk_pct": 7.9,
+      "vol_change_2wk_pct": 8.52
     },
     {
       "symbol": "SHEKHAWATI",
       "name": "Shekhawati Industries Limited",
       "last_price": 16.52,
       "change_pct": 19.97,
-      "volume": 184038,
-      "turnover_cr": 0.29,
-      "vol_change_1wk_pct": 7.17,
-      "vol_change_2wk_pct": 7.66
+      "volume": 193254,
+      "turnover_cr": 0.31,
+      "vol_change_1wk_pct": 7.53,
+      "vol_change_2wk_pct": 8.04
     },
     {
       "symbol": "CIEINDIA",
       "name": "CIE Automotive India Limited",
-      "last_price": 412.05,
-      "change_pct": 0.62,
-      "volume": 2487715,
-      "turnover_cr": 102.14,
-      "vol_change_1wk_pct": 7.08,
-      "vol_change_2wk_pct": 7.5
+      "last_price": 413.5,
+      "change_pct": 0.98,
+      "volume": 2568379,
+      "turnover_cr": 105.48,
+      "vol_change_1wk_pct": 7.31,
+      "vol_change_2wk_pct": 7.74
     }
   ]
 }

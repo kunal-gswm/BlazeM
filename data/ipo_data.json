@@ -1,32 +1,11 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-11T05:14:11Z",
+    "last_updated": "2026-08-11T06:09:42Z",
     "status": "healthy",
     "record_count": 10
   },
   "data": [
-    {
-      "issue_name": "Sunshine Pictures",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "360",
-      "lot_size": "41",
-      "issue_size": "₹282.14 Cr",
-      "issue_open": "2026-08-18",
-      "issue_close": "2026-08-20",
-      "allotment_date": "2026-08-21",
-      "listing_date": "2026-08-25",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
-      "scraped_at": "2026-08-11T05:13:51.396055+00:00Z"
-    },
     {
       "issue_name": "Shankesh Jewellers",
       "ipo_type": "Mainboard",
@@ -46,7 +25,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shankesh-jewellers-ipo/1932/",
-      "scraped_at": "2026-08-11T05:13:51.396199+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.742999+00:00Z"
+    },
+    {
+      "issue_name": "Sunshine Pictures",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "360",
+      "lot_size": "41",
+      "issue_size": "₹282.14 Cr",
+      "issue_open": "2026-08-18",
+      "issue_close": "2026-08-20",
+      "allotment_date": "2026-08-21",
+      "listing_date": "2026-08-25",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
+      "scraped_at": "2026-08-11T06:09:25.743138+00:00Z"
     },
     {
       "issue_name": "Lalithaa Jewellery Mart",
@@ -67,7 +67,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lalithaa-jewellery-mart-ipo/1799/",
-      "scraped_at": "2026-08-11T05:13:51.396281+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743244+00:00Z"
     },
     {
       "issue_name": "Behari Lal Engineering",
@@ -80,15 +80,15 @@
       "issue_close": "2026-08-14",
       "allotment_date": "2026-08-17",
       "listing_date": "2026-08-19",
-      "gmp": 53.0,
-      "gmp_percent": "18.60%",
+      "gmp": 52.0,
+      "gmp_percent": "18.25%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/behari-lal-engineering-ipo/1928/",
-      "scraped_at": "2026-08-11T05:13:51.396361+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743346+00:00Z"
     },
     {
       "issue_name": "Shiprocket",
@@ -109,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shiprocket-ipo/1790/",
-      "scraped_at": "2026-08-11T05:13:51.396447+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743442+00:00Z"
     },
     {
       "issue_name": "Milky Mist Dairy Food",
@@ -125,12 +125,33 @@
       "gmp": 20.5,
       "gmp_percent": "14.64%",
       "subscription_qib": "0.00x",
-      "subscription_nii": "0.10x",
-      "subscription_retail": "0.14x",
-      "subscription_total": "0.09x",
-      "subscription_applications": "33,322",
+      "subscription_nii": "0.24x",
+      "subscription_retail": "0.34x",
+      "subscription_total": "0.22x",
+      "subscription_applications": "87,391",
       "detail_url": "https://www.investorgain.com/gmp/milky-mist-dairy-food-ipo/1838/",
-      "scraped_at": "2026-08-11T05:13:51.396526+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743537+00:00Z"
+    },
+    {
+      "issue_name": "Molbio Diagnostics",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "807",
+      "lot_size": "18",
+      "issue_size": "₹939.70 Cr",
+      "issue_open": "2026-08-10",
+      "issue_close": "2026-08-12",
+      "allotment_date": "2026-08-13",
+      "listing_date": "2026-08-17",
+      "gmp": 124.0,
+      "gmp_percent": "15.37%",
+      "subscription_qib": "1.00x",
+      "subscription_nii": "1.64x",
+      "subscription_retail": "1.48x",
+      "subscription_total": "1.38x",
+      "subscription_applications": "2,81,053",
+      "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
+      "scraped_at": "2026-08-11T06:09:25.743632+00:00Z"
     },
     {
       "issue_name": "Dhoot Transmission",
@@ -145,34 +166,34 @@
       "listing_date": "2026-08-17",
       "gmp": 250.0,
       "gmp_percent": "28.70%",
-      "subscription_qib": "0.06x",
-      "subscription_nii": "1.72x",
-      "subscription_retail": "1.03x",
-      "subscription_total": "0.92x",
-      "subscription_applications": "5,98,629",
+      "subscription_qib": "0.68x",
+      "subscription_nii": "3.09x",
+      "subscription_retail": "1.45x",
+      "subscription_total": "1.41x",
+      "subscription_applications": "8,55,102",
       "detail_url": "https://www.investorgain.com/gmp/dhoot-transmission-ipo/2122/",
-      "scraped_at": "2026-08-11T05:13:51.396602+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743735+00:00Z"
     },
     {
-      "issue_name": "Molbio Diagnostics",
+      "issue_name": "LEAP India",
       "ipo_type": "Mainboard",
       "source": "investorgain",
-      "price_band": "807",
-      "lot_size": "18",
-      "issue_size": "₹939.70 Cr",
-      "issue_open": "2026-08-10",
-      "issue_close": "2026-08-12",
-      "allotment_date": "2026-08-13",
-      "listing_date": "2026-08-17",
-      "gmp": 127.0,
-      "gmp_percent": "15.74%",
-      "subscription_qib": "1.00x",
-      "subscription_nii": "1.13x",
-      "subscription_retail": "1.07x",
-      "subscription_total": "1.07x",
-      "subscription_applications": "2,00,232",
-      "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
-      "scraped_at": "2026-08-11T05:13:51.396682+00:00Z"
+      "price_band": "159",
+      "lot_size": "94",
+      "issue_size": "₹2480.00 Cr",
+      "issue_open": "2026-08-07",
+      "issue_close": "2026-08-11",
+      "allotment_date": "2026-08-12",
+      "listing_date": "2026-08-14",
+      "gmp": 8.5,
+      "gmp_percent": "5.35%",
+      "subscription_qib": "0.82x",
+      "subscription_nii": "1.33x",
+      "subscription_retail": "0.66x",
+      "subscription_total": "0.85x",
+      "subscription_applications": "3,45,517",
+      "detail_url": "https://www.investorgain.com/gmp/leap-india-ipo/1868/",
+      "scraped_at": "2026-08-11T06:09:25.743869+00:00Z"
     },
     {
       "issue_name": "Technocraft Ventures",
@@ -187,34 +208,13 @@
       "listing_date": "2026-08-14",
       "gmp": 30.0,
       "gmp_percent": "14.15%",
-      "subscription_qib": "4.50x",
-      "subscription_nii": "9.40x",
-      "subscription_retail": "5.63x",
-      "subscription_total": "6.11x",
-      "subscription_applications": "2,89,182",
+      "subscription_qib": "4.51x",
+      "subscription_nii": "14.31x",
+      "subscription_retail": "8.40x",
+      "subscription_total": "8.55x",
+      "subscription_applications": "4,34,842",
       "detail_url": "https://www.investorgain.com/gmp/technocraft-ventures-ipo/1854/",
-      "scraped_at": "2026-08-11T05:13:51.396758+00:00Z"
-    },
-    {
-      "issue_name": "LEAP India",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "159",
-      "lot_size": "94",
-      "issue_size": "₹2480.00 Cr",
-      "issue_open": "2026-08-07",
-      "issue_close": "2026-08-11",
-      "allotment_date": "2026-08-12",
-      "listing_date": "2026-08-14",
-      "gmp": 13.0,
-      "gmp_percent": "8.18%",
-      "subscription_qib": "0.64x",
-      "subscription_nii": "0.81x",
-      "subscription_retail": "0.52x",
-      "subscription_total": "0.62x",
-      "subscription_applications": "2,70,326",
-      "detail_url": "https://www.investorgain.com/gmp/leap-india-ipo/1868/",
-      "scraped_at": "2026-08-11T05:13:51.396831+00:00Z"
+      "scraped_at": "2026-08-11T06:09:25.743966+00:00Z"
     }
   ]
 }
