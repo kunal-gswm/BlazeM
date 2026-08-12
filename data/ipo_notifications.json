@@ -77,11 +77,11 @@
   },
   "technocraft ventures": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "leap india": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "molbio diagnostics": {
     "open_notified": true,
@@ -92,6 +92,14 @@
     "closed_notified": false
   },
   "milky mist dairy food": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "behari lal engineering": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "shiprocket": {
     "open_notified": true,
     "closed_notified": false
   }

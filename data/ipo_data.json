@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-11T11:28:57Z",
+    "last_updated": "2026-08-12T05:41:20Z",
     "status": "healthy",
-    "record_count": 10
+    "record_count": 11
   },
   "data": [
     {
@@ -25,7 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shankesh-jewellers-ipo/1932/",
-      "scraped_at": "2026-08-11T11:28:36.887057+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.446800+00:00Z"
     },
     {
       "issue_name": "Sunshine Pictures",
@@ -46,7 +46,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
-      "scraped_at": "2026-08-11T11:28:36.887187+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.446929+00:00Z"
+    },
+    {
+      "issue_name": "Horizon Industrial Parks",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "60",
+      "lot_size": "250",
+      "issue_size": "₹2600.00 Cr",
+      "issue_open": "2026-08-17",
+      "issue_close": "2026-08-19",
+      "allotment_date": "2026-08-20",
+      "listing_date": "2026-08-24",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/horizon-industrial-parks-ipo/2080/",
+      "scraped_at": "2026-08-12T05:41:03.447096+00:00Z"
     },
     {
       "issue_name": "Lalithaa Jewellery Mart",
@@ -59,15 +80,15 @@
       "issue_close": "2026-08-19",
       "allotment_date": "2026-08-20",
       "listing_date": "2026-08-24",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 21.0,
+      "gmp_percent": "10.45%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lalithaa-jewellery-mart-ipo/1799/",
-      "scraped_at": "2026-08-11T11:28:36.887290+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447207+00:00Z"
     },
     {
       "issue_name": "Behari Lal Engineering",
@@ -80,15 +101,15 @@
       "issue_close": "2026-08-14",
       "allotment_date": "2026-08-17",
       "listing_date": "2026-08-19",
-      "gmp": 40.0,
-      "gmp_percent": "14.04%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "gmp": 67.0,
+      "gmp_percent": "23.51%",
+      "subscription_qib": "0.00x",
+      "subscription_nii": "0.35x",
+      "subscription_retail": "0.60x",
+      "subscription_total": "0.41x",
+      "subscription_applications": "32,513",
       "detail_url": "https://www.investorgain.com/gmp/behari-lal-engineering-ipo/1928/",
-      "scraped_at": "2026-08-11T11:28:36.887403+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447305+00:00Z"
     },
     {
       "issue_name": "Shiprocket",
@@ -101,15 +122,15 @@
       "issue_close": "2026-08-14",
       "allotment_date": "2026-08-17",
       "listing_date": "2026-08-19",
-      "gmp": 25.5,
-      "gmp_percent": "26.29%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "gmp": 31.0,
+      "gmp_percent": "31.96%",
+      "subscription_qib": "0.00x",
+      "subscription_nii": "0.21x",
+      "subscription_retail": "0.82x",
+      "subscription_total": "0.21x",
+      "subscription_applications": "65,921",
       "detail_url": "https://www.investorgain.com/gmp/shiprocket-ipo/1790/",
-      "scraped_at": "2026-08-11T11:28:36.887506+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447397+00:00Z"
     },
     {
       "issue_name": "Milky Mist Dairy Food",
@@ -122,15 +143,15 @@
       "issue_close": "2026-08-13",
       "allotment_date": "2026-08-14",
       "listing_date": "2026-08-18",
-      "gmp": 21.0,
-      "gmp_percent": "15.00%",
-      "subscription_qib": "0.41x",
-      "subscription_nii": "0.92x",
-      "subscription_retail": "0.98x",
-      "subscription_total": "0.81x",
-      "subscription_applications": "2,70,600",
+      "gmp": 24.0,
+      "gmp_percent": "17.14%",
+      "subscription_qib": "0.42x",
+      "subscription_nii": "1.52x",
+      "subscription_retail": "1.44x",
+      "subscription_total": "1.17x",
+      "subscription_applications": "4,06,788",
       "detail_url": "https://www.investorgain.com/gmp/milky-mist-dairy-food-ipo/1838/",
-      "scraped_at": "2026-08-11T11:28:36.887606+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447488+00:00Z"
     },
     {
       "issue_name": "Molbio Diagnostics",
@@ -143,15 +164,15 @@
       "issue_close": "2026-08-12",
       "allotment_date": "2026-08-13",
       "listing_date": "2026-08-17",
-      "gmp": 122.0,
-      "gmp_percent": "15.12%",
-      "subscription_qib": "1.39x",
-      "subscription_nii": "5.09x",
-      "subscription_retail": "3.15x",
-      "subscription_total": "3.07x",
-      "subscription_applications": "6,21,344",
+      "gmp": 145.0,
+      "gmp_percent": "17.97%",
+      "subscription_qib": "1.41x",
+      "subscription_nii": "13.13x",
+      "subscription_retail": "4.93x",
+      "subscription_total": "5.68x",
+      "subscription_applications": "10,00,041",
       "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
-      "scraped_at": "2026-08-11T11:28:36.887701+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447587+00:00Z"
     },
     {
       "issue_name": "Dhoot Transmission",
@@ -164,15 +185,15 @@
       "issue_close": "2026-08-12",
       "allotment_date": "2026-08-13",
       "listing_date": "2026-08-17",
-      "gmp": 247.0,
-      "gmp_percent": "28.36%",
-      "subscription_qib": "0.48x",
-      "subscription_nii": "10.58x",
-      "subscription_retail": "3.01x",
-      "subscription_total": "3.91x",
-      "subscription_applications": "18,60,851",
+      "gmp": 258.0,
+      "gmp_percent": "29.62%",
+      "subscription_qib": "0.63x",
+      "subscription_nii": "22.08x",
+      "subscription_retail": "4.24x",
+      "subscription_total": "7.02x",
+      "subscription_applications": "26,82,212",
       "detail_url": "https://www.investorgain.com/gmp/dhoot-transmission-ipo/2122/",
-      "scraped_at": "2026-08-11T11:28:36.887807+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447684+00:00Z"
     },
     {
       "issue_name": "LEAP India",
@@ -185,15 +206,15 @@
       "issue_close": "2026-08-11",
       "allotment_date": "2026-08-12",
       "listing_date": "2026-08-14",
-      "gmp": 9.0,
-      "gmp_percent": "5.66%",
-      "subscription_qib": "17.73x",
-      "subscription_nii": "13.29x",
-      "subscription_retail": "1.77x",
-      "subscription_total": "8.80x",
-      "subscription_applications": "9,72,027",
+      "gmp": 13.0,
+      "gmp_percent": "8.18%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/leap-india-ipo/1868/",
-      "scraped_at": "2026-08-11T11:28:36.887948+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447772+00:00Z"
     },
     {
       "issue_name": "Technocraft Ventures",
@@ -206,15 +227,15 @@
       "issue_close": "2026-08-11",
       "allotment_date": "2026-08-12",
       "listing_date": "2026-08-14",
-      "gmp": 26.0,
-      "gmp_percent": "12.26%",
-      "subscription_qib": "42.26x",
-      "subscription_nii": "65.00x",
-      "subscription_retail": "24.95x",
-      "subscription_total": "38.48x",
-      "subscription_applications": "13,31,221",
+      "gmp": 27.0,
+      "gmp_percent": "12.74%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/technocraft-ventures-ipo/1854/",
-      "scraped_at": "2026-08-11T11:28:36.888050+00:00Z"
+      "scraped_at": "2026-08-12T05:41:03.447858+00:00Z"
     }
   ]
 }
