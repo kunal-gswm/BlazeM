@@ -1,22 +1,12 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-12T10:46:39Z",
+    "last_updated": "2026-08-12T11:36:01Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
-      {
-        "symbol": "ABMINTLLTD",
-        "name": "ABMINTLLTD",
-        "last_price": 63.07,
-        "prev_close": 52.56,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 29243,
-        "turnover_cr": 0.18
-      },
       {
         "symbol": "SSDL",
         "name": "SSDL",
@@ -26,6 +16,16 @@
         "change_pct": 20,
         "volume": 383517,
         "turnover_cr": 2.38
+      },
+      {
+        "symbol": "ABMINTLLTD",
+        "name": "ABMINTLLTD",
+        "last_price": 63.07,
+        "prev_close": 52.56,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 29243,
+        "turnover_cr": 0.18
       },
       {
         "symbol": "SINGERIND",
@@ -38,16 +38,6 @@
         "turnover_cr": 19.03
       },
       {
-        "symbol": "SHEKHAWATI",
-        "name": "SHEKHAWATI",
-        "last_price": 19.82,
-        "prev_close": 16.52,
-        "change": 19.98,
-        "change_pct": 19.98,
-        "volume": 627763,
-        "turnover_cr": 1.22
-      },
-      {
         "symbol": "REGENCERAM",
         "name": "REGENCERAM",
         "last_price": 38.86,
@@ -56,6 +46,16 @@
         "change_pct": 19.98,
         "volume": 29812,
         "turnover_cr": 0.11
+      },
+      {
+        "symbol": "SHEKHAWATI",
+        "name": "SHEKHAWATI",
+        "last_price": 19.82,
+        "prev_close": 16.52,
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 627763,
+        "turnover_cr": 1.22
       },
       {
         "symbol": "TCPLPACK",

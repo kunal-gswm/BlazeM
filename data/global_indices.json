@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-08-12T10:46:05Z",
+    "last_updated": "2026-08-12T11:35:27Z",
     "status": "healthy",
     "record_count": 6
   },
@@ -30,9 +30,9 @@
     {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.4,
-      "change": 0.12,
-      "change_pct": 0.79
+      "price": 15.39,
+      "change": 0.11,
+      "change_pct": 0.72
     },
     {
       "symbol": "^NSEI",
