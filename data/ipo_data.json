@@ -1,11 +1,32 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-13T05:43:41Z",
+    "last_updated": "2026-08-13T07:04:15Z",
     "status": "healthy",
-    "record_count": 10
+    "record_count": 12
   },
   "data": [
+    {
+      "issue_name": "Skyways Air",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "0",
+      "lot_size": "",
+      "issue_size": "-",
+      "issue_open": "2026-08-24",
+      "issue_close": "2026-08-27",
+      "allotment_date": "2026-08-28",
+      "listing_date": "2026-09-01",
+      "gmp": 19.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/skyways-air-ipo/1820/",
+      "scraped_at": "2026-08-13T07:04:01.333143+00:00Z"
+    },
     {
       "issue_name": "Gaja Alternative Asset Management",
       "ipo_type": "Mainboard",
@@ -25,7 +46,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/gaja-alternative-asset-management-ipo/1828/",
-      "scraped_at": "2026-08-13T05:43:25.741993+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333258+00:00Z"
+    },
+    {
+      "issue_name": "Sunshine Pictures",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "360",
+      "lot_size": "41",
+      "issue_size": "₹282.14 Cr",
+      "issue_open": "2026-08-18",
+      "issue_close": "2026-08-20",
+      "allotment_date": "2026-08-21",
+      "listing_date": "2026-08-25",
+      "gmp": 21.0,
+      "gmp_percent": "5.83%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
+      "scraped_at": "2026-08-13T07:04:01.333339+00:00Z"
     },
     {
       "issue_name": "Shankesh Jewellers",
@@ -46,28 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shankesh-jewellers-ipo/1932/",
-      "scraped_at": "2026-08-13T05:43:25.742134+00:00Z"
-    },
-    {
-      "issue_name": "Sunshine Pictures",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "360",
-      "lot_size": "41",
-      "issue_size": "₹282.14 Cr",
-      "issue_open": "2026-08-18",
-      "issue_close": "2026-08-20",
-      "allotment_date": "2026-08-21",
-      "listing_date": "2026-08-25",
-      "gmp": 19.0,
-      "gmp_percent": "5.28%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
-      "scraped_at": "2026-08-13T05:43:25.742216+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333452+00:00Z"
     },
     {
       "issue_name": "Horizon Industrial Parks",
@@ -88,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/horizon-industrial-parks-ipo/2080/",
-      "scraped_at": "2026-08-13T05:43:25.742301+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333537+00:00Z"
     },
     {
       "issue_name": "Lalithaa Jewellery Mart",
@@ -101,15 +122,15 @@
       "issue_close": "2026-08-19",
       "allotment_date": "2026-08-20",
       "listing_date": "2026-08-24",
-      "gmp": 41.0,
-      "gmp_percent": "20.40%",
+      "gmp": 30.0,
+      "gmp_percent": "14.93%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lalithaa-jewellery-mart-ipo/1799/",
-      "scraped_at": "2026-08-13T05:43:25.742381+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333609+00:00Z"
     },
     {
       "issue_name": "Shiprocket",
@@ -124,13 +145,13 @@
       "listing_date": "2026-08-19",
       "gmp": 34.0,
       "gmp_percent": "35.05%",
-      "subscription_qib": "0.02x",
-      "subscription_nii": "2.10x",
-      "subscription_retail": "5.34x",
-      "subscription_total": "1.56x",
-      "subscription_applications": "4,55,763",
+      "subscription_qib": "0.03x",
+      "subscription_nii": "2.73x",
+      "subscription_retail": "6.67x",
+      "subscription_total": "1.98x",
+      "subscription_applications": "5,74,010",
       "detail_url": "https://www.investorgain.com/gmp/shiprocket-ipo/1790/",
-      "scraped_at": "2026-08-13T05:43:25.742459+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333680+00:00Z"
     },
     {
       "issue_name": "Behari Lal Engineering",
@@ -145,13 +166,13 @@
       "listing_date": "2026-08-19",
       "gmp": 74.0,
       "gmp_percent": "25.96%",
-      "subscription_qib": "0.98x",
-      "subscription_nii": "5.11x",
-      "subscription_retail": "4.56x",
-      "subscription_total": "3.89x",
-      "subscription_applications": "2,60,201",
+      "subscription_qib": "0.99x",
+      "subscription_nii": "6.40x",
+      "subscription_retail": "5.88x",
+      "subscription_total": "4.91x",
+      "subscription_applications": "3,37,003",
       "detail_url": "https://www.investorgain.com/gmp/behari-lal-engineering-ipo/1928/",
-      "scraped_at": "2026-08-13T05:43:25.742536+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333760+00:00Z"
     },
     {
       "issue_name": "Milky Mist Dairy Food",
@@ -164,15 +185,15 @@
       "issue_close": "2026-08-13",
       "allotment_date": "2026-08-14",
       "listing_date": "2026-08-18",
-      "gmp": 23.0,
-      "gmp_percent": "16.43%",
-      "subscription_qib": "0.69x",
-      "subscription_nii": "7.66x",
-      "subscription_retail": "3.65x",
-      "subscription_total": "3.67x",
-      "subscription_applications": "10,99,886",
+      "gmp": 27.0,
+      "gmp_percent": "19.29%",
+      "subscription_qib": "6.69x",
+      "subscription_nii": "15.25x",
+      "subscription_retail": "4.79x",
+      "subscription_total": "7.58x",
+      "subscription_applications": "14,88,029",
       "detail_url": "https://www.investorgain.com/gmp/milky-mist-dairy-food-ipo/1838/",
-      "scraped_at": "2026-08-13T05:43:25.742621+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333836+00:00Z"
     },
     {
       "issue_name": "Molbio Diagnostics",
@@ -185,15 +206,15 @@
       "issue_close": "2026-08-12",
       "allotment_date": "2026-08-13",
       "listing_date": "2026-08-17",
-      "gmp": 154.0,
-      "gmp_percent": "19.08%",
+      "gmp": 156.0,
+      "gmp_percent": "19.33%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/molbio-diagnostics-ipo/1865/",
-      "scraped_at": "2026-08-13T05:43:25.742696+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.333929+00:00Z"
     },
     {
       "issue_name": "Dhoot Transmission",
@@ -214,7 +235,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/dhoot-transmission-ipo/2122/",
-      "scraped_at": "2026-08-13T05:43:25.742775+00:00Z"
+      "scraped_at": "2026-08-13T07:04:01.334027+00:00Z"
+    },
+    {
+      "issue_name": "Skyways Air Services Ltd.",
+      "ipo_type": "Mainboard",
+      "source": "chittorgarh",
+      "price_band": "",
+      "lot_size": "",
+      "issue_size": "",
+      "issue_open": "2026-08-24",
+      "issue_close": null,
+      "allotment_date": null,
+      "listing_date": null,
+      "gmp": null,
+      "gmp_percent": null,
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
+      "scraped_at": "2026-08-13T07:04:04.737979+00:00Z"
     }
   ]
 }
