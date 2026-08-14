@@ -1,250 +1,260 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-14T07:02:51Z",
+    "last_updated": "2026-08-14T08:37:03Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 25
   },
   "data": [
     {
       "symbol": "APEX",
       "name": "Apex Frozen Foods Limited",
-      "last_price": 427.9,
-      "change_pct": 16.37,
-      "volume": 6969666,
-      "turnover_cr": 300.59,
-      "vol_change_1wk_pct": 83.52,
-      "vol_change_2wk_pct": 94.86
+      "last_price": 435.9,
+      "change_pct": 18.55,
+      "volume": 8011847,
+      "turnover_cr": 345.95,
+      "vol_change_1wk_pct": 96.01,
+      "vol_change_2wk_pct": 109.04
     },
     {
       "symbol": "INDIGOPNTS",
       "name": "Indigo Paints Limited",
-      "last_price": 1173.8,
-      "change_pct": 3.84,
-      "volume": 2149269,
-      "turnover_cr": 252.53,
-      "vol_change_1wk_pct": 42.35,
-      "vol_change_2wk_pct": 40.22
+      "last_price": 1170,
+      "change_pct": 3.5,
+      "volume": 2222164,
+      "turnover_cr": 261.06,
+      "vol_change_1wk_pct": 43.78,
+      "vol_change_2wk_pct": 41.58
+    },
+    {
+      "symbol": "MANORAMA",
+      "name": "Manorama Industries Limited",
+      "last_price": 1754.1,
+      "change_pct": 8.67,
+      "volume": 6589855,
+      "turnover_cr": 1173.96,
+      "vol_change_1wk_pct": 36.19,
+      "vol_change_2wk_pct": 49.13
+    },
+    {
+      "symbol": "AVTNPL",
+      "name": "AVT Natural Products Limited",
+      "last_price": 81.2,
+      "change_pct": 13.87,
+      "volume": 1739177,
+      "turnover_cr": 13.92,
+      "vol_change_1wk_pct": 35.93,
+      "vol_change_2wk_pct": 40.72
+    },
+    {
+      "symbol": "TASTYBITE",
+      "name": "Tasty Bite Eatables Limited",
+      "last_price": 10122.5,
+      "change_pct": 11.35,
+      "volume": 188949,
+      "turnover_cr": 191.34,
+      "vol_change_1wk_pct": 32.11,
+      "vol_change_2wk_pct": 43.4
+    },
+    {
+      "symbol": "LGEINDIA",
+      "name": "LG Electronics India Limited",
+      "last_price": 1717.7,
+      "change_pct": 8.83,
+      "volume": 8704274,
+      "turnover_cr": 1470.24,
+      "vol_change_1wk_pct": 31.72,
+      "vol_change_2wk_pct": 26.58
     },
     {
       "symbol": "GALAXYSURF",
       "name": "Galaxy Surfactants Limited",
       "last_price": 2508.4,
       "change_pct": 20,
-      "volume": 619972,
-      "turnover_cr": 155.01,
-      "vol_change_1wk_pct": 30.04,
-      "vol_change_2wk_pct": 41.52
+      "volume": 622670,
+      "turnover_cr": 155.68,
+      "vol_change_1wk_pct": 30.17,
+      "vol_change_2wk_pct": 41.7
     },
     {
-      "symbol": "MANORAMA",
-      "name": "Manorama Industries Limited",
-      "last_price": 1756.3,
-      "change_pct": 8.81,
-      "volume": 5443402,
-      "turnover_cr": 972.08,
-      "vol_change_1wk_pct": 29.89,
-      "vol_change_2wk_pct": 40.58
+      "symbol": "WELSPUNLIV",
+      "name": "Welspun Living Limited",
+      "last_price": 165,
+      "change_pct": 3.23,
+      "volume": 63431307,
+      "turnover_cr": 1095.46,
+      "vol_change_1wk_pct": 28.43,
+      "vol_change_2wk_pct": 35.52
     },
     {
-      "symbol": "LGEINDIA",
-      "name": "LG Electronics India Limited",
-      "last_price": 1728.1,
-      "change_pct": 9.49,
-      "volume": 7490959,
-      "turnover_cr": 1261.44,
-      "vol_change_1wk_pct": 27.29,
-      "vol_change_2wk_pct": 22.87
+      "symbol": "KAMAHOLD",
+      "name": "Kama Holdings Limited",
+      "last_price": 2460.5,
+      "change_pct": -0.55,
+      "volume": 52031,
+      "turnover_cr": 13.3,
+      "vol_change_1wk_pct": 26.09,
+      "vol_change_2wk_pct": 24.69
     },
     {
       "symbol": "OSWALSEEDS",
       "name": "ShreeOswal Seeds And Chemicals Limited",
       "last_price": 12.15,
       "change_pct": 19.94,
-      "volume": 942540,
+      "volume": 947806,
       "turnover_cr": 1.13,
-      "vol_change_1wk_pct": 24.93,
-      "vol_change_2wk_pct": 27.93
+      "vol_change_1wk_pct": 25.07,
+      "vol_change_2wk_pct": 28.09
     },
     {
-      "symbol": "WELSPUNLIV",
-      "name": "Welspun Living Limited",
-      "last_price": 169.51,
-      "change_pct": 6.06,
-      "volume": 55315944,
-      "turnover_cr": 959.84,
-      "vol_change_1wk_pct": 24.79,
-      "vol_change_2wk_pct": 30.98
+      "symbol": "TVSSRICHAK",
+      "name": "TVS Srichakra Limited",
+      "last_price": 4490,
+      "change_pct": 12.39,
+      "volume": 543107,
+      "turnover_cr": 244.62,
+      "vol_change_1wk_pct": 22.3,
+      "vol_change_2wk_pct": 36.18
     },
     {
-      "symbol": "TASTYBITE",
-      "name": "Tasty Bite Eatables Limited",
-      "last_price": 10071,
-      "change_pct": 10.79,
-      "volume": 133080,
-      "turnover_cr": 134.94,
-      "vol_change_1wk_pct": 22.62,
-      "vol_change_2wk_pct": 30.57
-    },
-    {
-      "symbol": "KAMAHOLD",
-      "name": "Kama Holdings Limited",
-      "last_price": 2631.1,
-      "change_pct": 6.34,
-      "volume": 29737,
-      "turnover_cr": 7.68,
-      "vol_change_1wk_pct": 14.91,
-      "vol_change_2wk_pct": 14.11
-    },
-    {
-      "symbol": "KRBL",
-      "name": "KRBL Limited",
-      "last_price": 389.05,
-      "change_pct": 4.47,
-      "volume": 3367816,
-      "turnover_cr": 132.47,
-      "vol_change_1wk_pct": 13.52,
-      "vol_change_2wk_pct": 10.25
-    },
-    {
-      "symbol": "HONASA",
-      "name": "Honasa Consumer Limited",
-      "last_price": 490,
-      "change_pct": 2.2,
-      "volume": 12957874,
-      "turnover_cr": 640.25,
-      "vol_change_1wk_pct": 11.6,
-      "vol_change_2wk_pct": 13.71
+      "symbol": "KOHINOOR",
+      "name": "Kohinoor Foods Limited",
+      "last_price": 27.2,
+      "change_pct": 17.75,
+      "volume": 825943,
+      "turnover_cr": 2.24,
+      "vol_change_1wk_pct": 21.94,
+      "vol_change_2wk_pct": 17.87
     },
     {
       "symbol": "ELGIEQUIP",
       "name": "Elgi Equipments Limited",
-      "last_price": 609.4,
-      "change_pct": 5.7,
-      "volume": 3511658,
-      "turnover_cr": 212.38,
-      "vol_change_1wk_pct": 11.17,
-      "vol_change_2wk_pct": 11.8
+      "last_price": 608.55,
+      "change_pct": 5.55,
+      "volume": 5217663,
+      "turnover_cr": 317.01,
+      "vol_change_1wk_pct": 16.59,
+      "vol_change_2wk_pct": 17.53
+    },
+    {
+      "symbol": "KRBL",
+      "name": "KRBL Limited",
+      "last_price": 387,
+      "change_pct": 3.92,
+      "volume": 3613437,
+      "turnover_cr": 141.98,
+      "vol_change_1wk_pct": 14.51,
+      "vol_change_2wk_pct": 11.0
+    },
+    {
+      "symbol": "HONASA",
+      "name": "Honasa Consumer Limited",
+      "last_price": 502.6,
+      "change_pct": 4.83,
+      "volume": 15707978,
+      "turnover_cr": 776.29,
+      "vol_change_1wk_pct": 14.06,
+      "vol_change_2wk_pct": 16.62
+    },
+    {
+      "symbol": "BFUTILITIE",
+      "name": "BF Utilities Limited",
+      "last_price": 537.9,
+      "change_pct": -4,
+      "volume": 465137,
+      "turnover_cr": 24.88,
+      "vol_change_1wk_pct": 12.23,
+      "vol_change_2wk_pct": 11.16
+    },
+    {
+      "symbol": "RELIABLE",
+      "name": "Reliable Data Services Limited",
+      "last_price": 140.09,
+      "change_pct": -2.36,
+      "volume": 275632,
+      "turnover_cr": 3.93,
+      "vol_change_1wk_pct": 12.14,
+      "vol_change_2wk_pct": 10.18
     },
     {
       "symbol": "LPDC",
       "name": "Landmark Property Development Company Limited",
-      "last_price": 8.26,
-      "change_pct": 9.26,
-      "volume": 1258490,
-      "turnover_cr": 1.09,
-      "vol_change_1wk_pct": 11.03,
-      "vol_change_2wk_pct": 16.3
+      "last_price": 8.14,
+      "change_pct": 7.67,
+      "volume": 1326854,
+      "turnover_cr": 1.14,
+      "vol_change_1wk_pct": 11.63,
+      "vol_change_2wk_pct": 17.18
     },
     {
-      "symbol": "TPHQ",
-      "name": "Teamo Productions HQ Limited",
-      "last_price": 0.49,
-      "change_pct": 19.51,
-      "volume": 8738366,
-      "turnover_cr": 0.41,
-      "vol_change_1wk_pct": 9.43,
-      "vol_change_2wk_pct": 8.24
+      "symbol": "MOTISONS",
+      "name": "Motisons Jewellers Limited",
+      "last_price": 16.63,
+      "change_pct": 13.75,
+      "volume": 293694856,
+      "turnover_cr": 470.79,
+      "vol_change_1wk_pct": 10.07,
+      "vol_change_2wk_pct": 13.69
     },
     {
-      "symbol": "TIIL",
-      "name": "Technocraft Industries (India) Limited",
-      "last_price": 3084,
-      "change_pct": 6.8,
-      "volume": 558140,
-      "turnover_cr": 176.84,
-      "vol_change_1wk_pct": 9.12,
-      "vol_change_2wk_pct": 15.33
+      "symbol": "TARSONS",
+      "name": "Tarsons Products Limited",
+      "last_price": 352.45,
+      "change_pct": 12.71,
+      "volume": 4347209,
+      "turnover_cr": 149.76,
+      "vol_change_1wk_pct": 9.82,
+      "vol_change_2wk_pct": 14.84
     },
     {
       "symbol": "SMLT",
       "name": "Sarthak Metals Limited",
       "last_price": 71.99,
       "change_pct": 5.95,
-      "volume": 42175,
-      "turnover_cr": 0.3,
-      "vol_change_1wk_pct": 9.01,
-      "vol_change_2wk_pct": 6.68
+      "volume": 45112,
+      "turnover_cr": 0.32,
+      "vol_change_1wk_pct": 9.64,
+      "vol_change_2wk_pct": 7.14
     },
     {
-      "symbol": "TVSSRICHAK",
-      "name": "TVS Srichakra Limited",
-      "last_price": 4557.9,
-      "change_pct": 14.09,
-      "volume": 210914,
-      "turnover_cr": 94.4,
-      "vol_change_1wk_pct": 8.66,
-      "vol_change_2wk_pct": 14.05
+      "symbol": "TIIL",
+      "name": "Technocraft Industries (India) Limited",
+      "last_price": 3089.6,
+      "change_pct": 7,
+      "volume": 580768,
+      "turnover_cr": 183.83,
+      "vol_change_1wk_pct": 9.49,
+      "vol_change_2wk_pct": 15.95
+    },
+    {
+      "symbol": "TPHQ",
+      "name": "Teamo Productions HQ Limited",
+      "last_price": 0.49,
+      "change_pct": 19.51,
+      "volume": 8790445,
+      "turnover_cr": 0.41,
+      "vol_change_1wk_pct": 9.49,
+      "vol_change_2wk_pct": 8.29
+    },
+    {
+      "symbol": "DREDGECORP",
+      "name": "Dredging Corporation of India Limited",
+      "last_price": 1161.2,
+      "change_pct": 9.09,
+      "volume": 1226971,
+      "turnover_cr": 142.19,
+      "vol_change_1wk_pct": 9.12,
+      "vol_change_2wk_pct": 7.56
     },
     {
       "symbol": "BI",
       "name": "Bilcare Limited",
       "last_price": 76.81,
       "change_pct": 20,
-      "volume": 111585,
-      "turnover_cr": 0.84,
-      "vol_change_1wk_pct": 8.25,
-      "vol_change_2wk_pct": 10.91
-    },
-    {
-      "symbol": "ZEEMEDIA",
-      "name": "Zee Media Corporation Limited",
-      "last_price": 9.34,
-      "change_pct": 8.86,
-      "volume": 37343922,
-      "turnover_cr": 34.92,
-      "vol_change_1wk_pct": 8.19,
-      "vol_change_2wk_pct": 8.64
-    },
-    {
-      "symbol": "DREDGECORP",
-      "name": "Dredging Corporation of India Limited",
-      "last_price": 1163.2,
-      "change_pct": 9.28,
-      "volume": 1094071,
-      "turnover_cr": 126.68,
-      "vol_change_1wk_pct": 8.13,
-      "vol_change_2wk_pct": 6.74
-    },
-    {
-      "symbol": "KOHINOOR",
-      "name": "Kohinoor Foods Limited",
-      "last_price": 26.57,
-      "change_pct": 15.02,
-      "volume": 293800,
-      "turnover_cr": 0.78,
-      "vol_change_1wk_pct": 7.81,
-      "vol_change_2wk_pct": 6.36
-    },
-    {
-      "symbol": "PRAJIND",
-      "name": "Praj Industries Limited",
-      "last_price": 336.5,
-      "change_pct": 4.65,
-      "volume": 5323834,
-      "turnover_cr": 181.28,
-      "vol_change_1wk_pct": 7.68,
-      "vol_change_2wk_pct": 7.06
-    },
-    {
-      "symbol": "MOTISONS",
-      "name": "Motisons Jewellers Limited",
-      "last_price": 16.21,
-      "change_pct": 10.88,
-      "volume": 217740285,
-      "turnover_cr": 347.3,
-      "vol_change_1wk_pct": 7.46,
-      "vol_change_2wk_pct": 10.15
-    },
-    {
-      "symbol": "MANALIPETC",
-      "name": "Manali Petrochemicals Limited",
-      "last_price": 69.42,
-      "change_pct": 0.86,
-      "volume": 3567519,
-      "turnover_cr": 25.49,
-      "vol_change_1wk_pct": 6.58,
-      "vol_change_2wk_pct": 8.42
+      "volume": 119486,
+      "turnover_cr": 0.9,
+      "vol_change_1wk_pct": 8.83,
+      "vol_change_2wk_pct": 11.68
     }
   ]
 }
