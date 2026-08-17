@@ -1,210 +1,230 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-17T04:48:51Z",
+    "last_updated": "2026-08-17T05:24:18Z",
     "status": "healthy",
-    "record_count": 20
+    "record_count": 22
   },
   "data": [
     {
       "symbol": "PURVA",
       "name": "Puravankara Limited",
-      "last_price": 242.01,
-      "change_pct": 10.91,
-      "volume": 11117393,
-      "turnover_cr": 268.92,
-      "vol_change_1wk_pct": 67.81,
-      "vol_change_2wk_pct": 75.14
+      "last_price": 235.45,
+      "change_pct": 7.9,
+      "volume": 14588341,
+      "turnover_cr": 351.1,
+      "vol_change_1wk_pct": 88.99,
+      "vol_change_2wk_pct": 98.6
     },
     {
       "symbol": "GROWWCHEM",
       "name": "Groww Mutual Fund - Groww Nifty Chemicals ETF",
-      "last_price": 30.74,
-      "change_pct": -0.29,
-      "volume": 2332618,
-      "turnover_cr": 7.17,
-      "vol_change_1wk_pct": 55.16,
-      "vol_change_2wk_pct": 4.22
-    },
-    {
-      "symbol": "UFLEX",
-      "name": "UFLEX Limited",
-      "last_price": 569.2,
-      "change_pct": 16.54,
-      "volume": 2084233,
-      "turnover_cr": 118.31,
-      "vol_change_1wk_pct": 23.49,
-      "vol_change_2wk_pct": 21.23
-    },
-    {
-      "symbol": "MODTHREAD",
-      "name": "Modern Threads (India) Limited",
-      "last_price": 53.16,
-      "change_pct": 10.11,
-      "volume": 18341,
-      "turnover_cr": 0.1,
-      "vol_change_1wk_pct": 22.95,
-      "vol_change_2wk_pct": 21.69
+      "last_price": 30.71,
+      "change_pct": -0.39,
+      "volume": 3580258,
+      "turnover_cr": 10.99,
+      "vol_change_1wk_pct": 84.66,
+      "vol_change_2wk_pct": 6.47
     },
     {
       "symbol": "EXPLEOSOL",
       "name": "Expleo Solutions Limited",
-      "last_price": 923.9,
-      "change_pct": 13.23,
-      "volume": 422222,
-      "turnover_cr": 38.07,
-      "vol_change_1wk_pct": 17.83,
-      "vol_change_2wk_pct": 14.27
+      "last_price": 942.05,
+      "change_pct": 15.45,
+      "volume": 1402950,
+      "turnover_cr": 128.73,
+      "vol_change_1wk_pct": 59.24,
+      "vol_change_2wk_pct": 47.42
+    },
+    {
+      "symbol": "MODTHREAD",
+      "name": "Modern Threads (India) Limited",
+      "last_price": 56.25,
+      "change_pct": 16.51,
+      "volume": 38751,
+      "turnover_cr": 0.21,
+      "vol_change_1wk_pct": 48.5,
+      "vol_change_2wk_pct": 45.83
+    },
+    {
+      "symbol": "UFLEX",
+      "name": "UFLEX Limited",
+      "last_price": 582,
+      "change_pct": 19.16,
+      "volume": 3037563,
+      "turnover_cr": 173.57,
+      "vol_change_1wk_pct": 34.23,
+      "vol_change_2wk_pct": 30.94
     },
     {
       "symbol": "ZAGGLE",
       "name": "Zaggle Prepaid Ocean Services Limited",
       "last_price": 160.48,
       "change_pct": -20,
-      "volume": 9216534,
-      "turnover_cr": 151.39,
-      "vol_change_1wk_pct": 16.64,
-      "vol_change_2wk_pct": 16.96
+      "volume": 9332370,
+      "turnover_cr": 153.26,
+      "vol_change_1wk_pct": 16.85,
+      "vol_change_2wk_pct": 17.17
     },
     {
       "symbol": "METROGLOBL",
       "name": "Metroglobal Limited",
-      "last_price": 158.59,
-      "change_pct": 8.54,
-      "volume": 74423,
-      "turnover_cr": 1.17,
-      "vol_change_1wk_pct": 12.8,
-      "vol_change_2wk_pct": 20.8
+      "last_price": 158.6,
+      "change_pct": 8.55,
+      "volume": 78975,
+      "turnover_cr": 1.25,
+      "vol_change_1wk_pct": 13.58,
+      "vol_change_2wk_pct": 22.07
+    },
+    {
+      "symbol": "PWL",
+      "name": "Physicswallah Limited",
+      "last_price": 126.79,
+      "change_pct": 8.26,
+      "volume": 55234889,
+      "turnover_cr": 687.62,
+      "vol_change_1wk_pct": 11.76,
+      "vol_change_2wk_pct": 11.25
     },
     {
       "symbol": "BI",
       "name": "Bilcare Limited",
       "last_price": 92.17,
       "change_pct": 20,
-      "volume": 431561,
-      "turnover_cr": 3.81,
-      "vol_change_1wk_pct": 11.31,
-      "vol_change_2wk_pct": 18.92
+      "volume": 433255,
+      "turnover_cr": 3.83,
+      "vol_change_1wk_pct": 11.35,
+      "vol_change_2wk_pct": 18.99
+    },
+    {
+      "symbol": "OSWALSEEDS",
+      "name": "ShreeOswal Seeds And Chemicals Limited",
+      "last_price": 14.03,
+      "change_pct": 15.47,
+      "volume": 2472872,
+      "turnover_cr": 3.46,
+      "vol_change_1wk_pct": 11.28,
+      "vol_change_2wk_pct": 19.92
+    },
+    {
+      "symbol": "PAKKA",
+      "name": "PAKKA LIMITED",
+      "last_price": 86.72,
+      "change_pct": 16.56,
+      "volume": 474655,
+      "turnover_cr": 3.96,
+      "vol_change_1wk_pct": 10.65,
+      "vol_change_2wk_pct": 12.02
+    },
+    {
+      "symbol": "PONNIERODE",
+      "name": "Ponni Sugars (Erode) Limited",
+      "last_price": 349.05,
+      "change_pct": 1.09,
+      "volume": 333360,
+      "turnover_cr": 11.67,
+      "vol_change_1wk_pct": 9.71,
+      "vol_change_2wk_pct": 10.59
+    },
+    {
+      "symbol": "KIRLFER",
+      "name": "Kirloskar Ferrous Industries Limited",
+      "last_price": 432.5,
+      "change_pct": 0.05,
+      "volume": 593616,
+      "turnover_cr": 25.57,
+      "vol_change_1wk_pct": 9.22,
+      "vol_change_2wk_pct": 4.05
     },
     {
       "symbol": "GILT5BETA",
       "name": "UTI Mutual Fund - UTI Nifty 5 yr Benchmark G-Sec ETF",
       "last_price": 67.28,
       "change_pct": 0.61,
-      "volume": 10881,
+      "volume": 10882,
       "turnover_cr": 0.07,
       "vol_change_1wk_pct": 8.83,
       "vol_change_2wk_pct": 10.62
     },
     {
-      "symbol": "PWL",
-      "name": "Physicswallah Limited",
-      "last_price": 122.94,
-      "change_pct": 4.97,
-      "volume": 40638454,
-      "turnover_cr": 506.48,
-      "vol_change_1wk_pct": 8.65,
-      "vol_change_2wk_pct": 8.28
-    },
-    {
-      "symbol": "OSWALSEEDS",
-      "name": "ShreeOswal Seeds And Chemicals Limited",
-      "last_price": 13.8,
-      "change_pct": 13.58,
-      "volume": 1841635,
-      "turnover_cr": 2.57,
-      "vol_change_1wk_pct": 8.4,
-      "vol_change_2wk_pct": 14.84
-    },
-    {
-      "symbol": "PTCIL",
-      "name": "PTC Industries Limited",
-      "last_price": 19285,
-      "change_pct": 1.23,
-      "volume": 70236,
-      "turnover_cr": 137.74,
-      "vol_change_1wk_pct": 6.1,
-      "vol_change_2wk_pct": 3.6
-    },
-    {
       "symbol": "IPCALAB",
       "name": "IPCA Laboratories Limited",
-      "last_price": 1826.8,
-      "change_pct": 5.34,
-      "volume": 3265530,
-      "turnover_cr": 615.6,
-      "vol_change_1wk_pct": 5.73,
-      "vol_change_2wk_pct": 8.7
-    },
-    {
-      "symbol": "PAKKA",
-      "name": "PAKKA LIMITED",
-      "last_price": 82.41,
-      "change_pct": 10.77,
-      "volume": 241080,
-      "turnover_cr": 1.97,
-      "vol_change_1wk_pct": 5.41,
-      "vol_change_2wk_pct": 6.11
-    },
-    {
-      "symbol": "KMEW",
-      "name": "Knowledge Marine & Engineering Works Limited",
-      "last_price": 2797,
-      "change_pct": 2.42,
-      "volume": 416950,
-      "turnover_cr": 119.64,
-      "vol_change_1wk_pct": 5.11,
-      "vol_change_2wk_pct": 5.99
+      "last_price": 1836,
+      "change_pct": 5.87,
+      "volume": 3967700,
+      "turnover_cr": 744.68,
+      "vol_change_1wk_pct": 6.97,
+      "vol_change_2wk_pct": 10.58
     },
     {
       "symbol": "RUBICON",
       "name": "Rubicon Research Limited",
-      "last_price": 1716.6,
-      "change_pct": 6.02,
-      "volume": 1477295,
-      "turnover_cr": 248.68,
-      "vol_change_1wk_pct": 5.05,
-      "vol_change_2wk_pct": 6.52
+      "last_price": 1733.5,
+      "change_pct": 7.07,
+      "volume": 1994315,
+      "turnover_cr": 338.6,
+      "vol_change_1wk_pct": 6.82,
+      "vol_change_2wk_pct": 8.8
+    },
+    {
+      "symbol": "PTCIL",
+      "name": "PTC Industries Limited",
+      "last_price": 19269,
+      "change_pct": 1.15,
+      "volume": 77260,
+      "turnover_cr": 151.21,
+      "vol_change_1wk_pct": 6.71,
+      "vol_change_2wk_pct": 3.96
     },
     {
       "symbol": "DCAL",
       "name": "Dishman Carbogen Amcis Limited",
-      "last_price": 175.9,
-      "change_pct": -7.74,
-      "volume": 1409587,
-      "turnover_cr": 24.48,
-      "vol_change_1wk_pct": 4.61,
-      "vol_change_2wk_pct": 5.44
+      "last_price": 175.94,
+      "change_pct": -7.72,
+      "volume": 1704978,
+      "turnover_cr": 29.66,
+      "vol_change_1wk_pct": 5.57,
+      "vol_change_2wk_pct": 6.58
+    },
+    {
+      "symbol": "KMEW",
+      "name": "Knowledge Marine & Engineering Works Limited",
+      "last_price": 2812,
+      "change_pct": 2.97,
+      "volume": 450611,
+      "turnover_cr": 129.05,
+      "vol_change_1wk_pct": 5.53,
+      "vol_change_2wk_pct": 6.47
+    },
+    {
+      "symbol": "GKSL",
+      "name": "Gujarat Kidney And Super Speciality Limited",
+      "last_price": 147.06,
+      "change_pct": 7.79,
+      "volume": 2037003,
+      "turnover_cr": 29.79,
+      "vol_change_1wk_pct": 5.35,
+      "vol_change_2wk_pct": 5.34
     },
     {
       "symbol": "HEADSUP",
       "name": "Heads UP Ventures Limited",
-      "last_price": 6.7,
-      "change_pct": -3.32,
-      "volume": 30024,
+      "last_price": 6.6,
+      "change_pct": -4.76,
+      "volume": 35615,
       "turnover_cr": 0.02,
-      "vol_change_1wk_pct": 4.22,
-      "vol_change_2wk_pct": 2.26
+      "vol_change_1wk_pct": 5.0,
+      "vol_change_2wk_pct": 2.68
     },
     {
-      "symbol": "GALAXYSURF",
-      "name": "Galaxy Surfactants Limited",
-      "last_price": 2482,
-      "change_pct": -1.05,
-      "volume": 462161,
-      "turnover_cr": 115.58,
-      "vol_change_1wk_pct": 3.34,
-      "vol_change_2wk_pct": 5.86
-    },
-    {
-      "symbol": "KRN",
-      "name": "KRN Heat Exchanger and Refrigeration Limited",
-      "last_price": 1541.7,
-      "change_pct": 5,
-      "volume": 714813,
-      "turnover_cr": 108.93,
-      "vol_change_1wk_pct": 3.34,
-      "vol_change_2wk_pct": 5.52
+      "symbol": "KHAICHEM",
+      "name": "Khaitan Chemicals & Fertilizers Limited",
+      "last_price": 56.7,
+      "change_pct": 8.27,
+      "volume": 549071,
+      "turnover_cr": 3.05,
+      "vol_change_1wk_pct": 4.64,
+      "vol_change_2wk_pct": 3.2
     }
   ]
 }
