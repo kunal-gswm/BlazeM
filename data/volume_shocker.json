@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-18T07:21:58Z",
+    "last_updated": "2026-08-18T08:04:39Z",
     "status": "healthy",
-    "record_count": 20
+    "record_count": 19
   },
   "data": [
     {
@@ -11,110 +11,130 @@
       "name": "National Standard (India) Limited",
       "last_price": 134,
       "change_pct": -5,
-      "volume": 328439,
-      "turnover_cr": 4.68,
-      "vol_change_1wk_pct": 145.15,
-      "vol_change_2wk_pct": 31.21
-    },
-    {
-      "symbol": "ETHOSLTD",
-      "name": "Ethos Limited",
-      "last_price": 2912.2,
-      "change_pct": 4.43,
-      "volume": 749044,
-      "turnover_cr": 219.56,
-      "vol_change_1wk_pct": 39.1,
-      "vol_change_2wk_pct": 3.48
-    },
-    {
-      "symbol": "PRABHA",
-      "name": "Prabha Energy Limited",
-      "last_price": 186.5,
-      "change_pct": 14.15,
-      "volume": 2189049,
-      "turnover_cr": 40.5,
-      "vol_change_1wk_pct": 34.92,
-      "vol_change_2wk_pct": 39.81
-    },
-    {
-      "symbol": "HINDADH",
-      "name": "Hindustan Adhesives Limited",
-      "last_price": 393,
-      "change_pct": 17.12,
-      "volume": 216335,
-      "turnover_cr": 8.51,
-      "vol_change_1wk_pct": 33.47,
-      "vol_change_2wk_pct": 33.47
+      "volume": 331234,
+      "turnover_cr": 4.72,
+      "vol_change_1wk_pct": 146.38,
+      "vol_change_2wk_pct": 31.48
     },
     {
       "symbol": "JINDRILL",
       "name": "Jindal Drilling And Industries Limited",
-      "last_price": 652.65,
-      "change_pct": 11.34,
-      "volume": 5119010,
-      "turnover_cr": 328.72,
-      "vol_change_1wk_pct": 33.22,
-      "vol_change_2wk_pct": 27.14
+      "last_price": 671.05,
+      "change_pct": 14.47,
+      "volume": 8765313,
+      "turnover_cr": 570.85,
+      "vol_change_1wk_pct": 56.88,
+      "vol_change_2wk_pct": 46.47
+    },
+    {
+      "symbol": "PRABHA",
+      "name": "Prabha Energy Limited",
+      "last_price": 190.22,
+      "change_pct": 16.43,
+      "volume": 2628264,
+      "turnover_cr": 48.81,
+      "vol_change_1wk_pct": 41.93,
+      "vol_change_2wk_pct": 47.8
+    },
+    {
+      "symbol": "ETHOSLTD",
+      "name": "Ethos Limited",
+      "last_price": 2901.8,
+      "change_pct": 4.06,
+      "volume": 777240,
+      "turnover_cr": 227.74,
+      "vol_change_1wk_pct": 40.57,
+      "vol_change_2wk_pct": 3.61
+    },
+    {
+      "symbol": "HINDADH",
+      "name": "Hindustan Adhesives Limited",
+      "last_price": 383.2,
+      "change_pct": 14.2,
+      "volume": 223712,
+      "turnover_cr": 8.8,
+      "vol_change_1wk_pct": 34.61,
+      "vol_change_2wk_pct": 34.61
     },
     {
       "symbol": "SUBEXLTD",
       "name": "Subex Limited",
-      "last_price": 16.34,
-      "change_pct": 15.8,
-      "volume": 31722978,
-      "turnover_cr": 51.58,
-      "vol_change_1wk_pct": 29.43,
-      "vol_change_2wk_pct": 19.22
+      "last_price": 16.45,
+      "change_pct": 16.58,
+      "volume": 33610783,
+      "turnover_cr": 54.68,
+      "vol_change_1wk_pct": 31.19,
+      "vol_change_2wk_pct": 20.37
     },
     {
       "symbol": "SHAHALLOYS",
       "name": "Shah Alloys Limited",
-      "last_price": 82.22,
-      "change_pct": 9.79,
-      "volume": 604106,
-      "turnover_cr": 5.04,
-      "vol_change_1wk_pct": 26.47,
-      "vol_change_2wk_pct": 41.31
-    },
-    {
-      "symbol": "CONS",
-      "name": "Kotak Nifty India Consumption ETF",
-      "last_price": 12.41,
-      "change_pct": -0.8,
-      "volume": 481285,
-      "turnover_cr": 0.6,
-      "vol_change_1wk_pct": 22.74,
-      "vol_change_2wk_pct": 16.2
+      "last_price": 82.4,
+      "change_pct": 10.03,
+      "volume": 609550,
+      "turnover_cr": 5.09,
+      "vol_change_1wk_pct": 26.71,
+      "vol_change_2wk_pct": 41.69
     },
     {
       "symbol": "ICIL",
       "name": "Indo Count Industries Limited",
-      "last_price": 453.05,
-      "change_pct": 16.56,
-      "volume": 17905877,
-      "turnover_cr": 788.57,
-      "vol_change_1wk_pct": 21.84,
-      "vol_change_2wk_pct": 28.81
+      "last_price": 457.1,
+      "change_pct": 17.6,
+      "volume": 19499927,
+      "turnover_cr": 861.1,
+      "vol_change_1wk_pct": 23.78,
+      "vol_change_2wk_pct": 31.38
+    },
+    {
+      "symbol": "CONS",
+      "name": "Kotak Nifty India Consumption ETF",
+      "last_price": 12.4,
+      "change_pct": -0.88,
+      "volume": 482708,
+      "turnover_cr": 0.6,
+      "vol_change_1wk_pct": 22.81,
+      "vol_change_2wk_pct": 16.24
     },
     {
       "symbol": "ABCOTS",
       "name": "A B Cotspin India Limited",
-      "last_price": 210.25,
-      "change_pct": 5.3,
-      "volume": 108070,
-      "turnover_cr": 2.33,
-      "vol_change_1wk_pct": 15.22,
-      "vol_change_2wk_pct": 17.11
+      "last_price": 214.27,
+      "change_pct": 7.32,
+      "volume": 116545,
+      "turnover_cr": 2.51,
+      "vol_change_1wk_pct": 16.41,
+      "vol_change_2wk_pct": 18.45
     },
     {
       "symbol": "NITINSPIN",
       "name": "Nitin Spinners Limited",
-      "last_price": 601.15,
-      "change_pct": 8.56,
-      "volume": 2534403,
-      "turnover_cr": 150.88,
-      "vol_change_1wk_pct": 12.66,
-      "vol_change_2wk_pct": 15.51
+      "last_price": 602.7,
+      "change_pct": 8.84,
+      "volume": 3029340,
+      "turnover_cr": 180.74,
+      "vol_change_1wk_pct": 15.13,
+      "vol_change_2wk_pct": 18.54
+    },
+    {
+      "symbol": "SOUTHWEST",
+      "name": "South West Pinnacle Exploration Limited",
+      "last_price": 231.63,
+      "change_pct": 2.36,
+      "volume": 1586726,
+      "turnover_cr": 37.32,
+      "vol_change_1wk_pct": 13.7,
+      "vol_change_2wk_pct": 15.53
+    },
+    {
+      "symbol": "SUPTANERY",
+      "name": "Super Tannery Limited",
+      "last_price": 8.05,
+      "change_pct": 17.86,
+      "volume": 295910,
+      "turnover_cr": 0.23,
+      "vol_change_1wk_pct": 13.37,
+      "vol_change_2wk_pct": 13.37
     },
     {
       "symbol": "INNOVANA",
@@ -127,84 +147,54 @@
       "vol_change_2wk_pct": 12.79
     },
     {
-      "symbol": "SOUTHWEST",
-      "name": "South West Pinnacle Exploration Limited",
-      "last_price": 230.49,
-      "change_pct": 1.86,
-      "volume": 1350665,
-      "turnover_cr": 31.85,
-      "vol_change_1wk_pct": 11.66,
-      "vol_change_2wk_pct": 13.22
+      "symbol": "AZADIND",
+      "name": "Azad India Mobility Limited",
+      "last_price": 92.5,
+      "change_pct": 1.11,
+      "volume": 27639,
+      "turnover_cr": 0.25,
+      "vol_change_1wk_pct": 11.63,
+      "vol_change_2wk_pct": 11.63
     },
     {
       "symbol": "TPHQ",
       "name": "Teamo Productions HQ Limited",
       "last_price": 0.63,
       "change_pct": 8.62,
-      "volume": 32429575,
-      "turnover_cr": 1.91,
-      "vol_change_1wk_pct": 10.92,
-      "vol_change_2wk_pct": 15.32
+      "volume": 33054045,
+      "turnover_cr": 1.95,
+      "vol_change_1wk_pct": 11.13,
+      "vol_change_2wk_pct": 15.62
     },
     {
       "symbol": "AHLUCONT",
       "name": "Ahluwalia Contracts (India) Limited",
-      "last_price": 719.15,
-      "change_pct": -9.41,
-      "volume": 365996,
-      "turnover_cr": 26.77,
-      "vol_change_1wk_pct": 10.07,
-      "vol_change_2wk_pct": 13.08
-    },
-    {
-      "symbol": "REGAAL",
-      "name": "Regaal Resources Limited",
-      "last_price": 98.99,
-      "change_pct": 9.43,
-      "volume": 1941372,
-      "turnover_cr": 18.9,
-      "vol_change_1wk_pct": 9.37,
-      "vol_change_2wk_pct": 10.07
-    },
-    {
-      "symbol": "AZADIND",
-      "name": "Azad India Mobility Limited",
-      "last_price": 93.64,
-      "change_pct": 2.36,
-      "volume": 21883,
-      "turnover_cr": 0.2,
-      "vol_change_1wk_pct": 9.21,
-      "vol_change_2wk_pct": 9.21
-    },
-    {
-      "symbol": "SUPTANERY",
-      "name": "Super Tannery Limited",
-      "last_price": 7.98,
-      "change_pct": 16.84,
-      "volume": 198748,
-      "turnover_cr": 0.15,
-      "vol_change_1wk_pct": 8.98,
-      "vol_change_2wk_pct": 8.98
+      "last_price": 719,
+      "change_pct": -9.43,
+      "volume": 387214,
+      "turnover_cr": 28.3,
+      "vol_change_1wk_pct": 10.65,
+      "vol_change_2wk_pct": 13.84
     },
     {
       "symbol": "TIINDIA",
       "name": "Tube Investments of India Limited",
-      "last_price": 2966.1,
-      "change_pct": 8.2,
-      "volume": 2959705,
-      "turnover_cr": 864.48,
-      "vol_change_1wk_pct": 8.8,
-      "vol_change_2wk_pct": 9.24
+      "last_price": 2958,
+      "change_pct": 7.9,
+      "volume": 3440818,
+      "turnover_cr": 1006.7,
+      "vol_change_1wk_pct": 10.22,
+      "vol_change_2wk_pct": 10.74
     },
     {
-      "symbol": "MOGSEC",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal 5 Year G Sec ETF - Growth",
-      "last_price": 65.32,
-      "change_pct": -0.27,
-      "volume": 35318,
-      "turnover_cr": 0.23,
-      "vol_change_1wk_pct": 8.53,
-      "vol_change_2wk_pct": 0.25
+      "symbol": "REGAAL",
+      "name": "Regaal Resources Limited",
+      "last_price": 98.65,
+      "change_pct": 9.05,
+      "volume": 2108410,
+      "turnover_cr": 20.56,
+      "vol_change_1wk_pct": 10.17,
+      "vol_change_2wk_pct": 10.94
     }
   ]
 }
