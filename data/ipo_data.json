@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-17T11:02:04Z",
+    "last_updated": "2026-08-18T04:40:27Z",
     "status": "healthy",
-    "record_count": 9
+    "record_count": 10
   },
   "data": [
     {
@@ -17,15 +17,36 @@
       "issue_close": "2026-08-27",
       "allotment_date": "2026-08-28",
       "listing_date": "2026-09-01",
-      "gmp": 30.0,
-      "gmp_percent": "21.74%",
+      "gmp": 31.0,
+      "gmp_percent": "22.46%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/skyways-air-ipo/1820/",
-      "scraped_at": "2026-08-17T11:01:44.772384+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878491+00:00Z"
+    },
+    {
+      "issue_name": "Augmont Enterprises",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "788",
+      "lot_size": "19",
+      "issue_size": "₹825.00 Cr",
+      "issue_open": "2026-08-21",
+      "issue_close": "2026-08-25",
+      "allotment_date": "2026-08-26",
+      "listing_date": "2026-08-31",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/augmont-enterprises-ipo/1938/",
+      "scraped_at": "2026-08-18T04:40:09.878582+00:00Z"
     },
     {
       "issue_name": "Tempsens Instruments (India)",
@@ -38,15 +59,15 @@
       "issue_close": "2026-08-24",
       "allotment_date": "2026-08-25",
       "listing_date": "2026-08-28",
-      "gmp": 132.0,
-      "gmp_percent": "44.00%",
+      "gmp": 154.0,
+      "gmp_percent": "51.33%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/tempsens-instruments-india-ipo/1934/",
-      "scraped_at": "2026-08-17T11:01:44.772513+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878645+00:00Z"
     },
     {
       "issue_name": "Gaja Alternative Asset Management",
@@ -59,36 +80,15 @@
       "issue_close": "2026-08-21",
       "allotment_date": "2026-08-24",
       "listing_date": "2026-08-26",
-      "gmp": 9.1,
-      "gmp_percent": "5.69%",
+      "gmp": 7.0,
+      "gmp_percent": "4.38%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/gaja-alternative-asset-management-ipo/1828/",
-      "scraped_at": "2026-08-17T11:01:44.772615+00:00Z"
-    },
-    {
-      "issue_name": "Shankesh Jewellers",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "93",
-      "lot_size": "160",
-      "issue_size": "₹367.18 Cr",
-      "issue_open": "2026-08-18",
-      "issue_close": "2026-08-20",
-      "allotment_date": "2026-08-21",
-      "listing_date": "2026-08-25",
-      "gmp": 3.0,
-      "gmp_percent": "3.23%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/shankesh-jewellers-ipo/1932/",
-      "scraped_at": "2026-08-17T11:01:44.772711+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878707+00:00Z"
     },
     {
       "issue_name": "Sunshine Pictures",
@@ -101,15 +101,36 @@
       "issue_close": "2026-08-20",
       "allotment_date": "2026-08-21",
       "listing_date": "2026-08-25",
-      "gmp": 62.0,
-      "gmp_percent": "17.22%",
+      "gmp": 75.0,
+      "gmp_percent": "20.83%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sunshine-pictures-ipo/1612/",
-      "scraped_at": "2026-08-17T11:01:44.772815+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878768+00:00Z"
+    },
+    {
+      "issue_name": "Shankesh Jewellers",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "93",
+      "lot_size": "160",
+      "issue_size": "₹367.18 Cr",
+      "issue_open": "2026-08-18",
+      "issue_close": "2026-08-20",
+      "allotment_date": "2026-08-21",
+      "listing_date": "2026-08-25",
+      "gmp": 2.0,
+      "gmp_percent": "2.15%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/shankesh-jewellers-ipo/1932/",
+      "scraped_at": "2026-08-18T04:40:09.878824+00:00Z"
     },
     {
       "issue_name": "Horizon Industrial Parks",
@@ -126,11 +147,11 @@
       "gmp_percent": "2.83%",
       "subscription_qib": "0.19x",
       "subscription_nii": "0.03x",
-      "subscription_retail": "0.20x",
+      "subscription_retail": "0.22x",
       "subscription_total": "0.15x",
-      "subscription_applications": "27,066",
+      "subscription_applications": "30,886",
       "detail_url": "https://www.investorgain.com/gmp/horizon-industrial-parks-ipo/2080/",
-      "scraped_at": "2026-08-17T11:01:44.772911+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878885+00:00Z"
     },
     {
       "issue_name": "Lalithaa Jewellery Mart",
@@ -143,15 +164,15 @@
       "issue_close": "2026-08-19",
       "allotment_date": "2026-08-20",
       "listing_date": "2026-08-24",
-      "gmp": 29.0,
-      "gmp_percent": "14.43%",
+      "gmp": 30.0,
+      "gmp_percent": "14.93%",
       "subscription_qib": "0.71x",
-      "subscription_nii": "0.62x",
-      "subscription_retail": "0.76x",
-      "subscription_total": "0.72x",
-      "subscription_applications": "2,29,932",
+      "subscription_nii": "0.67x",
+      "subscription_retail": "0.85x",
+      "subscription_total": "0.77x",
+      "subscription_applications": "2,62,772",
       "detail_url": "https://www.investorgain.com/gmp/lalithaa-jewellery-mart-ipo/1799/",
-      "scraped_at": "2026-08-17T11:01:44.773066+00:00Z"
+      "scraped_at": "2026-08-18T04:40:09.878949+00:00Z"
     },
     {
       "issue_name": "Skyways Air Services Ltd.",
@@ -172,7 +193,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
-      "scraped_at": "2026-08-17T11:01:49.744718+00:00Z"
+      "scraped_at": "2026-08-18T04:40:14.522846+00:00Z"
     },
     {
       "issue_name": "Tempsens Instruments (India) Ltd.",
@@ -193,7 +214,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
-      "scraped_at": "2026-08-17T11:01:49.744791+00:00Z"
+      "scraped_at": "2026-08-18T04:40:14.522938+00:00Z"
     }
   ]
 }
