@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-08-18T08:04:32Z",
+    "last_updated": "2026-08-18T08:52:09Z",
     "status": "healthy",
     "record_count": 10
   },
   "data": [
     {
       "symbol": "NIFTY AUTO",
-      "lastPrice": 29333.15,
-      "percentChange": 0.53,
-      "change": 155.05,
+      "lastPrice": 29347.15,
+      "percentChange": 0.58,
+      "change": 169.05,
       "status": "up"
     },
     {
       "symbol": "NIFTY MEDIA",
-      "lastPrice": 1602.25,
-      "percentChange": 0.41,
-      "change": 6.5,
+      "lastPrice": 1604.2,
+      "percentChange": 0.53,
+      "change": 8.45,
       "status": "up"
     },
     {
       "symbol": "NIFTY PHARMA",
-      "lastPrice": 26403.55,
-      "percentChange": 0.24,
-      "change": 62,
+      "lastPrice": 26397.2,
+      "percentChange": 0.21,
+      "change": 55.65,
       "status": "up"
     },
     {
       "symbol": "NIFTY PVT BANK",
-      "lastPrice": 27254.7,
-      "percentChange": -0.21,
-      "change": -56.35,
+      "lastPrice": 27289.25,
+      "percentChange": -0.08,
+      "change": -21.8,
       "status": "down"
     },
     {
       "symbol": "NIFTY BANK",
-      "lastPrice": 57318,
-      "percentChange": -0.31,
-      "change": -179.8,
+      "lastPrice": 57332.85,
+      "percentChange": -0.29,
+      "change": -164.95,
       "status": "down"
     },
     {
       "symbol": "NIFTY METAL",
-      "lastPrice": 13045.2,
-      "percentChange": -0.45,
-      "change": -59.4,
+      "lastPrice": 13036.65,
+      "percentChange": -0.52,
+      "change": -67.95,
       "status": "down"
     },
     {
       "symbol": "NIFTY FMCG",
-      "lastPrice": 47872.45,
-      "percentChange": -0.48,
-      "change": -232.6,
+      "lastPrice": 47788.6,
+      "percentChange": -0.66,
+      "change": -316.45,
       "status": "down"
     },
     {
       "symbol": "NIFTY PSU BANK",
-      "lastPrice": 8658.1,
-      "percentChange": -0.55,
-      "change": -48.1,
+      "lastPrice": 8643.45,
+      "percentChange": -0.72,
+      "change": -62.75,
       "status": "down"
     },
     {
       "symbol": "NIFTY REALTY",
-      "lastPrice": 902.9,
-      "percentChange": -0.64,
-      "change": -5.8,
+      "lastPrice": 900.45,
+      "percentChange": -0.91,
+      "change": -8.25,
       "status": "down"
     },
     {
       "symbol": "NIFTY IT",
-      "lastPrice": 30310.5,
-      "percentChange": -1.61,
-      "change": -497.3,
+      "lastPrice": 30234.15,
+      "percentChange": -1.86,
+      "change": -573.65,
       "status": "down"
     }
   ]
