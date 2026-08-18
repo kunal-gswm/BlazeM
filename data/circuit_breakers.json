@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-18T05:50:33Z",
+    "last_updated": "2026-08-18T06:23:39Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -10,12 +10,12 @@
       {
         "symbol": "MYSORPETRO",
         "name": "MYSORPETRO",
-        "last_price": 127.52,
+        "last_price": 124.87,
         "prev_close": 11.25,
-        "change": 20,
-        "change_pct": 1033.51,
-        "volume": 21579,
-        "turnover_cr": 0.27
+        "change": 17.5,
+        "change_pct": 1009.96,
+        "volume": 31687,
+        "turnover_cr": 0.39
       },
       {
         "symbol": "MILKYMIST",
@@ -24,8 +24,8 @@
         "prev_close": 140,
         "change": 10,
         "change_pct": 29.64,
-        "volume": 91118174,
-        "turnover_cr": 1578.99
+        "volume": 91412489,
+        "turnover_cr": 1584.27
       },
       {
         "symbol": "KAMANWALA",
@@ -34,130 +34,140 @@
         "prev_close": 13.55,
         "change": 20,
         "change_pct": 20,
-        "volume": 3230,
+        "volume": 3330,
         "turnover_cr": 0.01
       },
       {
         "symbol": "HINDADH",
         "name": "HINDADH",
-        "last_price": 390.6,
+        "last_price": 391.5,
         "prev_close": 335.55,
-        "change": 16.41,
-        "change_pct": 16.41,
-        "volume": 194504,
-        "turnover_cr": 7.65
-      },
-      {
-        "symbol": "PRABHA",
-        "name": "PRABHA",
-        "last_price": 186.24,
-        "prev_close": 163.38,
-        "change": 13.99,
-        "change_pct": 13.99,
-        "volume": 1077663,
-        "turnover_cr": 19.73
-      },
-      {
-        "symbol": "ICIL",
-        "name": "ICIL",
-        "last_price": 441.45,
-        "prev_close": 388.7,
-        "change": 13.57,
-        "change_pct": 13.57,
-        "volume": 8777729,
-        "turnover_cr": 379.13
+        "change": 16.67,
+        "change_pct": 16.67,
+        "volume": 204811,
+        "turnover_cr": 8.06
       },
       {
         "symbol": "SUPTANERY",
         "name": "SUPTANERY",
-        "last_price": 7.7,
+        "last_price": 7.89,
         "prev_close": 6.83,
-        "change": 12.74,
-        "change_pct": 12.74,
-        "volume": 67809,
-        "turnover_cr": 0.05
+        "change": 15.52,
+        "change_pct": 15.52,
+        "volume": 95636,
+        "turnover_cr": 0.07
+      },
+      {
+        "symbol": "ICIL",
+        "name": "ICIL",
+        "last_price": 447.75,
+        "prev_close": 388.7,
+        "change": 15.19,
+        "change_pct": 15.19,
+        "volume": 12744435,
+        "turnover_cr": 555.78
+      },
+      {
+        "symbol": "PRABHA",
+        "name": "PRABHA",
+        "last_price": 187.89,
+        "prev_close": 163.38,
+        "change": 15,
+        "change_pct": 15,
+        "volume": 1627458,
+        "turnover_cr": 30.0
       },
       {
         "symbol": "SUBEXLTD",
         "name": "SUBEXLTD",
-        "last_price": 15.85,
+        "last_price": 16.15,
         "prev_close": 14.11,
-        "change": 12.33,
-        "change_pct": 12.33,
-        "volume": 27592117,
-        "turnover_cr": 44.89
+        "change": 14.46,
+        "change_pct": 14.46,
+        "volume": 29424166,
+        "turnover_cr": 47.81
       },
       {
         "symbol": "SHAHALLOYS",
         "name": "SHAHALLOYS",
-        "last_price": 84,
+        "last_price": 83.2,
         "prev_close": 74.89,
-        "change": 12.16,
-        "change_pct": 12.16,
-        "volume": 515643,
-        "turnover_cr": 4.31
+        "change": 11.1,
+        "change_pct": 11.1,
+        "volume": 573856,
+        "turnover_cr": 4.8
       },
       {
-        "symbol": "ABCOTS",
-        "name": "ABCOTS",
-        "last_price": 220.72,
-        "prev_close": 199.66,
-        "change": 10.55,
-        "change_pct": 10.55,
-        "volume": 73720,
-        "turnover_cr": 1.59
+        "symbol": "SIGACHI",
+        "name": "SIGACHI",
+        "last_price": 29.07,
+        "prev_close": 26.35,
+        "change": 10.32,
+        "change_pct": 10.32,
+        "volume": 2294098,
+        "turnover_cr": 6.44
       }
     ],
     "lower_circuit": [
       {
         "symbol": "SHANTI-RE",
         "name": "SHANTI-RE",
-        "last_price": 25.9,
+        "last_price": 26.02,
         "prev_close": 32.92,
-        "change": -21.32,
-        "change_pct": -21.32,
-        "volume": 120055,
-        "turnover_cr": 0.4
-      },
-      {
-        "symbol": "HARDWYN",
-        "name": "HARDWYN",
-        "last_price": 9.48,
-        "prev_close": 10.95,
-        "change": -13.42,
-        "change_pct": -13.42,
-        "volume": 7101084,
-        "turnover_cr": 6.89
+        "change": -20.96,
+        "change_pct": -20.96,
+        "volume": 126194,
+        "turnover_cr": 0.42
       },
       {
         "symbol": "SUMEDHA",
         "name": "SUMEDHA",
-        "last_price": 39.2,
+        "last_price": 38.16,
         "prev_close": 45.01,
-        "change": -12.91,
-        "change_pct": -12.91,
-        "volume": 4648,
+        "change": -15.22,
+        "change_pct": -15.22,
+        "volume": 4688,
         "turnover_cr": 0.02
+      },
+      {
+        "symbol": "SHERVANI",
+        "name": "SHERVANI",
+        "last_price": 302.3,
+        "prev_close": 348.1,
+        "change": -13.16,
+        "change_pct": -13.16,
+        "volume": 25,
+        "turnover_cr": 0.0
+      },
+      {
+        "symbol": "HARDWYN",
+        "name": "HARDWYN",
+        "last_price": 9.58,
+        "prev_close": 10.95,
+        "change": -12.51,
+        "change_pct": -12.51,
+        "volume": 7367376,
+        "turnover_cr": 7.14
       },
       {
         "symbol": "KRISHIVAL",
         "name": "KRISHIVAL",
-        "last_price": 359.9,
+        "last_price": 357.75,
         "prev_close": 408.3,
-        "change": -11.85,
-        "change_pct": -11.85,
-        "volume": 115911,
-        "turnover_cr": 4.33
+        "change": -12.38,
+        "change_pct": -12.38,
+        "volume": 126281,
+        "turnover_cr": 4.7
       },
       {
         "symbol": "NELCO",
         "name": "NELCO",
-        "last_price": 958.9,
+        "last_price": 959.8,
         "prev_close": 1081.5,
-        "change": -11.34,
-        "change_pct": -11.34,
-        "volume": 1345524,
-        "turnover_cr": 132.39
+        "change": -11.25,
+        "change_pct": -11.25,
+        "volume": 1442397,
+        "turnover_cr": 141.7
       }
     ]
   }
