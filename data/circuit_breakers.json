@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-18T09:40:34Z",
+    "last_updated": "2026-08-18T10:04:00Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 140,
         "change": 10,
         "change_pct": 29.64,
-        "volume": 92180427,
-        "turnover_cr": 1598.22
+        "volume": 92265453,
+        "turnover_cr": 1599.79
       },
       {
         "symbol": "KAMANWALA",
@@ -24,7 +24,7 @@
         "prev_close": 13.55,
         "change": 20,
         "change_pct": 20,
-        "volume": 3645,
+        "volume": 4545,
         "turnover_cr": 0.01
       },
       {
@@ -34,148 +34,158 @@
         "prev_close": 6.83,
         "change": 19.91,
         "change_pct": 19.91,
-        "volume": 577028,
+        "volume": 578158,
         "turnover_cr": 0.46
       },
       {
         "symbol": "SUBEXLTD",
         "name": "SUBEXLTD",
-        "last_price": 16.48,
+        "last_price": 16.49,
         "prev_close": 14.11,
-        "change": 16.8,
-        "change_pct": 16.8,
-        "volume": 42812047,
-        "turnover_cr": 70.04
+        "change": 16.87,
+        "change_pct": 16.87,
+        "volume": 44567365,
+        "turnover_cr": 72.96
       },
       {
         "symbol": "PRABHA",
         "name": "PRABHA",
-        "last_price": 190.21,
+        "last_price": 189,
         "prev_close": 163.38,
-        "change": 16.42,
-        "change_pct": 16.42,
-        "volume": 4975544,
-        "turnover_cr": 94.33
-      },
-      {
-        "symbol": "AARNAV",
-        "name": "AARNAV",
-        "last_price": 35.9,
-        "prev_close": 31.23,
-        "change": 14.95,
-        "change_pct": 14.95,
-        "volume": 198265,
-        "turnover_cr": 0.67
+        "change": 15.68,
+        "change_pct": 15.68,
+        "volume": 5357086,
+        "turnover_cr": 101.68
       },
       {
         "symbol": "HINDADH",
         "name": "HINDADH",
-        "last_price": 385.5,
+        "last_price": 384.1,
         "prev_close": 335.55,
-        "change": 14.89,
-        "change_pct": 14.89,
-        "volume": 240133,
-        "turnover_cr": 9.43
+        "change": 14.47,
+        "change_pct": 14.47,
+        "volume": 246790,
+        "turnover_cr": 9.68
       },
       {
-        "symbol": "GENESYS-RE",
-        "name": "GENESYS-RE",
-        "last_price": 124,
-        "prev_close": 108.5,
-        "change": 14.29,
-        "change_pct": 14.29,
-        "volume": 277853,
-        "turnover_cr": 3.16
-      },
-      {
-        "symbol": "SIGACHI",
-        "name": "SIGACHI",
-        "last_price": 29.8,
-        "prev_close": 26.35,
-        "change": 13.09,
-        "change_pct": 13.09,
-        "volume": 9715718,
-        "turnover_cr": 28.3
-      },
-      {
-        "symbol": "ICIL",
-        "name": "ICIL",
-        "last_price": 437.65,
-        "prev_close": 388.7,
-        "change": 12.59,
-        "change_pct": 12.59,
-        "volume": 24293297,
-        "turnover_cr": 1075.78
+        "symbol": "AARNAV",
+        "name": "AARNAV",
+        "last_price": 35.74,
+        "prev_close": 31.23,
+        "change": 14.44,
+        "change_pct": 14.44,
+        "volume": 220800,
+        "turnover_cr": 0.75
       },
       {
         "symbol": "YASHO",
         "name": "YASHO",
-        "last_price": 4903,
+        "last_price": 4949,
         "prev_close": 4362.3,
-        "change": 12.39,
-        "change_pct": 12.39,
-        "volume": 211289,
-        "turnover_cr": 100.16
+        "change": 13.45,
+        "change_pct": 13.45,
+        "volume": 240190,
+        "turnover_cr": 114.38
       },
       {
-        "symbol": "BRIGHTBR",
-        "name": "BRIGHTBR",
-        "last_price": 260,
-        "prev_close": 231.6,
-        "change": 12.26,
-        "change_pct": 12.26,
-        "volume": 3504,
-        "turnover_cr": 0.09
+        "symbol": "ABINFRA",
+        "name": "ABINFRA",
+        "last_price": 12.88,
+        "prev_close": 11.36,
+        "change": 13.38,
+        "change_pct": 13.38,
+        "volume": 25170195,
+        "turnover_cr": 29.95
       },
       {
-        "symbol": "JINDRILL",
-        "name": "JINDRILL",
-        "last_price": 650.95,
-        "prev_close": 586.2,
-        "change": 11.05,
-        "change_pct": 11.05,
-        "volume": 16569275,
-        "turnover_cr": 1086.66
+        "symbol": "GENESYS-RE",
+        "name": "GENESYS-RE",
+        "last_price": 122,
+        "prev_close": 108.5,
+        "change": 12.44,
+        "change_pct": 12.44,
+        "volume": 335693,
+        "turnover_cr": 3.88
       },
       {
-        "symbol": "DHABRIYA",
-        "name": "DHABRIYA",
-        "last_price": 559.9,
-        "prev_close": 504.35,
-        "change": 11.01,
-        "change_pct": 11.01,
-        "volume": 116338,
-        "turnover_cr": 6.41
-      },
-      {
-        "symbol": "MACPOWER",
-        "name": "MACPOWER",
-        "last_price": 1965.5,
-        "prev_close": 1781.4,
-        "change": 10.33,
-        "change_pct": 10.33,
-        "volume": 172088,
-        "turnover_cr": 33.45
+        "symbol": "ICIL",
+        "name": "ICIL",
+        "last_price": 435.9,
+        "prev_close": 388.7,
+        "change": 12.14,
+        "change_pct": 12.14,
+        "volume": 25217469,
+        "turnover_cr": 1116.25
       },
       {
         "symbol": "INDSWFTLAB",
         "name": "INDSWFTLAB",
-        "last_price": 345.24,
+        "last_price": 350,
         "prev_close": 313.02,
-        "change": 10.29,
-        "change_pct": 10.29,
-        "volume": 4556541,
-        "turnover_cr": 153.37
+        "change": 11.81,
+        "change_pct": 11.81,
+        "volume": 5070304,
+        "turnover_cr": 171.24
       },
       {
-        "symbol": "LEENEE",
-        "name": "LEENEE",
-        "last_price": 7.78,
-        "prev_close": 7.06,
-        "change": 10.2,
-        "change_pct": 10.2,
-        "volume": 17537,
-        "turnover_cr": 0.01
+        "symbol": "SIGACHI",
+        "name": "SIGACHI",
+        "last_price": 29.4,
+        "prev_close": 26.35,
+        "change": 11.57,
+        "change_pct": 11.57,
+        "volume": 10330178,
+        "turnover_cr": 30.11
+      },
+      {
+        "symbol": "MACPOWER",
+        "name": "MACPOWER",
+        "last_price": 1981.1,
+        "prev_close": 1781.4,
+        "change": 11.21,
+        "change_pct": 11.21,
+        "volume": 190615,
+        "turnover_cr": 37.13
+      },
+      {
+        "symbol": "DHABRIYA",
+        "name": "DHABRIYA",
+        "last_price": 560.1,
+        "prev_close": 504.35,
+        "change": 11.05,
+        "change_pct": 11.05,
+        "volume": 122842,
+        "turnover_cr": 6.77
+      },
+      {
+        "symbol": "JINDRILL",
+        "name": "JINDRILL",
+        "last_price": 648.85,
+        "prev_close": 586.2,
+        "change": 10.69,
+        "change_pct": 10.69,
+        "volume": 17885600,
+        "turnover_cr": 1172.26
+      },
+      {
+        "symbol": "REGAAL",
+        "name": "REGAAL",
+        "last_price": 100,
+        "prev_close": 90.46,
+        "change": 10.55,
+        "change_pct": 10.55,
+        "volume": 2972532,
+        "turnover_cr": 29.18
+      },
+      {
+        "symbol": "PVP",
+        "name": "PVP",
+        "last_price": 40.8,
+        "prev_close": 37.01,
+        "change": 10.24,
+        "change_pct": 10.24,
+        "volume": 3327170,
+        "turnover_cr": 13.04
       },
       {
         "symbol": "PARAS",
@@ -184,8 +194,8 @@
         "prev_close": 1388.5,
         "change": 10,
         "change_pct": 10,
-        "volume": 5387293,
-        "turnover_cr": 796.85
+        "volume": 5405026,
+        "turnover_cr": 799.55
       },
       {
         "symbol": "DHOOTTRANS",
@@ -194,8 +204,8 @@
         "prev_close": 1187.05,
         "change": 10,
         "change_pct": 10,
-        "volume": 9289838,
-        "turnover_cr": 1152.69
+        "volume": 9337471,
+        "turnover_cr": 1158.91
       },
       {
         "symbol": "INDOMIM",
@@ -204,80 +214,70 @@
         "prev_close": 866.15,
         "change": 10,
         "change_pct": 10,
-        "volume": 10235790,
-        "turnover_cr": 965.05
+        "volume": 10245867,
+        "turnover_cr": 966.01
       }
     ],
     "lower_circuit": [
       {
         "symbol": "SHANTI-RE",
         "name": "SHANTI-RE",
-        "last_price": 27.07,
+        "last_price": 27.81,
         "prev_close": 32.92,
-        "change": -17.77,
-        "change_pct": -17.77,
-        "volume": 161772,
-        "turnover_cr": 0.52
-      },
-      {
-        "symbol": "HARDWYN",
-        "name": "HARDWYN",
-        "last_price": 9.43,
-        "prev_close": 10.95,
-        "change": -13.88,
-        "change_pct": -13.88,
-        "volume": 8864946,
-        "turnover_cr": 8.56
-      },
-      {
-        "symbol": "SHERVANI",
-        "name": "SHERVANI",
-        "last_price": 302.7,
-        "prev_close": 348.1,
-        "change": -13.04,
-        "change_pct": -13.04,
-        "volume": 212,
-        "turnover_cr": 0.01
-      },
-      {
-        "symbol": "KRISHIVAL",
-        "name": "KRISHIVAL",
-        "last_price": 357.2,
-        "prev_close": 408.3,
-        "change": -12.52,
-        "change_pct": -12.52,
-        "volume": 162389,
-        "turnover_cr": 6.0
+        "change": -15.52,
+        "change_pct": -15.52,
+        "volume": 178502,
+        "turnover_cr": 0.57
       },
       {
         "symbol": "SUMEDHA",
         "name": "SUMEDHA",
-        "last_price": 39.66,
+        "last_price": 39,
         "prev_close": 45.01,
-        "change": -11.89,
-        "change_pct": -11.89,
-        "volume": 6502,
+        "change": -13.35,
+        "change_pct": -13.35,
+        "volume": 6656,
         "turnover_cr": 0.03
+      },
+      {
+        "symbol": "KRISHIVAL",
+        "name": "KRISHIVAL",
+        "last_price": 355.5,
+        "prev_close": 408.3,
+        "change": -12.93,
+        "change_pct": -12.93,
+        "volume": 170799,
+        "turnover_cr": 6.29
       },
       {
         "symbol": "NELCO",
         "name": "NELCO",
-        "last_price": 953.1,
+        "last_price": 945,
         "prev_close": 1081.5,
-        "change": -11.87,
-        "change_pct": -11.87,
-        "volume": 1939863,
-        "turnover_cr": 189.15
+        "change": -12.62,
+        "change_pct": -12.62,
+        "volume": 2128333,
+        "turnover_cr": 206.98
+      },
+      {
+        "symbol": "HARDWYN",
+        "name": "HARDWYN",
+        "last_price": 9.58,
+        "prev_close": 10.95,
+        "change": -12.51,
+        "change_pct": -12.51,
+        "volume": 9633380,
+        "turnover_cr": 9.29
       },
       {
         "symbol": "AHLUCONT",
         "name": "AHLUCONT",
-        "last_price": 708,
+        "last_price": 710,
         "prev_close": 793.85,
-        "change": -10.81,
-        "change_pct": -10.81,
-        "volume": 497568,
-        "turnover_cr": 36.16
+        "change": -10.56,
+        "change_pct": -10.56,
+        "volume": 545834,
+        "turnover_cr": 39.58
       }
     ]
   }
