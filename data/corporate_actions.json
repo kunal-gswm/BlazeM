@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-08-19T14:40:52Z",
+    "last_updated": "2026-08-19T15:37:54Z",
     "status": "healthy",
     "record_count": 157
   },
@@ -50,7 +50,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260902",
-      "long_name": "Compucom Software Ltd",
+      "long_name": "Compucom Software Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.25
     },
@@ -66,7 +66,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260902",
-      "long_name": "Dr Agarwals Eye Hospital Ltd",
+      "long_name": "Dr Agarwals Eye Hospital Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -130,7 +130,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260902",
-      "long_name": "Magna Electro Castings Ltd",
+      "long_name": "Magna Electro Castings Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -186,22 +186,6 @@
       "scrip_code": 504605,
       "short_name": "UNIABEXAL",
       "Ex_date": "02 Sep 2026",
-      "Purpose": "Dividend - Rs. - 40.0000",
-      "RD_Date": "02 Sep 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "",
-      "ND_END_DATE": "",
-      "payment_date": "",
-      "exdate": "20260902",
-      "long_name": "Uni Abex Alloy Products Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 40.0
-    },
-    {
-      "scrip_code": 504605,
-      "short_name": "UNIABEXAL",
-      "Ex_date": "02 Sep 2026",
       "Purpose": "Special Dividend - Rs. - 60.0000",
       "RD_Date": "02 Sep 2026",
       "BCRD_FROM": "",
@@ -215,6 +199,22 @@
       "dividend_amount": 60.0
     },
     {
+      "scrip_code": 504605,
+      "short_name": "UNIABEXAL",
+      "Ex_date": "02 Sep 2026",
+      "Purpose": "Dividend - Rs. - 40.0000",
+      "RD_Date": "02 Sep 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260902",
+      "long_name": "Uni Abex Alloy Products Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 40.0
+    },
+    {
       "scrip_code": 511076,
       "short_name": "AEROENTER",
       "Ex_date": "01 Sep 2026",
@@ -226,7 +226,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260901",
-      "long_name": "Aeroflex Enterprises Ltd",
+      "long_name": "Aeroflex Enterprises Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.4
     },
@@ -482,7 +482,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260831",
-      "long_name": "Ganesh Housing Ltd",
+      "long_name": "Ganesh Housing Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -514,7 +514,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260831",
-      "long_name": "Ion Exchange India Ltd",
+      "long_name": "Ion Exchange India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.25
     },
@@ -674,7 +674,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Dynamatic Technologies Ltd",
+      "long_name": "Dynamatic Technologies Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -754,7 +754,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Haldyn Glass Ltd",
+      "long_name": "Haldyn Glass Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.7
     },
@@ -898,7 +898,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Salzer Electronics Ltd",
+      "long_name": "Salzer Electronics Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.5
     },
@@ -914,7 +914,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Spice Islands Industries Ltd",
+      "long_name": "Spice Islands Industries Ltd-$",
       "action_type": "Split",
       "dividend_amount": null
     },
@@ -930,7 +930,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Sterling Tools Ltd",
+      "long_name": "Sterling Tools Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.75
     },
@@ -1010,7 +1010,7 @@
       "ND_END_DATE": "",
       "payment_date": "",
       "exdate": "20260828",
-      "long_name": "Yuken India Ltd",
+      "long_name": "Yuken India Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -1218,7 +1218,7 @@
       "ND_END_DATE": "26 Aug 2026",
       "payment_date": "",
       "exdate": "20260825",
-      "long_name": "Premco Global Ltd",
+      "long_name": "Premco Global Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -1554,7 +1554,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Gandhi Special Tubes Ltd",
+      "long_name": "Gandhi Special Tubes Ltd-$",
       "action_type": "Buyback",
       "dividend_amount": null
     },
@@ -1650,7 +1650,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "KSE Ltd",
+      "long_name": "KSE Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 7.5
     },
@@ -1682,7 +1682,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Mayur Uniquoters Ltd",
+      "long_name": "Mayur Uniquoters Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 6.0
     },
@@ -1714,7 +1714,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Nicco Parks & Resorts Ltd",
+      "long_name": "Nicco Parks & Resorts Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.25
     },
@@ -1826,7 +1826,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Rajapalayam Mills Ltd",
+      "long_name": "Rajapalayam Mills Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.5
     },
@@ -1954,7 +1954,7 @@
       "ND_END_DATE": "21 Aug 2026",
       "payment_date": "",
       "exdate": "20260821",
-      "long_name": "Vadilal Industries Ltd",
+      "long_name": "Vadilal Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 17.0
     },
@@ -2050,7 +2050,7 @@
       "ND_END_DATE": "20 Aug 2026",
       "payment_date": "",
       "exdate": "20260820",
-      "long_name": "Dai-Ichi Karkaria Ltd",
+      "long_name": "Dai-Ichi Karkaria Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.5
     },
@@ -2098,7 +2098,7 @@
       "ND_END_DATE": "20 Aug 2026",
       "payment_date": "",
       "exdate": "20260820",
-      "long_name": "Kama Holdings Ltd",
+      "long_name": "Kama Holdings Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 22.25
     },
@@ -2290,7 +2290,7 @@
       "ND_END_DATE": "20 Aug 2026",
       "payment_date": "",
       "exdate": "20260820",
-      "long_name": "Sukhjit Starch & Chemicals Ltd",
+      "long_name": "Sukhjit Starch & Chemicals Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
