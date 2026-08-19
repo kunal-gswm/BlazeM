@@ -1,240 +1,230 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-19T06:52:03Z",
+    "last_updated": "2026-08-19T07:43:28Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 22
   },
   "data": [
     {
-      "symbol": "ASTERDM",
-      "name": "Aster DM Quality Care Limited",
-      "last_price": 820,
-      "change_pct": 0.24,
-      "volume": 69815071,
-      "turnover_cr": 5391.82,
-      "vol_change_1wk_pct": 92.69,
-      "vol_change_2wk_pct": 69.95
-    },
-    {
       "symbol": "ORIENTHOT",
       "name": "Oriental Hotels Limited",
-      "last_price": 138.64,
-      "change_pct": 14.38,
-      "volume": 16075650,
-      "turnover_cr": 218.6,
-      "vol_change_1wk_pct": 69.64,
-      "vol_change_2wk_pct": 59.91
+      "last_price": 137.85,
+      "change_pct": 13.73,
+      "volume": 29149839,
+      "turnover_cr": 399.94,
+      "vol_change_1wk_pct": 126.28,
+      "vol_change_2wk_pct": 108.64
     },
     {
-      "symbol": "PRSMJOHNSN",
-      "name": "Prism Johnson Limited",
-      "last_price": 112,
-      "change_pct": 6.68,
-      "volume": 24827258,
-      "turnover_cr": 281.76,
-      "vol_change_1wk_pct": 45.02,
-      "vol_change_2wk_pct": 4.81
+      "symbol": "ASTERDM",
+      "name": "Aster DM Quality Care Limited",
+      "last_price": 807.85,
+      "change_pct": -1.24,
+      "volume": 70766981,
+      "turnover_cr": 5469.16,
+      "vol_change_1wk_pct": 93.96,
+      "vol_change_2wk_pct": 70.9
     },
     {
       "symbol": "KAMANWALA",
       "name": "Kamanwala Housing Construction Limited",
-      "last_price": 19,
-      "change_pct": 16.85,
-      "volume": 330989,
-      "turnover_cr": 0.63,
-      "vol_change_1wk_pct": 41.09,
-      "vol_change_2wk_pct": 41.09
+      "last_price": 18.7,
+      "change_pct": 15.01,
+      "volume": 418972,
+      "turnover_cr": 0.8,
+      "vol_change_1wk_pct": 52.02,
+      "vol_change_2wk_pct": 52.02
     },
     {
-      "symbol": "HGINFRA",
-      "name": "H.G. Infra Engineering Limited",
-      "last_price": 534.5,
-      "change_pct": 5.28,
-      "volume": 3822701,
-      "turnover_cr": 209.36,
-      "vol_change_1wk_pct": 33.18,
-      "vol_change_2wk_pct": 45.41
-    },
-    {
-      "symbol": "RAILTEL",
-      "name": "Railtel Corporation Of India Limited",
-      "last_price": 287.35,
-      "change_pct": 3.68,
-      "volume": 9375611,
-      "turnover_cr": 271.98,
-      "vol_change_1wk_pct": 31.44,
-      "vol_change_2wk_pct": 26.86
+      "symbol": "PRSMJOHNSN",
+      "name": "Prism Johnson Limited",
+      "last_price": 111.36,
+      "change_pct": 6.07,
+      "volume": 26001096,
+      "turnover_cr": 294.88,
+      "vol_change_1wk_pct": 47.15,
+      "vol_change_2wk_pct": 5.04
     },
     {
       "symbol": "EXCELINDUS",
       "name": "Excel Industries Limited",
-      "last_price": 1096.95,
-      "change_pct": 11.34,
-      "volume": 361533,
-      "turnover_cr": 39.47,
-      "vol_change_1wk_pct": 30.7,
-      "vol_change_2wk_pct": 37.69
+      "last_price": 1106.85,
+      "change_pct": 12.35,
+      "volume": 519973,
+      "turnover_cr": 57.08,
+      "vol_change_1wk_pct": 44.15,
+      "vol_change_2wk_pct": 54.2
     },
     {
-      "symbol": "KRITI",
-      "name": "Kriti Industries (India) Limited",
-      "last_price": 65.26,
-      "change_pct": -0.84,
-      "volume": 305748,
-      "turnover_cr": 2.03,
-      "vol_change_1wk_pct": 22.27,
-      "vol_change_2wk_pct": 21.42
+      "symbol": "HGINFRA",
+      "name": "H.G. Infra Engineering Limited",
+      "last_price": 527.85,
+      "change_pct": 3.97,
+      "volume": 4056415,
+      "turnover_cr": 221.75,
+      "vol_change_1wk_pct": 35.21,
+      "vol_change_2wk_pct": 48.19
+    },
+    {
+      "symbol": "RAILTEL",
+      "name": "Railtel Corporation Of India Limited",
+      "last_price": 287.95,
+      "change_pct": 3.9,
+      "volume": 9888654,
+      "turnover_cr": 286.77,
+      "vol_change_1wk_pct": 33.16,
+      "vol_change_2wk_pct": 28.33
     },
     {
       "symbol": "DLINKINDIA",
       "name": "D-Link (India) Limited",
-      "last_price": 445.95,
-      "change_pct": 6.47,
-      "volume": 1988587,
-      "turnover_cr": 89.12,
-      "vol_change_1wk_pct": 21.16,
-      "vol_change_2wk_pct": 21.78
+      "last_price": 444.3,
+      "change_pct": 6.08,
+      "volume": 2125316,
+      "turnover_cr": 95.19,
+      "vol_change_1wk_pct": 22.62,
+      "vol_change_2wk_pct": 23.27
     },
     {
       "symbol": "AUSTENG",
       "name": "Austin Engineering Company  Limited",
-      "last_price": 128.8,
-      "change_pct": 12.69,
-      "volume": 10623,
-      "turnover_cr": 0.13,
-      "vol_change_1wk_pct": 20.45,
-      "vol_change_2wk_pct": 20.45
+      "last_price": 126.14,
+      "change_pct": 10.36,
+      "volume": 11663,
+      "turnover_cr": 0.15,
+      "vol_change_1wk_pct": 22.45,
+      "vol_change_2wk_pct": 22.45
+    },
+    {
+      "symbol": "KRITI",
+      "name": "Kriti Industries (India) Limited",
+      "last_price": 64.92,
+      "change_pct": -1.35,
+      "volume": 306687,
+      "turnover_cr": 2.04,
+      "vol_change_1wk_pct": 22.34,
+      "vol_change_2wk_pct": 21.49
     },
     {
       "symbol": "PERMAGN",
       "name": "Permanent Magnets Limited",
-      "last_price": 875.8,
-      "change_pct": 8.83,
-      "volume": 34594,
-      "turnover_cr": 3.07,
-      "vol_change_1wk_pct": 16.37,
-      "vol_change_2wk_pct": 16.37
+      "last_price": 872,
+      "change_pct": 8.36,
+      "volume": 36926,
+      "turnover_cr": 3.27,
+      "vol_change_1wk_pct": 17.48,
+      "vol_change_2wk_pct": 17.48
+    },
+    {
+      "symbol": "MONIFTY100",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 100 ETF",
+      "last_price": 25.45,
+      "change_pct": -0.24,
+      "volume": 471902,
+      "turnover_cr": 1.2,
+      "vol_change_1wk_pct": 14.26,
+      "vol_change_2wk_pct": 11.04
     },
     {
       "symbol": "CTE",
       "name": "Cambridge Technology Enterprises Limited",
       "last_price": 44.94,
       "change_pct": 5,
-      "volume": 114287,
+      "volume": 114956,
       "turnover_cr": 0.51,
-      "vol_change_1wk_pct": 12.5,
-      "vol_change_2wk_pct": 6.7
+      "vol_change_1wk_pct": 12.58,
+      "vol_change_2wk_pct": 6.74
     },
     {
       "symbol": "EMSLIMITED",
       "name": "EMS Limited",
-      "last_price": 394.45,
-      "change_pct": 4.98,
-      "volume": 2758313,
-      "turnover_cr": 110.37,
-      "vol_change_1wk_pct": 11.1,
-      "vol_change_2wk_pct": 13.64
-    },
-    {
-      "symbol": "SBIETFQLTY",
-      "name": "SBI Mutual Fund - SBI - ETF Quality - SBI-ETF Quality",
-      "last_price": 224.52,
-      "change_pct": -0.39,
-      "volume": 12193,
-      "turnover_cr": 0.27,
-      "vol_change_1wk_pct": 10.81,
-      "vol_change_2wk_pct": 2.09
-    },
-    {
-      "symbol": "BAJAJHIND",
-      "name": "Bajaj Hindusthan Sugar Limited",
-      "last_price": 20.39,
-      "change_pct": 9.62,
-      "volume": 131406681,
-      "turnover_cr": 269.78,
-      "vol_change_1wk_pct": 10.44,
-      "vol_change_2wk_pct": 12.23
-    },
-    {
-      "symbol": "MKEXIM",
-      "name": "M.K. Exim (India) Limited",
-      "last_price": 59.4,
-      "change_pct": 10.18,
-      "volume": 20087,
-      "turnover_cr": 0.11,
-      "vol_change_1wk_pct": 8.93,
-      "vol_change_2wk_pct": 8.93
-    },
-    {
-      "symbol": "MALUPAPER",
-      "name": "Malu Paper Mills Limited",
-      "last_price": 30.75,
-      "change_pct": -5.62,
-      "volume": 46895,
-      "turnover_cr": 0.14,
-      "vol_change_1wk_pct": 8.66,
-      "vol_change_2wk_pct": 5.06
-    },
-    {
-      "symbol": "CRSL",
-      "name": "Cressanda Railway Solutions Limited",
-      "last_price": 2.58,
-      "change_pct": 20,
-      "volume": 2809331,
-      "turnover_cr": 0.71,
-      "vol_change_1wk_pct": 7.95,
-      "vol_change_2wk_pct": 7.95
-    },
-    {
-      "symbol": "AHLADA",
-      "name": "Ahlada Engineers Limited",
-      "last_price": 43.35,
-      "change_pct": 19,
-      "volume": 149465,
-      "turnover_cr": 0.64,
-      "vol_change_1wk_pct": 7.91,
-      "vol_change_2wk_pct": 11.01
-    },
-    {
-      "symbol": "RENUKA",
-      "name": "Shree Renuka Sugars Limited",
-      "last_price": 24.6,
-      "change_pct": 5.58,
-      "volume": 53136476,
-      "turnover_cr": 132.73,
-      "vol_change_1wk_pct": 7.77,
-      "vol_change_2wk_pct": 8.23
+      "last_price": 395.05,
+      "change_pct": 5.14,
+      "volume": 2833279,
+      "turnover_cr": 113.32,
+      "vol_change_1wk_pct": 11.4,
+      "vol_change_2wk_pct": 14.02
     },
     {
       "symbol": "ATGL",
       "name": "Adani Total Gas Limited",
-      "last_price": 681.3,
-      "change_pct": 5.25,
-      "volume": 4522683,
-      "turnover_cr": 303.52,
-      "vol_change_1wk_pct": 7.64,
-      "vol_change_2wk_pct": 8.43
+      "last_price": 674.45,
+      "change_pct": 4.19,
+      "volume": 6543618,
+      "turnover_cr": 440.08,
+      "vol_change_1wk_pct": 11.06,
+      "vol_change_2wk_pct": 12.19
     },
     {
-      "symbol": "IGL",
-      "name": "Indraprastha Gas Limited",
-      "last_price": 155.46,
-      "change_pct": 4.06,
-      "volume": 10377374,
-      "turnover_cr": 160.6,
-      "vol_change_1wk_pct": 7.43,
-      "vol_change_2wk_pct": 9.16
+      "symbol": "BAJAJHIND",
+      "name": "Bajaj Hindusthan Sugar Limited",
+      "last_price": 20.23,
+      "change_pct": 8.76,
+      "volume": 138714399,
+      "turnover_cr": 284.64,
+      "vol_change_1wk_pct": 11.02,
+      "vol_change_2wk_pct": 12.91
     },
     {
-      "symbol": "TECILCHEM",
-      "name": "TECIL Chemicals and Hydro Power Limited",
-      "last_price": 10.24,
-      "change_pct": 19.91,
-      "volume": 65747,
-      "turnover_cr": 0.06,
-      "vol_change_1wk_pct": 7.4,
-      "vol_change_2wk_pct": 1.48
+      "symbol": "SBIETFQLTY",
+      "name": "SBI Mutual Fund - SBI - ETF Quality - SBI-ETF Quality",
+      "last_price": 223.81,
+      "change_pct": -0.71,
+      "volume": 12204,
+      "turnover_cr": 0.27,
+      "vol_change_1wk_pct": 10.82,
+      "vol_change_2wk_pct": 2.09
+    },
+    {
+      "symbol": "AHLADA",
+      "name": "Ahlada Engineers Limited",
+      "last_price": 41.85,
+      "change_pct": 14.88,
+      "volume": 189235,
+      "turnover_cr": 0.81,
+      "vol_change_1wk_pct": 10.02,
+      "vol_change_2wk_pct": 13.94
+    },
+    {
+      "symbol": "MALUPAPER",
+      "name": "Malu Paper Mills Limited",
+      "last_price": 30.9,
+      "change_pct": -5.16,
+      "volume": 53520,
+      "turnover_cr": 0.16,
+      "vol_change_1wk_pct": 9.88,
+      "vol_change_2wk_pct": 5.78
+    },
+    {
+      "symbol": "MKEXIM",
+      "name": "M.K. Exim (India) Limited",
+      "last_price": 59.35,
+      "change_pct": 10.09,
+      "volume": 21734,
+      "turnover_cr": 0.12,
+      "vol_change_1wk_pct": 9.66,
+      "vol_change_2wk_pct": 9.66
+    },
+    {
+      "symbol": "LAXMICOT",
+      "name": "Laxmi Cotspin Limited",
+      "last_price": 15.65,
+      "change_pct": 16.27,
+      "volume": 194809,
+      "turnover_cr": 0.31,
+      "vol_change_1wk_pct": 9.55,
+      "vol_change_2wk_pct": 12.44
+    },
+    {
+      "symbol": "MID150",
+      "name": "Kotak Mahindra Mutual Fund - Kotak Nifty Midcap 150 ETF",
+      "last_price": 23.7,
+      "change_pct": -0.46,
+      "volume": 486060,
+      "turnover_cr": 1.15,
+      "vol_change_1wk_pct": 8.78,
+      "vol_change_2wk_pct": 8.26
     }
   ]
 }
