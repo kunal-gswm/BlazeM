@@ -105,11 +105,11 @@
   },
   "horizon industrial parks": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "lalithaa jewellery mart": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "sunshine pictures": {
     "open_notified": true,
@@ -128,6 +128,14 @@
     "closed_notified": false
   },
   "gaja alternative asset management": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "tempsens instruments (india)": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "tempsens instruments (india) ltd. o": {
     "open_notified": true,
     "closed_notified": false
   }
