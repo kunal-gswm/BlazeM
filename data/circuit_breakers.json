@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-20T10:16:35Z",
+    "last_updated": "2026-08-20T10:53:00Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -34,8 +34,8 @@
         "prev_close": 155.16,
         "change": 20,
         "change_pct": 20,
-        "volume": 5888825,
-        "turnover_cr": 104.68
+        "volume": 5889347,
+        "turnover_cr": 104.69
       },
       {
         "symbol": "KJMCFIN",
@@ -74,7 +74,7 @@
         "prev_close": 2.58,
         "change": 19.77,
         "change_pct": 19.77,
-        "volume": 8160294,
+        "volume": 8160299,
         "turnover_cr": 2.44
       },
       {
@@ -84,8 +84,8 @@
         "prev_close": 650.8,
         "change": 19.55,
         "change_pct": 19.55,
-        "volume": 33513023,
-        "turnover_cr": 2470.35
+        "volume": 33514941,
+        "turnover_cr": 2470.52
       },
       {
         "symbol": "VIRTUALG",
@@ -114,8 +114,8 @@
         "prev_close": 20.38,
         "change": 16.58,
         "change_pct": 16.58,
-        "volume": 256544491,
-        "turnover_cr": 572.61
+        "volume": 256556792,
+        "turnover_cr": 572.63
       },
       {
         "symbol": "DWARKESH",
@@ -124,8 +124,8 @@
         "prev_close": 48.28,
         "change": 15.78,
         "change_pct": 15.78,
-        "volume": 42665668,
-        "turnover_cr": 230.35
+        "volume": 42670090,
+        "turnover_cr": 230.38
       },
       {
         "symbol": "KWIL",
@@ -134,18 +134,8 @@
         "prev_close": 37.71,
         "change": 14.96,
         "change_pct": 14.96,
-        "volume": 101230788,
-        "turnover_cr": 425.07
-      },
-      {
-        "symbol": "SOLARA",
-        "name": "SOLARA",
-        "last_price": 631.5,
-        "prev_close": 550.05,
-        "change": 14.81,
-        "change_pct": 14.81,
-        "volume": 6915514,
-        "turnover_cr": 432.65
+        "volume": 101299688,
+        "turnover_cr": 425.36
       },
       {
         "symbol": "INDOBORAX",
@@ -154,8 +144,18 @@
         "prev_close": 433.85,
         "change": 14.81,
         "change_pct": 14.81,
-        "volume": 6099190,
-        "turnover_cr": 296.38
+        "volume": 6099644,
+        "turnover_cr": 296.41
+      },
+      {
+        "symbol": "SOLARA",
+        "name": "SOLARA",
+        "last_price": 631.5,
+        "prev_close": 550.05,
+        "change": 14.81,
+        "change_pct": 14.81,
+        "volume": 6915687,
+        "turnover_cr": 432.66
       },
       {
         "symbol": "BANARISUG",
@@ -164,8 +164,8 @@
         "prev_close": 3617.4,
         "change": 14.52,
         "change_pct": 14.52,
-        "volume": 71288,
-        "turnover_cr": 29.54
+        "volume": 71353,
+        "turnover_cr": 29.57
       },
       {
         "symbol": "PACIFICI",
@@ -194,8 +194,8 @@
         "prev_close": 332.55,
         "change": 12.92,
         "change_pct": 12.92,
-        "volume": 3256156,
-        "turnover_cr": 118.13
+        "volume": 3256478,
+        "turnover_cr": 118.14
       },
       {
         "symbol": "UGARSUGAR",
@@ -204,7 +204,7 @@
         "prev_close": 50.41,
         "change": 12.64,
         "change_pct": 12.64,
-        "volume": 3789357,
+        "volume": 3789593,
         "turnover_cr": 20.99
       },
       {
@@ -224,8 +224,8 @@
         "prev_close": 338.45,
         "change": 11.69,
         "change_pct": 11.69,
-        "volume": 245138,
-        "turnover_cr": 9.08
+        "volume": 245362,
+        "turnover_cr": 9.09
       },
       {
         "symbol": "PVP",
@@ -234,7 +234,7 @@
         "prev_close": 39.13,
         "change": 11.68,
         "change_pct": 11.68,
-        "volume": 3957967,
+        "volume": 3957968,
         "turnover_cr": 16.66
       },
       {
@@ -244,8 +244,8 @@
         "prev_close": 300.99,
         "change": 11.6,
         "change_pct": 11.6,
-        "volume": 2292635,
-        "turnover_cr": 74.7
+        "volume": 2301215,
+        "turnover_cr": 74.99
       },
       {
         "symbol": "RANASUG",
@@ -254,8 +254,8 @@
         "prev_close": 13.76,
         "change": 10.39,
         "change_pct": 10.39,
-        "volume": 3630422,
-        "turnover_cr": 5.39
+        "volume": 3647306,
+        "turnover_cr": 5.42
       }
     ],
     "lower_circuit": [
@@ -266,7 +266,7 @@
         "prev_close": 10.24,
         "change": -11.62,
         "change_pct": -11.62,
-        "volume": 306021,
+        "volume": 306274,
         "turnover_cr": 0.3
       }
     ]
