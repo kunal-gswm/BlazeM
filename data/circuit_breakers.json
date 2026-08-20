@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-20T08:20:06Z",
+    "last_updated": "2026-08-20T09:03:26Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "SAMBANDAM",
-        "name": "SAMBANDAM",
-        "last_price": 126,
-        "prev_close": 105,
+        "symbol": "MYSORPETRO",
+        "name": "MYSORPETRO",
+        "last_price": 165.49,
+        "prev_close": 137.91,
         "change": 20,
         "change_pct": 20,
-        "volume": 7512,
-        "turnover_cr": 0.09
+        "volume": 383218,
+        "turnover_cr": 6.25
       },
       {
         "symbol": "MPDL",
@@ -24,28 +24,8 @@
         "prev_close": 28.6,
         "change": 20,
         "change_pct": 20,
-        "volume": 7123,
-        "turnover_cr": 0.02
-      },
-      {
-        "symbol": "KJMCFIN",
-        "name": "KJMCFIN",
-        "last_price": 66.42,
-        "prev_close": 55.35,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 3316,
-        "turnover_cr": 0.02
-      },
-      {
-        "symbol": "MYSORPETRO",
-        "name": "MYSORPETRO",
-        "last_price": 165.49,
-        "prev_close": 137.91,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 383017,
-        "turnover_cr": 6.25
+        "volume": 8134,
+        "turnover_cr": 0.03
       },
       {
         "symbol": "KRONOX",
@@ -54,8 +34,28 @@
         "prev_close": 155.16,
         "change": 20,
         "change_pct": 20,
-        "volume": 5792801,
-        "turnover_cr": 102.89
+        "volume": 5829001,
+        "turnover_cr": 103.56
+      },
+      {
+        "symbol": "KJMCFIN",
+        "name": "KJMCFIN",
+        "last_price": 66.42,
+        "prev_close": 55.35,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 3326,
+        "turnover_cr": 0.02
+      },
+      {
+        "symbol": "SAMBANDAM",
+        "name": "SAMBANDAM",
+        "last_price": 126,
+        "prev_close": 105,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 8532,
+        "turnover_cr": 0.1
       },
       {
         "symbol": "MINALIND",
@@ -64,8 +64,8 @@
         "prev_close": 2.21,
         "change": 19.91,
         "change_pct": 19.91,
-        "volume": 291319,
-        "turnover_cr": 0.07
+        "volume": 305675,
+        "turnover_cr": 0.08
       },
       {
         "symbol": "CRSL",
@@ -74,171 +74,170 @@
         "prev_close": 2.58,
         "change": 19.77,
         "change_pct": 19.77,
-        "volume": 8006418,
-        "turnover_cr": 2.39
+        "volume": 8029707,
+        "turnover_cr": 2.4
       },
       {
-        "symbol": "SOMICONVEY",
-        "name": "SOMICONVEY",
-        "last_price": 100.4,
-        "prev_close": 86.61,
-        "change": 15.92,
-        "change_pct": 15.92,
-        "volume": 566720,
-        "turnover_cr": 5.65
-      },
-      {
-        "symbol": "SOLARA",
-        "name": "SOLARA",
-        "last_price": 632.05,
-        "prev_close": 550.05,
-        "change": 14.91,
-        "change_pct": 14.91,
-        "volume": 4695004,
-        "turnover_cr": 291.3
-      },
-      {
-        "symbol": "KWIL",
-        "name": "KWIL",
-        "last_price": 42.78,
-        "prev_close": 37.71,
-        "change": 13.44,
-        "change_pct": 13.44,
-        "volume": 61539167,
-        "turnover_cr": 252.56
-      },
-      {
-        "symbol": "CGVAK",
-        "name": "CGVAK",
-        "last_price": 159,
-        "prev_close": 140.73,
-        "change": 12.98,
-        "change_pct": 12.98,
-        "volume": 11673,
-        "turnover_cr": 0.18
-      },
-      {
-        "symbol": "BANARISUG",
-        "name": "BANARISUG",
-        "last_price": 4077.4,
-        "prev_close": 3617.4,
-        "change": 12.72,
-        "change_pct": 12.72,
-        "volume": 31723,
-        "turnover_cr": 12.84
+        "symbol": "VIRTUALG",
+        "name": "VIRTUALG",
+        "last_price": 0.51,
+        "prev_close": 0.43,
+        "change": 18.6,
+        "change_pct": 18.6,
+        "volume": 861349,
+        "turnover_cr": 0.04
       },
       {
         "symbol": "BALRAMCHIN",
         "name": "BALRAMCHIN",
-        "last_price": 733,
+        "last_price": 758.25,
         "prev_close": 650.8,
-        "change": 12.63,
-        "change_pct": 12.63,
-        "volume": 19218565,
-        "turnover_cr": 1383.54
+        "change": 16.51,
+        "change_pct": 16.51,
+        "volume": 24527512,
+        "turnover_cr": 1778.44
       },
       {
-        "symbol": "KAYA",
-        "name": "KAYA",
-        "last_price": 380.65,
-        "prev_close": 338.45,
-        "change": 12.47,
-        "change_pct": 12.47,
-        "volume": 167640,
-        "turnover_cr": 6.15
+        "symbol": "SOMICONVEY",
+        "name": "SOMICONVEY",
+        "last_price": 100.69,
+        "prev_close": 86.61,
+        "change": 16.26,
+        "change_pct": 16.26,
+        "volume": 615387,
+        "turnover_cr": 6.14
       },
       {
-        "symbol": "KOHINOOR",
-        "name": "KOHINOOR",
-        "last_price": 35.15,
-        "prev_close": 31.27,
-        "change": 12.41,
-        "change_pct": 12.41,
-        "volume": 1444881,
-        "turnover_cr": 4.97
+        "symbol": "BANARISUG",
+        "name": "BANARISUG",
+        "last_price": 4180,
+        "prev_close": 3617.4,
+        "change": 15.55,
+        "change_pct": 15.55,
+        "volume": 43844,
+        "turnover_cr": 17.88
+      },
+      {
+        "symbol": "KWIL",
+        "name": "KWIL",
+        "last_price": 43.4,
+        "prev_close": 37.71,
+        "change": 15.09,
+        "change_pct": 15.09,
+        "volume": 76078393,
+        "turnover_cr": 315.12
+      },
+      {
+        "symbol": "SOLARA",
+        "name": "SOLARA",
+        "last_price": 630.35,
+        "prev_close": 550.05,
+        "change": 14.6,
+        "change_pct": 14.6,
+        "volume": 5208085,
+        "turnover_cr": 323.67
       },
       {
         "symbol": "PACIFICI",
         "name": "PACIFICI",
-        "last_price": 150,
+        "last_price": 153,
         "prev_close": 133.55,
-        "change": 12.32,
-        "change_pct": 12.32,
-        "volume": 5660,
-        "turnover_cr": 0.08
+        "change": 14.56,
+        "change_pct": 14.56,
+        "volume": 6776,
+        "turnover_cr": 0.1
+      },
+      {
+        "symbol": "INDOBORAX",
+        "name": "INDOBORAX",
+        "last_price": 495.8,
+        "prev_close": 433.85,
+        "change": 14.28,
+        "change_pct": 14.28,
+        "volume": 3916346,
+        "turnover_cr": 187.67
       },
       {
         "symbol": "DWARKESH",
         "name": "DWARKESH",
-        "last_price": 53.87,
+        "last_price": 54.99,
         "prev_close": 48.28,
-        "change": 11.58,
-        "change_pct": 11.58,
-        "volume": 27456182,
-        "turnover_cr": 146.26
+        "change": 13.9,
+        "change_pct": 13.9,
+        "volume": 30910486,
+        "turnover_cr": 165.15
       },
       {
         "symbol": "UGARSUGAR",
         "name": "UGARSUGAR",
-        "last_price": 56.18,
+        "last_price": 57.19,
         "prev_close": 50.41,
-        "change": 11.45,
-        "change_pct": 11.45,
-        "volume": 2575435,
-        "turnover_cr": 14.12
-      },
-      {
-        "symbol": "HUBTOWN",
-        "name": "HUBTOWN",
-        "last_price": 199.64,
-        "prev_close": 180.12,
-        "change": 10.84,
-        "change_pct": 10.84,
-        "volume": 2796493,
-        "turnover_cr": 55.49
+        "change": 13.45,
+        "change_pct": 13.45,
+        "volume": 2927374,
+        "turnover_cr": 16.12
       },
       {
         "symbol": "KOTARISUG",
         "name": "KOTARISUG",
-        "last_price": 30,
+        "last_price": 30.68,
         "prev_close": 27.22,
-        "change": 10.21,
-        "change_pct": 10.21,
-        "volume": 864445,
-        "turnover_cr": 2.58
+        "change": 12.71,
+        "change_pct": 12.71,
+        "volume": 920159,
+        "turnover_cr": 2.75
+      },
+      {
+        "symbol": "KAYA",
+        "name": "KAYA",
+        "last_price": 381.1,
+        "prev_close": 338.45,
+        "change": 12.6,
+        "change_pct": 12.6,
+        "volume": 203218,
+        "turnover_cr": 7.51
+      },
+      {
+        "symbol": "CGVAK",
+        "name": "CGVAK",
+        "last_price": 158,
+        "prev_close": 140.73,
+        "change": 12.27,
+        "change_pct": 12.27,
+        "volume": 12134,
+        "turnover_cr": 0.19
+      },
+      {
+        "symbol": "KOHINOOR",
+        "name": "KOHINOOR",
+        "last_price": 35.04,
+        "prev_close": 31.27,
+        "change": 12.06,
+        "change_pct": 12.06,
+        "volume": 1486076,
+        "turnover_cr": 5.12
       },
       {
         "symbol": "MANGLMCEM",
         "name": "MANGLMCEM",
-        "last_price": 984.65,
+        "last_price": 1000.5,
         "prev_close": 894.8,
-        "change": 10.04,
-        "change_pct": 10.04,
-        "volume": 1372027,
-        "turnover_cr": 134.93
+        "change": 11.81,
+        "change_pct": 11.81,
+        "volume": 1644664,
+        "turnover_cr": 162.1
       },
       {
-        "symbol": "MEDICAPQ",
-        "name": "MEDICAPQ",
-        "last_price": 25.92,
-        "prev_close": 23.56,
-        "change": 10.02,
-        "change_pct": 10.02,
-        "volume": 818,
-        "turnover_cr": 0.0
+        "symbol": "SUVEN",
+        "name": "SUVEN",
+        "last_price": 369.45,
+        "prev_close": 332.55,
+        "change": 11.1,
+        "change_pct": 11.1,
+        "volume": 2476694,
+        "turnover_cr": 89.13
       }
     ],
-    "lower_circuit": [
-      {
-        "symbol": "ADDIND",
-        "name": "ADDIND",
-        "last_price": 73,
-        "prev_close": 87,
-        "change": -16.09,
-        "change_pct": -16.09,
-        "volume": 557,
-        "turnover_cr": 0.0
-      }
-    ]
+    "lower_circuit": []
   }
 }
