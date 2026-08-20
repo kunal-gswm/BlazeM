@@ -1,70 +1,100 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-20T06:53:28Z",
+    "last_updated": "2026-08-20T07:46:01Z",
     "status": "healthy",
-    "record_count": 20
+    "record_count": 18
   },
   "data": [
     {
       "symbol": "MANGLMCEM",
       "name": "Mangalam Cement Limited",
-      "last_price": 985.85,
+      "last_price": 985.9,
       "change_pct": 10.18,
-      "volume": 1222998,
-      "turnover_cr": 120.24,
-      "vol_change_1wk_pct": 56.29,
-      "vol_change_2wk_pct": 37.68
+      "volume": 1314939,
+      "turnover_cr": 129.29,
+      "vol_change_1wk_pct": 60.52,
+      "vol_change_2wk_pct": 40.51
     },
     {
       "symbol": "NIFTYAXIS",
       "name": "AXIS MUTUAL FUND - Axis NIFTY 50 ETF",
-      "last_price": 268.62,
-      "change_pct": 0.73,
-      "volume": 374262,
+      "last_price": 268.72,
+      "change_pct": 0.77,
+      "volume": 374402,
       "turnover_cr": 10.06,
-      "vol_change_1wk_pct": 36.74,
+      "vol_change_1wk_pct": 36.76,
       "vol_change_2wk_pct": 7.6
     },
     {
       "symbol": "MMTC",
       "name": "MMTC Limited",
-      "last_price": 66.21,
-      "change_pct": 6.53,
-      "volume": 34176493,
-      "turnover_cr": 227.03,
-      "vol_change_1wk_pct": 31.6,
-      "vol_change_2wk_pct": 26.8
+      "last_price": 66.39,
+      "change_pct": 6.82,
+      "volume": 35643472,
+      "turnover_cr": 236.78,
+      "vol_change_1wk_pct": 32.96,
+      "vol_change_2wk_pct": 27.95
     },
     {
       "symbol": "UNIONGOLD",
       "name": "Union Mutual Fund - Union Gold ETF",
-      "last_price": 152.45,
-      "change_pct": 2.38,
-      "volume": 80012,
+      "last_price": 152.15,
+      "change_pct": 2.18,
+      "volume": 80050,
       "turnover_cr": 1.22,
-      "vol_change_1wk_pct": 26.02,
+      "vol_change_1wk_pct": 26.04,
       "vol_change_2wk_pct": 9.28
     },
     {
       "symbol": "CGVAK",
       "name": "CG Vak Software & Exports Limited",
-      "last_price": 160.1,
-      "change_pct": 13.76,
-      "volume": 11337,
+      "last_price": 159.7,
+      "change_pct": 13.48,
+      "volume": 11563,
       "turnover_cr": 0.18,
-      "vol_change_1wk_pct": 24.72,
-      "vol_change_2wk_pct": 24.72
+      "vol_change_1wk_pct": 25.21,
+      "vol_change_2wk_pct": 25.21
     },
     {
       "symbol": "SOMICONVEY",
       "name": "Somi Conveyor Beltings Limited",
-      "last_price": 99.15,
-      "change_pct": 14.48,
-      "volume": 440574,
-      "turnover_cr": 4.38,
-      "vol_change_1wk_pct": 17.79,
-      "vol_change_2wk_pct": 19.68
+      "last_price": 101.75,
+      "change_pct": 17.48,
+      "volume": 532590,
+      "turnover_cr": 5.31,
+      "vol_change_1wk_pct": 21.5,
+      "vol_change_2wk_pct": 23.79
+    },
+    {
+      "symbol": "SOLARA",
+      "name": "Solara Active Pharma Sciences Limited",
+      "last_price": 630.8,
+      "change_pct": 14.68,
+      "volume": 3937093,
+      "turnover_cr": 243.25,
+      "vol_change_1wk_pct": 21.12,
+      "vol_change_2wk_pct": 24.3
+    },
+    {
+      "symbol": "STAR",
+      "name": "Strides Pharma Science Limited",
+      "last_price": 992.7,
+      "change_pct": 3.68,
+      "volume": 4034437,
+      "turnover_cr": 409.02,
+      "vol_change_1wk_pct": 20.03,
+      "vol_change_2wk_pct": 17.02
+    },
+    {
+      "symbol": "BANARISUG",
+      "name": "Bannari Amman Sugars Limited",
+      "last_price": 4136.6,
+      "change_pct": 14.35,
+      "volume": 21363,
+      "turnover_cr": 8.58,
+      "vol_change_1wk_pct": 17.55,
+      "vol_change_2wk_pct": 21.94
     },
     {
       "symbol": "LOWVOL",
@@ -77,134 +107,84 @@
       "vol_change_2wk_pct": 5.83
     },
     {
-      "symbol": "STAR",
-      "name": "Strides Pharma Science Limited",
-      "last_price": 991.1,
-      "change_pct": 3.51,
-      "volume": 3421385,
-      "turnover_cr": 348.11,
-      "vol_change_1wk_pct": 16.99,
-      "vol_change_2wk_pct": 14.43
-    },
-    {
-      "symbol": "SOLARA",
-      "name": "Solara Active Pharma Sciences Limited",
-      "last_price": 622.75,
-      "change_pct": 13.22,
-      "volume": 2859909,
-      "turnover_cr": 175.44,
-      "vol_change_1wk_pct": 15.34,
-      "vol_change_2wk_pct": 17.65
-    },
-    {
       "symbol": "BALRAMCHIN",
       "name": "Balrampur Chini Mills Limited",
-      "last_price": 731.05,
-      "change_pct": 12.33,
-      "volume": 11077655,
-      "turnover_cr": 785.94,
-      "vol_change_1wk_pct": 11.21,
-      "vol_change_2wk_pct": 13.49
-    },
-    {
-      "symbol": "STCINDIA",
-      "name": "The State Trading Corporation of India Limited",
-      "last_price": 123.1,
-      "change_pct": 6.07,
-      "volume": 260303,
-      "turnover_cr": 3.2,
-      "vol_change_1wk_pct": 10.52,
-      "vol_change_2wk_pct": 8.56
+      "last_price": 737.95,
+      "change_pct": 13.39,
+      "volume": 16284648,
+      "turnover_cr": 1168.75,
+      "vol_change_1wk_pct": 16.49,
+      "vol_change_2wk_pct": 19.83
     },
     {
       "symbol": "VERANDA",
       "name": "Veranda Learning Solutions Limited",
-      "last_price": 256.1,
-      "change_pct": 9.58,
-      "volume": 7457250,
-      "turnover_cr": 195.04,
-      "vol_change_1wk_pct": 10.42,
-      "vol_change_2wk_pct": 15.24
+      "last_price": 249.7,
+      "change_pct": 6.85,
+      "volume": 8292134,
+      "turnover_cr": 216.16,
+      "vol_change_1wk_pct": 11.59,
+      "vol_change_2wk_pct": 16.95
+    },
+    {
+      "symbol": "STCINDIA",
+      "name": "The State Trading Corporation of India Limited",
+      "last_price": 122.32,
+      "change_pct": 5.39,
+      "volume": 272450,
+      "turnover_cr": 3.34,
+      "vol_change_1wk_pct": 11.01,
+      "vol_change_2wk_pct": 8.96
     },
     {
       "symbol": "MARALOVER",
       "name": "Maral Overseas Limited",
-      "last_price": 55.31,
-      "change_pct": 6.32,
-      "volume": 53013,
+      "last_price": 55.22,
+      "change_pct": 6.15,
+      "volume": 53447,
       "turnover_cr": 0.29,
-      "vol_change_1wk_pct": 9.82,
-      "vol_change_2wk_pct": 5.29
+      "vol_change_1wk_pct": 9.9,
+      "vol_change_2wk_pct": 5.34
     },
     {
       "symbol": "TECILCHEM",
       "name": "TECIL Chemicals and Hydro Power Limited",
-      "last_price": 9.6,
-      "change_pct": -6.25,
-      "volume": 172813,
-      "turnover_cr": 0.18,
-      "vol_change_1wk_pct": 9.2,
-      "vol_change_2wk_pct": 4.51
+      "last_price": 9.61,
+      "change_pct": -6.15,
+      "volume": 181677,
+      "turnover_cr": 0.19,
+      "vol_change_1wk_pct": 9.67,
+      "vol_change_2wk_pct": 4.74
     },
     {
-      "symbol": "BANARISUG",
-      "name": "Bannari Amman Sugars Limited",
-      "last_price": 4048,
-      "change_pct": 11.9,
-      "volume": 10285,
-      "turnover_cr": 4.03,
-      "vol_change_1wk_pct": 8.45,
-      "vol_change_2wk_pct": 10.56
+      "symbol": "NETWORK18",
+      "name": "Network18 Media & Investments Limited",
+      "last_price": 30.61,
+      "change_pct": 9.05,
+      "volume": 28214657,
+      "turnover_cr": 85.58,
+      "vol_change_1wk_pct": 9.64,
+      "vol_change_2wk_pct": 11.46
     },
     {
-      "symbol": "TAINWALCHM",
-      "name": "Tainwala Chemical and Plastic (I) Limited",
-      "last_price": 229.2,
-      "change_pct": 5.03,
-      "volume": 54572,
-      "turnover_cr": 1.27,
-      "vol_change_1wk_pct": 7.97,
-      "vol_change_2wk_pct": 7.47
+      "symbol": "RACE",
+      "name": "Race Eco Chain Limited",
+      "last_price": 104.7,
+      "change_pct": 4.67,
+      "volume": 84987,
+      "turnover_cr": 0.92,
+      "vol_change_1wk_pct": 9.41,
+      "vol_change_2wk_pct": 11.5
     },
     {
-      "symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Limited",
-      "last_price": 397.35,
-      "change_pct": 4.46,
-      "volume": 7276106,
-      "turnover_cr": 290.47,
-      "vol_change_1wk_pct": 7.91,
-      "vol_change_2wk_pct": 6.56
-    },
-    {
-      "symbol": "GENUSPOWER",
-      "name": "Genus Power Infrastructures Limited",
-      "last_price": 336.65,
-      "change_pct": 8.84,
-      "volume": 12919423,
-      "turnover_cr": 430.1,
-      "vol_change_1wk_pct": 7.67,
-      "vol_change_2wk_pct": 9.39
-    },
-    {
-      "symbol": "COMPUSOFT",
-      "name": "Compucom Software Limited",
-      "last_price": 14.14,
-      "change_pct": 1.95,
-      "volume": 167000,
-      "turnover_cr": 0.24,
-      "vol_change_1wk_pct": 7.25,
-      "vol_change_2wk_pct": 5.95
-    },
-    {
-      "symbol": "GOKULAGRO",
-      "name": "Gokul Agro Resources Limited",
-      "last_price": 245.35,
-      "change_pct": 0.96,
-      "volume": 3390332,
-      "turnover_cr": 84.55,
-      "vol_change_1wk_pct": 7.23,
-      "vol_change_2wk_pct": 8.49
+      "symbol": "KRONOX",
+      "name": "Kronox Lab Sciences Limited",
+      "last_price": 176.5,
+      "change_pct": 13.75,
+      "volume": 3181173,
+      "turnover_cr": 55.08,
+      "vol_change_1wk_pct": 9.16,
+      "vol_change_2wk_pct": 12.14
     }
   ]
 }
