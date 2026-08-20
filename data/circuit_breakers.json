@@ -1,22 +1,12 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-20T04:42:01Z",
+    "last_updated": "2026-08-20T05:18:24Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
-      {
-        "symbol": "SAMBANDAM",
-        "name": "SAMBANDAM",
-        "last_price": 126,
-        "prev_close": 105,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 6249,
-        "turnover_cr": 0.08
-      },
       {
         "symbol": "KJMCFIN",
         "name": "KJMCFIN",
@@ -24,88 +14,108 @@
         "prev_close": 55.35,
         "change": 20,
         "change_pct": 20,
-        "volume": 2641,
+        "volume": 2691,
         "turnover_cr": 0.02
+      },
+      {
+        "symbol": "SAMBANDAM",
+        "name": "SAMBANDAM",
+        "last_price": 126,
+        "prev_close": 105,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 6256,
+        "turnover_cr": 0.08
       },
       {
         "symbol": "CRSL",
         "name": "CRSL",
-        "last_price": 3,
+        "last_price": 3.03,
         "prev_close": 2.58,
-        "change": 16.28,
-        "change_pct": 16.28,
-        "volume": 5422719,
-        "turnover_cr": 1.61
+        "change": 17.44,
+        "change_pct": 17.44,
+        "volume": 6524059,
+        "turnover_cr": 1.94
       },
       {
         "symbol": "MYSORPETRO",
         "name": "MYSORPETRO",
-        "last_price": 160.12,
+        "last_price": 159.86,
         "prev_close": 137.91,
-        "change": 16.1,
-        "change_pct": 16.1,
-        "volume": 270394,
-        "turnover_cr": 4.42
-      },
-      {
-        "symbol": "MPDL",
-        "name": "MPDL",
-        "last_price": 32.9,
-        "prev_close": 28.6,
-        "change": 15.03,
-        "change_pct": 15.03,
-        "volume": 1668,
-        "turnover_cr": 0.01
-      },
-      {
-        "symbol": "SOMICONVEY",
-        "name": "SOMICONVEY",
-        "last_price": 98.67,
-        "prev_close": 86.61,
-        "change": 13.92,
-        "change_pct": 13.92,
-        "volume": 344106,
-        "turnover_cr": 3.44
-      },
-      {
-        "symbol": "KOHINOOR",
-        "name": "KOHINOOR",
-        "last_price": 35.57,
-        "prev_close": 31.27,
-        "change": 13.75,
-        "change_pct": 13.75,
-        "volume": 913034,
-        "turnover_cr": 3.12
+        "change": 15.92,
+        "change_pct": 15.92,
+        "volume": 303085,
+        "turnover_cr": 4.95
       },
       {
         "symbol": "VERANDA",
         "name": "VERANDA",
-        "last_price": 264.05,
+        "last_price": 264.1,
         "prev_close": 233.7,
-        "change": 12.99,
-        "change_pct": 12.99,
-        "volume": 2834559,
-        "turnover_cr": 73.64
+        "change": 13.01,
+        "change_pct": 13.01,
+        "volume": 4714751,
+        "turnover_cr": 123.23
       },
       {
-        "symbol": "KIRIINDUS",
-        "name": "KIRIINDUS",
-        "last_price": 478,
-        "prev_close": 431.3,
-        "change": 10.83,
-        "change_pct": 10.83,
-        "volume": 2376345,
-        "turnover_cr": 110.7
+        "symbol": "MPDL",
+        "name": "MPDL",
+        "last_price": 32.2,
+        "prev_close": 28.6,
+        "change": 12.59,
+        "change_pct": 12.59,
+        "volume": 2240,
+        "turnover_cr": 0.01
       },
       {
-        "symbol": "SVGLOBAL",
-        "name": "SVGLOBAL",
-        "last_price": 143.49,
-        "prev_close": 130,
-        "change": 10.38,
-        "change_pct": 10.38,
-        "volume": 81,
-        "turnover_cr": 0.0
+        "symbol": "SOLARA",
+        "name": "SOLARA",
+        "last_price": 618.85,
+        "prev_close": 550.05,
+        "change": 12.51,
+        "change_pct": 12.51,
+        "volume": 855493,
+        "turnover_cr": 51.03
+      },
+      {
+        "symbol": "SOMICONVEY",
+        "name": "SOMICONVEY",
+        "last_price": 97.28,
+        "prev_close": 86.61,
+        "change": 12.32,
+        "change_pct": 12.32,
+        "volume": 375119,
+        "turnover_cr": 3.75
+      },
+      {
+        "symbol": "CGVAK",
+        "name": "CGVAK",
+        "last_price": 158,
+        "prev_close": 140.73,
+        "change": 12.27,
+        "change_pct": 12.27,
+        "volume": 8832,
+        "turnover_cr": 0.14
+      },
+      {
+        "symbol": "KOHINOOR",
+        "name": "KOHINOOR",
+        "last_price": 34.71,
+        "prev_close": 31.27,
+        "change": 11,
+        "change_pct": 11,
+        "volume": 1093353,
+        "turnover_cr": 3.75
+      },
+      {
+        "symbol": "PONNIERODE",
+        "name": "PONNIERODE",
+        "last_price": 425.95,
+        "prev_close": 384.15,
+        "change": 10.88,
+        "change_pct": 10.88,
+        "volume": 249373,
+        "turnover_cr": 10.35
       }
     ],
     "lower_circuit": []
