@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-20T05:52:37Z",
+    "last_updated": "2026-08-20T06:53:29Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "SAMBANDAM",
-        "name": "SAMBANDAM",
-        "last_price": 126,
-        "prev_close": 105,
+        "symbol": "MYSORPETRO",
+        "name": "MYSORPETRO",
+        "last_price": 165.49,
+        "prev_close": 137.91,
         "change": 20,
         "change_pct": 20,
-        "volume": 6436,
-        "turnover_cr": 0.08
+        "volume": 381989,
+        "turnover_cr": 6.23
       },
       {
         "symbol": "KJMCFIN",
@@ -28,106 +28,187 @@
         "turnover_cr": 0.02
       },
       {
+        "symbol": "SAMBANDAM",
+        "name": "SAMBANDAM",
+        "last_price": 126,
+        "prev_close": 105,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 7146,
+        "turnover_cr": 0.09
+      },
+      {
+        "symbol": "MINALIND",
+        "name": "MINALIND",
+        "last_price": 2.65,
+        "prev_close": 2.21,
+        "change": 19.91,
+        "change_pct": 19.91,
+        "volume": 275868,
+        "turnover_cr": 0.07
+      },
+      {
         "symbol": "CRSL",
         "name": "CRSL",
         "last_price": 3.09,
         "prev_close": 2.58,
         "change": 19.77,
         "change_pct": 19.77,
-        "volume": 7684244,
-        "turnover_cr": 2.29
-      },
-      {
-        "symbol": "MYSORPETRO",
-        "name": "MYSORPETRO",
-        "last_price": 160,
-        "prev_close": 137.91,
-        "change": 16.02,
-        "change_pct": 16.02,
-        "volume": 319632,
-        "turnover_cr": 5.21
+        "volume": 7910116,
+        "turnover_cr": 2.36
       },
       {
         "symbol": "CGVAK",
         "name": "CGVAK",
-        "last_price": 161.44,
+        "last_price": 161.27,
         "prev_close": 140.73,
-        "change": 14.72,
-        "change_pct": 14.72,
-        "volume": 9717,
-        "turnover_cr": 0.15
-      },
-      {
-        "symbol": "VERANDA",
-        "name": "VERANDA",
-        "last_price": 262.9,
-        "prev_close": 233.7,
-        "change": 12.49,
-        "change_pct": 12.49,
-        "volume": 6045953,
-        "turnover_cr": 158.41
-      },
-      {
-        "symbol": "SOLARA",
-        "name": "SOLARA",
-        "last_price": 618.35,
-        "prev_close": 550.05,
-        "change": 12.42,
-        "change_pct": 12.42,
-        "volume": 1658715,
-        "turnover_cr": 100.76
-      },
-      {
-        "symbol": "MODTHREAD",
-        "name": "MODTHREAD",
-        "last_price": 58.71,
-        "prev_close": 52.28,
-        "change": 12.3,
-        "change_pct": 12.3,
-        "volume": 50503,
-        "turnover_cr": 0.3
+        "change": 14.6,
+        "change_pct": 14.6,
+        "volume": 11208,
+        "turnover_cr": 0.18
       },
       {
         "symbol": "SOMICONVEY",
         "name": "SOMICONVEY",
-        "last_price": 97.19,
+        "last_price": 99,
         "prev_close": 86.61,
-        "change": 12.22,
-        "change_pct": 12.22,
-        "volume": 386301,
-        "turnover_cr": 3.85
+        "change": 14.31,
+        "change_pct": 14.31,
+        "volume": 439681,
+        "turnover_cr": 4.37
       },
       {
-        "symbol": "MANGLMCEM",
-        "name": "MANGLMCEM",
-        "last_price": 997.1,
-        "prev_close": 894.8,
-        "change": 11.43,
-        "change_pct": 11.43,
-        "volume": 927535,
-        "turnover_cr": 91.08
+        "symbol": "SOLARA",
+        "name": "SOLARA",
+        "last_price": 627.95,
+        "prev_close": 550.05,
+        "change": 14.16,
+        "change_pct": 14.16,
+        "volume": 2792256,
+        "turnover_cr": 171.22
+      },
+      {
+        "symbol": "KRONOX",
+        "name": "KRONOX",
+        "last_price": 175.17,
+        "prev_close": 155.16,
+        "change": 12.9,
+        "change_pct": 12.9,
+        "volume": 1915700,
+        "turnover_cr": 32.78
+      },
+      {
+        "symbol": "KOTARISUG",
+        "name": "KOTARISUG",
+        "last_price": 30.67,
+        "prev_close": 27.22,
+        "change": 12.67,
+        "change_pct": 12.67,
+        "volume": 698610,
+        "turnover_cr": 2.07
+      },
+      {
+        "symbol": "BALRAMCHIN",
+        "name": "BALRAMCHIN",
+        "last_price": 732.95,
+        "prev_close": 650.8,
+        "change": 12.62,
+        "change_pct": 12.62,
+        "volume": 10991910,
+        "turnover_cr": 779.66
+      },
+      {
+        "symbol": "DWARKESH",
+        "name": "DWARKESH",
+        "last_price": 54.16,
+        "prev_close": 48.28,
+        "change": 12.18,
+        "change_pct": 12.18,
+        "volume": 22108151,
+        "turnover_cr": 117.35
+      },
+      {
+        "symbol": "RACE",
+        "name": "RACE",
+        "last_price": 111.5,
+        "prev_close": 100.03,
+        "change": 11.47,
+        "change_pct": 11.47,
+        "volume": 50767,
+        "turnover_cr": 0.54
+      },
+      {
+        "symbol": "BANARISUG",
+        "name": "BANARISUG",
+        "last_price": 4031.8,
+        "prev_close": 3617.4,
+        "change": 11.46,
+        "change_pct": 11.46,
+        "volume": 10190,
+        "turnover_cr": 3.99
+      },
+      {
+        "symbol": "UGARSUGAR",
+        "name": "UGARSUGAR",
+        "last_price": 56.15,
+        "prev_close": 50.41,
+        "change": 11.39,
+        "change_pct": 11.39,
+        "volume": 2286499,
+        "turnover_cr": 12.5
       },
       {
         "symbol": "KOHINOOR",
         "name": "KOHINOOR",
-        "last_price": 34.82,
+        "last_price": 34.72,
         "prev_close": 31.27,
-        "change": 11.35,
-        "change_pct": 11.35,
-        "volume": 1164631,
-        "turnover_cr": 4.0
+        "change": 11.03,
+        "change_pct": 11.03,
+        "volume": 1293252,
+        "turnover_cr": 4.44
       },
       {
-        "symbol": "MINALIND",
-        "name": "MINALIND",
-        "last_price": 2.45,
-        "prev_close": 2.21,
-        "change": 10.86,
-        "change_pct": 10.86,
-        "volume": 69729,
-        "turnover_cr": 0.02
+        "symbol": "INDOBORAX",
+        "name": "INDOBORAX",
+        "last_price": 479,
+        "prev_close": 433.85,
+        "change": 10.41,
+        "change_pct": 10.41,
+        "volume": 878114,
+        "turnover_cr": 41.28
+      },
+      {
+        "symbol": "MANGLMCEM",
+        "name": "MANGLMCEM",
+        "last_price": 986.1,
+        "prev_close": 894.8,
+        "change": 10.2,
+        "change_pct": 10.2,
+        "volume": 1222648,
+        "turnover_cr": 120.2
+      },
+      {
+        "symbol": "CORDELIA",
+        "name": "CORDELIA",
+        "last_price": 907.75,
+        "prev_close": 825.25,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 681379,
+        "turnover_cr": 59.76
       }
     ],
-    "lower_circuit": []
+    "lower_circuit": [
+      {
+        "symbol": "ADDIND",
+        "name": "ADDIND",
+        "last_price": 72.25,
+        "prev_close": 87,
+        "change": -16.95,
+        "change_pct": -16.95,
+        "volume": 57,
+        "turnover_cr": 0.0
+      }
+    ]
   }
 }
