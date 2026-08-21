@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-21T04:43:18Z",
+    "last_updated": "2026-08-21T05:19:46Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 126,
         "change": 20,
         "change_pct": 20,
-        "volume": 78075,
-        "turnover_cr": 1.16
+        "volume": 78569,
+        "turnover_cr": 1.17
       },
       {
         "symbol": "MINALIND",
@@ -24,8 +24,8 @@
         "prev_close": 2.65,
         "change": 20,
         "change_pct": 20,
-        "volume": 138845,
-        "turnover_cr": 0.04
+        "volume": 143307,
+        "turnover_cr": 0.05
       },
       {
         "symbol": "KJMCFIN",
@@ -34,8 +34,8 @@
         "prev_close": 66.42,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 1775,
-        "turnover_cr": 0.01
+        "volume": 3529,
+        "turnover_cr": 0.03
       },
       {
         "symbol": "MPDL",
@@ -44,58 +44,98 @@
         "prev_close": 34.32,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 13167,
-        "turnover_cr": 0.05
+        "volume": 13522,
+        "turnover_cr": 0.06
       },
       {
         "symbol": "SUPTANERY",
         "name": "SUPTANERY",
-        "last_price": 8.45,
+        "last_price": 8.75,
         "prev_close": 7.31,
-        "change": 15.6,
-        "change_pct": 15.6,
-        "volume": 638312,
-        "turnover_cr": 0.54
+        "change": 19.7,
+        "change_pct": 19.7,
+        "volume": 1228780,
+        "turnover_cr": 1.05
       },
       {
         "symbol": "SHANTIGEAR",
         "name": "SHANTIGEAR",
-        "last_price": 445.5,
+        "last_price": 453.5,
         "prev_close": 386.9,
-        "change": 15.15,
-        "change_pct": 15.15,
-        "volume": 796529,
-        "turnover_cr": 35.16
+        "change": 17.21,
+        "change_pct": 17.21,
+        "volume": 1133153,
+        "turnover_cr": 50.26
       },
       {
         "symbol": "WELCORP",
         "name": "WELCORP",
-        "last_price": 2255,
+        "last_price": 2291,
         "prev_close": 2005.2,
-        "change": 12.46,
-        "change_pct": 12.46,
-        "volume": 6302289,
-        "turnover_cr": 1392.01
+        "change": 14.25,
+        "change_pct": 14.25,
+        "volume": 8393414,
+        "turnover_cr": 1867.32
+      },
+      {
+        "symbol": "MASTERTR",
+        "name": "MASTERTR",
+        "last_price": 87.87,
+        "prev_close": 78,
+        "change": 12.65,
+        "change_pct": 12.65,
+        "volume": 1961132,
+        "turnover_cr": 16.9
+      },
+      {
+        "symbol": "SUBEXLTD",
+        "name": "SUBEXLTD",
+        "last_price": 19.17,
+        "prev_close": 17.08,
+        "change": 12.24,
+        "change_pct": 12.24,
+        "volume": 13486804,
+        "turnover_cr": 24.8
       },
       {
         "symbol": "KRONOX",
         "name": "KRONOX",
-        "last_price": 205.99,
+        "last_price": 206.46,
         "prev_close": 186.19,
-        "change": 10.63,
-        "change_pct": 10.63,
-        "volume": 8314246,
-        "turnover_cr": 169.68
+        "change": 10.89,
+        "change_pct": 10.89,
+        "volume": 10799370,
+        "turnover_cr": 220.56
       },
       {
-        "symbol": "WELSPLSOL",
-        "name": "WELSPLSOL",
-        "last_price": 53.4,
-        "prev_close": 48.41,
-        "change": 10.31,
-        "change_pct": 10.31,
-        "volume": 3409902,
-        "turnover_cr": 18.1
+        "symbol": "KLBRENG-B",
+        "name": "KLBRENG-B",
+        "last_price": 396,
+        "prev_close": 357.65,
+        "change": 10.72,
+        "change_pct": 10.72,
+        "volume": 1156873,
+        "turnover_cr": 45.28
+      },
+      {
+        "symbol": "NDL",
+        "name": "NDL",
+        "last_price": 2.5,
+        "prev_close": 2.26,
+        "change": 10.62,
+        "change_pct": 10.62,
+        "volume": 1378857,
+        "turnover_cr": 0.33
+      },
+      {
+        "symbol": "WELENT",
+        "name": "WELENT",
+        "last_price": 646.4,
+        "prev_close": 584.65,
+        "change": 10.56,
+        "change_pct": 10.56,
+        "volume": 1305433,
+        "turnover_cr": 81.65
       }
     ],
     "lower_circuit": []
