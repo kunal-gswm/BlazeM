@@ -1,21 +1,41 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-21T07:47:31Z",
+    "last_updated": "2026-08-21T08:22:38Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "NKIND",
-        "name": "NKIND",
-        "last_price": 67.92,
-        "prev_close": 56.6,
+        "symbol": "SAMBANDAM",
+        "name": "SAMBANDAM",
+        "last_price": 151.2,
+        "prev_close": 126,
         "change": 20,
         "change_pct": 20,
-        "volume": 162361,
-        "turnover_cr": 1.08
+        "volume": 80272,
+        "turnover_cr": 1.2
+      },
+      {
+        "symbol": "VIRAT",
+        "name": "VIRAT",
+        "last_price": 401.7,
+        "prev_close": 334.75,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 37417,
+        "turnover_cr": 1.38
+      },
+      {
+        "symbol": "QUADFUTURE",
+        "name": "QUADFUTURE",
+        "last_price": 405.35,
+        "prev_close": 337.8,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 7167288,
+        "turnover_cr": 277.17
       },
       {
         "symbol": "MINALIND",
@@ -24,18 +44,8 @@
         "prev_close": 2.65,
         "change": 20,
         "change_pct": 20,
-        "volume": 146887,
+        "volume": 147447,
         "turnover_cr": 0.05
-      },
-      {
-        "symbol": "SAMBANDAM",
-        "name": "SAMBANDAM",
-        "last_price": 151.2,
-        "prev_close": 126,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 80262,
-        "turnover_cr": 1.2
       },
       {
         "symbol": "KJMCFIN",
@@ -44,18 +54,8 @@
         "prev_close": 66.42,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 3629,
+        "volume": 3699,
         "turnover_cr": 0.03
-      },
-      {
-        "symbol": "MPDL",
-        "name": "MPDL",
-        "last_price": 41.18,
-        "prev_close": 34.32,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 14241,
-        "turnover_cr": 0.06
       },
       {
         "symbol": "SHANTIGEAR",
@@ -64,8 +64,28 @@
         "prev_close": 386.9,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 1950900,
-        "turnover_cr": 87.84
+        "volume": 1952909,
+        "turnover_cr": 87.93
+      },
+      {
+        "symbol": "MPDL",
+        "name": "MPDL",
+        "last_price": 41.18,
+        "prev_close": 34.32,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 14445,
+        "turnover_cr": 0.06
+      },
+      {
+        "symbol": "SUPTANERY",
+        "name": "SUPTANERY",
+        "last_price": 8.77,
+        "prev_close": 7.31,
+        "change": 19.97,
+        "change_pct": 19.97,
+        "volume": 2015601,
+        "turnover_cr": 1.74
       },
       {
         "symbol": "NDL",
@@ -74,108 +94,138 @@
         "prev_close": 2.26,
         "change": 19.91,
         "change_pct": 19.91,
-        "volume": 5766468,
-        "turnover_cr": 1.51
+        "volume": 5865648,
+        "turnover_cr": 1.53
       },
       {
-        "symbol": "SUPTANERY",
-        "name": "SUPTANERY",
-        "last_price": 8.74,
-        "prev_close": 7.31,
-        "change": 19.56,
-        "change_pct": 19.56,
-        "volume": 1981499,
-        "turnover_cr": 1.71
-      },
-      {
-        "symbol": "ORIRAIL",
-        "name": "ORIRAIL",
-        "last_price": 121,
-        "prev_close": 103.63,
-        "change": 16.76,
-        "change_pct": 16.76,
-        "volume": 810479,
-        "turnover_cr": 9.8
-      },
-      {
-        "symbol": "VIRAT",
-        "name": "VIRAT",
-        "last_price": 390.1,
-        "prev_close": 334.75,
-        "change": 16.53,
-        "change_pct": 16.53,
-        "volume": 31926,
-        "turnover_cr": 1.16
-      },
-      {
-        "symbol": "QUADFUTURE",
-        "name": "QUADFUTURE",
-        "last_price": 387.5,
-        "prev_close": 337.8,
-        "change": 14.71,
-        "change_pct": 14.71,
-        "volume": 4844176,
-        "turnover_cr": 184.55
-      },
-      {
-        "symbol": "WELCORP",
-        "name": "WELCORP",
-        "last_price": 2297.9,
-        "prev_close": 2005.2,
-        "change": 14.6,
-        "change_pct": 14.6,
-        "volume": 14836220,
-        "turnover_cr": 3359.17
-      },
-      {
-        "symbol": "TBZ",
-        "name": "TBZ",
-        "last_price": 283.1,
-        "prev_close": 248.85,
-        "change": 13.76,
-        "change_pct": 13.76,
-        "volume": 3245008,
-        "turnover_cr": 88.94
+        "symbol": "NKIND",
+        "name": "NKIND",
+        "last_price": 66.64,
+        "prev_close": 56.6,
+        "change": 17.74,
+        "change_pct": 17.74,
+        "volume": 189050,
+        "turnover_cr": 1.26
       },
       {
         "symbol": "ALLCARGO",
         "name": "ALLCARGO",
-        "last_price": 11.92,
+        "last_price": 12.29,
         "prev_close": 10.51,
-        "change": 13.42,
-        "change_pct": 13.42,
-        "volume": 70515533,
-        "turnover_cr": 81.73
+        "change": 16.94,
+        "change_pct": 16.94,
+        "volume": 83919973,
+        "turnover_cr": 98.02
       },
       {
-        "symbol": "THOMASCOOK",
-        "name": "THOMASCOOK",
-        "last_price": 114.31,
-        "prev_close": 101.58,
-        "change": 12.53,
-        "change_pct": 12.53,
-        "volume": 11513622,
-        "turnover_cr": 128.87
+        "symbol": "ORIRAIL",
+        "name": "ORIRAIL",
+        "last_price": 121.15,
+        "prev_close": 103.63,
+        "change": 16.91,
+        "change_pct": 16.91,
+        "volume": 883074,
+        "turnover_cr": 10.69
       },
       {
-        "symbol": "HAMPTON",
-        "name": "HAMPTON",
-        "last_price": 8.98,
-        "prev_close": 8.09,
-        "change": 11,
-        "change_pct": 11,
-        "volume": 26594,
-        "turnover_cr": 0.02
+        "symbol": "WELCORP",
+        "name": "WELCORP",
+        "last_price": 2276.9,
+        "prev_close": 2005.2,
+        "change": 13.55,
+        "change_pct": 13.55,
+        "volume": 15931091,
+        "turnover_cr": 3609.17
+      },
+      {
+        "symbol": "KRONOX",
+        "name": "KRONOX",
+        "last_price": 210.87,
+        "prev_close": 186.19,
+        "change": 13.26,
+        "change_pct": 13.26,
+        "volume": 14946485,
+        "turnover_cr": 305.79
+      },
+      {
+        "symbol": "TBZ",
+        "name": "TBZ",
+        "last_price": 281.1,
+        "prev_close": 248.85,
+        "change": 12.96,
+        "change_pct": 12.96,
+        "volume": 3583471,
+        "turnover_cr": 98.47
+      },
+      {
+        "symbol": "KLBRENG-B",
+        "name": "KLBRENG-B",
+        "last_price": 404,
+        "prev_close": 357.65,
+        "change": 12.96,
+        "change_pct": 12.96,
+        "volume": 2293777,
+        "turnover_cr": 90.06
+      },
+      {
+        "symbol": "BIRLAPREC",
+        "name": "BIRLAPREC",
+        "last_price": 44,
+        "prev_close": 39.11,
+        "change": 12.5,
+        "change_pct": 12.5,
+        "volume": 546442,
+        "turnover_cr": 2.32
+      },
+      {
+        "symbol": "QUINT",
+        "name": "QUINT",
+        "last_price": 41,
+        "prev_close": 36.51,
+        "change": 12.3,
+        "change_pct": 12.3,
+        "volume": 40158,
+        "turnover_cr": 0.16
       },
       {
         "symbol": "KWIL",
         "name": "KWIL",
-        "last_price": 48.25,
+        "last_price": 48.55,
         "prev_close": 43.47,
-        "change": 11,
-        "change_pct": 11,
-        "volume": 97370828,
-        "turnover_cr": 448.68
+        "change": 11.69,
+        "change_pct": 11.69,
+        "volume": 142957669,
+        "turnover_cr": 672.04
+      },
+      {
+        "symbol": "THOMASCOOK",
+        "name": "THOMASCOOK",
+        "last_price": 113.29,
+        "prev_close": 101.58,
+        "change": 11.53,
+        "change_pct": 11.53,
+        "volume": 13690001,
+        "turnover_cr": 153.74
+      },
+      {
+        "symbol": "CREATIVEYE",
+        "name": "CREATIVEYE",
+        "last_price": 6.75,
+        "prev_close": 6.1,
+        "change": 10.66,
+        "change_pct": 10.66,
+        "volume": 16750,
+        "turnover_cr": 0.01
+      },
+      {
+        "symbol": "SUBEXLTD",
+        "name": "SUBEXLTD",
+        "last_price": 18.9,
+        "prev_close": 17.08,
+        "change": 10.66,
+        "change_pct": 10.66,
+        "volume": 20729915,
+        "turnover_cr": 38.62
       }
     ],
     "lower_circuit": []
