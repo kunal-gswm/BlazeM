@@ -1,11 +1,25 @@
 {
   "metadata": {
     "source": "NSE API",
-    "last_updated": "2026-08-17T14:34:49Z",
+    "last_updated": "2026-08-21T16:41:27Z",
     "status": "healthy",
-    "record_count": 148
+    "record_count": 150
   },
   "data": [
+    {
+      "buyValue": 15258.71,
+      "category": "DII",
+      "date": "21-Aug-2026",
+      "netValue": 2124.14,
+      "sellValue": 13134.57
+    },
+    {
+      "buyValue": 12560.91,
+      "category": "FII/FPI",
+      "date": "21-Aug-2026",
+      "netValue": -542.71,
+      "sellValue": 13103.62
+    },
     {
       "buyValue": 16654.08,
       "category": "DII",
