@@ -1,22 +1,12 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-21T05:54:20Z",
+    "last_updated": "2026-08-21T06:54:39Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
-      {
-        "symbol": "SAMBANDAM",
-        "name": "SAMBANDAM",
-        "last_price": 151.2,
-        "prev_close": 126,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 78656,
-        "turnover_cr": 1.17
-      },
       {
         "symbol": "MINALIND",
         "name": "MINALIND",
@@ -24,8 +14,28 @@
         "prev_close": 2.65,
         "change": 20,
         "change_pct": 20,
-        "volume": 144887,
+        "volume": 146304,
         "turnover_cr": 0.05
+      },
+      {
+        "symbol": "SAMBANDAM",
+        "name": "SAMBANDAM",
+        "last_price": 151.2,
+        "prev_close": 126,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 79938,
+        "turnover_cr": 1.19
+      },
+      {
+        "symbol": "MPDL",
+        "name": "MPDL",
+        "last_price": 41.18,
+        "prev_close": 34.32,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 13970,
+        "turnover_cr": 0.06
       },
       {
         "symbol": "KJMCFIN",
@@ -38,24 +48,24 @@
         "turnover_cr": 0.03
       },
       {
-        "symbol": "MPDL",
-        "name": "MPDL",
-        "last_price": 41.18,
-        "prev_close": 34.32,
+        "symbol": "ORIRAIL",
+        "name": "ORIRAIL",
+        "last_price": 124.35,
+        "prev_close": 103.63,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 13870,
-        "turnover_cr": 0.06
+        "volume": 378816,
+        "turnover_cr": 4.51
       },
       {
-        "symbol": "SUPTANERY",
-        "name": "SUPTANERY",
-        "last_price": 8.77,
-        "prev_close": 7.31,
-        "change": 19.97,
-        "change_pct": 19.97,
-        "volume": 1326011,
-        "turnover_cr": 1.14
+        "symbol": "SHANTIGEAR",
+        "name": "SHANTIGEAR",
+        "last_price": 464.25,
+        "prev_close": 386.9,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 1946528,
+        "turnover_cr": 87.64
       },
       {
         "symbol": "NDL",
@@ -64,98 +74,98 @@
         "prev_close": 2.26,
         "change": 19.91,
         "change_pct": 19.91,
-        "volume": 5102211,
-        "turnover_cr": 1.33
+        "volume": 5536869,
+        "turnover_cr": 1.44
       },
       {
-        "symbol": "REGENCERAM",
-        "name": "REGENCERAM",
-        "last_price": 41,
-        "prev_close": 34.53,
-        "change": 18.74,
-        "change_pct": 18.74,
-        "volume": 10902,
-        "turnover_cr": 0.04
-      },
-      {
-        "symbol": "SHANTIGEAR",
-        "name": "SHANTIGEAR",
-        "last_price": 455.7,
-        "prev_close": 386.9,
-        "change": 17.78,
-        "change_pct": 17.78,
-        "volume": 1662768,
-        "turnover_cr": 74.53
+        "symbol": "SUPTANERY",
+        "name": "SUPTANERY",
+        "last_price": 8.71,
+        "prev_close": 7.31,
+        "change": 19.15,
+        "change_pct": 19.15,
+        "volume": 1765678,
+        "turnover_cr": 1.52
       },
       {
         "symbol": "WELCORP",
         "name": "WELCORP",
-        "last_price": 2334.3,
+        "last_price": 2336.1,
         "prev_close": 2005.2,
-        "change": 16.41,
-        "change_pct": 16.41,
-        "volume": 11575948,
-        "turnover_cr": 2599.83
+        "change": 16.5,
+        "change_pct": 16.5,
+        "volume": 13195102,
+        "turnover_cr": 2977.22
       },
       {
-        "symbol": "ORIRAIL",
-        "name": "ORIRAIL",
-        "last_price": 115.37,
-        "prev_close": 103.63,
-        "change": 11.33,
-        "change_pct": 11.33,
-        "volume": 121329,
-        "turnover_cr": 1.36
+        "symbol": "ALLCARGO",
+        "name": "ALLCARGO",
+        "last_price": 11.92,
+        "prev_close": 10.51,
+        "change": 13.42,
+        "change_pct": 13.42,
+        "volume": 61017286,
+        "turnover_cr": 70.35
+      },
+      {
+        "symbol": "NKIND",
+        "name": "NKIND",
+        "last_price": 64,
+        "prev_close": 56.6,
+        "change": 13.07,
+        "change_pct": 13.07,
+        "volume": 51067,
+        "turnover_cr": 0.34
+      },
+      {
+        "symbol": "TBZ",
+        "name": "TBZ",
+        "last_price": 280.85,
+        "prev_close": 248.85,
+        "change": 12.86,
+        "change_pct": 12.86,
+        "volume": 2463753,
+        "turnover_cr": 66.9
       },
       {
         "symbol": "SUBEXLTD",
         "name": "SUBEXLTD",
-        "last_price": 19,
+        "last_price": 19.12,
         "prev_close": 17.08,
-        "change": 11.24,
-        "change_pct": 11.24,
-        "volume": 15975524,
-        "turnover_cr": 29.55
+        "change": 11.94,
+        "change_pct": 11.94,
+        "volume": 18951009,
+        "turnover_cr": 35.25
       },
       {
-        "symbol": "WELENT",
-        "name": "WELENT",
-        "last_price": 648.5,
-        "prev_close": 584.65,
-        "change": 10.92,
-        "change_pct": 10.92,
-        "volume": 2563169,
-        "turnover_cr": 162.8
+        "symbol": "THOMASCOOK",
+        "name": "THOMASCOOK",
+        "last_price": 113.68,
+        "prev_close": 101.58,
+        "change": 11.91,
+        "change_pct": 11.91,
+        "volume": 8586608,
+        "turnover_cr": 95.53
       },
       {
-        "symbol": "KRONOX",
-        "name": "KRONOX",
-        "last_price": 205.15,
-        "prev_close": 186.19,
-        "change": 10.18,
-        "change_pct": 10.18,
-        "volume": 11879785,
-        "turnover_cr": 242.78
+        "symbol": "QUADFUTURE",
+        "name": "QUADFUTURE",
+        "last_price": 376.5,
+        "prev_close": 337.8,
+        "change": 11.46,
+        "change_pct": 11.46,
+        "volume": 1511418,
+        "turnover_cr": 55.5
       },
       {
-        "symbol": "MASTERTR",
-        "name": "MASTERTR",
-        "last_price": 85.84,
-        "prev_close": 78,
-        "change": 10.05,
-        "change_pct": 10.05,
-        "volume": 2404802,
-        "turnover_cr": 20.76
-      },
-      {
-        "symbol": "WHBRADY",
-        "name": "WHBRADY",
-        "last_price": 539.35,
-        "prev_close": 490.2,
-        "change": 10.03,
-        "change_pct": 10.03,
-        "volume": 146,
-        "turnover_cr": 0.01
+        "symbol": "KENNAMET",
+        "name": "KENNAMET",
+        "last_price": 4099.9,
+        "prev_close": 3719.6,
+        "change": 10.22,
+        "change_pct": 10.22,
+        "volume": 122893,
+        "turnover_cr": 48.43
       }
     ],
     "lower_circuit": []

@@ -1,140 +1,180 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-21T05:54:19Z",
+    "last_updated": "2026-08-21T06:54:38Z",
     "status": "healthy",
     "record_count": 21
   },
   "data": [
     {
+      "symbol": "NKIND",
+      "name": "NK Industries Limited",
+      "last_price": 64.4,
+      "change_pct": 13.78,
+      "volume": 51169,
+      "turnover_cr": 0.34,
+      "vol_change_1wk_pct": 357.83,
+      "vol_change_2wk_pct": 120.0
+    },
+    {
       "symbol": "SHANTIGEAR",
       "name": "Shanthi Gears Limited",
-      "last_price": 456.1,
-      "change_pct": 17.89,
-      "volume": 1667038,
-      "turnover_cr": 74.72,
-      "vol_change_1wk_pct": 108.22,
-      "vol_change_2wk_pct": 99.6
+      "last_price": 464.25,
+      "change_pct": 19.99,
+      "volume": 1946578,
+      "turnover_cr": 87.64,
+      "vol_change_1wk_pct": 126.37,
+      "vol_change_2wk_pct": 116.3
     },
     {
       "symbol": "JBMA",
       "name": "JBM Auto Limited",
-      "last_price": 659,
-      "change_pct": 5.72,
-      "volume": 9082143,
-      "turnover_cr": 612.43,
-      "vol_change_1wk_pct": 56.96,
-      "vol_change_2wk_pct": 49.76
+      "last_price": 663.85,
+      "change_pct": 6.5,
+      "volume": 10121867,
+      "turnover_cr": 681.21,
+      "vol_change_1wk_pct": 63.48,
+      "vol_change_2wk_pct": 55.46
     },
     {
       "symbol": "WELSPLSOL",
       "name": "Welspun Specialty Solutions Limited",
-      "last_price": 52.25,
-      "change_pct": 7.93,
-      "volume": 5569100,
-      "turnover_cr": 29.38,
-      "vol_change_1wk_pct": 25.95,
-      "vol_change_2wk_pct": 19.85
+      "last_price": 51.32,
+      "change_pct": 6.01,
+      "volume": 6970675,
+      "turnover_cr": 36.61,
+      "vol_change_1wk_pct": 32.48,
+      "vol_change_2wk_pct": 24.84
     },
     {
       "symbol": "RIIL",
       "name": "Reliance Industrial Infrastructure Limited",
-      "last_price": 801.3,
-      "change_pct": 8.61,
-      "volume": 799292,
-      "turnover_cr": 63.62,
-      "vol_change_1wk_pct": 24.84,
-      "vol_change_2wk_pct": 23.94
+      "last_price": 791,
+      "change_pct": 7.21,
+      "volume": 928588,
+      "turnover_cr": 73.93,
+      "vol_change_1wk_pct": 28.86,
+      "vol_change_2wk_pct": 27.81
     },
     {
       "symbol": "WELCORP",
       "name": "Welspun Corp Limited",
-      "last_price": 2334,
-      "change_pct": 16.4,
-      "volume": 11622397,
-      "turnover_cr": 2610.66,
-      "vol_change_1wk_pct": 17.79,
-      "vol_change_2wk_pct": 16.13
+      "last_price": 2343.1,
+      "change_pct": 16.85,
+      "volume": 13271456,
+      "turnover_cr": 2995.1,
+      "vol_change_1wk_pct": 20.32,
+      "vol_change_2wk_pct": 18.41
+    },
+    {
+      "symbol": "WELENT",
+      "name": "Welspun Enterprises Limited",
+      "last_price": 634.95,
+      "change_pct": 8.6,
+      "volume": 3922883,
+      "turnover_cr": 249.99,
+      "vol_change_1wk_pct": 17.57,
+      "vol_change_2wk_pct": 12.09
     },
     {
       "symbol": "SAMBANDAM",
       "name": "Sambandam Spinning Mills Limited",
       "last_price": 151.2,
       "change_pct": 20,
-      "volume": 78656,
-      "turnover_cr": 1.17,
-      "vol_change_1wk_pct": 16.62,
-      "vol_change_2wk_pct": 16.62
+      "volume": 79938,
+      "turnover_cr": 1.19,
+      "vol_change_1wk_pct": 16.89,
+      "vol_change_2wk_pct": 16.89
     },
     {
       "symbol": "MASTERTR",
       "name": "Master Trust Limited",
-      "last_price": 85.75,
-      "change_pct": 9.94,
-      "volume": 2414118,
-      "turnover_cr": 20.84,
-      "vol_change_1wk_pct": 13.65,
-      "vol_change_2wk_pct": 13.08
-    },
-    {
-      "symbol": "WELENT",
-      "name": "Welspun Enterprises Limited",
-      "last_price": 650,
-      "change_pct": 11.18,
-      "volume": 2607706,
-      "turnover_cr": 165.69,
-      "vol_change_1wk_pct": 11.68,
-      "vol_change_2wk_pct": 8.04
-    },
-    {
-      "symbol": "KRONOX",
-      "name": "Kronox Lab Sciences Limited",
-      "last_price": 205.15,
-      "change_pct": 10.18,
-      "volume": 11888339,
-      "turnover_cr": 242.95,
-      "vol_change_1wk_pct": 9.83,
-      "vol_change_2wk_pct": 15.12
-    },
-    {
-      "symbol": "KDDL",
-      "name": "KDDL Limited",
-      "last_price": 3802.5,
-      "change_pct": -3.56,
-      "volume": 215635,
-      "turnover_cr": 82.36,
-      "vol_change_1wk_pct": 9.45,
-      "vol_change_2wk_pct": 6.39
-    },
-    {
-      "symbol": "COMPEAU",
-      "name": "Competent Automobiles Company Limited",
-      "last_price": 358.15,
-      "change_pct": 1.29,
-      "volume": 11682,
-      "turnover_cr": 0.4,
-      "vol_change_1wk_pct": 9.24,
-      "vol_change_2wk_pct": 9.24
+      "last_price": 84.86,
+      "change_pct": 8.79,
+      "volume": 2862670,
+      "turnover_cr": 24.64,
+      "vol_change_1wk_pct": 16.19,
+      "vol_change_2wk_pct": 15.5
     },
     {
       "symbol": "NCC",
       "name": "NCC Limited",
-      "last_price": 147.26,
-      "change_pct": 5.13,
-      "volume": 11190310,
-      "turnover_cr": 165.39,
-      "vol_change_1wk_pct": 9.0,
-      "vol_change_2wk_pct": 6.17
+      "last_price": 149,
+      "change_pct": 6.38,
+      "volume": 14905987,
+      "turnover_cr": 220.88,
+      "vol_change_1wk_pct": 11.99,
+      "vol_change_2wk_pct": 8.22
+    },
+    {
+      "symbol": "THOMASCOOK",
+      "name": "Thomas Cook  (India)  Limited",
+      "last_price": 113.78,
+      "change_pct": 12.01,
+      "volume": 8634253,
+      "turnover_cr": 96.06,
+      "vol_change_1wk_pct": 11.94,
+      "vol_change_2wk_pct": 7.9
+    },
+    {
+      "symbol": "ORIRAIL",
+      "name": "Oriental Rail Infrastructure Limited",
+      "last_price": 124.35,
+      "change_pct": 19.99,
+      "volume": 378966,
+      "turnover_cr": 4.51,
+      "vol_change_1wk_pct": 11.35,
+      "vol_change_2wk_pct": 11.35
+    },
+    {
+      "symbol": "KRONOX",
+      "name": "Kronox Lab Sciences Limited",
+      "last_price": 202.99,
+      "change_pct": 9.02,
+      "volume": 13111281,
+      "turnover_cr": 267.97,
+      "vol_change_1wk_pct": 10.84,
+      "vol_change_2wk_pct": 16.67
+    },
+    {
+      "symbol": "COMPEAU",
+      "name": "Competent Automobiles Company Limited",
+      "last_price": 351,
+      "change_pct": -0.74,
+      "volume": 13035,
+      "turnover_cr": 0.44,
+      "vol_change_1wk_pct": 10.31,
+      "vol_change_2wk_pct": 10.31
+    },
+    {
+      "symbol": "JINDALSAW",
+      "name": "Jindal Saw Limited",
+      "last_price": 289.9,
+      "change_pct": 7.47,
+      "volume": 6663738,
+      "turnover_cr": 190.34,
+      "vol_change_1wk_pct": 9.88,
+      "vol_change_2wk_pct": 6.23
+    },
+    {
+      "symbol": "KDDL",
+      "name": "KDDL Limited",
+      "last_price": 3819,
+      "change_pct": -3.14,
+      "volume": 224408,
+      "turnover_cr": 85.73,
+      "vol_change_1wk_pct": 9.84,
+      "vol_change_2wk_pct": 6.65
     },
     {
       "symbol": "SHIVAUM",
       "name": "Shiv Aum Steels Limited",
-      "last_price": 445.1,
-      "change_pct": 0.02,
-      "volume": 88814,
-      "turnover_cr": 3.95,
-      "vol_change_1wk_pct": 7.51,
-      "vol_change_2wk_pct": 4.44
+      "last_price": 443,
+      "change_pct": -0.45,
+      "volume": 90061,
+      "turnover_cr": 4.01,
+      "vol_change_1wk_pct": 7.62,
+      "vol_change_2wk_pct": 4.5
     },
     {
       "symbol": "MOGSEC",
@@ -149,72 +189,32 @@
     {
       "symbol": "CLSEL",
       "name": "Chaman Lal Setia Exports Limited",
-      "last_price": 288.15,
-      "change_pct": 3.48,
-      "volume": 191132,
-      "turnover_cr": 5.55,
-      "vol_change_1wk_pct": 6.34,
-      "vol_change_2wk_pct": 2.72
+      "last_price": 288.3,
+      "change_pct": 3.54,
+      "volume": 202618,
+      "turnover_cr": 5.88,
+      "vol_change_1wk_pct": 6.72,
+      "vol_change_2wk_pct": 2.88
     },
     {
       "symbol": "IIFL",
       "name": "IIFL Finance Limited",
-      "last_price": 678.25,
-      "change_pct": 6.53,
-      "volume": 8189917,
-      "turnover_cr": 551.97,
-      "vol_change_1wk_pct": 6.17,
-      "vol_change_2wk_pct": 6.74
-    },
-    {
-      "symbol": "KLBRENG-B",
-      "name": "Kilburn Engineering Limited",
-      "last_price": 387.15,
-      "change_pct": 8.25,
-      "volume": 1378213,
-      "turnover_cr": 53.96,
-      "vol_change_1wk_pct": 5.6,
-      "vol_change_2wk_pct": 6.52
-    },
-    {
-      "symbol": "NDL",
-      "name": "Nandan Denim Limited",
-      "last_price": 2.71,
-      "change_pct": 19.91,
-      "volume": 5107611,
-      "turnover_cr": 1.33,
-      "vol_change_1wk_pct": 5.36,
-      "vol_change_2wk_pct": 5.2
-    },
-    {
-      "symbol": "JSFB",
-      "name": "Jana Small Finance Bank Limited",
-      "last_price": 587.6,
-      "change_pct": 4.4,
-      "volume": 3280744,
-      "turnover_cr": 195.26,
-      "vol_change_1wk_pct": 5.08,
-      "vol_change_2wk_pct": 6.46
-    },
-    {
-      "symbol": "JINDALSAW",
-      "name": "Jindal Saw Limited",
-      "last_price": 285.4,
-      "change_pct": 5.8,
-      "volume": 3347873,
-      "turnover_cr": 94.35,
-      "vol_change_1wk_pct": 4.96,
-      "vol_change_2wk_pct": 3.13
+      "last_price": 679,
+      "change_pct": 6.64,
+      "volume": 8813158,
+      "turnover_cr": 594.3,
+      "vol_change_1wk_pct": 6.64,
+      "vol_change_2wk_pct": 7.26
     },
     {
       "symbol": "DCBBANK",
       "name": "DCB Bank Limited",
-      "last_price": 202.08,
-      "change_pct": 7.14,
-      "volume": 4533759,
-      "turnover_cr": 89.7,
-      "vol_change_1wk_pct": 4.64,
-      "vol_change_2wk_pct": 3.56
+      "last_price": 202.7,
+      "change_pct": 7.47,
+      "volume": 6458185,
+      "turnover_cr": 128.56,
+      "vol_change_1wk_pct": 6.62,
+      "vol_change_2wk_pct": 5.07
     }
   ]
 }
