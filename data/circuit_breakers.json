@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-24T04:51:01Z",
+    "last_updated": "2026-08-24T05:30:16Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,8 +14,8 @@
         "prev_close": 177.41,
         "change": 20,
         "change_pct": 20,
-        "volume": 2441962,
-        "turnover_cr": 50.82
+        "volume": 2463843,
+        "turnover_cr": 51.29
       },
       {
         "symbol": "MARATHON",
@@ -24,128 +24,168 @@
         "prev_close": 352.35,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 3138583,
-        "turnover_cr": 130.93
-      },
-      {
-        "symbol": "VISHWARAJ",
-        "name": "VISHWARAJ",
-        "last_price": 6.77,
-        "prev_close": 5.69,
-        "change": 18.98,
-        "change_pct": 18.98,
-        "volume": 4236975,
-        "turnover_cr": 2.74
-      },
-      {
-        "symbol": "SUPTANERY",
-        "name": "SUPTANERY",
-        "last_price": 10.38,
-        "prev_close": 8.77,
-        "change": 18.36,
-        "change_pct": 18.36,
-        "volume": 1171813,
-        "turnover_cr": 1.19
-      },
-      {
-        "symbol": "SHAH",
-        "name": "SHAH",
-        "last_price": 3.85,
-        "prev_close": 3.33,
-        "change": 15.62,
-        "change_pct": 15.62,
-        "volume": 4409286,
-        "turnover_cr": 1.65
+        "volume": 3157411,
+        "turnover_cr": 131.72
       },
       {
         "symbol": "VIRAT",
         "name": "VIRAT",
-        "last_price": 464.45,
+        "last_price": 482,
         "prev_close": 401.7,
-        "change": 15.62,
-        "change_pct": 15.62,
-        "volume": 93358,
-        "turnover_cr": 4.44
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 124225,
+        "turnover_cr": 5.91
       },
       {
-        "symbol": "LEENEE",
-        "name": "LEENEE",
-        "last_price": 10.6,
-        "prev_close": 9.19,
-        "change": 15.34,
-        "change_pct": 15.34,
-        "volume": 164754,
-        "turnover_cr": 0.18
+        "symbol": "SUPTANERY",
+        "name": "SUPTANERY",
+        "last_price": 10.52,
+        "prev_close": 8.77,
+        "change": 19.95,
+        "change_pct": 19.95,
+        "volume": 1575880,
+        "turnover_cr": 1.61
+      },
+      {
+        "symbol": "VISHWARAJ",
+        "name": "VISHWARAJ",
+        "last_price": 6.75,
+        "prev_close": 5.69,
+        "change": 18.63,
+        "change_pct": 18.63,
+        "volume": 5333864,
+        "turnover_cr": 3.48
+      },
+      {
+        "symbol": "SHAH",
+        "name": "SHAH",
+        "last_price": 3.93,
+        "prev_close": 3.33,
+        "change": 18.02,
+        "change_pct": 18.02,
+        "volume": 5465906,
+        "turnover_cr": 2.06
       },
       {
         "symbol": "BANG",
         "name": "BANG",
-        "last_price": 32.7,
+        "last_price": 33.84,
         "prev_close": 28.69,
-        "change": 13.98,
-        "change_pct": 13.98,
-        "volume": 89821,
-        "turnover_cr": 0.28
-      },
-      {
-        "symbol": "NDL",
-        "name": "NDL",
-        "last_price": 3.08,
-        "prev_close": 2.71,
-        "change": 13.65,
-        "change_pct": 13.65,
-        "volume": 10475188,
-        "turnover_cr": 3.17
+        "change": 17.95,
+        "change_pct": 17.95,
+        "volume": 215751,
+        "turnover_cr": 0.7
       },
       {
         "symbol": "SHANTIGEAR",
         "name": "SHANTIGEAR",
-        "last_price": 527.1,
+        "last_price": 531.25,
         "prev_close": 464.25,
-        "change": 13.54,
-        "change_pct": 13.54,
-        "volume": 8261756,
-        "turnover_cr": 433.58
+        "change": 14.43,
+        "change_pct": 14.43,
+        "volume": 8891405,
+        "turnover_cr": 467.05
       },
       {
-        "symbol": "ATL",
-        "name": "ATL",
-        "last_price": 27.83,
-        "prev_close": 24.86,
-        "change": 11.95,
-        "change_pct": 11.95,
-        "volume": 626396,
-        "turnover_cr": 1.67
+        "symbol": "LEENEE",
+        "name": "LEENEE",
+        "last_price": 10.43,
+        "prev_close": 9.19,
+        "change": 13.49,
+        "change_pct": 13.49,
+        "volume": 194817,
+        "turnover_cr": 0.21
+      },
+      {
+        "symbol": "NDL",
+        "name": "NDL",
+        "last_price": 3.06,
+        "prev_close": 2.71,
+        "change": 12.92,
+        "change_pct": 12.92,
+        "volume": 11381687,
+        "turnover_cr": 3.45
+      },
+      {
+        "symbol": "BALUFORGE",
+        "name": "BALUFORGE",
+        "last_price": 622.7,
+        "prev_close": 555.4,
+        "change": 12.12,
+        "change_pct": 12.12,
+        "volume": 7296303,
+        "turnover_cr": 445.85
+      },
+      {
+        "symbol": "LTFOODS",
+        "name": "LTFOODS",
+        "last_price": 477.15,
+        "prev_close": 427.6,
+        "change": 11.59,
+        "change_pct": 11.59,
+        "volume": 7691774,
+        "turnover_cr": 355.81
       },
       {
         "symbol": "BAJAJHIND",
         "name": "BAJAJHIND",
-        "last_price": 25.71,
+        "last_price": 25.7,
         "prev_close": 23.13,
-        "change": 11.15,
-        "change_pct": 11.15,
-        "volume": 99251932,
-        "turnover_cr": 252.0
+        "change": 11.11,
+        "change_pct": 11.11,
+        "volume": 120709856,
+        "turnover_cr": 307.33
+      },
+      {
+        "symbol": "DWARKESH",
+        "name": "DWARKESH",
+        "last_price": 59.55,
+        "prev_close": 53.63,
+        "change": 11.04,
+        "change_pct": 11.04,
+        "volume": 13378886,
+        "turnover_cr": 77.54
       },
       {
         "symbol": "MAKERSL",
         "name": "MAKERSL",
-        "last_price": 205.82,
+        "last_price": 207.5,
         "prev_close": 186.88,
-        "change": 10.13,
-        "change_pct": 10.13,
-        "volume": 17624,
-        "turnover_cr": 0.36
+        "change": 11.03,
+        "change_pct": 11.03,
+        "volume": 23797,
+        "turnover_cr": 0.48
       },
       {
-        "symbol": "VMM",
-        "name": "VMM",
-        "last_price": 113.77,
-        "prev_close": 103.43,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 62194508,
-        "turnover_cr": 697.2
+        "symbol": "LAMBODHARA",
+        "name": "LAMBODHARA",
+        "last_price": 130.79,
+        "prev_close": 118.08,
+        "change": 10.76,
+        "change_pct": 10.76,
+        "volume": 294902,
+        "turnover_cr": 3.7
+      },
+      {
+        "symbol": "MAXESTATES",
+        "name": "MAXESTATES",
+        "last_price": 547.55,
+        "prev_close": 494.85,
+        "change": 10.65,
+        "change_pct": 10.65,
+        "volume": 607336,
+        "turnover_cr": 32.37
+      },
+      {
+        "symbol": "KABRAEXTRU",
+        "name": "KABRAEXTRU",
+        "last_price": 623.4,
+        "prev_close": 566.2,
+        "change": 10.1,
+        "change_pct": 10.1,
+        "volume": 590142,
+        "turnover_cr": 34.87
       }
     ],
     "lower_circuit": [
@@ -156,8 +196,8 @@
         "prev_close": 79.7,
         "change": -10,
         "change_pct": -10,
-        "volume": 15570,
-        "turnover_cr": 0.12
+        "volume": 16984,
+        "turnover_cr": 0.13
       }
     ]
   }
