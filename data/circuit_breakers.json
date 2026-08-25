@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-25T05:19:57Z",
+    "last_updated": "2026-08-25T05:54:33Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,50 +14,60 @@
         "prev_close": 178.55,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 4132708,
-        "turnover_cr": 86.24
-      },
-      {
-        "symbol": "VGL",
-        "name": "VGL",
-        "last_price": 61.25,
-        "prev_close": 54.59,
-        "change": 12.2,
-        "change_pct": 12.2,
-        "volume": 55451,
-        "turnover_cr": 0.34
+        "volume": 4140608,
+        "turnover_cr": 86.41
       },
       {
         "symbol": "FACT",
         "name": "FACT",
-        "last_price": 874.4,
+        "last_price": 892.5,
         "prev_close": 784.25,
-        "change": 11.5,
-        "change_pct": 11.5,
-        "volume": 12839766,
-        "turnover_cr": 1126.47
+        "change": 13.8,
+        "change_pct": 13.8,
+        "volume": 16947826,
+        "turnover_cr": 1491.61
       },
       {
-        "symbol": "PROZONER",
-        "name": "PROZONER",
-        "last_price": 46.25,
-        "prev_close": 41.72,
-        "change": 10.86,
-        "change_pct": 10.86,
-        "volume": 662151,
-        "turnover_cr": 2.99
+        "symbol": "ORIRAIL",
+        "name": "ORIRAIL",
+        "last_price": 134.08,
+        "prev_close": 119.91,
+        "change": 11.82,
+        "change_pct": 11.82,
+        "volume": 905944,
+        "turnover_cr": 11.64
+      },
+      {
+        "symbol": "VGL",
+        "name": "VGL",
+        "last_price": 61,
+        "prev_close": 54.59,
+        "change": 11.74,
+        "change_pct": 11.74,
+        "volume": 68351,
+        "turnover_cr": 0.41
+      },
+      {
+        "symbol": "SIGACHI",
+        "name": "SIGACHI",
+        "last_price": 33.67,
+        "prev_close": 30.49,
+        "change": 10.43,
+        "change_pct": 10.43,
+        "volume": 6490021,
+        "turnover_cr": 21.19
       }
     ],
     "lower_circuit": [
       {
         "symbol": "DJML",
         "name": "DJML",
-        "last_price": 76.5,
+        "last_price": 76.2,
         "prev_close": 86.92,
-        "change": -11.99,
-        "change_pct": -11.99,
-        "volume": 1557975,
-        "turnover_cr": 11.58
+        "change": -12.33,
+        "change_pct": -12.33,
+        "volume": 1590684,
+        "turnover_cr": 11.83
       },
       {
         "symbol": "MSCI360",
@@ -66,18 +76,8 @@
         "prev_close": 11.59,
         "change": -11.99,
         "change_pct": -11.99,
-        "volume": 43379,
-        "turnover_cr": 0.04
-      },
-      {
-        "symbol": "VIRAT",
-        "name": "VIRAT",
-        "last_price": 433.8,
-        "prev_close": 482,
-        "change": -10,
-        "change_pct": -10,
-        "volume": 23298,
-        "turnover_cr": 1.03
+        "volume": 46450,
+        "turnover_cr": 0.05
       }
     ]
   }
