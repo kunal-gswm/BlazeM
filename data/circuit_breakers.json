@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-25T09:09:54Z",
+    "last_updated": "2026-08-25T09:52:35Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,48 +14,58 @@
         "prev_close": 178.55,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 4182574,
-        "turnover_cr": 87.31
+        "volume": 4188728,
+        "turnover_cr": 87.44
+      },
+      {
+        "symbol": "OPTIFIN",
+        "name": "OPTIFIN",
+        "last_price": 14.06,
+        "prev_close": 12.04,
+        "change": 16.78,
+        "change_pct": 16.78,
+        "volume": 496643,
+        "turnover_cr": 0.67
       },
       {
         "symbol": "BTML",
         "name": "BTML",
-        "last_price": 8.89,
+        "last_price": 9,
         "prev_close": 7.84,
-        "change": 13.39,
-        "change_pct": 13.39,
-        "volume": 2004574,
-        "turnover_cr": 1.75
-      },
-      {
-        "symbol": "FMGOETZE",
-        "name": "FMGOETZE",
-        "last_price": 547.25,
-        "prev_close": 483.35,
-        "change": 13.22,
-        "change_pct": 13.22,
-        "volume": 15033034,
-        "turnover_cr": 814.82
+        "change": 14.8,
+        "change_pct": 14.8,
+        "volume": 2282493,
+        "turnover_cr": 2.0
       },
       {
         "symbol": "FACT",
         "name": "FACT",
-        "last_price": 886.1,
+        "last_price": 877.9,
         "prev_close": 784.25,
-        "change": 12.99,
-        "change_pct": 12.99,
-        "volume": 31707858,
-        "turnover_cr": 2824.6
+        "change": 11.94,
+        "change_pct": 11.94,
+        "volume": 34006500,
+        "turnover_cr": 3027.05
+      },
+      {
+        "symbol": "ORIRAIL",
+        "name": "ORIRAIL",
+        "last_price": 132.55,
+        "prev_close": 119.91,
+        "change": 10.54,
+        "change_pct": 10.54,
+        "volume": 1841356,
+        "turnover_cr": 23.94
       },
       {
         "symbol": "SIGACHI",
         "name": "SIGACHI",
-        "last_price": 34.02,
+        "last_price": 33.67,
         "prev_close": 30.49,
-        "change": 11.58,
-        "change_pct": 11.58,
-        "volume": 12682497,
-        "turnover_cr": 42.08
+        "change": 10.43,
+        "change_pct": 10.43,
+        "volume": 15526062,
+        "turnover_cr": 51.73
       }
     ],
     "lower_circuit": [
@@ -66,48 +76,28 @@
         "prev_close": 3.99,
         "change": -19.8,
         "change_pct": -19.8,
-        "volume": 48053483,
-        "turnover_cr": 16.63
+        "volume": 54183414,
+        "turnover_cr": 18.58
       },
       {
         "symbol": "DJML",
         "name": "DJML",
-        "last_price": 74.53,
+        "last_price": 73.96,
         "prev_close": 86.92,
-        "change": -14.25,
-        "change_pct": -14.25,
-        "volume": 1866501,
-        "turnover_cr": 13.96
-      },
-      {
-        "symbol": "RPTECH",
-        "name": "RPTECH",
-        "last_price": 759.6,
-        "prev_close": 867,
-        "change": -12.39,
-        "change_pct": -12.39,
-        "volume": 3995825,
-        "turnover_cr": 298.26
+        "change": -14.91,
+        "change_pct": -14.91,
+        "volume": 2100965,
+        "turnover_cr": 15.68
       },
       {
         "symbol": "MSCI360",
         "name": "MSCI360",
-        "last_price": 10.22,
+        "last_price": 10.34,
         "prev_close": 11.59,
-        "change": -11.82,
-        "change_pct": -11.82,
-        "volume": 93045,
-        "turnover_cr": 0.1
-      },
-      {
-        "symbol": "SHERVANI",
-        "name": "SHERVANI",
-        "last_price": 308.05,
-        "prev_close": 344.5,
-        "change": -10.58,
-        "change_pct": -10.58,
-        "volume": 212,
-        "turnover_cr": 0.01
+        "change": -10.79,
+        "change_pct": -10.79,
+        "volume": 120849,
+        "turnover_cr": 0.12
       }
     ]
   }
