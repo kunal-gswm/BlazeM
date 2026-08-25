@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-25T05:54:33Z",
+    "last_updated": "2026-08-25T06:55:46Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,61 +14,51 @@
         "prev_close": 178.55,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 4140608,
-        "turnover_cr": 86.41
+        "volume": 4147005,
+        "turnover_cr": 86.55
       },
       {
         "symbol": "FACT",
         "name": "FACT",
-        "last_price": 892.5,
+        "last_price": 914.1,
         "prev_close": 784.25,
-        "change": 13.8,
-        "change_pct": 13.8,
-        "volume": 16947826,
-        "turnover_cr": 1491.61
+        "change": 16.56,
+        "change_pct": 16.56,
+        "volume": 24363775,
+        "turnover_cr": 2161.6
       },
       {
-        "symbol": "ORIRAIL",
-        "name": "ORIRAIL",
-        "last_price": 134.08,
-        "prev_close": 119.91,
-        "change": 11.82,
-        "change_pct": 11.82,
-        "volume": 905944,
-        "turnover_cr": 11.64
+        "symbol": "QUINT",
+        "name": "QUINT",
+        "last_price": 46,
+        "prev_close": 40.51,
+        "change": 13.55,
+        "change_pct": 13.55,
+        "volume": 21338,
+        "turnover_cr": 0.09
       },
       {
-        "symbol": "VGL",
-        "name": "VGL",
-        "last_price": 61,
-        "prev_close": 54.59,
-        "change": 11.74,
-        "change_pct": 11.74,
-        "volume": 68351,
-        "turnover_cr": 0.41
+        "symbol": "FMGOETZE",
+        "name": "FMGOETZE",
+        "last_price": 539,
+        "prev_close": 483.35,
+        "change": 11.51,
+        "change_pct": 11.51,
+        "volume": 4934967,
+        "turnover_cr": 262.49
       },
       {
-        "symbol": "SIGACHI",
-        "name": "SIGACHI",
-        "last_price": 33.67,
-        "prev_close": 30.49,
-        "change": 10.43,
-        "change_pct": 10.43,
-        "volume": 6490021,
-        "turnover_cr": 21.19
+        "symbol": "BAJAJINDEF",
+        "name": "BAJAJINDEF",
+        "last_price": 238,
+        "prev_close": 216.08,
+        "change": 10.14,
+        "change_pct": 10.14,
+        "volume": 48243,
+        "turnover_cr": 1.1
       }
     ],
     "lower_circuit": [
-      {
-        "symbol": "DJML",
-        "name": "DJML",
-        "last_price": 76.2,
-        "prev_close": 86.92,
-        "change": -12.33,
-        "change_pct": -12.33,
-        "volume": 1590684,
-        "turnover_cr": 11.83
-      },
       {
         "symbol": "MSCI360",
         "name": "MSCI360",
@@ -76,8 +66,18 @@
         "prev_close": 11.59,
         "change": -11.99,
         "change_pct": -11.99,
-        "volume": 46450,
-        "turnover_cr": 0.05
+        "volume": 64891,
+        "turnover_cr": 0.07
+      },
+      {
+        "symbol": "SHERVANI",
+        "name": "SHERVANI",
+        "last_price": 303.35,
+        "prev_close": 344.5,
+        "change": -11.94,
+        "change_pct": -11.94,
+        "volume": 209,
+        "turnover_cr": 0.01
       }
     ]
   }
