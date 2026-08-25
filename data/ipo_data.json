@@ -1,11 +1,53 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-08-24T10:51:50Z",
+    "last_updated": "2026-08-25T04:43:22Z",
     "status": "healthy",
-    "record_count": 17
+    "record_count": 19
   },
   "data": [
+    {
+      "issue_name": "Ashutosh Fibre NSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "92",
+      "lot_size": "1,200",
+      "issue_size": "₹64.40 Cr",
+      "issue_open": "2026-08-31",
+      "issue_close": "2026-09-02",
+      "allotment_date": "2026-09-03",
+      "listing_date": "2026-09-07",
+      "gmp": 0.0,
+      "gmp_percent": "",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/ashutosh-fibre-ipo/2009/",
+      "scraped_at": "2026-08-25T04:43:02.864696+00:00Z"
+    },
+    {
+      "issue_name": "ESDS Software Solution",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "429",
+      "lot_size": "34",
+      "issue_size": "₹720.00 Cr",
+      "issue_open": "2026-08-28",
+      "issue_close": "2026-09-01",
+      "allotment_date": "2026-09-02",
+      "listing_date": "2026-09-04",
+      "gmp": 240.0,
+      "gmp_percent": "55.94%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/esds-software-ipo/1607/",
+      "scraped_at": "2026-08-25T04:43:02.864775+00:00Z"
+    },
     {
       "issue_name": "Rays of Belief",
       "ipo_type": "Mainboard",
@@ -25,7 +67,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/rays-of-belief-ipo/2041/",
-      "scraped_at": "2026-08-24T10:51:34.556696+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.864827+00:00Z"
     },
     {
       "issue_name": "Shanti Inorganics NSE SME",
@@ -38,15 +80,15 @@
       "issue_close": "2026-09-02",
       "allotment_date": "2026-09-03",
       "listing_date": "2026-09-07",
-      "gmp": 0.0,
-      "gmp_percent": "",
+      "gmp": 25.0,
+      "gmp_percent": "30.12%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shanti-inorganics-ipo/1994/",
-      "scraped_at": "2026-08-24T10:51:34.556866+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.864879+00:00Z"
     },
     {
       "issue_name": "Complete Sports and Management BSE SME",
@@ -67,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/complete-sports-and-management-ipo/2339/",
-      "scraped_at": "2026-08-24T10:51:34.556978+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.864930+00:00Z"
     },
     {
       "issue_name": "Paluck Technologies BSE SME",
@@ -80,15 +122,15 @@
       "issue_close": "2026-09-01",
       "allotment_date": "2026-09-02",
       "listing_date": "2026-09-04",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 15.0,
+      "gmp_percent": "31.25%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/paluck-technologies-ipo/1963/",
-      "scraped_at": "2026-08-24T10:51:34.557080+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.864978+00:00Z"
     },
     {
       "issue_name": "Priority Jewels",
@@ -101,15 +143,15 @@
       "issue_close": "2026-09-01",
       "allotment_date": "2026-09-02",
       "listing_date": "2026-09-04",
-      "gmp": 18.0,
-      "gmp_percent": "9.00%",
+      "gmp": 28.0,
+      "gmp_percent": "14.00%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/priority-jewels-ipo/1783/",
-      "scraped_at": "2026-08-24T10:51:34.557177+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865027+00:00Z"
     },
     {
       "issue_name": "Kwick Forensic Solutions BSE SME",
@@ -122,15 +164,15 @@
       "issue_close": "2026-08-31",
       "allotment_date": "2026-09-01",
       "listing_date": "2026-09-03",
-      "gmp": 61.0,
-      "gmp_percent": "67.78%",
+      "gmp": 64.0,
+      "gmp_percent": "71.11%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/kwick-forensic-solutions-ipo/2013/",
-      "scraped_at": "2026-08-24T10:51:34.557279+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865141+00:00Z"
     },
     {
       "issue_name": "Lumino Industries",
@@ -143,15 +185,15 @@
       "issue_close": "2026-08-31",
       "allotment_date": "2026-09-01",
       "listing_date": "2026-09-03",
-      "gmp": 48.0,
-      "gmp_percent": "58.54%",
+      "gmp": 47.0,
+      "gmp_percent": "57.32%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/lumino-industries-ipo/1619/",
-      "scraped_at": "2026-08-24T10:51:34.557375+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865196+00:00Z"
     },
     {
       "issue_name": "Annu Projects",
@@ -172,7 +214,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/annu-projects-ipo/1815/",
-      "scraped_at": "2026-08-24T10:51:34.557476+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865246+00:00Z"
     },
     {
       "issue_name": "Sumax Engineering NSE SME",
@@ -193,7 +235,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sumax-engineering-ipo/2238/",
-      "scraped_at": "2026-08-24T10:51:34.557569+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865297+00:00Z"
     },
     {
       "issue_name": "Madhur Knit NSE SME",
@@ -214,7 +256,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/madhur-knit-ipo/2037/",
-      "scraped_at": "2026-08-24T10:51:34.557663+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865344+00:00Z"
     },
     {
       "issue_name": "ABH Healthcare NSE SME",
@@ -235,7 +277,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/abh-healthcare-ipo/1824/",
-      "scraped_at": "2026-08-24T10:51:34.557755+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865390+00:00Z"
     },
     {
       "issue_name": "Skyways Air",
@@ -248,15 +290,15 @@
       "issue_close": "2026-08-27",
       "allotment_date": "2026-08-28",
       "listing_date": "2026-09-01",
-      "gmp": 33.0,
-      "gmp_percent": "23.91%",
+      "gmp": 32.0,
+      "gmp_percent": "23.19%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/skyways-air-ipo/1820/",
-      "scraped_at": "2026-08-24T10:51:34.557897+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865437+00:00Z"
     },
     {
       "issue_name": "Hy-Tech Engineers",
@@ -269,15 +311,15 @@
       "issue_close": "2026-08-27",
       "allotment_date": "2026-08-28",
       "listing_date": "2026-09-01",
-      "gmp": 35.0,
-      "gmp_percent": "66.04%",
-      "subscription_qib": "0.49x",
-      "subscription_nii": "7.09x",
-      "subscription_retail": "10.24x",
-      "subscription_total": "6.78x",
-      "subscription_applications": "2,64,258",
+      "gmp": 30.0,
+      "gmp_percent": "56.60%",
+      "subscription_qib": "0.50x",
+      "subscription_nii": "9.02x",
+      "subscription_retail": "11.53x",
+      "subscription_total": "7.84x",
+      "subscription_applications": "3,01,098",
       "detail_url": "https://www.investorgain.com/gmp/hy-tech-engineers-ipo/1876/",
-      "scraped_at": "2026-08-24T10:51:34.557998+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865484+00:00Z"
     },
     {
       "issue_name": "Symbiotec Pharmalab",
@@ -290,15 +332,15 @@
       "issue_close": "2026-08-27",
       "allotment_date": "2026-08-28",
       "listing_date": "2026-09-01",
-      "gmp": 388.0,
-      "gmp_percent": "39.27%",
+      "gmp": 340.0,
+      "gmp_percent": "34.41%",
       "subscription_qib": "0.37x",
-      "subscription_nii": "0.96x",
-      "subscription_retail": "0.92x",
-      "subscription_total": "0.78x",
-      "subscription_applications": "3,12,020",
+      "subscription_nii": "1.10x",
+      "subscription_retail": "1.01x",
+      "subscription_total": "0.85x",
+      "subscription_applications": "3,44,314",
       "detail_url": "https://www.investorgain.com/gmp/symbiotec-pharmalab-ipo/2069/",
-      "scraped_at": "2026-08-24T10:51:34.558089+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865538+00:00Z"
     },
     {
       "issue_name": "Augmont Enterprises",
@@ -311,15 +353,15 @@
       "issue_close": "2026-08-25",
       "allotment_date": "2026-08-27",
       "listing_date": "2026-08-31",
-      "gmp": 372.0,
-      "gmp_percent": "47.21%",
-      "subscription_qib": "2.05x",
-      "subscription_nii": "30.91x",
-      "subscription_retail": "13.20x",
-      "subscription_total": "13.78x",
-      "subscription_applications": "21,45,386",
+      "gmp": 325.0,
+      "gmp_percent": "41.24%",
+      "subscription_qib": "2.22x",
+      "subscription_nii": "35.36x",
+      "subscription_retail": "14.08x",
+      "subscription_total": "15.21x",
+      "subscription_applications": "23,13,241",
       "detail_url": "https://www.investorgain.com/gmp/augmont-enterprises-ipo/1938/",
-      "scraped_at": "2026-08-24T10:51:34.558181+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865586+00:00Z"
     },
     {
       "issue_name": "Tempsens Instruments (India)",
@@ -332,15 +374,15 @@
       "issue_close": "2026-08-24",
       "allotment_date": "2026-08-25",
       "listing_date": "2026-08-28",
-      "gmp": 305.0,
-      "gmp_percent": "101.67%",
+      "gmp": 317.0,
+      "gmp_percent": "105.67%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/tempsens-instruments-india-ipo/1934/",
-      "scraped_at": "2026-08-24T10:51:34.558289+00:00Z"
+      "scraped_at": "2026-08-25T04:43:02.865643+00:00Z"
     },
     {
       "issue_name": "Skyways Air Services Ltd. O",
@@ -356,12 +398,12 @@
       "gmp": null,
       "gmp_percent": null,
       "subscription_qib": "0.46x",
-      "subscription_nii": "0.72x",
-      "subscription_retail": "1.46x",
-      "subscription_total": "1.02x",
-      "subscription_applications": "1,77,023",
+      "subscription_nii": "0.92x",
+      "subscription_retail": "1.66x",
+      "subscription_total": "1.16x",
+      "subscription_applications": "2,04,890",
       "detail_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
-      "scraped_at": "2026-08-24T10:51:39.398962+00:00Z"
+      "scraped_at": "2026-08-25T04:43:07.780862+00:00Z"
     }
   ]
 }
