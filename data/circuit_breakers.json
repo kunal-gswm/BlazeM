@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-25T06:55:46Z",
+    "last_updated": "2026-08-25T07:49:48Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,60 +14,50 @@
         "prev_close": 178.55,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 4147005,
-        "turnover_cr": 86.55
+        "volume": 4175262,
+        "turnover_cr": 87.15
       },
       {
         "symbol": "FACT",
         "name": "FACT",
-        "last_price": 914.1,
+        "last_price": 906.6,
         "prev_close": 784.25,
-        "change": 16.56,
-        "change_pct": 16.56,
-        "volume": 24363775,
-        "turnover_cr": 2161.6
-      },
-      {
-        "symbol": "QUINT",
-        "name": "QUINT",
-        "last_price": 46,
-        "prev_close": 40.51,
-        "change": 13.55,
-        "change_pct": 13.55,
-        "volume": 21338,
-        "turnover_cr": 0.09
+        "change": 15.6,
+        "change_pct": 15.6,
+        "volume": 27306569,
+        "turnover_cr": 2429.82
       },
       {
         "symbol": "FMGOETZE",
         "name": "FMGOETZE",
-        "last_price": 539,
+        "last_price": 535.5,
         "prev_close": 483.35,
-        "change": 11.51,
-        "change_pct": 11.51,
-        "volume": 4934967,
-        "turnover_cr": 262.49
-      },
-      {
-        "symbol": "BAJAJINDEF",
-        "name": "BAJAJINDEF",
-        "last_price": 238,
-        "prev_close": 216.08,
-        "change": 10.14,
-        "change_pct": 10.14,
-        "volume": 48243,
-        "turnover_cr": 1.1
+        "change": 10.79,
+        "change_pct": 10.79,
+        "volume": 8866546,
+        "turnover_cr": 476.76
       }
     ],
     "lower_circuit": [
       {
-        "symbol": "MSCI360",
-        "name": "MSCI360",
-        "last_price": 10.2,
-        "prev_close": 11.59,
-        "change": -11.99,
-        "change_pct": -11.99,
-        "volume": 64891,
-        "turnover_cr": 0.07
+        "symbol": "RPTECH",
+        "name": "RPTECH",
+        "last_price": 727,
+        "prev_close": 867,
+        "change": -16.15,
+        "change_pct": -16.15,
+        "volume": 2475032,
+        "turnover_cr": 183.46
+      },
+      {
+        "symbol": "SHAH",
+        "name": "SHAH",
+        "last_price": 3.5,
+        "prev_close": 3.99,
+        "change": -12.28,
+        "change_pct": -12.28,
+        "volume": 21420258,
+        "turnover_cr": 7.86
       },
       {
         "symbol": "SHERVANI",
@@ -78,6 +68,16 @@
         "change_pct": -11.94,
         "volume": 209,
         "turnover_cr": 0.01
+      },
+      {
+        "symbol": "MSCI360",
+        "name": "MSCI360",
+        "last_price": 10.28,
+        "prev_close": 11.59,
+        "change": -11.3,
+        "change_pct": -11.3,
+        "volume": 84508,
+        "turnover_cr": 0.09
       }
     ]
   }
