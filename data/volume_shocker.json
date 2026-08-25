@@ -1,70 +1,80 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-25T09:52:34Z",
+    "last_updated": "2026-08-25T10:38:05Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 23
   },
   "data": [
     {
       "symbol": "FMGOETZE",
       "name": "Federal-Mogul Goetze (India) Limited.",
-      "last_price": 530.85,
-      "change_pct": 9.83,
-      "volume": 20234300,
-      "turnover_cr": 1095.0,
-      "vol_change_1wk_pct": 594.76,
-      "vol_change_2wk_pct": 423.42
+      "last_price": 531.1,
+      "change_pct": 9.88,
+      "volume": 20771319,
+      "turnover_cr": 1123.54,
+      "vol_change_1wk_pct": 610.55,
+      "vol_change_2wk_pct": 434.66
     },
     {
       "symbol": "FACT",
       "name": "Fertilizers and Chemicals Travancore Limited",
-      "last_price": 877.4,
-      "change_pct": 11.88,
-      "volume": 34010646,
-      "turnover_cr": 3027.42,
-      "vol_change_1wk_pct": 245.35,
-      "vol_change_2wk_pct": 267.59
+      "last_price": 873.9,
+      "change_pct": 11.43,
+      "volume": 34307227,
+      "turnover_cr": 3053.41,
+      "vol_change_1wk_pct": 247.49,
+      "vol_change_2wk_pct": 269.92
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Limited",
-      "last_price": 261.3,
-      "change_pct": 2.86,
-      "volume": 18038188,
-      "turnover_cr": 493.29,
-      "vol_change_1wk_pct": 134.09,
-      "vol_change_2wk_pct": 197.45
+      "last_price": 256.4,
+      "change_pct": 0.93,
+      "volume": 18593567,
+      "turnover_cr": 507.6,
+      "vol_change_1wk_pct": 138.22,
+      "vol_change_2wk_pct": 203.53
     },
     {
       "symbol": "ONIXSOLAR",
       "name": "Onix Solar Energy Limited",
-      "last_price": 278.65,
-      "change_pct": -4.13,
-      "volume": 812928,
-      "turnover_cr": 22.46,
-      "vol_change_1wk_pct": 89.97,
-      "vol_change_2wk_pct": 89.97
+      "last_price": 276.15,
+      "change_pct": -4.99,
+      "volume": 856148,
+      "turnover_cr": 23.65,
+      "vol_change_1wk_pct": 94.75,
+      "vol_change_2wk_pct": 94.75
     },
     {
       "symbol": "MADRASFERT",
       "name": "Madras Fertilizers Limited",
-      "last_price": 69.78,
-      "change_pct": 6.27,
-      "volume": 1321396,
-      "turnover_cr": 9.29,
-      "vol_change_1wk_pct": 29.68,
-      "vol_change_2wk_pct": 28.74
+      "last_price": 69.57,
+      "change_pct": 5.95,
+      "volume": 1345351,
+      "turnover_cr": 9.46,
+      "vol_change_1wk_pct": 30.21,
+      "vol_change_2wk_pct": 29.26
+    },
+    {
+      "symbol": "ARVEE",
+      "name": "Arvee Laboratories (India) Limited",
+      "last_price": 181.8,
+      "change_pct": 10.56,
+      "volume": 34993,
+      "turnover_cr": 0.63,
+      "vol_change_1wk_pct": 28.79,
+      "vol_change_2wk_pct": 3.32
     },
     {
       "symbol": "NITCO",
       "name": "Nitco Limited",
-      "last_price": 95,
-      "change_pct": -1.33,
-      "volume": 20130249,
-      "turnover_cr": 206.36,
-      "vol_change_1wk_pct": 28.18,
-      "vol_change_2wk_pct": 27.78
+      "last_price": 94.8,
+      "change_pct": -1.54,
+      "volume": 20561837,
+      "turnover_cr": 210.45,
+      "vol_change_1wk_pct": 28.78,
+      "vol_change_2wk_pct": 28.37
     },
     {
       "symbol": "LICNMID100",
@@ -79,172 +89,152 @@
     {
       "symbol": "ITADD",
       "name": "DSP Mutual Fund - DSP Nifty IT ETF",
-      "last_price": 32.29,
-      "change_pct": -0.06,
-      "volume": 1399075,
-      "turnover_cr": 4.52,
-      "vol_change_1wk_pct": 27.31,
-      "vol_change_2wk_pct": 34.2
+      "last_price": 32.49,
+      "change_pct": 0.56,
+      "volume": 1399698,
+      "turnover_cr": 4.53,
+      "vol_change_1wk_pct": 27.33,
+      "vol_change_2wk_pct": 34.21
     },
     {
       "symbol": "HPIL",
       "name": "Hindprakash Industries Limited",
-      "last_price": 127.75,
-      "change_pct": 2.01,
-      "volume": 40610,
+      "last_price": 128,
+      "change_pct": 2.21,
+      "volume": 40746,
       "turnover_cr": 0.53,
-      "vol_change_1wk_pct": 26.55,
-      "vol_change_2wk_pct": 21.55
-    },
-    {
-      "symbol": "ARVEE",
-      "name": "Arvee Laboratories (India) Limited",
-      "last_price": 180,
-      "change_pct": 9.47,
-      "volume": 31679,
-      "turnover_cr": 0.57,
-      "vol_change_1wk_pct": 26.06,
-      "vol_change_2wk_pct": 3.0
+      "vol_change_1wk_pct": 26.64,
+      "vol_change_2wk_pct": 21.62
     },
     {
       "symbol": "INSUREIETF",
       "name": "ICICI Prudential Mutual Fund - ICICI Prudential BSE Insurance ETF",
-      "last_price": 15.48,
-      "change_pct": -0.19,
-      "volume": 5265996,
-      "turnover_cr": 8.2,
-      "vol_change_1wk_pct": 23.28,
-      "vol_change_2wk_pct": 7.4
+      "last_price": 15.37,
+      "change_pct": -0.9,
+      "volume": 5273127,
+      "turnover_cr": 8.21,
+      "vol_change_1wk_pct": 23.31,
+      "vol_change_2wk_pct": 7.41
     },
     {
       "symbol": "PARADEEP",
       "name": "Paradeep Phosphates Limited",
-      "last_price": 159.34,
-      "change_pct": 6.65,
-      "volume": 50480315,
-      "turnover_cr": 799.25,
-      "vol_change_1wk_pct": 22.33,
-      "vol_change_2wk_pct": 21.25
+      "last_price": 159.75,
+      "change_pct": 6.93,
+      "volume": 51534295,
+      "turnover_cr": 816.1,
+      "vol_change_1wk_pct": 22.79,
+      "vol_change_2wk_pct": 21.7
     },
     {
       "symbol": "RCF",
       "name": "Rashtriya Chemicals and Fertilizers Limited",
       "last_price": 124.22,
       "change_pct": 4.36,
-      "volume": 17679398,
-      "turnover_cr": 223.36,
-      "vol_change_1wk_pct": 21.07,
-      "vol_change_2wk_pct": 23.19
+      "volume": 18100384,
+      "turnover_cr": 228.61,
+      "vol_change_1wk_pct": 21.57,
+      "vol_change_2wk_pct": 23.74
     },
     {
       "symbol": "MEIL",
       "name": "Mangal Electrical Industries Limited",
-      "last_price": 275.65,
-      "change_pct": 5.59,
-      "volume": 595411,
-      "turnover_cr": 16.65,
-      "vol_change_1wk_pct": 20.66,
-      "vol_change_2wk_pct": 21.89
+      "last_price": 275.75,
+      "change_pct": 5.63,
+      "volume": 618782,
+      "turnover_cr": 17.29,
+      "vol_change_1wk_pct": 21.47,
+      "vol_change_2wk_pct": 22.75
     },
     {
       "symbol": "STEELCITY",
       "name": "Steel City Securities Limited",
-      "last_price": 88.94,
-      "change_pct": 8.19,
-      "volume": 138412,
-      "turnover_cr": 1.23,
-      "vol_change_1wk_pct": 20.53,
-      "vol_change_2wk_pct": 14.51
+      "last_price": 88.89,
+      "change_pct": 8.13,
+      "volume": 141096,
+      "turnover_cr": 1.25,
+      "vol_change_1wk_pct": 20.93,
+      "vol_change_2wk_pct": 14.79
     },
     {
       "symbol": "OPTIFIN",
       "name": "Optimus Finance Limited",
-      "last_price": 14.06,
-      "change_pct": 16.78,
-      "volume": 496643,
-      "turnover_cr": 0.67,
-      "vol_change_1wk_pct": 20.1,
-      "vol_change_2wk_pct": 20.1
+      "last_price": 13.83,
+      "change_pct": 14.87,
+      "volume": 506855,
+      "turnover_cr": 0.68,
+      "vol_change_1wk_pct": 20.51,
+      "vol_change_2wk_pct": 20.51
+    },
+    {
+      "symbol": "RAMBHAJO",
+      "name": "Advit Jewels Limited",
+      "last_price": 211.5,
+      "change_pct": -0.65,
+      "volume": 9924084,
+      "turnover_cr": 224.12,
+      "vol_change_1wk_pct": 18.98,
+      "vol_change_2wk_pct": 19.38
     },
     {
       "symbol": "GANGAFORGE",
       "name": "Ganga Forging Limited",
       "last_price": 1.86,
       "change_pct": -4.62,
-      "volume": 18756554,
+      "volume": 18772857,
       "turnover_cr": 3.49,
-      "vol_change_1wk_pct": 18.95,
+      "vol_change_1wk_pct": 18.97,
       "vol_change_2wk_pct": 1.67
-    },
-    {
-      "symbol": "RAMBHAJO",
-      "name": "Advit Jewels Limited",
-      "last_price": 210.7,
-      "change_pct": -1.03,
-      "volume": 9708254,
-      "turnover_cr": 219.57,
-      "vol_change_1wk_pct": 18.57,
-      "vol_change_2wk_pct": 18.96
     },
     {
       "symbol": "RPTECH",
       "name": "Rashi Peripherals Limited",
-      "last_price": 784.5,
-      "change_pct": -9.52,
-      "volume": 4502274,
-      "turnover_cr": 337.38,
-      "vol_change_1wk_pct": 17.85,
-      "vol_change_2wk_pct": 17.4
+      "last_price": 787,
+      "change_pct": -9.23,
+      "volume": 4681855,
+      "turnover_cr": 351.54,
+      "vol_change_1wk_pct": 18.56,
+      "vol_change_2wk_pct": 18.1
     },
     {
       "symbol": "NFL",
       "name": "National Fertilizers Limited",
-      "last_price": 72.33,
-      "change_pct": 2.18,
-      "volume": 8878685,
-      "turnover_cr": 65.66,
-      "vol_change_1wk_pct": 16.44,
-      "vol_change_2wk_pct": 15.46
+      "last_price": 72.25,
+      "change_pct": 2.06,
+      "volume": 9079148,
+      "turnover_cr": 67.1,
+      "vol_change_1wk_pct": 16.82,
+      "vol_change_2wk_pct": 15.81
     },
     {
       "symbol": "ADVENTHTL",
       "name": "Advent Hotels International Limited",
-      "last_price": 141.4,
-      "change_pct": 7.94,
-      "volume": 1550310,
-      "turnover_cr": 21.92,
-      "vol_change_1wk_pct": 14.97,
-      "vol_change_2wk_pct": 17.84
+      "last_price": 142.9,
+      "change_pct": 9.08,
+      "volume": 1730034,
+      "turnover_cr": 24.48,
+      "vol_change_1wk_pct": 16.7,
+      "vol_change_2wk_pct": 19.9
     },
     {
       "symbol": "GODREJAGRO",
       "name": "Godrej Agrovet Limited",
       "last_price": 610.5,
       "change_pct": 6.59,
-      "volume": 3389972,
-      "turnover_cr": 207.16,
-      "vol_change_1wk_pct": 14.81,
-      "vol_change_2wk_pct": 12.99
+      "volume": 3498758,
+      "turnover_cr": 213.82,
+      "vol_change_1wk_pct": 15.29,
+      "vol_change_2wk_pct": 13.41
     },
     {
       "symbol": "SHAH",
       "name": "Shah Metacorp Limited",
       "last_price": 3.2,
       "change_pct": -19.8,
-      "volume": 54195289,
-      "turnover_cr": 18.59,
-      "vol_change_1wk_pct": 14.39,
-      "vol_change_2wk_pct": 11.36
-    },
-    {
-      "symbol": "MSCI360",
-      "name": "360 ONE Mutual Fund - 360 ONE MSCI India ETF",
-      "last_price": 10.34,
-      "change_pct": -10.79,
-      "volume": 120849,
-      "turnover_cr": 0.12,
-      "vol_change_1wk_pct": 11.38,
-      "vol_change_2wk_pct": 12.65
+      "volume": 54859459,
+      "turnover_cr": 18.76,
+      "vol_change_1wk_pct": 14.56,
+      "vol_change_2wk_pct": 11.49
     }
   ]
 }
