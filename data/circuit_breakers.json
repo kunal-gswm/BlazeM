@@ -1,22 +1,12 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-26T04:44:38Z",
+    "last_updated": "2026-08-26T05:19:45Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
-      {
-        "symbol": "DHUNINV",
-        "name": "DHUNINV",
-        "last_price": 1151.75,
-        "prev_close": 959.8,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 9414,
-        "turnover_cr": 1.06
-      },
       {
         "symbol": "DTIL",
         "name": "DTIL",
@@ -24,48 +14,68 @@
         "prev_close": 152.69,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 428044,
-        "turnover_cr": 7.69
+        "volume": 433093,
+        "turnover_cr": 7.79
       },
       {
         "symbol": "GENESYS",
         "name": "GENESYS",
-        "last_price": 250.35,
+        "last_price": 254.8,
         "prev_close": 214.25,
-        "change": 16.85,
-        "change_pct": 16.85,
-        "volume": 10615557,
-        "turnover_cr": 255.72
+        "change": 18.93,
+        "change_pct": 18.93,
+        "volume": 13774278,
+        "turnover_cr": 335.62
       },
       {
-        "symbol": "ARIES",
-        "name": "ARIES",
-        "last_price": 501.65,
-        "prev_close": 446.75,
-        "change": 12.29,
-        "change_pct": 12.29,
-        "volume": 290576,
-        "turnover_cr": 14.46
+        "symbol": "DHUNINV",
+        "name": "DHUNINV",
+        "last_price": 1086.1,
+        "prev_close": 959.8,
+        "change": 13.16,
+        "change_pct": 13.16,
+        "volume": 18925,
+        "turnover_cr": 2.12
       },
       {
         "symbol": "MADHAVIPL",
         "name": "MADHAVIPL",
-        "last_price": 8.09,
+        "last_price": 8.17,
         "prev_close": 7.23,
-        "change": 11.89,
-        "change_pct": 11.89,
-        "volume": 576646,
-        "turnover_cr": 0.46
+        "change": 13,
+        "change_pct": 13,
+        "volume": 655565,
+        "turnover_cr": 0.52
       },
       {
-        "symbol": "NDGL",
-        "name": "NDGL",
-        "last_price": 3000,
-        "prev_close": 2706.7,
-        "change": 10.84,
-        "change_pct": 10.84,
-        "volume": 529,
-        "turnover_cr": 0.15
+        "symbol": "ARIES",
+        "name": "ARIES",
+        "last_price": 499.75,
+        "prev_close": 446.75,
+        "change": 11.86,
+        "change_pct": 11.86,
+        "volume": 435171,
+        "turnover_cr": 21.69
+      },
+      {
+        "symbol": "ANDREWYU",
+        "name": "ANDREWYU",
+        "last_price": 29.65,
+        "prev_close": 26.76,
+        "change": 10.8,
+        "change_pct": 10.8,
+        "volume": 451038,
+        "turnover_cr": 1.33
+      },
+      {
+        "symbol": "DCI",
+        "name": "DCI",
+        "last_price": 407.8,
+        "prev_close": 370.15,
+        "change": 10.17,
+        "change_pct": 10.17,
+        "volume": 36514,
+        "turnover_cr": 1.45
       }
     ],
     "lower_circuit": [
@@ -76,8 +86,8 @@
         "prev_close": 3.2,
         "change": -20,
         "change_pct": -20,
-        "volume": 26772746,
-        "turnover_cr": 7.12
+        "volume": 27786344,
+        "turnover_cr": 7.36
       }
     ]
   }
