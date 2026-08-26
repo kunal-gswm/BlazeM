@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-08-26T14:54:26Z",
+    "last_updated": "2026-08-26T16:23:19Z",
     "status": "healthy",
-    "record_count": 154
+    "record_count": 155
   },
   "data": [
     {
@@ -74,7 +74,7 @@
       "scrip_code": 509525,
       "short_name": "EMPIND",
       "Ex_date": "09 Sep 2026",
-      "Purpose": "Final Dividend - Rs. - 25.0000",
+      "Purpose": "Special Dividend - Rs. - 25.0000",
       "RD_Date": "09 Sep 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -90,7 +90,7 @@
       "scrip_code": 509525,
       "short_name": "EMPIND",
       "Ex_date": "09 Sep 2026",
-      "Purpose": "Special Dividend - Rs. - 25.0000",
+      "Purpose": "Final Dividend - Rs. - 25.0000",
       "RD_Date": "09 Sep 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -517,6 +517,22 @@
       "long_name": "AIA Engineering Ltd",
       "action_type": "Dividend",
       "dividend_amount": 16.0
+    },
+    {
+      "scrip_code": 500101,
+      "short_name": "ARVIND",
+      "Ex_date": "04 Sep 2026",
+      "Purpose": "Final Dividend - Rs. - 4.5000",
+      "RD_Date": "04 Sep 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20260904",
+      "long_name": "Arvind Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 4.5
     },
     {
       "scrip_code": 542669,
