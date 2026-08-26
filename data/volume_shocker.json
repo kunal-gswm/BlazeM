@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-26T07:51:59Z",
+    "last_updated": "2026-08-26T08:50:37Z",
     "status": "healthy",
     "record_count": 24
   },
@@ -11,240 +11,240 @@
       "name": "Indo Thai Securities Limited",
       "last_price": 51.16,
       "change_pct": -5,
-      "volume": 30042373,
-      "turnover_cr": 154.66,
-      "vol_change_1wk_pct": 629.62,
-      "vol_change_2wk_pct": 502.93
+      "volume": 30153902,
+      "turnover_cr": 155.23,
+      "vol_change_1wk_pct": 631.95,
+      "vol_change_2wk_pct": 504.8
+    },
+    {
+      "symbol": "BANKBETF",
+      "name": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty Bank ETF",
+      "last_price": 58.77,
+      "change_pct": 0.7,
+      "volume": 2812725,
+      "turnover_cr": 16.53,
+      "vol_change_1wk_pct": 234.77,
+      "vol_change_2wk_pct": 216.47
     },
     {
       "symbol": "TCC",
       "name": "TCC Concept Limited",
-      "last_price": 244,
-      "change_pct": 0.72,
-      "volume": 3948049,
-      "turnover_cr": 101.04,
-      "vol_change_1wk_pct": 59.41,
-      "vol_change_2wk_pct": 71.96
+      "last_price": 241.8,
+      "change_pct": -0.19,
+      "volume": 4109679,
+      "turnover_cr": 104.97,
+      "vol_change_1wk_pct": 61.84,
+      "vol_change_2wk_pct": 74.9
     },
     {
       "symbol": "ARIHANTSUP",
       "name": "Arihant Superstructures Limited",
-      "last_price": 263.95,
-      "change_pct": 5.58,
-      "volume": 248817,
-      "turnover_cr": 6.53,
-      "vol_change_1wk_pct": 55.69,
-      "vol_change_2wk_pct": 53.81
-    },
-    {
-      "symbol": "ENIFTY",
-      "name": "Edelweiss Mutual Fund - Edelweiss Nifty 50 ETF",
-      "last_price": 24.5,
-      "change_pct": 0.41,
-      "volume": 111734,
-      "turnover_cr": 0.27,
-      "vol_change_1wk_pct": 46.94,
-      "vol_change_2wk_pct": 32.67
+      "last_price": 262,
+      "change_pct": 4.8,
+      "volume": 261728,
+      "turnover_cr": 6.87,
+      "vol_change_1wk_pct": 58.58,
+      "vol_change_2wk_pct": 56.6
     },
     {
       "symbol": "RGL",
       "name": "Renaissance Global Limited",
-      "last_price": 145.25,
-      "change_pct": 9.32,
-      "volume": 20189240,
-      "turnover_cr": 296.12,
-      "vol_change_1wk_pct": 36.86,
-      "vol_change_2wk_pct": 14.71
+      "last_price": 148,
+      "change_pct": 11.39,
+      "volume": 26836788,
+      "turnover_cr": 393.99,
+      "vol_change_1wk_pct": 49.0,
+      "vol_change_2wk_pct": 19.56
     },
     {
-      "symbol": "DHUNINV",
-      "name": "Dhunseri Investments Limited",
-      "last_price": 1086.6,
-      "change_pct": 13.21,
-      "volume": 35724,
-      "turnover_cr": 3.96,
-      "vol_change_1wk_pct": 32.95,
-      "vol_change_2wk_pct": 8.07
+      "symbol": "GROWWCHEM",
+      "name": "Groww Mutual Fund - Groww Nifty Chemicals ETF",
+      "last_price": 30.59,
+      "change_pct": 1.32,
+      "volume": 5179657,
+      "turnover_cr": 15.75,
+      "vol_change_1wk_pct": 47.5,
+      "vol_change_2wk_pct": 9.96
+    },
+    {
+      "symbol": "ENIFTY",
+      "name": "Edelweiss Mutual Fund - Edelweiss Nifty 50 ETF",
+      "last_price": 24.51,
+      "change_pct": 0.45,
+      "volume": 112503,
+      "turnover_cr": 0.28,
+      "vol_change_1wk_pct": 47.26,
+      "vol_change_2wk_pct": 32.9
     },
     {
       "symbol": "OAL",
       "name": "Oriental Aromatics Limited",
-      "last_price": 384,
-      "change_pct": 9.92,
-      "volume": 289718,
-      "turnover_cr": 11.12,
-      "vol_change_1wk_pct": 31.11,
-      "vol_change_2wk_pct": 23.97
+      "last_price": 397.45,
+      "change_pct": 13.77,
+      "volume": 403395,
+      "turnover_cr": 15.57,
+      "vol_change_1wk_pct": 43.32,
+      "vol_change_2wk_pct": 33.38
+    },
+    {
+      "symbol": "DHUNINV",
+      "name": "Dhunseri Investments Limited",
+      "last_price": 1080,
+      "change_pct": 12.52,
+      "volume": 41401,
+      "turnover_cr": 4.58,
+      "vol_change_1wk_pct": 38.18,
+      "vol_change_2wk_pct": 9.35
     },
     {
       "symbol": "DTIL",
       "name": "Dhunseri Tea & Industries Limited",
       "last_price": 183.22,
       "change_pct": 19.99,
-      "volume": 445835,
-      "turnover_cr": 8.02,
-      "vol_change_1wk_pct": 28.37,
-      "vol_change_2wk_pct": 34.85
-    },
-    {
-      "symbol": "GROWWCHEM",
-      "name": "Groww Mutual Fund - Groww Nifty Chemicals ETF",
-      "last_price": 30.41,
-      "change_pct": 0.73,
-      "volume": 2327365,
-      "turnover_cr": 7.04,
-      "vol_change_1wk_pct": 21.34,
-      "vol_change_2wk_pct": 4.47
-    },
-    {
-      "symbol": "VIYASH",
-      "name": "Viyash Scientific Limited",
-      "last_price": 262.85,
-      "change_pct": -5.57,
-      "volume": 104657446,
-      "turnover_cr": 2774.36,
-      "vol_change_1wk_pct": 21.33,
-      "vol_change_2wk_pct": 24.78
-    },
-    {
-      "symbol": "TOP20",
-      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Top 20 Equal Weight ETF",
-      "last_price": 9.01,
-      "change_pct": 0.11,
-      "volume": 1170134,
-      "turnover_cr": 1.06,
-      "vol_change_1wk_pct": 19.0,
-      "vol_change_2wk_pct": 21.64
-    },
-    {
-      "symbol": "ANDREWYU",
-      "name": "Andrew Yule & Company Limited",
-      "last_price": 29.65,
-      "change_pct": 10.8,
-      "volume": 771449,
-      "turnover_cr": 2.29,
-      "vol_change_1wk_pct": 16.55,
-      "vol_change_2wk_pct": 15.6
-    },
-    {
-      "symbol": "ASIANHOTNR",
-      "name": "Asian Hotels (North) Limited",
-      "last_price": 305.9,
-      "change_pct": 2.19,
-      "volume": 102417,
-      "turnover_cr": 3.09,
-      "vol_change_1wk_pct": 15.22,
-      "vol_change_2wk_pct": 10.51
+      "volume": 449186,
+      "turnover_cr": 8.08,
+      "vol_change_1wk_pct": 28.58,
+      "vol_change_2wk_pct": 35.11
     },
     {
       "symbol": "VOEPL",
       "name": "Virtuoso Optoelectronics Limited",
-      "last_price": 559.45,
-      "change_pct": 12.17,
-      "volume": 761033,
-      "turnover_cr": 41.68,
-      "vol_change_1wk_pct": 14.64,
-      "vol_change_2wk_pct": 8.85
+      "last_price": 557.85,
+      "change_pct": 11.85,
+      "volume": 1142845,
+      "turnover_cr": 62.95,
+      "vol_change_1wk_pct": 21.99,
+      "vol_change_2wk_pct": 13.28
+    },
+    {
+      "symbol": "VIYASH",
+      "name": "Viyash Scientific Limited",
+      "last_price": 263.4,
+      "change_pct": -5.37,
+      "volume": 107506384,
+      "turnover_cr": 2849.35,
+      "vol_change_1wk_pct": 21.91,
+      "vol_change_2wk_pct": 25.45
+    },
+    {
+      "symbol": "TOP20",
+      "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Top 20 Equal Weight ETF",
+      "last_price": 9.02,
+      "change_pct": 0.22,
+      "volume": 1170708,
+      "turnover_cr": 1.06,
+      "vol_change_1wk_pct": 19.01,
+      "vol_change_2wk_pct": 21.65
+    },
+    {
+      "symbol": "ANDREWYU",
+      "name": "Andrew Yule & Company Limited",
+      "last_price": 29.61,
+      "change_pct": 10.65,
+      "volume": 835656,
+      "turnover_cr": 2.48,
+      "vol_change_1wk_pct": 17.93,
+      "vol_change_2wk_pct": 16.89
+    },
+    {
+      "symbol": "ASIANHOTNR",
+      "name": "Asian Hotels (North) Limited",
+      "last_price": 305.05,
+      "change_pct": 1.9,
+      "volume": 104740,
+      "turnover_cr": 3.16,
+      "vol_change_1wk_pct": 15.57,
+      "vol_change_2wk_pct": 10.75
     },
     {
       "symbol": "GENESYS",
       "name": "Genesys International Corporation Limited",
-      "last_price": 253.75,
-      "change_pct": 18.44,
-      "volume": 15565390,
-      "turnover_cr": 381.01,
-      "vol_change_1wk_pct": 13.76,
-      "vol_change_2wk_pct": 16.86
+      "last_price": 253.45,
+      "change_pct": 18.3,
+      "volume": 16987484,
+      "turnover_cr": 417.25,
+      "vol_change_1wk_pct": 15.01,
+      "vol_change_2wk_pct": 18.4
     },
     {
       "symbol": "QUESS",
       "name": "Quess Corp Limited",
-      "last_price": 366.2,
-      "change_pct": 5.53,
-      "volume": 5226132,
-      "turnover_cr": 192.62,
-      "vol_change_1wk_pct": 12.89,
-      "vol_change_2wk_pct": 12.93
+      "last_price": 370.35,
+      "change_pct": 6.73,
+      "volume": 5661405,
+      "turnover_cr": 208.73,
+      "vol_change_1wk_pct": 13.96,
+      "vol_change_2wk_pct": 14.01
+    },
+    {
+      "symbol": "WEL",
+      "name": "Wonder Electricals Limited",
+      "last_price": 158.48,
+      "change_pct": 18.25,
+      "volume": 14140403,
+      "turnover_cr": 217.31,
+      "vol_change_1wk_pct": 12.36,
+      "vol_change_2wk_pct": 9.12
+    },
+    {
+      "symbol": "JISLJALEQS",
+      "name": "Jain Irrigation Systems Limited",
+      "last_price": 29.39,
+      "change_pct": 5.15,
+      "volume": 13939622,
+      "turnover_cr": 41.34,
+      "vol_change_1wk_pct": 11.7,
+      "vol_change_2wk_pct": 8.22
+    },
+    {
+      "symbol": "ADVAIT",
+      "name": "Advait Energy Transitions Limited",
+      "last_price": 2146.5,
+      "change_pct": 4.12,
+      "volume": 319206,
+      "turnover_cr": 69.36,
+      "vol_change_1wk_pct": 11.48,
+      "vol_change_2wk_pct": 8.79
     },
     {
       "symbol": "ABSL10BANK",
       "name": "Aditya Birla Sun Life MF - Aditya Birla Sun Life BSE Top 10 Banks ETF",
-      "last_price": 170.33,
-      "change_pct": 0.32,
-      "volume": 193990,
+      "last_price": 170.51,
+      "change_pct": 0.42,
+      "volume": 194002,
       "turnover_cr": 3.32,
       "vol_change_1wk_pct": 11.39,
       "vol_change_2wk_pct": 6.8
     },
     {
-      "symbol": "JISLJALEQS",
-      "name": "Jain Irrigation Systems Limited",
-      "last_price": 29.3,
-      "change_pct": 4.83,
-      "volume": 13550662,
-      "turnover_cr": 40.2,
-      "vol_change_1wk_pct": 11.37,
-      "vol_change_2wk_pct": 7.99
-    },
-    {
       "symbol": "SIMPLEXINF",
       "name": "Simplex Infrastructures Limited",
-      "last_price": 251.1,
-      "change_pct": 0.96,
-      "volume": 510931,
-      "turnover_cr": 12.63,
-      "vol_change_1wk_pct": 11.04,
-      "vol_change_2wk_pct": 6.57
-    },
-    {
-      "symbol": "ADVAIT",
-      "name": "Advait Energy Transitions Limited",
-      "last_price": 2129.5,
-      "change_pct": 3.29,
-      "volume": 301563,
-      "turnover_cr": 65.59,
-      "vol_change_1wk_pct": 10.85,
-      "vol_change_2wk_pct": 8.3
+      "last_price": 250.21,
+      "change_pct": 0.6,
+      "volume": 520654,
+      "turnover_cr": 12.88,
+      "vol_change_1wk_pct": 11.25,
+      "vol_change_2wk_pct": 6.69
     },
     {
       "symbol": "TARMAT",
       "name": "Tarmat Limited",
-      "last_price": 62.95,
-      "change_pct": 16.08,
-      "volume": 392067,
-      "turnover_cr": 2.41,
-      "vol_change_1wk_pct": 10.33,
-      "vol_change_2wk_pct": 3.0
+      "last_price": 62.61,
+      "change_pct": 15.45,
+      "volume": 421094,
+      "turnover_cr": 2.59,
+      "vol_change_1wk_pct": 11.09,
+      "vol_change_2wk_pct": 3.22
     },
     {
       "symbol": "SAIPARENT",
       "name": "Sai Parenterals Limited",
-      "last_price": 535.3,
-      "change_pct": 1.4,
-      "volume": 652338,
-      "turnover_cr": 35.6,
-      "vol_change_1wk_pct": 9.59,
-      "vol_change_2wk_pct": 5.81
-    },
-    {
-      "symbol": "ARIES",
-      "name": "Aries Agro Limited",
-      "last_price": 498.95,
-      "change_pct": 11.68,
-      "volume": 654914,
-      "turnover_cr": 32.61,
-      "vol_change_1wk_pct": 8.94,
-      "vol_change_2wk_pct": 4.88
-    },
-    {
-      "symbol": "EBIX",
-      "name": "EBIX Limited",
-      "last_price": 21.78,
-      "change_pct": 0.14,
-      "volume": 435137,
-      "turnover_cr": 0.93,
-      "vol_change_1wk_pct": 8.82,
-      "vol_change_2wk_pct": 9.28
+      "last_price": 536,
+      "change_pct": 1.53,
+      "volume": 689003,
+      "turnover_cr": 37.57,
+      "vol_change_1wk_pct": 10.13,
+      "vol_change_2wk_pct": 6.14
     }
   ]
 }
