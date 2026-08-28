@@ -177,11 +177,11 @@
   },
   "annu projects": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "sumax engineering nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "lumino industries": {
     "open_notified": true,
@@ -190,5 +190,29 @@
   "kwick forensic solutions bse sme": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "complete sports and management bse sme": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "esds software solution": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "priority jewels": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "paluck technologies bse sme": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "madhur knit nse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "abh healthcare nse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
