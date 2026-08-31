@@ -1,220 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-08-28T16:27:56Z",
+    "last_updated": "2026-08-31T10:42:54Z",
     "status": "healthy",
-    "record_count": 21
+    "record_count": 24
   },
   "data": [
     {
-      "symbol": "SECMARK",
-      "name": "SecMark Consultancy Limited",
-      "last_price": 152.34,
+      "symbol": "MIDCAPADD",
+      "name": "DSP Mutual Fund - DSP Nifty Midcap 150 ETF",
+      "last_price": 23.56,
+      "change_pct": -0.17,
+      "volume": 2957500,
+      "turnover_cr": 6.93,
+      "vol_change_1wk_pct": 496.21,
+      "vol_change_2wk_pct": 64.63
+    },
+    {
+      "symbol": "ASHOKA",
+      "name": "Ashoka Buildcon Limited",
+      "last_price": 119.74,
+      "change_pct": 6.29,
+      "volume": 98468036,
+      "turnover_cr": 1228.98,
+      "vol_change_1wk_pct": 225.32,
+      "vol_change_2wk_pct": 214.49
+    },
+    {
+      "symbol": "DIFFNKG",
+      "name": "Diffusion Engineers Limited",
+      "last_price": 493.2,
       "change_pct": 20,
-      "volume": 73883,
-      "turnover_cr": 1.09,
-      "vol_change_1wk_pct": 87.57,
-      "vol_change_2wk_pct": 64.87
+      "volume": 7817913,
+      "turnover_cr": 365.6,
+      "vol_change_1wk_pct": 131.44,
+      "vol_change_2wk_pct": 109.13
     },
     {
-      "symbol": "EXXARO",
-      "name": "Exxaro Tiles Limited",
-      "last_price": 7.42,
-      "change_pct": 19.87,
-      "volume": 12072793,
-      "turnover_cr": 8.9,
-      "vol_change_1wk_pct": 73.26,
-      "vol_change_2wk_pct": 41.76
+      "symbol": "MANALIPETC",
+      "name": "Manali Petrochemicals Limited",
+      "last_price": 84,
+      "change_pct": 14.5,
+      "volume": 73402171,
+      "turnover_cr": 604.98,
+      "vol_change_1wk_pct": 87.19,
+      "vol_change_2wk_pct": 31.53
     },
     {
-      "symbol": "MASTEK",
-      "name": "Mastek Limited",
-      "last_price": 1933.9,
-      "change_pct": 20,
-      "volume": 5449060,
-      "turnover_cr": 1002.87,
-      "vol_change_1wk_pct": 67.4,
-      "vol_change_2wk_pct": 76.03
+      "symbol": "TNPETRO",
+      "name": "Tamilnadu PetroProducts Limited",
+      "last_price": 120.2,
+      "change_pct": 7.93,
+      "volume": 21800591,
+      "turnover_cr": 266.6,
+      "vol_change_1wk_pct": 69.52,
+      "vol_change_2wk_pct": 40.48
     },
     {
-      "symbol": "IKIO",
-      "name": "IKIO Technologies Limited",
-      "last_price": 215.2,
-      "change_pct": 15.61,
-      "volume": 6393359,
-      "turnover_cr": 135.74,
-      "vol_change_1wk_pct": 58.43,
-      "vol_change_2wk_pct": 54.17
+      "symbol": "BBETF0432",
+      "name": "Edelweiss Mutual Fund - BHARAT Bond ETF - April 2032 - Growth",
+      "last_price": 1331.52,
+      "change_pct": -0.82,
+      "volume": 244260,
+      "turnover_cr": 32.55,
+      "vol_change_1wk_pct": 55.91,
+      "vol_change_2wk_pct": 87.69
     },
     {
-      "symbol": "TEJASNET",
-      "name": "Tejas Networks Limited",
-      "last_price": 549,
-      "change_pct": 7.4,
-      "volume": 43164679,
-      "turnover_cr": 2418.78,
-      "vol_change_1wk_pct": 56.71,
-      "vol_change_2wk_pct": 51.86
+      "symbol": "AYMSYNTEX",
+      "name": "AYM Syntex Limited",
+      "last_price": 282.5,
+      "change_pct": 11.05,
+      "volume": 1511986,
+      "turnover_cr": 42.14,
+      "vol_change_1wk_pct": 48.12,
+      "vol_change_2wk_pct": 41.67
     },
     {
-      "symbol": "TTML",
-      "name": "Tata Teleservices (Maharashtra) Limited",
-      "last_price": 39,
-      "change_pct": 6.97,
-      "volume": 50962825,
-      "turnover_cr": 200.69,
-      "vol_change_1wk_pct": 43.04,
-      "vol_change_2wk_pct": 31.37
+      "symbol": "PAR",
+      "name": "Par Drugs and Chemicals Limited",
+      "last_price": 117,
+      "change_pct": 16.75,
+      "volume": 325805,
+      "turnover_cr": 3.78,
+      "vol_change_1wk_pct": 41.43,
+      "vol_change_2wk_pct": 37.39
     },
     {
-      "symbol": "SBIBPB",
-      "name": "SBI Mutual Fund - SBI BSE PSU Bank ETF",
-      "last_price": 49.7,
-      "change_pct": -0.38,
-      "volume": 1368503,
-      "turnover_cr": 6.83,
-      "vol_change_1wk_pct": 38.27,
-      "vol_change_2wk_pct": 25.62
-    },
-    {
-      "symbol": "INFOBEAN",
-      "name": "InfoBeans Technologies Limited",
-      "last_price": 167,
-      "change_pct": 7.99,
-      "volume": 8786919,
-      "turnover_cr": 152.02,
-      "vol_change_1wk_pct": 35.89,
-      "vol_change_2wk_pct": 46.02
-    },
-    {
-      "symbol": "MOHITE",
-      "name": "Mohite Industries Limited",
-      "last_price": 2.99,
-      "change_pct": 13.26,
-      "volume": 843639,
-      "turnover_cr": 0.25,
-      "vol_change_1wk_pct": 30.14,
-      "vol_change_2wk_pct": 27.21
-    },
-    {
-      "symbol": "SHAHALLOYS",
-      "name": "Shah Alloys Limited",
-      "last_price": 103.15,
-      "change_pct": 20,
-      "volume": 1390957,
-      "turnover_cr": 13.92,
-      "vol_change_1wk_pct": 28.06,
-      "vol_change_2wk_pct": 13.52
-    },
-    {
-      "symbol": "DCI",
-      "name": "DC Infotech and Communication Limited",
-      "last_price": 411,
-      "change_pct": -0.69,
-      "volume": 1492745,
-      "turnover_cr": 64.52,
-      "vol_change_1wk_pct": 27.18,
-      "vol_change_2wk_pct": 31.07
-    },
-    {
-      "symbol": "JGCHEM",
-      "name": "J.G.Chemicals Limited",
-      "last_price": 658,
-      "change_pct": 12.38,
-      "volume": 5912922,
-      "turnover_cr": 387.86,
-      "vol_change_1wk_pct": 26.67,
-      "vol_change_2wk_pct": 18.16
-    },
-    {
-      "symbol": "PRECWIRE",
-      "name": "Precision Wires India Limited",
-      "last_price": 507.35,
-      "change_pct": 20,
-      "volume": 8561415,
-      "turnover_cr": 416.08,
-      "vol_change_1wk_pct": 18.98,
-      "vol_change_2wk_pct": 7.82
-    },
-    {
-      "symbol": "SPAL",
-      "name": "S. P. Apparels Limited",
-      "last_price": 1021,
-      "change_pct": 7.14,
-      "volume": 1289999,
-      "turnover_cr": 80.16,
-      "vol_change_1wk_pct": 17.9,
-      "vol_change_2wk_pct": 17.25
-    },
-    {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Limited",
-      "last_price": 95,
-      "change_pct": 2.11,
-      "volume": 198237,
-      "turnover_cr": 1.95,
-      "vol_change_1wk_pct": 17.26,
-      "vol_change_2wk_pct": 9.62
-    },
-    {
-      "symbol": "DMCC",
-      "name": "DMCC SPECIALITY CHEMICALS LIMITED",
-      "last_price": 302,
-      "change_pct": 8.2,
-      "volume": 527305,
-      "turnover_cr": 15.95,
-      "vol_change_1wk_pct": 15.52,
-      "vol_change_2wk_pct": 9.54
-    },
-    {
-      "symbol": "NEWGEN",
-      "name": "Newgen Software Technologies Limited",
-      "last_price": 566,
-      "change_pct": 8.22,
-      "volume": 10501206,
-      "turnover_cr": 588.72,
-      "vol_change_1wk_pct": 14.54,
-      "vol_change_2wk_pct": 18.27
-    },
-    {
-      "symbol": "NEXTMEDIA",
-      "name": "Next Mediaworks Limited",
-      "last_price": 4.62,
-      "change_pct": 20,
-      "volume": 308631,
-      "turnover_cr": 0.14,
-      "vol_change_1wk_pct": 14.01,
-      "vol_change_2wk_pct": 17.19
+      "symbol": "DGCONTENT",
+      "name": "Digicontent Limited",
+      "last_price": 25.1,
+      "change_pct": 5.24,
+      "volume": 202212,
+      "turnover_cr": 0.55,
+      "vol_change_1wk_pct": 38.42,
+      "vol_change_2wk_pct": 21.23
     },
     {
       "symbol": "INFRAIETF",
       "name": "ICICI Prudential Mutual Fund-ICICI Prudential Nifty Infrastructure ETF",
-      "last_price": 95.3,
-      "change_pct": 0,
-      "volume": 1646089,
-      "turnover_cr": 15.62,
-      "vol_change_1wk_pct": 12.74,
-      "vol_change_2wk_pct": 12.56
+      "last_price": 94.65,
+      "change_pct": -0.15,
+      "volume": 13176892,
+      "turnover_cr": 124.52,
+      "vol_change_1wk_pct": 31.17,
+      "vol_change_2wk_pct": 47.05
     },
     {
-      "symbol": "ATHERENERG",
-      "name": "Ather Energy Limited",
-      "last_price": 1616.3,
-      "change_pct": 8.09,
-      "volume": 26418878,
-      "turnover_cr": 2314.18,
-      "vol_change_1wk_pct": 11.75,
-      "vol_change_2wk_pct": 10.89
+      "symbol": "SGRL",
+      "name": "Shree Ganesh Remedies Limited",
+      "last_price": 606,
+      "change_pct": 11.68,
+      "volume": 143393,
+      "turnover_cr": 8.87,
+      "vol_change_1wk_pct": 29.42,
+      "vol_change_2wk_pct": 24.45
     },
     {
-      "symbol": "BANKBETA",
-      "name": "UTI Nifty Bank ETF",
-      "last_price": 59.43,
-      "change_pct": -0.25,
-      "volume": 1102472,
-      "turnover_cr": 6.54,
-      "vol_change_1wk_pct": 11.45,
-      "vol_change_2wk_pct": 4.33
+      "symbol": "ALIVUS",
+      "name": "Alivus Life Sciences Limited",
+      "last_price": 1400,
+      "change_pct": 3.69,
+      "volume": 1220512,
+      "turnover_cr": 173.25,
+      "vol_change_1wk_pct": 27.32,
+      "vol_change_2wk_pct": 17.72
+    },
+    {
+      "symbol": "BALKRISIND",
+      "name": "Balkrishna Industries Limited",
+      "last_price": 2300,
+      "change_pct": -1.71,
+      "volume": 9682350,
+      "turnover_cr": 2209.81,
+      "vol_change_1wk_pct": 26.78,
+      "vol_change_2wk_pct": 41.37
+    },
+    {
+      "symbol": "ASTRAL",
+      "name": "Astral Limited",
+      "last_price": 1522.2,
+      "change_pct": -0.66,
+      "volume": 11516278,
+      "turnover_cr": 1760.63,
+      "vol_change_1wk_pct": 24.72,
+      "vol_change_2wk_pct": 29.13
+    },
+    {
+      "symbol": "VIMTALABS",
+      "name": "Vimta Labs Limited",
+      "last_price": 642,
+      "change_pct": 3.93,
+      "volume": 2416378,
+      "turnover_cr": 158.76,
+      "vol_change_1wk_pct": 23.06,
+      "vol_change_2wk_pct": 21.03
+    },
+    {
+      "symbol": "INNOVISION",
+      "name": "Innovision Limited",
+      "last_price": 272.1,
+      "change_pct": 10.05,
+      "volume": 344387,
+      "turnover_cr": 9.75,
+      "vol_change_1wk_pct": 22.72,
+      "vol_change_2wk_pct": 23.18
+    },
+    {
+      "symbol": "VENKEYS",
+      "name": "Venky's (India) Limited",
+      "last_price": 1698,
+      "change_pct": 8.02,
+      "volume": 1282528,
+      "turnover_cr": 217.2,
+      "vol_change_1wk_pct": 20.82,
+      "vol_change_2wk_pct": 30.37
+    },
+    {
+      "symbol": "SBINEQWETF",
+      "name": "SBI Mutual Fund - SBI Nifty50 Equal Weight ETF",
+      "last_price": 33.35,
+      "change_pct": -0.8,
+      "volume": 409974,
+      "turnover_cr": 1.37,
+      "vol_change_1wk_pct": 20.69,
+      "vol_change_2wk_pct": 19.48
+    },
+    {
+      "symbol": "NIACL",
+      "name": "The New India Assurance Company Limited",
+      "last_price": 191.9,
+      "change_pct": 2.98,
+      "volume": 26274670,
+      "turnover_cr": 515.19,
+      "vol_change_1wk_pct": 18.35,
+      "vol_change_2wk_pct": 18.34
+    },
+    {
+      "symbol": "ASIANHOTNR",
+      "name": "Asian Hotels (North) Limited",
+      "last_price": 357,
+      "change_pct": 12.99,
+      "volume": 1007905,
+      "turnover_cr": 36.82,
+      "vol_change_1wk_pct": 15.76,
+      "vol_change_2wk_pct": 27.94
+    },
+    {
+      "symbol": "NEXTMEDIA",
+      "name": "Next Mediaworks Limited",
+      "last_price": 4.9,
+      "change_pct": 6.06,
+      "volume": 1347728,
+      "turnover_cr": 0.7,
+      "vol_change_1wk_pct": 15.56,
+      "vol_change_2wk_pct": 27.29
+    },
+    {
+      "symbol": "KALYANIFRG",
+      "name": "Kalyani Forge Limited",
+      "last_price": 914.3,
+      "change_pct": 19.99,
+      "volume": 60208,
+      "turnover_cr": 5.26,
+      "vol_change_1wk_pct": 15.23,
+      "vol_change_2wk_pct": 14.04
+    },
+    {
+      "symbol": "LTTS",
+      "name": "L&T Technology Services Limited",
+      "last_price": 3632.9,
+      "change_pct": 1.8,
+      "volume": 685826,
+      "turnover_cr": 247.25,
+      "vol_change_1wk_pct": 15.21,
+      "vol_change_2wk_pct": 9.53
+    },
+    {
+      "symbol": "SPLPETRO",
+      "name": "Supreme Petrochem Limited",
+      "last_price": 725.15,
+      "change_pct": 3.47,
+      "volume": 1221778,
+      "turnover_cr": 89.52,
+      "vol_change_1wk_pct": 15.07,
+      "vol_change_2wk_pct": 20.24
     }
   ]
 }
