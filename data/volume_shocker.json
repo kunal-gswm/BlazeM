@@ -1,240 +1,230 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-02T08:38:26Z",
+    "last_updated": "2026-09-02T12:59:12Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 22
   },
   "data": [
     {
       "symbol": "CENTENKA",
       "name": "Century Enka Limited",
-      "last_price": 590.45,
-      "change_pct": 8.52,
-      "volume": 7151977,
-      "turnover_cr": 426.69,
-      "vol_change_1wk_pct": 286.09,
-      "vol_change_2wk_pct": 223.71
+      "last_price": 619,
+      "change_pct": 13.77,
+      "volume": 9590323,
+      "turnover_cr": 572.63,
+      "vol_change_1wk_pct": 383.63,
+      "vol_change_2wk_pct": 299.98
     },
     {
       "symbol": "ANTELOPUS",
       "name": "Antelopus Selan Energy Limited",
-      "last_price": 937.5,
-      "change_pct": 18.27,
-      "volume": 11641547,
-      "turnover_cr": 1046.26,
-      "vol_change_1wk_pct": 216.14,
-      "vol_change_2wk_pct": 104.71
-    },
-    {
-      "symbol": "NICCOPAR",
-      "name": "Nicco Parks & Resorts Limited",
-      "last_price": 80.5,
-      "change_pct": -1.9,
-      "volume": 390443,
-      "turnover_cr": 3.18,
-      "vol_change_1wk_pct": 94.52,
-      "vol_change_2wk_pct": 127.77
+      "last_price": 951.15,
+      "change_pct": 20,
+      "volume": 12446135,
+      "turnover_cr": 1122.33,
+      "vol_change_1wk_pct": 231.08,
+      "vol_change_2wk_pct": 111.94
     },
     {
       "symbol": "INDOCO",
       "name": "Indoco Remedies Limited",
-      "last_price": 278.99,
-      "change_pct": 14.42,
-      "volume": 15380069,
-      "turnover_cr": 422.87,
-      "vol_change_1wk_pct": 93.67,
-      "vol_change_2wk_pct": 122.53
+      "last_price": 273.11,
+      "change_pct": 12,
+      "volume": 19225160,
+      "turnover_cr": 529.42,
+      "vol_change_1wk_pct": 117.08,
+      "vol_change_2wk_pct": 153.17
+    },
+    {
+      "symbol": "NICCOPAR",
+      "name": "Nicco Parks & Resorts Limited",
+      "last_price": 78,
+      "change_pct": -4.95,
+      "volume": 394310,
+      "turnover_cr": 3.21,
+      "vol_change_1wk_pct": 95.45,
+      "vol_change_2wk_pct": 129.04
     },
     {
       "symbol": "EMSLIMITED",
       "name": "EMS Limited",
-      "last_price": 389.05,
-      "change_pct": 4.47,
-      "volume": 7535248,
-      "turnover_cr": 300.39,
-      "vol_change_1wk_pct": 53.2,
-      "vol_change_2wk_pct": 12.7
-    },
-    {
-      "symbol": "SHIVAUM",
-      "name": "Shiv Aum Steels Limited",
-      "last_price": 447.6,
-      "change_pct": -0.17,
-      "volume": 108125,
-      "turnover_cr": 4.65,
-      "vol_change_1wk_pct": 39.97,
-      "vol_change_2wk_pct": 4.05
-    },
-    {
-      "symbol": "MOMNC",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty MNC ETF",
-      "last_price": 32,
-      "change_pct": -4.62,
-      "volume": 63426,
-      "turnover_cr": 0.2,
-      "vol_change_1wk_pct": 39.63,
-      "vol_change_2wk_pct": 32.03
+      "last_price": 383.4,
+      "change_pct": 2.95,
+      "volume": 8214302,
+      "turnover_cr": 326.72,
+      "vol_change_1wk_pct": 58.0,
+      "vol_change_2wk_pct": 13.85
     },
     {
       "symbol": "SBIETFCON",
       "name": "SBI Mutual Fund - SBI ETF Consumption",
-      "last_price": 120.24,
-      "change_pct": -1.04,
-      "volume": 80374,
-      "turnover_cr": 0.97,
-      "vol_change_1wk_pct": 36.6,
-      "vol_change_2wk_pct": 35.76
+      "last_price": 121.36,
+      "change_pct": -0.12,
+      "volume": 111337,
+      "turnover_cr": 1.34,
+      "vol_change_1wk_pct": 50.7,
+      "vol_change_2wk_pct": 49.54
+    },
+    {
+      "symbol": "MOMNC",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty MNC ETF",
+      "last_price": 32.28,
+      "change_pct": -3.79,
+      "volume": 76973,
+      "turnover_cr": 0.25,
+      "vol_change_1wk_pct": 48.09,
+      "vol_change_2wk_pct": 38.88
+    },
+    {
+      "symbol": "GKWLIMITED",
+      "name": "GKW Limited",
+      "last_price": 1600,
+      "change_pct": 3.23,
+      "volume": 26045,
+      "turnover_cr": 4.04,
+      "vol_change_1wk_pct": 42.48,
+      "vol_change_2wk_pct": 61.31
+    },
+    {
+      "symbol": "SHIVAUM",
+      "name": "Shiv Aum Steels Limited",
+      "last_price": 447.5,
+      "change_pct": -0.19,
+      "volume": 109000,
+      "turnover_cr": 4.69,
+      "vol_change_1wk_pct": 40.29,
+      "vol_change_2wk_pct": 4.08
+    },
+    {
+      "symbol": "XPROINDIA",
+      "name": "Xpro India Limited",
+      "last_price": 1278,
+      "change_pct": 12.52,
+      "volume": 1517669,
+      "turnover_cr": 194.02,
+      "vol_change_1wk_pct": 30.75,
+      "vol_change_2wk_pct": 22.53
     },
     {
       "symbol": "NIFTYAXIS",
       "name": "AXIS MUTUAL FUND - Axis NIFTY 50 ETF",
-      "last_price": 264.9,
-      "change_pct": -0.4,
-      "volume": 210609,
-      "turnover_cr": 5.58,
-      "vol_change_1wk_pct": 27.56,
-      "vol_change_2wk_pct": 4.83
+      "last_price": 264,
+      "change_pct": -0.74,
+      "volume": 226011,
+      "turnover_cr": 5.99,
+      "vol_change_1wk_pct": 29.57,
+      "vol_change_2wk_pct": 5.18
+    },
+    {
+      "symbol": "WINDLAS",
+      "name": "Windlas Biotech Limited",
+      "last_price": 1100.05,
+      "change_pct": 9.09,
+      "volume": 1564975,
+      "turnover_cr": 169.47,
+      "vol_change_1wk_pct": 28.76,
+      "vol_change_2wk_pct": 13.54
+    },
+    {
+      "symbol": "HERITGFOOD",
+      "name": "Heritage Foods Limited",
+      "last_price": 378.95,
+      "change_pct": 7.14,
+      "volume": 4731013,
+      "turnover_cr": 176.28,
+      "vol_change_1wk_pct": 24.87,
+      "vol_change_2wk_pct": 17.13
     },
     {
       "symbol": "EXPLEOSOL",
       "name": "Expleo Solutions Limited",
-      "last_price": 890.35,
-      "change_pct": 4.21,
-      "volume": 390068,
-      "turnover_cr": 35.02,
-      "vol_change_1wk_pct": 22.01,
-      "vol_change_2wk_pct": 6.22
+      "last_price": 884,
+      "change_pct": 3.46,
+      "volume": 431972,
+      "turnover_cr": 38.75,
+      "vol_change_1wk_pct": 24.37,
+      "vol_change_2wk_pct": 6.89
+    },
+    {
+      "symbol": "BALAXI",
+      "name": "BALAXI PHARMACEUTICALS LIMITED",
+      "last_price": 25.04,
+      "change_pct": 9.97,
+      "volume": 302797,
+      "turnover_cr": 0.75,
+      "vol_change_1wk_pct": 21.35,
+      "vol_change_2wk_pct": 9.39
     },
     {
       "symbol": "ICDSLTD",
       "name": "ICDS Limited",
       "last_price": 59.06,
       "change_pct": 19.99,
-      "volume": 121019,
+      "volume": 122072,
       "turnover_cr": 0.7,
-      "vol_change_1wk_pct": 20.81,
-      "vol_change_2wk_pct": 34.34
+      "vol_change_1wk_pct": 21.0,
+      "vol_change_2wk_pct": 34.64
     },
     {
-      "symbol": "WINDLAS",
-      "name": "Windlas Biotech Limited",
-      "last_price": 1082.1,
-      "change_pct": 7.31,
-      "volume": 968097,
-      "turnover_cr": 104.18,
-      "vol_change_1wk_pct": 17.79,
-      "vol_change_2wk_pct": 8.38
+      "symbol": "GPTINFRA",
+      "name": "GPT Infraprojects Limited",
+      "last_price": 110.28,
+      "change_pct": 2.38,
+      "volume": 1296483,
+      "turnover_cr": 14.77,
+      "vol_change_1wk_pct": 15.88,
+      "vol_change_2wk_pct": 16.09
     },
     {
-      "symbol": "BALAXI",
-      "name": "BALAXI PHARMACEUTICALS LIMITED",
-      "last_price": 24.25,
-      "change_pct": 6.5,
-      "volume": 233439,
-      "turnover_cr": 0.58,
-      "vol_change_1wk_pct": 16.46,
-      "vol_change_2wk_pct": 7.24
+      "symbol": "MALLCOM",
+      "name": "Mallcom (India) Limited",
+      "last_price": 1020,
+      "change_pct": 1.55,
+      "volume": 42842,
+      "turnover_cr": 4.43,
+      "vol_change_1wk_pct": 15.22,
+      "vol_change_2wk_pct": 17.56
     },
     {
-      "symbol": "HERITGFOOD",
-      "name": "Heritage Foods Limited",
-      "last_price": 369.95,
-      "change_pct": 4.59,
-      "volume": 3091478,
-      "turnover_cr": 114.29,
-      "vol_change_1wk_pct": 16.25,
-      "vol_change_2wk_pct": 11.19
-    },
-    {
-      "symbol": "ABSLBANETF",
-      "name": "Aditya Birla Sun Life Nifty Bank ETF",
-      "last_price": 58.59,
-      "change_pct": -0.49,
-      "volume": 912746,
-      "turnover_cr": 5.35,
-      "vol_change_1wk_pct": 14.83,
-      "vol_change_2wk_pct": 10.11
+      "symbol": "SAHLIBHFI",
+      "name": "Shalibhadra Finance Limited",
+      "last_price": 85.9,
+      "change_pct": 13.65,
+      "volume": 1697290,
+      "turnover_cr": 14.54,
+      "vol_change_1wk_pct": 15.09,
+      "vol_change_2wk_pct": 22.91
     },
     {
       "symbol": "SRIKPRIND",
       "name": "Sri KPR Industries Limited",
       "last_price": 30.42,
       "change_pct": 20,
-      "volume": 216763,
-      "turnover_cr": 0.63,
-      "vol_change_1wk_pct": 14.64,
-      "vol_change_2wk_pct": 23.94
-    },
-    {
-      "symbol": "SAHLIBHFI",
-      "name": "Shalibhadra Finance Limited",
-      "last_price": 86.5,
-      "change_pct": 14.45,
-      "volume": 1624469,
-      "turnover_cr": 13.91,
-      "vol_change_1wk_pct": 14.45,
-      "vol_change_2wk_pct": 21.93
-    },
-    {
-      "symbol": "MALLCOM",
-      "name": "Mallcom (India) Limited",
-      "last_price": 1030.3,
-      "change_pct": 2.57,
-      "volume": 39627,
-      "turnover_cr": 4.1,
-      "vol_change_1wk_pct": 14.08,
-      "vol_change_2wk_pct": 16.24
-    },
-    {
-      "symbol": "GPTINFRA",
-      "name": "GPT Infraprojects Limited",
-      "last_price": 111.7,
-      "change_pct": 3.69,
-      "volume": 1130493,
-      "turnover_cr": 12.92,
-      "vol_change_1wk_pct": 13.85,
-      "vol_change_2wk_pct": 14.03
+      "volume": 221530,
+      "turnover_cr": 0.64,
+      "vol_change_1wk_pct": 14.96,
+      "vol_change_2wk_pct": 24.46
     },
     {
       "symbol": "MAITHANALL",
       "name": "Maithan Alloys Limited",
-      "last_price": 1028.65,
-      "change_pct": 5.75,
-      "volume": 383816,
-      "turnover_cr": 39.37,
-      "vol_change_1wk_pct": 13.11,
-      "vol_change_2wk_pct": 13.05
+      "last_price": 1024,
+      "change_pct": 5.27,
+      "volume": 435952,
+      "turnover_cr": 44.7,
+      "vol_change_1wk_pct": 14.89,
+      "vol_change_2wk_pct": 14.82
     },
     {
-      "symbol": "MONEYBOXX",
-      "name": "Moneyboxx Finance Limited",
-      "last_price": 56.96,
-      "change_pct": -0.09,
-      "volume": 80503,
-      "turnover_cr": 0.45,
-      "vol_change_1wk_pct": 12.51,
-      "vol_change_2wk_pct": 7.99
-    },
-    {
-      "symbol": "XPROINDIA",
-      "name": "Xpro India Limited",
-      "last_price": 1293.4,
-      "change_pct": 13.88,
-      "volume": 579256,
-      "turnover_cr": 72.33,
-      "vol_change_1wk_pct": 11.74,
-      "vol_change_2wk_pct": 8.6
-    },
-    {
-      "symbol": "LTGILTBEES",
-      "name": "Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt",
-      "last_price": 29.8,
-      "change_pct": -0.13,
-      "volume": 10052024,
-      "turnover_cr": 29.93,
-      "vol_change_1wk_pct": 10.58,
-      "vol_change_2wk_pct": 10.72
+      "symbol": "ABSLBANETF",
+      "name": "Aditya Birla Sun Life Nifty Bank ETF",
+      "last_price": 58.76,
+      "change_pct": -0.2,
+      "volume": 916157,
+      "turnover_cr": 5.37,
+      "vol_change_1wk_pct": 14.88,
+      "vol_change_2wk_pct": 10.15
     }
   ]
 }

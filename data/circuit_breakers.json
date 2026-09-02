@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-02T08:38:27Z",
+    "last_updated": "2026-09-02T12:59:13Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "KSHITIJ-RE",
-        "name": "KSHITIJ-RE",
-        "last_price": 0.06,
-        "prev_close": 0.05,
+        "symbol": "PAR",
+        "name": "PAR",
+        "last_price": 168.72,
+        "prev_close": 140.6,
         "change": 20,
         "change_pct": 20,
-        "volume": 6588433,
-        "turnover_cr": 0.04
+        "volume": 1507861,
+        "turnover_cr": 24.04
       },
       {
         "symbol": "SRIKPRIND",
@@ -24,8 +24,28 @@
         "prev_close": 25.35,
         "change": 20,
         "change_pct": 20,
-        "volume": 216763,
-        "turnover_cr": 0.63
+        "volume": 221530,
+        "turnover_cr": 0.64
+      },
+      {
+        "symbol": "KSHITIJ-RE",
+        "name": "KSHITIJ-RE",
+        "last_price": 0.06,
+        "prev_close": 0.05,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 6816757,
+        "turnover_cr": 0.04
+      },
+      {
+        "symbol": "ANTELOPUS",
+        "name": "ANTELOPUS",
+        "last_price": 951.15,
+        "prev_close": 792.65,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 12446135,
+        "turnover_cr": 1122.33
       },
       {
         "symbol": "ICDSLTD",
@@ -34,7 +54,7 @@
         "prev_close": 49.22,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 121019,
+        "volume": 122072,
         "turnover_cr": 0.7
       },
       {
@@ -44,108 +64,118 @@
         "prev_close": 4.57,
         "change": 19.91,
         "change_pct": 19.91,
-        "volume": 3007557,
-        "turnover_cr": 1.6
-      },
-      {
-        "symbol": "ANTELOPUS",
-        "name": "ANTELOPUS",
-        "last_price": 937.35,
-        "prev_close": 792.65,
-        "change": 18.26,
-        "change_pct": 18.26,
-        "volume": 11640162,
-        "turnover_cr": 1046.12
+        "volume": 3044554,
+        "turnover_cr": 1.62
       },
       {
         "symbol": "TIJARIA",
         "name": "TIJARIA",
-        "last_price": 7.82,
+        "last_price": 7.69,
         "prev_close": 6.73,
-        "change": 16.2,
-        "change_pct": 16.2,
-        "volume": 781521,
-        "turnover_cr": 0.61
+        "change": 14.26,
+        "change_pct": 14.26,
+        "volume": 1007554,
+        "turnover_cr": 0.78
       },
       {
-        "symbol": "INDOCO",
-        "name": "INDOCO",
-        "last_price": 278.8,
-        "prev_close": 243.84,
-        "change": 14.34,
-        "change_pct": 14.34,
-        "volume": 15372304,
-        "turnover_cr": 422.66
+        "symbol": "CENTENKA",
+        "name": "CENTENKA",
+        "last_price": 619,
+        "prev_close": 544.1,
+        "change": 13.77,
+        "change_pct": 13.77,
+        "volume": 9590323,
+        "turnover_cr": 572.63
       },
       {
         "symbol": "SAHLIBHFI",
         "name": "SAHLIBHFI",
-        "last_price": 86.3,
+        "last_price": 85.9,
         "prev_close": 75.58,
-        "change": 14.18,
-        "change_pct": 14.18,
-        "volume": 1623247,
-        "turnover_cr": 13.9
-      },
-      {
-        "symbol": "XPROINDIA",
-        "name": "XPROINDIA",
-        "last_price": 1293.2,
-        "prev_close": 1135.8,
-        "change": 13.86,
-        "change_pct": 13.86,
-        "volume": 575846,
-        "turnover_cr": 71.89
-      },
-      {
-        "symbol": "IFCI",
-        "name": "IFCI",
-        "last_price": 98.8,
-        "prev_close": 87.26,
-        "change": 13.22,
-        "change_pct": 13.22,
-        "volume": 297951840,
-        "turnover_cr": 2827.27
-      },
-      {
-        "symbol": "ZIMLAB",
-        "name": "ZIMLAB",
-        "last_price": 132.85,
-        "prev_close": 117.94,
-        "change": 12.64,
-        "change_pct": 12.64,
-        "volume": 405879,
-        "turnover_cr": 5.26
-      },
-      {
-        "symbol": "BATLIBOI",
-        "name": "BATLIBOI",
-        "last_price": 94.4,
-        "prev_close": 85.1,
-        "change": 10.93,
-        "change_pct": 10.93,
-        "volume": 47917,
-        "turnover_cr": 0.43
+        "change": 13.65,
+        "change_pct": 13.65,
+        "volume": 1697290,
+        "turnover_cr": 14.54
       },
       {
         "symbol": "BODALCHEM",
         "name": "BODALCHEM",
-        "last_price": 140,
+        "last_price": 143.6,
         "prev_close": 126.76,
-        "change": 10.44,
-        "change_pct": 10.44,
-        "volume": 19683721,
-        "turnover_cr": 268.82
+        "change": 13.28,
+        "change_pct": 13.28,
+        "volume": 30271526,
+        "turnover_cr": 422.23
       },
       {
-        "symbol": "PAR",
-        "name": "PAR",
-        "last_price": 154.98,
-        "prev_close": 140.6,
-        "change": 10.23,
-        "change_pct": 10.23,
-        "volume": 1069995,
-        "turnover_cr": 16.8
+        "symbol": "TBZ",
+        "name": "TBZ",
+        "last_price": 414,
+        "prev_close": 366.8,
+        "change": 13.64,
+        "change_pct": 12.87,
+        "volume": 27976693,
+        "turnover_cr": 1127.77
+      },
+      {
+        "symbol": "XPROINDIA",
+        "name": "XPROINDIA",
+        "last_price": 1278,
+        "prev_close": 1135.8,
+        "change": 12.52,
+        "change_pct": 12.52,
+        "volume": 1517669,
+        "turnover_cr": 194.02
+      },
+      {
+        "symbol": "ZIMLAB",
+        "name": "ZIMLAB",
+        "last_price": 132.7,
+        "prev_close": 117.94,
+        "change": 12.51,
+        "change_pct": 12.51,
+        "volume": 680389,
+        "turnover_cr": 8.94
+      },
+      {
+        "symbol": "INDOCO",
+        "name": "INDOCO",
+        "last_price": 273.11,
+        "prev_close": 243.84,
+        "change": 12,
+        "change_pct": 12,
+        "volume": 19225160,
+        "turnover_cr": 529.42
+      },
+      {
+        "symbol": "IFCI",
+        "name": "IFCI",
+        "last_price": 97.72,
+        "prev_close": 87.26,
+        "change": 11.99,
+        "change_pct": 11.99,
+        "volume": 428062214,
+        "turnover_cr": 4103.83
+      },
+      {
+        "symbol": "KHAITANLTD",
+        "name": "KHAITANLTD",
+        "last_price": 165,
+        "prev_close": 149.45,
+        "change": 10.4,
+        "change_pct": 10.4,
+        "volume": 19103,
+        "turnover_cr": 0.3
+      },
+      {
+        "symbol": "BATLIBOI",
+        "name": "BATLIBOI",
+        "last_price": 93.7,
+        "prev_close": 85.1,
+        "change": 10.11,
+        "change_pct": 10.11,
+        "volume": 122105,
+        "turnover_cr": 1.13
       },
       {
         "symbol": "NIRAJISPAT",
@@ -154,8 +184,18 @@
         "prev_close": 390.6,
         "change": 10,
         "change_pct": 10,
-        "volume": 811,
-        "turnover_cr": 0.03
+        "volume": 1061,
+        "turnover_cr": 0.05
+      },
+      {
+        "symbol": "AUGMONT",
+        "name": "AUGMONT",
+        "last_price": 952.85,
+        "prev_close": 866.25,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 4700620,
+        "turnover_cr": 431.24
       }
     ],
     "lower_circuit": [
@@ -166,8 +206,8 @@
         "prev_close": 27.35,
         "change": -39.85,
         "change_pct": -39.85,
-        "volume": 97028,
-        "turnover_cr": 0.16
+        "volume": 115644,
+        "turnover_cr": 0.19
       }
     ]
   }

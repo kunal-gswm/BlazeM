@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-09-02T08:38:17Z",
+    "last_updated": "2026-09-02T12:59:01Z",
     "status": "healthy",
     "record_count": 10
   },
   "data": [
     {
-      "symbol": "NIFTY PHARMA",
-      "lastPrice": 26753.3,
-      "percentChange": -0.15,
-      "change": -39.35,
-      "status": "down"
+      "symbol": "NIFTY REALTY",
+      "lastPrice": 893.15,
+      "percentChange": 0.21,
+      "change": 1.85,
+      "status": "up"
     },
     {
       "symbol": "NIFTY PSU BANK",
-      "lastPrice": 8474.95,
-      "percentChange": -0.36,
-      "change": -30.8,
-      "status": "down"
+      "lastPrice": 8511.7,
+      "percentChange": 0.07,
+      "change": 5.95,
+      "status": "up"
     },
     {
-      "symbol": "NIFTY BANK",
-      "lastPrice": 57115.7,
-      "percentChange": -0.51,
-      "change": -293.9,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY PVT BANK",
-      "lastPrice": 27611,
-      "percentChange": -0.54,
-      "change": -151.1,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY FMCG",
-      "lastPrice": 46196.85,
-      "percentChange": -0.56,
-      "change": -260.3,
+      "symbol": "NIFTY PHARMA",
+      "lastPrice": 26780.7,
+      "percentChange": -0.04,
+      "change": -11.95,
       "status": "down"
     },
     {
       "symbol": "NIFTY METAL",
-      "lastPrice": 13104.6,
-      "percentChange": -0.65,
-      "change": -85.25,
+      "lastPrice": 13157.35,
+      "percentChange": -0.25,
+      "change": -32.5,
       "status": "down"
     },
     {
-      "symbol": "NIFTY REALTY",
-      "lastPrice": 883,
-      "percentChange": -0.93,
-      "change": -8.3,
+      "symbol": "NIFTY BANK",
+      "lastPrice": 57172,
+      "percentChange": -0.41,
+      "change": -237.6,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY FMCG",
+      "lastPrice": 46240.55,
+      "percentChange": -0.47,
+      "change": -216.6,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY PVT BANK",
+      "lastPrice": 27606.8,
+      "percentChange": -0.56,
+      "change": -155.3,
       "status": "down"
     },
     {
       "symbol": "NIFTY IT",
-      "lastPrice": 31033.75,
-      "percentChange": -1.47,
-      "change": -462.95,
+      "lastPrice": 31102.9,
+      "percentChange": -1.25,
+      "change": -393.8,
       "status": "down"
     },
     {
       "symbol": "NIFTY MEDIA",
-      "lastPrice": 1538.5,
-      "percentChange": -1.47,
-      "change": -22.95,
+      "lastPrice": 1534.1,
+      "percentChange": -1.75,
+      "change": -27.35,
       "status": "down"
     },
     {
       "symbol": "NIFTY AUTO",
-      "lastPrice": 27718.25,
-      "percentChange": -2.71,
-      "change": -772.8,
+      "lastPrice": 27981.95,
+      "percentChange": -1.79,
+      "change": -509.1,
       "status": "down"
     }
   ]
