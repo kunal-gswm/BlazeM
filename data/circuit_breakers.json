@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-03T08:46:31Z",
+    "last_updated": "2026-09-03T13:02:58Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,18 +14,18 @@
         "prev_close": 0.25,
         "change": 40,
         "change_pct": 40,
-        "volume": 13115,
+        "volume": 13340,
         "turnover_cr": 0.0
       },
       {
-        "symbol": "CYBERMEDIA",
-        "name": "CYBERMEDIA",
-        "last_price": 23.88,
-        "prev_close": 19.9,
+        "symbol": "RBZJEWEL",
+        "name": "RBZJEWEL",
+        "last_price": 193.76,
+        "prev_close": 161.47,
         "change": 20,
         "change_pct": 20,
-        "volume": 320465,
-        "turnover_cr": 0.76
+        "volume": 11694931,
+        "turnover_cr": 212.88
       },
       {
         "symbol": "SVGLOBAL",
@@ -34,8 +34,38 @@
         "prev_close": 120.01,
         "change": 20,
         "change_pct": 20,
-        "volume": 16617,
+        "volume": 16618,
         "turnover_cr": 0.24
+      },
+      {
+        "symbol": "HIKAL",
+        "name": "HIKAL",
+        "last_price": 240.72,
+        "prev_close": 200.6,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 20195810,
+        "turnover_cr": 466.3
+      },
+      {
+        "symbol": "CYBERMEDIA",
+        "name": "CYBERMEDIA",
+        "last_price": 23.88,
+        "prev_close": 19.9,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 323193,
+        "turnover_cr": 0.76
+      },
+      {
+        "symbol": "JINDWORLD",
+        "name": "JINDWORLD",
+        "last_price": 48.22,
+        "prev_close": 40.19,
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 110819795,
+        "turnover_cr": 509.33
       },
       {
         "symbol": "TIJARIA",
@@ -44,8 +74,8 @@
         "prev_close": 7.58,
         "change": 19.92,
         "change_pct": 19.92,
-        "volume": 648280,
-        "turnover_cr": 0.57
+        "volume": 671916,
+        "turnover_cr": 0.59
       },
       {
         "symbol": "AKI",
@@ -54,8 +84,8 @@
         "prev_close": 5.48,
         "change": 19.89,
         "change_pct": 19.89,
-        "volume": 1230530,
-        "turnover_cr": 0.81
+        "volume": 1291990,
+        "turnover_cr": 0.85
       },
       {
         "symbol": "BIRLAPREC",
@@ -64,28 +94,8 @@
         "prev_close": 43.11,
         "change": 20,
         "change_pct": 19.86,
-        "volume": 974932,
-        "turnover_cr": 4.92
-      },
-      {
-        "symbol": "JINDWORLD",
-        "name": "JINDWORLD",
-        "last_price": 48.02,
-        "prev_close": 40.19,
-        "change": 19.48,
-        "change_pct": 19.48,
-        "volume": 94826051,
-        "turnover_cr": 432.98
-      },
-      {
-        "symbol": "HIKAL",
-        "name": "HIKAL",
-        "last_price": 235.46,
-        "prev_close": 200.6,
-        "change": 17.38,
-        "change_pct": 17.38,
-        "volume": 17591154,
-        "turnover_cr": 404.16
+        "volume": 984427,
+        "turnover_cr": 4.96
       },
       {
         "symbol": "KSHITIJ-RE",
@@ -94,128 +104,128 @@
         "prev_close": 0.06,
         "change": 16.67,
         "change_pct": 16.67,
-        "volume": 1983374,
-        "turnover_cr": 0.01
-      },
-      {
-        "symbol": "RBZJEWEL",
-        "name": "RBZJEWEL",
-        "last_price": 186.3,
-        "prev_close": 161.47,
-        "change": 15.38,
-        "change_pct": 15.38,
-        "volume": 9153295,
-        "turnover_cr": 164.53
-      },
-      {
-        "symbol": "HINDOILEXP",
-        "name": "HINDOILEXP",
-        "last_price": 190.5,
-        "prev_close": 166.18,
-        "change": 14.63,
-        "change_pct": 14.63,
-        "volume": 22527038,
-        "turnover_cr": 415.89
-      },
-      {
-        "symbol": "RAYMOND",
-        "name": "RAYMOND",
-        "last_price": 760.85,
-        "prev_close": 667.25,
-        "change": 14.03,
-        "change_pct": 14.03,
-        "volume": 12944625,
-        "turnover_cr": 967.92
-      },
-      {
-        "symbol": "RUCHINFRA",
-        "name": "RUCHINFRA",
-        "last_price": 6.24,
-        "prev_close": 5.53,
-        "change": 12.84,
-        "change_pct": 12.84,
-        "volume": 614777,
-        "turnover_cr": 0.38
+        "volume": 2308478,
+        "turnover_cr": 0.02
       },
       {
         "symbol": "AEPL",
         "name": "AEPL",
-        "last_price": 16.96,
+        "last_price": 17.2,
         "prev_close": 15.08,
-        "change": 12.47,
-        "change_pct": 12.47,
-        "volume": 211348,
-        "turnover_cr": 0.36
+        "change": 14.06,
+        "change_pct": 14.06,
+        "volume": 268429,
+        "turnover_cr": 0.45
+      },
+      {
+        "symbol": "SAICAPI",
+        "name": "SAICAPI",
+        "last_price": 159.1,
+        "prev_close": 140,
+        "change": 13.64,
+        "change_pct": 13.64,
+        "volume": 2613,
+        "turnover_cr": 0.04
+      },
+      {
+        "symbol": "OPTIFIN",
+        "name": "OPTIFIN",
+        "last_price": 14.91,
+        "prev_close": 13.16,
+        "change": 13.3,
+        "change_pct": 13.3,
+        "volume": 353825,
+        "turnover_cr": 0.53
+      },
+      {
+        "symbol": "BRIGADE",
+        "name": "BRIGADE",
+        "last_price": 725,
+        "prev_close": 640,
+        "change": 13.28,
+        "change_pct": 13.28,
+        "volume": 5390980,
+        "turnover_cr": 373.43
+      },
+      {
+        "symbol": "RAYMOND",
+        "name": "RAYMOND",
+        "last_price": 753.8,
+        "prev_close": 667.25,
+        "change": 12.97,
+        "change_pct": 12.97,
+        "volume": 16593917,
+        "turnover_cr": 1244.05
       },
       {
         "symbol": "ALPINETEX",
         "name": "ALPINETEX",
-        "last_price": 57.39,
+        "last_price": 57.25,
         "prev_close": 51.09,
-        "change": 12.33,
-        "change_pct": 12.33,
-        "volume": 904066,
-        "turnover_cr": 5.02
-      },
-      {
-        "symbol": "AUTOIND",
-        "name": "AUTOIND",
-        "last_price": 94.59,
-        "prev_close": 84.68,
-        "change": 11.7,
-        "change_pct": 11.7,
-        "volume": 1248320,
-        "turnover_cr": 11.67
-      },
-      {
-        "symbol": "KIRIINDUS",
-        "name": "KIRIINDUS",
-        "last_price": 584.8,
-        "prev_close": 523.65,
-        "change": 11.68,
-        "change_pct": 11.68,
-        "volume": 6072497,
-        "turnover_cr": 348.61
-      },
-      {
-        "symbol": "ALEMBICLTD",
-        "name": "ALEMBICLTD",
-        "last_price": 111.62,
-        "prev_close": 100.14,
-        "change": 11.46,
-        "change_pct": 11.46,
-        "volume": 30840018,
-        "turnover_cr": 348.62
+        "change": 12.06,
+        "change_pct": 12.06,
+        "volume": 1147753,
+        "turnover_cr": 6.41
       },
       {
         "symbol": "SHUKRAPHAR",
         "name": "SHUKRAPHAR",
-        "last_price": 51.93,
+        "last_price": 52,
         "prev_close": 46.79,
-        "change": 10.99,
-        "change_pct": 10.99,
-        "volume": 7530835,
-        "turnover_cr": 38.69
+        "change": 11.13,
+        "change_pct": 11.13,
+        "volume": 8949935,
+        "turnover_cr": 46.07
       },
       {
-        "symbol": "PANORAMA",
-        "name": "PANORAMA",
-        "last_price": 46.11,
-        "prev_close": 41.59,
-        "change": 10.87,
-        "change_pct": 10.87,
-        "volume": 951859,
-        "turnover_cr": 4.31
+        "symbol": "AMBICAAGAR",
+        "name": "AMBICAAGAR",
+        "last_price": 27.49,
+        "prev_close": 24.75,
+        "change": 11.07,
+        "change_pct": 11.07,
+        "volume": 75462,
+        "turnover_cr": 0.19
       },
       {
-        "symbol": "BFUTILITIE",
-        "name": "BFUTILITIE",
-        "last_price": 553,
-        "prev_close": 500.65,
-        "change": 10.46,
-        "change_pct": 10.46,
-        "volume": 4056190,
-        "turnover_cr": 229.54
+        "symbol": "AUTOIND",
+        "name": "AUTOIND",
+        "last_price": 93.5,
+        "prev_close": 84.68,
+        "change": 10.42,
+        "change_pct": 10.42,
+        "volume": 1837130,
+        "turnover_cr": 17.15
+      },
+      {
+        "symbol": "KIRIINDUS",
+        "name": "KIRIINDUS",
+        "last_price": 577.5,
+        "prev_close": 523.65,
+        "change": 10.28,
+        "change_pct": 10.28,
+        "volume": 7182969,
+        "turnover_cr": 412.91
+      },
+      {
+        "symbol": "HINDOILEXP",
+        "name": "HINDOILEXP",
+        "last_price": 182.8,
+        "prev_close": 166.18,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 35250701,
+        "turnover_cr": 652.46
+      },
+      {
+        "symbol": "MAKERSL",
+        "name": "MAKERSL",
+        "last_price": 200.97,
+        "prev_close": 182.7,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 9968,
+        "turnover_cr": 0.2
       }
     ],
     "lower_circuit": [
@@ -226,8 +236,8 @@
         "prev_close": 16.45,
         "change": -39.82,
         "change_pct": -39.82,
-        "volume": 182556,
-        "turnover_cr": 0.18
+        "volume": 213636,
+        "turnover_cr": 0.21
       },
       {
         "symbol": "DUCON-RE1",
@@ -236,8 +246,18 @@
         "prev_close": 1.08,
         "change": -39.81,
         "change_pct": -39.81,
-        "volume": 1233209,
-        "turnover_cr": 0.08
+        "volume": 1337397,
+        "turnover_cr": 0.09
+      },
+      {
+        "symbol": "ADDIND",
+        "name": "ADDIND",
+        "last_price": 75,
+        "prev_close": 85.29,
+        "change": -12.06,
+        "change_pct": -12.06,
+        "volume": 2206,
+        "turnover_cr": 0.02
       }
     ]
   }
