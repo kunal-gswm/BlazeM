@@ -1,250 +1,210 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-03T13:02:57Z",
+    "last_updated": "2026-09-04T08:42:30Z",
     "status": "healthy",
-    "record_count": 24
+    "record_count": 20
   },
   "data": [
     {
-      "symbol": "NIFTYBETF",
-      "name": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty 50 ETF",
-      "last_price": 246.5,
-      "change_pct": 0.1,
-      "volume": 964866,
-      "turnover_cr": 23.77,
-      "vol_change_1wk_pct": 223.99,
-      "vol_change_2wk_pct": 335.19
+      "symbol": "LIQUIDBETA",
+      "name": "UTI Mutual Fund - UTI Nifty 1D Rate Liquid ETF - Growth",
+      "last_price": 1007.03,
+      "change_pct": 0.03,
+      "volume": 100087,
+      "turnover_cr": 10.08,
+      "vol_change_1wk_pct": 358.99,
+      "vol_change_2wk_pct": 17.36
     },
     {
-      "symbol": "GOCLCORP",
-      "name": "GOCL Corporation Limited",
-      "last_price": 417.1,
-      "change_pct": 6.48,
-      "volume": 6030677,
-      "turnover_cr": 261.73,
-      "vol_change_1wk_pct": 144.52,
-      "vol_change_2wk_pct": 166.87
+      "symbol": "RESPONIND",
+      "name": "Responsive Industries Limited",
+      "last_price": 169.3,
+      "change_pct": 11.48,
+      "volume": 30593831,
+      "turnover_cr": 524.04,
+      "vol_change_1wk_pct": 273.44,
+      "vol_change_2wk_pct": 200.12
     },
     {
-      "symbol": "BFUTILITIE",
-      "name": "BF Utilities Limited",
-      "last_price": 540,
-      "change_pct": 7.86,
-      "volume": 4460017,
-      "turnover_cr": 251.61,
-      "vol_change_1wk_pct": 112.89,
-      "vol_change_2wk_pct": 123.27
+      "symbol": "PURVA",
+      "name": "Puravankara Limited",
+      "last_price": 224.71,
+      "change_pct": 6.45,
+      "volume": 14209201,
+      "turnover_cr": 326.94,
+      "vol_change_1wk_pct": 150.24,
+      "vol_change_2wk_pct": 65.99
     },
     {
-      "symbol": "HIKAL",
-      "name": "Hikal Limited",
-      "last_price": 240.72,
-      "change_pct": 20,
-      "volume": 20195810,
-      "turnover_cr": 466.3,
-      "vol_change_1wk_pct": 101.14,
-      "vol_change_2wk_pct": 112.81
-    },
-    {
-      "symbol": "NPBET",
-      "name": "Tata Nifty Private Bank Exchange Traded Fund",
-      "last_price": 306,
-      "change_pct": 7.15,
-      "volume": 41555,
-      "turnover_cr": 1.2,
-      "vol_change_1wk_pct": 75.14,
-      "vol_change_2wk_pct": 53.51
-    },
-    {
-      "symbol": "VISHAL",
-      "name": "Vishal Fabrics Limited",
-      "last_price": 18.65,
-      "change_pct": -1.64,
-      "volume": 3006888,
-      "turnover_cr": 5.57,
-      "vol_change_1wk_pct": 67.06,
-      "vol_change_2wk_pct": 69.86
-    },
-    {
-      "symbol": "HINDOILEXP",
-      "name": "Hindustan Oil Exploration Company Limited",
-      "last_price": 182.8,
-      "change_pct": 10,
-      "volume": 35250701,
-      "turnover_cr": 652.46,
-      "vol_change_1wk_pct": 41.44,
-      "vol_change_2wk_pct": 51.66
-    },
-    {
-      "symbol": "INDBANK",
-      "name": "Indbank Merchant Banking Services Limited",
-      "last_price": 28.77,
-      "change_pct": -7.49,
-      "volume": 719248,
-      "turnover_cr": 2.07,
-      "vol_change_1wk_pct": 39.22,
-      "vol_change_2wk_pct": 27.7
-    },
-    {
-      "symbol": "LAHOTIOV",
-      "name": "Lahoti Overseas Limited",
-      "last_price": 44.5,
-      "change_pct": 6,
-      "volume": 128066,
-      "turnover_cr": 0.58,
-      "vol_change_1wk_pct": 35.6,
-      "vol_change_2wk_pct": 26.11
-    },
-    {
-      "symbol": "ALEMBICLTD",
-      "name": "Alembic Limited",
-      "last_price": 108.8,
-      "change_pct": 8.65,
-      "volume": 35036495,
-      "turnover_cr": 394.97,
-      "vol_change_1wk_pct": 28.94,
-      "vol_change_2wk_pct": 34.57
-    },
-    {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Limited",
-      "last_price": 436.5,
-      "change_pct": 4.78,
-      "volume": 7394075,
-      "turnover_cr": 329.89,
-      "vol_change_1wk_pct": 26.84,
-      "vol_change_2wk_pct": 20.72
-    },
-    {
-      "symbol": "RAYMOND",
-      "name": "Raymond Limited",
-      "last_price": 753.8,
-      "change_pct": 12.97,
-      "volume": 16593917,
-      "turnover_cr": 1244.05,
-      "vol_change_1wk_pct": 24.39,
-      "vol_change_2wk_pct": 29.55
-    },
-    {
-      "symbol": "BSL",
-      "name": "BSL Limited",
-      "last_price": 122.71,
-      "change_pct": 0.48,
-      "volume": 53035,
-      "turnover_cr": 0.68,
-      "vol_change_1wk_pct": 20.97,
-      "vol_change_2wk_pct": 17.69
-    },
-    {
-      "symbol": "RNBDENIMS",
-      "name": "R&B Denims Limited",
-      "last_price": 10.81,
-      "change_pct": -4.93,
-      "volume": 3089346,
-      "turnover_cr": 3.54,
-      "vol_change_1wk_pct": 20.6,
-      "vol_change_2wk_pct": 15.2
-    },
-    {
-      "symbol": "ANANTRAJ",
-      "name": "Anant Raj Limited",
-      "last_price": 627,
-      "change_pct": 6.48,
-      "volume": 22186819,
-      "turnover_cr": 1397.02,
-      "vol_change_1wk_pct": 19.61,
-      "vol_change_2wk_pct": 13.6
-    },
-    {
-      "symbol": "GILT5BETA",
-      "name": "UTI Mutual Fund - UTI Nifty 5 yr Benchmark G-Sec ETF",
-      "last_price": 66.49,
-      "change_pct": 1.22,
-      "volume": 10011,
-      "turnover_cr": 0.07,
-      "vol_change_1wk_pct": 19.11,
-      "vol_change_2wk_pct": 6.18
-    },
-    {
-      "symbol": "BRIGADE",
-      "name": "Brigade Enterprises Limited",
-      "last_price": 725,
-      "change_pct": 13.28,
-      "volume": 5390980,
-      "turnover_cr": 373.43,
-      "vol_change_1wk_pct": 17.63,
-      "vol_change_2wk_pct": 8.68
-    },
-    {
-      "symbol": "BBNPPGOLD",
-      "name": "Baroda BNP Paribas Mutual Fund - Baroda BNP Paribas Gold ETF",
-      "last_price": 148.3,
-      "change_pct": 2.52,
-      "volume": 126705,
-      "turnover_cr": 1.87,
-      "vol_change_1wk_pct": 17.31,
-      "vol_change_2wk_pct": 15.83
-    },
-    {
-      "symbol": "HEXT",
-      "name": "Hexaware Technologies Limited",
-      "last_price": 532,
-      "change_pct": -2.13,
-      "volume": 2916864,
-      "turnover_cr": 154.17,
-      "vol_change_1wk_pct": 16.71,
-      "vol_change_2wk_pct": 6.96
+      "symbol": "RML",
+      "name": "Rane (Madras) Limited",
+      "last_price": 1308.5,
+      "change_pct": 16.06,
+      "volume": 1694670,
+      "turnover_cr": 218.9,
+      "vol_change_1wk_pct": 117.46,
+      "vol_change_2wk_pct": 61.4
     },
     {
       "symbol": "SVGLOBAL",
       "name": "S V Global Mill Limited",
-      "last_price": 144.01,
-      "change_pct": 20,
-      "volume": 16618,
-      "turnover_cr": 0.24,
-      "vol_change_1wk_pct": 15.71,
-      "vol_change_2wk_pct": 22.27
+      "last_price": 165.63,
+      "change_pct": 15.01,
+      "volume": 229951,
+      "turnover_cr": 3.87,
+      "vol_change_1wk_pct": 68.33,
+      "vol_change_2wk_pct": 104.7
     },
     {
-      "symbol": "COMPEAU",
-      "name": "Competent Automobiles Company Limited",
-      "last_price": 370,
-      "change_pct": 4.52,
-      "volume": 12987,
-      "turnover_cr": 0.46,
-      "vol_change_1wk_pct": 14.56,
-      "vol_change_2wk_pct": 5.97
+      "symbol": "MASTERTR",
+      "name": "Master Trust Limited",
+      "last_price": 90.21,
+      "change_pct": 11.33,
+      "volume": 7360684,
+      "turnover_cr": 67.23,
+      "vol_change_1wk_pct": 38.9,
+      "vol_change_2wk_pct": 14.53
     },
     {
-      "symbol": "SALASAR",
-      "name": "Salasar Techno Engineering Limited",
-      "last_price": 5.25,
-      "change_pct": -7.08,
-      "volume": 40156990,
-      "turnover_cr": 20.48,
-      "vol_change_1wk_pct": 14.23,
-      "vol_change_2wk_pct": 16.0
+      "symbol": "PRABHA",
+      "name": "Prabha Energy Limited",
+      "last_price": 244.67,
+      "change_pct": 10.73,
+      "volume": 7417721,
+      "turnover_cr": 184.59,
+      "vol_change_1wk_pct": 36.71,
+      "vol_change_2wk_pct": 22.11
     },
     {
-      "symbol": "AUTOIND",
-      "name": "Autoline Industries Limited",
-      "last_price": 93.5,
-      "change_pct": 10.42,
-      "volume": 1837130,
-      "turnover_cr": 17.15,
-      "vol_change_1wk_pct": 13.9,
-      "vol_change_2wk_pct": 9.63
+      "symbol": "CONSUMIETF",
+      "name": "ICICI Prudential Nifty India Consumption ETF",
+      "last_price": 120.51,
+      "change_pct": -0.45,
+      "volume": 407866,
+      "turnover_cr": 4.94,
+      "vol_change_1wk_pct": 36.13,
+      "vol_change_2wk_pct": 40.22
     },
     {
-      "symbol": "RUCHINFRA",
-      "name": "Ruchi Infrastructure Limited",
-      "last_price": 6.08,
-      "change_pct": 9.95,
-      "volume": 680209,
-      "turnover_cr": 0.42,
-      "vol_change_1wk_pct": 13.46,
-      "vol_change_2wk_pct": 16.34
+      "symbol": "MARALOVER",
+      "name": "Maral Overseas Limited",
+      "last_price": 63.52,
+      "change_pct": 14.95,
+      "volume": 267619,
+      "turnover_cr": 1.67,
+      "vol_change_1wk_pct": 23.59,
+      "vol_change_2wk_pct": 11.76
+    },
+    {
+      "symbol": "AMBICAAGAR",
+      "name": "Ambica Agarbathies & Aroma industries Limited",
+      "last_price": 27.22,
+      "change_pct": 3.38,
+      "volume": 428698,
+      "turnover_cr": 1.17,
+      "vol_change_1wk_pct": 22.08,
+      "vol_change_2wk_pct": 33.93
+    },
+    {
+      "symbol": "CYBERMEDIA",
+      "name": "Cyber Media (India) Limited",
+      "last_price": 27.34,
+      "change_pct": 14.49,
+      "volume": 1961193,
+      "turnover_cr": 5.23,
+      "vol_change_1wk_pct": 21.55,
+      "vol_change_2wk_pct": 29.21
+    },
+    {
+      "symbol": "HBLENGINE",
+      "name": "HBL Engineering Limited",
+      "last_price": 693.7,
+      "change_pct": 4.23,
+      "volume": 12691301,
+      "turnover_cr": 899.57,
+      "vol_change_1wk_pct": 18.66,
+      "vol_change_2wk_pct": 13.32
+    },
+    {
+      "symbol": "HESTERBIO",
+      "name": "Hester Biosciences Limited",
+      "last_price": 2453.5,
+      "change_pct": 11.44,
+      "volume": 61567,
+      "turnover_cr": 15.14,
+      "vol_change_1wk_pct": 15.1,
+      "vol_change_2wk_pct": 16.83
+    },
+    {
+      "symbol": "JAYNECOIND",
+      "name": "Jayaswal Neco Industries Limited",
+      "last_price": 87.3,
+      "change_pct": -11.53,
+      "volume": 43362474,
+      "turnover_cr": 383.71,
+      "vol_change_1wk_pct": 14.14,
+      "vol_change_2wk_pct": 7.37
+    },
+    {
+      "symbol": "KANSAINER",
+      "name": "Kansai Nerolac Paints Limited",
+      "last_price": 194.11,
+      "change_pct": -0.51,
+      "volume": 2379787,
+      "turnover_cr": 46.05,
+      "vol_change_1wk_pct": 13.83,
+      "vol_change_2wk_pct": 13.86
+    },
+    {
+      "symbol": "CINELINE",
+      "name": "Cineline India Limited",
+      "last_price": 95.89,
+      "change_pct": 6.75,
+      "volume": 267382,
+      "turnover_cr": 2.53,
+      "vol_change_1wk_pct": 13.71,
+      "vol_change_2wk_pct": 13.48
+    },
+    {
+      "symbol": "BRIGHTBR",
+      "name": "Bright Brothers Limited",
+      "last_price": 253.1,
+      "change_pct": -0.59,
+      "volume": 19339,
+      "turnover_cr": 0.5,
+      "vol_change_1wk_pct": 12.22,
+      "vol_change_2wk_pct": 10.17
+    },
+    {
+      "symbol": "NITIRAJ",
+      "name": "Nitiraj Engineers Limited",
+      "last_price": 214.45,
+      "change_pct": 4.54,
+      "volume": 31786,
+      "turnover_cr": 0.71,
+      "vol_change_1wk_pct": 11.87,
+      "vol_change_2wk_pct": 13.59
+    },
+    {
+      "symbol": "GLOBALE",
+      "name": "Globale Tessile Limited",
+      "last_price": 11.4,
+      "change_pct": 0.18,
+      "volume": 16794,
+      "turnover_cr": 0.02,
+      "vol_change_1wk_pct": 10.51,
+      "vol_change_2wk_pct": 5.34
+    },
+    {
+      "symbol": "TAKE",
+      "name": "TAKE Limited",
+      "last_price": 13.82,
+      "change_pct": 4.94,
+      "volume": 907769,
+      "turnover_cr": 1.17,
+      "vol_change_1wk_pct": 10.19,
+      "vol_change_2wk_pct": 4.19
     }
   ]
 }
