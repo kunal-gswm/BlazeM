@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-09-10T13:13:02Z",
+    "last_updated": "2026-09-11T08:47:12Z",
     "status": "healthy",
     "record_count": 6
   },
@@ -9,44 +9,44 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7636.36,
-      "change": -37.16,
-      "change_pct": -0.48
+      "price": 7591.7,
+      "change": -44.66,
+      "change_pct": -0.58
     },
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52380.66,
-      "change": -405.41,
-      "change_pct": -0.77
+      "price": 52064.1,
+      "change": -316.56,
+      "change_pct": -0.6
     },
     {
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26253.34,
-      "change": -168.07,
-      "change_pct": -0.64
+      "price": 26081.72,
+      "change": -171.62,
+      "change_pct": -0.65
     },
     {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 17.75,
-      "change": 1.29,
-      "change_pct": 7.84
+      "price": 17.42,
+      "change": -0.42,
+      "change_pct": -2.35
     },
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "price": 23477.8,
-      "change": 46.3,
-      "change_pct": 0.2
+      "price": 23410.45,
+      "change": -67.35,
+      "change_pct": -0.29
     },
     {
       "symbol": "^BSESN",
       "name": "BSE Sensex",
-      "price": 74902.59,
-      "change": 138.37,
-      "change_pct": 0.19
+      "price": 74750.27,
+      "change": -152.32,
+      "change_pct": -0.2
     }
   ]
 }
