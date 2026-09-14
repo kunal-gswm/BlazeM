@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-09-11T13:03:21Z",
+    "last_updated": "2026-09-14T09:43:32Z",
     "status": "healthy",
-    "record_count": 184
+    "record_count": 193
   },
   "data": [
     {
@@ -86,6 +86,16 @@
           "change": 157.1,
           "pChange": 9.996182234665309,
           "value52Week": 1728.7,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "DIGJAMLMTD",
+          "companyName": "Digjam Limited",
+          "lastPrice": 72.88,
+          "previousClose": "10",
+          "change": 62.88,
+          "pChange": 628.8,
+          "value52Week": 73.19,
           "type": "HIGH"
         },
         {
@@ -351,6 +361,16 @@
         {
           "symbol": "MERCURYEV",
           "companyName": "Mercury Ev-Tech Limited",
+          "lastPrice": 42.73,
+          "previousClose": "33.45",
+          "change": 9.28,
+          "pChange": 27.74289985052317,
+          "value52Week": 44.05,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MERCURYEV",
+          "companyName": "Mercury Ev-Tech Limited",
           "lastPrice": 41.65,
           "previousClose": "41.61",
           "change": 0.04,
@@ -366,6 +386,16 @@
           "change": 13.94,
           "pChange": 4.999462037800811,
           "value52Week": 292.77,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "MOLBIO",
+          "companyName": "Molbio Diagnostics Limited",
+          "lastPrice": 1640,
+          "previousClose": "807",
+          "change": 833,
+          "pChange": 103.22180916976455,
+          "value52Week": 1686.8,
           "type": "HIGH"
         },
         {
@@ -429,6 +459,26 @@
           "type": "HIGH"
         },
         {
+          "symbol": "PAYTM",
+          "companyName": "One 97 Communications Limited",
+          "lastPrice": 1838.8,
+          "previousClose": "2150",
+          "change": -311.2,
+          "pChange": -14.474418604651163,
+          "value52Week": 1840,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "QUADFUTURE",
+          "companyName": "Quadrant Future Tek Limited",
+          "lastPrice": 503,
+          "previousClose": "290",
+          "change": 213,
+          "pChange": 73.44827586206897,
+          "value52Week": 511.8,
+          "type": "HIGH"
+        },
+        {
           "symbol": "QUADFUTURE",
           "companyName": "Quadrant Future Tek Limited",
           "lastPrice": 481.5,
@@ -479,6 +529,16 @@
           "type": "HIGH"
         },
         {
+          "symbol": "SEAMECLTD",
+          "companyName": "Seamec Limited",
+          "lastPrice": 1824,
+          "previousClose": "459.95",
+          "change": 1364.05,
+          "pChange": 296.56484400478314,
+          "value52Week": 1849,
+          "type": "HIGH"
+        },
+        {
           "symbol": "SETL",
           "companyName": "Standard Engineering Technology Limited",
           "lastPrice": 468.15,
@@ -495,6 +555,16 @@
           "previousClose": "98.41",
           "change": 2.89,
           "pChange": 2.9366934254648918,
+          "value52Week": 115.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHANKESH",
+          "companyName": "Shankesh Jewellers Limited",
+          "lastPrice": 109.7,
+          "previousClose": "93",
+          "change": 16.7,
+          "pChange": 17.956989247311828,
           "value52Week": 115.9,
           "type": "HIGH"
         },
@@ -581,6 +651,16 @@
         {
           "symbol": "SUNSHINE",
           "companyName": "Sunshine Pictures Limited",
+          "lastPrice": 433,
+          "previousClose": "360",
+          "change": 73,
+          "pChange": 20.27777777777778,
+          "value52Week": 524.95,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SUNSHINE",
+          "companyName": "Sunshine Pictures Limited",
           "lastPrice": 407.8,
           "previousClose": "509.7",
           "change": -101.9,
@@ -646,6 +726,16 @@
           "change": 3.7,
           "pChange": 2.96474358974359,
           "value52Week": 129.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "VALIANTORG",
+          "companyName": "Valiant Organics Limited",
+          "lastPrice": 396.3,
+          "previousClose": "377.45",
+          "change": 18.85,
+          "pChange": 4.994038945555703,
+          "value52Week": 396.3,
           "type": "HIGH"
         },
         {

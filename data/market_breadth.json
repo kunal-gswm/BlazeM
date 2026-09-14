@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-09-11T13:02:55Z",
+    "last_updated": "2026-09-14T09:43:01Z",
     "status": "healthy",
-    "record_count": 78
+    "record_count": 79
   },
   "data": [
     {
@@ -960,6 +960,20 @@
     },
     {
       "Advance": null,
+      "Advance_PER": 46.15,
+      "Decline": null,
+      "Decline_PER": 53.85,
+      "Unchange": null,
+      "Unchange_PER": 0.0,
+      "TOTAL": 13,
+      "Scrip_GRP": null,
+      "Sens_ind": "BSE REITS and Commercial Real Estate",
+      "UP": 6,
+      "DN": 7,
+      "UC": 0
+    },
+    {
+      "Advance": null,
       "Advance_PER": 16.67,
       "Decline": null,
       "Decline_PER": 80.0,
@@ -1091,11 +1105,11 @@
       "Decline_PER": 0.0,
       "Unchange": null,
       "Unchange_PER": 0.0,
-      "TOTAL": 6840,
+      "TOTAL": 6853,
       "Scrip_GRP": null,
       "Sens_ind": "Total",
-      "UP": 2142,
-      "DN": 4667,
+      "UP": 2148,
+      "DN": 4674,
       "UC": 31
     }
   ]
