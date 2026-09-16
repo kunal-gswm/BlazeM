@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Yahoo Finance",
-    "last_updated": "2026-09-15T14:23:09Z",
+    "last_updated": "2026-09-16T09:11:54Z",
     "status": "healthy",
     "record_count": 5
   },
@@ -9,37 +9,37 @@
     {
       "symbol": "INR=X",
       "name": "USD / INR",
-      "rate": 95.945,
-      "change": 0.405,
-      "change_pct": 0.42
+      "rate": 95.9625,
+      "change": 0.1135,
+      "change_pct": 0.12
     },
     {
       "symbol": "EURINR=X",
       "name": "EUR / INR",
-      "rate": 110.823,
-      "change": 0.4706,
-      "change_pct": 0.43
+      "rate": 110.7724,
+      "change": 0.1638,
+      "change_pct": 0.15
     },
     {
       "symbol": "GBPINR=X",
       "name": "GBP / INR",
-      "rate": 129.4164,
-      "change": 0.4503,
-      "change_pct": 0.35
+      "rate": 129.2615,
+      "change": 0.1524,
+      "change_pct": 0.12
     },
     {
       "symbol": "JPYINR=X",
       "name": "JPY / INR",
-      "rate": 0.6189,
-      "change": 0.0,
-      "change_pct": 0.0
+      "rate": 0.6186,
+      "change": 0.0008,
+      "change_pct": 0.12
     },
     {
       "symbol": "EURUSD=X",
       "name": "EUR / USD",
-      "rate": 1.1551,
-      "change": -0.0004,
-      "change_pct": -0.03
+      "rate": 1.1546,
+      "change": 0.0003,
+      "change_pct": 0.02
     }
   ]
 }
