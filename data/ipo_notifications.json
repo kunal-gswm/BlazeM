@@ -385,15 +385,15 @@
   },
   "injecto polymers bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "century business media bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "manika plastech": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "amtech esters bse smect": {
     "open_notified": true,
@@ -458,5 +458,9 @@
   "jindal supreme (india) ltd. o": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "panchatv bharat bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
