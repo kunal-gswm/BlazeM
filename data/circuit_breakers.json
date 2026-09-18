@@ -1,12 +1,22 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-18T08:55:41Z",
+    "last_updated": "2026-09-18T13:31:08Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
+      {
+        "symbol": "MONQ50",
+        "name": "MONQ50",
+        "last_price": 396.3,
+        "prev_close": 330.25,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 2229451,
+        "turnover_cr": 86.97
+      },
       {
         "symbol": "ASTAR",
         "name": "ASTAR",
@@ -14,8 +24,8 @@
         "prev_close": 672.8,
         "change": 20,
         "change_pct": 20,
-        "volume": 13520,
-        "turnover_cr": 1.09
+        "volume": 13851,
+        "turnover_cr": 1.11
       },
       {
         "symbol": "ALKALI",
@@ -24,18 +34,28 @@
         "prev_close": 73.05,
         "change": 20,
         "change_pct": 20,
-        "volume": 130520,
-        "turnover_cr": 1.1
+        "volume": 133798,
+        "turnover_cr": 1.13
       },
       {
-        "symbol": "MONQ50",
-        "name": "MONQ50",
-        "last_price": 396.3,
-        "prev_close": 330.25,
-        "change": 20,
-        "change_pct": 20,
-        "volume": 2172864,
-        "turnover_cr": 84.73
+        "symbol": "SVGLOBAL",
+        "name": "SVGLOBAL",
+        "last_price": 153.9,
+        "prev_close": 128.26,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 6683,
+        "turnover_cr": 0.09
+      },
+      {
+        "symbol": "MASPTOP50",
+        "name": "MASPTOP50",
+        "last_price": 124.59,
+        "prev_close": 103.83,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 4373919,
+        "turnover_cr": 51.97
       },
       {
         "symbol": "SHIVAMAUTO",
@@ -44,120 +64,140 @@
         "prev_close": 16.19,
         "change": 19.95,
         "change_pct": 19.95,
-        "volume": 290078,
+        "volume": 291980,
         "turnover_cr": 0.56
-      },
-      {
-        "symbol": "MANUGRAPH",
-        "name": "MANUGRAPH",
-        "last_price": 18.09,
-        "prev_close": 15.19,
-        "change": 19.09,
-        "change_pct": 19.09,
-        "volume": 466494,
-        "turnover_cr": 0.83
-      },
-      {
-        "symbol": "MASPTOP50",
-        "name": "MASPTOP50",
-        "last_price": 121.94,
-        "prev_close": 103.83,
-        "change": 17.44,
-        "change_pct": 17.44,
-        "volume": 3857972,
-        "turnover_cr": 45.58
-      },
-      {
-        "symbol": "GLOBE",
-        "name": "GLOBE",
-        "last_price": 2.05,
-        "prev_close": 1.78,
-        "change": 15.17,
-        "change_pct": 15.17,
-        "volume": 1667553,
-        "turnover_cr": 0.31
-      },
-      {
-        "symbol": "TIMEX",
-        "name": "TIMEX",
-        "last_price": 694.15,
-        "prev_close": 611.1,
-        "change": 13.59,
-        "change_pct": 13.59,
-        "volume": 5079920,
-        "turnover_cr": 353.07
-      },
-      {
-        "symbol": "ATGL",
-        "name": "ATGL",
-        "last_price": 662.5,
-        "prev_close": 587,
-        "change": 12.86,
-        "change_pct": 12.86,
-        "volume": 31437449,
-        "turnover_cr": 2044.6
-      },
-      {
-        "symbol": "SAMBHV",
-        "name": "SAMBHV",
-        "last_price": 145.22,
-        "prev_close": 129.09,
-        "change": 12.5,
-        "change_pct": 12.5,
-        "volume": 18210338,
-        "turnover_cr": 260.57
       },
       {
         "symbol": "LPDC",
         "name": "LPDC",
-        "last_price": 6.78,
+        "last_price": 7.24,
         "prev_close": 6.1,
-        "change": 11.15,
-        "change_pct": 11.15,
-        "volume": 111540,
-        "turnover_cr": 0.07
+        "change": 18.69,
+        "change_pct": 18.69,
+        "volume": 456816,
+        "turnover_cr": 0.32
       },
       {
-        "symbol": "NRBBEARING",
-        "name": "NRBBEARING",
-        "last_price": 521.35,
-        "prev_close": 472.2,
-        "change": 10.41,
-        "change_pct": 10.41,
-        "volume": 8570434,
-        "turnover_cr": 448.29
+        "symbol": "TIMEX",
+        "name": "TIMEX",
+        "last_price": 720,
+        "prev_close": 611.1,
+        "change": 17.82,
+        "change_pct": 17.82,
+        "volume": 6651306,
+        "turnover_cr": 463.94
+      },
+      {
+        "symbol": "MANUGRAPH",
+        "name": "MANUGRAPH",
+        "last_price": 17.81,
+        "prev_close": 15.19,
+        "change": 17.25,
+        "change_pct": 17.25,
+        "volume": 591694,
+        "turnover_cr": 1.06
+      },
+      {
+        "symbol": "AVALON",
+        "name": "AVALON",
+        "last_price": 2602,
+        "prev_close": 2230,
+        "change": 16.68,
+        "change_pct": 16.68,
+        "volume": 4310981,
+        "turnover_cr": 1067.18
+      },
+      {
+        "symbol": "SAMBHV",
+        "name": "SAMBHV",
+        "last_price": 150.11,
+        "prev_close": 129.09,
+        "change": 16.28,
+        "change_pct": 16.28,
+        "volume": 28285913,
+        "turnover_cr": 408.51
+      },
+      {
+        "symbol": "GLOBE",
+        "name": "GLOBE",
+        "last_price": 2.04,
+        "prev_close": 1.78,
+        "change": 14.61,
+        "change_pct": 14.61,
+        "volume": 2740470,
+        "turnover_cr": 0.53
       },
       {
         "symbol": "JETFREIGHT",
         "name": "JETFREIGHT",
-        "last_price": 21.45,
+        "last_price": 22.22,
         "prev_close": 19.43,
-        "change": 10.4,
-        "change_pct": 10.4,
-        "volume": 789602,
-        "turnover_cr": 1.62
+        "change": 14.36,
+        "change_pct": 14.36,
+        "volume": 1486253,
+        "turnover_cr": 3.13
       },
       {
-        "symbol": "GRAUWEIL",
-        "name": "GRAUWEIL",
-        "last_price": 87,
-        "prev_close": 79.09,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 12934708,
-        "turnover_cr": 112.42
+        "symbol": "NRBBEARING",
+        "name": "NRBBEARING",
+        "last_price": 529.5,
+        "prev_close": 472.2,
+        "change": 12.13,
+        "change_pct": 12.13,
+        "volume": 9738086,
+        "turnover_cr": 509.51
+      },
+      {
+        "symbol": "POONAWALLA",
+        "name": "POONAWALLA",
+        "last_price": 485,
+        "prev_close": 432.8,
+        "change": 12.06,
+        "change_pct": 12.06,
+        "volume": 7163603,
+        "turnover_cr": 335.51
+      },
+      {
+        "symbol": "ATGL",
+        "name": "ATGL",
+        "last_price": 657.6,
+        "prev_close": 587,
+        "change": 12.03,
+        "change_pct": 12.03,
+        "volume": 39305845,
+        "turnover_cr": 2565.1
+      },
+      {
+        "symbol": "DPABHUSHAN",
+        "name": "DPABHUSHAN",
+        "last_price": 1475,
+        "prev_close": 1337,
+        "change": 10.32,
+        "change_pct": 10.32,
+        "volume": 37904,
+        "turnover_cr": 5.36
       }
     ],
     "lower_circuit": [
       {
         "symbol": "SBGLP",
         "name": "SBGLP",
-        "last_price": 22.9,
+        "last_price": 22,
         "prev_close": 25.78,
-        "change": -11.17,
-        "change_pct": -11.17,
-        "volume": 414067,
-        "turnover_cr": 1.01
+        "change": -14.66,
+        "change_pct": -14.66,
+        "volume": 587657,
+        "turnover_cr": 1.4
+      },
+      {
+        "symbol": "TATACHEM",
+        "name": "TATACHEM",
+        "last_price": 689.4,
+        "prev_close": 779.3,
+        "change": -11.54,
+        "change_pct": -11.54,
+        "volume": 14086032,
+        "turnover_cr": 999.88
       }
     ]
   }
