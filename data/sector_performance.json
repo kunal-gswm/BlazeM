@@ -1,79 +1,79 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-09-21T16:04:11Z",
+    "last_updated": "2026-09-22T09:11:59Z",
     "status": "healthy",
     "record_count": 10
   },
   "data": [
     {
-      "symbol": "NIFTY PHARMA",
-      "lastPrice": 27021.15,
-      "percentChange": 1.16,
-      "change": 311.05,
+      "symbol": "NIFTY MEDIA",
+      "lastPrice": 1577.4,
+      "percentChange": 1.38,
+      "change": 21.45,
       "status": "up"
     },
     {
       "symbol": "NIFTY REALTY",
-      "lastPrice": 853.85,
-      "percentChange": 1.14,
-      "change": 9.65,
+      "lastPrice": 860.75,
+      "percentChange": 0.81,
+      "change": 6.9,
       "status": "up"
     },
     {
-      "symbol": "NIFTY FMCG",
-      "lastPrice": 45900.9,
-      "percentChange": 0.95,
-      "change": 434.1,
-      "status": "up"
-    },
-    {
-      "symbol": "NIFTY PVT BANK",
-      "lastPrice": 27370.1,
-      "percentChange": 0.29,
-      "change": 80.1,
-      "status": "up"
-    },
-    {
-      "symbol": "NIFTY BANK",
-      "lastPrice": 56470.65,
-      "percentChange": 0.2,
-      "change": 111.95,
-      "status": "up"
-    },
-    {
-      "symbol": "NIFTY MEDIA",
-      "lastPrice": 1555.95,
-      "percentChange": 0.14,
-      "change": 2.2,
+      "symbol": "NIFTY METAL",
+      "lastPrice": 12991.85,
+      "percentChange": 0.15,
+      "change": 19.15,
       "status": "up"
     },
     {
       "symbol": "NIFTY AUTO",
-      "lastPrice": 27151.1,
-      "percentChange": 0.08,
-      "change": 22.1,
-      "status": "up"
+      "lastPrice": 27148.2,
+      "percentChange": -0.01,
+      "change": -2.9,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY PVT BANK",
+      "lastPrice": 27338.3,
+      "percentChange": -0.12,
+      "change": -31.8,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY BANK",
+      "lastPrice": 56279.1,
+      "percentChange": -0.34,
+      "change": -191.55,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY FMCG",
+      "lastPrice": 45720.8,
+      "percentChange": -0.39,
+      "change": -180.1,
+      "status": "down"
+    },
+    {
+      "symbol": "NIFTY PHARMA",
+      "lastPrice": 26911.95,
+      "percentChange": -0.4,
+      "change": -109.2,
+      "status": "down"
     },
     {
       "symbol": "NIFTY PSU BANK",
-      "lastPrice": 8312.4,
-      "percentChange": -0.06,
-      "change": -5.15,
+      "lastPrice": 8272,
+      "percentChange": -0.49,
+      "change": -40.4,
       "status": "down"
     },
     {
       "symbol": "NIFTY IT",
-      "lastPrice": 28830.9,
-      "percentChange": -0.08,
-      "change": -23.65,
-      "status": "down"
-    },
-    {
-      "symbol": "NIFTY METAL",
-      "lastPrice": 12972.7,
-      "percentChange": -0.61,
-      "change": -79.9,
+      "lastPrice": 28619.35,
+      "percentChange": -0.73,
+      "change": -211.55,
       "status": "down"
     }
   ]
