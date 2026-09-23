@@ -1,240 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-23T09:12:27Z",
+    "last_updated": "2026-09-23T14:19:40Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 24
   },
   "data": [
     {
       "symbol": "LOYALTEX",
       "name": "Loyal Textile Mills Limited",
-      "last_price": 239.94,
-      "change_pct": 11.63,
-      "volume": 44695,
-      "turnover_cr": 1.1,
-      "vol_change_1wk_pct": 322.71,
-      "vol_change_2wk_pct": 115.7
+      "last_price": 234.85,
+      "change_pct": 9.26,
+      "volume": 52037,
+      "turnover_cr": 1.27,
+      "vol_change_1wk_pct": 375.72,
+      "vol_change_2wk_pct": 134.71
     },
     {
       "symbol": "EKC",
       "name": "Everest Kanto Cylinder Limited",
-      "last_price": 117.43,
-      "change_pct": 16.49,
-      "volume": 21370778,
-      "turnover_cr": 243.76,
-      "vol_change_1wk_pct": 175.16,
-      "vol_change_2wk_pct": 182.88
-    },
-    {
-      "symbol": "SBIETFPB",
-      "name": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank",
-      "last_price": 279.49,
-      "change_pct": 0.11,
-      "volume": 1540573,
-      "turnover_cr": 43.31,
-      "vol_change_1wk_pct": 155.73,
-      "vol_change_2wk_pct": 230.84
+      "last_price": 114.05,
+      "change_pct": 13.13,
+      "volume": 23855254,
+      "turnover_cr": 272.28,
+      "vol_change_1wk_pct": 195.52,
+      "vol_change_2wk_pct": 204.14
     },
     {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Limited",
-      "last_price": 459.7,
-      "change_pct": 9.31,
-      "volume": 27947598,
-      "turnover_cr": 1291.99,
-      "vol_change_1wk_pct": 143.42,
-      "vol_change_2wk_pct": 134.73
+      "last_price": 466.3,
+      "change_pct": 10.88,
+      "volume": 30987016,
+      "turnover_cr": 1433.55,
+      "vol_change_1wk_pct": 159.02,
+      "vol_change_2wk_pct": 149.38
+    },
+    {
+      "symbol": "SBIETFPB",
+      "name": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank",
+      "last_price": 278.66,
+      "change_pct": -0.19,
+      "volume": 1540989,
+      "turnover_cr": 43.32,
+      "vol_change_1wk_pct": 155.77,
+      "vol_change_2wk_pct": 230.9
+    },
+    {
+      "symbol": "TEXINFRA",
+      "name": "Texmaco Infrastructure & Holdings Limited",
+      "last_price": 123.32,
+      "change_pct": 7.22,
+      "volume": 15602759,
+      "turnover_cr": 34.22,
+      "vol_change_1wk_pct": 106.85,
+      "vol_change_2wk_pct": 55.2
+    },
+    {
+      "symbol": "NPBET",
+      "name": "Tata Nifty Private Bank Exchange Traded Fund",
+      "last_price": 284,
+      "change_pct": -0.09,
+      "volume": 14232,
+      "turnover_cr": 0.4,
+      "vol_change_1wk_pct": 71.76,
+      "vol_change_2wk_pct": 28.1
     },
     {
       "symbol": "ARVSMART",
       "name": "Arvind SmartSpaces Limited",
-      "last_price": 633.2,
-      "change_pct": 7.65,
-      "volume": 6287693,
-      "turnover_cr": 407.7,
-      "vol_change_1wk_pct": 59.66,
-      "vol_change_2wk_pct": 74.44
+      "last_price": 628,
+      "change_pct": 6.77,
+      "volume": 6650986,
+      "turnover_cr": 430.72,
+      "vol_change_1wk_pct": 63.11,
+      "vol_change_2wk_pct": 78.74
     },
     {
       "symbol": "MOOILGAS",
       "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Oil & Gas ETF",
-      "last_price": 11.03,
-      "change_pct": -4.17,
-      "volume": 433874,
-      "turnover_cr": 0.48,
-      "vol_change_1wk_pct": 39.58,
-      "vol_change_2wk_pct": 40.61
-    },
-    {
-      "symbol": "MOLOWVOL",
-      "name": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Low Volatility ETF",
-      "last_price": 35.4,
-      "change_pct": 0.43,
-      "volume": 730200,
-      "turnover_cr": 2.56,
-      "vol_change_1wk_pct": 34.69,
-      "vol_change_2wk_pct": 37.4
+      "last_price": 11.06,
+      "change_pct": -3.91,
+      "volume": 444509,
+      "turnover_cr": 0.49,
+      "vol_change_1wk_pct": 40.55,
+      "vol_change_2wk_pct": 41.61
     },
     {
       "symbol": "BIKAJI",
       "name": "Bikaji Foods International Limited",
-      "last_price": 589.95,
-      "change_pct": 6.56,
-      "volume": 3998708,
-      "turnover_cr": 238.41,
-      "vol_change_1wk_pct": 33.47,
-      "vol_change_2wk_pct": 27.58
+      "last_price": 593,
+      "change_pct": 7.11,
+      "volume": 4379438,
+      "turnover_cr": 260.92,
+      "vol_change_1wk_pct": 36.66,
+      "vol_change_2wk_pct": 30.21
+    },
+    {
+      "symbol": "MOLOWVOL",
+      "name": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Low Volatility ETF",
+      "last_price": 35.47,
+      "change_pct": 0.62,
+      "volume": 736337,
+      "turnover_cr": 2.58,
+      "vol_change_1wk_pct": 34.98,
+      "vol_change_2wk_pct": 37.71
     },
     {
       "symbol": "RADAAN",
       "name": "Radaan Mediaworks India Limited",
-      "last_price": 3.1,
-      "change_pct": 8.01,
-      "volume": 511906,
-      "turnover_cr": 0.16,
-      "vol_change_1wk_pct": 29.63,
-      "vol_change_2wk_pct": 28.25
+      "last_price": 3.11,
+      "change_pct": 8.36,
+      "volume": 566770,
+      "turnover_cr": 0.18,
+      "vol_change_1wk_pct": 32.81,
+      "vol_change_2wk_pct": 31.28
     },
     {
       "symbol": "PREMIERPOL",
       "name": "Premier Polyfilm Limited",
-      "last_price": 96.3,
-      "change_pct": 18.86,
-      "volume": 6229958,
-      "turnover_cr": 58.62,
-      "vol_change_1wk_pct": 29.43,
-      "vol_change_2wk_pct": 30.09
+      "last_price": 97.22,
+      "change_pct": 20,
+      "volume": 6517058,
+      "turnover_cr": 61.39,
+      "vol_change_1wk_pct": 30.79,
+      "vol_change_2wk_pct": 31.48
     },
     {
       "symbol": "MUKANDLTD",
       "name": "Mukand Limited",
-      "last_price": 156.71,
-      "change_pct": 10.82,
-      "volume": 2029322,
-      "turnover_cr": 30.92,
-      "vol_change_1wk_pct": 23.2,
-      "vol_change_2wk_pct": 17.23
+      "last_price": 158,
+      "change_pct": 11.73,
+      "volume": 2525436,
+      "turnover_cr": 38.7,
+      "vol_change_1wk_pct": 28.87,
+      "vol_change_2wk_pct": 21.45
+    },
+    {
+      "symbol": "ANSALBU",
+      "name": "Ansal Buildwell Limited",
+      "last_price": 101.14,
+      "change_pct": 12.23,
+      "volume": 179538,
+      "turnover_cr": 1.85,
+      "vol_change_1wk_pct": 23.08,
+      "vol_change_2wk_pct": 34.9
+    },
+    {
+      "symbol": "WHIRLPOOL",
+      "name": "Whirlpool of India Limited",
+      "last_price": 865.25,
+      "change_pct": 20,
+      "volume": 10753329,
+      "turnover_cr": 879.51,
+      "vol_change_1wk_pct": 22.81,
+      "vol_change_2wk_pct": 28.81
+    },
+    {
+      "symbol": "SOLEX",
+      "name": "Solex Energy Limited",
+      "last_price": 731.1,
+      "change_pct": 7.68,
+      "volume": 1119045,
+      "turnover_cr": 83.27,
+      "vol_change_1wk_pct": 22.52,
+      "vol_change_2wk_pct": 29.39
     },
     {
       "symbol": "FRONTSP",
       "name": "Frontier Springs Limited",
       "last_price": 1394.6,
       "change_pct": 20,
-      "volume": 351101,
-      "turnover_cr": 47.0,
-      "vol_change_1wk_pct": 22.33,
-      "vol_change_2wk_pct": 25.91
-    },
-    {
-      "symbol": "ANSALBU",
-      "name": "Ansal Buildwell Limited",
-      "last_price": 101.47,
-      "change_pct": 12.59,
-      "volume": 165032,
-      "turnover_cr": 1.7,
-      "vol_change_1wk_pct": 21.22,
-      "vol_change_2wk_pct": 32.08
-    },
-    {
-      "symbol": "SOLEX",
-      "name": "Solex Energy Limited",
-      "last_price": 735.3,
-      "change_pct": 8.3,
-      "volume": 1039143,
-      "turnover_cr": 77.41,
-      "vol_change_1wk_pct": 20.91,
-      "vol_change_2wk_pct": 27.29
-    },
-    {
-      "symbol": "NIFTYAXIS",
-      "name": "AXIS MUTUAL FUND - Axis NIFTY 50 ETF",
-      "last_price": 260.14,
-      "change_pct": 0.3,
-      "volume": 219974,
-      "turnover_cr": 5.71,
-      "vol_change_1wk_pct": 18.27,
-      "vol_change_2wk_pct": 1.58
-    },
-    {
-      "symbol": "TEXINFRA",
-      "name": "Texmaco Infrastructure & Holdings Limited",
-      "last_price": 122.88,
-      "change_pct": 6.83,
-      "volume": 2600296,
-      "turnover_cr": 31.86,
-      "vol_change_1wk_pct": 17.81,
-      "vol_change_2wk_pct": 9.2
-    },
-    {
-      "symbol": "MARINE",
-      "name": "Marine Electricals (India) Limited",
-      "last_price": 417.15,
-      "change_pct": 1.39,
-      "volume": 18118952,
-      "turnover_cr": 738.75,
-      "vol_change_1wk_pct": 17.73,
-      "vol_change_2wk_pct": 21.6
+      "volume": 353549,
+      "turnover_cr": 47.34,
+      "vol_change_1wk_pct": 22.49,
+      "vol_change_2wk_pct": 26.09
     },
     {
       "symbol": "KOTHARIPRO",
       "name": "Kothari Products Limited",
-      "last_price": 69.11,
-      "change_pct": 8.54,
-      "volume": 111242,
-      "turnover_cr": 0.8,
-      "vol_change_1wk_pct": 16.67,
-      "vol_change_2wk_pct": 17.79
+      "last_price": 69.55,
+      "change_pct": 9.24,
+      "volume": 132714,
+      "turnover_cr": 0.95,
+      "vol_change_1wk_pct": 19.89,
+      "vol_change_2wk_pct": 21.22
+    },
+    {
+      "symbol": "MARINE",
+      "name": "Marine Electricals (India) Limited",
+      "last_price": 428.5,
+      "change_pct": 4.14,
+      "volume": 19063839,
+      "turnover_cr": 778.8,
+      "vol_change_1wk_pct": 18.65,
+      "vol_change_2wk_pct": 22.73
+    },
+    {
+      "symbol": "SILVER001",
+      "name": "quant Mutual Fund - quant Silver ETF",
+      "last_price": 23.2,
+      "change_pct": -0.6,
+      "volume": 550189,
+      "turnover_cr": 1.28,
+      "vol_change_1wk_pct": 18.64,
+      "vol_change_2wk_pct": 11.33
+    },
+    {
+      "symbol": "NIFTYAXIS",
+      "name": "AXIS MUTUAL FUND - Axis NIFTY 50 ETF",
+      "last_price": 260.5,
+      "change_pct": 0.44,
+      "volume": 221852,
+      "turnover_cr": 5.76,
+      "vol_change_1wk_pct": 18.42,
+      "vol_change_2wk_pct": 1.59
     },
     {
       "symbol": "SCODATUBES",
       "name": "Scoda Tubes Limited",
-      "last_price": 141.13,
-      "change_pct": 9.53,
-      "volume": 2491461,
-      "turnover_cr": 34.86,
-      "vol_change_1wk_pct": 15.27,
-      "vol_change_2wk_pct": 16.65
+      "last_price": 138.5,
+      "change_pct": 7.49,
+      "volume": 2930843,
+      "turnover_cr": 40.92,
+      "vol_change_1wk_pct": 17.96,
+      "vol_change_2wk_pct": 19.59
     },
     {
       "symbol": "ATLASCYCLE",
       "name": "Atlas Cycles (Haryana) Limited",
-      "last_price": 100.4,
-      "change_pct": 7.32,
-      "volume": 216071,
-      "turnover_cr": 2.23,
-      "vol_change_1wk_pct": 13.02,
-      "vol_change_2wk_pct": 1.47
+      "last_price": 99.9,
+      "change_pct": 6.79,
+      "volume": 239595,
+      "turnover_cr": 2.47,
+      "vol_change_1wk_pct": 14.43,
+      "vol_change_2wk_pct": 1.63
     },
     {
-      "symbol": "WHIRLPOOL",
-      "name": "Whirlpool of India Limited",
-      "last_price": 822.65,
-      "change_pct": 14.09,
-      "volume": 5948674,
-      "turnover_cr": 470.52,
-      "vol_change_1wk_pct": 12.62,
-      "vol_change_2wk_pct": 15.94
-    },
-    {
-      "symbol": "AUSTENG",
-      "name": "Austin Engineering Company  Limited",
-      "last_price": 165.53,
-      "change_pct": 1.65,
-      "volume": 217062,
-      "turnover_cr": 3.75,
-      "vol_change_1wk_pct": 11.72,
-      "vol_change_2wk_pct": 15.99
-    },
-    {
-      "symbol": "PARNAXLAB",
-      "name": "Parnax Lab Limited",
-      "last_price": 126.7,
-      "change_pct": -1.95,
-      "volume": 43938,
-      "turnover_cr": 0.55,
-      "vol_change_1wk_pct": 10.25,
-      "vol_change_2wk_pct": 12.49
+      "symbol": "RAYMONDREL",
+      "name": "Raymond Realty Limited",
+      "last_price": 669.25,
+      "change_pct": 13.53,
+      "volume": 12802316,
+      "turnover_cr": 847.54,
+      "vol_change_1wk_pct": 14.18,
+      "vol_change_2wk_pct": 16.2
     }
   ]
 }

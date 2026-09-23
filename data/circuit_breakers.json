@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-23T09:12:28Z",
+    "last_updated": "2026-09-23T14:19:41Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,18 +14,28 @@
         "prev_close": 424,
         "change": 20,
         "change_pct": 76.6,
-        "volume": 45695429,
-        "turnover_cr": 3071.56
+        "volume": 45735525,
+        "turnover_cr": 3074.57
       },
       {
-        "symbol": "FRONTSP",
-        "name": "FRONTSP",
-        "last_price": 1394.6,
-        "prev_close": 1162.2,
+        "symbol": "PREMIERPOL",
+        "name": "PREMIERPOL",
+        "last_price": 97.22,
+        "prev_close": 81.02,
         "change": 20,
         "change_pct": 20,
-        "volume": 351099,
-        "turnover_cr": 47.0
+        "volume": 6517058,
+        "turnover_cr": 61.39
+      },
+      {
+        "symbol": "WHIRLPOOL",
+        "name": "WHIRLPOOL",
+        "last_price": 865.25,
+        "prev_close": 721.05,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 10753329,
+        "turnover_cr": 879.51
       },
       {
         "symbol": "CUBEXTUB",
@@ -34,8 +44,18 @@
         "prev_close": 104.85,
         "change": 20,
         "change_pct": 20,
-        "volume": 1049968,
-        "turnover_cr": 13.14
+        "volume": 1061637,
+        "turnover_cr": 13.29
+      },
+      {
+        "symbol": "FRONTSP",
+        "name": "FRONTSP",
+        "last_price": 1394.6,
+        "prev_close": 1162.2,
+        "change": 20,
+        "change_pct": 20,
+        "volume": 353549,
+        "turnover_cr": 47.34
       },
       {
         "symbol": "EKI",
@@ -44,28 +64,38 @@
         "prev_close": 68.79,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 94957,
-        "turnover_cr": 0.75
+        "volume": 106374,
+        "turnover_cr": 0.85
       },
       {
-        "symbol": "MANUGRAPH",
-        "name": "MANUGRAPH",
-        "last_price": 23.76,
-        "prev_close": 20.22,
-        "change": 17.51,
-        "change_pct": 17.51,
-        "volume": 1644634,
-        "turnover_cr": 3.91
+        "symbol": "PRIORITY",
+        "name": "PRIORITY",
+        "last_price": 266.5,
+        "prev_close": 223.5,
+        "change": 19.24,
+        "change_pct": 19.24,
+        "volume": 1265732,
+        "turnover_cr": 32.09
       },
       {
-        "symbol": "MPIMANIPAL",
-        "name": "MPIMANIPAL",
-        "last_price": 397.5,
-        "prev_close": 338.6,
-        "change": 17.4,
-        "change_pct": 17.4,
-        "volume": 6680210,
-        "turnover_cr": 255.4
+        "symbol": "MANINDS",
+        "name": "MANINDS",
+        "last_price": 1000.3,
+        "prev_close": 849.9,
+        "change": 17.7,
+        "change_pct": 17.7,
+        "volume": 10691371,
+        "turnover_cr": 1018.67
+      },
+      {
+        "symbol": "OPTIEMUS",
+        "name": "OPTIEMUS",
+        "last_price": 830.8,
+        "prev_close": 708.9,
+        "change": 17.2,
+        "change_pct": 17.2,
+        "volume": 10628491,
+        "turnover_cr": 869.93
       },
       {
         "symbol": "HEROMOTORS",
@@ -74,158 +104,118 @@
         "prev_close": 84,
         "change": 20,
         "change_pct": 17.14,
-        "volume": 139599422,
-        "turnover_cr": 1273.84
+        "volume": 139842838,
+        "turnover_cr": 1276.21
       },
       {
-        "symbol": "EKC",
-        "name": "EKC",
-        "last_price": 117.62,
-        "prev_close": 100.81,
-        "change": 16.67,
-        "change_pct": 16.67,
-        "volume": 21336320,
-        "turnover_cr": 243.36
-      },
-      {
-        "symbol": "PREMIERPOL",
-        "name": "PREMIERPOL",
-        "last_price": 94.01,
-        "prev_close": 81.02,
-        "change": 16.03,
-        "change_pct": 16.03,
-        "volume": 6190370,
-        "turnover_cr": 58.25
-      },
-      {
-        "symbol": "PRIORITY",
-        "name": "PRIORITY",
-        "last_price": 256.79,
-        "prev_close": 223.5,
-        "change": 14.89,
-        "change_pct": 14.89,
-        "volume": 762390,
-        "turnover_cr": 18.88
-      },
-      {
-        "symbol": "OPTIEMUS",
-        "name": "OPTIEMUS",
-        "last_price": 813,
-        "prev_close": 708.9,
-        "change": 14.68,
-        "change_pct": 14.68,
-        "volume": 8985980,
-        "turnover_cr": 734.18
+        "symbol": "NAGREEKEXP",
+        "name": "NAGREEKEXP",
+        "last_price": 25,
+        "prev_close": 21.66,
+        "change": 15.42,
+        "change_pct": 15.42,
+        "volume": 97332,
+        "turnover_cr": 0.23
       },
       {
         "symbol": "SUBEXLTD",
         "name": "SUBEXLTD",
-        "last_price": 22.2,
+        "last_price": 22.25,
         "prev_close": 19.37,
-        "change": 14.61,
-        "change_pct": 14.61,
-        "volume": 62838401,
-        "turnover_cr": 136.55
+        "change": 14.87,
+        "change_pct": 14.87,
+        "volume": 70960363,
+        "turnover_cr": 154.48
       },
       {
-        "symbol": "MANINDS",
-        "name": "MANINDS",
-        "last_price": 967.5,
-        "prev_close": 849.9,
-        "change": 13.84,
-        "change_pct": 13.84,
-        "volume": 8626635,
-        "turnover_cr": 815.71
+        "symbol": "MANUGRAPH",
+        "name": "MANUGRAPH",
+        "last_price": 23.2,
+        "prev_close": 20.22,
+        "change": 14.74,
+        "change_pct": 14.74,
+        "volume": 1740711,
+        "turnover_cr": 4.13
       },
       {
-        "symbol": "WHIRLPOOL",
-        "name": "WHIRLPOOL",
-        "last_price": 819.75,
-        "prev_close": 721.05,
-        "change": 13.69,
-        "change_pct": 13.69,
-        "volume": 5628813,
-        "turnover_cr": 444.2
-      },
-      {
-        "symbol": "ANSALBU",
-        "name": "ANSALBU",
-        "last_price": 102.02,
-        "prev_close": 90.12,
-        "change": 13.2,
-        "change_pct": 13.2,
-        "volume": 164351,
-        "turnover_cr": 1.7
+        "symbol": "MITCON",
+        "name": "MITCON",
+        "last_price": 90.99,
+        "prev_close": 80.12,
+        "change": 13.57,
+        "change_pct": 13.57,
+        "volume": 102341,
+        "turnover_cr": 0.84
       },
       {
         "symbol": "RAYMONDREL",
         "name": "RAYMONDREL",
-        "last_price": 663.6,
+        "last_price": 669.25,
         "prev_close": 589.5,
-        "change": 12.57,
-        "change_pct": 12.57,
-        "volume": 9041732,
-        "turnover_cr": 595.23
+        "change": 13.53,
+        "change_pct": 13.53,
+        "volume": 12802316,
+        "turnover_cr": 847.54
       },
       {
-        "symbol": "ADROITINFO",
-        "name": "ADROITINFO",
-        "last_price": 13.7,
-        "prev_close": 12.17,
-        "change": 12.57,
-        "change_pct": 12.57,
-        "volume": 362637,
-        "turnover_cr": 0.49
+        "symbol": "EKC",
+        "name": "EKC",
+        "last_price": 114.05,
+        "prev_close": 100.81,
+        "change": 13.13,
+        "change_pct": 13.13,
+        "volume": 23855254,
+        "turnover_cr": 272.28
       },
       {
         "symbol": "JAYKAY",
         "name": "JAYKAY",
-        "last_price": 213.07,
+        "last_price": 213.3,
         "prev_close": 189.5,
-        "change": 12.44,
-        "change_pct": 12.44,
-        "volume": 8965863,
-        "turnover_cr": 190.3
+        "change": 12.56,
+        "change_pct": 12.56,
+        "volume": 9950063,
+        "turnover_cr": 211.22
       },
       {
-        "symbol": "LOYALTEX",
-        "name": "LOYALTEX",
-        "last_price": 239.94,
-        "prev_close": 214.95,
-        "change": 11.63,
-        "change_pct": 11.63,
-        "volume": 44695,
-        "turnover_cr": 1.1
+        "symbol": "ANSALBU",
+        "name": "ANSALBU",
+        "last_price": 101.14,
+        "prev_close": 90.12,
+        "change": 12.23,
+        "change_pct": 12.23,
+        "volume": 179538,
+        "turnover_cr": 1.85
       },
       {
-        "symbol": "ASHOKAMET",
-        "name": "ASHOKAMET",
-        "last_price": 15.85,
-        "prev_close": 14.3,
-        "change": 10.84,
-        "change_pct": 10.84,
-        "volume": 285222,
-        "turnover_cr": 0.45
+        "symbol": "SWARNSAR",
+        "name": "SWARNSAR",
+        "last_price": 44.5,
+        "prev_close": 39.69,
+        "change": 12.12,
+        "change_pct": 12.12,
+        "volume": 36942,
+        "turnover_cr": 0.15
       },
       {
         "symbol": "MUKANDLTD",
         "name": "MUKANDLTD",
-        "last_price": 156.15,
+        "last_price": 158,
         "prev_close": 141.41,
-        "change": 10.42,
-        "change_pct": 10.42,
-        "volume": 2008017,
-        "turnover_cr": 30.59
+        "change": 11.73,
+        "change_pct": 11.73,
+        "volume": 2525436,
+        "turnover_cr": 38.7
       },
       {
-        "symbol": "UNIDT",
-        "name": "UNIDT",
-        "last_price": 234.06,
-        "prev_close": 212.42,
-        "change": 10.19,
-        "change_pct": 10.19,
-        "volume": 225820,
-        "turnover_cr": 5.44
+        "symbol": "ADROITINFO",
+        "name": "ADROITINFO",
+        "last_price": 13.51,
+        "prev_close": 12.17,
+        "change": 11.01,
+        "change_pct": 11.01,
+        "volume": 428270,
+        "turnover_cr": 0.57
       }
     ],
     "lower_circuit": [
@@ -236,8 +226,8 @@
         "prev_close": 3.63,
         "change": -39.94,
         "change_pct": -39.94,
-        "volume": 475703,
-        "turnover_cr": 0.1
+        "volume": 522570,
+        "turnover_cr": 0.11
       },
       {
         "symbol": "MONQ50",
@@ -246,8 +236,8 @@
         "prev_close": 253.64,
         "change": -20,
         "change_pct": -20,
-        "volume": 2823415,
-        "turnover_cr": 59.41
+        "volume": 2862484,
+        "turnover_cr": 60.21
       }
     ]
   }
