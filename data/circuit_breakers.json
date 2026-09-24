@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-24T09:11:05Z",
+    "last_updated": "2026-09-24T14:15:13Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -14,7 +14,7 @@
         "prev_close": 67.2,
         "change": 20,
         "change_pct": 20,
-        "volume": 88364,
+        "volume": 88367,
         "turnover_cr": 0.68
       },
       {
@@ -24,8 +24,8 @@
         "prev_close": 98.4,
         "change": 20,
         "change_pct": 20,
-        "volume": 147473602,
-        "turnover_cr": 1680.76
+        "volume": 147638382,
+        "turnover_cr": 1682.78
       },
       {
         "symbol": "EKI",
@@ -34,8 +34,28 @@
         "prev_close": 82.54,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 664650,
-        "turnover_cr": 6.41
+        "volume": 665973,
+        "turnover_cr": 6.43
+      },
+      {
+        "symbol": "INDIAGLYCO",
+        "name": "INDIAGLYCO",
+        "last_price": 309.2,
+        "prev_close": 257.7,
+        "change": 19.98,
+        "change_pct": 19.98,
+        "volume": 4841031,
+        "turnover_cr": 144.53
+      },
+      {
+        "symbol": "CRESTO",
+        "name": "CRESTO",
+        "last_price": 24.16,
+        "prev_close": 20.14,
+        "change": 19.96,
+        "change_pct": 19.96,
+        "volume": 495249,
+        "turnover_cr": 1.17
       },
       {
         "symbol": "RKEC",
@@ -44,108 +64,48 @@
         "prev_close": 19.04,
         "change": 19.96,
         "change_pct": 19.96,
-        "volume": 234074,
+        "volume": 234560,
         "turnover_cr": 0.51
-      },
-      {
-        "symbol": "CRESTO",
-        "name": "CRESTO",
-        "last_price": 24,
-        "prev_close": 20.14,
-        "change": 19.17,
-        "change_pct": 19.17,
-        "volume": 416330,
-        "turnover_cr": 0.98
-      },
-      {
-        "symbol": "INDIAGLYCO",
-        "name": "INDIAGLYCO",
-        "last_price": 307.1,
-        "prev_close": 257.7,
-        "change": 19.17,
-        "change_pct": 19.17,
-        "volume": 4452912,
-        "turnover_cr": 132.63
-      },
-      {
-        "symbol": "PRIORITY",
-        "name": "PRIORITY",
-        "last_price": 309.87,
-        "prev_close": 263.35,
-        "change": 17.66,
-        "change_pct": 17.66,
-        "volume": 2103396,
-        "turnover_cr": 62.34
-      },
-      {
-        "symbol": "SSRETAIL",
-        "name": "SSRETAIL",
-        "last_price": 864.2,
-        "prev_close": 748.8,
-        "change": 15.41,
-        "change_pct": 15.41,
-        "volume": 26325257,
-        "turnover_cr": 2226.64
       },
       {
         "symbol": "LAMBODHARA",
         "name": "LAMBODHARA",
-        "last_price": 137.06,
+        "last_price": 141.5,
         "prev_close": 119.93,
-        "change": 14.28,
-        "change_pct": 14.28,
-        "volume": 246079,
-        "turnover_cr": 3.32
+        "change": 17.99,
+        "change_pct": 17.99,
+        "volume": 393605,
+        "turnover_cr": 5.38
+      },
+      {
+        "symbol": "PRIORITY",
+        "name": "PRIORITY",
+        "last_price": 298.6,
+        "prev_close": 263.35,
+        "change": 13.39,
+        "change_pct": 13.39,
+        "volume": 2319891,
+        "turnover_cr": 68.96
       },
       {
         "symbol": "DCI",
         "name": "DCI",
-        "last_price": 302.5,
+        "last_price": 301.2,
         "prev_close": 268.6,
-        "change": 12.62,
-        "change_pct": 12.62,
-        "volume": 1380427,
-        "turnover_cr": 41.97
-      },
-      {
-        "symbol": "KSCL",
-        "name": "KSCL",
-        "last_price": 795.8,
-        "prev_close": 710.7,
-        "change": 11.97,
-        "change_pct": 11.97,
-        "volume": 14783456,
-        "turnover_cr": 1183.42
-      },
-      {
-        "symbol": "UNIDT",
-        "name": "UNIDT",
-        "last_price": 262.68,
-        "prev_close": 235.24,
-        "change": 11.66,
-        "change_pct": 11.66,
-        "volume": 585783,
-        "turnover_cr": 15.08
-      },
-      {
-        "symbol": "GLOTTIS",
-        "name": "GLOTTIS",
-        "last_price": 64.39,
-        "prev_close": 58.1,
-        "change": 10.83,
-        "change_pct": 10.83,
-        "volume": 713772,
-        "turnover_cr": 4.66
+        "change": 12.14,
+        "change_pct": 12.14,
+        "volume": 1477566,
+        "turnover_cr": 44.9
       },
       {
         "symbol": "REMSONSIND",
         "name": "REMSONSIND",
-        "last_price": 109.93,
+        "last_price": 111.59,
         "prev_close": 99.87,
-        "change": 10.07,
-        "change_pct": 10.07,
-        "volume": 1340293,
-        "turnover_cr": 14.61
+        "change": 11.74,
+        "change_pct": 11.74,
+        "volume": 1520482,
+        "turnover_cr": 16.61
       },
       {
         "symbol": "CUBEXTUB",
@@ -154,18 +114,8 @@
         "prev_close": 125.82,
         "change": 10,
         "change_pct": 10,
-        "volume": 783777,
-        "turnover_cr": 10.79
-      },
-      {
-        "symbol": "DANGEE",
-        "name": "DANGEE",
-        "last_price": 2.97,
-        "prev_close": 2.7,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 7558718,
-        "turnover_cr": 2.13
+        "volume": 807577,
+        "turnover_cr": 11.12
       },
       {
         "symbol": "KABRAEXTRU",
@@ -174,20 +124,30 @@
         "prev_close": 732.85,
         "change": 10,
         "change_pct": 10,
-        "volume": 514839,
-        "turnover_cr": 40.97
+        "volume": 520858,
+        "turnover_cr": 41.45
+      },
+      {
+        "symbol": "DANGEE",
+        "name": "DANGEE",
+        "last_price": 2.97,
+        "prev_close": 2.7,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 7561092,
+        "turnover_cr": 2.13
       }
     ],
     "lower_circuit": [
       {
         "symbol": "POLICYBZR",
         "name": "POLICYBZR",
-        "last_price": 1282.3,
+        "last_price": 1207.2,
         "prev_close": 1886.3,
-        "change": -32.02,
-        "change_pct": -32.02,
-        "volume": 16897478,
-        "turnover_cr": 2205.9
+        "change": -36,
+        "change_pct": -36,
+        "volume": 27348784,
+        "turnover_cr": 3509.72
       },
       {
         "symbol": "TURTLEMINT",
@@ -196,28 +156,8 @@
         "prev_close": 136.3,
         "change": -20,
         "change_pct": -20,
-        "volume": 967629,
-        "turnover_cr": 10.55
-      },
-      {
-        "symbol": "MFSL",
-        "name": "MFSL",
-        "last_price": 1384.9,
-        "prev_close": 1562.9,
-        "change": -11.39,
-        "change_pct": -11.39,
-        "volume": 9419012,
-        "turnover_cr": 1311.8
-      },
-      {
-        "symbol": "CENTEXT-RE",
-        "name": "CENTEXT-RE",
-        "last_price": 1.96,
-        "prev_close": 2.19,
-        "change": -10.5,
-        "change_pct": -10.5,
-        "volume": 253041,
-        "turnover_cr": 0.05
+        "volume": 1011837,
+        "turnover_cr": 11.03
       }
     ]
   }
