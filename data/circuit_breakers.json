@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-25T09:30:15Z",
+    "last_updated": "2026-09-25T14:44:53Z",
     "status": "healthy",
     "record_count": 2
   },
   "data": {
     "upper_circuit": [
       {
-        "symbol": "BPLPHARMA",
-        "name": "BPLPHARMA",
-        "last_price": 1898,
-        "prev_close": 1581.7,
+        "symbol": "ADSL",
+        "name": "ADSL",
+        "last_price": 115.52,
+        "prev_close": 96.27,
         "change": 20,
         "change_pct": 20,
-        "volume": 34884,
-        "turnover_cr": 6.35
+        "volume": 2244060,
+        "turnover_cr": 24.66
       },
       {
         "symbol": "RTSPOWR",
@@ -24,18 +24,18 @@
         "prev_close": 87.16,
         "change": 20,
         "change_pct": 20,
-        "volume": 14009,
+        "volume": 14220,
         "turnover_cr": 0.15
       },
       {
-        "symbol": "ADSL",
-        "name": "ADSL",
-        "last_price": 115.52,
-        "prev_close": 96.27,
+        "symbol": "BPLPHARMA",
+        "name": "BPLPHARMA",
+        "last_price": 1898,
+        "prev_close": 1581.7,
         "change": 20,
         "change_pct": 20,
-        "volume": 2223017,
-        "turnover_cr": 24.41
+        "volume": 35202,
+        "turnover_cr": 6.41
       },
       {
         "symbol": "HEROMOTORS",
@@ -44,8 +44,8 @@
         "prev_close": 118.08,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 102445052,
-        "turnover_cr": 1415.79
+        "volume": 102618013,
+        "turnover_cr": 1418.18
       },
       {
         "symbol": "XELPMOC",
@@ -54,7 +54,7 @@
         "prev_close": 74.59,
         "change": 19.99,
         "change_pct": 19.99,
-        "volume": 129329,
+        "volume": 129401,
         "turnover_cr": 1.1
       },
       {
@@ -64,8 +64,18 @@
         "prev_close": 16.72,
         "change": 19.98,
         "change_pct": 19.98,
-        "volume": 109442,
+        "volume": 111518,
         "turnover_cr": 0.21
+      },
+      {
+        "symbol": "CENTEXT-RE",
+        "name": "CENTEXT-RE",
+        "last_price": 2.29,
+        "prev_close": 1.92,
+        "change": 19.27,
+        "change_pct": 19.27,
+        "volume": 215876,
+        "turnover_cr": 0.05
       },
       {
         "symbol": "LANDSMILL",
@@ -74,158 +84,158 @@
         "prev_close": 0.52,
         "change": 19.23,
         "change_pct": 19.23,
-        "volume": 6932150,
+        "volume": 6935351,
         "turnover_cr": 0.39
-      },
-      {
-        "symbol": "TGVSL",
-        "name": "TGVSL",
-        "last_price": 125.87,
-        "prev_close": 109.31,
-        "change": 15.15,
-        "change_pct": 15.15,
-        "volume": 9517106,
-        "turnover_cr": 116.97
-      },
-      {
-        "symbol": "UGARSUGAR",
-        "name": "UGARSUGAR",
-        "last_price": 64.13,
-        "prev_close": 55.77,
-        "change": 14.99,
-        "change_pct": 14.99,
-        "volume": 12906579,
-        "turnover_cr": 80.89
       },
       {
         "symbol": "COMFINTE",
         "name": "COMFINTE",
-        "last_price": 6.51,
+        "last_price": 6.59,
         "prev_close": 5.69,
-        "change": 14.41,
-        "change_pct": 14.41,
-        "volume": 782336,
-        "turnover_cr": 0.49
+        "change": 15.82,
+        "change_pct": 15.82,
+        "volume": 1363067,
+        "turnover_cr": 0.87
       },
       {
-        "symbol": "SHANTIGOLD",
-        "name": "SHANTIGOLD",
-        "last_price": 322.8,
-        "prev_close": 283.62,
-        "change": 13.81,
-        "change_pct": 13.81,
-        "volume": 28940243,
-        "turnover_cr": 905.37
-      },
-      {
-        "symbol": "AAATECH",
-        "name": "AAATECH",
-        "last_price": 104,
-        "prev_close": 91.84,
-        "change": 13.24,
-        "change_pct": 13.24,
-        "volume": 703875,
-        "turnover_cr": 6.61
-      },
-      {
-        "symbol": "UTTAMSUGAR",
-        "name": "UTTAMSUGAR",
-        "last_price": 293.3,
-        "prev_close": 260,
-        "change": 12.81,
-        "change_pct": 12.81,
-        "volume": 2465524,
-        "turnover_cr": 71.4
-      },
-      {
-        "symbol": "KMSUGAR",
-        "name": "KMSUGAR",
-        "last_price": 32.6,
-        "prev_close": 29.06,
-        "change": 12.18,
-        "change_pct": 12.18,
-        "volume": 1085416,
-        "turnover_cr": 3.47
+        "symbol": "UGARSUGAR",
+        "name": "UGARSUGAR",
+        "last_price": 64.3,
+        "prev_close": 55.77,
+        "change": 15.29,
+        "change_pct": 15.29,
+        "volume": 13699429,
+        "turnover_cr": 85.96
       },
       {
         "symbol": "MAWANASUG",
         "name": "MAWANASUG",
-        "last_price": 146.42,
+        "last_price": 150.5,
         "prev_close": 130.7,
-        "change": 12.03,
-        "change_pct": 12.03,
-        "volume": 2029648,
-        "turnover_cr": 29.19
+        "change": 15.15,
+        "change_pct": 15.15,
+        "volume": 2561542,
+        "turnover_cr": 37.15
       },
       {
-        "symbol": "QUADFUTURE",
-        "name": "QUADFUTURE",
-        "last_price": 557.85,
-        "prev_close": 500.4,
-        "change": 11.48,
-        "change_pct": 11.48,
-        "volume": 1424770,
-        "turnover_cr": 75.84
-      },
-      {
-        "symbol": "SDBL",
-        "name": "SDBL",
-        "last_price": 74.72,
-        "prev_close": 67.24,
-        "change": 11.12,
-        "change_pct": 11.12,
-        "volume": 21004448,
-        "turnover_cr": 156.99
-      },
-      {
-        "symbol": "ANTELOPUS",
-        "name": "ANTELOPUS",
-        "last_price": 1252.25,
-        "prev_close": 1130.95,
-        "change": 10.73,
-        "change_pct": 10.73,
-        "volume": 7004561,
-        "turnover_cr": 864.23
-      },
-      {
-        "symbol": "MAGADSUGAR",
-        "name": "MAGADSUGAR",
-        "last_price": 556.9,
-        "prev_close": 503,
-        "change": 10.72,
-        "change_pct": 10.72,
-        "volume": 250710,
-        "turnover_cr": 13.81
+        "symbol": "TGVSL",
+        "name": "TGVSL",
+        "last_price": 125,
+        "prev_close": 109.31,
+        "change": 14.35,
+        "change_pct": 14.35,
+        "volume": 10384184,
+        "turnover_cr": 127.79
       },
       {
         "symbol": "PRIMO",
         "name": "PRIMO",
-        "last_price": 24.66,
+        "last_price": 25.27,
         "prev_close": 22.29,
-        "change": 10.63,
-        "change_pct": 10.63,
-        "volume": 979447,
-        "turnover_cr": 2.41
+        "change": 13.37,
+        "change_pct": 13.37,
+        "volume": 1374230,
+        "turnover_cr": 3.41
       },
       {
-        "symbol": "LORDSCHLO",
-        "name": "LORDSCHLO",
-        "last_price": 148.75,
-        "prev_close": 134.5,
-        "change": 10.59,
-        "change_pct": 10.59,
-        "volume": 286756,
-        "turnover_cr": 4.09
+        "symbol": "UTTAMSUGAR",
+        "name": "UTTAMSUGAR",
+        "last_price": 292.8,
+        "prev_close": 260,
+        "change": 12.62,
+        "change_pct": 12.62,
+        "volume": 2805051,
+        "turnover_cr": 81.35
       },
       {
-        "symbol": "VEDAVAAG",
-        "name": "VEDAVAAG",
-        "last_price": 23.48,
-        "prev_close": 21.31,
-        "change": 10.18,
-        "change_pct": 10.18,
-        "volume": 224369,
-        "turnover_cr": 0.53
+        "symbol": "KMSUGAR",
+        "name": "KMSUGAR",
+        "last_price": 32.55,
+        "prev_close": 29.06,
+        "change": 12.01,
+        "change_pct": 12.01,
+        "volume": 1179803,
+        "turnover_cr": 3.77
+      },
+      {
+        "symbol": "BLUECLOUDS",
+        "name": "BLUECLOUDS",
+        "last_price": 22.39,
+        "prev_close": 20.06,
+        "change": 11.62,
+        "change_pct": 11.62,
+        "volume": 69599422,
+        "turnover_cr": 157.29
+      },
+      {
+        "symbol": "SSDL",
+        "name": "SSDL",
+        "last_price": 73.94,
+        "prev_close": 66.3,
+        "change": 11.52,
+        "change_pct": 11.52,
+        "volume": 427404,
+        "turnover_cr": 3.06
+      },
+      {
+        "symbol": "SHANTIGOLD",
+        "name": "SHANTIGOLD",
+        "last_price": 316.3,
+        "prev_close": 283.62,
+        "change": 11.52,
+        "change_pct": 11.52,
+        "volume": 36407266,
+        "turnover_cr": 1148.54
+      },
+      {
+        "symbol": "ANTELOPUS",
+        "name": "ANTELOPUS",
+        "last_price": 1260,
+        "prev_close": 1130.95,
+        "change": 11.41,
+        "change_pct": 11.41,
+        "volume": 7877531,
+        "turnover_cr": 974.38
+      },
+      {
+        "symbol": "DWARKESH",
+        "name": "DWARKESH",
+        "last_price": 45.16,
+        "prev_close": 40.74,
+        "change": 10.85,
+        "change_pct": 10.85,
+        "volume": 9515248,
+        "turnover_cr": 41.72
+      },
+      {
+        "symbol": "AAATECH",
+        "name": "AAATECH",
+        "last_price": 101.75,
+        "prev_close": 91.84,
+        "change": 10.79,
+        "change_pct": 10.79,
+        "volume": 735186,
+        "turnover_cr": 6.93
+      },
+      {
+        "symbol": "SBC",
+        "name": "SBC",
+        "last_price": 53,
+        "prev_close": 48.01,
+        "change": 10.39,
+        "change_pct": 10.39,
+        "volume": 23868200,
+        "turnover_cr": 121.51
+      },
+      {
+        "symbol": "TIPSFILMS",
+        "name": "TIPSFILMS",
+        "last_price": 343.5,
+        "prev_close": 311.5,
+        "change": 10.27,
+        "change_pct": 10.27,
+        "volume": 24778,
+        "turnover_cr": 0.83
       }
     ],
     "lower_circuit": [
@@ -236,8 +246,8 @@
         "prev_close": 32.5,
         "change": -20,
         "change_pct": -20,
-        "volume": 3357733,
-        "turnover_cr": 9.16
+        "volume": 3539670,
+        "turnover_cr": 9.63
       },
       {
         "symbol": "TURTLEMINT",
@@ -246,18 +256,18 @@
         "prev_close": 109.04,
         "change": -19.99,
         "change_pct": -19.99,
-        "volume": 17820934,
-        "turnover_cr": 162.85
+        "volume": 17986707,
+        "turnover_cr": 164.31
       },
       {
         "symbol": "SSRETAIL",
         "name": "SSRETAIL",
-        "last_price": 710.85,
+        "last_price": 725,
         "prev_close": 811.8,
-        "change": -12.44,
-        "change_pct": -12.44,
-        "volume": 28150471,
-        "turnover_cr": 2291.31
+        "change": -10.69,
+        "change_pct": -10.69,
+        "volume": 34422519,
+        "turnover_cr": 2747.81
       },
       {
         "symbol": "AASTHA",
@@ -266,8 +276,18 @@
         "prev_close": 80.8,
         "change": -10,
         "change_pct": -10,
-        "volume": 4533900,
-        "turnover_cr": 33.42
+        "volume": 4769681,
+        "turnover_cr": 35.14
+      },
+      {
+        "symbol": "ATALREAL",
+        "name": "ATALREAL",
+        "last_price": 13.14,
+        "prev_close": 14.6,
+        "change": -10,
+        "change_pct": -10,
+        "volume": 7859696,
+        "turnover_cr": 10.63
       }
     ]
   }
