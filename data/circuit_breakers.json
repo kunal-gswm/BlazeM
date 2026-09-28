@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-28T10:44:28Z",
+    "last_updated": "2026-09-28T18:17:29Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -168,6 +168,16 @@
         "turnover_cr": 2.78
       },
       {
+        "symbol": "CUBEXTUB",
+        "name": "CUBEXTUB",
+        "last_price": 167.46,
+        "prev_close": 152.24,
+        "change": 10,
+        "change_pct": 10,
+        "volume": 1078676,
+        "turnover_cr": 17.69
+      },
+      {
         "symbol": "SUNFLAG",
         "name": "SUNFLAG",
         "last_price": 451.7,
@@ -198,16 +208,6 @@
         "turnover_cr": 0.75
       },
       {
-        "symbol": "AHCL",
-        "name": "AHCL",
-        "last_price": 34.66,
-        "prev_close": 31.51,
-        "change": 10,
-        "change_pct": 10,
-        "volume": 23572265,
-        "turnover_cr": 79.93
-      },
-      {
         "symbol": "AUGMONT",
         "name": "AUGMONT",
         "last_price": 965.65,
@@ -218,14 +218,14 @@
         "turnover_cr": 93.66
       },
       {
-        "symbol": "CUBEXTUB",
-        "name": "CUBEXTUB",
-        "last_price": 167.46,
-        "prev_close": 152.24,
+        "symbol": "AHCL",
+        "name": "AHCL",
+        "last_price": 34.66,
+        "prev_close": 31.51,
         "change": 10,
         "change_pct": 10,
-        "volume": 1078676,
-        "turnover_cr": 17.69
+        "volume": 23572265,
+        "turnover_cr": 79.93
       }
     ],
     "lower_circuit": [

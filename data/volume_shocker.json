@@ -1,11 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-28T10:44:27Z",
+    "last_updated": "2026-09-28T18:17:28Z",
     "status": "healthy",
-    "record_count": 22
+    "record_count": 24
   },
   "data": [
+    {
+      "symbol": "ELECTCAST",
+      "name": "Electrosteel Castings Limited",
+      "last_price": 72.4,
+      "change_pct": 0.08,
+      "volume": 38417083,
+      "turnover_cr": 142.07,
+      "vol_change_1wk_pct": 9.05,
+      "vol_change_2wk_pct": 12.31
+    },
     {
       "symbol": "BANK10BETF",
       "name": "BAJAJ FINSERV MUTUAL FUND - Bajaj Finserv BSE Top 10 Banks ETF",
@@ -13,8 +23,8 @@
       "change_pct": -1.48,
       "volume": 2486757,
       "turnover_cr": 4.95,
-      "vol_change_1wk_pct": 496.78,
-      "vol_change_2wk_pct": 424.64
+      "vol_change_1wk_pct": 5.94,
+      "vol_change_2wk_pct": 9.79
     },
     {
       "symbol": "RSYSTEMS",
@@ -23,8 +33,8 @@
       "change_pct": 20,
       "volume": 61311130,
       "turnover_cr": 1633.94,
-      "vol_change_1wk_pct": 391.62,
-      "vol_change_2wk_pct": 400.18
+      "vol_change_1wk_pct": 5.92,
+      "vol_change_2wk_pct": 9.78
     },
     {
       "symbol": "IWP",
@@ -33,8 +43,8 @@
       "change_pct": 17.39,
       "volume": 893596,
       "turnover_cr": 3.58,
-      "vol_change_1wk_pct": 208.43,
-      "vol_change_2wk_pct": 157.52
+      "vol_change_1wk_pct": 5.86,
+      "vol_change_2wk_pct": 9.46
     },
     {
       "symbol": "INDOBORAX",
@@ -43,8 +53,8 @@
       "change_pct": 7.12,
       "volume": 8225875,
       "turnover_cr": 401.84,
-      "vol_change_1wk_pct": 200.44,
-      "vol_change_2wk_pct": 145.1
+      "vol_change_1wk_pct": 5.85,
+      "vol_change_2wk_pct": 9.42
     },
     {
       "symbol": "ARYAMAN",
@@ -53,8 +63,8 @@
       "change_pct": 2.46,
       "volume": 30485,
       "turnover_cr": 1.92,
-      "vol_change_1wk_pct": 124.43,
-      "vol_change_2wk_pct": 174.09
+      "vol_change_1wk_pct": 5.77,
+      "vol_change_2wk_pct": 9.51
     },
     {
       "symbol": "DAMCAPITAL",
@@ -63,8 +73,8 @@
       "change_pct": 15.43,
       "volume": 18844708,
       "turnover_cr": 290.25,
-      "vol_change_1wk_pct": 118.94,
-      "vol_change_2wk_pct": 105.74
+      "vol_change_1wk_pct": 5.76,
+      "vol_change_2wk_pct": 9.22
     },
     {
       "symbol": "PFS",
@@ -73,8 +83,8 @@
       "change_pct": 2.35,
       "volume": 39757233,
       "turnover_cr": 112.04,
-      "vol_change_1wk_pct": 78.16,
-      "vol_change_2wk_pct": 87.66
+      "vol_change_1wk_pct": 5.64,
+      "vol_change_2wk_pct": 9.07
     },
     {
       "symbol": "SECLEDBETA",
@@ -83,8 +93,8 @@
       "change_pct": -6.17,
       "volume": 3665193,
       "turnover_cr": 5.13,
-      "vol_change_1wk_pct": 68.06,
-      "vol_change_2wk_pct": 75.85
+      "vol_change_1wk_pct": 5.59,
+      "vol_change_2wk_pct": 6.49
     },
     {
       "symbol": "TTML",
@@ -93,8 +103,8 @@
       "change_pct": 5.05,
       "volume": 79429217,
       "turnover_cr": 292.54,
-      "vol_change_1wk_pct": 67.21,
-      "vol_change_2wk_pct": 46.6
+      "vol_change_1wk_pct": 5.58,
+      "vol_change_2wk_pct": 8.38
     },
     {
       "symbol": "NIF500BETA",
@@ -103,8 +113,8 @@
       "change_pct": -0.91,
       "volume": 1127471,
       "turnover_cr": 4.04,
-      "vol_change_1wk_pct": 60.33,
-      "vol_change_2wk_pct": 63.94
+      "vol_change_1wk_pct": 5.54,
+      "vol_change_2wk_pct": 8.77
     },
     {
       "symbol": "MOQUALITY",
@@ -113,8 +123,8 @@
       "change_pct": -7.71,
       "volume": 40019,
       "turnover_cr": 0.77,
-      "vol_change_1wk_pct": 59.06,
-      "vol_change_2wk_pct": 39.3
+      "vol_change_1wk_pct": 5.53,
+      "vol_change_2wk_pct": 8.14
     },
     {
       "symbol": "STARTECK",
@@ -123,8 +133,8 @@
       "change_pct": 20,
       "volume": 14621,
       "turnover_cr": 0.44,
-      "vol_change_1wk_pct": 44.71,
-      "vol_change_2wk_pct": 49.03
+      "vol_change_1wk_pct": 5.4,
+      "vol_change_2wk_pct": 8.45
     },
     {
       "symbol": "RHETAN",
@@ -133,8 +143,8 @@
       "change_pct": 4.88,
       "volume": 66655760,
       "turnover_cr": 99.98,
-      "vol_change_1wk_pct": 39.45,
-      "vol_change_2wk_pct": 62.02
+      "vol_change_1wk_pct": 5.33,
+      "vol_change_2wk_pct": 8.73
     },
     {
       "symbol": "JINDRILL",
@@ -143,8 +153,8 @@
       "change_pct": 4.93,
       "volume": 7024748,
       "turnover_cr": 440.75,
-      "vol_change_1wk_pct": 38.08,
-      "vol_change_2wk_pct": 31.97
+      "vol_change_1wk_pct": 5.3,
+      "vol_change_2wk_pct": 7.8
     },
     {
       "symbol": "BBETF0432",
@@ -153,8 +163,8 @@
       "change_pct": -0.26,
       "volume": 24975,
       "turnover_cr": 3.33,
-      "vol_change_1wk_pct": 35.0,
-      "vol_change_2wk_pct": 37.11
+      "vol_change_1wk_pct": 5.25,
+      "vol_change_2wk_pct": 8.05
     },
     {
       "symbol": "KRISHIVAL",
@@ -163,8 +173,8 @@
       "change_pct": 0.15,
       "volume": 211393,
       "turnover_cr": 8.74,
-      "vol_change_1wk_pct": 28.51,
-      "vol_change_2wk_pct": 20.85
+      "vol_change_1wk_pct": 5.1,
+      "vol_change_2wk_pct": 6.98
     },
     {
       "symbol": "IVZBANKNF",
@@ -173,8 +183,8 @@
       "change_pct": -2.04,
       "volume": 32366,
       "turnover_cr": 0.18,
-      "vol_change_1wk_pct": 27.62,
-      "vol_change_2wk_pct": 7.12
+      "vol_change_1wk_pct": 5.08,
+      "vol_change_2wk_pct": 4.42
     },
     {
       "symbol": "SMCGLOBAL",
@@ -183,8 +193,8 @@
       "change_pct": 12.97,
       "volume": 26689199,
       "turnover_cr": 259.05,
-      "vol_change_1wk_pct": 26.48,
-      "vol_change_2wk_pct": 26.81
+      "vol_change_1wk_pct": 5.05,
+      "vol_change_2wk_pct": 7.49
     },
     {
       "symbol": "CLEANMAX",
@@ -193,8 +203,18 @@
       "change_pct": -2.04,
       "volume": 15272105,
       "turnover_cr": 2047.96,
-      "vol_change_1wk_pct": 24.1,
-      "vol_change_2wk_pct": 34.24
+      "vol_change_1wk_pct": 4.97,
+      "vol_change_2wk_pct": 7.92
+    },
+    {
+      "symbol": "KOTYARK",
+      "name": "Kotyark Industries Limited",
+      "last_price": 26.5,
+      "change_pct": -15.06,
+      "volume": 1861015,
+      "turnover_cr": 4.89,
+      "vol_change_1wk_pct": 4.79,
+      "vol_change_2wk_pct": 6.48
     },
     {
       "symbol": "RHL",
@@ -203,8 +223,8 @@
       "change_pct": -4.32,
       "volume": 29821,
       "turnover_cr": 0.49,
-      "vol_change_1wk_pct": 19.71,
-      "vol_change_2wk_pct": 7.42
+      "vol_change_1wk_pct": 4.79,
+      "vol_change_2wk_pct": 4.52
     },
     {
       "symbol": "BPLPHARMA",
@@ -213,8 +233,8 @@
       "change_pct": 13.28,
       "volume": 155526,
       "turnover_cr": 33.67,
-      "vol_change_1wk_pct": 18.15,
-      "vol_change_2wk_pct": 30.14
+      "vol_change_1wk_pct": 4.7,
+      "vol_change_2wk_pct": 7.7
     },
     {
       "symbol": "RTSPOWR",
@@ -223,8 +243,8 @@
       "change_pct": 19.99,
       "volume": 114320,
       "turnover_cr": 1.42,
-      "vol_change_1wk_pct": 17.56,
-      "vol_change_2wk_pct": 27.27
+      "vol_change_1wk_pct": 4.67,
+      "vol_change_2wk_pct": 7.52
     }
   ]
 }
