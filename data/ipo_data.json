@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-09-28T18:17:20Z",
+    "last_updated": "2026-09-29T10:31:48Z",
     "status": "healthy",
     "record_count": 33
   },
@@ -25,7 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/tna-solutions-ipo/2370/",
-      "scraped_at": "2026-09-28T18:17:01.733650+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384023+00:00Z"
     },
     {
       "issue_name": "Paramount Syntex BSE SME",
@@ -46,7 +46,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/paramount-syntex-ipo/2001/",
-      "scraped_at": "2026-09-28T18:17:01.733767+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384105+00:00Z"
     },
     {
       "issue_name": "Acme India Industries BSE SME",
@@ -67,7 +67,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/acme-india-industries-ipo/2006/",
-      "scraped_at": "2026-09-28T18:17:01.733850+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384161+00:00Z"
     },
     {
       "issue_name": "Nityas Gems & Jewellery",
@@ -88,7 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/nityas-gems-jewellery-ipo/2235/",
-      "scraped_at": "2026-09-28T18:17:01.733929+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384213+00:00Z"
     },
     {
       "issue_name": "Eventions NSE SME",
@@ -109,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/eventions-ipo/2267/",
-      "scraped_at": "2026-09-28T18:17:01.734004+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384265+00:00Z"
     },
     {
       "issue_name": "Sollfege Smart Electronics BSE SME",
@@ -130,7 +130,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sollfege-smart-electronics-ipo/2274/",
-      "scraped_at": "2026-09-28T18:17:01.734114+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384312+00:00Z"
     },
     {
       "issue_name": "SJP Ultrasonic BSE SME",
@@ -151,7 +151,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sjp-ultrasonic-ipo/1964/",
-      "scraped_at": "2026-09-28T18:17:01.734187+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384358+00:00Z"
     },
     {
       "issue_name": "Vishal Nirmiti",
@@ -172,7 +172,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/vishal-nirmiti-ipo/1602/",
-      "scraped_at": "2026-09-28T18:17:01.734265+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384433+00:00Z"
     },
     {
       "issue_name": "Dove Soft BSE SME",
@@ -193,28 +193,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/dove-soft-ipo/1781/",
-      "scraped_at": "2026-09-28T18:17:01.734335+00:00Z"
-    },
-    {
-      "issue_name": "EverestIMS Technologies BSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "85",
-      "lot_size": "1,600",
-      "issue_size": "₹48.46 Cr",
-      "issue_open": "2026-09-29",
-      "issue_close": "2026-10-05",
-      "allotment_date": "2026-10-06",
-      "listing_date": "2026-10-08",
-      "gmp": 17.0,
-      "gmp_percent": "20.00%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/everestims-technologies-ipo/1637/",
-      "scraped_at": "2026-09-28T18:17:01.734405+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384484+00:00Z"
     },
     {
       "issue_name": "Omara Ventures India BSE SME",
@@ -235,70 +214,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/omara-ventures-india-ipo/2347/",
-      "scraped_at": "2026-09-28T18:17:01.734470+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384533+00:00Z"
     },
     {
-      "issue_name": "Papadmalji Agro Foods NSE SME",
+      "issue_name": "EverestIMS Technologies BSE SME",
       "ipo_type": "Mainboard",
       "source": "investorgain",
-      "price_band": "72",
+      "price_band": "85",
       "lot_size": "1,600",
-      "issue_size": "₹20.18 Cr",
+      "issue_size": "₹48.46 Cr",
       "issue_open": "2026-09-29",
-      "issue_close": "2026-10-01",
-      "allotment_date": "2026-10-05",
-      "listing_date": "2026-10-07",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "issue_close": "2026-10-05",
+      "allotment_date": "2026-10-06",
+      "listing_date": "2026-10-08",
+      "gmp": 17.0,
+      "gmp_percent": "20.00%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/papadmalji-agro-foods-ipo/2077/",
-      "scraped_at": "2026-09-28T18:17:01.734537+00:00Z"
-    },
-    {
-      "issue_name": "Black Opal Consultants BSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "197",
-      "lot_size": "600",
-      "issue_size": "₹55.08 Cr",
-      "issue_open": "2026-09-29",
-      "issue_close": "2026-10-01",
-      "allotment_date": "2026-10-05",
-      "listing_date": "2026-10-07",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/black-opal-consultants-ipo/2052/",
-      "scraped_at": "2026-09-28T18:17:01.734607+00:00Z"
-    },
-    {
-      "issue_name": "Vans Electroengineerings BSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "118",
-      "lot_size": "1,200",
-      "issue_size": "₹33.98 Cr",
-      "issue_open": "2026-09-29",
-      "issue_close": "2026-10-01",
-      "allotment_date": "2026-10-05",
-      "listing_date": "2026-10-07",
-      "gmp": 45.0,
-      "gmp_percent": "38.14%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/vans-electroengineerings-ipo/2351/",
-      "scraped_at": "2026-09-28T18:17:01.734674+00:00Z"
+      "detail_url": "https://www.investorgain.com/gmp/everestims-technologies-ipo/1637/",
+      "scraped_at": "2026-09-29T10:31:25.384581+00:00Z"
     },
     {
       "issue_name": "Shree TNB Polymers BSE SME",
@@ -319,7 +256,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shree-tnb-polymers-ipo/2282/",
-      "scraped_at": "2026-09-28T18:17:01.734742+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384625+00:00Z"
     },
     {
       "issue_name": "Green Asia Impex NSE SME",
@@ -340,7 +277,70 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/green-asia-impex-ipo/2224/",
-      "scraped_at": "2026-09-28T18:17:01.734826+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384670+00:00Z"
+    },
+    {
+      "issue_name": "Black Opal Consultants BSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "197",
+      "lot_size": "600",
+      "issue_size": "₹55.08 Cr",
+      "issue_open": "2026-09-29",
+      "issue_close": "2026-10-01",
+      "allotment_date": "2026-10-05",
+      "listing_date": "2026-10-07",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/black-opal-consultants-ipo/2052/",
+      "scraped_at": "2026-09-29T10:31:25.384717+00:00Z"
+    },
+    {
+      "issue_name": "Vans Electroengineerings BSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "118",
+      "lot_size": "1,200",
+      "issue_size": "₹33.98 Cr",
+      "issue_open": "2026-09-29",
+      "issue_close": "2026-10-01",
+      "allotment_date": "2026-10-05",
+      "listing_date": "2026-10-07",
+      "gmp": 45.0,
+      "gmp_percent": "38.14%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/vans-electroengineerings-ipo/2351/",
+      "scraped_at": "2026-09-29T10:31:25.384764+00:00Z"
+    },
+    {
+      "issue_name": "Papadmalji Agro Foods NSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "72",
+      "lot_size": "1,600",
+      "issue_size": "₹20.18 Cr",
+      "issue_open": "2026-09-29",
+      "issue_close": "2026-10-01",
+      "allotment_date": "2026-10-05",
+      "listing_date": "2026-10-07",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/papadmalji-agro-foods-ipo/2077/",
+      "scraped_at": "2026-09-29T10:31:25.384822+00:00Z"
     },
     {
       "issue_name": "Pind Hospitality BSE SME",
@@ -361,7 +361,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/pind-hospitality-ipo/1683/",
-      "scraped_at": "2026-09-28T18:17:01.734895+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384868+00:00Z"
     },
     {
       "issue_name": "SRIT India",
@@ -374,15 +374,15 @@
       "issue_close": "2026-09-30",
       "allotment_date": "2026-10-01",
       "listing_date": "2026-10-06",
-      "gmp": 33.0,
-      "gmp_percent": "25.38%",
-      "subscription_qib": "0.00x",
-      "subscription_nii": "0.90x",
-      "subscription_retail": "1.61x",
-      "subscription_total": "1.00x",
-      "subscription_applications": "74,196",
+      "gmp": 23.0,
+      "gmp_percent": "17.69%",
+      "subscription_qib": "0.02x",
+      "subscription_nii": "4.11x",
+      "subscription_retail": "5.37x",
+      "subscription_total": "3.57x",
+      "subscription_applications": "2,45,252",
       "detail_url": "https://www.investorgain.com/gmp/srit-india-ipo/2121/",
-      "scraped_at": "2026-09-28T18:17:01.734973+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384917+00:00Z"
     },
     {
       "issue_name": "Acme Universal Safezone 9 BSE SME",
@@ -403,7 +403,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/acme-universal-safezone-9-ipo/2360/",
-      "scraped_at": "2026-09-28T18:17:01.735075+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.384962+00:00Z"
     },
     {
       "issue_name": "Shah Investor's Home",
@@ -416,15 +416,15 @@
       "issue_close": "2026-09-30",
       "allotment_date": "2026-10-01",
       "listing_date": "2026-10-06",
-      "gmp": 14.0,
-      "gmp_percent": "8.38%",
-      "subscription_qib": "0.50x",
-      "subscription_nii": "0.25x",
-      "subscription_retail": "0.24x",
-      "subscription_total": "0.32x",
-      "subscription_applications": "4,568",
+      "gmp": 13.0,
+      "gmp_percent": "7.78%",
+      "subscription_qib": "1.08x",
+      "subscription_nii": "1.21x",
+      "subscription_retail": "0.75x",
+      "subscription_total": "0.95x",
+      "subscription_applications": "15,063",
       "detail_url": "https://www.investorgain.com/gmp/shah-investors-home-ipo/1926/",
-      "scraped_at": "2026-09-28T18:17:01.735157+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385005+00:00Z"
     },
     {
       "issue_name": "Shivchem Agro BSE SME",
@@ -437,18 +437,18 @@
       "issue_close": "2026-09-30",
       "allotment_date": "2026-10-01",
       "listing_date": "2026-10-06",
-      "gmp": 6.0,
-      "gmp_percent": "9.68%",
+      "gmp": 13.0,
+      "gmp_percent": "20.97%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shivchem-agro-ipo/1956/",
-      "scraped_at": "2026-09-28T18:17:01.735225+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385046+00:00Z"
     },
     {
-      "issue_name": "Bench Mark Infotech Services NSE SME",
+      "issue_name": "Bench Mark Infotech Services NSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "110",
@@ -458,18 +458,18 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 29.0,
-      "gmp_percent": "26.36%",
+      "gmp": 30.0,
+      "gmp_percent": "27.27%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/bench-mark-infotech-services-ipo/2366/",
-      "scraped_at": "2026-09-28T18:17:01.735292+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385088+00:00Z"
     },
     {
-      "issue_name": "Sai Urja Indo BSE SME",
+      "issue_name": "Sai Urja Indo BSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "113",
@@ -487,7 +487,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sai-urja-indo-ipo/1924/",
-      "scraped_at": "2026-09-28T18:17:01.735357+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385127+00:00Z"
     },
     {
       "issue_name": "Acevector",
@@ -500,15 +500,15 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 2.0,
-      "gmp_percent": "6.25%",
-      "subscription_qib": "1.05x",
-      "subscription_nii": "1.31x",
-      "subscription_retail": "1.43x",
-      "subscription_total": "1.19x",
-      "subscription_applications": "38,344",
+      "gmp": 1.5,
+      "gmp_percent": "4.69%",
+      "subscription_qib": "3.42x",
+      "subscription_nii": "8.39x",
+      "subscription_retail": "4.21x",
+      "subscription_total": "4.92x",
+      "subscription_applications": "1,16,664",
       "detail_url": "https://www.investorgain.com/gmp/snapdeal-ipo/1840/",
-      "scraped_at": "2026-09-28T18:17:01.735420+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385170+00:00Z"
     },
     {
       "issue_name": "Orient Cables",
@@ -521,18 +521,18 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 72.0,
-      "gmp_percent": "26.47%",
+      "gmp": 85.0,
+      "gmp_percent": "31.25%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/orient-cables-ipo/1832/",
-      "scraped_at": "2026-09-28T18:17:01.735485+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385216+00:00Z"
     },
     {
-      "issue_name": "Dudani Retail BSE SME",
+      "issue_name": "Dudani Retail BSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "29",
@@ -542,15 +542,15 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 3.0,
-      "gmp_percent": "10.34%",
+      "gmp": 0.5,
+      "gmp_percent": "1.72%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/dudani-retail-ipo/2259/",
-      "scraped_at": "2026-09-28T18:17:01.735548+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385257+00:00Z"
     },
     {
       "issue_name": "Runwal Enterprises",
@@ -563,15 +563,15 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 14.0,
-      "gmp_percent": "4.59%",
-      "subscription_qib": "1.11x",
-      "subscription_nii": "0.99x",
-      "subscription_retail": "0.45x",
-      "subscription_total": "0.75x",
-      "subscription_applications": "43,744",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": "4.10x",
+      "subscription_nii": "4.10x",
+      "subscription_retail": "1.07x",
+      "subscription_total": "2.57x",
+      "subscription_applications": "1,05,349",
       "detail_url": "https://www.investorgain.com/gmp/runwal-enterprises-ipo/1711/",
-      "scraped_at": "2026-09-28T18:17:01.735616+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385299+00:00Z"
     },
     {
       "issue_name": "German Green Steel",
@@ -584,18 +584,18 @@
       "issue_close": "2026-09-29",
       "allotment_date": "2026-09-30",
       "listing_date": "2026-10-05",
-      "gmp": 24.5,
-      "gmp_percent": "17.63%",
+      "gmp": 11.0,
+      "gmp_percent": "7.91%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/german-green-steel-and-power-ipo/1812/",
-      "scraped_at": "2026-09-28T18:17:01.735683+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385343+00:00Z"
     },
     {
-      "issue_name": "Himalayan Solar NSE SME",
+      "issue_name": "Himalayan Solar NSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "103",
@@ -613,7 +613,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/himalayan-solar-ipo/1975/",
-      "scraped_at": "2026-09-28T18:17:01.735753+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385386+00:00Z"
     },
     {
       "issue_name": "A-One Steels",
@@ -626,15 +626,15 @@
       "issue_close": "2026-09-28",
       "allotment_date": "2026-09-29",
       "listing_date": "2026-10-01",
-      "gmp": 28.0,
-      "gmp_percent": "6.91%",
+      "gmp": 27.0,
+      "gmp_percent": "6.67%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/a-one-steels-ipo/1611/",
-      "scraped_at": "2026-09-28T18:17:01.735822+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385442+00:00Z"
     },
     {
       "issue_name": "Moneyview",
@@ -649,13 +649,13 @@
       "listing_date": "2026-10-01",
       "gmp": 12.75,
       "gmp_percent": "37.50%",
-      "subscription_qib": "230.54x",
-      "subscription_nii": "120.37x",
-      "subscription_retail": "20.41x",
-      "subscription_total": "101.87x",
-      "subscription_applications": "48,55,512",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/moneyview-ipo/2198/",
-      "scraped_at": "2026-09-28T18:17:01.735902+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385491+00:00Z"
     },
     {
       "issue_name": "Peshwa Wheat BSE SME",
@@ -676,7 +676,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/peshwa-wheat-ipo/2063/",
-      "scraped_at": "2026-09-28T18:17:01.735968+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385532+00:00Z"
     },
     {
       "issue_name": "Roopa Screen BSE SME",
@@ -697,7 +697,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/roopa-screen-ipo/1920/",
-      "scraped_at": "2026-09-28T18:17:01.736049+00:00Z"
+      "scraped_at": "2026-09-29T10:31:25.385574+00:00Z"
     }
   ]
 }
