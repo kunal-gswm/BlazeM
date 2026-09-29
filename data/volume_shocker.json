@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-09-29T10:31:55Z",
+    "last_updated": "2026-09-29T16:38:43Z",
     "status": "healthy",
     "record_count": 25
   },
@@ -11,10 +11,10 @@
       "name": "TCI Express Limited",
       "last_price": 529.9,
       "change_pct": 9.03,
-      "volume": 5534726,
+      "volume": 6144726,
       "turnover_cr": 309.23,
-      "vol_change_1wk_pct": 293.48,
-      "vol_change_2wk_pct": 290.29
+      "vol_change_1wk_pct": 325.83,
+      "vol_change_2wk_pct": 322.28
     },
     {
       "symbol": "LANDMARK",
@@ -115,6 +115,16 @@
       "turnover_cr": 6.16,
       "vol_change_1wk_pct": 27.79,
       "vol_change_2wk_pct": 34.19
+    },
+    {
+      "symbol": "AXISCADES",
+      "name": "AXISCADES Technologies Limited",
+      "last_price": 2067.4,
+      "change_pct": 10,
+      "volume": 5342494,
+      "turnover_cr": 162.64,
+      "vol_change_1wk_pct": 27.56,
+      "vol_change_2wk_pct": 23.98
     },
     {
       "symbol": "SHREECEM",
@@ -245,16 +255,6 @@
       "turnover_cr": 351.85,
       "vol_change_1wk_pct": 17.16,
       "vol_change_2wk_pct": 18.91
-    },
-    {
-      "symbol": "ABSL10BANK",
-      "name": "Aditya Birla Sun Life MF - Aditya Birla Sun Life BSE Top 10 Banks ETF",
-      "last_price": 160.56,
-      "change_pct": -0.83,
-      "volume": 25520,
-      "turnover_cr": 0.41,
-      "vol_change_1wk_pct": 16.66,
-      "vol_change_2wk_pct": 15.95
     }
   ]
 }

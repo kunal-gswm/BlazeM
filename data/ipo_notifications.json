@@ -625,35 +625,35 @@
   },
   "orient cables": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "bench mark infotech services nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "german green steel": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "runwal enterprises": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "sai urja indo bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "acevector": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "dudani retail bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "himalayan solar nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "pooja logistics nse smect": {
     "open_notified": true,
@@ -762,5 +762,9 @@
   "himalayan solar nse smect": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "peshwa wheat bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
