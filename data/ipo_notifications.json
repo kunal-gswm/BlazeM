@@ -701,23 +701,23 @@
   },
   "pind hospitality bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "shah investor's home": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "srit india": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "acme universal safezone 9 bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "shivchem agro bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "peshwa wheat bse smect": {
     "open_notified": true,
@@ -818,5 +818,17 @@
   "acme universal safezone 9 bse smect": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "sai urja indo bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "himalayan solar nse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "bench mark infotech services nse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
