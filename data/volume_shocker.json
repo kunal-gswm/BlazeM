@@ -1,11 +1,21 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-10-01T10:49:39Z",
+    "last_updated": "2026-10-01T17:10:38Z",
     "status": "healthy",
     "record_count": 21
   },
   "data": [
+    {
+      "symbol": "NIRLON",
+      "name": "Nirlon Limited",
+      "last_price": 605,
+      "change_pct": 0,
+      "volume": 2331734,
+      "turnover_cr": 0.41,
+      "vol_change_1wk_pct": 620.89,
+      "vol_change_2wk_pct": 715.69
+    },
     {
       "symbol": "PIXTRANS",
       "name": "Pix Transmissions Limited",
@@ -205,16 +215,6 @@
       "turnover_cr": 0.09,
       "vol_change_1wk_pct": 9.15,
       "vol_change_2wk_pct": 8.44
-    },
-    {
-      "symbol": "NIITMTS",
-      "name": "NIIT Learning Systems Limited",
-      "last_price": 187.95,
-      "change_pct": -8.1,
-      "volume": 870142,
-      "turnover_cr": 16.84,
-      "vol_change_1wk_pct": 9.08,
-      "vol_change_2wk_pct": 7.2
     }
   ]
 }

@@ -601,7 +601,7 @@
   },
   "green asia impex nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "moneyview": {
     "open_notified": true,
@@ -737,15 +737,15 @@
   },
   "black opal consultants bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "vans electroengineerings bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "papadmalji agro foods nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "bench mark infotech services nse smect": {
     "open_notified": true,
@@ -842,5 +842,13 @@
   "papadmalji agro foods nse smect": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "shivchem agro bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "acme universal safezone 9 bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
