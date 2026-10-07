@@ -769,15 +769,15 @@
   },
   "tna solutions bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "acme india industries bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "paramount syntex bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "dove soft bse sme": {
     "open_notified": true,
@@ -892,6 +892,10 @@
     "closed_notified": false
   },
   "paramount syntex bse smect": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "r.k.fashion accessories nse smect": {
     "open_notified": true,
     "closed_notified": false
   }
