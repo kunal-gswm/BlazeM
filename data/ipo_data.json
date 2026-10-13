@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-10-12T11:47:20Z",
+    "last_updated": "2026-10-13T11:34:14Z",
     "status": "healthy",
     "record_count": 10
   },
@@ -25,7 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shellz-india-ipo/2228/",
-      "scraped_at": "2026-10-12T11:46:59.708209+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.974690+00:00Z"
     },
     {
       "issue_name": "Tonbo Imaging India",
@@ -38,15 +38,15 @@
       "issue_close": "2026-10-19",
       "allotment_date": "2026-10-21",
       "listing_date": "2026-10-23",
-      "gmp": 390.0,
-      "gmp_percent": "55.71%",
+      "gmp": 470.0,
+      "gmp_percent": "67.14%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/tonbo-imaging-india-ipo/2369/",
-      "scraped_at": "2026-10-12T11:46:59.708325+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.974748+00:00Z"
     },
     {
       "issue_name": "Zetwerk",
@@ -59,15 +59,15 @@
       "issue_close": "2026-10-19",
       "allotment_date": "2026-10-21",
       "listing_date": "2026-10-23",
-      "gmp": 10.0,
-      "gmp_percent": "6.62%",
+      "gmp": 21.0,
+      "gmp_percent": "13.91%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/zetwerk-ipo/2279/",
-      "scraped_at": "2026-10-12T11:46:59.708425+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.974803+00:00Z"
     },
     {
       "issue_name": "Bonfiglioli Transmissions",
@@ -80,15 +80,15 @@
       "issue_close": "2026-10-19",
       "allotment_date": "2026-10-21",
       "listing_date": "2026-10-23",
-      "gmp": 145.0,
-      "gmp_percent": "24.74%",
+      "gmp": 163.0,
+      "gmp_percent": "27.82%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/bonfiglioli-transmissions-ipo/2124/",
-      "scraped_at": "2026-10-12T11:46:59.708537+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.974852+00:00Z"
     },
     {
       "issue_name": "Sahajanand Medical Technologies",
@@ -101,15 +101,36 @@
       "issue_close": "2026-10-19",
       "allotment_date": "2026-10-21",
       "listing_date": "2026-10-23",
-      "gmp": 40.0,
-      "gmp_percent": "11.63%",
+      "gmp": 37.0,
+      "gmp_percent": "10.76%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sahajanand-medical-technologies-ipo/1842/",
-      "scraped_at": "2026-10-12T11:46:59.708633+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.974902+00:00Z"
+    },
+    {
+      "issue_name": "Ravita Engineering Services NSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "112",
+      "lot_size": "1,200",
+      "issue_size": "₹116.05 Cr",
+      "issue_open": "2026-10-14",
+      "issue_close": "2026-10-16",
+      "allotment_date": "2026-10-19",
+      "listing_date": "2026-10-22",
+      "gmp": 2.0,
+      "gmp_percent": "1.79%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/ravita-engineering-services-ipo/2220/",
+      "scraped_at": "2026-10-13T11:33:58.974948+00:00Z"
     },
     {
       "issue_name": "Fusion CX",
@@ -122,15 +143,15 @@
       "issue_close": "2026-10-16",
       "allotment_date": "2026-10-19",
       "listing_date": "2026-10-22",
-      "gmp": 10.0,
-      "gmp_percent": "3.46%",
+      "gmp": 31.0,
+      "gmp_percent": "10.73%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/fusion-cx-ipo/1792/",
-      "scraped_at": "2026-10-12T11:46:59.708727+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.975001+00:00Z"
     },
     {
       "issue_name": "HD Fire Protect",
@@ -138,41 +159,20 @@
       "source": "investorgain",
       "price_band": "271",
       "lot_size": "55",
-      "issue_size": "₹712.31 Cr",
+      "issue_size": "₹712.13 Cr",
       "issue_open": "2026-10-13",
       "issue_close": "2026-10-15",
       "allotment_date": "2026-10-16",
       "listing_date": "2026-10-21",
-      "gmp": 83.0,
-      "gmp_percent": "30.63%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
+      "gmp": 91.0,
+      "gmp_percent": "33.58%",
+      "subscription_qib": "1.04x",
+      "subscription_nii": "11.37x",
+      "subscription_retail": "3.78x",
+      "subscription_total": "4.62x",
+      "subscription_applications": "5,70,732",
       "detail_url": "https://www.investorgain.com/gmp/hd-fire-protect-ipo/1902/",
-      "scraped_at": "2026-10-12T11:46:59.708828+00:00Z"
-    },
-    {
-      "issue_name": "Ravita Engineering Services NSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "112",
-      "lot_size": "1,200",
-      "issue_size": "₹116.05 Cr",
-      "issue_open": "2026-10-13",
-      "issue_close": "2026-10-15",
-      "allotment_date": "2026-10-16",
-      "listing_date": "2026-10-21",
-      "gmp": 5.0,
-      "gmp_percent": "4.46%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/ravita-engineering-services-ipo/2220/",
-      "scraped_at": "2026-10-12T11:46:59.708919+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.975049+00:00Z"
     },
     {
       "issue_name": "Vaibhav Vyapaar NSE SME",
@@ -193,7 +193,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/vaibhav-vyapaar-ipo/2335/",
-      "scraped_at": "2026-10-12T11:46:59.709007+00:00Z"
+      "scraped_at": "2026-10-13T11:33:58.975094+00:00Z"
     },
     {
       "issue_name": "Zetwerk Manufacturing Business Ltd.",
@@ -214,7 +214,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
-      "scraped_at": "2026-10-12T11:47:05.501851+00:00Z"
+      "scraped_at": "2026-10-13T11:34:03.611188+00:00Z"
     }
   ]
 }
