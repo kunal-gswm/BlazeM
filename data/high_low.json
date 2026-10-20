@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-10-19T16:39:47Z",
+    "last_updated": "2026-10-20T09:18:06Z",
     "status": "healthy",
-    "record_count": 169
+    "record_count": 172
   },
   "data": [
     {
@@ -239,6 +239,16 @@
           "type": "HIGH"
         },
         {
+          "symbol": "ONWARDTEC",
+          "companyName": "Onward Technologies Limited",
+          "lastPrice": 454.8,
+          "previousClose": "70",
+          "change": 384.8,
+          "pChange": 549.7142857142857,
+          "value52Week": 495.65,
+          "type": "HIGH"
+        },
+        {
           "symbol": "PVRINOX",
           "companyName": "PVR INOX Limited",
           "lastPrice": 1401.6,
@@ -276,6 +286,16 @@
           "change": -10.15,
           "pChange": -1.8234078864636665,
           "value52Week": 594.15,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "SHANTIGOLD",
+          "companyName": "Shanti Gold International Limited",
+          "lastPrice": 425.9,
+          "previousClose": "199",
+          "change": 226.9,
+          "pChange": 114.02010050251256,
+          "value52Week": 437.6,
           "type": "HIGH"
         },
         {
@@ -365,6 +385,16 @@
           "previousClose": "130.84",
           "change": -1.34,
           "pChange": -1.0241516355854479,
+          "value52Week": 136.17,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "STEAMHOUSE",
+          "companyName": "Steamhouse India Limited",
+          "lastPrice": 130.24,
+          "previousClose": "81",
+          "change": 49.24,
+          "pChange": 60.79012345679013,
           "value52Week": 136.17,
           "type": "HIGH"
         },
