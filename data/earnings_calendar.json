@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-10-19T19:12:05Z",
+    "last_updated": "2026-10-20T17:52:39Z",
     "status": "healthy",
-    "record_count": 390
+    "record_count": 555
   },
   "data": [
     {
@@ -343,6 +343,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/adani-total-gas-ltd/atgl/542066/"
     },
     {
+      "scrip_Code": "544209",
+      "short_name": "BANSALWIRE",
+      "Long_Name": "Bansal Wire Industries Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bansal-wire-industries-ltd/bansalwire/544209/"
+    },
+    {
       "scrip_Code": "544484",
       "short_name": "BLUESTONE",
       "Long_Name": "BlueStone Jewellery and Lifestyle Ltd",
@@ -434,6 +441,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/ghv-infra-projects-ltd/ghvinfra/505504/"
     },
     {
+      "scrip_Code": "500655",
+      "short_name": "GRWRHITECH",
+      "Long_Name": "Garware Hi-Tech Films Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/garware-hi-tech-films-ltd/grwrhitech/500655/"
+    },
+    {
       "scrip_Code": "531531",
       "short_name": "HATSUN",
       "Long_Name": "Hatsun Agro Product Ltd",
@@ -490,6 +504,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/leading-leasing-finance-and-investment-company-ltd/llficl/540360/"
     },
     {
+      "scrip_Code": "531515",
+      "short_name": "MAHANIN",
+      "Long_Name": "Mahan Industries Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mahan-industries-ltd/mahanin/531515/"
+    },
+    {
       "scrip_Code": "532313",
       "short_name": "MAHLIFE",
       "Long_Name": "Mahindra Lifespace Developers Ltd",
@@ -509,6 +530,13 @@
       "Long_Name": "Megri Soft Ltd",
       "meeting_date": "22 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/megri-soft-ltd/megrisoft/539012/"
+    },
+    {
+      "scrip_Code": "531597",
+      "short_name": "MIDPOLY",
+      "Long_Name": "Midland Polymers Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/midland-polymers-ltd/midpoly/531597/"
     },
     {
       "scrip_Code": "540767",
@@ -616,6 +644,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/sayaji-industries-ltd/sayajiind/540728/"
     },
     {
+      "scrip_Code": "538520",
+      "short_name": "SBL",
+      "Long_Name": "Shivamshree Businesses Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/shivamshree-businesses-ltd/sbl/538520/"
+    },
+    {
       "scrip_Code": "539574",
       "short_name": "SCL",
       "Long_Name": "Sunshine Capital Ltd",
@@ -700,6 +735,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/walchand-peoplefirst-ltd/walchpf/501370/"
     },
     {
+      "scrip_Code": "533287",
+      "short_name": "ZEELEARN",
+      "Long_Name": "Zee Learn Ltd",
+      "meeting_date": "22 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/zee-learn-ltd/zeelearn/533287/"
+    },
+    {
       "scrip_Code": "533096",
       "short_name": "ADANIPOWER",
       "Long_Name": "Adani Power Ltd",
@@ -719,6 +761,13 @@
       "Long_Name": "Automotive Stampings and Assemblies Ltd",
       "meeting_date": "23 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/automotive-stampings-and-assemblies-ltd/asal/520119/"
+    },
+    {
+      "scrip_Code": "500027",
+      "short_name": "ATUL",
+      "Long_Name": "Atul Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/atul-ltd/atul/500027/"
     },
     {
       "scrip_Code": "532149",
@@ -840,6 +889,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/godrej-properties-ltd/godrejprop/533150/"
     },
     {
+      "scrip_Code": "539724",
+      "short_name": "HYPERSOFT",
+      "Long_Name": "Hypersoft Technologies Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/hypersoft-technologies-ltd/hypersoft/539724/"
+    },
+    {
       "scrip_Code": "532187",
       "short_name": "INDUSINDBK",
       "Long_Name": "Indusind Bank Ltd",
@@ -866,6 +922,13 @@
       "Long_Name": "Jindal Steel Ltd",
       "meeting_date": "23 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/jindal-steel-ltd/jindalstel/532286/"
+    },
+    {
+      "scrip_Code": "530007",
+      "short_name": "JKTYRE",
+      "Long_Name": "JK Tyre & Industries Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/jk-tyre--industries-ltd/jktyre/530007/"
     },
     {
       "scrip_Code": "543980",
@@ -959,6 +1022,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/ponni-sugars-(erode)-ltd/ponnierode/532460/"
     },
     {
+      "scrip_Code": "532370",
+      "short_name": "RAMCOSYS",
+      "Long_Name": "Ramco Systems Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ramco-systems-ltd/ramcosys/532370/"
+    },
+    {
+      "scrip_Code": "540175",
+      "short_name": "REGENCY",
+      "Long_Name": "Regency Fincorp Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/regency-fincorp-ltd/regency/540175/"
+    },
+    {
       "scrip_Code": "532687",
       "short_name": "REPRO",
       "Long_Name": "Repro India Ltd",
@@ -973,11 +1050,39 @@
       "URL": "https://www.bseindia.com/stock-share-price/rgf-capital-markets-ltd/rgf/539669/"
     },
     {
+      "scrip_Code": "544959",
+      "short_name": "RUNWALENTR",
+      "Long_Name": "Runwal Enterprises Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/runwal-enterprises-ltd/runwalentr/544959/"
+    },
+    {
+      "scrip_Code": "543066",
+      "short_name": "SBICARD",
+      "Long_Name": "SBI Cards and Payment Services Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sbi-cards-and-payment-services-ltd/sbicard/543066/"
+    },
+    {
       "scrip_Code": "544829",
       "short_name": "SBIFUNDS",
       "Long_Name": "SBI Funds Management Ltd",
       "meeting_date": "23 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/sbi-funds-management-ltd/sbifunds/544829/"
+    },
+    {
+      "scrip_Code": "505075",
+      "short_name": "SETCO",
+      "Long_Name": "Setco Automotive Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/setco-automotive-ltd/setco/505075/"
+    },
+    {
+      "scrip_Code": "531431",
+      "short_name": "SHAKTIPUMP",
+      "Long_Name": "Shakti Pumps India Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/shakti-pumps-india-ltd/shaktipump/531431/"
     },
     {
       "scrip_Code": "532323",
@@ -1013,6 +1118,20 @@
       "Long_Name": "Shriram Finance Ltd",
       "meeting_date": "23 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/shriram-finance-ltd/shriramfin/511218/"
+    },
+    {
+      "scrip_Code": "531640",
+      "short_name": "SICL",
+      "Long_Name": "Suvidha Infraestate Corporation Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/suvidha-infraestate-corporation-ltd/sicl/531640/"
+    },
+    {
+      "scrip_Code": "544662",
+      "short_name": "SIMANDHAR",
+      "Long_Name": "Simandhar Impex Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/simandhar-impex-ltd/simandhar/544662/"
     },
     {
       "scrip_Code": "532143",
@@ -1106,6 +1225,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/trualt-bioenergy-ltd/trualt/544545/"
     },
     {
+      "scrip_Code": "544227",
+      "short_name": "UNIECOM",
+      "Long_Name": "Unicommerce Esolutions Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/unicommerce-esolutions-ltd/uniecom/544227/"
+    },
+    {
+      "scrip_Code": "544406",
+      "short_name": "UNIFIED",
+      "Long_Name": "Unified Data Tech Solutions Ltd",
+      "meeting_date": "23 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/unified-data-tech-solutions-ltd/unified/544406/"
+    },
+    {
       "scrip_Code": "543238",
       "short_name": "UTIAMC",
       "Long_Name": "UTI Asset Management Company Ltd",
@@ -1162,11 +1295,32 @@
       "URL": "https://www.bseindia.com/stock-share-price/chembond-chemicals-ltd/chembondch/544450/"
     },
     {
+      "scrip_Code": "543233",
+      "short_name": "CHEMCON",
+      "Long_Name": "Chemcon Speciality Chemicals Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/chemcon-speciality-chemicals-ltd/chemcon/543233/"
+    },
+    {
+      "scrip_Code": "524444",
+      "short_name": "EVEXIA",
+      "Long_Name": "Evexia Lifecare Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/evexia-lifecare-ltd/evexia/524444/"
+    },
+    {
       "scrip_Code": "524226",
       "short_name": "GAEL",
       "Long_Name": "Gujarat Ambuja Exports Ltd",
       "meeting_date": "24 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/gujarat-ambuja-exports-ltd/gael/524226/"
+    },
+    {
+      "scrip_Code": "544957",
+      "short_name": "GERMAN",
+      "Long_Name": "German Green Steel and Power Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/german-green-steel-and-power-ltd/german/544957/"
     },
     {
       "scrip_Code": "504176",
@@ -1190,6 +1344,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/jk-cement-ltd/jkcement/532644/"
     },
     {
+      "scrip_Code": "537254",
+      "short_name": "JTLDEFENCE",
+      "Long_Name": "JTL Defence Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/jtl-defence-ltd/jtldefence/537254/"
+    },
+    {
+      "scrip_Code": "500233",
+      "short_name": "KAJARIACER",
+      "Long_Name": "Kajaria Ceramics Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kajaria-ceramics-ltd/kajariacer/500233/"
+    },
+    {
       "scrip_Code": "500247",
       "short_name": "KOTAKBANK",
       "Long_Name": "Kotak Mahindra Bank Ltd",
@@ -1202,6 +1370,20 @@
       "Long_Name": "Lumax Auto Technologies Ltd",
       "meeting_date": "24 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/lumax-auto-technologies-ltd/lumaxtech/532796/"
+    },
+    {
+      "scrip_Code": "534615",
+      "short_name": "NECCLTD",
+      "Long_Name": "North Eastern Carrying Corporation Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/north-eastern-carrying-corporation-ltd/neccltd/534615/"
+    },
+    {
+      "scrip_Code": "543945",
+      "short_name": "NETWEB",
+      "Long_Name": "Netweb Technologies India Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/netweb-technologies-india-ltd/netweb/543945/"
     },
     {
       "scrip_Code": "514460",
@@ -1218,11 +1400,32 @@
       "URL": "https://www.bseindia.com/stock-share-price/permanent-magnets-ltd/permagn/504132/"
     },
     {
+      "scrip_Code": "544932",
+      "short_name": "QAL",
+      "Long_Name": "Quanto Agroworld Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/quanto-agroworld-ltd/qal/544932/"
+    },
+    {
+      "scrip_Code": "522257",
+      "short_name": "RAJOOENG",
+      "Long_Name": "Rajoo Engineers Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rajoo-engineers-ltd/rajooeng/522257/"
+    },
+    {
       "scrip_Code": "543959",
       "short_name": "SBFC",
       "Long_Name": "SBFC Finance Ltd",
       "meeting_date": "24 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/sbfc-finance-ltd/sbfc/543959/"
+    },
+    {
+      "scrip_Code": "506906",
+      "short_name": "SCBL",
+      "Long_Name": "Saptak Chem And Business Ltd",
+      "meeting_date": "24 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/saptak-chem-and-business-ltd/scbl/506906/"
     },
     {
       "scrip_Code": "502450",
@@ -1274,6 +1477,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/acceleratebs-india-ltd/accelerate/543938/"
     },
     {
+      "scrip_Code": "533758",
+      "short_name": "APLAPOLLO",
+      "Long_Name": "APL Apollo Tubes Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/apl-apollo-tubes-ltd/aplapollo/533758/"
+    },
+    {
       "scrip_Code": "526851",
       "short_name": "AREXMIS",
       "Long_Name": "Arex Industries Ltd",
@@ -1288,6 +1498,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/asi-industries-ltd/asiil/502015/"
     },
     {
+      "scrip_Code": "533138",
+      "short_name": "ASTEC",
+      "Long_Name": "Astec Lifesciences Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/astec-lifesciences-ltd/astec/533138/"
+    },
+    {
       "scrip_Code": "544397",
       "short_name": "ATHERENERG",
       "Long_Name": "Ather Energy Ltd",
@@ -1295,11 +1512,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/ather-energy-ltd/atherenerg/544397/"
     },
     {
+      "scrip_Code": "505032",
+      "short_name": "AUTOPRD",
+      "Long_Name": "Automobile Products of India Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/automobile-products-of-india-ltd/autoprd/505032/"
+    },
+    {
       "scrip_Code": "532406",
       "short_name": "AVANTEL",
       "Long_Name": "Avantel Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/avantel-ltd/avantel/532406/"
+    },
+    {
+      "scrip_Code": "532380",
+      "short_name": "BABA",
+      "Long_Name": "Baba Arts Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/baba-arts-ltd/baba/532380/"
     },
     {
       "scrip_Code": "544457",
@@ -1316,6 +1547,27 @@
       "URL": "https://www.bseindia.com/stock-share-price/cyber-media-india-ltd/cybermedia/532640/"
     },
     {
+      "scrip_Code": "542216",
+      "short_name": "DALBHARAT",
+      "Long_Name": "Dalmia Bharat Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/dalmia-bharat-ltd/dalbharat/542216/"
+    },
+    {
+      "scrip_Code": "523367",
+      "short_name": "DCMSHRIRAM",
+      "Long_Name": "DCM Shriram Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/dcm-shriram-ltd/dcmshriram/523367/"
+    },
+    {
+      "scrip_Code": "544903",
+      "short_name": "DEEPA",
+      "Long_Name": "Deepa Jewellers Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/deepa-jewellers-ltd/deepa/544903/"
+    },
+    {
       "scrip_Code": "532180",
       "short_name": "DHANBANK",
       "Long_Name": "Dhanlaxmi Bank Ltd",
@@ -1328,6 +1580,13 @@
       "Long_Name": "DRC Systems India Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/drc-systems-india-ltd/drcsystems/543268/"
+    },
+    {
+      "scrip_Code": "540596",
+      "short_name": "ERIS",
+      "Long_Name": "Eris Lifesciences Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/eris-lifesciences-ltd/eris/540596/"
     },
     {
       "scrip_Code": "508906",
@@ -1344,11 +1603,53 @@
       "URL": "https://www.bseindia.com/stock-share-price/five-star-business-finance-ltd/fivestar/543663/"
     },
     {
+      "scrip_Code": "526073",
+      "short_name": "GALXBRG",
+      "Long_Name": "Galaxy Bearings Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/galaxy-bearings-ltd/galxbrg/526073/"
+    },
+    {
+      "scrip_Code": "531953",
+      "short_name": "GCCL",
+      "Long_Name": "GCCL Construction & Realities Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gccl-construction--realities-ltd/gccl/531953/"
+    },
+    {
+      "scrip_Code": "531375",
+      "short_name": "GCCLINP",
+      "Long_Name": "GCCL Infrastructure & Projects Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gccl-infrastructure--projects-ltd/gcclinp/531375/"
+    },
+    {
+      "scrip_Code": "530709",
+      "short_name": "GOWRALE",
+      "Long_Name": "Gowra Leasing & Finance Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gowra-leasing--finance-ltd/gowrale/530709/"
+    },
+    {
       "scrip_Code": "539522",
       "short_name": "GROVY",
       "Long_Name": "Grovy India Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/grovy-india-ltd/grovy/539522/"
+    },
+    {
+      "scrip_Code": "511441",
+      "short_name": "GUJCRED",
+      "Long_Name": "Gujarat Credit Corporation Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gujarat-credit-corporation-ltd/gujcred/511441/"
+    },
+    {
+      "scrip_Code": "532160",
+      "short_name": "GUJSTATFIN",
+      "Long_Name": "Gujarat State Financial Corporation",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gujarat-state-financial-corporation/gujstatfin/532160/"
     },
     {
       "scrip_Code": "544334",
@@ -1358,6 +1659,27 @@
       "URL": "https://www.bseindia.com/stock-share-price/indobell-insulations-ltd/indobell/544334/"
     },
     {
+      "scrip_Code": "532388",
+      "short_name": "IOB",
+      "Long_Name": "Indian Overseas Bank",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/indian-overseas-bank/iob/532388/"
+    },
+    {
+      "scrip_Code": "531109",
+      "short_name": "ISHANCH",
+      "Long_Name": "Ishan Dyes and Chemicals Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ishan-dyes-and-chemicals-ltd/ishanch/531109/"
+    },
+    {
+      "scrip_Code": "544325",
+      "short_name": "ITCHOTELS",
+      "Long_Name": "ITC Hotels Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/itc-hotels-ltd/itchotels/544325/"
+    },
+    {
       "scrip_Code": "532605",
       "short_name": "JBMA",
       "Long_Name": "JBM Auto Ltd",
@@ -1365,11 +1687,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/jbm-auto-ltd/jbma/532605/"
     },
     {
+      "scrip_Code": "539620",
+      "short_name": "KEIL",
+      "Long_Name": "Kanoria Energy & Infrastructure Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kanoria-energy--infrastructure-ltd/keil/539620/"
+    },
+    {
       "scrip_Code": "543720",
       "short_name": "KFINTECH",
       "Long_Name": "KFin Technologies Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/kfin-technologies-ltd/kfintech/543720/"
+    },
+    {
+      "scrip_Code": "544865",
+      "short_name": "LEAPIND",
+      "Long_Name": "LEAP India Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/leap-india-ltd/leapind/544865/"
     },
     {
       "scrip_Code": "517206",
@@ -1400,6 +1736,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/milkfood-ltd/mlkfood/507621/"
     },
     {
+      "scrip_Code": "543280",
+      "short_name": "NAZARA",
+      "Long_Name": "Nazara Technologies Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nazara-technologies-ltd/nazara/543280/"
+    },
+    {
       "scrip_Code": "532529",
       "short_name": "NDTV",
       "Long_Name": "New Delhi Television Ltd",
@@ -1421,6 +1764,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/novus-loyalty-ltd/novus/544735/"
     },
     {
+      "scrip_Code": "531779",
+      "short_name": "PADALPO",
+      "Long_Name": "Padmanabh Alloys & Polymers Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/padmanabh-alloys--polymers-ltd/padalpo/531779/"
+    },
+    {
       "scrip_Code": "530555",
       "short_name": "PARACABLES",
       "Long_Name": "Paramount Communications Ltd",
@@ -1435,6 +1785,27 @@
       "URL": "https://www.bseindia.com/stock-share-price/one-97-communications-ltd/paytm/543396/"
     },
     {
+      "scrip_Code": "526494",
+      "short_name": "PROMACT",
+      "Long_Name": "Promact Plastics Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/promact-plastics-ltd/promact/526494/"
+    },
+    {
+      "scrip_Code": "538646",
+      "short_name": "QGO",
+      "Long_Name": "QGO Finance Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/qgo-finance-ltd/qgo/538646/"
+    },
+    {
+      "scrip_Code": "543982",
+      "short_name": "QUESTFLOW",
+      "Long_Name": "Quest Flow Controls Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/quest-flow-controls-ltd/questflow/543982/"
+    },
+    {
       "scrip_Code": "540366",
       "short_name": "RADIOCITY",
       "Long_Name": "Music Broadcast Ltd",
@@ -1447,6 +1818,13 @@
       "Long_Name": "Shanthi Gears Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/shanthi-gears-ltd/shantigear/522034/"
+    },
+    {
+      "scrip_Code": "503804",
+      "short_name": "SHRIDINE",
+      "Long_Name": "Shri Dinesh Mills Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/shri-dinesh-mills-ltd/shridine/503804/"
     },
     {
       "scrip_Code": "543300",
@@ -1470,11 +1848,39 @@
       "URL": "https://www.bseindia.com/stock-share-price/sunteck-realty-ltd/sunteck/512179/"
     },
     {
+      "scrip_Code": "509930",
+      "short_name": "SUPREMEIND",
+      "Long_Name": "Supreme Industries Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/supreme-industries-ltd/supremeind/509930/"
+    },
+    {
+      "scrip_Code": "500800",
+      "short_name": "TATACONSUM",
+      "Long_Name": "Tata Consumer Products Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/tata-consumer-products-ltd/tataconsum/500800/"
+    },
+    {
       "scrip_Code": "543596",
       "short_name": "TMB",
       "Long_Name": "Tamilnad Mercantile Bank Ltd",
       "meeting_date": "26 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/tamilnad-mercantile-bank-ltd/tmb/543596/"
+    },
+    {
+      "scrip_Code": "532056",
+      "short_name": "TRUSTEDGE",
+      "Long_Name": "Trustedge Capital Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/trustedge-capital-ltd/trustedge/532056/"
+    },
+    {
+      "scrip_Code": "530363",
+      "short_name": "UGARSUGAR",
+      "Long_Name": "Ugar Sugar Works Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ugar-sugar-works-ltd/ugarsugar/530363/"
     },
     {
       "scrip_Code": "539314",
@@ -1512,6 +1918,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/wework-india-management-ltd/wework/544570/"
     },
     {
+      "scrip_Code": "511147",
+      "short_name": "WSFX",
+      "Long_Name": "WSFx Global Pay Ltd",
+      "meeting_date": "26 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/wsfx-global-pay-ltd/wsfx/511147/"
+    },
+    {
       "scrip_Code": "544203",
       "short_name": "ABDL",
       "Long_Name": "Allied Blenders and Distillers Ltd",
@@ -1526,6 +1939,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/acc-ltd/acc/500410/"
     },
     {
+      "scrip_Code": "541303",
+      "short_name": "AKSHAR",
+      "Long_Name": "Akshar Spintex Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/akshar-spintex-ltd/akshar/541303/"
+    },
+    {
       "scrip_Code": "517546",
       "short_name": "ALFATRAN",
       "Long_Name": "Alfa Transformers Ltd",
@@ -1533,11 +1953,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/alfa-transformers-ltd/alfatran/517546/"
     },
     {
+      "scrip_Code": "530133",
+      "short_name": "AMCOIND",
+      "Long_Name": "Amco India Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/amco-india-ltd/amcoind/530133/"
+    },
+    {
       "scrip_Code": "530429",
       "short_name": "ASHISHPO",
       "Long_Name": "Ashish Polyplast Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/ashish-polyplast-ltd/ashishpo/530429/"
+    },
+    {
+      "scrip_Code": "500028",
+      "short_name": "ATVPR",
+      "Long_Name": "ATV Projects India Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/atv-projects-india-ltd/atvpr/500028/"
     },
     {
       "scrip_Code": "543458",
@@ -1561,6 +1995,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/bharat-bijlee-ltd/bbl/503960/"
     },
     {
+      "scrip_Code": "500280",
+      "short_name": "CENTENKA",
+      "Long_Name": "Century Enka Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/century-enka-ltd/centenka/500280/"
+    },
+    {
       "scrip_Code": "531595",
       "short_name": "CGCL",
       "Long_Name": "Capri Global Capital Ltd",
@@ -1573,6 +2014,34 @@
       "Long_Name": "Cipla Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/cipla-ltd/cipla/500087/"
+    },
+    {
+      "scrip_Code": "532379",
+      "short_name": "FIRSTFIN",
+      "Long_Name": "First Fintec Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/first-fintec-ltd/firstfin/532379/"
+    },
+    {
+      "scrip_Code": "544029",
+      "short_name": "GANDHAR",
+      "Long_Name": "Gandhar Oil Refinery (India) Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gandhar-oil-refinery-(india)-ltd/gandhar/544029/"
+    },
+    {
+      "scrip_Code": "517288",
+      "short_name": "GUJARATPOLY",
+      "Long_Name": "Gujarat Poly Electronics Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gujarat-poly-electronics-ltd/gujaratpoly/517288/"
+    },
+    {
+      "scrip_Code": "532543",
+      "short_name": "GULFPETRO",
+      "Long_Name": "GP Petroleums Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gp-petroleums-ltd/gulfpetro/532543/"
     },
     {
       "scrip_Code": "517174",
@@ -1603,6 +2072,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/indus-towers-ltd/industower/534816/"
     },
     {
+      "scrip_Code": "507981",
+      "short_name": "JINDHOT",
+      "Long_Name": "Jindal Hotels Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/jindal-hotels-ltd/jindhot/507981/"
+    },
+    {
       "scrip_Code": "544480",
       "short_name": "JSWCEMENT",
       "Long_Name": "JSW Cement Ltd",
@@ -1631,6 +2107,34 @@
       "URL": "https://www.bseindia.com/stock-share-price/kanpur-plastipack-ltd/kanprpla/507779/"
     },
     {
+      "scrip_Code": "531892",
+      "short_name": "KHANDSE",
+      "Long_Name": "Khandwala Securities Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/khandwala-securities-ltd/khandse/531892/"
+    },
+    {
+      "scrip_Code": "505283",
+      "short_name": "KIRLPNU",
+      "Long_Name": "Kirloskar Pneumatic Company Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kirloskar-pneumatic-company-ltd/kirlpnu/505283/"
+    },
+    {
+      "scrip_Code": "523652",
+      "short_name": "KKPLASTICK",
+      "Long_Name": "Kkalpana Plastick Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kkalpana-plastick-ltd/kkplastick/523652/"
+    },
+    {
+      "scrip_Code": "544814",
+      "short_name": "KNACK",
+      "Long_Name": "Knack Packaging Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/knack-packaging-ltd/knack/544814/"
+    },
+    {
       "scrip_Code": "500510",
       "short_name": "LT",
       "Long_Name": "Larsen & Toubro Ltd",
@@ -1650,6 +2154,13 @@
       "Long_Name": "Manba Finance Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/manba-finance-ltd/manba/544262/"
+    },
+    {
+      "scrip_Code": "521018",
+      "short_name": "MARALOVER",
+      "Long_Name": "Maral Overseas Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/maral-overseas-ltd/maralover/521018/"
     },
     {
       "scrip_Code": "532500",
@@ -1678,6 +2189,13 @@
       "Long_Name": "Modella Woollens Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/modella-woollens-ltd/modwool/503772/"
+    },
+    {
+      "scrip_Code": "500304",
+      "short_name": "NIITLTD",
+      "Long_Name": "NIIT Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/niit-ltd/niitltd/500304/"
     },
     {
       "scrip_Code": "544301",
@@ -1722,11 +2240,39 @@
       "URL": "https://www.bseindia.com/stock-share-price/sbi-life-insurance-company-ltd/sbilife/540719/"
     },
     {
+      "scrip_Code": "505790",
+      "short_name": "SCHAEFFLER",
+      "Long_Name": "Schaeffler India Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/schaeffler-india-ltd/schaeffler/505790/"
+    },
+    {
+      "scrip_Code": "512329",
+      "short_name": "SGMART",
+      "Long_Name": "SG Mart Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sg-mart-ltd/sgmart/512329/"
+    },
+    {
+      "scrip_Code": "508961",
+      "short_name": "SHRICON",
+      "Long_Name": "Shricon Industries Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/shricon-industries-ltd/shricon/508961/"
+    },
+    {
       "scrip_Code": "543412",
       "short_name": "STARHEALTH",
       "Long_Name": "Star Health and Allied Insurance Company Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/star-health-and-allied-insurance-company-ltd/starhealth/543412/"
+    },
+    {
+      "scrip_Code": "530759",
+      "short_name": "STERTOOLS",
+      "Long_Name": "Sterling Tools Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sterling-tools-ltd/stertools/530759/"
     },
     {
       "scrip_Code": "539268",
@@ -1741,6 +2287,13 @@
       "Long_Name": "Syschem India Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/syschem-india-ltd/syschem/531173/"
+    },
+    {
+      "scrip_Code": "531887",
+      "short_name": "TACENT",
+      "Long_Name": "Tacent Projects Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/tacent-projects-ltd/tacent/531887/"
     },
     {
       "scrip_Code": "544574",
@@ -1762,6 +2315,13 @@
       "Long_Name": "Transport Corporation of India Ltd",
       "meeting_date": "27 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/transport-corporation-of-india-ltd/tci/532349/"
+    },
+    {
+      "scrip_Code": "543754",
+      "short_name": "TRANSVOY",
+      "Long_Name": "Transvoy Logistics India Ltd",
+      "meeting_date": "27 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/transvoy-logistics-india-ltd/transvoy/543754/"
     },
     {
       "scrip_Code": "532478",
@@ -1799,11 +2359,32 @@
       "URL": "https://www.bseindia.com/stock-share-price/adani-ports-and-special-economic-zone-ltd/adaniports/532921/"
     },
     {
+      "scrip_Code": "543972",
+      "short_name": "AEROFLEX",
+      "Long_Name": "Aeroflex Industries Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/aeroflex-industries-ltd/aeroflex/543972/"
+    },
+    {
       "scrip_Code": "515055",
       "short_name": "ANANTRAJ",
       "Long_Name": "Anant Raj Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/anant-raj-ltd/anantraj/515055/"
+    },
+    {
+      "scrip_Code": "500101",
+      "short_name": "ARVIND",
+      "Long_Name": "Arvind Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/arvind-ltd/arvind/500101/"
+    },
+    {
+      "scrip_Code": "505029",
+      "short_name": "ATLASCYCLE",
+      "Long_Name": "Atlas Cycles (Haryana) Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/atlas-cycles-(haryana)-ltd/atlascycle/505029/"
     },
     {
       "scrip_Code": "500031",
@@ -1827,6 +2408,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/cholamandalam-investment-and-finance-company-ltd/cholafin/511243/"
     },
     {
+      "scrip_Code": "501833",
+      "short_name": "CHOWGULSTM",
+      "Long_Name": "Chowgule Steamships Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/chowgule-steamships-ltd/chowgulstm/501833/"
+    },
+    {
       "scrip_Code": "543276",
       "short_name": "CRAFTSMAN",
       "Long_Name": "Craftsman Automation Ltd",
@@ -1839,6 +2427,13 @@
       "Long_Name": "City Union Bank Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/city-union-bank-ltd/cub/532210/"
+    },
+    {
+      "scrip_Code": "500120",
+      "short_name": "DIAMINESQ",
+      "Long_Name": "Diamines & Chemicals Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/diamines--chemicals-ltd/diaminesq/500120/"
     },
     {
       "scrip_Code": "543306",
@@ -1862,6 +2457,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/hero-motocorp-ltd/heromotoco/500182/"
     },
     {
+      "scrip_Code": "544362",
+      "short_name": "HEXT",
+      "Long_Name": "Hexaware Technologies Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/hexaware-technologies-ltd/hext/544362/"
+    },
+    {
       "scrip_Code": "500696",
       "short_name": "HINDUNILVR",
       "Long_Name": "Hindustan Unilever Ltd",
@@ -1874,6 +2476,20 @@
       "Long_Name": "Infobeans Technologies Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/infobeans-technologies-ltd/infobean/543644/"
+    },
+    {
+      "scrip_Code": "543420",
+      "short_name": "JETFREIGHT",
+      "Long_Name": "Jet Freight Logistics Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/jet-freight-logistics-ltd/jetfreight/543420/"
+    },
+    {
+      "scrip_Code": "532741",
+      "short_name": "KAMDHENU",
+      "Long_Name": "Kamdhenu Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kamdhenu-ltd/kamdhenu/532741/"
     },
     {
       "scrip_Code": "542651",
@@ -1890,6 +2506,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/kpr-mill-limited/kprmill/532889/"
     },
     {
+      "scrip_Code": "532899",
+      "short_name": "KSCL",
+      "Long_Name": "Kaveri Seed Company Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kaveri-seed-company-ltd/kscl/532899/"
+    },
+    {
       "scrip_Code": "532652",
       "short_name": "KTKBANK",
       "Long_Name": "Karnataka Bank Ltd",
@@ -1897,11 +2520,60 @@
       "URL": "https://www.bseindia.com/stock-share-price/karnataka-bank-ltd/ktkbank/532652/"
     },
     {
+      "scrip_Code": "532937",
+      "short_name": "KUANTUM",
+      "Long_Name": "Kuantum Papers Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/kuantum-papers-ltd/kuantum/532937/"
+    },
+    {
+      "scrip_Code": "539046",
+      "short_name": "MANAKCOAT",
+      "Long_Name": "Manaksia Coated Metals & Industries Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/manaksia-coated-metals--industries-ltd/manakcoat/539046/"
+    },
+    {
+      "scrip_Code": "523566",
+      "short_name": "MARBU",
+      "Long_Name": "Martin Burn Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/martin-burn-ltd/marbu/523566/"
+    },
+    {
       "scrip_Code": "544632",
       "short_name": "MEESHO",
       "Long_Name": "Meesho Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/meesho-ltd/meesho/544632/"
+    },
+    {
+      "scrip_Code": "538890",
+      "short_name": "MKEXIM",
+      "Long_Name": "M.K. Exim (India) Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mk-exim-(india)-ltd/mkexim/538890/"
+    },
+    {
+      "scrip_Code": "532777",
+      "short_name": "NAUKRI",
+      "Long_Name": "Info Edge (India) Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/info-edge-(india)-ltd/naukri/532777/"
+    },
+    {
+      "scrip_Code": "535458",
+      "short_name": "NIBL",
+      "Long_Name": "NRB Industrial Bearings Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nrb-industrial-bearings-ltd/nibl/535458/"
+    },
+    {
+      "scrip_Code": "519494",
+      "short_name": "NKIND",
+      "Long_Name": "NK Industries Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nk-industries-ltd/nkind/519494/"
     },
     {
       "scrip_Code": "532944",
@@ -1925,6 +2597,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/pnb-housing-finance-ltd/pnbhousing/540173/"
     },
     {
+      "scrip_Code": "539150",
+      "short_name": "PNCINFRA",
+      "Long_Name": "PNC Infratech Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/pnc-infratech-ltd/pncinfra/539150/"
+    },
+    {
       "scrip_Code": "517447",
       "short_name": "RSSOFTWARE",
       "Long_Name": "R.S. Software (India) Ltd",
@@ -1932,11 +2611,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/rs-software-(india)-ltd/rssoftware/517447/"
     },
     {
+      "scrip_Code": "542728",
+      "short_name": "SKIEL",
+      "Long_Name": "SK International Export Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sk-international-export-ltd/skiel/542728/"
+    },
+    {
       "scrip_Code": "532419",
       "short_name": "SMARTLINK",
       "Long_Name": "Smartlink Holdings Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/smartlink-holdings-ltd/smartlink/532419/"
+    },
+    {
+      "scrip_Code": "506390",
+      "short_name": "SUDARCOLOR",
+      "Long_Name": "Sudarshan Colorants India Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sudarshan-colorants-india-ltd/sudarcolor/506390/"
     },
     {
       "scrip_Code": "501110",
@@ -1951,6 +2644,13 @@
       "Long_Name": "Super Sales India Ltd",
       "meeting_date": "28 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/super-sales-india-ltd/super/512527/"
+    },
+    {
+      "scrip_Code": "501242",
+      "short_name": "TCIFINANCE",
+      "Long_Name": "TCI Finance Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/tci-finance-ltd/tcifinance/501242/"
     },
     {
       "scrip_Code": "520056",
@@ -1981,6 +2681,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/vaibhav-global-ltd/vaibhavgbl/532156/"
     },
     {
+      "scrip_Code": "509966",
+      "short_name": "VSTIND",
+      "Long_Name": "VST Industries Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/vst-industries-ltd/vstind/509966/"
+    },
+    {
+      "scrip_Code": "532039",
+      "short_name": "ZENOTECH",
+      "Long_Name": "Zenotech Laboratories Ltd",
+      "meeting_date": "28 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/zenotech-laboratories-ltd/zenotech/532039/"
+    },
+    {
       "scrip_Code": "504067",
       "short_name": "ZENSARTECH",
       "Long_Name": "Zensar Technologies Ltd",
@@ -2000,6 +2714,13 @@
       "Long_Name": "Ambuja Cements Ltd",
       "meeting_date": "29 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/ambuja-cements-ltd/ambujacem/500425/"
+    },
+    {
+      "scrip_Code": "500343",
+      "short_name": "AMJLAND",
+      "Long_Name": "AMJ Land Holdings Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/amj-land-holdings-ltd/amjland/500343/"
     },
     {
       "scrip_Code": "532259",
@@ -2072,6 +2793,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/consolidated-construction-consortium-ltd/cccl/532902/"
     },
     {
+      "scrip_Code": "531210",
+      "short_name": "COLINZ",
+      "Long_Name": "Colinz Laboratories Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/colinz-laboratories-ltd/colinz/531210/"
+    },
+    {
       "scrip_Code": "506401",
       "short_name": "DEEPAKNTR",
       "Long_Name": "Deepak Nitrite Ltd",
@@ -2128,6 +2856,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/greenply-industries-ltd/greenply/526797/"
     },
     {
+      "scrip_Code": "506076",
+      "short_name": "GRINDWELL",
+      "Long_Name": "Grindwell Norton Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/grindwell-norton-ltd/grindwell/506076/"
+    },
+    {
+      "scrip_Code": "517372",
+      "short_name": "GUJINTRX",
+      "Long_Name": "Gujarat Intrux Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gujarat-intrux-ltd/gujintrx/517372/"
+    },
+    {
       "scrip_Code": "532835",
       "short_name": "ICRA",
       "Long_Name": "ICRA Ltd",
@@ -2142,11 +2884,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/indegene-ltd/indgn/544172/"
     },
     {
+      "scrip_Code": "532150",
+      "short_name": "INDRAMEDCO",
+      "Long_Name": "Indraprastha Medical Corporation Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/indraprastha-medical-corporation-ltd/indramedco/532150/"
+    },
+    {
       "scrip_Code": "532305",
       "short_name": "INDSWFTLAB",
       "Long_Name": "Ind-Swift Laboratories Ltd",
       "meeting_date": "29 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/ind-swift-laboratories-ltd/indswftlab/532305/"
+    },
+    {
+      "scrip_Code": "537985",
+      "short_name": "INFRONICS",
+      "Long_Name": "Infronics Systems Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/infronics-systems-ltd/infronics/537985/"
     },
     {
       "scrip_Code": "511716",
@@ -2191,11 +2947,46 @@
       "URL": "https://www.bseindia.com/stock-share-price/menon-bearings-ltd/menonbe/523828/"
     },
     {
+      "scrip_Code": "511551",
+      "short_name": "MONARCH",
+      "Long_Name": "Monarch Networth Capital Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/monarch-networth-capital-ltd/monarch/511551/"
+    },
+    {
       "scrip_Code": "500730",
       "short_name": "NOCIL",
       "Long_Name": "NOCIL Ltd",
       "meeting_date": "29 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/nocil-ltd/nocil/500730/"
+    },
+    {
+      "scrip_Code": "544606",
+      "short_name": "PINELABS",
+      "Long_Name": "Pine Labs Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/pine-labs-ltd/pinelabs/544606/"
+    },
+    {
+      "scrip_Code": "530117",
+      "short_name": "PRIVISCL",
+      "Long_Name": "Privi Speciality Chemicals Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/privi-speciality-chemicals-ltd/priviscl/530117/"
+    },
+    {
+      "scrip_Code": "505807",
+      "short_name": "ROLCOEN",
+      "Long_Name": "Rolcon Engineering Company Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rolcon-engineering-company-ltd/rolcoen/505807/"
+    },
+    {
+      "scrip_Code": "544914",
+      "short_name": "STEAMHOUSE",
+      "Long_Name": "Steamhouse India Ltd",
+      "meeting_date": "29 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/steamhouse-india-ltd/steamhouse/544914/"
     },
     {
       "scrip_Code": "516108",
@@ -2247,6 +3038,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/aditya-birla-capital-ltd/abcapital/540691/"
     },
     {
+      "scrip_Code": "532141",
+      "short_name": "ACL",
+      "Long_Name": "Andhra Cements Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/andhra-cements-ltd/acl/532141/"
+    },
+    {
       "scrip_Code": "543534",
       "short_name": "AETHER",
       "Long_Name": "Aether Industries Ltd",
@@ -2261,6 +3059,27 @@
       "URL": "https://www.bseindia.com/stock-share-price/ajanta-pharma-ltd/ajantpharm/532331/"
     },
     {
+      "scrip_Code": "521097",
+      "short_name": "AMARJOTHI",
+      "Long_Name": "Amarjothi Spinning Mills Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/amarjothi-spinning-mills-ltd/amarjothi/521097/"
+    },
+    {
+      "scrip_Code": "502330",
+      "short_name": "ANDHRAPAP",
+      "Long_Name": "Andhra Paper Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/andhra-paper-ltd/andhrapap/502330/"
+    },
+    {
+      "scrip_Code": "524687",
+      "short_name": "BASANTGL",
+      "Long_Name": "Basant Agro Tech India Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/basant-agro-tech-india-ltd/basantgl/524687/"
+    },
+    {
       "scrip_Code": "500049",
       "short_name": "BEL",
       "Long_Name": "Bharat Electronics Ltd",
@@ -2268,11 +3087,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/bharat-electronics-ltd/bel/500049/"
     },
     {
+      "scrip_Code": "539660",
+      "short_name": "BESTAGRO",
+      "Long_Name": "Best Agrolife Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/best-agrolife-ltd/bestagro/539660/"
+    },
+    {
       "scrip_Code": "505688",
       "short_name": "BHARATGEAR",
       "Long_Name": "Bharat Gears Ltd",
       "meeting_date": "30 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/bharat-gears-ltd/bharatgear/505688/"
+    },
+    {
+      "scrip_Code": "544442",
+      "short_name": "CHEMKART",
+      "Long_Name": "Chemkart India Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/chemkart-india-ltd/chemkart/544442/"
     },
     {
       "scrip_Code": "544644",
@@ -2301,6 +3134,13 @@
       "Long_Name": "Engineers India Ltd",
       "meeting_date": "30 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/engineers-india-ltd/enginersin/532178/"
+    },
+    {
+      "scrip_Code": "513579",
+      "short_name": "FFPL",
+      "Long_Name": "Foundry Fuel Products Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/foundry-fuel-products-ltd/ffpl/513579/"
     },
     {
       "scrip_Code": "532155",
@@ -2408,6 +3248,20 @@
       "URL": "https://www.bseindia.com/stock-share-price/nitta-gelatin-india-ltd/nittagela/506532/"
     },
     {
+      "scrip_Code": "531496",
+      "short_name": "OMKAR",
+      "Long_Name": "Omkar Overseas Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/omkar-overseas-ltd/omkar/531496/"
+    },
+    {
+      "scrip_Code": "539785",
+      "short_name": "PDMJEPAPER",
+      "Long_Name": "Pudumjee Paper Products Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/pudumjee-paper-products-ltd/pdmjepaper/539785/"
+    },
+    {
       "scrip_Code": "532670",
       "short_name": "RENUKA",
       "Long_Name": "Shree Renuka Sugars Ltd",
@@ -2422,11 +3276,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/resonance-specialties-ltd/resonance/524218/"
     },
     {
+      "scrip_Code": "502090",
+      "short_name": "SAGCEM",
+      "Long_Name": "Sagar Cements Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sagar-cements-ltd/sagcem/502090/"
+    },
+    {
       "scrip_Code": "544344",
       "short_name": "SHRIPISTON",
       "Long_Name": "SPR Auto Technologies Ltd",
       "meeting_date": "30 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/spr-auto-technologies-ltd/shripiston/544344/"
+    },
+    {
+      "scrip_Code": "521194",
+      "short_name": "SILINV",
+      "Long_Name": "SIL Investments Ltd",
+      "meeting_date": "30 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/sil-investments-ltd/silinv/521194/"
     },
     {
       "scrip_Code": "544447",
@@ -2476,6 +3344,13 @@
       "Long_Name": "Aurionpro Solutions Ltd",
       "meeting_date": "31 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/aurionpro-solutions-ltd/aurionpro/532668/"
+    },
+    {
+      "scrip_Code": "543318",
+      "short_name": "CLEAN",
+      "Long_Name": "Clean Science and Technology Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/clean-science-and-technology-ltd/clean/543318/"
     },
     {
       "scrip_Code": "533146",
@@ -2534,11 +3409,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/lg-balakrishnan--bros-ltd/lgbbrosltd/500250/"
     },
     {
+      "scrip_Code": "531357",
+      "short_name": "MERCURYEV",
+      "Long_Name": "Mercury Ev-Tech Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/mercury-ev-tech-ltd/mercuryev/531357/"
+    },
+    {
       "scrip_Code": "544668",
       "short_name": "NANTA",
       "Long_Name": "Nanta Tech Ltd",
       "meeting_date": "31 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/nanta-tech-ltd/nanta/544668/"
+    },
+    {
+      "scrip_Code": "532698",
+      "short_name": "NITINSPIN",
+      "Long_Name": "Nitin Spinners Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nitin-spinners-ltd/nitinspin/532698/"
     },
     {
       "scrip_Code": "544467",
@@ -2548,11 +3437,25 @@
       "URL": "https://www.bseindia.com/stock-share-price/national-securities-depository-ltd/nsdl/544467/"
     },
     {
+      "scrip_Code": "531209",
+      "short_name": "NUCLEUS",
+      "Long_Name": "Nucleus Software Exports Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nucleus-software-exports-ltd/nucleus/531209/"
+    },
+    {
       "scrip_Code": "516030",
       "short_name": "PAKKA",
       "Long_Name": "Pakka Ltd",
       "meeting_date": "31 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/pakka-ltd/pakka/516030/"
+    },
+    {
+      "scrip_Code": "513511",
+      "short_name": "PANCHMAHQ",
+      "Long_Name": "Panchmahal Steel Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/panchmahal-steel-ltd/panchmahq/513511/"
     },
     {
       "scrip_Code": "504614",
@@ -2567,6 +3470,20 @@
       "Long_Name": "Teesta Agro Industries Ltd",
       "meeting_date": "31 Oct 2026",
       "URL": "https://www.bseindia.com/stock-share-price/teesta-agro-industries-ltd/teeai/524204/"
+    },
+    {
+      "scrip_Code": "526675",
+      "short_name": "TIRTPLS",
+      "Long_Name": "Tirth Plastic Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/tirth-plastic-ltd/tirtpls/526675/"
+    },
+    {
+      "scrip_Code": "532729",
+      "short_name": "UTTAMSUGAR",
+      "Long_Name": "Uttam Sugar Mills Ltd",
+      "meeting_date": "31 Oct 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/uttam-sugar-mills-ltd/uttamsugar/532729/"
     },
     {
       "scrip_Code": "500008",
@@ -2595,6 +3512,13 @@
       "Long_Name": "Carborundum Universal Ltd",
       "meeting_date": "02 Nov 2026",
       "URL": "https://www.bseindia.com/stock-share-price/carborundum-universal-ltd/carboruniv/513375/"
+    },
+    {
+      "scrip_Code": "540652",
+      "short_name": "CTCL",
+      "Long_Name": "Captain Technocast Ltd",
+      "meeting_date": "02 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/captain-technocast-ltd/ctcl/540652/"
     },
     {
       "scrip_Code": "500495",
@@ -2630,6 +3554,13 @@
       "Long_Name": "Gujarat State Fertilizers & Chemicals Ltd",
       "meeting_date": "02 Nov 2026",
       "URL": "https://www.bseindia.com/stock-share-price/gujarat-state-fertilizers--chemicals-ltd/gsfc/500690/"
+    },
+    {
+      "scrip_Code": "500262",
+      "short_name": "HYBRIDFIN",
+      "Long_Name": "Hybrid Financial Services Ltd",
+      "meeting_date": "02 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/hybrid-financial-services-ltd/hybridfin/500262/"
     },
     {
       "scrip_Code": "500875",
@@ -2695,6 +3626,13 @@
       "URL": "https://www.bseindia.com/stock-share-price/ptc-india-ltd/ptc/532524/"
     },
     {
+      "scrip_Code": "500350",
+      "short_name": "RSWM",
+      "Long_Name": "RSWM Ltd",
+      "meeting_date": "02 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rswm-ltd/rswm/500350/"
+    },
+    {
       "scrip_Code": "515043",
       "short_name": "SEKURITIND",
       "Long_Name": "Saint Gobain Sekurit India Ltd",
@@ -2735,6 +3673,223 @@
       "Long_Name": "Wonderla Holidays Ltd",
       "meeting_date": "02 Nov 2026",
       "URL": "https://www.bseindia.com/stock-share-price/wonderla-holidays-ltd/wonderla/538268/"
+    },
+    {
+      "scrip_Code": "506767",
+      "short_name": "ALKYLAMINE",
+      "Long_Name": "Alkyl Amines Chemicals Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/alkyl-amines-chemicals-ltd/alkylamine/506767/"
+    },
+    {
+      "scrip_Code": "532749",
+      "short_name": "ALLCARGO",
+      "Long_Name": "Allcargo Logistics Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/allcargo-logistics-ltd/allcargo/532749/"
+    },
+    {
+      "scrip_Code": "544022",
+      "short_name": "ASKAUTOLTD",
+      "Long_Name": "ASK Automotive Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/ask-automotive-ltd/askautoltd/544022/"
+    },
+    {
+      "scrip_Code": "532978",
+      "short_name": "BAJAJFINSV",
+      "Long_Name": "Bajaj Finserv Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bajaj-finserv-ltd/bajajfinsv/532978/"
+    },
+    {
+      "scrip_Code": "500490",
+      "short_name": "BAJAJHLDNG",
+      "Long_Name": "Bajaj Holdings & Investment Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bajaj-holdings--investment-ltd/bajajhldng/500490/"
+    },
+    {
+      "scrip_Code": "506285",
+      "short_name": "BAYERCROP",
+      "Long_Name": "Bayer CropScience Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/bayer-cropscience-ltd/bayercrop/506285/"
+    },
+    {
+      "scrip_Code": "505690",
+      "short_name": "BRADYM",
+      "Long_Name": "Brady & Morris Engineering Company Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/brady--morris-engineering-company-ltd/bradym/505690/"
+    },
+    {
+      "scrip_Code": "540789",
+      "short_name": "DNAMEDIA",
+      "Long_Name": "Diligent Media Corporation Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/diligent-media-corporation-ltd/dnamedia/540789/"
+    },
+    {
+      "scrip_Code": "544210",
+      "short_name": "EMCURE",
+      "Long_Name": "Emcure Pharmaceuticals Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/emcure-pharmaceuticals-ltd/emcure/544210/"
+    },
+    {
+      "scrip_Code": "540153",
+      "short_name": "ENDURANCE",
+      "Long_Name": "Endurance Technologies Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/endurance-technologies-ltd/endurance/540153/"
+    },
+    {
+      "scrip_Code": "544700",
+      "short_name": "FRACTAL",
+      "Long_Name": "Fractal Analytics Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/fractal-analytics-ltd/fractal/544700/"
+    },
+    {
+      "scrip_Code": "500660",
+      "short_name": "GLAXO",
+      "Long_Name": "GlaxoSmithKline Pharmaceuticals Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/glaxosmithkline-pharmaceuticals-ltd/glaxo/500660/"
+    },
+    {
+      "scrip_Code": "544801",
+      "short_name": "GSPLTRANS",
+      "Long_Name": "GSPL Transmission Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/gspl-transmission-ltd/gspltrans/544801/"
+    },
+    {
+      "scrip_Code": "543600",
+      "short_name": "HARSHA",
+      "Long_Name": "Harsha Engineers International Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/harsha-engineers-international-ltd/harsha/543600/"
+    },
+    {
+      "scrip_Code": "500257",
+      "short_name": "LUPIN",
+      "Long_Name": "Lupin Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/lupin-ltd/lupin/500257/"
+    },
+    {
+      "scrip_Code": "539542",
+      "short_name": "LUXIND",
+      "Long_Name": "Lux Industries Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/lux-industries-ltd/luxind/539542/"
+    },
+    {
+      "scrip_Code": "534091",
+      "short_name": "MCX",
+      "Long_Name": "Multi Commodity Exchange of India Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/multi-commodity-exchange-of-india-ltd/mcx/534091/"
+    },
+    {
+      "scrip_Code": "544647",
+      "short_name": "NEPHROPLUS",
+      "Long_Name": "Nephrocare Health Services Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/nephrocare-health-services-ltd/nephroplus/544647/"
+    },
+    {
+      "scrip_Code": "500672",
+      "short_name": "NOVARTIND",
+      "Long_Name": "Novartis India Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/novartis-india-ltd/novartind/500672/"
+    },
+    {
+      "scrip_Code": "544937",
+      "short_name": "NSE",
+      "Long_Name": "National Stock Exchange of India Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/national-stock-exchange-of-india-ltd/nse/544937/"
+    },
+    {
+      "scrip_Code": "539121",
+      "short_name": "PALCO",
+      "Long_Name": "Palco Metals Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/palco-metals-ltd/palco/539121/"
+    },
+    {
+      "scrip_Code": "506618",
+      "short_name": "PUNJABCHEM",
+      "Long_Name": "Punjab Chemicals & Crop Protection Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/punjab-chemicals--crop-protection-ltd/punjabchem/506618/"
+    },
+    {
+      "scrip_Code": "532503",
+      "short_name": "RAJPALAYAM",
+      "Long_Name": "Rajapalayam Mills Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rajapalayam-mills-ltd/rajpalayam/532503/"
+    },
+    {
+      "scrip_Code": "544060",
+      "short_name": "RBZJEWEL",
+      "Long_Name": "RBZ Jewellers Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rbz-jewellers-ltd/rbzjewel/544060/"
+    },
+    {
+      "scrip_Code": "532661",
+      "short_name": "RML",
+      "Long_Name": "Rane (Madras) Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rane-(madras)-ltd/rml/532661/"
+    },
+    {
+      "scrip_Code": "533470",
+      "short_name": "RUSHIL",
+      "Long_Name": "Rushil Decor Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/rushil-decor-ltd/rushil/533470/"
+    },
+    {
+      "scrip_Code": "532348",
+      "short_name": "SUBEXLTD",
+      "Long_Name": "Subex Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/subex-ltd/subexltd/532348/"
+    },
+    {
+      "scrip_Code": "500414",
+      "short_name": "TIMEX",
+      "Long_Name": "Timex Group India Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/timex-group-india-ltd/timex/500414/"
+    },
+    {
+      "scrip_Code": "509038",
+      "short_name": "VOLLF",
+      "Long_Name": "Voltaire Leasing & Finance Ltd ",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/voltaire-leasing--finance-ltd-/vollf/509038/"
+    },
+    {
+      "scrip_Code": "501391",
+      "short_name": "WHBRADY",
+      "Long_Name": "WH Brady & Company Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/wh-brady--company-ltd/whbrady/501391/"
+    },
+    {
+      "scrip_Code": "531335",
+      "short_name": "ZYDUSWELL",
+      "Long_Name": "Zydus Wellness Ltd",
+      "meeting_date": "03 Nov 2026",
+      "URL": "https://www.bseindia.com/stock-share-price/zydus-wellness-ltd/zyduswell/531335/"
     }
   ]
 }
