@@ -1,240 +1,250 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-10-22T09:17:53Z",
+    "last_updated": "2026-10-22T14:35:00Z",
     "status": "healthy",
-    "record_count": 23
+    "record_count": 24
   },
   "data": [
     {
+      "symbol": "MSCIINDIA",
+      "name": "Kotak Mahindra Mutual Fund - Kotak MSCI India ETF",
+      "last_price": 27.85,
+      "change_pct": -0.46,
+      "volume": 3359042,
+      "turnover_cr": 9.38,
+      "vol_change_1wk_pct": 705.53,
+      "vol_change_2wk_pct": 301.38
+    },
+    {
       "symbol": "SUNTECK",
       "name": "Sunteck Realty Limited",
-      "last_price": 277.35,
-      "change_pct": 3.37,
-      "volume": 16212580,
-      "turnover_cr": 459.43,
-      "vol_change_1wk_pct": 206.07,
-      "vol_change_2wk_pct": 205.27
+      "last_price": 282.15,
+      "change_pct": 5.16,
+      "volume": 18338049,
+      "turnover_cr": 519.43,
+      "vol_change_1wk_pct": 233.08,
+      "vol_change_2wk_pct": 232.18
     },
     {
       "symbol": "TTML",
       "name": "Tata Teleservices (Maharashtra) Limited",
-      "last_price": 36.31,
-      "change_pct": 13.26,
-      "volume": 157180918,
-      "turnover_cr": 553.12,
-      "vol_change_1wk_pct": 173.0,
-      "vol_change_2wk_pct": 120.42
+      "last_price": 38.47,
+      "change_pct": 19.99,
+      "volume": 209010072,
+      "turnover_cr": 747.42,
+      "vol_change_1wk_pct": 230.04,
+      "vol_change_2wk_pct": 160.12
     },
     {
       "symbol": "GROWWRLTY",
       "name": "Groww Mutual Fund - Groww Nifty Realty ETF",
-      "last_price": 9.02,
-      "change_pct": 0,
-      "volume": 11009254,
-      "turnover_cr": 10.06,
-      "vol_change_1wk_pct": 104.28,
-      "vol_change_2wk_pct": 69.38
+      "last_price": 9.08,
+      "change_pct": 0.67,
+      "volume": 11014909,
+      "turnover_cr": 10.07,
+      "vol_change_1wk_pct": 104.34,
+      "vol_change_2wk_pct": 69.42
     },
     {
       "symbol": "OPTIFIN",
       "name": "Optimus Finance Limited",
-      "last_price": 16.89,
-      "change_pct": 19.87,
-      "volume": 8197153,
-      "turnover_cr": 13.54,
-      "vol_change_1wk_pct": 74.55,
-      "vol_change_2wk_pct": 95.54
+      "last_price": 16.9,
+      "change_pct": 19.94,
+      "volume": 8821332,
+      "turnover_cr": 14.6,
+      "vol_change_1wk_pct": 80.23,
+      "vol_change_2wk_pct": 102.82
     },
     {
       "symbol": "MIDQ50ADD",
       "name": "DSP  Mutual Fund - DSP Nifty Midcap 150 Quality 50 ETF",
       "last_price": 22.95,
       "change_pct": -1.29,
-      "volume": 1727647,
+      "volume": 1729499,
       "turnover_cr": 3.95,
-      "vol_change_1wk_pct": 63.46,
-      "vol_change_2wk_pct": 62.33
+      "vol_change_1wk_pct": 63.53,
+      "vol_change_2wk_pct": 62.39
     },
     {
       "symbol": "REPL",
       "name": "Rudrabhishek Enterprises Limited",
-      "last_price": 75.31,
-      "change_pct": 14.84,
-      "volume": 521063,
-      "turnover_cr": 3.92,
-      "vol_change_1wk_pct": 40.46,
-      "vol_change_2wk_pct": 61.85
+      "last_price": 78.69,
+      "change_pct": 19.99,
+      "volume": 630609,
+      "turnover_cr": 4.77,
+      "vol_change_1wk_pct": 48.97,
+      "vol_change_2wk_pct": 74.86
     },
     {
       "symbol": "OMNI",
       "name": "Omnitech Engineering Limited",
-      "last_price": 670,
-      "change_pct": 12.98,
-      "volume": 16659732,
-      "turnover_cr": 1092.43,
-      "vol_change_1wk_pct": 35.16,
-      "vol_change_2wk_pct": 31.85
+      "last_price": 674,
+      "change_pct": 13.65,
+      "volume": 21116033,
+      "turnover_cr": 1396.23,
+      "vol_change_1wk_pct": 44.56,
+      "vol_change_2wk_pct": 40.37
     },
     {
       "symbol": "NGLFINE",
       "name": "NGL Fine-Chem Limited",
-      "last_price": 2720.1,
-      "change_pct": 3.69,
-      "volume": 58638,
-      "turnover_cr": 15.97,
-      "vol_change_1wk_pct": 24.62,
-      "vol_change_2wk_pct": 16.62
+      "last_price": 2601,
+      "change_pct": -0.85,
+      "volume": 71200,
+      "turnover_cr": 19.31,
+      "vol_change_1wk_pct": 29.89,
+      "vol_change_2wk_pct": 20.19
     },
     {
       "symbol": "KEEPLEARN",
       "name": "DSJ Keep Learning Limited",
       "last_price": 1.36,
       "change_pct": -17.07,
-      "volume": 465541,
-      "turnover_cr": 0.07,
-      "vol_change_1wk_pct": 20.54,
-      "vol_change_2wk_pct": 10.26
+      "volume": 641124,
+      "turnover_cr": 0.09,
+      "vol_change_1wk_pct": 28.29,
+      "vol_change_2wk_pct": 14.12
     },
     {
       "symbol": "MAHLIFE",
       "name": "Mahindra Lifespace Developers Limited",
-      "last_price": 352.15,
-      "change_pct": 3.35,
-      "volume": 2265928,
-      "turnover_cr": 79.0,
-      "vol_change_1wk_pct": 20.41,
-      "vol_change_2wk_pct": 13.38
+      "last_price": 357,
+      "change_pct": 4.77,
+      "volume": 2926197,
+      "turnover_cr": 102.24,
+      "vol_change_1wk_pct": 26.35,
+      "vol_change_2wk_pct": 17.28
+    },
+    {
+      "symbol": "MTNL",
+      "name": "Mahanagar Telephone Nigam Limited",
+      "last_price": 24.19,
+      "change_pct": 8.96,
+      "volume": 21833675,
+      "turnover_cr": 52.79,
+      "vol_change_1wk_pct": 23.74,
+      "vol_change_2wk_pct": 5.3
     },
     {
       "symbol": "CAPILLARY",
       "name": "Capillary Technologies India Limited",
-      "last_price": 550.9,
-      "change_pct": 2.75,
-      "volume": 1868221,
-      "turnover_cr": 105.21,
-      "vol_change_1wk_pct": 18.46,
-      "vol_change_2wk_pct": 11.14
+      "last_price": 543,
+      "change_pct": 1.28,
+      "volume": 2000472,
+      "turnover_cr": 112.46,
+      "vol_change_1wk_pct": 19.76,
+      "vol_change_2wk_pct": 11.92
+    },
+    {
+      "symbol": "TINNARUBR",
+      "name": "Tinna Rubber and Infrastructure Limited",
+      "last_price": 740.95,
+      "change_pct": -15.64,
+      "volume": 720446,
+      "turnover_cr": 56.67,
+      "vol_change_1wk_pct": 16.34,
+      "vol_change_2wk_pct": 18.63
     },
     {
       "symbol": "GRWRHITECH",
       "name": "Garware Hi-Tech Films Limited",
-      "last_price": 6625,
-      "change_pct": -0.88,
-      "volume": 493517,
-      "turnover_cr": 310.8,
-      "vol_change_1wk_pct": 14.15,
-      "vol_change_2wk_pct": 11.15
+      "last_price": 6700,
+      "change_pct": 0.24,
+      "volume": 556234,
+      "turnover_cr": 352.52,
+      "vol_change_1wk_pct": 15.95,
+      "vol_change_2wk_pct": 12.57
     },
     {
       "symbol": "SIL",
       "name": "Standard Industries Limited",
-      "last_price": 17.63,
-      "change_pct": 0,
-      "volume": 3058617,
-      "turnover_cr": 5.94,
-      "vol_change_1wk_pct": 13.18,
-      "vol_change_2wk_pct": 21.93
+      "last_price": 18.14,
+      "change_pct": 2.89,
+      "volume": 3289483,
+      "turnover_cr": 6.35,
+      "vol_change_1wk_pct": 14.18,
+      "vol_change_2wk_pct": 23.58
+    },
+    {
+      "symbol": "DBEIL",
+      "name": "Deepak Builders & Engineers India Limited",
+      "last_price": 5.7,
+      "change_pct": -2.56,
+      "volume": 1766146,
+      "turnover_cr": 1.06,
+      "vol_change_1wk_pct": 12.95,
+      "vol_change_2wk_pct": 6.66
+    },
+    {
+      "symbol": "SGLRES",
+      "name": "SGL Resources Limited",
+      "last_price": 2.11,
+      "change_pct": -0.94,
+      "volume": 939514,
+      "turnover_cr": 0.19,
+      "vol_change_1wk_pct": 12.85,
+      "vol_change_2wk_pct": 11.56
+    },
+    {
+      "symbol": "KEI",
+      "name": "KEI Industries Limited",
+      "last_price": 3873,
+      "change_pct": -8.45,
+      "volume": 3434360,
+      "turnover_cr": 1334.92,
+      "vol_change_1wk_pct": 12.34,
+      "vol_change_2wk_pct": 13.59
     },
     {
       "symbol": "QUALITY30",
       "name": "Kotak Mahindra Mutual Fund - Kotak Nifty200 Quality 30 ETF",
-      "last_price": 19.3,
-      "change_pct": -0.16,
-      "volume": 117348,
+      "last_price": 19.4,
+      "change_pct": 0.36,
+      "volume": 117491,
       "turnover_cr": 0.23,
-      "vol_change_1wk_pct": 12.31,
-      "vol_change_2wk_pct": 7.46
+      "vol_change_1wk_pct": 12.33,
+      "vol_change_2wk_pct": 7.47
     },
     {
       "symbol": "IGIL",
       "name": "International Gemological Institute Limited",
       "last_price": 353.2,
       "change_pct": 10,
-      "volume": 7562729,
-      "turnover_cr": 265.19,
-      "vol_change_1wk_pct": 12.12,
-      "vol_change_2wk_pct": 14.51
+      "volume": 7582399,
+      "turnover_cr": 265.88,
+      "vol_change_1wk_pct": 12.15,
+      "vol_change_2wk_pct": 14.54
     },
     {
       "symbol": "EMUDHRA",
       "name": "eMudhra Limited",
-      "last_price": 348.5,
-      "change_pct": -19.33,
-      "volume": 8444884,
-      "turnover_cr": 311.52,
-      "vol_change_1wk_pct": 11.6,
-      "vol_change_2wk_pct": 14.46
+      "last_price": 345.6,
+      "change_pct": -20,
+      "volume": 8617422,
+      "turnover_cr": 317.49,
+      "vol_change_1wk_pct": 11.84,
+      "vol_change_2wk_pct": 14.76
     },
     {
-      "symbol": "TINNARUBR",
-      "name": "Tinna Rubber and Infrastructure Limited",
-      "last_price": 775.55,
-      "change_pct": -11.7,
-      "volume": 498937,
-      "turnover_cr": 40.13,
-      "vol_change_1wk_pct": 11.31,
-      "vol_change_2wk_pct": 12.9
-    },
-    {
-      "symbol": "KEI",
-      "name": "KEI Industries Limited",
-      "last_price": 3901,
-      "change_pct": -7.79,
-      "volume": 3140920,
-      "turnover_cr": 1221.09,
-      "vol_change_1wk_pct": 11.29,
-      "vol_change_2wk_pct": 12.43
-    },
-    {
-      "symbol": "NIFTYIETF",
-      "name": "ICICI Prudential Nifty 50 ETF",
-      "last_price": 257.58,
-      "change_pct": -0.27,
-      "volume": 4555590,
-      "turnover_cr": 117.52,
-      "vol_change_1wk_pct": 10.11,
-      "vol_change_2wk_pct": 7.12
-    },
-    {
-      "symbol": "DBEIL",
-      "name": "Deepak Builders & Engineers India Limited",
-      "last_price": 6.02,
-      "change_pct": 2.91,
-      "volume": 1350047,
-      "turnover_cr": 0.82,
-      "vol_change_1wk_pct": 9.9,
-      "vol_change_2wk_pct": 5.09
-    },
-    {
-      "symbol": "KRITI",
-      "name": "Kriti Industries (India) Limited",
-      "last_price": 50.55,
-      "change_pct": -6.42,
-      "volume": 72501,
-      "turnover_cr": 0.38,
-      "vol_change_1wk_pct": 9.41,
-      "vol_change_2wk_pct": 5.81
-    },
-    {
-      "symbol": "EQUAL50ADD",
-      "name": "DSP  Mutual Fund - DSP Nifty 50 Equal Weight ETF",
-      "last_price": 318.98,
-      "change_pct": -0.37,
-      "volume": 124758,
-      "turnover_cr": 3.97,
-      "vol_change_1wk_pct": 9.37,
-      "vol_change_2wk_pct": 6.59
+      "symbol": "BRIGHOTEL",
+      "name": "Brigade Hotel Ventures Limited",
+      "last_price": 51.43,
+      "change_pct": -5.18,
+      "volume": 619557,
+      "turnover_cr": 3.22,
+      "vol_change_1wk_pct": 11.13,
+      "vol_change_2wk_pct": 11.62
     },
     {
       "symbol": "SAPPHIRE",
       "name": "Sapphire Foods India Limited",
-      "last_price": 194,
-      "change_pct": 0.53,
-      "volume": 2158718,
-      "turnover_cr": 41.71,
-      "vol_change_1wk_pct": 9.29,
-      "vol_change_2wk_pct": 4.98
+      "last_price": 197.98,
+      "change_pct": 2.6,
+      "volume": 2430343,
+      "turnover_cr": 47.01,
+      "vol_change_1wk_pct": 10.46,
+      "vol_change_2wk_pct": 5.61
     }
   ]
 }
