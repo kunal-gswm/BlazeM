@@ -1,220 +1,230 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-10-23T09:14:23Z",
+    "last_updated": "2026-10-23T14:18:51Z",
     "status": "healthy",
-    "record_count": 21
+    "record_count": 22
   },
   "data": [
     {
       "symbol": "ARYAMAN",
       "name": "Aryaman Financial Services Limited",
-      "last_price": 624.8,
-      "change_pct": -0.02,
-      "volume": 58059,
+      "last_price": 621.2,
+      "change_pct": -0.59,
+      "volume": 58061,
       "turnover_cr": 3.62,
-      "vol_change_1wk_pct": 765.95,
-      "vol_change_2wk_pct": 1059.47
+      "vol_change_1wk_pct": 765.98,
+      "vol_change_2wk_pct": 1059.51
     },
     {
       "symbol": "JINDALPOLY",
       "name": "Jindal Poly Films Limited",
-      "last_price": 770.65,
-      "change_pct": 15.94,
-      "volume": 7403180,
-      "turnover_cr": 544.75,
-      "vol_change_1wk_pct": 174.51,
-      "vol_change_2wk_pct": 86.1
+      "last_price": 712.95,
+      "change_pct": 7.26,
+      "volume": 8343139,
+      "turnover_cr": 614.81,
+      "vol_change_1wk_pct": 196.66,
+      "vol_change_2wk_pct": 97.03
     },
     {
       "symbol": "SVGLOBAL",
       "name": "S V Global Mill Limited",
-      "last_price": 136.9,
-      "change_pct": 8.44,
-      "volume": 54368,
-      "turnover_cr": 0.8,
-      "vol_change_1wk_pct": 138.62,
-      "vol_change_2wk_pct": 132.09
+      "last_price": 132,
+      "change_pct": 4.55,
+      "volume": 58038,
+      "turnover_cr": 0.84,
+      "vol_change_1wk_pct": 147.98,
+      "vol_change_2wk_pct": 141.01
     },
     {
       "symbol": "WESTLIFE",
       "name": "WESTLIFE FOODWORLD LIMITED",
-      "last_price": 584.9,
-      "change_pct": 9.26,
-      "volume": 7466836,
-      "turnover_cr": 431.73,
-      "vol_change_1wk_pct": 87.01,
-      "vol_change_2wk_pct": 82.8
+      "last_price": 558.1,
+      "change_pct": 4.25,
+      "volume": 8791829,
+      "turnover_cr": 507.46,
+      "vol_change_1wk_pct": 102.45,
+      "vol_change_2wk_pct": 97.49
     },
     {
       "symbol": "ORIENTTECH",
       "name": "Orient Technologies Limited",
-      "last_price": 214.43,
-      "change_pct": 3.68,
-      "volume": 10650146,
-      "turnover_cr": 232.33,
-      "vol_change_1wk_pct": 75.18,
-      "vol_change_2wk_pct": 30.56
+      "last_price": 202.7,
+      "change_pct": -1.99,
+      "volume": 13108773,
+      "turnover_cr": 283.58,
+      "vol_change_1wk_pct": 92.53,
+      "vol_change_2wk_pct": 37.61
     },
     {
       "symbol": "NEXT30ADD",
       "name": "DSP Mutual Fund - DSP BSE SENSEX Next 30 ETF",
-      "last_price": 38.65,
-      "change_pct": -1.53,
-      "volume": 142034,
+      "last_price": 39.13,
+      "change_pct": -0.31,
+      "volume": 142193,
       "turnover_cr": 0.55,
-      "vol_change_1wk_pct": 70.95,
-      "vol_change_2wk_pct": 58.7
+      "vol_change_1wk_pct": 71.03,
+      "vol_change_2wk_pct": 58.76
     },
     {
       "symbol": "NIFTYADD",
       "name": "DSP  Mutual Fund - DSP Nifty 50 ETF",
-      "last_price": 237.53,
-      "change_pct": -0.77,
-      "volume": 352894,
-      "turnover_cr": 8.37,
-      "vol_change_1wk_pct": 46.77,
-      "vol_change_2wk_pct": 13.22
+      "last_price": 238.28,
+      "change_pct": -0.46,
+      "volume": 353962,
+      "turnover_cr": 8.39,
+      "vol_change_1wk_pct": 46.91,
+      "vol_change_2wk_pct": 13.26
     },
     {
       "symbol": "CYIENT",
       "name": "Cyient Limited",
-      "last_price": 1251.3,
-      "change_pct": 9.41,
-      "volume": 17307025,
-      "turnover_cr": 2137.61,
-      "vol_change_1wk_pct": 38.93,
-      "vol_change_2wk_pct": 19.71
+      "last_price": 1225.8,
+      "change_pct": 7.18,
+      "volume": 19888724,
+      "turnover_cr": 2455.94,
+      "vol_change_1wk_pct": 44.73,
+      "vol_change_2wk_pct": 22.65
     },
     {
       "symbol": "SSWL",
       "name": "Steel Strips Wheels Limited",
       "last_price": 468.75,
       "change_pct": 19.99,
-      "volume": 19862216,
-      "turnover_cr": 879.94,
-      "vol_change_1wk_pct": 25.4,
-      "vol_change_2wk_pct": 25.91
+      "volume": 19900207,
+      "turnover_cr": 881.72,
+      "vol_change_1wk_pct": 25.45,
+      "vol_change_2wk_pct": 25.96
     },
     {
       "symbol": "ANTELOPUS",
       "name": "Antelopus Selan Energy Limited",
-      "last_price": 1144,
-      "change_pct": 13.75,
-      "volume": 2747410,
-      "turnover_cr": 306.4,
-      "vol_change_1wk_pct": 16.71,
-      "vol_change_2wk_pct": 15.38
-    },
-    {
-      "symbol": "MUTHOOTCAP",
-      "name": "Muthoot Capital Services Limited",
-      "last_price": 182.68,
-      "change_pct": -9.62,
-      "volume": 64572,
-      "turnover_cr": 1.2,
-      "vol_change_1wk_pct": 16.14,
-      "vol_change_2wk_pct": 11.08
-    },
-    {
-      "symbol": "QUAL30IETF",
-      "name": "ICICI Prudential MF - ICICI Prudential Nifty 200 Quality 30 ETF",
-      "last_price": 19.36,
-      "change_pct": -1.38,
-      "volume": 1154422,
-      "turnover_cr": 2.24,
-      "vol_change_1wk_pct": 15.77,
-      "vol_change_2wk_pct": 10.25
+      "last_price": 1126,
+      "change_pct": 11.96,
+      "volume": 3187836,
+      "turnover_cr": 356.47,
+      "vol_change_1wk_pct": 19.39,
+      "vol_change_2wk_pct": 17.85
     },
     {
       "symbol": "KOLTEPATIL",
       "name": "Kolte - Patil Developers Limited",
-      "last_price": 450,
-      "change_pct": 4.31,
-      "volume": 633270,
-      "turnover_cr": 28.53,
-      "vol_change_1wk_pct": 13.39,
-      "vol_change_2wk_pct": 1.88
+      "last_price": 454.15,
+      "change_pct": 5.27,
+      "volume": 891428,
+      "turnover_cr": 40.32,
+      "vol_change_1wk_pct": 18.85,
+      "vol_change_2wk_pct": 2.65
+    },
+    {
+      "symbol": "MUTHOOTCAP",
+      "name": "Muthoot Capital Services Limited",
+      "last_price": 182.4,
+      "change_pct": -9.76,
+      "volume": 70419,
+      "turnover_cr": 1.31,
+      "vol_change_1wk_pct": 17.6,
+      "vol_change_2wk_pct": 12.09
+    },
+    {
+      "symbol": "QUAL30IETF",
+      "name": "ICICI Prudential MF - ICICI Prudential Nifty 200 Quality 30 ETF",
+      "last_price": 19.48,
+      "change_pct": -0.76,
+      "volume": 1173289,
+      "turnover_cr": 2.28,
+      "vol_change_1wk_pct": 16.03,
+      "vol_change_2wk_pct": 10.42
     },
     {
       "symbol": "SBIMIDMOM",
       "name": "SBI Nifty Midcap150 Momentum 50 ETF",
-      "last_price": 56.5,
-      "change_pct": -2.7,
-      "volume": 458057,
-      "turnover_cr": 2.59,
-      "vol_change_1wk_pct": 13.14,
-      "vol_change_2wk_pct": 12.91
-    },
-    {
-      "symbol": "NIFTYBETF",
-      "name": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty 50 ETF",
-      "last_price": 232,
-      "change_pct": -0.97,
-      "volume": 28483,
-      "turnover_cr": 0.66,
-      "vol_change_1wk_pct": 11.73,
-      "vol_change_2wk_pct": 9.32
-    },
-    {
-      "symbol": "SWIGGY",
-      "name": "Swiggy Limited",
-      "last_price": 179.25,
-      "change_pct": -15.21,
-      "volume": 128317499,
-      "turnover_cr": 2374.0,
-      "vol_change_1wk_pct": 11.67,
-      "vol_change_2wk_pct": 14.24
+      "last_price": 56.78,
+      "change_pct": -2.22,
+      "volume": 504321,
+      "turnover_cr": 2.85,
+      "vol_change_1wk_pct": 14.46,
+      "vol_change_2wk_pct": 14.21
     },
     {
       "symbol": "KSOLVES",
       "name": "Ksolves India Limited",
-      "last_price": 223.68,
-      "change_pct": -8.16,
-      "volume": 267840,
-      "turnover_cr": 6.31,
-      "vol_change_1wk_pct": 11.22,
-      "vol_change_2wk_pct": 11.49
+      "last_price": 215.66,
+      "change_pct": -11.46,
+      "volume": 308182,
+      "turnover_cr": 7.2,
+      "vol_change_1wk_pct": 12.91,
+      "vol_change_2wk_pct": 13.22
+    },
+    {
+      "symbol": "SWIGGY",
+      "name": "Swiggy Limited",
+      "last_price": 176,
+      "change_pct": -16.75,
+      "volume": 137428526,
+      "turnover_cr": 2536.38,
+      "vol_change_1wk_pct": 12.5,
+      "vol_change_2wk_pct": 15.26
     },
     {
       "symbol": "MONEXT50",
       "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Next 50 ETF",
-      "last_price": 65.5,
-      "change_pct": -4.1,
-      "volume": 34567,
-      "turnover_cr": 0.23,
-      "vol_change_1wk_pct": 11.17,
-      "vol_change_2wk_pct": 4.72
+      "last_price": 65.99,
+      "change_pct": -3.38,
+      "volume": 36557,
+      "turnover_cr": 0.24,
+      "vol_change_1wk_pct": 11.81,
+      "vol_change_2wk_pct": 4.99
+    },
+    {
+      "symbol": "NIFTYBETF",
+      "name": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty 50 ETF",
+      "last_price": 231.51,
+      "change_pct": -1.18,
+      "volume": 28508,
+      "turnover_cr": 0.66,
+      "vol_change_1wk_pct": 11.74,
+      "vol_change_2wk_pct": 9.32
     },
     {
       "symbol": "CHEMFAB",
       "name": "Chemfab Alkalis Limited",
-      "last_price": 294.05,
-      "change_pct": -7.85,
-      "volume": 10930,
-      "turnover_cr": 0.32,
-      "vol_change_1wk_pct": 9.95,
-      "vol_change_2wk_pct": 5.26
+      "last_price": 298,
+      "change_pct": -6.61,
+      "volume": 11442,
+      "turnover_cr": 0.34,
+      "vol_change_1wk_pct": 10.42,
+      "vol_change_2wk_pct": 5.5
     },
     {
-      "symbol": "SHBAJRG",
-      "name": "Shri Bajrang Alliance Limited",
-      "last_price": 142.9,
-      "change_pct": -7.41,
-      "volume": 18103,
-      "turnover_cr": 0.25,
-      "vol_change_1wk_pct": 8.9,
-      "vol_change_2wk_pct": 4.91
+      "symbol": "MIDBANKADD",
+      "name": "DSP Mutual Fund - DSP BSE MidSmall Private Banks ETF",
+      "last_price": 16.8,
+      "change_pct": 5,
+      "volume": 60510,
+      "turnover_cr": 0.1,
+      "vol_change_1wk_pct": 10.28,
+      "vol_change_2wk_pct": 2.32
     },
     {
-      "symbol": "CREDITACC",
-      "name": "CREDITACCESS GRAMEEN LIMITED",
-      "last_price": 1026.5,
-      "change_pct": -5.7,
-      "volume": 2923599,
-      "turnover_cr": 309.37,
-      "vol_change_1wk_pct": 8.39,
-      "vol_change_2wk_pct": 10.54
+      "symbol": "IGIL",
+      "name": "International Gemological Institute Limited",
+      "last_price": 375.4,
+      "change_pct": 6.29,
+      "volume": 20608368,
+      "turnover_cr": 759.07,
+      "vol_change_1wk_pct": 10.02,
+      "vol_change_2wk_pct": 16.67
+    },
+    {
+      "symbol": "SURYALAXMI",
+      "name": "Suryalakshmi Cotton Mills Limited",
+      "last_price": 47.01,
+      "change_pct": -7.84,
+      "volume": 23729,
+      "turnover_cr": 0.11,
+      "vol_change_1wk_pct": 9.85,
+      "vol_change_2wk_pct": 13.98
     }
   ]
 }
