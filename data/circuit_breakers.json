@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "NSE India",
-    "last_updated": "2026-10-28T10:27:25Z",
+    "last_updated": "2026-10-28T16:48:11Z",
     "status": "healthy",
     "record_count": 2
   },
@@ -28,16 +28,6 @@
         "turnover_cr": 204.22
       },
       {
-        "symbol": "INDOUS",
-        "name": "INDOUS",
-        "last_price": 86.84,
-        "prev_close": 72.37,
-        "change": 19.99,
-        "change_pct": 19.99,
-        "volume": 305467,
-        "turnover_cr": 2.61
-      },
-      {
         "symbol": "SUDARCOLOR",
         "name": "SUDARCOLOR",
         "last_price": 434.5,
@@ -46,6 +36,16 @@
         "change_pct": 19.99,
         "volume": 179244,
         "turnover_cr": 7.47
+      },
+      {
+        "symbol": "INDOUS",
+        "name": "INDOUS",
+        "last_price": 86.84,
+        "prev_close": 72.37,
+        "change": 19.99,
+        "change_pct": 19.99,
+        "volume": 305467,
+        "turnover_cr": 2.61
       },
       {
         "symbol": "SAKUMA",
@@ -74,8 +74,8 @@
         "prev_close": 198.72,
         "change": 16.04,
         "change_pct": 16.04,
-        "volume": 118071417,
-        "turnover_cr": 2684.47
+        "volume": 118072228,
+        "turnover_cr": 2684.49
       },
       {
         "symbol": "JYOTISTRUC",
@@ -84,8 +84,8 @@
         "prev_close": 9.01,
         "change": 15.87,
         "change_pct": 15.87,
-        "volume": 58381718,
-        "turnover_cr": 58.26
+        "volume": 58437718,
+        "turnover_cr": 58.32
       },
       {
         "symbol": "DCMSRIND",
@@ -104,7 +104,7 @@
         "prev_close": 149.55,
         "change": 14.34,
         "change_pct": 14.34,
-        "volume": 3441054,
+        "volume": 3441154,
         "turnover_cr": 57.46
       },
       {
@@ -154,8 +154,8 @@
         "prev_close": 402.25,
         "change": 11.25,
         "change_pct": 11.25,
-        "volume": 11572500,
-        "turnover_cr": 516.36
+        "volume": 11572516,
+        "turnover_cr": 516.37
       },
       {
         "symbol": "WSI",
@@ -194,7 +194,7 @@
         "prev_close": 36.19,
         "change": 10.53,
         "change_pct": 10.53,
-        "volume": 271501,
+        "volume": 271651,
         "turnover_cr": 1.08
       },
       {
@@ -214,7 +214,7 @@
         "prev_close": 82.54,
         "change": 10.25,
         "change_pct": 10.25,
-        "volume": 13888704,
+        "volume": 13888705,
         "turnover_cr": 123.61
       },
       {
@@ -266,8 +266,8 @@
         "prev_close": 314.9,
         "change": -17.69,
         "change_pct": -17.69,
-        "volume": 8199794,
-        "turnover_cr": 225.54
+        "volume": 8200916,
+        "turnover_cr": 225.57
       },
       {
         "symbol": "20MICRONS",
@@ -276,7 +276,7 @@
         "prev_close": 188.69,
         "change": -15.95,
         "change_pct": -15.95,
-        "volume": 1133572,
+        "volume": 1133822,
         "turnover_cr": 18.76
       },
       {
@@ -296,7 +296,7 @@
         "prev_close": 3808.4,
         "change": -13.74,
         "change_pct": -13.74,
-        "volume": 377157,
+        "volume": 377167,
         "turnover_cr": 129.8
       },
       {
