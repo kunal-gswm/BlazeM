@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-10-29T17:07:24Z",
+    "last_updated": "2026-10-30T10:46:50Z",
     "status": "healthy",
-    "record_count": 15
+    "record_count": 14
   },
   "data": [
     {
@@ -25,7 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/vedant-poly-fabs-ipo/2297/",
-      "scraped_at": "2026-10-29T17:07:06.360683+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.699792+00:00Z"
     },
     {
       "issue_name": "HGS (India) NSE SME",
@@ -38,15 +38,15 @@
       "issue_close": "2026-11-03",
       "allotment_date": "2026-11-04",
       "listing_date": "2026-11-06",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 19.0,
+      "gmp_percent": "15.83%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/hgs-india-ipo/2241/",
-      "scraped_at": "2026-10-29T17:07:06.360805+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.699920+00:00Z"
     },
     {
       "issue_name": "Johnsoncab Electricals BSE SME",
@@ -59,15 +59,15 @@
       "issue_close": "2026-11-03",
       "allotment_date": "2026-11-04",
       "listing_date": "2026-11-06",
-      "gmp": 13.0,
-      "gmp_percent": "6.50%",
+      "gmp": 10.0,
+      "gmp_percent": "5.00%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/johnsoncab-electricals-ipo/2371/",
-      "scraped_at": "2026-10-29T17:07:06.360903+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700023+00:00Z"
     },
     {
       "issue_name": "Vectras Enprocon BSE SME",
@@ -88,7 +88,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/vectras-enprocon-ipo/1998/",
-      "scraped_at": "2026-10-29T17:07:06.361003+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700123+00:00Z"
     },
     {
       "issue_name": "Maxwell Engineering Solutions NSE SME",
@@ -109,7 +109,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/maxwell-engineering-solutions-ipo/1965/",
-      "scraped_at": "2026-10-29T17:07:06.361097+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700269+00:00Z"
     },
     {
       "issue_name": "Antala Industries BSE SME",
@@ -130,7 +130,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/antala-industries-ipo/2375/",
-      "scraped_at": "2026-10-29T17:07:06.361189+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700368+00:00Z"
     },
     {
       "issue_name": "Bombay Coated and Special Steels",
@@ -143,15 +143,15 @@
       "issue_close": "2026-11-02",
       "allotment_date": "2026-11-03",
       "listing_date": "2026-11-05",
-      "gmp": 9.0,
-      "gmp_percent": "10.98%",
+      "gmp": 7.0,
+      "gmp_percent": "8.54%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/bombay-coated-and-special-steels-ipo/1936/",
-      "scraped_at": "2026-10-29T17:07:06.361279+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700475+00:00Z"
     },
     {
       "issue_name": "M.K.Sons Fine Jewels",
@@ -164,18 +164,18 @@
       "issue_close": "2026-10-30",
       "allotment_date": "2026-11-02",
       "listing_date": "2026-11-04",
-      "gmp": 12.0,
-      "gmp_percent": "7.41%",
-      "subscription_qib": "0.99x",
-      "subscription_nii": "2.20x",
-      "subscription_retail": "0.85x",
-      "subscription_total": "1.18x",
-      "subscription_applications": "48,300",
+      "gmp": 2.0,
+      "gmp_percent": "1.23%",
+      "subscription_qib": "1.84x",
+      "subscription_nii": "14.07x",
+      "subscription_retail": "2.92x",
+      "subscription_total": "5.00x",
+      "subscription_applications": "1,75,020",
       "detail_url": "https://www.investorgain.com/gmp/mksons-fine-jewels-ipo/2288/",
-      "scraped_at": "2026-10-29T17:07:06.361425+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700579+00:00Z"
     },
     {
-      "issue_name": "Ajwa Projects BSE SME",
+      "issue_name": "Ajwa Projects BSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "203",
@@ -185,18 +185,18 @@
       "issue_close": "2026-10-30",
       "allotment_date": "2026-11-02",
       "listing_date": "2026-11-04",
-      "gmp": 5.0,
-      "gmp_percent": "2.46%",
+      "gmp": 2.0,
+      "gmp_percent": "0.99%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/ajwa-projects-ipo/2017/",
-      "scraped_at": "2026-10-29T17:07:06.361518+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700675+00:00Z"
     },
     {
-      "issue_name": "Carver Roboweld BSE SME",
+      "issue_name": "Carver Roboweld BSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "80",
@@ -206,15 +206,15 @@
       "issue_close": "2026-10-30",
       "allotment_date": "2026-11-02",
       "listing_date": "2026-11-04",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 3.0,
+      "gmp_percent": "3.75%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/carver-roboweld-ipo/2393/",
-      "scraped_at": "2026-10-29T17:07:06.361605+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700771+00:00Z"
     },
     {
       "issue_name": "Wiscon Industries BSE SME",
@@ -235,7 +235,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/wiscon-industries-ipo/2356/",
-      "scraped_at": "2026-10-29T17:07:06.361691+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700860+00:00Z"
     },
     {
       "issue_name": "SFC Environmental Technologies",
@@ -248,15 +248,15 @@
       "issue_close": "2026-10-29",
       "allotment_date": "2026-10-30",
       "listing_date": "2026-11-03",
-      "gmp": 19.0,
-      "gmp_percent": "5.76%",
-      "subscription_qib": "18.81x",
-      "subscription_nii": "12.81x",
-      "subscription_retail": "2.71x",
-      "subscription_total": "9.47x",
-      "subscription_applications": "2,83,261",
+      "gmp": 21.0,
+      "gmp_percent": "6.36%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/sfc-environmental-technologies-ipo/1642/",
-      "scraped_at": "2026-10-29T17:07:06.361786+00:00Z"
+      "scraped_at": "2026-10-30T10:46:22.700953+00:00Z"
     },
     {
       "issue_name": "BLS Polymers",
@@ -269,42 +269,21 @@
       "issue_close": "2026-10-29",
       "allotment_date": "2026-10-30",
       "listing_date": "2026-11-03",
-      "gmp": 68.0,
-      "gmp_percent": "45.33%",
-      "subscription_qib": "200.25x",
-      "subscription_nii": "559.20x",
-      "subscription_retail": "128.36x",
-      "subscription_total": "241.22x",
-      "subscription_applications": "61,60,926",
-      "detail_url": "https://www.investorgain.com/gmp/bls-polymers-ipo/1849/",
-      "scraped_at": "2026-10-29T17:07:06.361875+00:00Z"
-    },
-    {
-      "issue_name": "EAAA India Alternatives",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "1,665",
-      "lot_size": "9",
-      "issue_size": "₹1200.00 Cr",
-      "issue_open": "2026-10-26",
-      "issue_close": "2026-10-28",
-      "allotment_date": "2026-10-29",
-      "listing_date": "2026-11-02",
-      "gmp": 37.0,
-      "gmp_percent": "2.22%",
+      "gmp": 74.0,
+      "gmp_percent": "49.33%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/eaaa-india-alternatives-ipo/1635/",
-      "scraped_at": "2026-10-29T17:07:06.361962+00:00Z"
+      "detail_url": "https://www.investorgain.com/gmp/bls-polymers-ipo/1849/",
+      "scraped_at": "2026-10-30T10:46:22.701055+00:00Z"
     },
     {
       "issue_name": "Bombay Coated & Special Steels Ltd. O",
       "ipo_type": "Mainboard",
       "source": "chittorgarh",
-      "price_band": "78.00 to 82.00",
+      "price_band": "82.00",
       "lot_size": "",
       "issue_size": "",
       "issue_open": "2026-10-29",
@@ -314,12 +293,12 @@
       "gmp": null,
       "gmp_percent": null,
       "subscription_qib": "6.89x",
-      "subscription_nii": "0.76x",
-      "subscription_retail": "1.31x",
-      "subscription_total": "2.81x",
-      "subscription_applications": "44,366",
+      "subscription_nii": "1.75x",
+      "subscription_retail": "3.04x",
+      "subscription_total": "3.88x",
+      "subscription_applications": "1,04,029",
       "detail_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
-      "scraped_at": "2026-10-29T17:07:09.822888+00:00Z"
+      "scraped_at": "2026-10-30T10:46:27.624220+00:00Z"
     }
   ]
 }
