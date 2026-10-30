@@ -985,15 +985,15 @@
   },
   "m.k.sons fine jewels": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "ajwa projects bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "carver roboweld bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "antala industries bse sme": {
     "open_notified": true,
@@ -1034,5 +1034,9 @@
   "carver roboweld bse smect": {
     "open_notified": true,
     "closed_notified": false
+  },
+  "wiscon industries bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
   }
 }
