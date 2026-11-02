@@ -1001,7 +1001,7 @@
   },
   "bombay coated and special steels": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "wiscon industries bse smect": {
     "open_notified": true,
@@ -1036,6 +1036,14 @@
     "closed_notified": false
   },
   "wiscon industries bse smecallotted": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "vedant poly fabs nse sme": {
+    "open_notified": true,
+    "closed_notified": false
+  },
+  "antala industries bse smect": {
     "open_notified": false,
     "closed_notified": true
   }
