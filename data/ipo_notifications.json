@@ -1013,19 +1013,19 @@
   },
   "hgs (india) nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "johnsoncab electricals bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "vectras enprocon bse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "maxwell engineering solutions nse sme": {
     "open_notified": true,
-    "closed_notified": false
+    "closed_notified": true
   },
   "ajwa projects bse smect": {
     "open_notified": true,
@@ -1060,6 +1060,10 @@
     "closed_notified": true
   },
   "maxwell engineering solutions nse smect": {
+    "open_notified": false,
+    "closed_notified": true
+  },
+  "vedant poly fabs nse smect": {
     "open_notified": false,
     "closed_notified": true
   }
