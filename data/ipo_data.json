@@ -1,13 +1,13 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-11-04T11:57:34Z",
+    "last_updated": "2026-11-05T12:00:48Z",
     "status": "healthy",
-    "record_count": 6
+    "record_count": 2
   },
   "data": [
     {
-      "issue_name": "Antala Industries BSE SME",
+      "issue_name": "Antala Industries BSE SMECT",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "66",
@@ -25,10 +25,10 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/antala-industries-ipo/2375/",
-      "scraped_at": "2026-11-04T11:57:16.754446+00:00Z"
+      "scraped_at": "2026-11-05T12:00:30.780653+00:00Z"
     },
     {
-      "issue_name": "Vedant Poly Fabs NSE SMECT",
+      "issue_name": "Vedant Poly Fabs NSE SME",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "94",
@@ -46,91 +46,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/vedant-poly-fabs-ipo/2297/",
-      "scraped_at": "2026-11-04T11:57:16.754534+00:00Z"
-    },
-    {
-      "issue_name": "HGS (India) NSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "120",
-      "lot_size": "1,200",
-      "issue_size": "₹34.56 Cr",
-      "issue_open": "2026-10-30",
-      "issue_close": "2026-11-03",
-      "allotment_date": "2026-11-04",
-      "listing_date": "2026-11-06",
-      "gmp": 23.0,
-      "gmp_percent": "19.17%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/hgs-india-ipo/2241/",
-      "scraped_at": "2026-11-04T11:57:16.754587+00:00Z"
-    },
-    {
-      "issue_name": "Johnsoncab Electricals BSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "200",
-      "lot_size": "600",
-      "issue_size": "₹56.02 Cr",
-      "issue_open": "2026-10-30",
-      "issue_close": "2026-11-03",
-      "allotment_date": "2026-11-04",
-      "listing_date": "2026-11-06",
-      "gmp": 6.0,
-      "gmp_percent": "3.00%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/johnsoncab-electricals-ipo/2371/",
-      "scraped_at": "2026-11-04T11:57:16.754636+00:00Z"
-    },
-    {
-      "issue_name": "Vectras Enprocon BSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "105",
-      "lot_size": "1,200",
-      "issue_size": "₹53.05 Cr",
-      "issue_open": "2026-10-30",
-      "issue_close": "2026-11-03",
-      "allotment_date": "2026-11-04",
-      "listing_date": "2026-11-06",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/vectras-enprocon-ipo/1998/",
-      "scraped_at": "2026-11-04T11:57:16.754685+00:00Z"
-    },
-    {
-      "issue_name": "Maxwell Engineering Solutions NSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "158",
-      "lot_size": "800",
-      "issue_size": "₹57.64 Cr",
-      "issue_open": "2026-10-30",
-      "issue_close": "2026-11-03",
-      "allotment_date": "2026-11-04",
-      "listing_date": "2026-11-06",
-      "gmp": 75.0,
-      "gmp_percent": "47.47%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/maxwell-engineering-solutions-ipo/1965/",
-      "scraped_at": "2026-11-04T11:57:16.754734+00:00Z"
+      "scraped_at": "2026-11-05T12:00:30.780799+00:00Z"
     }
   ]
 }
