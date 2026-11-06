@@ -1,13 +1,13 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-11-05T12:00:48Z",
+    "last_updated": "2026-11-06T11:56:52Z",
     "status": "healthy",
-    "record_count": 2
+    "record_count": 1
   },
   "data": [
     {
-      "issue_name": "Antala Industries BSE SMECT",
+      "issue_name": "Antala Industries BSE SME",
       "ipo_type": "Mainboard",
       "source": "investorgain",
       "price_band": "66",
@@ -25,28 +25,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/antala-industries-ipo/2375/",
-      "scraped_at": "2026-11-05T12:00:30.780653+00:00Z"
-    },
-    {
-      "issue_name": "Vedant Poly Fabs NSE SME",
-      "ipo_type": "Mainboard",
-      "source": "investorgain",
-      "price_band": "94",
-      "lot_size": "1,200",
-      "issue_size": "₹56.68 Cr",
-      "issue_open": "2026-11-02",
-      "issue_close": "2026-11-04",
-      "allotment_date": "2026-11-05",
-      "listing_date": "2026-11-09",
-      "gmp": 1.0,
-      "gmp_percent": "1.06%",
-      "subscription_qib": null,
-      "subscription_nii": null,
-      "subscription_retail": null,
-      "subscription_total": null,
-      "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/vedant-poly-fabs-ipo/2297/",
-      "scraped_at": "2026-11-05T12:00:30.780799+00:00Z"
+      "scraped_at": "2026-11-06T11:56:34.618777+00:00Z"
     }
   ]
 }
