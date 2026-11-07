@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-11-06T19:54:47Z",
+    "last_updated": "2026-11-07T17:59:00Z",
     "status": "healthy",
-    "record_count": 75
+    "record_count": 83
   },
   "data": [
     {
@@ -87,6 +87,22 @@
       "dividend_amount": 0.5
     },
     {
+      "scrip_code": 500210,
+      "short_name": "INGERRAND",
+      "Ex_date": "19 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 20.0000",
+      "RD_Date": "19 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20261119",
+      "long_name": "Ingersoll-Rand (India) Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 20.0
+    },
+    {
       "scrip_code": 532827,
       "short_name": "PAGEIND",
       "Ex_date": "18 Nov 2026",
@@ -149,6 +165,22 @@
       "long_name": "BN Agrochem Ltd",
       "action_type": "Split",
       "dividend_amount": null
+    },
+    {
+      "scrip_code": 509162,
+      "short_name": "INDAG",
+      "Ex_date": "16 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 0.9000",
+      "RD_Date": "16 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "",
+      "ND_END_DATE": "",
+      "payment_date": "",
+      "exdate": "20261116",
+      "long_name": "Indag Rubber Ltd-$",
+      "action_type": "Dividend",
+      "dividend_amount": 0.9
     },
     {
       "scrip_code": 523598,
@@ -263,6 +295,22 @@
       "dividend_amount": null
     },
     {
+      "scrip_code": 505242,
+      "short_name": "DYNAMATECH",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 2.0000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "Dynamatic Technologies Ltd-$",
+      "action_type": "Dividend",
+      "dividend_amount": 2.0
+    },
+    {
       "scrip_code": 531162,
       "short_name": "EMAMILTD",
       "Ex_date": "13 Nov 2026",
@@ -274,7 +322,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Emami Ltd",
+      "long_name": "Emami Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -295,6 +343,22 @@
       "dividend_amount": null
     },
     {
+      "scrip_code": 500620,
+      "short_name": "GESHIP",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 14.4000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "Great Eastern Shipping Company Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 14.4
+    },
+    {
       "scrip_code": 500199,
       "short_name": "IGPL",
       "Ex_date": "13 Nov 2026",
@@ -311,6 +375,22 @@
       "dividend_amount": null
     },
     {
+      "scrip_code": 524622,
+      "short_name": "ISTRNETWK",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 0.0500",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "iStreet Network Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 0.05
+    },
+    {
       "scrip_code": 500264,
       "short_name": "MAFATIND",
       "Ex_date": "13 Nov 2026",
@@ -322,7 +402,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Mafatlal Industries Ltd",
+      "long_name": "Mafatlal Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -341,6 +421,22 @@
       "long_name": "Mobavenue AI Tech Ltd",
       "action_type": "Dividend",
       "dividend_amount": 0.1
+    },
+    {
+      "scrip_code": 544278,
+      "short_name": "OCCLLTD",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 2.0000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "OCCL Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 2.0
     },
     {
       "scrip_code": 544235,
@@ -378,7 +474,7 @@
       "scrip_code": 532934,
       "short_name": "PPAP",
       "Ex_date": "13 Nov 2026",
-      "Purpose": "Interim Dividend",
+      "Purpose": "Interim Dividend - Rs. - 1.5000",
       "RD_Date": "13 Nov 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -388,7 +484,7 @@
       "exdate": "20261113",
       "long_name": "PPAP Automotive Ltd",
       "action_type": "Dividend",
-      "dividend_amount": null
+      "dividend_amount": 1.5
     },
     {
       "scrip_code": 523539,
@@ -405,6 +501,38 @@
       "long_name": "Precision Wires India Ltd",
       "action_type": "Dividend",
       "dividend_amount": 0.35
+    },
+    {
+      "scrip_code": 530331,
+      "short_name": "PREMCO",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 10.0000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "Premco Global Ltd-$",
+      "action_type": "Dividend",
+      "dividend_amount": 10.0
+    },
+    {
+      "scrip_code": 500339,
+      "short_name": "RAIN",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 0.5000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "Rain Industries Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 0.5
     },
     {
       "scrip_code": 535322,
@@ -517,6 +645,22 @@
       "long_name": "Techknowgreen Solutions Ltd",
       "action_type": "Dividend",
       "dividend_amount": 0.5
+    },
+    {
+      "scrip_code": 520151,
+      "short_name": "TRANSWORLD",
+      "Ex_date": "13 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 11.0000",
+      "RD_Date": "13 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "08 Nov 2026",
+      "ND_END_DATE": "13 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261113",
+      "long_name": "Transworld Shipping Lines Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 11.0
     },
     {
       "scrip_code": 506285,
@@ -738,7 +882,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "Adf Foods Ltd",
+      "long_name": "Adf Foods Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.6
     },
@@ -770,7 +914,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "Balkrishna Industries Ltd",
+      "long_name": "Balkrishna Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -882,7 +1026,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "JM Financial Ltd",
+      "long_name": "JM Financial Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.65
     },
@@ -1189,22 +1333,6 @@
       "long_name": "Saksoft Ltd",
       "action_type": "Dividend",
       "dividend_amount": 0.5
-    },
-    {
-      "scrip_code": 590006,
-      "short_name": "AMRUTANJAN",
-      "Ex_date": "06 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 1.0000",
-      "RD_Date": "07 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "05 Nov 2026",
-      "ND_END_DATE": "05 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261106",
-      "long_name": "Amrutanjan Health Care Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 1.0
     }
   ]
 }
