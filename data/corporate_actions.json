@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-11-09T22:56:40Z",
+    "last_updated": "2026-11-10T20:23:56Z",
     "status": "healthy",
-    "record_count": 85
+    "record_count": 79
   },
   "data": [
     {
@@ -210,7 +210,7 @@
       "ND_END_DATE": "16 Nov 2026",
       "payment_date": "",
       "exdate": "20261116",
-      "long_name": "Indag Rubber Ltd",
+      "long_name": "Indag Rubber Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.9
     },
@@ -338,7 +338,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Dynamatic Technologies Ltd",
+      "long_name": "Dynamatic Technologies Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 2.0
     },
@@ -354,7 +354,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Emami Ltd",
+      "long_name": "Emami Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 5.0
     },
@@ -450,7 +450,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Mafatlal Industries Ltd",
+      "long_name": "Mafatlal Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.0
     },
@@ -578,7 +578,7 @@
       "ND_END_DATE": "13 Nov 2026",
       "payment_date": "",
       "exdate": "20261113",
-      "long_name": "Premco Global Ltd",
+      "long_name": "Premco Global Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 10.0
     },
@@ -946,7 +946,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "Adf Foods Ltd",
+      "long_name": "Adf Foods Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 0.6
     },
@@ -978,7 +978,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "Balkrishna Industries Ltd",
+      "long_name": "Balkrishna Industries Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 4.0
     },
@@ -1090,7 +1090,7 @@
       "ND_END_DATE": "11 Nov 2026",
       "payment_date": "",
       "exdate": "20261111",
-      "long_name": "JM Financial Ltd",
+      "long_name": "JM Financial Ltd-$",
       "action_type": "Dividend",
       "dividend_amount": 1.65
     },
@@ -1269,102 +1269,6 @@
       "long_name": "Sonata Software Ltd",
       "action_type": "Dividend",
       "dividend_amount": 1.25
-    },
-    {
-      "scrip_code": 544101,
-      "short_name": "BRISK",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 2.0000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Brisk Technovision Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 2.0
-    },
-    {
-      "scrip_code": 500096,
-      "short_name": "DABUR",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 3.5000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Dabur India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 3.5
-    },
-    {
-      "scrip_code": 500133,
-      "short_name": "ESABINDIA",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 20.0000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Esab India Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 20.0
-    },
-    {
-      "scrip_code": 543830,
-      "short_name": "LABELKRAFT",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 1.0000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Labelkraft Technologies Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 1.0
-    },
-    {
-      "scrip_code": 500317,
-      "short_name": "OSWALAGRO",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 0.5000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Oswal Agro Mills Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 0.5
-    },
-    {
-      "scrip_code": 590051,
-      "short_name": "SAKSOFT",
-      "Ex_date": "09 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 0.5000",
-      "RD_Date": "10 Nov 2026",
-      "BCRD_FROM": "",
-      "BCRD_TO": "",
-      "ND_START_DATE": "09 Nov 2026",
-      "ND_END_DATE": "09 Nov 2026",
-      "payment_date": "",
-      "exdate": "20261109",
-      "long_name": "Saksoft Ltd",
-      "action_type": "Dividend",
-      "dividend_amount": 0.5
     }
   ]
 }
