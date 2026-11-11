@@ -1,11 +1,11 @@
 {
   "corporate_actions": {
     "status": "healthy",
-    "updated_at": "2026-11-10T20:23:56Z"
+    "updated_at": "2026-11-11T20:05:54Z"
   },
   "fii_dii": {
-    "status": "healthy",
-    "updated_at": "2026-11-10T20:23:56Z"
+    "status": "failed",
+    "updated_at": "2026-11-11T20:05:52Z"
   },
   "market_breadth": {
     "status": "healthy",
@@ -13,7 +13,7 @@
   },
   "earnings_calendar": {
     "status": "healthy",
-    "updated_at": "2026-11-10T20:23:57Z"
+    "updated_at": "2026-11-11T20:05:55Z"
   },
   "global_indices": {
     "status": "healthy",
