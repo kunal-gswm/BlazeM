@@ -1,22 +1,22 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-11-06T11:56:52Z",
+    "last_updated": "2026-11-13T11:59:23Z",
     "status": "healthy",
-    "record_count": 1
+    "record_count": 2
   },
   "data": [
     {
-      "issue_name": "Antala Industries BSE SME",
+      "issue_name": "Watrana Rentals NSE SME",
       "ipo_type": "Mainboard",
       "source": "investorgain",
-      "price_band": "66",
-      "lot_size": "2,000",
-      "issue_size": "₹22.98 Cr",
-      "issue_open": "2026-10-29",
-      "issue_close": "2026-11-05",
-      "allotment_date": "2026-11-06",
-      "listing_date": "2026-11-11",
+      "price_band": "245",
+      "lot_size": "600",
+      "issue_size": "₹120.10 Cr",
+      "issue_open": "2026-11-19",
+      "issue_close": "2026-11-23",
+      "allotment_date": "2026-11-25",
+      "listing_date": "2026-11-27",
       "gmp": 0.0,
       "gmp_percent": "0.00%",
       "subscription_qib": null,
@@ -24,8 +24,29 @@
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/antala-industries-ipo/2375/",
-      "scraped_at": "2026-11-06T11:56:34.618777+00:00Z"
+      "detail_url": "https://www.investorgain.com/gmp/watrana-rentals-ipo/1818/",
+      "scraped_at": "2026-11-13T11:59:07.546365+00:00Z"
+    },
+    {
+      "issue_name": "Crystal Crop Protection",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "272",
+      "lot_size": "55",
+      "issue_size": "₹455.49 Cr",
+      "issue_open": "2026-11-18",
+      "issue_close": "2026-11-20",
+      "allotment_date": "2026-11-23",
+      "listing_date": "2026-11-26",
+      "gmp": 45.0,
+      "gmp_percent": "16.54%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/crystal-crop-protection-ipo/2067/",
+      "scraped_at": "2026-11-13T11:59:07.546462+00:00Z"
     }
   ]
 }
