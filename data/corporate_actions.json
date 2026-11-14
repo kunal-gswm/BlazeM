@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "BSE API",
-    "last_updated": "2026-11-13T20:25:14Z",
+    "last_updated": "2026-11-14T18:41:38Z",
     "status": "healthy",
-    "record_count": 28
+    "record_count": 31
   },
   "data": [
     {
@@ -53,6 +53,38 @@
       "long_name": "Ashok Leyland Ltd",
       "action_type": "Dividend",
       "dividend_amount": null
+    },
+    {
+      "scrip_code": 533303,
+      "short_name": "BFINVEST",
+      "Ex_date": "20 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 20.0000",
+      "RD_Date": "20 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "16 Nov 2026",
+      "ND_END_DATE": "20 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261120",
+      "long_name": "BF Investment Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 20.0
+    },
+    {
+      "scrip_code": 517467,
+      "short_name": "MARSONS",
+      "Ex_date": "20 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 0.0500",
+      "RD_Date": "20 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "16 Nov 2026",
+      "ND_END_DATE": "20 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261120",
+      "long_name": "Marsons Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 0.05
     },
     {
       "scrip_code": 544088,
@@ -122,7 +154,7 @@
       "scrip_code": 524037,
       "short_name": "RAMAPHO",
       "Ex_date": "20 Nov 2026",
-      "Purpose": "Interim Dividend",
+      "Purpose": "Interim Dividend - Rs. - 0.5000",
       "RD_Date": "20 Nov 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -132,7 +164,7 @@
       "exdate": "20261120",
       "long_name": "Rama Phosphates Ltd",
       "action_type": "Dividend",
-      "dividend_amount": null
+      "dividend_amount": 0.5
     },
     {
       "scrip_code": 544365,
@@ -154,7 +186,7 @@
       "scrip_code": 513517,
       "short_name": "STEELCAS",
       "Ex_date": "20 Nov 2026",
-      "Purpose": "Interim Dividend",
+      "Purpose": "Interim Dividend - Rs. - 0.4500",
       "RD_Date": "20 Nov 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -164,7 +196,7 @@
       "exdate": "20261120",
       "long_name": "Steelcast Ltd",
       "action_type": "Dividend",
-      "dividend_amount": null
+      "dividend_amount": 0.45
     },
     {
       "scrip_code": 505160,
@@ -213,6 +245,22 @@
       "long_name": "Ingersoll-Rand (India) Ltd",
       "action_type": "Dividend",
       "dividend_amount": 20.0
+    },
+    {
+      "scrip_code": 524816,
+      "short_name": "NATCOPHARM",
+      "Ex_date": "19 Nov 2026",
+      "Purpose": "Interim Dividend - Rs. - 1.2500",
+      "RD_Date": "19 Nov 2026",
+      "BCRD_FROM": "",
+      "BCRD_TO": "",
+      "ND_START_DATE": "16 Nov 2026",
+      "ND_END_DATE": "19 Nov 2026",
+      "payment_date": "",
+      "exdate": "20261119",
+      "long_name": "Natco Pharma Ltd",
+      "action_type": "Dividend",
+      "dividend_amount": 1.25
     },
     {
       "scrip_code": 530499,
@@ -282,7 +330,7 @@
       "scrip_code": 532827,
       "short_name": "PAGEIND",
       "Ex_date": "18 Nov 2026",
-      "Purpose": "Interim Dividend - Rs. - 1.5000",
+      "Purpose": "Interim Dividend - Rs. - 150.0000",
       "RD_Date": "18 Nov 2026",
       "BCRD_FROM": "",
       "BCRD_TO": "",
@@ -292,7 +340,7 @@
       "exdate": "20261118",
       "long_name": "Page Industries Ltd",
       "action_type": "Dividend",
-      "dividend_amount": 1.5
+      "dividend_amount": 150.0
     },
     {
       "scrip_code": 533553,
