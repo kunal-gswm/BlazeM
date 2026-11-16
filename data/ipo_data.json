@@ -1,11 +1,32 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-11-13T11:59:23Z",
+    "last_updated": "2026-11-16T12:32:57Z",
     "status": "healthy",
-    "record_count": 2
+    "record_count": 3
   },
   "data": [
+    {
+      "issue_name": "Mahanadi Coalfields",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "136",
+      "lot_size": "110",
+      "issue_size": "₹8981.12 Cr",
+      "issue_open": "2026-11-19",
+      "issue_close": "2026-11-23",
+      "allotment_date": "2026-11-25",
+      "listing_date": "2026-11-27",
+      "gmp": 4.3,
+      "gmp_percent": "3.16%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/mahanadi-coalfields-ipo/2401/",
+      "scraped_at": "2026-11-16T12:32:39.300540+00:00Z"
+    },
     {
       "issue_name": "Watrana Rentals NSE SME",
       "ipo_type": "Mainboard",
@@ -17,15 +38,15 @@
       "issue_close": "2026-11-23",
       "allotment_date": "2026-11-25",
       "listing_date": "2026-11-27",
-      "gmp": 0.0,
-      "gmp_percent": "0.00%",
+      "gmp": 25.0,
+      "gmp_percent": "10.20%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/watrana-rentals-ipo/1818/",
-      "scraped_at": "2026-11-13T11:59:07.546365+00:00Z"
+      "scraped_at": "2026-11-16T12:32:39.300678+00:00Z"
     },
     {
       "issue_name": "Crystal Crop Protection",
@@ -38,15 +59,15 @@
       "issue_close": "2026-11-20",
       "allotment_date": "2026-11-23",
       "listing_date": "2026-11-26",
-      "gmp": 45.0,
-      "gmp_percent": "16.54%",
+      "gmp": 13.0,
+      "gmp_percent": "4.78%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/crystal-crop-protection-ipo/2067/",
-      "scraped_at": "2026-11-13T11:59:07.546462+00:00Z"
+      "scraped_at": "2026-11-16T12:32:39.300774+00:00Z"
     }
   ]
 }
