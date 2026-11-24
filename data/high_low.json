@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "nse_india",
-    "last_updated": "2026-11-23T14:14:30Z",
+    "last_updated": "2026-11-24T14:41:12Z",
     "status": "healthy",
-    "record_count": 149
+    "record_count": 156
   },
   "data": [
     {
@@ -39,6 +39,26 @@
           "type": "HIGH"
         },
         {
+          "symbol": "APOLLOHOSP",
+          "companyName": "Apollo Hospitals Enterprise Limited",
+          "lastPrice": 9309,
+          "previousClose": "2224",
+          "change": 7085,
+          "pChange": 318.5701438848921,
+          "value52Week": 9410,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "ARIS",
+          "companyName": "Arisinfra Solutions Limited",
+          "lastPrice": 169.7,
+          "previousClose": "222",
+          "change": -52.3,
+          "pChange": -23.55855855855856,
+          "value52Week": 169.95,
+          "type": "HIGH"
+        },
+        {
           "symbol": "ARIS",
           "companyName": "Arisinfra Solutions Limited",
           "lastPrice": 166.81,
@@ -51,21 +71,21 @@
         {
           "symbol": "AXISBANK",
           "companyName": "Axis Bank Limited",
+          "lastPrice": 1400.7,
+          "previousClose": "468.7",
+          "change": 932,
+          "pChange": 198.8478771068914,
+          "value52Week": 1458.9,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "AXISBANK",
+          "companyName": "Axis Bank Limited",
           "lastPrice": 1388.6,
           "previousClose": "1446",
           "change": -57.4,
           "pChange": -3.9695712309820195,
           "value52Week": 1458.9,
-          "type": "HIGH"
-        },
-        {
-          "symbol": "BAFNAPH",
-          "companyName": "Bafna Pharmaceuticals Limited",
-          "lastPrice": 486.05,
-          "previousClose": "469.95",
-          "change": 16.1,
-          "pChange": 3.425896371954463,
-          "value52Week": 493.4,
           "type": "HIGH"
         },
         {
@@ -156,6 +176,16 @@
           "change": -0.78,
           "pChange": -2.59567387687188,
           "value52Week": 30.64,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "BHARTIARTL",
+          "companyName": "Bharti Airtel Limited",
+          "lastPrice": 2128.5,
+          "previousClose": "2161.7",
+          "change": -33.2,
+          "pChange": -1.5358282832955543,
+          "value52Week": 2172.9,
           "type": "HIGH"
         },
         {
@@ -389,6 +419,16 @@
           "type": "HIGH"
         },
         {
+          "symbol": "KOTAKBANK",
+          "companyName": "Kotak Mahindra Bank Limited",
+          "lastPrice": 504.25,
+          "previousClose": "1328",
+          "change": -823.75,
+          "pChange": -62.02936746987952,
+          "value52Week": 521.5,
+          "type": "HIGH"
+        },
+        {
           "symbol": "LAKSHMIMIL",
           "companyName": "Lakshmi Mills Company Limited",
           "lastPrice": 8999.5,
@@ -549,6 +589,16 @@
           "type": "HIGH"
         },
         {
+          "symbol": "PHOENIXLTD",
+          "companyName": "The Phoenix Mills Limited",
+          "lastPrice": 2295.9,
+          "previousClose": "660",
+          "change": 1635.9,
+          "pChange": 247.86363636363637,
+          "value52Week": 2325,
+          "type": "HIGH"
+        },
+        {
           "symbol": "POONAWALLA",
           "companyName": "Poonawalla Fincorp Limited",
           "lastPrice": 520,
@@ -566,6 +616,16 @@
           "change": -3.26,
           "pChange": -3.267842822774659,
           "value52Week": 101.39,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "PSUBNKBEES",
+          "companyName": "Nippon India ETF Nifty PSU Bank BeES",
+          "lastPrice": 108.38,
+          "previousClose": "17.67",
+          "change": 90.71,
+          "pChange": 513.3559705715903,
+          "value52Week": 112.25,
           "type": "HIGH"
         },
         {
@@ -745,6 +805,16 @@
           "previousClose": "218.85",
           "change": -10.65,
           "pChange": -4.866346812885538,
+          "value52Week": 219.72,
+          "type": "HIGH"
+        },
+        {
+          "symbol": "UNIONBANK",
+          "companyName": "Union Bank of India",
+          "lastPrice": 210.3,
+          "previousClose": "24.6",
+          "change": 185.7,
+          "pChange": 754.8780487804878,
           "value52Week": 219.72,
           "type": "HIGH"
         },
