@@ -1,11 +1,32 @@
 {
   "metadata": {
     "source": "investorgain, chittorgarh",
-    "last_updated": "2026-11-26T13:41:26Z",
+    "last_updated": "2026-11-27T13:38:38Z",
     "status": "healthy",
-    "record_count": 8
+    "record_count": 10
   },
   "data": [
+    {
+      "issue_name": "Vishwas Refoils & Consumer BSE SME",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "90",
+      "lot_size": "1,600",
+      "issue_size": "₹25.78 Cr",
+      "issue_open": "2026-12-03",
+      "issue_close": "2026-12-07",
+      "allotment_date": "2026-12-08",
+      "listing_date": "2026-12-10",
+      "gmp": 0.0,
+      "gmp_percent": "0.00%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/vishwas-refoils-consumer-ipo/2384/",
+      "scraped_at": "2026-11-27T13:37:43.780863+00:00Z"
+    },
     {
       "issue_name": "Monomark Engineering",
       "ipo_type": "Mainboard",
@@ -17,36 +38,36 @@
       "issue_close": "2026-12-04",
       "allotment_date": "2026-12-07",
       "listing_date": "2026-12-09",
-      "gmp": 24.0,
-      "gmp_percent": "36.92%",
+      "gmp": 20.0,
+      "gmp_percent": "30.77%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/monomark-engineering-ipo/2232/",
-      "scraped_at": "2026-11-26T13:40:49.784043+00:00Z"
+      "scraped_at": "2026-11-27T13:37:43.780944+00:00Z"
     },
     {
-      "issue_name": "Matangi Rubber",
+      "issue_name": "Swara Baby Products",
       "ipo_type": "Mainboard",
       "source": "investorgain",
-      "price_band": "172",
-      "lot_size": "87",
-      "issue_size": "₹125.16 Cr",
-      "issue_open": "2026-12-01",
-      "issue_close": "2026-12-03",
-      "allotment_date": "2026-12-04",
-      "listing_date": "2026-12-08",
-      "gmp": 27.0,
-      "gmp_percent": "15.70%",
+      "price_band": "111",
+      "lot_size": "135",
+      "issue_size": "₹799.88 Cr",
+      "issue_open": "2026-12-02",
+      "issue_close": "2026-12-04",
+      "allotment_date": "2026-12-07",
+      "listing_date": "2026-12-09",
+      "gmp": 3.0,
+      "gmp_percent": "2.70%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
-      "detail_url": "https://www.investorgain.com/gmp/matangi-rubber-ipo/2290/",
-      "scraped_at": "2026-11-26T13:40:49.784188+00:00Z"
+      "detail_url": "https://www.investorgain.com/gmp/swara-baby-products-ipo/2340/",
+      "scraped_at": "2026-11-27T13:37:43.781018+00:00Z"
     },
     {
       "issue_name": "A J Packaging NSE SME",
@@ -67,7 +88,28 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/a-j-packaging-ipo/2247/",
-      "scraped_at": "2026-11-26T13:40:49.784292+00:00Z"
+      "scraped_at": "2026-11-27T13:37:43.781087+00:00Z"
+    },
+    {
+      "issue_name": "Matangi Rubber",
+      "ipo_type": "Mainboard",
+      "source": "investorgain",
+      "price_band": "172",
+      "lot_size": "87",
+      "issue_size": "₹125.16 Cr",
+      "issue_open": "2026-12-01",
+      "issue_close": "2026-12-03",
+      "allotment_date": "2026-12-04",
+      "listing_date": "2026-12-08",
+      "gmp": 31.0,
+      "gmp_percent": "18.02%",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
+      "detail_url": "https://www.investorgain.com/gmp/matangi-rubber-ipo/2290/",
+      "scraped_at": "2026-11-27T13:37:43.781160+00:00Z"
     },
     {
       "issue_name": "Airpro Technology NSE SME",
@@ -88,7 +130,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/airpro-technology-ipo/2316/",
-      "scraped_at": "2026-11-26T13:40:49.784384+00:00Z"
+      "scraped_at": "2026-11-27T13:37:43.781228+00:00Z"
     },
     {
       "issue_name": "Foodlink F&B Holdings",
@@ -101,15 +143,15 @@
       "issue_close": "2026-11-30",
       "allotment_date": "2026-12-01",
       "listing_date": "2026-12-03",
-      "gmp": 10.0,
-      "gmp_percent": "5.24%",
+      "gmp": 4.0,
+      "gmp_percent": "2.09%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/foodlink-fb-ipo/1810/",
-      "scraped_at": "2026-11-26T13:40:49.784474+00:00Z"
+      "scraped_at": "2026-11-27T13:37:43.781304+00:00Z"
     },
     {
       "issue_name": "Shree Siddhivinayak Greentech Industries NSE SME",
@@ -122,15 +164,15 @@
       "issue_close": "2026-11-27",
       "allotment_date": "2026-11-30",
       "listing_date": "2026-12-02",
-      "gmp": 4.0,
-      "gmp_percent": "2.82%",
+      "gmp": 1.0,
+      "gmp_percent": "0.70%",
       "subscription_qib": null,
       "subscription_nii": null,
       "subscription_retail": null,
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.investorgain.com/gmp/shree-siddhivinayak-greentech-industries-ipo/2349/",
-      "scraped_at": "2026-11-26T13:40:49.784570+00:00Z"
+      "scraped_at": "2026-11-27T13:37:43.781373+00:00Z"
     },
     {
       "issue_name": "Monomark Engineering (India) Ltd.",
@@ -151,7 +193,7 @@
       "subscription_total": null,
       "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
-      "scraped_at": "2026-11-26T13:40:53.100238+00:00Z"
+      "scraped_at": "2026-11-27T13:37:51.591928+00:00Z"
     },
     {
       "issue_name": "Foodlink F&B Holdings (India) Ltd. O",
@@ -166,13 +208,13 @@
       "listing_date": null,
       "gmp": null,
       "gmp_percent": null,
-      "subscription_qib": "1.00x",
-      "subscription_nii": "0.41x",
-      "subscription_retail": "2.44x",
-      "subscription_total": "1.10x",
-      "subscription_applications": "46,862",
+      "subscription_qib": null,
+      "subscription_nii": null,
+      "subscription_retail": null,
+      "subscription_total": null,
+      "subscription_applications": null,
       "detail_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
-      "scraped_at": "2026-11-26T13:40:53.100362+00:00Z"
+      "scraped_at": "2026-11-27T13:37:51.592045+00:00Z"
     }
   ]
 }
